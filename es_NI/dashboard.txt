@@ -30,5 +30,6 @@ dashboard.system_usage = Uso del Sistema
 dashboard.time = Hora
 dashboard.uptime_format = {dashboard.days[0]}{dashboard.hours[1]}{dashboard.minutes[2]}{dashboard.seconds[3]}
 dashboard.used = Utilizado
+dashboard.unavailable = N/D
 menu.dashboard = Panel
 module.dashboard = Panel
