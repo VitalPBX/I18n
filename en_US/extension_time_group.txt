@@ -1,0 +1,15 @@
+extension_time_group.default.description = Portal Time Group %s
+extension_time_group.general = General
+extension_time_group.no_extension = You don't have an extension for the portal user
+extension_time_group.schedules = Schedules
+extension_time_group.schedules.mday_end = Month Day Finish
+extension_time_group.schedules.mday_start = Month Day Start
+extension_time_group.schedules.month_end = Month Finish
+extension_time_group.schedules.month_start = Month Start
+extension_time_group.schedules.tend = Time to Finish
+extension_time_group.schedules.tstart = Time to Start
+extension_time_group.schedules.wday_end = Week Day Finish
+extension_time_group.schedules.wday_start = Week Day Start
+extension_time_group.select_time = -- Select a time --
+menu.my_time_group = My Time Group
+module.extension_timegroup = My Time Group

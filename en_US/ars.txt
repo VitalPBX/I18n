@@ -1,0 +1,11 @@
+ars = Routes Selection
+ars.all_outbound_routes = -- All Outbound Routes --
+ars.description = Description
+ars.description.tooltip = A short description for identify this Route Selection
+ars.enabled = Enabled
+ars.general = General
+ars.members = Route Selection Members
+ars.outbound_route_id = Outbound Route
+ars.time_group_id = Time Group
+menu.route_selections = Route Selections
+module.ars = Route Selections

@@ -1,0 +1,16 @@
+menu.voicemail_broadcast_groups = Voicemail Broadcast Groups
+module.vmgroup = Voicemail Broadcast Groups
+vmgroup = Voicemail Broadcast Group
+vmgroup.description = Description
+vmgroup.description.invalid = Description cannot be empty
+vmgroup.description.tooltip = Short description to identify this Voicemail Broadcast Group.
+vmgroup.extension = Code
+vmgroup.extension.invalid = Number to Dial cannot be empty
+vmgroup.extension.tooltip = The number to dial in order to broadcast a voicemail to multiple extensions.
+vmgroup.general = General
+vmgroup.no_extensions = No extensions selected
+vmgroup.password = Password
+vmgroup.password.invalid = Password cannot be empty and may not contain the pound ('#') symbol
+vmgroup.password.tooltip = Password to protect this Voicemail Broadcast Group.
+vmgroup.vmglist = Extensions
+vmgroup.vmglist.tooltip = List of extensions to which group voicemail will be broadcast. Note that only extensions that have active voicemail will be displayed.
