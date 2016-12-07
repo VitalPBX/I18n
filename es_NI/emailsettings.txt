@@ -1,5 +1,6 @@
 emailsettings = Configuración del Correo Electrónico
 emailsettings.address.invalid = Una dirección de correo electrónico válida debe configurarse
+emailsettings.address_used_from_address = The address entered here will be set as the "From:" address
 emailsettings.auth = Autenticación
 emailsettings.auth.0 = Sin Autenticacion
 emailsettings.auth.1 = Usar Autenticación

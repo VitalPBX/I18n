@@ -18,6 +18,7 @@ extension_settings.dictations.actions = Actions
 extension_settings.dictations.delete = Delete
 extension_settings.dictations.delete.tooltip = Delete this file permanently
 extension_settings.dictations.listen = Listen this record
+extension_settings.dictations.name = Name
 extension_settings.dictations.number = Number
 extension_settings.dictations.recorded = Recorded
 extension_settings.dictation = Dictation

@@ -1,4 +1,4 @@
-extension_time_group.default.description = Portal Grupo Horario (%s)
+extension_time_group.default.description = Portal Grupo Horario %s
 extension_time_group.general = General
 extension_time_group.no_extension = Usted no tiene una extensión para el usuario del portal
 extension_time_group.schedules = Horarios

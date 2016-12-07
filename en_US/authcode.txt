@@ -2,6 +2,7 @@ authcode = Authorization Codes
 authcode.auth_alias = Alias
 authcode.auth_alias.invalid = Please enter a valid alias. Numbers, letters, dash and underscore are allowed
 authcode.auth_alias.tooltip = Alias to identify this authorization code. For security reasons this will appear on CDR reports instead of the auth code
+authcode.auth_alias.unique = Alias must be unique
 authcode.class_of_service_id = Class of Service
 authcode.class_of_service_id.tooltip = Class of service is used to route the call
 authcode.code = Code

@@ -145,6 +145,7 @@ ombutel.validation.no_starts_with.js_msg = This field must not start with "%s".
 ombutel.validation.no_starts_with.message = %s must not start with "%s".
 ombutel.validation.no_tables_defined = You have not been defined tables
 ombutel.validation.number_is_taken = The number %s is being used by %s in %s module.
+ombutel.validation.number_is_used = The number %s is being used by %s module.
 ombutel.validation.oneof.js_msg = The field value must one of "%s".
 ombutel.validation.oneof.message = %s must be one of "%s".
 ombutel.validation.phone_password.js_msg = Please enter a valid customer code. Use only digits and "*" (asterisk).

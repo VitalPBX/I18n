@@ -29,3 +29,5 @@ system_general.table.description = Description
 system_general.table.path = Path
 system_general.trunk_dialoptions = Trunk Dial Options
 system_general.trunk_dialoptions.tooltip = Default options to use for dial external numbers when trunk dial options are not defined(on trunks module).
+system_general.recording_script = Recording Script
+system_general.recording_script.tooltip = Script to be executed when the recording is over. The recording filename is passed as argument.

@@ -6,6 +6,7 @@ hot_desking.codecs.tooltip = Lista de códecs permitidos. El orden en que se enu
 hot_desking.delete = Eliminar
 hot_desking.delete.tooltip = ¿Seguro que desea eliminar este registro %s?
 hot_desking.deny = Negar
+hot_desking.deny.invalid = Deny is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
 hot_desking.deny.tooltip = En una definición de user/peer, es posible limitar el tráfico hacia y desde este punto a una determinada IP o red. (Ejemplo: niegan = 192.168.40.38 / 255.255.255.255 niega el tráfico desde esta dirección IP).
 hot_desking.dev_description = Descripción del Dispositivo
 hot_desking.dev_description.tooltip = Una breve descripción para identificar este dispositivo.
@@ -33,7 +34,8 @@ hot_desking.nat.force.tooltip = Simular que había un parámetro rport, incluso 
 hot_desking.nat.no.tooltip = No hacer manipulaciones especiales de NAT a excepción de RFC3581.
 hot_desking.nat.tooltip = NAT (Network Address Translation) es la tecnología más utilizada por los cortafuegos y routers para permitir que varios dispositivos en una red local con las direcciones "IP Privadas" puedan compartir una única dirección IP pública. Una dirección IP privada es una dirección que sólo puede ser accedida desde dentro de la LAN, pero desde Internet fuera de la LAN.
 hot_desking.permit = Permitir
-hot_desking.permit.tooltip = En una definición de user/peer, es posible limitar el tráfico hacia y desde este punto a una determinada IP o red. (Ejemplos: Permitir = 192.168.40.0 / 255.255.255.0 permite el tráfico de esta red).
+hot_desking.permit.invalid = Permit is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
+hot_desking.permit.tooltip = En una definición de user/peer, es posible limitar el tráfico hacia y desde este punto a una determinada IP o red. (Ejemplo: Permitir = 192.168.40.0 / 255.255.255.0 permite el tráfico de esta red).
 hot_desking.profile_id-fxs = Perfil
 hot_desking.profile_id-fxs.tooltip = Configuración del perfil para dispositivos FXS
 hot_desking.profile_id-iax = Perfil

@@ -145,6 +145,7 @@ ombutel.validation.no_starts_with.js_msg = Este campo no debe comenzar con "%s".
 ombutel.validation.no_starts_with.message = %s no debe comenzar con "%s".
 ombutel.validation.no_tables_defined = No se han definido tablas
 ombutel.validation.number_is_taken = El número %s está siendo utilizado por %s el módulo %s.
+ombutel.validation.number_is_used = The number %s is being used by %s module.
 ombutel.validation.oneof.js_msg = El valor del campo debe uno de "%s".
 ombutel.validation.oneof.message = %s debe ser una de "%s".
 ombutel.validation.phone_password.js_msg = Por favor, introduzca una contraseña de teléfono válido. * y números están permitidos.
