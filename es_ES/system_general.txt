@@ -30,4 +30,5 @@ system_general.table.path = Ruta
 system_general.trunk_dialoptions = Opciones de Marcado de Troncales
 system_general.trunk_dialoptions.tooltip = El valor predeterminado a utilizar para los números de marcación externos cuando las opciones del dial de la troncal no se definen (en el módulo de Troncales).
 system_general.recording_script = Script de Grabaciones
-system_general.recording_script.tooltip = Script a ser ejecutado una vez la grabacion termine. El nombre de la grabacion es pasado como argumento.
+system_general.recording_script.tooltip = Script a ser ejecutado una vez que termine la grabacion. Los parámetros de la secuencia de comandos pueden ser definidos en series separadas por espacios como ^{{<i><b>nombreparametro</b></i>}}, en donde <i><b>nombreparametro</b></i> puede ser cualquier canal o MixMonitor variable. Por ejemplo, <br> ^{{UNIQUEID}} - channel ID<br> ^{{MIXMONITOR_FILENAME}} - nombre del archivo de grabación.
+system_general.recording_script.invalid = Recording script is not found
