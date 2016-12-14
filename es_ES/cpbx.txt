@@ -1,3 +1,4 @@
-cpbx.licenses_title.warning = WARNING! LICENSE INVALID
-cpbx.licenses_content.warning = The license of this system is not valid and your <b>PBX may not function properly</b>.<br/>The reason may be that the license has expired, that the system is not licensed or that it has no access to the licensing server. Please contact your system administrator.
-cpbx.licenses_confirm.warning = Confirm
+cpbx.licenses_title.warning = ATENCION! LICENCIA NO VALIDA
+cpbx.licenses_content.warning = La licencia de este sistema no es válida y su <b>PBX puede no funcionar correctamente</b>.<br/>La causa puede er que la validez de la licencia ha expirado, que el sistema no está licenciado o que no tiene acceso al servidor de licencias. Por favor contacte al administrador del sistema.
+cpbx.licenses_confirm.warning = Confirmar
+
