@@ -1,4 +1,4 @@
 cpbx.licenses_title.warning = ATENCION! LICENCIA NO VALIDA
-cpbx.licenses_content.warning = La licencia de este sistema no es válida y su <b>PBX puede no funcionar correctamente</b>.<br/>La causa puede er que la validez de la licencia ha expirado, que el sistema no está licenciado o que no tiene acceso al servidor de licencias. Por favor contacte al administrador del sistema.
+cpbx.licenses_content.warning = La licencia de este sistema no es válida y su <b>PBX puede no funcionar correctamente</b>.<br/>La causa puede ser que la validez de la licencia ha expirado, que el sistema no está licenciado o que no tiene acceso al servidor de licencias. Por favor contacte al administrador del sistema.
 cpbx.licenses_confirm.warning = Confirmar
 
