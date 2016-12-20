@@ -31,6 +31,7 @@ extensions.default = Predeterminado
 extensions.delete = Eliminar
 extensions.delete.tooltip = El correo de voz se elimina del servidor después de haber sido entregado.
 extensions.devices = Dispositivos
+extensions.device = Dispositivo
 extensions.device_id = Dispositivo
 extensions.device_id.tooltip = Lista de Dispositivos
 extensions.device_unlinked = El dispositivo se ha desvinculado correctamente

@@ -31,6 +31,7 @@ extensions.default = Default
 extensions.delete = Delete
 extensions.delete.tooltip = The voicemail is deleted from the server after its been delivered.
 extensions.devices = Devices
+extensions.device = Device
 extensions.device_id = Device
 extensions.device_id.tooltip = Devices List
 extensions.device_unlinked = The device has been unlinked successfully
