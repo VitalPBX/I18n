@@ -92,6 +92,7 @@ extensions.internal_cid_number = Número
 extensions.internal_cid_number.invalid = Por favor introducir un Identificador de Llamada interno válido. Sólo se permiten *, #, + y números
 extensions.internal_rec = Interna
 extensions.internal_rec.tooltip = Grabar llamadas internas.
+extensions.invalid.unlink_new_device = No se puede desconectar el "Nuevo" dispositivo.
 extensions.job_title = Título Profesional
 extensions.job_title.tooltip = Especifica un puesto de trabajo para un contacto.
 extensions.location = Ubicación
