@@ -20,5 +20,7 @@ nightmode.hint = Generar Hint (indicador)
 nightmode.hint.tooltip = Genera o no el hint (indicador) para este registro
 nightmode.phone_hint = BLF Hint (indicador)
 nightmode.phone_hint.tooltip = Este es el string (cadena) a agregar en las lineas BLF de su teléfono.
-
-+nightmode.validate.mod_dest_normal = El módulo de destino cuando se requiere que esté desactivado+nightmode.validate.mod_dest_override = El módulo de destino cuando se requiere que esté activado+nightmode.validate.normal_dest = Destino cuando se requiere que esté desactivado+nightmode.validate.override_dest = Destino cuando se requiere jeu esté activado
+nightmode.validate.mod_dest_normal = El módulo de destino cuando se requiere que esté desactivado
+nightmode.validate.mod_dest_override = El módulo de destino cuando se requiere que esté activado
+nightmode.validate.normal_dest = Destino cuando se requiere que esté desactivado
+nightmode.validate.override_dest = Destino cuando se requiere jeu esté activado
