@@ -1,0 +1,16 @@
+menu.time_conditions = Time Conditions
+module.time_conditions = Time Conditions
+time_conditions = Time Conditions
+time_conditions.cancel = Cancel
+time_conditions.delete = Delete
+time_conditions.description = Description
+time_conditions.description.tooltip = Short description to identify this Time Condition.
+time_conditions.falsegoto = Destination if time does not match %s
+time_conditions.general = Time Conditions
+time_conditions.modfalse = Module False
+time_conditions.modtrue = Module True
+time_conditions.save = Save
+time_conditions.time_group_id = Time Group
+time_conditions.time_group_id.tooltip = Select a Time Group created under Time Groups. Matching times will be sent to matching destination.
+time_conditions.truegoto = Destination if time matches %s
+time_conditions.update = Update

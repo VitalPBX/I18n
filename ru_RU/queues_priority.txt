@@ -1,0 +1,10 @@
+menu.queue_priorities = Queue Priorities
+module.queues_priority = Queue Priorities
+queues_priority = Queues Priority
+queues_priority.description = Description
+queues_priority.description.tooltip = Short description for identify this queue priority.
+queues_priority.destination = Destination
+queues_priority.general = General
+queues_priority.mod_dest = Destination Module
+queues_priority.priority = Priority
+queues_priority.priority.tooltip = The Queue Priority to set.

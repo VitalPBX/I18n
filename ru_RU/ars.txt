@@ -1,0 +1,11 @@
+ars = Выбор маршрутов
+ars.all_outbound_routes = -- Все исходящие маршруты --
+ars.description = Описание
+ars.description.tooltip = Краткое описание для идентификации этого маршрута
+ars.enabled = Включено
+ars.general = Общие
+ars.members = Маршруты
+ars.outbound_route_id = Исходящий маршрут
+ars.time_group_id = Время использования
+menu.route_selections = Выбор маршрута
+module.ars = Выбор маршрута
