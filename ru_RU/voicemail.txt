@@ -1,2 +1,2 @@
-vm_bodytext = You have received a ${VM_DUR} long voicemail message from ${VM_CALLERID} at ${VM_DATE}.\nA recording of this message is attached to this email, you can also listen to it by dialing *97 from your own extension, or by dialing *98 from any other extension
-vm_subject = Voicemail number ${VM_MSGNUM} for mailbox ${VM_MAILBOX} from ${VM_CALLERID} received at ${VM_DATE}
+vm_bodytext = Вы получили долгое голосовое сообщение ${VM_DUR} от ${VM_CALLERID} в ${VM_DATE}.\nЗапись сообщения прикреплена к этому письму, вы также можете прослушать его, набрав *97 с вашего внутреннего номера или набрав *98 с любого другого внутреннего номера.
+vm_subject = Номер голосовой почты ${VM_MSGNUM} для почтового ящика ${VM_MAILBOX} от ${VM_CALLERID}, полученный ${VM_DATE}
