@@ -1,35 +1,35 @@
 dashboard.asterisk = Asterisk
-dashboard.asterisk_uptime = Asterisk Uptime
-dashboard.available = Available
-dashboard.current_time = Current Time
+dashboard.asterisk_uptime = Время работы Asterisk
+dashboard.available = Доступен
+dashboard.current_time = Текущее время
 dashboard.dahdi = DAHDi
 dashboard.days =
 	[0]
-	[one] 1 day
-	*[other] {0} days
+	[one] 1 день
+	*[other] {0} дней
 dashboard.fail2ban = Fail2Ban
-dashboard.general = System Dashboard
-dashboard.hard_disk = Hard Disk Info
+dashboard.general = Панель Состояния
+dashboard.hard_disk = Информация о жестком диске
 dashboard.hours =
 	[0]
-	[one] , 1 hour
-	*[other] , {0} hours
+	[one] , 1 час
+	*[other] , {0} часов
 dashboard.minutes =
 	[0]
-	[one] , 1 minute
-	*[other] , {0} minutes
-dashboard.network_usage = Network Usage
+	[one] , 1 минута
+	*[other] , {0} минут
+dashboard.network_usage = Использование сети
 dashboard.seconds =
 	[0]
-	[one] , 1 second
-	*[other] , {0} seconds
-dashboard.server_uptime = Server Uptime
-dashboard.services_status = Services Status
+	[one] , 1 секунда
+	*[other] , {0} секунд
+dashboard.server_uptime = Время работы сервера
+dashboard.services_status = Состояние служб
 dashboard.ssh = SSH
-dashboard.system_usage = System Usage
-dashboard.time = Time
+dashboard.system_usage = Использование системы
+dashboard.time = Время
 dashboard.uptime_format = {dashboard.days[0]}{dashboard.hours[1]}{dashboard.minutes[2]}{dashboard.seconds[3]}
-dashboard.used = Used
-dashboard.unavailable = N/A
-menu.dashboard = Dashboard
-module.dashboard = Dashboard
+dashboard.used = Используется
+dashboard.unavailable = Н/Д
+menu.dashboard = Панель Состояния
+module.dashboard = Панель Состояния
