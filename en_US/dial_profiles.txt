@@ -27,3 +27,4 @@ dial_profiles.custom_options = Custom Options
 dial_profiles.custom_options.help = Allows you to define custom dial parameters that have not been included
 dial_profiles.description.required = The description field is required
 dial_profiles.description.invalid = The description field must contain only letters a-z, numbers 0-9, dashes, spaces and underscores.
+dial_profiles.description.unique = Dial profile description must be unique
