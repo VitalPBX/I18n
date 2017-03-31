@@ -1,2 +1,2 @@
-fax.fax_process.fax_arrived = A fax has arrived for {0} from {1}
-fax.fax_process.subject_new_fax = PBX Fax Service - New fax arrived
+fax.fax_process.fax_arrived = Прибыл факс для {0} от {1}
+fax.fax_process.subject_new_fax = PBX Факс Сервис - Прибыл новый факс
