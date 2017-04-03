@@ -28,3 +28,4 @@ dial_profiles.custom_options.help = Allows you to define custom dial parameters 
 dial_profiles.name.required = Name field is required
 dial_profiles.name.invalid = Name field must not contain spaces
 dial_profiles.name.unique = Dial profile name must be unique
+dial_profiles.warning_note = <b>Warning!</b> Enabling transfer by caller may allow an outside caller to exploit the PBX by transfering their calls to another external destination when a too permissive Class of Service is defined for the trunk.
