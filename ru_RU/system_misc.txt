@@ -1,20 +1,20 @@
-menu.system_misc = System Misc
-module.system_misc = System Misc
-system_misc = System Misc
-system_misc.abnormalemail = Abnormal Call Volume
-system_misc.abnormalemail.tooltip = This module will send notifications to notify you of abnormal call volumes.
+menu.system_misc = Разное
+module.system_misc = Разное
+system_misc = Разное
+system_misc.abnormalemail = Ненормальная громкость звонка
+system_misc.abnormalemail.tooltip = Этот модуль отправляет уведомление при обнаружении ненормальной громкости звонка.
 system_misc.bytes = %d B
-system_misc.cancel = Cancel
-system_misc.clock_status = Clock Status
-system_misc.confirm_system_poweroff = Are you sure that you want to power off the system?
-system_misc.confirm_system_restart = Are you sure that you want to restart the system?
-system_misc.disk_used = %s => %s Used Of %s (%01.2f%%)
-system_misc.fromemail = From Address
-system_misc.fromemail.tooltip = The address entered here will be set as the "From:" address
+system_misc.cancel = Отмена
+system_misc.clock_status = Состояние часов
+system_misc.confirm_system_poweroff = Вы уверены, что хотите отключить питание системы?
+system_misc.confirm_system_restart = Вы уверены, что хотите перезапустить систему?
+system_misc.disk_used = %s => %s Используется из %s (%01.2f%%)
+system_misc.fromemail = От адреса
+system_misc.fromemail.tooltip = Введенный здесь адрес будет установлен как адрес «От:»
 system_misc.gb = %d GB
-system_misc.general = General
-system_misc.intrusionemail = Intrusion Email
-system_misc.intrusionemail.tooltip = This module will send notifications if a remote IP has been banned from your system.
+system_misc.general = Общие
+system_misc.intrusionemail = Оповещение о вторжении
+system_misc.intrusionemail.tooltip = Этот модуль отправит уведомление, если внешний IP-адрес был заблокирован вашей системой.
 system_misc.kb = %d KB
 system_misc.mb = %d MB
 system_misc.notifications = Notifications
