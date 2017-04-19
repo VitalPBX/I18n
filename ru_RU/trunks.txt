@@ -1,4 +1,4 @@
-menu.trunks = Trunks
+menu.trunks = Внешние линии
 module.trunks = Trunks
 trunks = Trunks
 trunks.advanced = Advanced
