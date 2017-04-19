@@ -1,4 +1,4 @@
-extensions = Extensions
+extensions = Внутренние номера
 extensions.accountcode = Account Code
 extensions.accountcode.invalid = Please enter a valid Account Code
 extensions.accountcode.tooltip = This field, if defined, is used to populate the "account-code" field of the CDR.
