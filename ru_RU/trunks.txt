@@ -1,5 +1,5 @@
 menu.trunks = Внешние линии
-module.trunks = Trunks
+module.trunks = Внешние линии
 trunks = Trunks
 trunks.advanced = Advanced
 trunks.class_of_service_id = Class of Service
