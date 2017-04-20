@@ -1,9 +1,9 @@
 menu.sip_settings = Настройки SIP
 module.sip_settings = Настройки SIP
-sip_settings.accept_outofcall_message = Allow Msg Request
-sip_settings.accept_outofcall_message.tooltip = Отключите этот параметр, чтобы отклонить все сообщения извне. По умолчанию эта опция включена. Если эта функция включена, то запросы сообщений направляются в план набора. Disable this option to reject all MESSAGE requests outside of a call. By default, this option is enabled. When enabled, MESSAGE requests are passed in to the dial-plan.
-sip_settings.allowguest = Allow Guest
-sip_settings.allowguest.tooltip = Whether to allow guest calls.
+sip_settings.accept_outofcall_message = Разрешить сообщения
+sip_settings.accept_outofcall_message.tooltip = Отключите этот параметр, чтобы отклонить все сообщения извне. По умолчанию эта опция включена. Если эта функция включена, то сообщения направляются в план набора (dialplan).
+sip_settings.allowguest = Гостевые звонки
+sip_settings.allowguest.tooltip = Разрешать гостевые звонки.
 sip_settings.allowtransfer = Allow Transfer
 sip_settings.allowtransfer.tooltip = Disable all transfers (unless enabled in peers or users). Default is enabled. The Dial() options 't' and 'T' are not related as to whether SIP transfers are allowed or not.
 sip_settings.alwaysauthreject = Always Reject
