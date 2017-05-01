@@ -114,4 +114,4 @@ sip_settings.tos_video.tooltip = Устанавливает TOS для виде�
 sip_settings.value = Значение
 sip_settings.video_settings = Настройки видео
 sip_settings.video_support = Поддержка видео
-sip_settings.video_support.tooltip = Вкл/выкл поддержки видеозвонков.
+sip_settings.video_support.tooltip = Вкл/выкл поддержку видеозвонков.
