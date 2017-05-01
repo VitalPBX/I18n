@@ -1,4 +1,4 @@
-cdr_filters = CDR Фильтры
+cdr_filters = Фильтры детализации
 cdr_filters.billsec = Время разговора
 cdr_filters.billsec.tooltip = Время разговора в секундах.
 cdr_filters.billsec_from = Начало разговора
@@ -35,5 +35,5 @@ cdr_filters.duration_to = Максимальная длительность
 cdr_filters.duration_to.placeholder = До
 cdr_filters.general = Общие
 cdr_filters.none = Нет
-menu.cdr_filters = CDR Фильтры
-module.cdr_filters = CDR Фильтры
+menu.cdr_filters = Фильтры детализации
+module.cdr_filters = Фильтры детализации
