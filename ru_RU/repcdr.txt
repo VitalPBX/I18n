@@ -1,7 +1,7 @@
-menu.cdr_reports = CDR Reports
-menu.view_cdr = CDR
-module.repcdr = CDR
-repcdr.accountcode = Account Code
+menu.cdr_reports = Детализация звонков
+menu.view_cdr = Детализация
+module.repcdr = Детализация
+repcdr.accountcode = Код клиента
 repcdr.customer_code = Customer Code
 repcdr.answered = Answered
 repcdr.billsec = Talk Time
