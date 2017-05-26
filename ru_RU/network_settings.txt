@@ -1,9 +1,9 @@
-menu.network_settings = Network Settings
-module.network_settings = Network Settings
-network_settings = Network Settings
-network_settings.active = Active
-network_settings.active.tooltip = Whether this connection is currently active.
-network_settings.additional_ips = Additional IP Addresses
+menu.network_settings = Настройки сети
+module.network_settings = Настройки сети
+network_settings = Настройки сети
+network_settings.active = Активно
+network_settings.active.tooltip = Определяет, активно ли это соединение.
+network_settings.additional_ips = Дополнительные IP-адреса
 network_settings.address = IP Address
 network_settings.address.tooltip = IP Address to assign to this connection.
 network_settings.add_hostname = Click to save
