@@ -1,7 +1,7 @@
 languages = Языки
 languages.description = Описание
 languages.description.tooltip = Краткое описание для идентификации этого языка.
-languages.destination = Destination
+languages.destination = Назначение
 languages.general = Общие
 languages.langcode = Язык
 languages.langcode.tooltip = Установите язык для канала.
