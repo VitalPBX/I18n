@@ -1,4 +1,4 @@
-menu.voicemail_settings = Настройки голосовой почты
+menu.voicemail_settings = Голосовая почта
 module.voicemail_general = Настройки голосовой почты
 voicemail_general.backupdeleted = Корзина
 voicemail_general.backupdeleted.tooltip = Максимальное количество удаленных сообщений, хранимых в корзине.
