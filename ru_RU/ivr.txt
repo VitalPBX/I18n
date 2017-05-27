@@ -1,6 +1,6 @@
-ivr = IVR
-ivr.class_of_service_id = Class of Service
-ivr.class_of_service_id.tooltip = Choose a Class of Service for this IVR. If you choose "Extensions Only" Context, the caller will only be able to dial internal extensions numbers.
+ivr = Голосовое меню
+ivr.class_of_service_id = Класс обслуживания
+ivr.class_of_service_id.tooltip = Выберите класс обслуживания для голосового меню. Если вы выберете контекст «Только внутр. номера», вызывающий абонент сможет набирать только внутренние номера.
 ivr.description = Description
 ivr.description.tooltip = Short description to identify this IVR.
 ivr.disabled = Disabled
