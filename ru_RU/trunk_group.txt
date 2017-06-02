@@ -1,8 +1,8 @@
-menu.outbound_routes = Outbound Routes
-module.trunk_group = Outbound Routes
-trunk_group = Outbound Routes
-trunk_group.description = Description
-trunk_group.description.tooltip = Short description to identify this outbound route
+menu.outbound_routes = Исходящие маршруты
+module.trunk_group = Исходящие маршруты
+trunk_group = Исходящие маршруты
+trunk_group.description = Описание
+trunk_group.description.tooltip = Краткое описание для идентификации этого исходящего маршрута
 trunk_group.general = General
 trunk_group.pin_list_id = PIN
 trunk_group.pin_list_id.tooltip = Choose a group PIN.
