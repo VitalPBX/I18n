@@ -1,7 +1,7 @@
 menu.users = Пользователи
 module.users = Пользователи
 users = Пользователи
-users.confirm_delete = Вы уверены, что хотите удалить этого пользователя
+users.confirm_delete = Вы уверены, что хотите удалить этого пользователя?
 users.delete = Удалить
 users.deleting_last_privileged_user = Невозможно удалить последнего оставшегося пользователя, который может изменять права доступа пользователей.
 users.deleting_self = Невозможно удалить себя.
@@ -11,7 +11,7 @@ users.general = Общие
 users.locale = Язык
 users.locale.tooltip = Язык интерфейса.
 users.multitab = Мульти-вкладки
-users.multitab.tooltip = Установите, если вы хотите использовать несколько вкладок в интерфейсе!
+users.multitab.tooltip = Установите, если вы хотите использовать несколько вкладок в интерфейсе.
 users.name = ФИО
 users.name.tooltip = ФИО Пользователя.
 users.password = Пароль
