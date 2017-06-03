@@ -1,4 +1,4 @@
-inbound_route = Inbound Routes
+inbound_route = Входящие маршруты
 inbound_route.alertinfo = Alert Info
 inbound_route.alertinfo.tooltip = There doesn't yet seem to be a standard for how to tell a SIP phone that you want it to ring with a distinctive ring. On SIP handsets that support distinctive ring at all, the exact method of specifying distinctive ring varies from one model to another. Often (or always?) it is by sending a SIP "Alert-info" header, but what the value of this header should be is not consistent.
 inbound_route.any_cid = Any CID
