@@ -1,8 +1,8 @@
-feature_code.account_code = Customer Code
-feature_code.add_last_caller_blacklist = Blacklist Last Caller
-feature_code.add_num_blacklist = Blacklist a Number
-feature_code.add_remove_queue_agent = Add/Remove Queue Agent
-feature_code.attended_transfer = Attended Transfer
+feature_code.account_code = Код клиента
+feature_code.add_last_caller_blacklist = Заблокировать последнего звонящего
+feature_code.add_num_blacklist = Заблокировать номер
+feature_code.add_remove_queue_agent = Добавить/удалить оператора очереди
+feature_code.attended_transfer = Перевод звонка
 feature_code.auth_code = Authorization Code
 feature_code.black_list = Blacklist
 feature_code.blind_transfer = Blind Transfer
