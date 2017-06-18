@@ -14,7 +14,7 @@ menu.reports = Отчеты
 menu.security = Безопасность
 menu.settings = <span style="margin-left: -9px;">Настройки</span>
 menu.system_settings = Настройки системы
-menu.technology_settings = <span style="font-size: 9px;">Наст-ки телефонии</span>
+menu.technology_settings = Технологии
 menu.tools = Инструменты
 module.ombutel = Ombutel
 ombutel.accept = Принять!
