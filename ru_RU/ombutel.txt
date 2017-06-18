@@ -1,7 +1,7 @@
 menu.admin = Админ
 menu.applications = Приложения!
 menu.callcenter = Call-центр!
-menu.cdr = Детализация! 
+menu.cdr = Детализация 
 menu.configure = Конфигурировать!
 menu.extensions = Внут. номера!
 menu.external = Маршруты
@@ -9,7 +9,7 @@ menu.incoming_calls = Входящие звонки!
 menu.licenses = Лицензии
 menu.pbx = АТС
 menu.pbx_settings = Настройки АТС
-menu.portal = Portal!
+menu.portal = Портал
 menu.reports = Отчеты
 menu.security = Безопасность
 menu.settings = <span style="margin-left: -9px;">Настройки</span>
