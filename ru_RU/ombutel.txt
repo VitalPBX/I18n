@@ -1,11 +1,11 @@
 menu.admin = Админ
-menu.applications = Приложения!
-menu.callcenter = Call-центр!
+menu.applications = Приложения
+menu.callcenter = Call-центр
 menu.cdr = Детализация 
-menu.configure = Конфигурировать!
-menu.extensions = Внут. номера!
+menu.configure = Конфигурировать
+menu.extensions = Внутренние номера
 menu.external = Маршруты
-menu.incoming_calls = Входящие звонки!
+menu.incoming_calls = Входящие звонки
 menu.licenses = Лицензии
 menu.pbx = АТС
 menu.pbx_settings = Настройки АТС
@@ -14,8 +14,8 @@ menu.reports = Отчеты
 menu.security = Безопасность
 menu.settings = <span style="margin-left: -9px;">Настройки</span>
 menu.system_settings = Настройки системы
-menu.technology_settings = Настройки технологии!
-menu.tools = Инструменты!
+menu.technology_settings = Наст-ки телефонии
+menu.tools = Инструменты
 module.ombutel = Ombutel
 ombutel.accept = Принять!
 ombutel.add = Добавить!
