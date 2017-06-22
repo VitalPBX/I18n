@@ -45,5 +45,7 @@ ivr.timeout_tries = Cantidad de intentos en Tiempo de Espera máximo
 ivr.timeout_tries.tooltip = Número de intentos permitidos cuando no se recibe ningún DTMF.
 ivr.welcome_msg_id = Mensaje de Bienvenida
 ivr.welcome_msg_id.tooltip = Mensaje de Bienvenida a reproducir.
+ivr.instructions_msg_id = Mensaje de Intrucciones
+ivr.instructions_msg_id.tooltip = Mensaje a reproducirse después del mensaje de bienvenida. Este mensaje es útil para evitar repetir el mensaje de bienvenida luego de digitar una opción invalidad o de un tiempo prolongado sin digitar ninguna opción.
 menu.ivr = IVR
 module.ivr = IVR

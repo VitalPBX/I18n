@@ -84,6 +84,7 @@ ombutel.validation.alphanumeric.js_msg = Por favor, introduzca un valor alfanum�
 ombutel.validation.alphanumeric.message = %s debe ser un valor alfanumérico válida.
 ombutel.validation.asterisk_pattern.js_msg = Por favor, introduzca un patrón Asterisk válido.
 ombutel.validation.asterisk_pattern.message = %s debe ser un patrón Asterisk válido.
+ombutel.validation.auth_denied = Authorization denied
 ombutel.validation.between.js_msg = Por favor, introduzca un valor menor o igual a %d.
 ombutel.validation.between.message = %s debe ser menor o igual a %d.
 ombutel.validation.cid.js_msg = Por favor, introduzca un identificador de llamada válido (ej. "CID Nombre" <(234) 123-4567>)
