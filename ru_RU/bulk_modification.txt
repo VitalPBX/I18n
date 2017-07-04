@@ -1,4 +1,4 @@
-bulk_modification.add_extension = Add Extensions
+bulk_modification.add_extension = Добавить номер
 bulk_modification.bulk-accountcode = Account Code
 bulk_modification.bulk-accountcode.tooltip = This field, if defined, is used to populate the "account-code" field of the CDR.
 bulk_modification.bulk-class_of_service_id = Class of Service
