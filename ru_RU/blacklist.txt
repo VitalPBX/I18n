@@ -3,7 +3,7 @@ blacklist.description = Описание
 blacklist.description.tooltip = Краткое описание номера, который будет включен в черный список.
 blacklist.general = Общие
 blacklist.not_found = Черный список не найден
-blacklist.number = CID Номер
+blacklist.number = Номер CID
 blacklist.number.tooltip = Номер, который будет включен в черный список.
 blacklist.numebr.invalid = Номер не действителен. <br>Должен содержать цифры, числа и/или "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" знаки.
 blacklist.search = Поиск
