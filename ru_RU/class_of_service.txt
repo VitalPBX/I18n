@@ -12,6 +12,6 @@ class_of_service.dialrule_id.tooltip = Правила ограничения в�
 class_of_service.feature_code_category_id = Функции категории
 class_of_service.feature_code_category_id.tooltip = Функции, разрешенные для этого класса обслуживания.
 class_of_service.general = Общие
-class_of_service.lastdest = Последнее назначение (!)
+class_of_service.lastdest = Последнее назначение
 menu.class_of_service = Класс обслуживания
 module.class_of_service = Класс обслуживания
