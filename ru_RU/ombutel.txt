@@ -1,11 +1,11 @@
 menu.admin = Админ
-menu.applications = Приложения
-menu.callcenter = Call-центр
+menu.applications = <span style="margin-left: -5%;">Приложения</span>
+menu.callcenter = <span style="margin-left: -5%;">Call-центр</span>
 menu.cdr = Детализация 
 menu.configure = Конфигурировать
-menu.extensions = Внутренние номера
-menu.external = Маршруты
-menu.incoming_calls = Входящие звонки
+menu.extensions = <span style="margin-left: -5%;">Внутренние номера</span>
+menu.external = <span style="margin-left: -5%;">Маршруты</span>
+menu.incoming_calls = <span style="margin-left: -5%;">Входящие звонки</span>
 menu.licenses = Лицензии
 menu.pbx = АТС
 menu.pbx_settings = Настройки АТС
@@ -15,12 +15,12 @@ menu.security = Безопасность
 menu.settings = <span style="margin-left: -9px;">Настройки</span>
 menu.system_settings = Настройки системы
 menu.technology_settings = Технологии
-menu.tools = Инструменты
+menu.tools = <span style="margin-left: -5%;">Инструменты</span>
 module.ombutel = Ombutel
-ombutel.accept = Принять!
-ombutel.add = Добавить!
-ombutel.administration = Администрирование!
-ombutel.admin_password = Пароль админа!
+ombutel.accept = Принять
+ombutel.add = Добавить
+ombutel.administration = Администрирование
+ombutel.admin_password = Пароль админа
 ombutel.asterisk_patterns.match_any_digit_or_letter = Соответствует любой цифре или букве в скобках (в этом примере 1,2,3,7,8,9)
 ombutel.asterisk_patterns.match_characters = Специальный знак, соответствующий одному или нескольким символам (не только цифрам)
 ombutel.asterisk_patterns.match_characters_immediately = Специальный знак, соответствующий отсутствию, одного или более символов (не только цифр).
