@@ -105,4 +105,3 @@ trunks.cos.warning.confirm = Я понимаю и подтверждаю
 trunks.cos.warning.cancel = Отменить изменения
 trunks.dial_profile_id = Профиль набора
 trunks.dial_profile_id.tooltip = Профиль с параметрами набора, которые будут использоваться, когда набирается эта соединительная линия (trunk).
- 
