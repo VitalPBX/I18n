@@ -186,6 +186,6 @@ extensions.voicemail.unavailable = %s - %s (Недоступен)
 extensions.deny.invalid = Неверный адрес. Введите IP-адрес с маской подсети. Вы можете использовать CIDR. (Пример: 192.168.40.38/16) 
 extensions.permit.invalid = Неверный адрес. Введите IP-адрес с маской подсети. Вы можете использовать CIDR. (Пример: 192.168.40.38/16)
 extensions.name.invalid = Имя %s не может содержать символ <b>«,»</b>
-module.extensions = Номер
+module.extensions = Внутренние номера
 extensions.dial_profile_id = Профиль набора
 extensions.dial_profile_id.tooltip = Позволяет выбрать профиль для использования с параметрами набора номера для входящих вызовов.
