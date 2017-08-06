@@ -5,24 +5,24 @@ dashboard.current_time = Текущее время
 dashboard.dahdi = DAHDi
 dashboard.days =
 	[0]
-	[one] 1 д.
-	*[other] {0} д.
+	[one] 1 день
+	*[other] {0} дн.
 dashboard.fail2ban = Fail2Ban
 dashboard.general = Панель Состояния
 dashboard.hard_disk = Информация о диске
 dashboard.hours =
 	[0]
-	[one] , 1 ч.
-	*[other] , {0} ч.
+	[one] , 1 час
+	*[other] , {0} час.
 dashboard.minutes =
 	[0]
-	[one] , 1 м.
-	*[other] , {0} м.
+	[one] , 1 мин.
+	*[other] , {0} мин.
 dashboard.network_usage = Использование сети
 dashboard.seconds =
 	[0]
-	[one] , 1 с.
-	*[other] , {0} с.
+	[one] , 1 сек.
+	*[other] , {0} сек.
 dashboard.server_uptime = Время работы сервера
 dashboard.services_status = Состояние служб
 dashboard.ssh = SSH
