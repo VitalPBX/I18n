@@ -1,4 +1,4 @@
-menu.import_speeddial = Импорт/экспорт Быстрого набора
+menu.import_speeddial = Имп./Экс. Быстрого набора
 module.import_speeddial = Импорт/экспорт Быстрого набора
 import_speeddial = Импорт Быстрого набора
 import_speeddial.added = Добавлен Быстрый набор {0}
