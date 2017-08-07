@@ -13,5 +13,5 @@ class_of_service.feature_code_category_id = Функции категории
 class_of_service.feature_code_category_id.tooltip = Функции, разрешенные для этого класса обслуживания.
 class_of_service.general = Общие
 class_of_service.lastdest = Последнее назначение
-menu.class_of_service = Класс обслуживания
+menu.class_of_service = <span style="margin-left: -5%;">Класс обслуживания</span>
 module.class_of_service = Класс обслуживания
