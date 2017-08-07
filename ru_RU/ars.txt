@@ -7,5 +7,5 @@ ars.general = Общие
 ars.members = Маршруты
 ars.outbound_route_id = Исходящий маршрут
 ars.time_group_id = Время использования
-menu.route_selections = Выбор маршрута
+menu.route_selections = <span style="margin-left: -5%;">Выбор маршрута</span>
 module.ars = Выбор маршрута
