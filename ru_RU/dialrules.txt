@@ -20,5 +20,5 @@ dialrules.password.tooltip = Если включено, то абонент бу
 dialrules.play_duration = Ограничение вызова
 dialrules.play_duration.tooltip = Отметьте эту опцию, чтобы ограничить вызов в течение периода, определенного в поле "Макс. Продолжительность". Поле не может быть пустым или равно 0.
 dialrules.rules = Правила
-menu.dialing_restriction_rules = Ограничение вызовов
+menu.dialing_restriction_rules = <span style="margin-left: -5%;">Ограничение вызовов</span>
 module.dialrules = Ограничение вызовов
