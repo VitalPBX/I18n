@@ -122,6 +122,7 @@ extensions.notes = Заметки
 extensions.notes.tooltip = Любая информация, которой вы хотите дополнить этот контакт.
 extensions.no_limit = Безлимитно
 extensions.organization = Организация
+extensions.number_length.invalid = Номер не может быть менее двух цифр
 extensions.organization.tooltip = Введите организацию этого контакта.
 extensions.outgoing_rec = Исходящая
 extensions.outgoing_rec.tooltip = Запись исходящих вызовов.
