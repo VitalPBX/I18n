@@ -5,5 +5,5 @@ feature_category.description = Описание
 feature_category.description.tooltip = Имя, идентифицирующее эту Категорию функции (должно быть уникальным).
 feature_category.enabled_features = Включенные функции
 feature_category.general = Общие
-menu.feature_categories = Категория функции
+menu.feature_categories = <span style="margin-left: -5%;">Категория функции</span>
 module.feature_category = Категория функции
