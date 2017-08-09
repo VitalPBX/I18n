@@ -1,11 +1,11 @@
 menu.create_template = Создать шаблон
 menu.device_mapping = Настройка устройств
-menu.endpoint_manager = Менеджер оборудования
+menu.endpoint_manager = Устройства
 menu.host_settings = Настройки хоста
 module.epm_device_mapping = Настройка устройств
 module.epm_host_settings = Настройки хоста
 module.epm_template = Создать шаблон
-module.endpoint = Менеджер оборудования
+module.endpoint = Устройства
 epm.update = Обновить
 epm.delete = Удалить
 epm.cancel = Отмена
