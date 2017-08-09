@@ -1,5 +1,5 @@
-menu.cdr_reports = Детализация звонков
-menu.view_cdr = Детализация
+menu.cdr_reports = Детализация
+menu.view_cdr = Детализация звонков
 module.repcdr = Детализация
 repcdr.accountcode = Код профиля
 repcdr.customer_code = Код клиента
