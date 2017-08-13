@@ -11,4 +11,4 @@ voicemail_timezones.tzdefinition = Формат времени (ex: 'vm-received
 voicemail_timezones.tzname = Имя
 voicemail_timezones.tzname.tooltip = Краткое название для этого часового пояса.
 voicemail_timezones.voicemail_timezone_id = Часовой пояс
-voicemail_timezones.voicemail_timezone_id.tooltip = Часовой пояс для голосовых сообщений. Если не задано, часовой пояс будет взят из секции общих настроек. Не актуально, если параметр "Конверт" в положении "нет".
+voicemail_timezones.voicemail_timezone_id.tooltip = Часовой пояс для голосовых сообщений. Если не задан, часовой пояс будет взят из общих настроек. Не актуально, если параметр "Конверт" в положении "нет".
