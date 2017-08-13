@@ -54,5 +54,5 @@ status_report.summary = Сводка
 status_report.active_calls = Активные вызовы
 status_report.active_channels = Активные каналы
 module.status_report = Отчет
-menu.pbx_reports = Отчеты PBX
+menu.pbx_reports = Отчеты АТС
 menu.status = Статус
