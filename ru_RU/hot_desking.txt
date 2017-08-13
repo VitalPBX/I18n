@@ -33,11 +33,11 @@ hot_desking.permit = Разрешить
 hot_desking.permit.invalid = Ошибка. Введите IP-адрес с маской подсети. Вы можете использовать CIDR. (Пример: 192.168.40.38/16)
 hot_desking.permit.tooltip = Для <b>user/peer</b> вы можете ограничить трафик по определенному IP или сети. (Пример: Разрешить = 192.168.40.0 / 255.255.255.0 разрешает трафик из этой сети).
 hot_desking.profile_id-fxs = Профиль
-hot_desking.profile_id-fxs.tooltip = Профиль настроек для устройств FXS
+hot_desking.profile_id-fxs.tooltip = Профиль настроек для FXS устройств
 hot_desking.profile_id-iax = Профиль
 hot_desking.profile_id-iax.tooltip = Настройки профиля для IAX2 устройств
 hot_desking.profile_id-sip = Профиль
-hot_desking.profile_id-sip.tooltip = Профиль настроек для устройств SIP
+hot_desking.profile_id-sip.tooltip = Профиль настроек для SIP устройств
 hot_desking.ring_device = Звонок устройства
 hot_desking.ring_device.tooltip = Определяет звонить ли устройству при входящих вызовах.
 hot_desking.secret = Пароль
