@@ -2,7 +2,7 @@ hot_desking = Горячий стол
 hot_desking.channel_id = Канал
 hot_desking.channel_id.tooltip = FXS для этого устройства.
 hot_desking.codecs = Кодеки
-hot_desking.codecs.tooltip = Список разрешенных кодеков. Порядок, в котором перечислены кодеки, определяет их порядок предпочтения. Если вы выберете хотя бы один кодек, будет также генерироваться параметр «disallow = all».
+hot_desking.codecs.tooltip = Список разрешенных кодеков. Приоритет для перечисленых кодеков устанавливается в порядке убывания. Если вы выберете хотя бы один кодек, будет также генерироваться параметр «disallow = all».
 hot_desking.delete = Удалить
 hot_desking.delete.tooltip = Вы уверены, что хотите удалить эту запись %s?
 hot_desking.deny = Запретить
