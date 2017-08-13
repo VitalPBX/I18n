@@ -5,7 +5,7 @@ trunks.advanced = Расширенные
 trunks.class_of_service_id = Класс обслуживания
 trunks.class_of_service_id.tooltip = Класс обслуживания для доступа к телефонной линии (trunk). 
 trunks.codecs = Кодеки
-trunks.codecs.tooltip = Список разрешенных кодеков. Порядок, в котором перечислены кодеки, определяет порядок предпочтения. Если вы выберете хотя бы один кодек, будет также создан параметр «disallow = all».
+trunks.codecs.tooltip = Список разрешенных кодеков. Приоритет для перечисленых кодеков устанавливается в порядке убывания. Если вы выберете хотя бы один кодек, будет также создан параметр «disallow = all».
 trunks.custom_settings = Пользовательские настройки
 trunks.dahdi_trunk_parameters = Параметры DAHDi линии.
 trunks.description = Описание
