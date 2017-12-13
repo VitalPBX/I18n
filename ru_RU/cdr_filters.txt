@@ -36,4 +36,4 @@ cdr_filters.duration_to.placeholder = До
 cdr_filters.general = Общие
 cdr_filters.none = Нет
 menu.cdr_filters = Фильтры детализации
-module.cdr_filters = Фильтры детализации
+module.cdr_filters = Фильтр детализации

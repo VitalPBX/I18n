@@ -28,4 +28,4 @@ astmanager_users.verbose = Verbose
 astmanager_users.write = Права на запись
 astmanager_users.write.tooltip = Права на запись в Asterisk Management Interface (AMI).
 menu.asterisk_manager_users = Пользователи Asterisk Manager
-module.astmanager_users = Пользователи Asterisk Manager
+module.astmanager_users = Пользователь Asterisk Manager

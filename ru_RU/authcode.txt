@@ -16,4 +16,4 @@ authcode.general = Общие
 authcode.not_found = Код авторизации не найден
 authcode.search = Поиск
 menu.authorization_codes = <span style="margin-left: -5%;">Коды авторизации</span>
-module.authcode = Коды авторизации
+module.authcode = Код авторизации

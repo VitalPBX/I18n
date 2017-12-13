@@ -9,5 +9,5 @@ accountcode.enabled.tooltip = Включить/Выключить этот ко�
 accountcode.general = Общие
 accountcode.not_found = Код клиента не найден.
 accountcode.search = Поиск
-module.accountcode = Коды клиентов
+module.accountcode = Код клиента
 menu.account_codes = <span style="margin-left: -5%;">Коды клиентов</span>

@@ -5,6 +5,10 @@
 #accessToModules > div > table > tbody > tr.treegrid-58.treegrid-collapsed > td > span:nth-child(4) > span {
 	margin: 0px;
 	}
+/*login screen*/
+#pbxlogin-form > div > div.panel-body > div.form-group.form-group-custom.form-group-userid > div {
+	margin-bottom: 0px;
+	}
 
 /*Admin-User Profiles*/
 #aside-navigation > li:nth-child(3) > a > span {
@@ -62,3 +66,47 @@
      width: 25%;
 	}
 }
+
+/*Align "Extension status" table*/
+.table > thead > tr > th {
+    vertical-align: middle;
+    }
+#extension-status-table > thead > tr > th.center.sorting_asc {
+    padding-left: 14px;
+    }
+#extension-status-table > thead > tr > th.center.sorting_desc {
+    padding-left: 14px;
+    }
+@media (max-width: 992px) {
+table.dataTable thead .sorting_asc:after {
+    display: inline;
+    position: relative;
+    left: 45%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+table.dataTable thead .sorting_desc:after {
+    display: inline;
+    position: relative;
+    left: 45%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+}
+@media (min-width: 992px) {
+table.dataTable thead .sorting_asc:after {
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 0px;
+    vertical-align: middle;
+table.dataTable thead .sorting_desc:after {
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+}
+
+
