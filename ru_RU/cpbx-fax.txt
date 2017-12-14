@@ -1,1 +1,0 @@
-fax.unlicensed = Действующей лицензии для FaxMaster не найдено
