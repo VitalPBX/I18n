@@ -1,4 +1,4 @@
-dialrules = Ограничение вызовов
+dialrules = Ограничения вызовов
 dialrules.allow = Разрешено
 dialrules.allow.tooltip = Разрешить\запретить этот шаблон.
 dialrules.announcement_id = Приветствие
@@ -21,4 +21,4 @@ dialrules.play_duration = Ограничение вызова
 dialrules.play_duration.tooltip = Отметьте эту опцию, чтобы ограничить вызов в течение периода, определенного в поле "Макс. Продолжительность". Поле не может быть пустым или равно 0.
 dialrules.rules = Правила
 menu.dialing_restriction_rules = <span style="margin-left: -5%;">Ограничение вызовов</span>
-module.dialrules = Ограничения вызовов
+module.dialrules = Ограничение вызовов
