@@ -1,6 +1,6 @@
 custom_dest = Дополнительные направления
 custom_dest.class_of_service_id = Класс обслуживания
-custom_dest.class_of_service_id.tooltip = Класс обслуживания данного номера для вызова. 
+custom_dest.class_of_service_id.tooltip = Класс обслуживания для данного номера. 
 custom_dest.description = Название
 custom_dest.description.tooltip = Название, идентифицирующее это направление
 custom_dest.destination = Номер для вызова
