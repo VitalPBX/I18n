@@ -2,7 +2,7 @@ dashboard.asterisk = Asterisk
 dashboard.asterisk_uptime = Asterisk Uptime
 dashboard.available = Available
 dashboard.current_time = Current Time
-dashboard.dahdi = DAHDi
+dashboard.dahdi = DAHDI
 dashboard.days =
 	[0]
 	[one] 1 day
@@ -33,3 +33,7 @@ dashboard.used = Used
 dashboard.unavailable = N/A
 menu.dashboard = Dashboard
 module.dashboard = Dashboard
+dashboard.firewall = Firewall
+dashboard.intrusion_detection = Intrusion Detection
+dashboard.cpu_usage = CPU Usage
+dashboard.memory_usage = Memory Usage

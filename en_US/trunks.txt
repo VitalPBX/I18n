@@ -105,3 +105,5 @@ trunks.cos.warning.confirm = I understand and confirm
 trunks.cos.warning.cancel = Cancel my change
 trunks.dial_profile_id = Dial Profile
 trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
+trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
+trunks.nat = Nat
