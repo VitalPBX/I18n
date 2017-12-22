@@ -1,8 +1,8 @@
 menu.trunks_connector = Pass-Through
-menu.trunks_connector_routing = Trunks
-module.trunks_connector_routing = Trunks
-menu.trunks_connector_extensions = Extensions
-module.trunks_connector_extensions = Extensions
+menu.trunks_connector_routing = PT Trunks
+module.trunks_connector_routing = {menu.trunks_connector_routing}
+menu.trunks_connector_extensions = PT Extensions
+module.trunks_connector_extensions = {menu.trunks_connector_extensions}
 trunks_connector_routing.description = Description
 trunks_connector_routing.description.help = A short description to identify this item
 trunks_connector_routing.private_trunk_id = Private Trunk

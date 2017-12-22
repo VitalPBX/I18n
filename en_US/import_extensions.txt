@@ -82,3 +82,4 @@ import_extensions.technology.tooltip = Device Technology
 import_extensions.technology.invalid = Device Technology '%s' for device %s is invalid. Must be one of the following: SIP, IAX or FXS.
 menu.import_extensions = Import Extensions
 module.import_extensions = Import Extensions
+import_extensions.any_did = Any DID
