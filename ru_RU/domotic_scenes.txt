@@ -1,0 +1,5 @@
+domotic_scenes = Domotic Scenes
+module.domotic_scenes = {domotic_scenes}
+
+domotic_scenes.general.tab = {ombutel.general}
+domotic_scenes.show_menu = Show menu with scenes
