@@ -1,0 +1,14 @@
+module.jmeet = Video Conference
+menu.jmeet = {module.jmeet}
+jmeet.general = {ombutel.general}
+jmeet.vitalpbx = {app.name}
+jmeet.jitsi = Jitsi
+jmeet.custom = Custom
+jmeet.server = Server
+jmeet.server.tooltip = Select the server where conference will be hosted
+jmeet.custom_server = Custom Server
+jmeet.custom_server.tooltip = Here you can define your own server where conference will be performed
+jmeet.room = Room Name
+jmeet.room.tooltip = A room name to join or start a new conference
+jmeet.join_create = Join / Create
+jmeet.url = URL

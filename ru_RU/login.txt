@@ -1,0 +1,7 @@
+login.signing_in = Войти
+login.panel = Панель
+login.pbx.desc = Управление АТС
+login.billing.desc = Программное обеспечение для управления расходами звонков
+login.monitoring.desc = Программное обеспечение для мониторинга звонков
+login.recordings.desc = Программное обеспечение для управления записями
+login.install_on_addons = Перейти к дополнениям

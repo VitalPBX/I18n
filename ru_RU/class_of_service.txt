@@ -1,17 +1,17 @@
 class_of_service = Класс обслуживания
 class_of_service.ars_id = Выбор маршрута
 class_of_service.ars_id.tooltip = Маршруты для этого класса обслуживания.
-class_of_service.badnumber = Плохое назначение (!)
+class_of_service.badnumber = Направление при ошибке
 class_of_service.configurations = Конфигурации
 class_of_service.cos = Класс обслуживания
-class_of_service.cos.tooltip = Имя класса обслуживания (Должно быть уникальным). Допустимы буквенно-цифровые значения с тире и подчеркиванием.
+class_of_service.cos.tooltip = Название для этого класса обслуживания (Должно быть уникальным). Допустимы буквенно-цифровые значения с тире и подчеркиванием.
 class_of_service.description = Описание
-class_of_service.description.tooltip = Краткое описание для определения этого класса обслуживания.
+class_of_service.description.tooltip = Краткое описание для идентификации этого класса обслуживания.
 class_of_service.dialrule_id = Ограничения вызова 
 class_of_service.dialrule_id.tooltip = Правила ограничения вызова для данного класса обслуживания.
-class_of_service.feature_code_category_id = Функции категории
+class_of_service.feature_code_category_id = Набор функций
 class_of_service.feature_code_category_id.tooltip = Функции, разрешенные для этого класса обслуживания.
 class_of_service.general = Общие
-class_of_service.lastdest = Последнее назначение
+class_of_service.lastdest = Конечное направление
 menu.class_of_service = <span style="margin-left: -5%;">Класс обслуживания</span>
 module.class_of_service = Класс обслуживания

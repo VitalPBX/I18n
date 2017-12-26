@@ -1,0 +1,29 @@
+app.activate = Активировать установку
+app.billing = Биллинг
+app.switchboard = Switchboard
+app.recordings = Записи
+app.activate.existent_account = У вас уже есть учетная запись!
+app.activate.register = Зарегистрировать
+app.activate.info =
+	Вы должны активировать свою установку, чтобы иметь возможность обновлять ее из графического интерфейса.
+	Чтобы активировать установку, вам необходимо создать учетную запись или войти с ранее созданной.
+app.activate.register.email = Ваш email. После регистрации вы cможете использовать этот email для активации любой другой установки.
+app.activate.register.password = Ваш пароль. После регистрации вы сможете использовать этот пароль для активации любой другой установки.
+app.activate.register.phone = Ваш номер телефона. Это необязательное поле.
+app.activate.register.country = Просто знать, где вы находитесь.
+app.activate.new_account = Зарегистрировать сейчас!
+app.activate.login = Логин
+app.register.successfully = Вы успешно зарегистрировали и активировали свою установку
+app.installation_activated = Вы успешно активировали свою установку
+app.activation.no_first_name = Пожалуйста, введите свое имя
+app.activation.no_last_name = Пожалуйста, введите свою фамилию
+app.activation.no_valid_email = Пожалуйста, введите верный email
+app.activation.no_password = Пожалуйста, введите пароль
+app.activation.no_response = Что-то пошло не так, нет ответа от сервера активации
+app.activate.cannot_create_lic = Не удается активировать продукт из-за неправильных прав доступа на папке
+app.no_updates = Нет доступных обновлений
+app.new_update = Новое обновление {0}
+app.new_version = Доступна новая версия <b>{0} {1}</b>!
+app.update_now = Обновить сейчас
+app.updated = {0} успешно обновлено
+app.cannot_update = Не удается обновить до последней версии
