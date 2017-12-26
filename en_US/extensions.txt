@@ -203,3 +203,6 @@ extensions.route_description.tooltip = A short description to identify the route
 extensions.routing = Incoming Routes
 extensions.actions = Actions
 extensions.routes.no_desc = For add a new incoming route please provide a valid description.
+module.follow_me = Follow Me
+module.voicemail = Voicemail
+module.fax = Fax
