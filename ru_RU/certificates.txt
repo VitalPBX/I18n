@@ -1,9 +1,9 @@
-menu.certificates = Certificates
-module.certificates = Certificates
-certificates.general = General
-certificates.description = Description
-certificates.description.tooltip = Short description to identify this certificate.
-certificates.hostname = Hostname
+menu.certificates = Сертификаты
+module.certificates = Сертификаты
+certificates.general = Общие
+certificates.description = Описание
+certificates.description.tooltip = Краткое описание для идентификации этого сертификата.
+certificates.hostname = Имя хоста
 certificates.hostname.tooltip =
 certificates.valid_until = Valid Until
 certificates.valid_until.tooltip = Date that this certificate will be valid.
