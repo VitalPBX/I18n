@@ -1,29 +1,29 @@
-app.activate = Activate the Installation
-app.billing = Billing
+app.activate = Активировать установку
+app.billing = Биллинг
 app.switchboard = Switchboard
-app.recordings = Recordings
-app.activate.existent_account = Already Have An Account!
-app.activate.register = Register
+app.recordings = Записи
+app.activate.existent_account = У вас уже есть учетная запись!
+app.activate.register = Зарегистрировать
 app.activate.info =
-	You have to activate your installation to be able to update from the GUI.
-	To activate your installation You need to create an account or login to your existing account.
-app.activate.register.email = Your email address.  After register, You may use this email to activate any other installation.
-app.activate.register.password = Your password. After register, You may use this password to activate any other installation.
-app.activate.register.phone = Your phone number for any business call. It is optional
-app.activate.register.country = Just to know where are you located.
-app.activate.new_account = Register Now!
-app.activate.login = Login
-app.register.successfully = You have successfully registered and activated your installation
-app.installation_activated = You have successfully activated your installation
-app.activation.no_first_name = Please provide us your first name
-app.activation.no_last_name = Please provide us your last name
-app.activation.no_valid_email = Please write a valid email address
-app.activation.no_password = Please write a password
-app.activation.no_response = Something is wrong, there isn't response from activation server
-app.activate.cannot_create_lic = Cannot activate the product due wrong folder permission
-app.no_updates = There are no available updates
-app.new_update = New {0} Update
-app.new_version = The new version <b>{0} {1}</b> is available!
-app.update_now = Update Now
-app.updated = {0} was successfully updated
-app.cannot_update = Cannot update to the latest version
+	Вы должны активировать свою установку, чтобы иметь возможность обновлять ее из графического интерфейса.
+	Чтобы активировать установку, вам необходимо создать учетную запись или войти с ранее созданной.
+app.activate.register.email = Ваш email. После регистрации вы cможете использовать этот email для активации любой другой установки.
+app.activate.register.password = Ваш пароль. После регистрации вы сможете использовать этот пароль для активации любой другой установки.
+app.activate.register.phone = Ваш номер телефона. Это необязательное поле.
+app.activate.register.country = Просто знать, где вы находитесь.
+app.activate.new_account = Зарегистрировать сейчас!
+app.activate.login = Логин
+app.register.successfully = Вы успешно зарегистрировали и активировали свою установку
+app.installation_activated = Вы успешно активировали свою установку
+app.activation.no_first_name = Пожалуйста, введите свое имя
+app.activation.no_last_name = Пожалуйста, введите свою фамилию
+app.activation.no_valid_email = Пожалуйста, введите верный email
+app.activation.no_password = Пожалуйста, введите пароль
+app.activation.no_response = Что-то пошло не так, нет ответа от сервера активации
+app.activate.cannot_create_lic = Не удается активировать продукт из-за неправильных прав доступа на папке
+app.no_updates = Нет доступных обновлений
+app.new_update = Новое обновление {0}
+app.new_version = Доступна новая версия <b>{0} {1}</b>!
+app.update_now = Обновить сейчас
+app.updated = {0} успешно обновлено
+app.cannot_update = Не удается обновить до последней версии
