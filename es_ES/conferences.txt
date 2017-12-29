@@ -51,3 +51,7 @@ conferences.wait_marked = Esperar a Líder
 conferences.wait_marked.tooltip = Establece si el usuario tiene que esperar a que un usuario líder ingrese antes de unirse a la conferencia.
 menu.conferences = Conferencias
 module.conferences = Conferencias
+conferences.adminpin.invalid = PIN de líder inválido. Use solo números y el símbolo "*" (asterisco).
+conferences.extension.invalid = El código de la conferencia no es válido. Solo números y *, #, + están permitidos.
+conferences.invalid.already_exists = Número de conferencia inválido {0}. El número está en uso por el módulo {1}.
+conferences.userpin.invalid = PIN de usuario inválido Use solo números y el símbolo "*" (asterisco).

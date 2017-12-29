@@ -43,4 +43,8 @@ inbound_route.routing_method.tooltip = El predeterminado debe coincidir con el D
 menu.inbound_routes = Rutas Entrantes
 module.inbound_route = Rutas Entrantes
 inbound_route.cid_management_id = Modificador del CID
-inbound_route.cid_management_id.tooltip = Le permite modificar el nombre / número de identificación de la persona que llama.
+inbound_route.cid_management_id.tooltip = Le permite modificar el nombre / número de identificación de la persona que llama.inbound_route.cid_lookup_id = CID Lookup
+inbound_route.cid_lookup_id.tooltip = 	
+	Le permite seleccionar un elemento de búsqueda de CID para buscar el número de llamante entrante en un directorio de CRM o
+	un directorio en la nube, u otro y establecer el nombre de CID correcto.
+inbound_route.cid_lookup_id = CID Lookup

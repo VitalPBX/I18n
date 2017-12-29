@@ -16,3 +16,4 @@ authcode.not_found = Código de Autorización no encontrado
 authcode.search = Buscar
 menu.authorization_codes = Códigos de Autorización
 module.authcode = Códigos de Autorización
+authcode.code.invalid = El código de autorización no es válido. Use solo números y el símbolo "*" (asterisco).

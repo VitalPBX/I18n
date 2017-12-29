@@ -43,3 +43,4 @@ parking.parkingtime.tooltip = Número de segundos que una llamada puede estar es
 parking.parkpos = Posiciones de Aparcamiento
 parking.parkpos.tooltip = Rango de plazas de aparcamiento para su uso.
 parking.timeout_destination = Tiempo de Espera de Destino
+parking.invalid.already_exists = Número de Aparcamiento inválido {0}. El número está en uso por módulo {1}.

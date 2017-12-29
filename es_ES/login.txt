@@ -1,0 +1,13 @@
+login.signing_in = Iniciar Sesión
+login.panel = Panel
+login.pbx.desc = Gestión de PBX
+login.billing.desc = Software para aplicar costos a sus llamadas
+login.monitoring.desc = Software para monitoreo de llamadas
+login.recordings.desc = Software para la gestión de grabaciones
+login.install_on_addons = Ir a Complementos
+login.retype_password = Vuelva a escribir la contraseña
+login.validation.password_not_retyped = Por favor, escriba de nuevo su contraseña
+login.validation.different_password = Por favor, introduzca el mismo valor de nuevo
+login.reset_password_title = Configurar contraseña de administrador
+login.reset_password_title.tooltip = Esto le permite configurar la contraseña para iniciar sesión con el usuario administrador
+login.no_db = Espere, siguimos instalando las bases de datos

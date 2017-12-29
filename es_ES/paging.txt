@@ -24,3 +24,5 @@ paging.skip_busy = Omitir Ocupado
 paging.skip_busy.tooltip = Marca un canal sólo si el estado del dispositivo es NOT_INUSE. Esta opción es probable que sólo es útil (y confiable) en los canales SIP, y aún así no puede funcionar si una sola línea se permite múltiples llamadas en él. Por lo tanto, no se basan en esta opción en todos los casos.
 paging.timeout = Tiempo de Espera
 paging.timeout.tooltip = Especificar la longitud de tiempo que el sistema intentará conectar una llamada. Después de este periodo de tiempo, las llamadas internas que no han sido contestadas serán colgadas por el sistema.
+paging.extension.invalid = El código de Buscapersonas & Intercom no es válido. Solo *, #, + y números están permitidos.
+paging.invalid.already_exists = Número de Buscapersonas & Intercom inválido {0}. El número está en uso por módulo {1}.

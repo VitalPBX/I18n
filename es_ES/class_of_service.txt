@@ -15,3 +15,10 @@ class_of_service.general = General
 class_of_service.lastdest = Ultimo Destino
 menu.class_of_service = Clase de Servicio
 module.class_of_service = Clase de Servicio
+class_of_service.allowed_calls_by = Llamadas Permitidas Por
+class_of_service.allowed_calls_by.tooltip = Define la lista de CoS a los que se les permite llamar a este CoS cuando el campo "Privado" está marcado.
+class_of_service.private = Privado
+class_of_service.private.tooltip =
+	Define si las extensiones con este CoS pueden ser llamadas por otras con diferentes CoS.
+	Si se marcan solo las llamadas con el mismo CoS o llamadas provenientes de CoS seleccionadas en el campo "Llamadas permitidas por"
+	serán permitidas. <b> Nota: se aplica solo para llamadas internas </b>

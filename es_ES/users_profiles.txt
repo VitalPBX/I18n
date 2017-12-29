@@ -15,3 +15,4 @@ users_profiles.priv.edit = Editar
 users_profiles.priv.view = Ver
 users_profiles.superadmin = Privilegio Total
 users_profiles.superadmin.tooltip = Permitir el acceso a todos los módulos.
+users_profiles.deleting_default_user_profile = No se puede eliminar el perfil de usuario predeterminado.

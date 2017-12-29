@@ -44,3 +44,7 @@ voicemail_general.vm_duration = Duración de Correo de Voz
 voicemail_general.vm_messagefile = Ruta de mensaje dejado por la persona que llama
 voicemail_general.vm_msgnum = Número de mensajes de voz en el buzón
 voicemail_general.vm_name = Nombre completo de buzón de voz
+voicemail_general.max_message = Mensajes Máximos
+voicemail_general.max_message.tooltip = Número máximo de mensajes por carpeta. Si se establece en 0, un buzón será solo de saludos.
+voicemail_general.operator_number = Número de Operador
+voicemail_general.operator_number.tooltip = Extensión para marcar presionando 0 mientras escucha un correo de voz.

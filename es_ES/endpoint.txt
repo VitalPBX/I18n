@@ -105,7 +105,6 @@ epm.template.template_name = Nombre de la plantilla {0}
 epm.template.template_name.tooltip = Ayuda a simplificar el mantenimiento: cada plantilla debe ser identificada con un nombre único.
 epm.template.brand = Marca {0}
 epm.template.brand.tooltip = Seleccione una marca de la lista desplegable de marcas que son compatibles con Endpoint Manager. Si necesita una marca que aparece en la lista desplegable, puede contactar con el soporte, haciendo clic en el menú de soporte Añadir un nuevo modelo (en el lado derecho del cuadro de diálogo).
-
 epm.template.model = Modelo {0}
 epm.template.model.tooltip = Seleccionar un modelo de la lista desplegable de modelos que son compatibles con Endpoint Manager. Si necesita un modelo que aparece en la lista desplegable, puede contactar con el soporte, haciendo clic en el menú de soporte Añadir nuevo modelo (en el lado derecho del cuadro de diálogo).
 epm.template.configuration_layout = Disposición de Configuración {0}
@@ -137,4 +136,7 @@ epm.template.warn.no_configuration_selected = Ninguna configuración seleccionad
 epm.template.warn.no_host_selected = Ningún Host seleccionado.
 epm.template.warn.no_timezone = Ninguna Zona Horaria seleccionada.
 epm.template.warn.no_admin_password = Contraseña de administrador no puede estar vacía
-epm.template.warn.duplicate_template = Plantilla ya existe
+epm.template.warn.duplicate_template = Plantilla ya existe epm.device_mapping.search.confirm = Confirm
+epm.device_mapping.search.no_extension = No se encontró una extensión de dispositivo.
+epm.device_mapping.search.title = Advertencia
+epm.device_mapping.search.confirm = Confirmar

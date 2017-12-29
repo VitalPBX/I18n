@@ -8,3 +8,4 @@ custom_dest.destination.tooltip = Número telefónico interno o externo a marcar
 custom_dest.general = General
 menu.custom_destinations = Destinos Personalizados
 module.custom_dest = Destinos Personalizados
+custom_dest.destination.invalid = Número a marcar no es válido. Solo *, #, + y números están permitidos.

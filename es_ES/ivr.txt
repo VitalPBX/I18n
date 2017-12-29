@@ -48,4 +48,8 @@ ivr.welcome_msg_id.tooltip = Mensaje de Bienvenida a reproducir.
 ivr.instructions_msg_id = Mensaje de Intrucciones
 ivr.instructions_msg_id.tooltip = Mensaje a reproducirse después del mensaje de bienvenida. Este mensaje es útil para evitar repetir el mensaje de bienvenida luego de digitar una opción invalidad o de un tiempo prolongado sin digitar ninguna opción.
 menu.ivr = IVR
+ivr.generate_stats = Generar Estadísticas
+ivr.generate_stats.tooltip =
+	Si está configurado en sí, se guardarán las estadísticas para cada opción marcada. 
+	Estas estadísticas se pueden consultar en el Módulo de Estadísticas de IVR
 module.ivr = IVR

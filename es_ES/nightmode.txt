@@ -24,3 +24,6 @@ nightmode.validate.mod_dest_normal = El módulo de destino cuando se requiere qu
 nightmode.validate.mod_dest_override = El módulo de destino cuando se requiere que esté activado
 nightmode.validate.normal_dest = Destino cuando se requiere que esté desactivado
 nightmode.validate.override_dest = Destino cuando se requiere jeu esté activado
+nightmode.code.invalid = El código de alternancia no es válido. Solo *, #, + y números están permitidos.
+nightmode.invalid.already_exists = Número de modo nocturno {0} inválido. El número está en uso por el módulo {1}.
+nightmode.password.invalid = La contraseña no es válida. Use solo números y el símbolo "*" (asterisco).

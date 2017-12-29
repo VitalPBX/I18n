@@ -33,3 +33,7 @@ dashboard.used = Utilizado
 dashboard.unavailable = N/D
 menu.dashboard = Panel
 module.dashboard = Panel
+dashboard.cpu_usage = Uso de CPU
+dashboard.firewall = Cortafuegos
+dashboard.intrusion_detection = Detección de Intrusos
+dashboard.memory_usage = Uso de Memoria

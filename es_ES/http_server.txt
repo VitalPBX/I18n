@@ -1,0 +1,15 @@
+http_server.certificate = Certificado
+http_server.certificate.help = Define el certificado que se utilizará cuando se acceda a la GUI a través de HTTPS. De forma predeterminada, se utiliza el certificado de precompilación, si desea utilizar otro vaya al módulo de Certificados para generar uno.
+http_server.general = {ombutel.general}
+http_server.http_port = Puerto HTTP
+http_server.http_port.help = Define en qué puerto será accesible la GUI a través del protocolo HTTP.
+http_server.https_enable = Habilitar HTTPS
+http_server.https_enable.title = Si se marca, se podrá acceder a la GUI a través de HTTPS. Deshabilitado por defecto.
+http_server.https_port = Puerto HTTPS
+http_server.https_port.help = Define desde qué puerto será accesible la GUI a través del protocolo HTTPS.
+http_server.native_cert = Certificado de Precompilado (nativo)
+http_server.permanent_redirect = Forzar HTTPS
+http_server.permanent_redirect.title = Si se habilita todo el tráfico al protocolo HTTP, se lo redirigirá al protocolo HTTPS.
+http_server.saved_but_not_configured = Los cambios se han guardado pero la configuración no se ha aplicado.
+menu.http_server = Servidor HTTP
+module.http_server = {menu.http_server}

@@ -114,3 +114,83 @@ profiles_technology_iax = IAX2
 profiles_technology_invalid = Tipo de tecnología seleccionada no es válida.
 profiles_technology_sip = SIP
 profiles_technology_tooltip = Tipo de tecnología para este perfil.
+profiles_pjsip_asymmetric_rtp_codec = Códec RTP asimétrico
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Permitir que el códec RTP de envío y recepción difiera
+profiles_pjsip_description = Descripción
+profiles_pjsip_description_tooltip = Descripción para este perfil.
+profiles_pjsip_direct_media = Media Directa
+profiles_pjsip_direct_media_tooltip = Determina si los medios pueden fluir directamente entre los puntos finales.
+profiles_pjsip_disable_direct_media_on_nat = Deshabilitar medios directos de NAT
+profiles_pjsip_disable_direct_media_on_nat_tooltip = La desactivación de la sesión de medios directa se actualiza cuando NAT obstruye la sesión de medios
+profiles_pjsip_dtls_cert_file = Archivo de Certificados DTLS
+profiles_pjsip_dtls_cert_file_tooltip = Ruta al archivo de certificado para presentarlo a peer
+profiles_pjsip_dtls_cert_id = Certificado DTLS
+profiles_pjsip_dtls_cert_id_tooltip = Certificado para usar con conexiones DTLS
+profiles_pjsip_dtls_fingerprint = Huella digital DTLS
+profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
+profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
+profiles_pjsip_dtls_fingerprint_tooltip = El hash para usar para la huella digital en SDP
+profiles_pjsip_dtls_private_key = Llave privada DTLS
+profiles_pjsip_dtls_private_key_tooltip = Ruta a la clave privada para el archivo de certificado.
+profiles_pjsip_dtls_rekey = Intervalo Rekey DTLS
+profiles_pjsip_dtls_rekey_tooltip = 	
+	Intervalo en el que renegociar la sesión TLS y volver a activar la sesión SRTP. Si esto no está configurado o el valor 
+	proporcionado es 0, se desactivará la reordenación
+profiles_pjsip_dtls_section = DTLS
+profiles_pjsip_dtls_setup = Configuración de DTLS
+profiles_pjsip_dtls_setup_active = Activo
+profiles_pjsip_dtls_setup_actpass = Actpass
+profiles_pjsip_dtls_setup_passive = Pasivo
+profiles_pjsip_dtls_setup_tooltip = 	
+	Si estamos dispuestos a aceptar conexiones, conectarnos con la otra parte, o ambos.
+	Las opciones válidas son: <br>
+	<b>Activo</b> (queremos conectarnos con la otra parte), <br>
+	<b>Pasivo</b> (solo queremos aceptar conexiones), <br>
+	<b>Actpass</b> (haremos ambas cosas). <br>
+	Este valor se usará en el SDP saliente cuando se ofrece y para las ofertas entrantes SDP cuando la parte remota envía actpass
+profiles_pjsip_dtls_verify = Verificar DTLS
+profiles_pjsip_dtls_verify_certificate = Certificado
+profiles_pjsip_dtls_verify_fingerprint = Huella Digital
+profiles_pjsip_dtls_verify_no = No
+profiles_pjsip_dtls_verify_tooltip = Verifique que el certificado de par proporcionado sea válido
+profiles_pjsip_dtls_verify_yes = Sí
+profiles_pjsip_force_rport = Forzar rport
+profiles_pjsip_force_rport_tooltip = Forzar el uso del puerto de retorno
+profiles_pjsip_general_section = General
+profiles_pjsip_ice_support = Soporte ICE
+profiles_pjsip_ice_support_tooltip = Habilite el mecanismo ICE para ayudar a atravesar NAT
+profiles_pjsip_media_encryption = Cifrado de Medios
+profiles_pjsip_media_encryption_dtls = DTLS
+profiles_pjsip_media_encryption_no = No
+profiles_pjsip_media_encryption_optimistic = Cifrado de Medios Optimista
+profiles_pjsip_media_encryption_optimistic_tooltip = Determina si el cifrado se debe usar si es posible, pero no termina la sesión si no se logra.
+profiles_pjsip_media_encryption_sdes = SDES
+profiles_pjsip_media_encryption_tooltip = Determina si res_pjsip usará e impondrá el uso del cifrado de medios para este punto final.
+profiles_pjsip_media_section = Media
+profiles_pjsip_media_use_received_transport = Transporte de Medios Recibido
+profiles_pjsip_media_use_received_transport_tooltip = Determina si res_pjsip usará el transporte de medios recibido en el SDP de oferta en el SDP de respuesta correspondiente.
+profiles_pjsip_name = Nombre
+profiles_pjsip_name_invalid = No se especificó ningún nombre de perfil.
+profiles_pjsip_name_tooltip = Nombre para este perfil
+profiles_pjsip_network_section = Red
+profiles_pjsip_none = -- Ninguna --
+profiles_pjsip_rewrite_contact = Reescribir Contacto
+profiles_pjsip_rewrite_contact_tooltip = Permitir que el encabezado de contacto se reescriba con el puerto de dirección IP de origen
+profiles_pjsip_rtcp_mux = RTCP Mux
+profiles_pjsip_rtcp_mux_tooltip = 	
+	Con esta opción habilitada, Asterisk intentará negociar el uso del atributo "rtcp-mux" en todos los flujos de medios.
+	Esto dará como resultado que RTP y RTCP se envíen y reciban en el mismo puerto. 
+	Esto cambia la lógica de demultiplexación a la aplicación en lugar de a la capa de transporte. 
+	Esta opción es útil al interoperar con los puntos finales de WebRTC ya que imponen el uso de esta opción.
+profiles_pjsip_rtp_symmetric = RTP Simétrico
+profiles_pjsip_rtp_symmetric_tooltip = Hacer cumplir que RTP debe ser simétrico
+profiles_pjsip_transport = Transporte
+profiles_pjsip_transport_tcp = TCP
+profiles_pjsip_transport_tls = TLS
+profiles_pjsip_transport_tooltip = Configuración de transporte deseada.
+profiles_pjsip_transport_udp = UDP
+profiles_pjsip_transport_ws = WS
+profiles_pjsip_transport_wss = WSS
+profiles_pjsip_use_avpf = Use AVPF
+profiles_pjsip_use_avpf_tooltip = Determina si res_pjsip usará e impondrá el uso de AVPF para este punto final.
+profiles_technology_pjsip = PJSIP
