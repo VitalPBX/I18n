@@ -13,3 +13,5 @@ custom_app.status = 开启
 custom_app.status.tooltip = 开启/关闭 自定义应用
 menu.custom_applications = 自定义应用
 module.custom_app = 自定义应用
+custom_app.extension.invalid = Custom Application Code is invalid. Only *,#,+ and numbers are allowed.
+custom_app.invalid.already_exists = Invalid Custom Application number {0}. The number is in use by {1} module.

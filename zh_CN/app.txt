@@ -1,0 +1,29 @@
+app.activate = Activate the Installation
+app.activate.cannot_create_lic = Cannot activate the product due wrong folder permission
+app.activate.existent_account = Already Have An Account!
+app.activate.info = 	
+	You have to activate your installation to be able to update from the GUI.
+	To activate your installation You need to create an account or login to your existing account.
+app.activate.login = Login
+app.activate.new_account = Register Now!
+app.activate.register = Register
+app.activate.register.country = Just to know where are you located.
+app.activate.register.email = Your email address.  After register, You may use this email to activate any other installation.
+app.activate.register.password = Your password. After register, You may use this password to activate any other installation.
+app.activate.register.phone = Your phone number for any business call. It is optional
+app.activation.no_first_name = Please provide us your first name
+app.activation.no_last_name = Please provide us your last name
+app.activation.no_password = Please write a password
+app.activation.no_response = Something is wrong, there isn't response from activation server
+app.activation.no_valid_email = Please write a valid email address
+app.billing = Billing
+app.cannot_update = Cannot update to the latest version
+app.installation_activated = You have successfully activated your installation
+app.new_update = New {0} Update
+app.new_version = The new version <b>{0} {1}</b> is available!
+app.no_updates = There are no available updates
+app.recordings = Recordings
+app.register.successfully = You have successfully registered and activated your installation
+app.switchboard = Switchboard
+app.update_now = Update Now
+app.updated = {0} was successfully updated

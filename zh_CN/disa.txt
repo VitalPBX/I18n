@@ -16,3 +16,4 @@ disa.resptimeout = 需要超时
 disa.resptimeout.tooltip = The maximum amount of time to wait for the first digit
 menu.disa = DISA
 module.disa = DISA
+disa.password.invalid = Password is invalid. Use only numbers and the "*" (asterisk) symbol.

@@ -24,3 +24,5 @@ paging.skip_busy = 调过忙状态
 paging.skip_busy.tooltip = Dials a channel only if the device state is NOT_INUSE. This option is likely only useful (and reliable) on SIP-bound channels, and even so may not work if a single line is allowed multiple calls on it. Therefore, don't rely on this option in all cases.
 paging.timeout = 超时
 paging.timeout.tooltip = Specify the length of time that the system will attempt to connect a call. After this duration, any intercom calls that have not been answered will be hung up by the system.
+paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
+paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.

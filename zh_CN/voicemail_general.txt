@@ -44,3 +44,7 @@ voicemail_general.vm_duration = 语音邮箱时长
 voicemail_general.vm_messagefile = 呼叫方留言路径
 voicemail_general.vm_msgnum = 语音邮箱留言数量
 voicemail_general.vm_name = 语音邮箱名称
+voicemail_general.max_message = Max Messages
+voicemail_general.max_message.tooltip = Maximum number of messages per folder. If set to 0, a mailbox will be greetings-only.
+voicemail_general.operator_number = Operator Number
+voicemail_general.operator_number.tooltip = Extension to dial on pressing 0 while listening a voicemail.

@@ -111,4 +111,6 @@ module.fax = Fax Settings
 menu.fax_settings = Fax Settings
 menu.general_fax_settings = Fax Settings
 menu.my_faxes = My Faxes
-
+fax.fax_settings.coversheet_file = Upload Coversheet
+fax.fax_settings.previerw_coversheet_note = Note: please make sure that pop-up windows are enabled in your browser
+fax.previerw_coversheet_note = Note: please make sure that pop-up windows are enabled in your browser

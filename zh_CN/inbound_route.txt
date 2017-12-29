@@ -47,3 +47,9 @@ inbound_route.routing_method.default = Default
 inbound_route.routing_method.tooltip = Default is to match by DID, alternatively by FXO channel.
 menu.inbound_routes = 呼入路由
 module.inbound_route = 呼入路由
+inbound_route.cid_lookup_id = CID Lookup
+inbound_route.cid_lookup_id.tooltip = 	
+	It allows you to select a CID Lookup item to search the incoming caller number into a directory of a CRM or a
+	cloud directory, or other and set the correct CID Name.
+inbound_route.cid_management_id = Caller ID Modifier
+inbound_route.cid_management_id.tooltip = Allows you to modify the caller id name/number.

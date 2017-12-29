@@ -25,3 +25,5 @@ ring_group.strategy = 振铃策略
 ring_group.strategy.one_by_one = 逐一振铃
 ring_group.strategy.ringall = 全部振铃
 ring_group.strategy.tooltip = 振铃策略
+ring_group.invalid.already_exists = Invalid Ring Group number {0}. The number is in use by {1} module.
+ring_group.ringtime.values = Ring Time value must be between 5 and 160 seconds.
