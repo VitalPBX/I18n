@@ -25,3 +25,5 @@ ring_group.strategy = Rinkelstrategie
 ring_group.strategy.one_by_one = Een voor een
 ring_group.strategy.ringall = Overal rinkelen
 ring_group.strategy.tooltip = Rinkelstrategie
+ring_group.invalid.already_exists = Invalid Ring Group number {0}. The number is in use by {1} module.
+ring_group.ringtime.values = Ring Time value must be between 5 and 160 seconds.

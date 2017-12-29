@@ -43,3 +43,4 @@ parking.parkingtime.tooltip = Aantal seconden dat een oproep kan worden geparkee
 parking.parkpos = Parkeerposities
 parking.parkpos.tooltip = Reeks parkeerplaatsen die kunnen worden gebruikt.
 parking.timeout_destination = Time-outontvanger
+parking.invalid.already_exists = Invalid Parking number {0}. The number is in use by {1} module.

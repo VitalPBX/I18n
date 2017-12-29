@@ -24,3 +24,6 @@ paging.skip_busy = Bezet overslaan
 paging.skip_busy.tooltip = Kiest een kanaal enkel als de staat van het toestel NIET_INGEBRUIK is. Deze optie is waarschijnlijk enkel nuttig (en betrouwbaar) op kanalen bestemd voor SIP en dan nog kan het zijn dat ze niet werkt als er op één lijn meerdere oproepen worden toestaan. Vertrouw dus niet in alle gevallen op deze optie.
 paging.timeout = Time-out
 paging.timeout.tooltip = Bepaalt hoe lang een systeem een oproep zal proberen verbinden. Na deze tijdsduur zullen alle intercomoproepen die niet beantwoord werden door het systeem worden afgebroken.
+paging.description.tooltip = Short description to identify this paging
+paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
+paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.

@@ -947,3 +947,7 @@ profiles.dahdi_spans.e1_pri = E1 PRI
 profiles.dahdi_spans.e1_r2 = E1 R2
 profiles.dahdi_spans.r1_pri = T1 PRI
 profiles.dahdi_spans.t1_cas = T1 CAS
+profiles.dahdi_spans.framing.tooltip = Framing options for this span.
+profiles_bri_pridialplan_local = Calling Number Type
+profiles_e1r2_callerid_section = Caller ID
+profiles_fxs_transfer_tooltip = Whether or not the call transfer is enabled.

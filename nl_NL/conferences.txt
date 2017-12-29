@@ -51,3 +51,7 @@ conferences.wait_marked = Wachten op Leider
 conferences.wait_marked.tooltip = Bepaalt of de gebruiker moet wachten totdat een leider tot de vergadering toetreedt voordat hij eraan kan gaan deelnemen.
 menu.conferences = Vergaderingen
 module.conferences = Vergaderingen
+conferences.adminpin.invalid = Invalid Leader PIN. Use only numbers and the "*" (asterisk) symbol.
+conferences.extension.invalid = Conference code is invalid. Only numbers and *,#,+ are allowed.
+conferences.invalid.already_exists = Invalid Conference number {0}. The number is in use by {1} module.
+conferences.userpin.invalid = Invalid user PIN. Use only numbers and the "*" (asterisk) symbol.

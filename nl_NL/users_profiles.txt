@@ -15,3 +15,4 @@ users_profiles.priv.edit = Bewerken
 users_profiles.priv.view = Bekijken
 users_profiles.superadmin = Privileges Toekennen
 users_profiles.superadmin.tooltip = Toegang tot alle Modules verlenen.
+users_profiles.deleting_default_user_profile = Cannot delete default user profile

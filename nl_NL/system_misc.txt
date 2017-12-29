@@ -46,3 +46,5 @@ system_misc.tzdate = Datum
 system_misc.tzdate.tooltip = Stelt de datum van het systeem in.
 system_misc.tztime = Tijd
 system_misc.tztime.tooltip = Stelt de tijd van het systeem in.
+system_misc.disabled = Disabled
+system_misc.enabled = Enabled

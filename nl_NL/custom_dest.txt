@@ -8,3 +8,4 @@ custom_dest.destination.tooltip = Intern of Extern te Kiezen Nummer
 custom_dest.general = Algemeen
 menu.custom_destinations = Aangepaste Ontvanger
 module.custom_dest = Aangepaste Ontvanger
+custom_dest.destination.invalid = Number to Dial is invalid. Only *,#,+ and numbers are allowed.

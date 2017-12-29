@@ -10,3 +10,5 @@ speeddial.dnumber.tooltip = Te kiezen nummer.
 speeddial.extension = Snelkeuzecode
 speeddial.extension.tooltip = Code om deze snelkeuze te activeren. De code moet uniek zijn voor het systeem; hij mag dus niet elders in het systeem worden gebruikt.
 speeddial.general = Algemeen
+speeddial.extension.invalid = Speed Dial Code is invalid. Use only numbers and the "*" (asterisk) symbol.
+speeddial.invalid.already_exists = Invalid Speed Dial number {0}. The number is in use by {1} module.

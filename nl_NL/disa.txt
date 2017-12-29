@@ -16,3 +16,4 @@ disa.resptimeout = Reactietime-out
 disa.resptimeout.tooltip = De maximale tijdspanne die mag verstrijken terwijl er wordt gewacht op het eerste cijfer
 menu.disa = DISA
 module.disa = DISA
+disa.password.invalid = Password is invalid. Use only numbers and the "*" (asterisk) symbol.

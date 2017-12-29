@@ -14,3 +14,5 @@ vmgroup.password.invalid = Wachtwoord mag niet leeg zijn en mag geen hekje ('#')
 vmgroup.password.tooltip = Wachtwoord om deze Voicemailuitzendgroep te beveiligen.
 vmgroup.vmglist = Extensies
 vmgroup.vmglist.tooltip = Lijst van extensies waaraan een groepsvoicemail zal worden uitgezonden. Denk eraan dat enkel extensies met een actieve voicemail zullen worden weergegeven.
+vmgroup.invalid.already_exists = Invalid Voicemail Group number {0}. The number is in use by {1} module.
+vmgroup.password.error = Password cannot be empty and may use only numbers and the "*" (asterisk) symbol.

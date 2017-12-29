@@ -44,3 +44,12 @@ ivr.welcome_msg_id = Welkomstbericht
 ivr.welcome_msg_id.tooltip = Welkomstbericht dat moet worden afgespeeld.
 menu.ivr = IVR
 module.ivr = IVR
+ivr = IVR
+ivr.class_of_service_id = Class of Service
+ivr.class_of_service_id.tooltip = Choose a Class of Service for this IVR. If you choose "Extensions Only" Context, the caller will only be able to dial internal extensions numbers.
+ivr.generate_stats = Generate Stats
+ivr.generate_stats.tooltip = 	
+	If is set on yes, it will be saved stats for each option marked. These statistics can be consulted in the IVR
+	Stats module
+ivr.instructions_msg_id = Instructions Message
+ivr.instructions_msg_id.tooltip = Message to be played after the welcome message. This message is useful for avoid to repeat the welcome message on invalid/timeout event.

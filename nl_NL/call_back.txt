@@ -14,3 +14,5 @@ call_back.general = Algemeen
 call_back.mod_dest = Ontvangende Module
 menu.call_back = Terugbeloproep
 module.call_back = Terugbeloproep
+call_back.dialnumber.invalid = Number is invalid. Only numbers and *,#,+ are allowed.
+call_back.dialprefix.invalid = Dial Prefix is invalid. Only numbers and *,#,+ are allowed.
