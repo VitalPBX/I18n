@@ -43,3 +43,7 @@ menu.inbound_routes = Входящие маршруты
 module.inbound_route = Входящие маршруты
 inbound_route.cid_management_id = Модификатор ID абонента.
 inbound_route.cid_management_id.tooltip = Позволяет изменить имя/номер вызывающего абонента.
+inbound_route.cid_lookup_id = CID Lookup
+inbound_route.cid_lookup_id.tooltip = 	
+	It allows you to select a CID Lookup item to search the incoming caller number into a directory of a CRM or a
+	cloud directory, or other and set the correct CID Name.

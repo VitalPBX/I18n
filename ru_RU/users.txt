@@ -34,3 +34,5 @@ users.validate.blank_password = Пароль не может быть пусты
 users.validate.profile = Профиль пользователя недействителен
 users.validate.displayname = ФИО не может быть пустым
 users.change_language = Сменить язык
+users.portalexten = Assigned Extension
+users.portalexten.tooltip = Extension assigned to access to portal.

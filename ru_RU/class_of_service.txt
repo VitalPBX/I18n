@@ -15,3 +15,9 @@ class_of_service.general = Общие
 class_of_service.lastdest = Конечное направление
 menu.class_of_service = <span style="margin-left: -5%;">Класс обслуживания</span>
 module.class_of_service = Класс обслуживания
+class_of_service.allowed_calls_by = Allowed Calls By
+class_of_service.allowed_calls_by.tooltip = It defines the list of CoS to be allowed to call to this CoS when "Private" field is checked.
+class_of_service.private = Private
+class_of_service.private.tooltip = 	It defines if extensions with this CoS may be called by others with different CoS.
+	If is checked only calls with the same CoS or calls coming from CoS selected on "Allowed Calls By" field
+	will be allowed. <b>Note: It applies only for local calls</b>

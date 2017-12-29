@@ -82,3 +82,4 @@ import_extensions.technology.tooltip = Технология устройства
 import_extensions.technology.invalid = Технология '%s' для устройства %s неверна. Должно быть одно из следующих: SIP, IAX или FXS.
 menu.import_extensions = <span style="margin-left: -5%;">Импорт номеров</span>
 module.import_extensions = Импорт номеров
+import_extensions.any_did = Any DID

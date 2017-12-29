@@ -105,3 +105,5 @@ trunks.cos.warning.confirm = Я понимаю и подтверждаю
 trunks.cos.warning.cancel = Отменить изменения
 trunks.dial_profile_id = Профиль набора
 trunks.dial_profile_id.tooltip = Профиль с параметрами набора, которые будут использоваться, когда набирается эта соединительная линия (trunk).
+trunks.nat = Nat
+trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed

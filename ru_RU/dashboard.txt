@@ -33,3 +33,7 @@ dashboard.used = Занято
 dashboard.unavailable = Н/Д
 menu.dashboard = Панель Состояния
 module.dashboard = Панель Состояния
+dashboard.cpu_usage = CPU Usage
+dashboard.firewall = Firewall
+dashboard.intrusion_detection = Intrusion Detection
+dashboard.memory_usage = Memory Usage

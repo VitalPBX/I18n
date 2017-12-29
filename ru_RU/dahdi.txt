@@ -947,3 +947,5 @@ profiles.dahdi_spans.e1_pri = E1 PRI
 profiles.dahdi_spans.e1_r2 = E1 R2
 profiles.dahdi_spans.r1_pri = T1 PRI
 profiles.dahdi_spans.t1_cas = T1 CAS
+profiles_t1pri_prilocaldialplan_private = Private
+profiles_t1pri_txgain = TX Gain

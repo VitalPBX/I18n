@@ -203,3 +203,6 @@ extensions.route_description.tooltip = Краткое описание для и
 extensions.routing = Входящие маршруты
 extensions.actions = Действия
 extensions.routes.no_desc = Необходимо заполнить поле <b>Описание</b> для добавления нового входящего маршрута.
+module.fax = Fax
+module.follow_me = Follow Me
+module.voicemail = Voicemail
