@@ -46,3 +46,5 @@ system_misc.tzdate = Date
 system_misc.tzdate.tooltip = Configuré la date du système.
 system_misc.tztime = Heure
 system_misc.tztime.tooltip = Configuré l'heure du système.
+system_misc.disabled = Disabled
+system_misc.enabled = Enabled

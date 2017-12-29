@@ -13,3 +13,5 @@ custom_app.status = Activé
 custom_app.status.tooltip = Active/désactive cette application personnalisée
 menu.custom_applications = Applications personnalisées
 module.custom_app = Applications personnalisées
+custom_app.extension.invalid = Custom Application Code is invalid. Only *,#,+ and numbers are allowed.
+custom_app.invalid.already_exists = Invalid Custom Application number {0}. The number is in use by {1} module.

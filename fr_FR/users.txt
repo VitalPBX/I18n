@@ -34,3 +34,5 @@ users.validate.blank_password = Le mot de passe ne peut-être vide !
 users.validate.profile = Profil d'utilisateur invalide
 users.validate.displayname = Le Nom de l'utilisateur ne peut-être vide !
 users.change_language = Changer la langue
+users.portalexten = Assigned Extension
+users.portalexten.tooltip = Extension assigned to access to portal.

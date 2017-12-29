@@ -14,3 +14,5 @@ vmgroup.password.invalid = Le mot de passe ne peut-être vide et ne doit pas con
 vmgroup.password.tooltip = Mot de passe pour sécuriser cette boite vocale de groupe
 vmgroup.vmglist = Extensions
 vmgroup.vmglist.tooltip = Liste des extensions vers lequel le message vocal sera envoyé. Note: les extensions doivent avoir leur boite vocale activée.
+vmgroup.invalid.already_exists = Invalid Voicemail Group number {0}. The number is in use by {1} module.
+vmgroup.password.error = Password cannot be empty and may use only numbers and the "*" (asterisk) symbol.

@@ -16,3 +16,4 @@ authcode.not_found = Code PIN non trouvé
 authcode.search = Rechercher
 menu.authorization_codes = Codes PIN
 module.authcode = Codes PIN
+authcode.code.invalid = Authorization code is invalid. Use only numbers and the "*" (asterisk) symbol.

@@ -22,3 +22,6 @@ nightmode.hint = Générer hint
 nightmode.hint.tooltip = Génère un hint pour ce code (pour utilisation de BLF)
 nightmode.phone_hint = Hint BLF
 nightmode.phone_hint.tooltip = La ligne à ajouter dans les téléphones en mode BLF
+nightmode.code.invalid = Toggle Code is invalid. Only *,#,+ and numbers are allowed.
+nightmode.invalid.already_exists = Invalid Nightmode number {0}. The number is in use by {1} module.
+nightmode.password.invalid = Password is invalid. Use only numbers and the "*" (asterisk) symbol.

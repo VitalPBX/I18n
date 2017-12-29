@@ -43,3 +43,4 @@ parking.parkingtime.tooltip = Nombre de secondes de parkage maximum avant de rev
 parking.parkpos = Emplacements de parkage
 parking.parkpos.tooltip = Intervalle d'emplacement à utiliser pour le parkage
 parking.timeout_destination = Destination en cas de délai d'attente écoulé
+parking.invalid.already_exists = Invalid Parking number {0}. The number is in use by {1} module.
