@@ -1,12 +1,12 @@
 menu.trunks = Внешние линии (trunks)
 module.trunks = Внешние линии
 trunks = Внешние линии
-trunks.advanced = Расширенные
+trunks.advanced = Дополнительные
 trunks.class_of_service_id = Класс обслуживания
 trunks.class_of_service_id.tooltip = Класс обслуживания для доступа к телефонной линии (trunk). 
 trunks.codecs = Кодеки
 trunks.codecs.tooltip = Список разрешенных кодеков. Приоритет для перечисленых кодеков устанавливается в порядке убывания. Если вы выберете хотя бы один кодек, будет также создан параметр «disallow = all».
-trunks.custom_settings = Пользовательские настройки
+trunks.custom_settings = Дополнительные настройки
 trunks.dahdi_trunk_parameters = Параметры DAHDi линии.
 trunks.description = Описание
 trunks.description.tooltip = Краткое описание для идентификации этой внешней линии (trunk).
