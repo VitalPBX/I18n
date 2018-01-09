@@ -16,3 +16,5 @@ country = Country
 phone = Telephone
 ok = OK
 nok = NOK
+username = Username
+warning = Warning
