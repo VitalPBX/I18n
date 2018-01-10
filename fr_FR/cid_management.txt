@@ -40,3 +40,4 @@ cid_management.v.append_to_cid_number.invalid = %s is invalid. Only numbers and 
 cid_management.v.cid.in_use = Cannot remove the CID Modifier. It is currently in use by the {0} module ({1}).
 cid_management.v.description.unique = Description must be unique
 cid_management.v.prepend_to_cid_number.invalid = %s is invalid. Only numbers and *,#,+ are allowed.
+cid_management.cid_name = Original CID Name

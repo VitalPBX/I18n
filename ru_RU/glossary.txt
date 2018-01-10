@@ -15,4 +15,5 @@ password = Password
 country = Country
 phone = Telephone
 ok = OK
-nok = NOK
+nok = NOKusername = Username
+warning = Warning

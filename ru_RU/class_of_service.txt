@@ -22,3 +22,4 @@ class_of_service.private.tooltip =
 	It defines if extensions with this CoS may be called by others with different CoS.
 	If is checked only calls with the same CoS or calls coming from CoS selected on "Allowed Calls By" field
 	will be allowed. <b>Note: It applies only for local calls</b>
+class_of_service = Class of Service

@@ -16,3 +16,5 @@ password = Password
 phone = Telephone
 running = Running
 trace = Error Trace
+username = Username
+warning = Warning

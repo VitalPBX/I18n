@@ -94,3 +94,4 @@ import_extensions.profile_name.invalid = Profile Name "%s" is invalid. Make sure
 import_extensions.source_extension.not_found = Source extension to copy from is not defined
 import_extensions.technology.invalid = Device Technology '%s' for device %s is invalid. Must be one of the following: SIP, PJSIP, IAX or FXS.
 import_extensions.technology.not_match = Cannot change device technology for device %s
+import_extensions.description.cid_number = CID number/pattern to match on incoming routes.
