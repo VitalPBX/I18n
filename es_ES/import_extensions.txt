@@ -94,3 +94,4 @@ import_extensions.source_extension.not_found = La extensión de origen para copi
 import_extensions.technology.invalid = La tecnología del dispositivo '%s' para el dispositivo %s no es válida. Debe ser uno de los siguientes: SIP, PJSIP, IAX o FXS.
 import_extensions.technology.not_match = No se puede cambiar la tecnología del dispositivo para el dispositivo %s
 import_extensions.any_did = Cualquier DID
+import_extensions.description.cid_number = Número/Patrón de CID para coincidir en las rutas entrantes.

@@ -107,3 +107,7 @@ trunks.dial_profile_id.tooltip = Perfil con las opciones de marcado que se usar�
 trunks.nat = Nat
 trunks.outgoing_username.invalid = Por favor ingrese un nombre de dispositivo válido. Se permiten valores alfanuméricos con guiones, guiones bajos y signos más (+).
 trunks.trunk_cid_number.invalid = El CID de troncal no es válido. Solo *, #, + y números están permitidos.
+trunks.continue_on_busy = Continuar en ocupado
+trunks.continue_on_busy.tooltip = 	
+	Obliga a continuar la llamada a la siguiente troncal configurada cuando esta troncal está ocupada. <br><br><b>Nota:</ b> La llamada
+	también continua al siguiente enlace si ocurre algún error, incluso si esta casilla de verificación no está marcada.
