@@ -16,6 +16,7 @@ sip_settings.available_codecs = Available Codecs
 sip_settings.bindaddr = Bind Address
 sip_settings.bindaddr.tooltip = IP address and optional port to bind for this transport (0.0.0.0 binds to all).
 sip_settings.bindport = Bind Port
+sip_settings.bindport.tooltip = Port to bind to (SIP Standard Port is 5060).
 sip_settings.codecs = Codecs
 sip_settings.custom = Custom
 sip_settings.custom_options = Custom Options
