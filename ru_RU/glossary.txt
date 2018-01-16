@@ -15,4 +15,4 @@ password = Пароль
 country = Страна
 phone = Телефон
 ok = OK
-nok = NOK
+nok = Не OK
