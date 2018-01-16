@@ -16,3 +16,5 @@ country = Страна
 phone = Телефон
 ok = OK
 nok = Не OK
+username = Имя пользователя
+warning = Предупреждение
