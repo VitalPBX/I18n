@@ -14,3 +14,5 @@ call_back.general = 基本设置
 call_back.mod_dest = 目的地模块
 menu.call_back = 回拨
 module.call_back = 回拨
+call_back.dialnumber.invalid = Number is invalid. Only numbers and *,#,+ are allowed.
+call_back.dialprefix.invalid = Dial Prefix is invalid. Only numbers and *,#,+ are allowed.

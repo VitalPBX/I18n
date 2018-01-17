@@ -10,3 +10,5 @@ speeddial.dnumber.tooltip = 拨打号码
 speeddial.extension = 快速拨号码
 speeddial.extension.tooltip = Code to activate this speed dial. Code should be unique to the system, i.e. must not be used anywhere else in the system.
 speeddial.general = 基本设置
+speeddial.extension.invalid = Speed Dial Code is invalid. Use only numbers and the "*" (asterisk) symbol.
+speeddial.invalid.already_exists = Invalid Speed Dial number {0}. The number is in use by {1} module.

@@ -14,3 +14,5 @@ call_back.general = General
 call_back.mod_dest = Módulo de Destino
 menu.call_back = Retorno de Llamada
 module.call_back = Retorno de Llamada
+call_back.dialnumber.invalid = El número no es válido. Solo números y *, #, + están permitidos.
+call_back.dialprefix.invalid = Prefijo de Marcado no es válido. Solo números y *, #, + están permitidos.

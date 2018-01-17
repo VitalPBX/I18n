@@ -1,0 +1,12 @@
+custom_contexts.context = Contexto
+custom_contexts.context.help = Nombre del Contexto Personalizado creado por ti mismo.
+custom_contexts.description = Descripción
+custom_contexts.description.help = Una breve descripción para identificar este Contexto Personalizado.
+custom_contexts.dest = Destino
+custom_contexts.extension = Extensión
+custom_contexts.extension.help = La prioridad definida en su contexto personalizado.
+custom_contexts.max_custom_contexts = No puedes crear más de un contexto personalizado. Compre una licencia para crear contextos personalizados ilimitados.
+custom_contexts.priority = Prioridad
+custom_contexts.priority.priority = La prioridad donde comenzará la llamada.
+menu.custom_contexts = Contextos Personalizados
+module.custom_contexts = Contextos Personalizados

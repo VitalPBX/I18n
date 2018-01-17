@@ -25,3 +25,5 @@ ring_group.strategy = Estrategia de Timbrado
 ring_group.strategy.one_by_one = Uno a Uno
 ring_group.strategy.ringall = Timbrar Todas
 ring_group.strategy.tooltip = Estrategia de Timbrado
+ring_group.invalid.already_exists = Número de grupo de timbre no válido {0}. El número está en uso por módulo {1}.
+ring_group.ringtime.values = El valor del tiempo del timbre debe estar entre 5 y 160 segundos.

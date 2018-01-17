@@ -47,3 +47,9 @@ inbound_route.routing_method.default = Défaut
 inbound_route.routing_method.tooltip = La méthode par défaut utilise le numéro SDA et appelant pour identifer la route entrante à utiliser. La méthode FXO utilise le canal FXO d'entrée.
 menu.inbound_routes = Routes entrantes
 module.inbound_route = Routes entrantes
+inbound_route.cid_lookup_id = CID Lookup
+inbound_route.cid_lookup_id.tooltip = 	
+	It allows you to select a CID Lookup item to search the incoming caller number into a directory of a CRM or a
+	cloud directory, or other and set the correct CID Name.
+inbound_route.cid_management_id = Caller ID Modifier
+inbound_route.cid_management_id.tooltip = Allows you to modify the caller id name/number.

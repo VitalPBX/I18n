@@ -8,3 +8,4 @@ blacklist.number.tooltip = Nummer dat in de zwarte lijst moet worden opgenomen.
 blacklist.search = Zoeken
 menu.blacklist = Zwarte lijst
 module.blacklist = Zwarte lijst
+blacklist.numebr.invalid = Number to blacklist is invalid. <br>Must contain digits and "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "

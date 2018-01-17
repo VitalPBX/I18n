@@ -1,0 +1,41 @@
+domotic_extensions.blf = BLF Hint
+domotic_extensions.blf.help = Esta es la cadena para agregar en las Líneas BLF de su teléfono.
+domotic_extensions.class_of_service_id = Clase de Servicio
+domotic_extensions.class_of_service_id.help = Define de qué Clase de Servicio será accesible este {0}.
+domotic_extensions.delete = {ombutel.delete}
+domotic_extensions.delete.message = {ombutel.confirm_delete.default_msg}
+domotic_extensions.description = Descripción
+domotic_extensions.description.help = Breve descripción para identificar esto {0}.
+domotic_extensions.device =     
+	[un] dispositivo
+    *[otros] dispositivos
+domotic_extensions.device_id = Dispositivo
+domotic_extensions.device_id.help = Dispositivo para interactuar.
+domotic_extensions.dial = Número a Marcar
+domotic_extensions.dial.tooltip = Define el número a marcar para interactuar con el {0} seleccionado.
+domotic_extensions.hint = Generar Hint
+domotic_extensions.hint.help = Generar Hint para este dispositivo.
+domotic_extensions.pin_list_id = Lista de PIN
+domotic_extensions.pin_list_id.help = Permite definir una lista de números para proteger la interacción con {0}.
+domotic_extensions.recording_id = Mensaje de Bienvenida
+domotic_extensions.recording_id.help = Mensaje que se escuchrá al principio, generalmente para indicar con qué {0} vas a interactuar
+domotic_extensions.scene =      
+	[un] escena
+     *[otros] escenas
+domotic_extensions.scene_id = Escena
+domotic_extensions.scene_id.help = Escena para interactuar.
+domotic_extensions.toggle_mode = Modo de Alternar
+domotic_extensions.toggle_mode.help = Si se establece en sí, el estado del dispositivo se alternará sin preguntar nada.
+domotic_extensions.toggle_mode.help2 = Si se establece en sí, la escena se ejecutará sin instrucciones.
+domotic_extensions.toggle_mode2 = Omitir Instrucciones
+domotic_extensions.unit_id = Unidad
+domotic_extensions.unit_id.help = Dependiendo de la unidad seleccionada, se mostrará {0} para configurar.
+domotic_extensions.validation.empty_cos = La clase de servicio es obligatoria.
+domotic_extensions.validation.empty_description = La descripción es obligatoria.
+domotic_extensions.validation.empty_device = El dispositivo es obligatorio.
+domotic_extensions.validation.empty_dial = El número para marcar es obligatorio.
+domotic_extensions.validation.empty_scene = La escena es obligatoria.
+domotic_extensions.validation.invalid_description = La descripción tiene un formato inválido. Se permiten números, letras, espacios, guiones y guiones bajos.
+domotic_extensions.validation.invalid_dial = El número a marcar tiene un formato inválido. números, *, # y + están permitidos.
+domotic_extensions.white_list = Lista Blanca
+domotic_extensions.white_list.help = Permite definir qué números no es necesario ingresar un pin para interactuar con el {0} seleccionado.

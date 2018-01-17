@@ -15,3 +15,5 @@ authcode.not_found = Autorisatiecode niet gevonden
 authcode.search = Zoeken
 menu.authorization_codes = Autorisatiecodes
 module.authcode = Autorisatiecodes
+authcode.auth_alias.unique = Alias must be unique
+authcode.code.invalid = Authorization code is invalid. Use only numbers and the "*" (asterisk) symbol.

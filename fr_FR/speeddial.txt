@@ -10,3 +10,5 @@ speeddial.dnumber.tooltip = Numéro rapide.
 speeddial.extension = Code de numéro rapide
 speeddial.extension.tooltip = Code pour activer cette numérotation rapide. Le code doit être unique sur le système.
 speeddial.general = Général
+speeddial.extension.invalid = Speed Dial Code is invalid. Use only numbers and the "*" (asterisk) symbol.
+speeddial.invalid.already_exists = Invalid Speed Dial number {0}. The number is in use by {1} module.

@@ -44,3 +44,7 @@ voicemail_general.vm_duration = Duur Voicemail
 voicemail_general.vm_messagefile = Pad naar bericht achtergelaten door beller
 voicemail_general.vm_msgnum = Aantal voicemailberichten in mailbox
 voicemail_general.vm_name = Voornaam en naam in voicemail
+voicemail_general.max_message = Max Messages
+voicemail_general.max_message.tooltip = Maximum number of messages per folder. If set to 0, a mailbox will be greetings-only.
+voicemail_general.operator_number = Operator Number
+voicemail_general.operator_number.tooltip = Extension to dial on pressing 0 while listening a voicemail.

@@ -13,3 +13,5 @@ custom_app.status = Ingeschakeld
 custom_app.status.tooltip = Deze Aangepaste Toepassing Inschakelen/Uitschakelen
 menu.custom_applications = Aangepaste Toepassingen
 module.custom_app = Aangepaste Toepassingen
+custom_app.extension.invalid = Custom Application Code is invalid. Only *,#,+ and numbers are allowed.
+custom_app.invalid.already_exists = Invalid Custom Application number {0}. The number is in use by {1} module.

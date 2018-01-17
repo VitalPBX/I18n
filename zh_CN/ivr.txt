@@ -47,3 +47,9 @@ ivr.welcome_msg_id = 欢迎词
 ivr.welcome_msg_id.tooltip = 播放欢迎词。
 menu.ivr = IVR
 module.ivr = IVR
+ivr.generate_stats = Generate Stats
+ivr.generate_stats.tooltip = 	
+	If is set on yes, it will be saved stats for each option marked. These statistics can be consulted in the IVR
+	Stats module
+ivr.instructions_msg_id = Instructions Message
+ivr.instructions_msg_id.tooltip = Message to be played after the welcome message. This message is useful for avoid to repeat the welcome message on invalid/timeout event.

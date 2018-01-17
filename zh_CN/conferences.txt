@@ -51,3 +51,7 @@ conferences.wait_marked = 等待会议主持人
 conferences.wait_marked.tooltip = Sets if the user must wait for a leader user to enter before joining the conference.
 menu.conferences = 会议
 module.conferences = 会议
+conferences.adminpin.invalid = Invalid Leader PIN. Use only numbers and the "*" (asterisk) symbol.
+conferences.extension.invalid = Conference code is invalid. Only numbers and *,#,+ are allowed.
+conferences.invalid.already_exists = Invalid Conference number {0}. The number is in use by {1} module.
+conferences.userpin.invalid = Invalid user PIN. Use only numbers and the "*" (asterisk) symbol.

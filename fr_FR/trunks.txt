@@ -101,4 +101,14 @@ trunks.trunk_cid_number = Numéro CID de la ligne
 trunks.cos.warning = L'action que vous allez effectuer peut créer des vulnérabilités de sécurité. <b> Ne procédez pas à moins que vous soyez sûr de comprendre la logique de la classe de service pour les lignes réseau. </b>
 trunks.cos.warning.title = Attention
 trunks.cos.warning.confirm = Je comprends et confirme
-trunks.cos.warning.cancel = Annuler mes modifications
+trunks.cos.warning.cancel = Annuler mes modificationsmenu.trunks = Trunks
+trunks.dial_profile_id = Dial Profile
+trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
+trunks.nat = Nat
+trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
+trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
+menu.trunks = Trunks
+trunks.continue_on_busy = Continue on Busy
+trunks.continue_on_busy.tooltip = 	
+	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
+	also continue to the next trunk if any error happens, even if this checkbox is not checked.

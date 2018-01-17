@@ -62,3 +62,4 @@ extensions_status.device_info.useragent = User Agent
 extensions_status.no_devices = Pas d'équipement
 menu.extensions_status = Etats extensions
 module.extensions_status = Etats extensions
+extensions_status.device_info.channel = Channel

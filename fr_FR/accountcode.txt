@@ -10,3 +10,4 @@ accountcode.not_found = Code affaire non trouvé
 accountcode.search = Rechercher
 module.accountcode = Codes affaires
 menu.account_codes = Codes affaires
+accountcode.code.invalid = Customer code is invalid. Use only numbers and the "*" (asterisk) symbol.

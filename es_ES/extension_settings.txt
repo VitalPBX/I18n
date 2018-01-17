@@ -61,3 +61,7 @@ extension_settings.timezone = Zona Horaria
 *extension_settings.timezone.tooltip = Hora local para este usuario.
 menu.my_extension = Mi Extensión
 module.extension_settings = Mi Extensión
+extension_settings.ringtime = Tiempo de Timbrado
+extension_settings.ringtime.tooltip = La cantidad de segundos para permitir que el (los) dispositivo (s) suenen antes de abandonar y pasar a la siguiente prioridad en la extensión.
+extension_settings.timezone.tooltip = Zona hoararia para este suario.
+extension_settings.vm_password.invalid = La contraseña del correo de voz no es válida. Use solo números y el símbolo "*" (asterisco).

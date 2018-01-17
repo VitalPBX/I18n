@@ -24,3 +24,5 @@ paging.skip_busy = Ignorer occupés
 paging.skip_busy.tooltip = Appelle uniquement les périphériques marqués comme non utilisés (NOT_INUSE). Cette option ne fonctionne qu'avec les équipements SIP ne diposant pas du double appel. Dans tous les cas, ne vous appuyez pas trop sur cette fonction.
 paging.timeout = Délai d'établissement
 paging.timeout.tooltip = Spécifie la durée de tentative de l'etablissement de l'appel. passé cette durée, l'appel sera raccroché si le périphérique n'a pas décroché.
+paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
+paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.

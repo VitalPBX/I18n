@@ -43,3 +43,4 @@ parking.parkingtime.tooltip = Number of seconds a call can be parked before retu
 parking.parkpos = 驻留位置
 parking.parkpos.tooltip = Range of parking spaces to use.
 parking.timeout_destination = 超时目的地
+parking.invalid.already_exists = Invalid Parking number {0}. The number is in use by {1} module.

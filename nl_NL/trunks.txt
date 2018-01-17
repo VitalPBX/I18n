@@ -98,3 +98,17 @@ trunks.trunk_cid = Beller-id Externe Koppeling
 trunks.trunk_cid.tooltip = Beller-id voor deze externe koppeling.
 trunks.trunk_cid_name = Beller-id-naam Externe Koppeling
 trunks.trunk_cid_number = Beller-id-nummer Externe Koppeling
+trunks.cos.warning = The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for trunks.</b>
+trunks.cos.warning.cancel = Cancel my change
+trunks.cos.warning.confirm = I understand and confirm
+trunks.cos.warning.title = Warning
+trunks.dial_profile_id = Dial Profile
+trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
+trunks.nat = Nat
+trunks.outgoing_qualify.tooltip = Makes sure that is alive
+trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
+trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
+trunks.continue_on_busy = Continue on Busy
+trunks.continue_on_busy.tooltip = 	
+	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
+	also continue to the next trunk if any error happens, even if this checkbox is not checked.

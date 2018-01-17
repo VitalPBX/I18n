@@ -1,4 +1,4 @@
-class_of_service = Класс обслуживания
+﻿class_of_service = Класс обслуживания
 class_of_service.ars_id = Выбор маршрута
 class_of_service.ars_id.tooltip = Маршруты для этого класса обслуживания.
 class_of_service.badnumber = Направление при ошибке

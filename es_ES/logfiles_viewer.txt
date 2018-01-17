@@ -10,3 +10,4 @@ logfiles_viewer.read_logfile = Leer Archivo de Registro
 logfiles_viewer.select_logfile = --- Seleccione un archivo de registro ---
 menu.log_file_viewer = Visor de Archivo de Registro
 module.logfiles_viewer = Visor de Archivo de Registro
+logfiles_viewer.invalid_filename = El archivo de registro solicitado no se puede encontrar

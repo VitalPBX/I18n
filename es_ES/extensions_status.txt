@@ -62,3 +62,4 @@ extensions_status.device_info.useragent = Usuario Agente
 extensions_status.no_devices = Sin Dispositivos
 menu.extensions_status = Estatus de Las Extensiones
 module.extensions_status = Estatus de Las Extensiones
+extensions_status.device_info.channel = Canal

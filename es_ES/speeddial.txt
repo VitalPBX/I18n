@@ -10,3 +10,5 @@ speeddial.dnumber.tooltip = Número a marcar.
 speeddial.extension = Código de Marcación Rápida
 speeddial.extension.tooltip = El código para activar esta marcación rápida. El código debe ser único para el sistema. No debe ser utilizado en cualquier otro lugar en el sistema.
 speeddial.general = General
+speeddial.extension.invalid = El código de marcado rápido no es válido. Use solo números y el símbolo "*" (asterisco).
+speeddial.invalid.already_exists = Número de marcado rápido inválido {0}. El número está en uso por módulo {1}.

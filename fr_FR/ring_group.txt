@@ -25,3 +25,5 @@ ring_group.strategy = Stratégie de sonnerie
 ring_group.strategy.one_by_one = Un par un
 ring_group.strategy.ringall = Sonner tous en même temps
 ring_group.strategy.tooltip = Stratégie de sonnerie
+ring_group.invalid.already_exists = Invalid Ring Group number {0}. The number is in use by {1} module.
+ring_group.ringtime.values = Ring Time value must be between 5 and 160 seconds.

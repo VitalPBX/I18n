@@ -14,3 +14,5 @@ vmgroup.password.invalid = La contraseña no puede estar vacía y no puede conte
 vmgroup.password.tooltip = Contraseña para proteger a este grupo de la difusión de correo de voz.
 vmgroup.vmglist = Extensiones
 vmgroup.vmglist.tooltip = Lista de extensiones de correo de voz a la que el grupo será transmitido. Tenga en cuenta que sólo se mostrarán las extensiones que tienen correo de voz activo.
+vmgroup.invalid.already_exists = Número de grupo de correo de voz no válido {0}. El número está en uso por módulo {1}.
+vmgroup.password.error = La contraseña no puede estar vacía y puede usar solo números y el símbolo "*" (asterisco).

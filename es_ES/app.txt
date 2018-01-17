@@ -1,0 +1,34 @@
+app.activate = Activar la Instalación
+app.billing = Tarificación
+app.switchboard = Switchboard
+app.recordings = Grabaciones
+app.activate.existent_account = ¡Ya tienes una cuenta!
+app.activate.register = Registrar
+app.activate.info =
+	Debe activar su instalación para poder actualizar desde la GUI.
+	Para activar su instalación, debe crear una cuenta o iniciar sesión en su cuenta existente.
+app.activate.register.email = Tu correo electrónico. Después de registrarse, puede usar este correo electrónico para activar cualquier otra instalación.
+app.activate.register.password = Tu contraseña. Después de registrarse, puede usar esta contraseña para activar cualquier otra instalación.
+app.activate.register.phone = Su número de teléfono para cualquier llamada de negocios. Es opcional.
+app.activate.register.country = Solo para saber dónde estás ubicado.
+app.activate.new_account = ¡Regístrate ahora!
+app.activate.login = Iniciar Sesión
+app.register.successfully = Ha registrado y activado exitosamente su instalación.
+app.installation_activated = Ha activado con éxito su instalación.
+app.activation.no_first_name = Por favor proporcione su nombre.
+app.activation.no_last_name = Por favor proporcione su apellido.
+app.activation.no_valid_email = Por favor, escriba una dirección de correo electrónico válida.
+app.activation.no_password = Por favor escribe una contraseña.
+app.activation.no_response = Algo está mal, no hay respuesta del servidor de activación, intente mas tarde.
+app.activate.cannot_create_lic = No se puede activar el producto debido a un permiso en la carpeta.
+app.no_updates = No hay actualizaciones disponibles.
+app.new_update = Nueva actualización {0}
+app.new_version = ¡La nueva versión <b>{0} {1}</b> está disponible!
+app.update_now = Actualizar Ahora
+app.updated = {0} se actualizó correctamente.
+app.cannot_update = No se puede actualizar a la última versión.
+app.change_language_not_allowed = No tiene permitido cambiar el idioma de la GUI
+app.module_not_found = El módulo <b>{0}</b> no existe
+app.no_access_to_module = Usted no tiene acceso al módulo "<b>{0}</b>"
+app.no_update_from_gui = No tiene permitido actualizar desde la GUI
+app.user_profile_not_allowed = No tiene permitido cambiar las configuraciones de su perfil

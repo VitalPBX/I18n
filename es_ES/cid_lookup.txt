@@ -1,0 +1,36 @@
+cid_lookup.arguments = Cadena de Consulta
+cid_lookup.arguments.tooltip =
+	Define los argumentos necesarios para ejecutar el script.
+	el valor de argumento especial <b>[CIDNUM]</b> será reemplazado por el número de cid del llamante.
+	<br><br> Ejemplo: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+cid_lookup.description = Descripción {0}
+cid_lookup.description.tooltip = Una breve descripción para identificar esta búsqueda de CID.
+cid_lookup.general = {ombutel.general}
+cid_lookup.host = Host {0}
+cid_lookup.host.tooltip = Define el host de API para realizar la solicitud.
+cid_lookup.opencnam.sid = SID {0}
+cid_lookup.opencnam.sid.tooltip = OpenCNAM SID
+cid_lookup.opencnam.token = Token {0}
+cid_lookup.opencnam.token.tooltip = OpenCNAM Token
+cid_lookup.password = Contraseña de Autenticación
+cid_lookup.password.tooltip = Define la contraseña para autenticar la solicitud HTTP/HTTPS
+cid_lookup.path = Ruta
+cid_lookup.path.tooltip = Define el nombre del archivo de script para ejecutar a petición. Ejemplo: <b>cid_lookup.php</b>
+cid_lookup.port = Puerto
+cid_lookup.port.tooltip = Define el puerto para realizar la solicitud. Por defecto 80 para solicitud HTTP y 443 para solicitud HTTPS
+cid_lookup.secure = Securo
+cid_lookup.secure.tooltip = Si está marcado, la solicitud será a través de HTTPS, de otra manera será a través de HTTP.
+cid_lookup.source = Fuente {0}
+cid_lookup.source.option.api = HTTP/HTTPS
+cid_lookup.source.option.opencnam = OpenCNAM
+cid_lookup.source.tooltip = Define el método para obtener el nombre de cid de un llamante entrante.
+cid_lookup.user = Usuario de Autenticación
+cid_lookup.user.tooltip = Define el usuario para autenticar la solicitud HTTP/HTTPS
+cid_lookup.validation.invalid_source = Se ha proporcionado un tipo de fuente no válida.
+cid_lookup.validation.no_description = No se ha proporcionado ninguna descripción.
+cid_lookup.validation.no_sid = El SID no ha sido provisto.
+cid_lookup.validation.no_token = El Token no ha sido provisto.
+cid_lookup.validation.no_valid_host = Se ha proporcionado un nombre de host no válido o una dirección IP.
+cid_lookup.validation.no_valid_port = Se ha proporcionado un número de puerto no válido.
+menu.cid_lookup = {module.cid_lookup}
+module.cid_lookup = Búsqueda de CID

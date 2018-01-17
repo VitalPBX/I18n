@@ -36,3 +36,4 @@ cdr_filters.general = 基本设置
 cdr_filters.none = 无
 menu.cdr_filters = CDR 过滤器
 module.cdr_filters = CDR 过滤器
+cdr_filters.conditions.search_by.customer_code = Customer Code

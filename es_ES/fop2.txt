@@ -1,0 +1,11 @@
+fop2.fop2 = Panel de Control FOP2
+fop2.fop2admin = Admistrador FOP2
+fop2.general = General
+fop2_admin.general = General
+menu.fop2 = Panel de Control 
+menu.fop2_admin = Admistrador FOP2
+menu.fop2_admin_submenu = Admistrador FOP2
+menu.fop2_menu = Operador
+menu.fop2_submenu = Panel de Control 
+module.fop2 = Panel de Control 
+module.fop2_admin = Admistrador FOP2

@@ -52,3 +52,6 @@ dhcpsettings.wins = WINS
 dhcpsettings.wins.tooltip = Windows Internet Name Service (WINS) is een naamomzettingsdienst die NetBIOS-namen toewijst aan een IP-adres op het netwerk dat gebruik maakt NetBIOS over TCP/IP (NetBT). Het hoofddoel van WINS is om clients die werken met een oudere versie van Windows en toepassingen die gebruikmaken van NetBIOS te ondersteunen.
 menu.dhcp_settings = DHCP-instellingen
 module.dhcpsettings = DHCP-instellingen
+dhcpsettings.validation.invalid_host = Invalid Hostname. Must contain only digits, letters and "." or "-" signes. <br>Cannot start with either "." or "-" and must not end with "-"
+dhcpsettings.validation.lease_ip = One or more duplicate IP addresses
+dhcpsettings.validation.lease_mac = One or more duplicate MAC addresses

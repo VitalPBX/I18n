@@ -16,3 +16,4 @@ disa.resptimeout = Délai de réponse
 disa.resptimeout.tooltip = La durée maximum accordée avant saisie du premier caractère
 menu.disa = DISA
 module.disa = DISA
+disa.password.invalid = Password is invalid. Use only numbers and the "*" (asterisk) symbol.
