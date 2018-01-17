@@ -73,7 +73,7 @@ profiles_sip_host = Хост
 profiles_sip_host_invalid = Хост не указан.
 profiles_sip_host_tooltip = Имя хоста или адрес устройства.
 profiles_sip_icesupport = ICE
-profiles_sip_icesupport_tooltip = Используйте ICE-протокол (Interactive Connectivity Establishment) для прохождения через межсетевой экран или NAT.
+profiles_sip_icesupport_tooltip = Использовать ICE-протокол (Interactive Connectivity Establishment) для прохождения через межсетевой экран или NAT.
 profiles_sip_name = Имя
 profiles_sip_name_duplicate = Повторяющееся имя профиля.
 profiles_sip_name_invalid = Не указано имя профиля.
@@ -114,83 +114,82 @@ profiles_technology_iax = IAX2
 profiles_technology_invalid = Выбран недопустимый тип технологии.
 profiles_technology_sip = SIP
 profiles_technology_tooltip = Тип технологии для этого профиля.
-profiles_pjsip_asymmetric_rtp_codec = Asymmetric RTP Codec
-profiles_pjsip_asymmetric_rtp_codec_tooltip = Allow the sending and receiving RTP codec to differ
-profiles_pjsip_description = Description
-profiles_pjsip_description_tooltip = Description for this profile.
-profiles_pjsip_direct_media = Direct Media
-profiles_pjsip_direct_media_tooltip = Determines whether media may flow directly between endpoints.
+profiles_technology_pjsip = PJSIP
+profiles_pjsip_general_section = Общие
+profiles_pjsip_name = Имя
+profiles_pjsip_name_tooltip = Имя для этого профиля.
+profiles_pjsip_description = Описание
+profiles_pjsip_description_tooltip = Описание для этого профиля.
+profiles_pjsip_transport = Транспорт
+profiles_pjsip_transport_tooltip = Способ связи, используемый для этого устройства.
+profiles_pjsip_dtls_cert_file = DTLS сертификат
+profiles_pjsip_dtls_cert_file_tooltip = Путь к файлу сертификата для предоставления его партнеру (peer)
+profiles_pjsip_dtls_private_key = Закрытый ключ DTLS
+profiles_pjsip_dtls_private_key_tooltip = Путь к закрытому ключу сертификата.
+profiles_pjsip_media_encryption = Шифрование медиа потока
+profiles_pjsip_media_encryption_tooltip = Определяет, будет ли res_pjsip использовать и применять шифрование медиа потока для этой конечной точки.
+profiles_pjsip_dtls_setup = Настройка DTLS
+profiles_pjsip_dtls_setup_tooltip =
+	Готовы ли мы принимать соединения, подключаться к другой стороне или и то, и другое.
+	Возможные варианты:  <br>
+	<b>Активный</b> (мы хотим подключиться к другой стороне), <br>
+	<b>Пассивный</b> (мы хотим только принимать соединения), <br>
+	<b>Оба</b> (мы используем оба типа). <br>
+	Это значение будет использоваться в исходящем SDP и во входящем SDP, если удаленная сторона отправляет оба типа Активный и Пассивный.
+profiles_pjsip_force_rport = Force rport
+profiles_pjsip_force_rport_tooltip = Принудительное использование rport, т.е. если rport не указан, отправлять SIP ответы на тот же порт с которого были получены запросы.
+profiles_pjsip_ice_support = Поддержка ICE
+profiles_pjsip_ice_support_tooltip = Использовать ICE-протокол (Interactive Connectivity Establishment) для прохождения через межсетевой экран или NAT.
+profiles_pjsip_rtp_symmetric = Cимметричный RTP 
+profiles_pjsip_rtp_symmetric_tooltip = Обязательный симметричный RTP. Отправлять RTP назад на тот же адрес/порт с которого он был получен.
+profiles_pjsip_rewrite_contact = Перезапись Contact
+profiles_pjsip_rewrite_contact_tooltip = Во входящих SIP-сообщениях с этой конечной точки заголовок Contact или соответствующий заголовок Record-Route будет изменен, чтобы иметь исходный IP-адрес и порт.
+profiles_pjsip_direct_media = Прямая отправка RTP
+profiles_pjsip_direct_media_tooltip = Управляет медиа потоком, направляя RTP трафик, непосредственно, между конечными точками.
 profiles_pjsip_disable_direct_media_on_nat = Disable NAT Direct Media
 profiles_pjsip_disable_direct_media_on_nat_tooltip = Disable direct media session refreshes when NAT obstructs the media session
-profiles_pjsip_dtls_cert_file = DTLS Certfile
-profiles_pjsip_dtls_cert_file_tooltip = Path to certificate file to present to peer
-profiles_pjsip_dtls_cert_id = DTLS Certificate
-profiles_pjsip_dtls_cert_id_tooltip = Certificate to use with DTLS connections
-profiles_pjsip_dtls_fingerprint = DTLS Fingerprint Hash
-profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
-profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
-profiles_pjsip_dtls_fingerprint_tooltip = The hash to use for the fingerprint in SDP
-profiles_pjsip_dtls_private_key = DTLS Private Key
-profiles_pjsip_dtls_private_key_tooltip = Path to private key for certificate file.
-profiles_pjsip_dtls_rekey = DTLS Rekey Interval
-profiles_pjsip_dtls_rekey_tooltip = 	
-	Interval at which to renegotiate the TLS session and rekey the SRTP session. If this is not set or the value
-	provided is 0 rekeying will be disabled
-profiles_pjsip_dtls_section = DTLS
-profiles_pjsip_dtls_setup = DTLS Setup
-profiles_pjsip_dtls_setup_active = Active
-profiles_pjsip_dtls_setup_actpass = Actpass
-profiles_pjsip_dtls_setup_passive = Passive
-profiles_pjsip_dtls_setup_tooltip = 	
-	Whether we are willing to accept connections, connect to the other party, or both.
-	Valid options are:  <br>
-	<b>Active</b> (we want to connect to the other party), <br>
-	<b>Passive</b> (we want to accept connections only), <br>
-	<b>Actpass</b> (we will do both). <br>
-	This value will be used in the outgoing SDP when offering and for incoming SDP offers when the remote party sends actpass
-profiles_pjsip_dtls_verify = DTLS Verify
-profiles_pjsip_dtls_verify_certificate = Certificate
-profiles_pjsip_dtls_verify_fingerprint = Fingerprint
-profiles_pjsip_dtls_verify_no = No
-profiles_pjsip_dtls_verify_tooltip = Verify that the provided peer certificate is valid
-profiles_pjsip_dtls_verify_yes = Yes
-profiles_pjsip_force_rport = Force rport
-profiles_pjsip_force_rport_tooltip = Force use of return port
-profiles_pjsip_general_section = General
-profiles_pjsip_ice_support = ICE Support
-profiles_pjsip_ice_support_tooltip = Enable the ICE mechanism to help traverse NAT
-profiles_pjsip_media_encryption = Media Encryption
-profiles_pjsip_media_encryption_dtls = DTLS
-profiles_pjsip_media_encryption_no = No
-profiles_pjsip_media_encryption_optimistic = Media Encryption Optimistic
-profiles_pjsip_media_encryption_optimistic_tooltip = Determines whether encryption should be used if possible but does not terminate the session if not achieved.
-profiles_pjsip_media_encryption_sdes = SDES
-profiles_pjsip_media_encryption_tooltip = Determines whether res_pjsip will use and enforce usage of media encryption for this endpoint.
-profiles_pjsip_media_section = Media
-profiles_pjsip_media_use_received_transport = Media Transport Received
-profiles_pjsip_media_use_received_transport_tooltip = Determines whether res_pjsip will use the media transport received in the offer SDP in the corresponding answer SDP.
-profiles_pjsip_name = Name
-profiles_pjsip_name_invalid = No profile name specified.
-profiles_pjsip_name_tooltip = Name for this profile.
-profiles_pjsip_network_section = Network
-profiles_pjsip_none = -- None --
-profiles_pjsip_rewrite_contact = Rewrite Contact
-profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port
+profiles_pjsip_dtls_verify = Проверка DTLS
+profiles_pjsip_dtls_verify_tooltip = Проверка на то, что предоставленный от peer сертификат действителен.
+profiles_pjsip_use_avpf = Использовать AVPF
+profiles_pjsip_use_avpf_tooltip = Определяет, будет ли res_pjsip использовать и обеспечивать использование AVPF для этой конечной точки. 
 profiles_pjsip_rtcp_mux = RTCP Mux
-profiles_pjsip_rtcp_mux_tooltip = 	
-	With this option enabled, Asterisk will attempt to negotiate the use of the "rtcp-mux" attribute on all media streams.
-	This will result in RTP and RTCP being sent and received on the same port. This shifts the demultiplexing logic to
-	the application rather than the transport layer. This option is useful when interoperating with WebRTC endpoints
-	since they mandate this option's use.
-profiles_pjsip_rtp_symmetric = RTP Symmetric
-profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric
-profiles_pjsip_transport = Transport
+profiles_pjsip_rtcp_mux_tooltip =
+	Если эта опция включена, Asterisk попытается согласовать использование атрибута «rtcp-mux» во всех медиапотоках.
+	Это приведет к тому, что RTP и RTCP будут отправлены и приняты на том же порту. Это смещает логику демультиплексирования
+	на приложение, а не на транспортный уровень. Эта опция полезна при взаимодействии с конечными точками WebRTC, поскольку они 		позволяют использовать эту опцию.
+profiles_pjsip_media_use_received_transport = Полученный медиа поток
+profiles_pjsip_media_use_received_transport_tooltip = Если установлено <b>Да</b>, res_pjsip будет использовать принятый медиа поток. Если установлено <b>Нет</b>, res_pjsip будет использовать соответствующий профиль RTP в зависимости от конфигурации.
+profiles_pjsip_media_encryption_optimistic = Оптимистичное шифрование.
+profiles_pjsip_media_encryption_optimistic_tooltip = Определяет, подключаться даже без шифрования или завершать сессию.
+profiles_pjsip_asymmetric_rtp_codec = Асимметричный RTP-кодек
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Если установлено <b>Да</b>, то кодек, используемый для отправки, будет отличаться от принятого кодека. PJSIP не будет автоматически переключать отправленный кодек на принятый.
+profiles_pjsip_transport_udp = UDP
 profiles_pjsip_transport_tcp = TCP
 profiles_pjsip_transport_tls = TLS
-profiles_pjsip_transport_tooltip = Desired transport configuration.
-profiles_pjsip_transport_udp = UDP
 profiles_pjsip_transport_ws = WS
 profiles_pjsip_transport_wss = WSS
-profiles_pjsip_use_avpf = Use AVPF
-profiles_pjsip_use_avpf_tooltip = Determines whether res_pjsip will use and enforce usage of AVPF for this endpoint.
-profiles_technology_pjsip = PJSIP
+profiles_pjsip_media_encryption_no = Нет
+profiles_pjsip_media_encryption_sdes = SDES
+profiles_pjsip_media_encryption_dtls = DTLS
+profiles_pjsip_dtls_setup_active = Активный
+profiles_pjsip_dtls_setup_passive = Пассивный
+profiles_pjsip_dtls_setup_actpass = Оба
+profiles_pjsip_network_section = Сеть
+profiles_pjsip_media_section = Медиа
+profiles_pjsip_dtls_section = DTLS
+profiles_pjsip_name_invalid = Не указано имя профиля.
+profiles_pjsip_none = -- Нет --
+profiles_pjsip_dtls_cert_id = Сертификат DTLS
+profiles_pjsip_dtls_cert_id_tooltip = Сертификат для использования с DTLS соединениями
+profiles_pjsip_dtls_verify_yes = Да
+profiles_pjsip_dtls_verify_no = Нет
+profiles_pjsip_dtls_verify_fingerprint = Fingerprint
+profiles_pjsip_dtls_verify_certificate = Сертификат
+profiles_pjsip_dtls_fingerprint = DTLS Fingerprint Hash
+profiles_pjsip_dtls_fingerprint_tooltip = The hash to use for the fingerprint in SDP
+profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
+profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
+profiles_pjsip_dtls_rekey = Интервал ключей DTLS
+profiles_pjsip_dtls_rekey_tooltip =
+	Интервал, на котором необходимо перезапустить сеанс TLS и повторно активировать сеанс SRTP. Если ничего не установлено или 		значение равно 0, смена ключей будет отключена
+
