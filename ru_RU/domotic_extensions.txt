@@ -1,6 +1,6 @@
-domotic_extensions.dial = Number to Dial
-domotic_extensions.dial.tooltip = Defines the number to dial to interact with the selected {0}.
-domotic_extensions.description = Description
+domotic_extensions.dial = Номер для набора
+domotic_extensions.dial.tooltip = Определяет номер для набора, чтобы взаимодействовать с выбранным {0}.
+domotic_extensions.description = Описание
 domotic_extensions.description.help = Short description to identify this {0}.
 domotic_extensions.unit_id = Unit
 domotic_extensions.unit_id.help = Depending of the selected unit will show the {0} to configure.
