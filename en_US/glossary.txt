@@ -18,3 +18,7 @@ ok = OK
 nok = NOK
 username = Username
 warning = Warning
+new = New
+disabled = Disabled
+file_to_large = The selected file is too large, the allowed size is {0}
+invalid_file_type =  The selected file type is not valid
