@@ -1,4 +1,4 @@
-menu.ivr_reports = Informes de IVR
+menu.ivr_reports = Estadísticas de IVR
 menu.ivr_stats = Estadísticas de IVR
 module.ivr_stats = Estadísticas de IVR
 ivr_stats.ivr_id = IVR
@@ -15,5 +15,5 @@ ivr_stats.calldate = Fecha de Llamada
 ivr_stats.caller = Llamador
 ivr_stats.callee = Llamado
 ivr_stats.call_duration = Duración de la Llamada
-ivr_stats.call_status = CEstado de Llamada
+ivr_stats.call_status = Estado de Llamada
 

@@ -1,4 +1,4 @@
-dial_profiles.allow_parking = Permitir Estacionar Ppor
+dial_profiles.allow_parking = Permitir Estacionar Por
 dial_profiles.allow_parking.help = Permita que la parte llamado/llamante active el estacionamiento de la llamada enviando la secuencia DTMF definida para "Estacionar llamada" en los códigos de funciones.
 dial_profiles.allow_transfer = Permitir Transferencia Por
 dial_profiles.allow_transfer.help = Permitir que la parte llamado/llamante transfiera a la parte llamante enviando la secuencia DTMF definida en los códigos de funciones.

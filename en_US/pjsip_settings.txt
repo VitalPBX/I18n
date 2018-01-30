@@ -28,5 +28,5 @@ pjsip_settings.local_net.tooltip = Network to consider local (used for NAT purpo
 pjsip_settings.external_media_address = External Media Address
 pjsip_settings.external_media_address.tooltip = External IP address to use in RTP handling.
 pjsip_settings.external_signaling_address = External Signal Address
-pjsip_settings.external_signaling_address.tooltip = External address for SIP signalling.
+pjsip_settings.external_signaling_address.tooltip = External address for SIP signaling.
 pjsip_settings.nat_settings = Nat Settings

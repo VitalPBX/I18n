@@ -1,5 +1,5 @@
-menu.mini_http_server = Mini servidor HTTP
-module.mini_http_server = Mini servidor HTTP
+menu.mini_http_server = Mini Servidor HTTP
+module.mini_http_server = Mini Servidor HTTP
 mini_http_server.general = General
 mini_http_server.enabled = Habilitar HTTP
 mini_http_server.enabled.tooltip = Si la interfaz HTTP/HTTPS está habilitada o no.

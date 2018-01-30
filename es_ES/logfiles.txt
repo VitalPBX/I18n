@@ -1,4 +1,4 @@
-logfiles = Archivos de Registro
+logfiles = Archivos de Registros
 logfiles.appendhostname = Adjuntar Nombre de Host
 logfiles.appendhostname.tooltip = Añade el nombre de host al nombre de los archivos de registro.
 logfiles.dateformat = Formato de Fecha
@@ -25,5 +25,5 @@ logfiles.rotatestrategy.tooltip = Secuencial: Cambiar el nombre de registros arc
 logfiles.security = Seguridad
 logfiles.verbose = Verbose
 logfiles.warning = Advertencia
-menu.log_files = Archivos de Registro
-module.logfiles = Archivos de Registro
+menu.log_files = Archivos de Registros
+module.logfiles = Archivos de Registros
