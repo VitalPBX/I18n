@@ -16,7 +16,6 @@ sip_settings.available_codecs = Codecs Disponible
 sip_settings.bindaddr = Dirección Permitida
 sip_settings.bindaddr.tooltip = Dirección IP a permitir (0.0.0.0 permite todas).
 sip_settings.bindport = Puerto Permitido
-sip_settings.bindport.tooltip = Puerto a permitir (Puerto SIP estándar es 5060).
 sip_settings.codecs = Codecs
 sip_settings.custom = Personalizado
 sip_settings.custom_options = Opciones Personalizadas
