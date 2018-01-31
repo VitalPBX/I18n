@@ -48,3 +48,27 @@ backup_and_restore.version = Versión
 backup_and_restore.version.tooltip = Versión del producto de este Respaldo.
 menu.backup_and_restore = Respaldar & Restaurar
 module.backup_and_restore = Respaldar & Restaurar
+backup_and_restore.actions = Acciones
+backup_and_restore.app_version = {0} Versión
+backup_and_restore.automatic_backup = Ejecutar Automáticamente
+backup_and_restore.automatic_backup.tooltip = 	
+	Le permite usar un Cron creado previamente en <b>"PBX>>Herramientas>>Perfiles de Cron"</b> para que automáticamente
+	crea una copia de seguridad con la configuración seleccionada.
+backup_and_restore.backup_not_deleted = La copia de seguridad no se ha eliminado
+backup_and_restore.backups_list = Lista de Copias de Seguridad
+backup_and_restore.cannot_create_backup_group = No se puede crear el grupo de respaldo "{0}"
+backup_and_restore.cannot_delete_group = El grupo de respaldo no se puede eliminar
+backup_and_restore.cannot_restore = ¡Lo sentimos!, la copia de seguridad seleccionada no se puede restaurar
+backup_and_restore.confirm_group_delete = ¿Estás seguro de que deseas eliminar este grupo de respaldo y todas las copias de seguridad generadas por él?
+backup_and_restore.date_time = Fecha y Hora
+backup_and_restore.execute = Ejecutar copia de seguridad ahora!
+backup_and_restore.general = {general}
+backup_and_restore.import = Importar Copia de Seguridad
+backup_and_restore.limit = Limite
+backup_and_restore.limit.tooltip = 	
+	Le permite definir la cantidad de copias de seguridad que se almacenarán. Cuando se alcanza el límite,
+	la copia más antigua será eliminada
+backup_and_restore.product_version = Version de Aplicacion
+backup_and_restore.validations.duplicated_name = Ya existe una copia de seguridad con el mismo nombre.
+backup_and_restore.validations.name = Por favor, proporciona un nombre válido. Se permiten valores alfanuméricos, espacios, guiones, guiones bajos y puntos.
+backup_and_restore.validations.no_backup_data = No se recibió suficiente información para hacer una copia de seguridad
