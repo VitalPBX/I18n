@@ -1,4 +1,4 @@
-menu.http_server = HTTP Сервер
+menu.http_server = Настройки HTTP
 module.http_server = {menu.http_server}
 http_server.general = {ombutel.general}
 http_server.http_port = HTTP порт
