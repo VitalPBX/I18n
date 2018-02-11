@@ -31,7 +31,7 @@ domotic_extensions.validation.empty_cos = Требуется Класс обсл
 domotic_extensions.validation.empty_dial = Требуется номер для набора.
 domotic_extensions.validation.invalid_dial = Номер для набора имеет неверный формат. Разрешены числа, *, # и +
 domotic_extensions.validation.empty_description = Требуется описание.
-domotic_extensions.validation.invalid_description = The description has an invalid format. numbers, letters, spaces, dashes and underscores are allowed.
+domotic_extensions.validation.invalid_description = Описание имеет неверный формат. Разрешены числа, буквы, пробелы, тире и символы подчеркивания.
 
 domotic_extensions.delete = {ombutel.delete}
 domotic_extensions.delete.message = {ombutel.confirm_delete.default_msg}
