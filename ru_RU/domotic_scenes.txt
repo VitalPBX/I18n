@@ -1,5 +1,5 @@
-domotic_scenes = Domotic Scenes
+domotic_scenes = Сценарии Domotic
 module.domotic_scenes = {domotic_scenes}
 
 domotic_scenes.general.tab = {ombutel.general}
-domotic_scenes.show_menu = Show menu with scenes
+domotic_scenes.show_menu = Показать меню со сценариями
