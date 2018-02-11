@@ -20,17 +20,17 @@ domotic_extensions.toggle_mode.help = Если установлено <b>"Да"<
 domotic_extensions.toggle_mode.help2 = If set to yes the scene will be executed without prompt instructions.
 domotic_extensions.recording_id = Приветствие
 domotic_extensions.recording_id.help = Сообщение, которое нужно воспроизвести в начале, обычно для указания того, с каким {0} вы собираетесь взаимодействовать
-domotic_extensions.hint = Generate Hint
-domotic_extensions.hint.help = Generate Hint for This Device
-domotic_extensions.blf = BLF Hint
-domotic_extensions.blf.help = This is the string to add on the BLF Lines of your phone.
+domotic_extensions.hint = Создать подсказку
+domotic_extensions.hint.help = Создать подсказку для этого устройства
+domotic_extensions.blf = Подсказка BLF
+domotic_extensions.blf.help = Строка для добавления в BLF линии вашего телефона.
 
-domotic_extensions.validation.empty_device = The device is required.
+domotic_extensions.validation.empty_device = Требуется устройство.
 domotic_extensions.validation.empty_scene = The scene is required.
-domotic_extensions.validation.empty_cos = The class of service is required.
-domotic_extensions.validation.empty_dial = The number to dial is required.
-domotic_extensions.validation.invalid_dial = The number to dial has an invalid format. numbers, *, # and + are allowed.
-domotic_extensions.validation.empty_description = The description is required.
+domotic_extensions.validation.empty_cos = Требуется Класс обслуживания.
+domotic_extensions.validation.empty_dial = Требуется номер для набора.
+domotic_extensions.validation.invalid_dial = Номер для набора имеет неверный формат. Разрешены числа, *, # и +
+domotic_extensions.validation.empty_description = Требуется описание.
 domotic_extensions.validation.invalid_description = The description has an invalid format. numbers, letters, spaces, dashes and underscores are allowed.
 
 domotic_extensions.delete = {ombutel.delete}
