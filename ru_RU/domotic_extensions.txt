@@ -5,21 +5,21 @@ domotic_extensions.description.help = Краткое описание для и�
 domotic_extensions.unit_id = Контроллер
 domotic_extensions.unit_id.help = В зависимости от выбранного контроллера будет отображаться {0} для настройки.
 domotic_extensions.device_id = Устройство
-domotic_extensions.device_id.help = Device to interact.
-domotic_extensions.class_of_service_id = Class of Service
-domotic_extensions.class_of_service_id.help = Defines from which class of service will be accessible this {0}.
-domotic_extensions.pin_list_id = PIN List
-domotic_extensions.pin_list_id.help = Allows to define a pin list for protect the interaction with the {0}.
-domotic_extensions.white_list = White List
-domotic_extensions.white_list.help = Allows to define which numbers doesn't need enter a pin for interact with the selected {0}.
+domotic_extensions.device_id.help = Устройство для взаимодействия.
+domotic_extensions.class_of_service_id = Класс обслуживания
+domotic_extensions.class_of_service_id.help = Определяет, из какого Класса обслуживания будет доступно это {0}.
+domotic_extensions.pin_list_id = Список PIN-кодов
+domotic_extensions.pin_list_id.help = Позволяет определить список PIN-кодов для защиты взаимодействия с {0}.
+domotic_extensions.white_list = Белый список
+domotic_extensions.white_list.help = Позволяет определить, каким номерам не надо вводить PIN-код для взаимодействия с выбранным {0}.
 domotic_extensions.scene_id = Scene
 domotic_extensions.scene_id.help = Scene to interact.
-domotic_extensions.toggle_mode = Toggle Mode
-domotic_extensions.toggle_mode2 = Skip Instructions
-domotic_extensions.toggle_mode.help = If set to yes the device status will be toggle without prompt anything.
+domotic_extensions.toggle_mode = Режим переключения
+domotic_extensions.toggle_mode2 = Пропустить инструкции
+domotic_extensions.toggle_mode.help = Если установлено <b>"Да"</b>, статус устройства будет переключаться без подсказки.
 domotic_extensions.toggle_mode.help2 = If set to yes the scene will be executed without prompt instructions.
-domotic_extensions.recording_id = Welcome Message
-domotic_extensions.recording_id.help = Message to be played at the begin, usually to indicate what {0} you're going to interact
+domotic_extensions.recording_id = Приветствие
+domotic_extensions.recording_id.help = Сообщение, которое нужно воспроизвести в начале, обычно для указания того, с каким {0} вы собираетесь взаимодействовать
 domotic_extensions.hint = Generate Hint
 domotic_extensions.hint.help = Generate Hint for This Device
 domotic_extensions.blf = BLF Hint
@@ -37,8 +37,8 @@ domotic_extensions.delete = {ombutel.delete}
 domotic_extensions.delete.message = {ombutel.confirm_delete.default_msg}
 
 domotic_extensions.device =
-    [one] device
-    *[other] devices
+    [one] устройство
+    *[other] устройства
 
 domotic_extensions.scene =
      [one] scene
