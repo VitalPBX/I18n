@@ -51,3 +51,4 @@ emailsettings.validation.empty_username = Debe configurarse un Nombre de Usuario
 emailsettings.validation.invalid_port = El puerto no es válido
 menu.email_settings = Correo Electrónico
 module.emailsettings = Configuración del Correo Electrónico
+emailsettings.from_address = Remitente

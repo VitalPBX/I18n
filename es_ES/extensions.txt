@@ -207,3 +207,4 @@ extensions.vm_password.invalid = Contraseña de correo de voz inválida %s. La c
 module.fax = Fax
 module.follow_me = Sígueme
 module.voicemail = Correo de Voz
+extensions.fxs_channel.invalid = El canal FXS no puede estar vacío

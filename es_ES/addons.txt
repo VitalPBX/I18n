@@ -1,7 +1,7 @@
 addons.about = Acerca de {0}
 addons.about_it = Sobre eso
 addons.activated = Activado
-addons.addon = Añadir
+addons.addon = Complemento
 addons.available_version = Actualización Disponible
 addons.check_for_updates = Buscar Actualizaciones
 addons.check_online = Revisa en Linea

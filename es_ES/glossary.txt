@@ -18,3 +18,7 @@ running = Corriendo
 trace = Traza de Error
 username = Nombre de Usuario
 warning = Advertencia
+disabled = Deshabilitar
+file_to_large = El archivo seleccionado es demasiado grande, el tamaño permitido es {0}
+invalid_file_type = El tipo de archivo seleccionado no es válido
+new = Nuevo
