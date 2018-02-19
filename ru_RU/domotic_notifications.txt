@@ -1,23 +1,22 @@
-module.domotic_notifications = Domotic Notifications
+module.domotic_notifications = Уведомления Domotic
 
 domotic_notifications.general.tab = {ombutel.general}
 
-domotic_notifications.unit_id = Unit
-domotic_notifications.unit_id.help = Depending of the selected unit will show the device to configure.
-domotic_notifications.device_id = Device
-domotic_notifications.device_id.help = Device to configure the notification.
-domotic_notifications.device_id.select_one = -- Select One --
-domotic_notifications.recording_id = Welcome Message
-domotic_notifications.recording_id.help = Audio to be played when the device be tripped
-domotic_notifications.enabled = Enabled
-domotic_notifications.enabled.help = Enable the notifications for this device
-domotic_notifications.destination = Destination
+domotic_notifications.unit_id = Контроллер
+domotic_notifications.unit_id.help = В зависимости от выбранного контроллера будет отображаться устройство для настройки.
+domotic_notifications.device_id = Устройство
+domotic_notifications.device_id.help = Устройство для настройки уведомления.
+domotic_notifications.device_id.select_one = -- Выбрать устройство --
+domotic_notifications.recording_id = Приветствие
+domotic_notifications.recording_id.help = Звук или сообщение, которое будет воспроизводиться при смене устройства
+domotic_notifications.enabled = Включено
+domotic_notifications.enabled.help = Включить уведомления для этого устройства
+domotic_notifications.destination = Направление
 
-domotic_notifications.validation.device_id = The device is required.
-domotic_notifications.validation.recording_id = The notification audio is required.
-domotic_notifications.validation.mod_destination = The destination module is required.
-domotic_notifications.validation.destination = The destination is required.
+domotic_notifications.validation.device_id = Требуется устройство.
+domotic_notifications.validation.recording_id = Требуется приветствие.
+domotic_notifications.validation.mod_destination = Требуется модуль направления.
+domotic_notifications.validation.destination = Требуется направление.
 
 domotic_notifications.delete = {ombutel.delete}
-domotic_notifications.delete.message = Are you sure that you want delete this notification?
-
+domotic_notifications.delete.message = Вы уверены, что хотите удалить это уведомление?
