@@ -1,4 +1,4 @@
-menu.ivr_reports = Отчеты голосового меню
+menu.ivr_reports = Голосовое меню
 menu.ivr_stats = Статистика голосового меню
 module.ivr_stats = Статистика голосового меню
 ivr_stats.ivr_id = Голосовое меню
