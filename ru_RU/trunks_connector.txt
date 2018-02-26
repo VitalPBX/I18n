@@ -1,11 +1,11 @@
-menu.trunks_connector = Pass-Through
-menu.trunks_connector_routing = PT Trunks
+menu.trunks_connector = Промежуточная АТС
+menu.trunks_connector_routing = Промежуточные линии
 module.trunks_connector_routing = {menu.trunks_connector_routing}
-menu.trunks_connector_extensions = PT Extensions
+menu.trunks_connector_extensions = Промежуточные номера
 module.trunks_connector_extensions = {menu.trunks_connector_extensions}
-trunks_connector_routing.description = Description
-trunks_connector_routing.description.help = A short description to identify this item
-trunks_connector_routing.private_trunk_id = Private Trunk
+trunks_connector_routing.description = Описание
+trunks_connector_routing.description.help = Краткое описание для идентификации этой промежуточной линии
+trunks_connector_routing.private_trunk_id = Внутренняя линия
 trunks_connector_routing.private_trunk_id.help = Represents the trunk that point to a local PBX
 trunks_connector_routing.public_trunk_id = Public Trunk
 trunks_connector_routing.public_trunk_id.help = Represents the trunk that point to the PSTN (Public Switched Telephone Network)
