@@ -1,4 +1,4 @@
-menu.trunks_connector = Промежуточная АТС
+menu.trunks_connector = <span style="margin-left: -5%;">Промежуточная АТС</span>
 menu.trunks_connector_routing = Промежуточные линии
 module.trunks_connector_routing = {menu.trunks_connector_routing}
 menu.trunks_connector_extensions = Промежуточные номера
