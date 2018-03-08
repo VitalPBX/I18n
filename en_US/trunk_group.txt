@@ -8,7 +8,7 @@ trunk_group.pin_list_id = PIN
 trunk_group.pin_list_id.tooltip = Choose a group PIN.
 trunk_group.select_outbound_route = -- Select Outbound Route --
 trunk_group.trklist = Trunks
-trunk_group.trklist.empty = No trunks selected for this trunk group.
+trunk_group.trklist.empty = No trunks selected for this outbound route.
 trunk_group.trklist.tooltip = List of trunks to dial
 trunk_group.trkpattern = Dial Patterns %s
 trunk_group.trkpattern.pattern = Pattern
@@ -23,3 +23,9 @@ trunk_group.trkpattern.prepend.placeholder = Prepend
 trunk_group.trkpattern.prepend.tooltip = Digits to prepend when matching.
 trunk_group.virttrk = Tenant Trunks
 trunk_group.virttrk.tooltip = List of tenants that this tenant can call as trunk
+trunk_group.intra_company = Intra-Company
+trunk_group.intra_company.tooltip =
+	If checked, the internal caller id will be sent through this outbound route, instead of the external caller id
+	of the calling extension
+trunk_group.no_patterns = No patterns configured for this outbound route
+trunk_group.no_description = No description has been provided
