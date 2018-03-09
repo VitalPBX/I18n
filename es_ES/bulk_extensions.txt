@@ -33,5 +33,5 @@ bulk_extensions.vm_enabled = Habilitar Cooreo de Voz
 bulk_extensions.vm_password.tooltip = 	
 	Le permite definir la contraseña del correo de voz para cada extensión, si se deja en blanco, la contraseña será el número de extensión
 	Puede usar la palabra reservada <b>&#123;RANDOM&#125;</b> para generar una contraseña aleatoria.
-menu.bulk_extensions = Extensiones Masivas
+menu.bulk_extensions = Creación Masiva
 module.bulk_extensions = {menu.bulk_extensions}
