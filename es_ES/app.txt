@@ -32,3 +32,4 @@ app.module_not_found = El módulo <b>{0}</b> no existe
 app.no_access_to_module = Usted no tiene acceso al módulo "<b>{0}</b>"
 app.no_update_from_gui = No tiene permitido actualizar desde la GUI
 app.user_profile_not_allowed = No tiene permitido cambiar las configuraciones de su perfil
+app.activation.no_country = Por favor seleccione su país

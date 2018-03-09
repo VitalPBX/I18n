@@ -1,0 +1,14 @@
+menu.phone_books = Guías Telefónicas
+module.phone_books = {menu.phone_books}
+phone_books.conferences = Conferencias
+phone_books.contacts.tooltip = Le permite seleccionar qué {0} estará disponible en esta Guia Telefónica
+phone_books.description = Descripción
+phone_books.extensions = Extensiones
+phone_books.feature_codes = Funciones Telefónicas
+phone_books.general = {ombutel.general}
+phone_books.queues = Colas
+phone_books.ring_groups = Grupos de Timbrado
+phone_books.url = URL de Guía Telefónica
+phone_books.url.tooltip = URL para cargar esta guía telefónica en cualquier teléfono compatible.
+phone_books.validations.no_contacts = No seleccionó ningún contacto para esta guía telefónica. Seleccione al menos un contacto.
+phone_books.validations.no_desc = Se ha proporcionado una descripción inválida. Proporcione una descripción alfanumérica.

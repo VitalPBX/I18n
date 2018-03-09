@@ -1,0 +1,37 @@
+bulk_extensions.accountcode.tooltip = 	
+	Le permite definir el código de cuenta para cada extensión. Puede usar la palabra reservada <b>&#123;EXTENSION&#125;</b>
+	para utilizar la extensión como código de cuenta.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Tecnología de Los Dispositivos
+bulk_extensions.dev_technology.tooltip = Define la tecnología del dispositivo que se asignará a cada extensión
+bulk_extensions.device_password = Contraseña de Los Dispositivos
+bulk_extensions.device_password.tooltip = 	
+	Le permite definir una contraseña dinámica o fija para los dispositivos generados. Si está en blanco, se establecerá una contraseña aleatoria.
+	Puede usar la palabra reservada <b>&#123;EXTENSION&#125;</b> para hacer que el número de extensión sea parte de la contraseña,
+	Ejemplo: si la extensión es 100 y establece el siguiente valor para este campo <b>securepwd&#123;EXTENSION&#125;</b>, entonces, la contraseña será:
+	<b>securepwd100</b>
+bulk_extensions.features_password.tooltip = 	
+	Le permite definir la contraseña de Funciones Telefónicas para cada extensión, si se deja en blanco, se generará una contraseña aleatoria.
+	Puede usar la palabra reservada <b>&#123;EXTENSION&#125;</b> para utilizar la extensión como contraseña de Funciones Telefónicas.
+bulk_extensions.general = {ombutel.general}
+bulk_extensions.name_prefix = Prefijo
+bulk_extensions.name_prefix.tooltip = 	
+	Le permite definir un prefijo para usar como parte del nombre de la extensión, por ej .: si establece el valor del prefijo "Agent" y
+	la extensión es 200, el nombre de la extensión será <b>Agent 200</b>. Si está en blanco, se usará la palabra <b>Extension</b> como prefijo.
+bulk_extensions.range = Rango de Extensiones
+bulk_extensions.range.tooltip = 	
+	Define el rango de extensiones que desea crear, p. Ej .: de 1000 a 1400.
+	<b>Si alguna de las extensiones en el rango ya existe será omitida</b>.
+bulk_extensions.recording_types = Grabación de Llamadas
+bulk_extensions.recording_types.tooltip = Le permite seleccionar qué tipo de llamadas se grabarán
+bulk_extensions.success = 	El rango de extensiones ha sido procesado con éxito. <b>Extensiones Creadas</b>: {0} | <b>Extensiones Omitidas</b>: {1}
+bulk_extensions.validation.invalid_f_password =	La contraseña de Funciones Telefónicas contiene caracteres no válidos. Solo se permiten números, asterisco o palabras reservadas
+bulk_extensions.validation.invalid_range = Se ha proporcionado un rango de extensión no válido
+bulk_extensions.validation.invalid_vm_password =	La contraseña del correo de voz contiene caracteres no válidos. Solo se permiten números, asterisco o palabras reservadas
+bulk_extensions.vm_enabled = Habilitar Cooreo de Voz
+bulk_extensions.vm_password.tooltip = 	
+	Le permite definir la contraseña del correo de voz para cada extensión, si se deja en blanco, la contraseña será el número de extensión
+	Puede usar la palabra reservada <b>&#123;RANDOM&#125;</b> para generar una contraseña aleatoria.
+menu.bulk_extensions = Extensiones Masivas
+module.bulk_extensions = {menu.bulk_extensions}

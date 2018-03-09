@@ -208,3 +208,4 @@ module.fax = Fax
 module.follow_me = Sígueme
 module.voicemail = Correo de Voz
 extensions.fxs_channel.invalid = El canal FXS no puede estar vacío
+extensions.extension.tab = Extensión {0}

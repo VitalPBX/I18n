@@ -32,3 +32,7 @@ system_general.trunk_dialoptions.tooltip = El valor predeterminado a utilizar pa
 system_general.recording_script = Script de Grabaciones
 system_general.recording_script.tooltip = Script a ser ejecutado una vez que termine la grabación. Los parámetros de la secuencia de comandos pueden ser definidos en series separadas por espacios como ^{{<i><b>nombreparametro</b></i>}}, en donde <i><b>nombreparametro</b></i> puede ser cualquier canal o MixMonitor variable. Por ejemplo, <br> ^{{UNIQUEID}} - channel ID<br> ^{{MIXMONITOR_FILENAME}} - nombre del archivo de grabación.
 system_general.recording_script.invalid = El script de grabación no fue encontrado
+system_general.default_ast_lang = Idioma Predeterminado
+system_general.default_ast_lang.tooltip = Idioma para seleccionar de forma predeterminada cuando se está creando una nueva extensión
+system_general.devices_prefix = Prefijo de Dispositivos
+system_general.devices_prefix.tooltip = Prefijo para anexar de forma predeterminada al nombre de usuario del dispositivo

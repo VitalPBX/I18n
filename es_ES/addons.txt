@@ -46,3 +46,5 @@ menu.addons = Complementos
 menu.addons_licensing = Licencia
 menu.addons_market = Complementos
 module.addons = Complementos
+addons.cache_cleaned_up = El caché ha sido limpiado
+addons.clean_cache = Limpiar cache

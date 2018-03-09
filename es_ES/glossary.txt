@@ -22,3 +22,7 @@ disabled = Deshabilitar
 file_to_large = El archivo seleccionado es demasiado grande, el tamaño permitido es {0}
 invalid_file_type = El tipo de archivo seleccionado no es válido
 new = Nuevo
+extension = Extensión
+refresh = Refrescar
+select_one = -- Seleccione Uno --
+used_number = El número <b>{0}</b> está siendo utilizado por el módulo {1}.

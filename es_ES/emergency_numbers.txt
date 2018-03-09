@@ -1,0 +1,21 @@
+emergency_numbers.cat_description = Descripción
+emergency_numbers.cat_description.tooltip = Una breve descripción para reconocer fácilmente esta lista de números de emergencia
+emergency_numbers.description = Nombre del Servicio
+emergency_numbers.description.placeholder = Ej .: Policía, Bomberos, Ambulancia, Etc.
+emergency_numbers.description.tooltip = Nombre del servicio que representa este número de teléfono. Ej .: Policía, Bomberos, Ambulancia, etc.
+emergency_numbers.general = {ombutel.general}
+emergency_numbers.legend = Lista de números de emergencia
+emergency_numbers.number = Número
+emergency_numbers.number.placeholder = Ej.: 911
+emergency_numbers.number.tooltip = Número de teléfono para contactar a los servicios de emergencia locales para asistencia
+emergency_numbers.trunks = Troncales
+emergency_numbers.trunks.tooltip = Lista de troncales que se pueden usar en caso de una llamada de emergencia
+emergency_numbers.validation.invalid_number = 	
+	El siguiente número <b>"{0}"</b> tiene un formato no válido, por favor escriba un número de teléfono válido.
+	Debe contener los siguientes caracteres: *,#,+
+emergency_numbers.validation.n_duplicated =	El número de emergencia {0} ya está siendo utilizado por la siguiente categoría de número de emergencia: <b>{1}</b>.
+emergency_numbers.validation.no_desc = No se ha proporcionado ninguna descripción. Proporcione una descripción válida
+emergency_numbers.validation.no_numbers = No se han proporcionado números. Por favor agrega al menos un número.
+emergency_numbers.validation.no_trunks = Ninguna troncal ha sido seleccionada. Seleccione al menos una troncal.
+menu.emergency_numbers = Números de Emergencia
+module.emergency_numbers = {menu.emergency_numbers}
