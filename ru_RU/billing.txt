@@ -1,0 +1,2 @@
+billing.app.sonata_billing = Sonata Биллинг
+billing.app.a2billing = A2 Биллинг
