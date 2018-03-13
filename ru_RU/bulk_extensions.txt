@@ -1,7 +1,7 @@
 menu.bulk_extensions = Bulk Extensions
 module.bulk_extensions = {menu.bulk_extensions}
 bulk_extensions.general = {ombutel.general}
-bulk_extensions.range = Extensions Range
+bulk_extensions.range = Диапазон номеров
 bulk_extensions.range.tooltip =
 	Defines the range of extensions that you want to create, eg.: from 1000 to 1400.
 	<b>If any of the extensions in the range already exists will be skipped</b>.
