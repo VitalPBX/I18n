@@ -9,6 +9,6 @@ phone_books.conferences = Конференции
 phone_books.queues = Очереди
 phone_books.contacts.tooltip = Позволяет вам выбрать, какой {0} будет доступен в этой телефонной книге
 phone_books.validations.no_contacts = Вы не выбрали контакт для этой телефонной книги. Выберите хотя бы один контакт
-phone_books.validations.no_desc = Недопустимое описание. Используйте только буквы и цифры.
+phone_books.validations.no_desc = Недопустимое описание. 
 phone_books.url = URL-адрес телефонной книги
 phone_books.url.tooltip = URL для загрузки этой телефонной книги в любой поддерживаемый телефон
