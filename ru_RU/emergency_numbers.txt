@@ -1,0 +1,22 @@
+menu.emergency_numbers = Экстренные номера
+module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.general = {ombutel.general}
+emergency_numbers.trunks = Внешние линии
+emergency_numbers.trunks.tooltip = Список внешних линий, которые могут использоваться в случае экстренного вызова
+emergency_numbers.legend = Список экстренных номеров
+emergency_numbers.number = Номер
+emergency_numbers.number.tooltip = Номер телефона для связи с местными службами экстренной помощи
+emergency_numbers.number.placeholder = пр.: 911
+emergency_numbers.description = Название службы
+emergency_numbers.description.tooltip = Название службы для этого номер телефона, например: Полиция, Пожарные, Скорая помощь и т.д.
+emergency_numbers.description.placeholder = например: Полиция, Пожарные, Скорая помощь и т.д.
+emergency_numbers.validation.invalid_number =
+	Номер <b>"{0}"</b> имеет неверный формат, пожалуйста введите правильный номер телефона.
+	Номер должен содержать следующие символы: *,#,+
+emergency_numbers.cat_description = Описание
+emergency_numbers.cat_description.tooltip = Краткое описание, чтобы можно было легко распознать этот список номеров экстренных служб
+emergency_numbers.validation.no_desc = Нет описания. Укажите верное описание
+emergency_numbers.validation.no_trunks = Не выбраны внешние линии. Выберите хотя бы одну линию.
+emergency_numbers.validation.no_numbers = Номера не были предоставлены. Добавьте хотя бы один номер.
+emergency_numbers.validation.n_duplicated =
+	Номер экстренной службы {0} уже используется следующей категорией: <b>{1}</b>.
