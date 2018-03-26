@@ -19,22 +19,22 @@ bulk_extensions.accountcode.tooltip =
 	Позволяет определить код аккаунта для каждого номера.
 	Вы можете использовать зарезервированное слово <b>&#123;EXTENSION&#125;</b>, чтобы использовать номер в качестве кода аккаунта.
 bulk_extensions.features_password.tooltip =
-	Позволяет определить пароль функций для каждого расширения, если он оставлен пустым, будет создан случайный пароль.Allows you to define the features password for each extension, if left blank, a random password will be generated.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to use the extension as features password.
-bulk_extensions.validation.invalid_range = An invalid extension range have been provided
+	Позволяет определить пароль к сервисным кодам для каждого номера, если поле оставить пустым, будет создан случайный пароль.
+	Вы можете использовать зарезервированное слово <b>&#123;EXTENSION&#125;</b>, чтобы использовать номер в качестве пароля к сервисным кодам.
+bulk_extensions.validation.invalid_range = Использован недопустимый диапазон номеров
 bulk_extensions.validation.invalid_vm_password =
-	The voicemail password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
+	Пароль голосовой почты содержит недопустимые символы. Разрешены только цифры, символ звездочки или зарезервированные слова
 bulk_extensions.validation.invalid_f_password =
-	The features password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
+	Пароль к сервисным кодам содержит недопустимые символы. Разрешены только цифры, символ звездочки или зарезервированные слова
 bulk_extensions.success =
-	The extensions range have been processed successfully. <b>Created Extensions</b>: {0} | <b>Skipped Extensions</b>: {1}
-bulk_extensions.name_prefix = Name Prefix
+	Диапазон номеров был успешно обработан. <b>Создано номеров</b>: {0} | <b>Пропущено номеров</b>: {1}
+bulk_extensions.name_prefix = Префикс имени
 bulk_extensions.name_prefix.tooltip =
-	Allows you to define a prefix to use as part of the extension name, eg.: if you set the prefix value to Agent and
-	the extension is 200, the extension name will be <b>Agent 200</b>. If blank, the word <b>Extension</b> will be used as prefix
-bulk_extensions.device_password = Devices Password
+	Позволяет использовать префикс как часть имени номера, например: если использовать префикс "Агент" и номер 200,
+	имя номера будет <b>Агент 200</b>. Если поле оставить пустым, зарезервированное слово <b>&#123;EXTENSION&#125;</b> будет использовано в качестве префикса.
+bulk_extensions.device_password = Пароль
 bulk_extensions.device_password.tooltip =
-	It allows you to define a dynamic or fixed password for the generated devices. If blank, a random password will be set.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to make the extension number part of the password,
-	eg.: if the extension is 100 and you set the following value to this field <b>securepwd&#123;EXTENSION&#125;</b>, then, the password will be:
+	Позволяет определить динамический или фиксированный пароль для сгенерированных номеров. Если поле оставить пустым, будет установлен случайный пароль.
+	Вы можете использовать зарезервированное слово <b>&#123;EXTENSION&#125;</b>, чтобы сделать номер частью пароля,
+	например.: если номер 100, и вы установите для этого поля следующее значение <b>securepwd&#123;EXTENSION&#125;</b>, тогда пароль будет:
 	<b>securepwd100</b>
