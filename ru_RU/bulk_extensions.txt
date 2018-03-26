@@ -4,7 +4,7 @@ bulk_extensions.general = {ombutel.general}
 bulk_extensions.range = Диапазон номеров
 bulk_extensions.range.tooltip =
 	Определяет диапазон номеров, которые вы хотите создать, например: от 1000 до 1400.
-	<b>Если какое-либо номер из диапазона уже существующет, то он будет пропущен If any of the extensions in the range already exists will be skipped</b>.
+	<b>Если какое-либо номер из диапазона уже существующет, то он будет пропущен</b>.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
 bulk_extensions.dev_technology = Технология
