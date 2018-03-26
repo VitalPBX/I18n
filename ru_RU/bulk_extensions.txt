@@ -13,13 +13,13 @@ bulk_extensions.vm_enabled = Гол. почта включена
 bulk_extensions.recording_types = Запись вызовов
 bulk_extensions.recording_types.tooltip = Позволяет выбрать, какие типы вызовов будут записываться
 bulk_extensions.vm_password.tooltip =
-	Allows you to define the voicemail password for each extension, if left blank, the password will be the extension
-	number. You may use the reserved word <b>&#123;RANDOM&#125;</b> to generate a random password.
+	Позволяет определить пароль голосовой почты для каждого номера, если поле оставить пустым, пароль будет совпадать с номером.
+	Вы можете использовать зарезервированное слово <b>&#123;RANDOM&#125;</b> для генерации случайного пароля.
 bulk_extensions.accountcode.tooltip =
-	Allows you to define the account code for each extension. You may use the reserved word <b>&#123;EXTENSION&#125;</b>
-	to use the extension as account code.
+	Позволяет определить код аккаунта для каждого номера.
+	Вы можете использовать зарезервированное слово <b>&#123;EXTENSION&#125;</b>, чтобы использовать номер в качестве кода аккаунта.
 bulk_extensions.features_password.tooltip =
-	Allows you to define the features password for each extension, if left blank, a random password will be generated.
+	Позволяет определить пароль функций для каждого расширения, если он оставлен пустым, будет создан случайный пароль.Allows you to define the features password for each extension, if left blank, a random password will be generated.
 	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to use the extension as features password.
 bulk_extensions.validation.invalid_range = An invalid extension range have been provided
 bulk_extensions.validation.invalid_vm_password =
