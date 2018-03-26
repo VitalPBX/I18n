@@ -3,15 +3,15 @@ module.bulk_extensions = {menu.bulk_extensions}
 bulk_extensions.general = {ombutel.general}
 bulk_extensions.range = Диапазон номеров
 bulk_extensions.range.tooltip =
-	Defines the range of extensions that you want to create, eg.: from 1000 to 1400.
-	<b>If any of the extensions in the range already exists will be skipped</b>.
+	Определяет диапазон номеров, которые вы хотите создать, например: от 1000 до 1400.
+	<b>Если какое-либо номер из диапазона уже существующет, то он будет пропущен If any of the extensions in the range already exists will be skipped</b>.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
-bulk_extensions.dev_technology = Devices Technology
-bulk_extensions.dev_technology.tooltip  = Defines the technology of the device that will be assigned to each extension
-bulk_extensions.vm_enabled = Voicemail Enabled
-bulk_extensions.recording_types = Recording Calls
-bulk_extensions.recording_types.tooltip = Allows you to select which kind of calls will be recorded
+bulk_extensions.dev_technology = Технология
+bulk_extensions.dev_technology.tooltip  = Определяет технологию, которая будет назначено каждому номеру
+bulk_extensions.vm_enabled = Гол. почта включена
+bulk_extensions.recording_types = Запись вызовов
+bulk_extensions.recording_types.tooltip = Позволяет выбрать, какие типы вызовов будут записываться
 bulk_extensions.vm_password.tooltip =
 	Allows you to define the voicemail password for each extension, if left blank, the password will be the extension
 	number. You may use the reserved word <b>&#123;RANDOM&#125;</b> to generate a random password.
