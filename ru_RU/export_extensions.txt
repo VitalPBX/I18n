@@ -1,4 +1,4 @@
-menu.export_extensions = Экспорт номеров
+menu.export_extensions = <span style="margin-left: -5%;">Экспорт номеров</span>
 module.export_extensions = Экспорт номеров
 export_extensions = Экспорт номеров
 export_extensions.add_extension = Добавить номер
