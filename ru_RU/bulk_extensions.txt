@@ -1,4 +1,4 @@
-menu.bulk_extensions = Bulk Extensions
+menu.bulk_extensions = Изменение номеров
 module.bulk_extensions = {menu.bulk_extensions}
 bulk_extensions.general = {ombutel.general}
 bulk_extensions.range = Диапазон номеров
