@@ -80,7 +80,7 @@ import_extensions.technology = Технология
 import_extensions.technology.not_match = Невозможно изменить технологию для устройства %s
 import_extensions.technology.tooltip = Технология устройства
 import_extensions.technology.invalid = Технология '%s' для устройства %s неверна. Должно быть одно из следующих: SIP, IAX или FXS.
-menu.import_extensions = Импорт номеров
+menu.import_extensions = <span style="margin-left: -5%;">Импорт номеров</span>
 module.import_extensions = Импорт номеров
 import_extensions.any_did = Любой DID
 import_extensions.description.cid_number = CID номер/шаблон для маршрутизации входящих вызовов.
