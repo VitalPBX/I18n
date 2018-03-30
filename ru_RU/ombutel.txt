@@ -4,7 +4,7 @@ menu.applications = <span style="margin-left: -5%;">Приложения</span>
 menu.callcenter = <span style="margin-left: -5%;">Call-центр</span>
 menu.cdr = Детализация 
 menu.configure = Конфигурировать
-menu.extensions = Внутренние номера
+menu.extensions = <span style="margin-left: -5%;">Внутренние номера</span>
 menu.external = <span style="margin-left: -5%;">Маршруты</span>
 menu.incoming_calls = <span style="margin-left: -5%;">Входящие звонки</span>
 menu.licenses = Лицензии
