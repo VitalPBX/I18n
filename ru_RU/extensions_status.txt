@@ -61,5 +61,5 @@ extensions_status.device_info.local = Локальный
 extensions_status.device_info.host = Хост
 extensions_status.device_info.useragent = Клиент
 extensions_status.no_devices = Нет устройств
-menu.extensions_status = Дополнительные настройки
+menu.extensions_status = <span style="margin-left: -5%;">Дополнительные настройки</span>
 module.extensions_status = Доп. настройки
