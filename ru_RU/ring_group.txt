@@ -1,5 +1,5 @@
-menu.ring_groups = Группы Вызова
-module.ring_group = Группы Вызова
+menu.ring_groups = Группы вызова
+module.ring_group = Группы вызова
 ring_group = Группа Вызова
 ring_group.description = Описание
 ring_group.description.tooltip = Краткое описание для идентификации этой группы вызова.
