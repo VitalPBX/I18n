@@ -7,5 +7,5 @@ custom_dest.destination = Номер для вызова
 custom_dest.destination.invalid = Неверный номер для вызова. Разрешены только символы *, #, + и цифры.
 custom_dest.destination.tooltip = Внутренний или внешний номер для этого направления.
 custom_dest.general = Общие
-menu.custom_destinations = Доп. Направления
+menu.custom_destinations = Доп. направления
 module.custom_dest = Дополнительное направление
