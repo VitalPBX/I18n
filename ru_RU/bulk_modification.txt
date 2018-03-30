@@ -33,5 +33,5 @@ bulk_modification.field.ringtime = Время звонка
 bulk_modification.field.tooltip = Параметр, который необходимо изменить во всех выбранных номерах
 bulk_modification.general = Общие
 bulk_modification.select_extensions = Выберите номера
-menu.bulk_modification = Массовое изменение
+menu.bulk_modification = <span style="margin-left: -5%;">Массовое изменение</span>
 module.bulk_modification = Массовое изменение
