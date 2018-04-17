@@ -32,3 +32,4 @@ app.module_not_found = Модуль <b>{0}</b> не существует
 app.no_access_to_module = У вас нет доступа к модулю "<b>{0}</b>"
 app.no_update_from_gui = Вам не разрешено обновляться из графического интерфейса
 app.user_profile_not_allowed = Вам не разрешено изменять настройки профиля
+app.activation.no_country = Пожалуйста, выберите страну

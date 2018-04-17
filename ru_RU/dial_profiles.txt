@@ -1,5 +1,5 @@
-menu.dial_profiles = Профили Набора
-module.dial_profiles = Профили Набора
+menu.dial_profiles = Профили набора
+module.dial_profiles = Профили набора
 dial_profiles.name = Название
 dial_profiles.name.help = Название для этого профиля. Название не может включать пробелы.
 dial_profiles.music_group_id = Музыка на удержании

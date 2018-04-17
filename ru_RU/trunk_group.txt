@@ -23,3 +23,7 @@ trunk_group.trkpattern.prepend.placeholder = Приставка
 trunk_group.trkpattern.prepend.tooltip = Цифры, которые будут добавлены к номеру, если найдено совпадение с шаблоном.
 trunk_group.virttrk = Арендаторы
 trunk_group.virttrk.tooltip = Список арендаторов, которые могут пользоваться данным маршрутом.
+trunk_group.intra_company = Внутри компании
+trunk_group.intra_company.tooltip = Если этот флажок установлен, внутренний идентификатор вызывающего абонента будет отправлен через этот исходящий маршрут вместо внешнего идентификатора вызывающего абонента
+trunk_group.no_patterns = Не настроены шаблоны для этого исходящего маршрута
+trunk_group.no_description = Нет описания
