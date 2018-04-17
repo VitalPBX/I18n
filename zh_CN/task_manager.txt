@@ -7,7 +7,8 @@ task_manager.description = Description
 task_manager.description.tooltip = A short description to identify this task
 task_manager.general = {ombutel.general}
 task_manager.script = Script
-task_manager.script.tooltip = 	Allows you to select an script to execute periodically, according to the cron's profile selected.
+task_manager.script.tooltip = 	
+	Allows you to select an script to execute periodically, according to the cron's profile selected.
 	The script must be located at <b>/var/lib/ombutel/scripts</b>
 task_manager.validations.duplicated_description = Another task is using the same description. Please verify
 task_manager.validations.duplicated_script = Another task has been defined with the same script. Please verify
