@@ -26,3 +26,4 @@ extension = Extensión
 refresh = Refrescar
 select_one = -- Seleccione Uno --
 used_number = El número <b>{0}</b> está siendo utilizado por el módulo {1}.
+app_installing = {0} Instalando

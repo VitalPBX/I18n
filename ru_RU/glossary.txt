@@ -26,3 +26,4 @@ refresh = Обновить
 select_one = -- Выбрать --
 used_number = Номер <b>{0}</b> используется модулем {1}.
 extension = Номер
+app_installing = {0} Installing

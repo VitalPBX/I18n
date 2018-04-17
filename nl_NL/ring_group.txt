@@ -27,3 +27,12 @@ ring_group.strategy.ringall = Overal rinkelen
 ring_group.strategy.tooltip = Rinkelstrategie
 ring_group.invalid.already_exists = Invalid Ring Group number {0}. The number is in use by {1} module.
 ring_group.ringtime.values = Ring Time value must be between 5 and 160 seconds.
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Class of Service to use for dial the external numbers listed in this ring group
+ring_group.external_numbers = External Numbers
+ring_group.external_numbers.tooltip = List with the external numbers to dial when this ring group being called
+ring_group.validation.duplicated_description = The provided description is being used by another ring group. Please verify
+ring_group.validation.duplicated_extension = The provided extension is being used by another ring group. Please verify
+ring_group.validation.no_extensions = No extensions or external numbers have been added to this ring group
+ring_group.validation.no_valid_number = 	The external number <b>{0}</b> contains invalid characters. Only numbers,
+	and the following characters are allowed: *, # and +

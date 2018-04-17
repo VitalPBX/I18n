@@ -1,0 +1,16 @@
+menu.task_manager = {task_manager}
+module.task_manager = {task_manager}
+task_manager = Administrador de Tareas
+task_manager.cron_profile = Perfil de Cron
+task_manager.cron_profile.tooltip = Representa el perfil del cron para programar esta tarea
+task_manager.description = Descripción
+task_manager.description.tooltip = Una breve descripción para identificar esta tarea
+task_manager.general = {ombutel.general}
+task_manager.script = Script
+task_manager.script.tooltip = 	
+	Le permite seleccionar una secuencia de comandos para ejecutar periódicamente, de acuerdo con el perfil de cron seleccionado.
+	El script debe estar ubicado en <b>/var/lib/ombutel/scripts</b>
+task_manager.validations.duplicated_description = Otra tarea está usando la misma descripción. Por favor verificar.
+task_manager.validations.duplicated_script = Otra tarea se ha definido con el mismo script. Por favor verificar.
+task_manager.validations.no_description = Ninguna descripción ha sido definida. Por favor escribe una descripción válida.
+task_manager.validations.no_script = No se ha seleccionado ninguna secuencia de comandos para este administrador de tareas.

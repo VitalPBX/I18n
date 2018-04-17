@@ -46,3 +46,5 @@ menu.addons = Add-ons
 menu.addons_licensing = Licensing
 menu.addons_market = Add-ons
 module.addons = Add-ons
+addons.cache_cleaned_up = The cache has been cleaned
+addons.clean_cache = Clean Cache

@@ -37,3 +37,4 @@ recmanagement.invalid_extension = Se ha seleccionado una extensión no válida p
 recmanagement.perform_recording = Realizar la grabación
 recmanagement.select_extension = Seleccione la extensión para realizar la grabación
 recmanagement.update_recording = Actualizar Grabación
+recmanagement.action.delete = {ombutel.delete}
