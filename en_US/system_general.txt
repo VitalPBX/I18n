@@ -35,4 +35,4 @@ system_general.recording_script.invalid = Recording script is not found
 system_general.default_ast_lang = Default Language
 system_general.default_ast_lang.tooltip = Language to select by default when a new extension is being created
 system_general.devices_prefix = Devices Prefix
-system_general.devices_prefix.tooltip = Prefix to append by default to devices user name
+system_general.devices_prefix.tooltip = Prefix to append by default to devices name
