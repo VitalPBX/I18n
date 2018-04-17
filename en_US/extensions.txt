@@ -207,3 +207,12 @@ module.follow_me = Follow Me
 module.voicemail = Voicemail
 module.fax = Fax
 extensions.extension.tab = Extension {0}
+extensions.callcenter = Call Center Settings
+extensions.dynamic_queues = Dynamic Queues
+extensions.dynamic_queues.tooltip =
+	It allows you to define the list of queues in which this extension will be listed as a dynamic agent.
+extensions.static_queues = Static Queues
+extensions.static_queues.tooltip =
+	It allows you to define the list of queues in which this extension will be listed as a static agent.
+extensions.queue_listed_as_dynamic_and_static =
+	This extension cannot be listed as dynamic and static agent of queue <b>"{0}"</b> at the same time
