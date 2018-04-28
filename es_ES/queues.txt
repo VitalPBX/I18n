@@ -1,7 +1,7 @@
 menu.queues = Colas
 module.queues = Colas
 queues = Colas
-queues.announcement_id = Anuncio
+queues.announcement_id = Anuncio Agente
 queues.announcement_id.tooltip = Un anuncio que escuchará el miembro en cuanto responder a una llamada, por lo general para indicar de qué cola es esta llamada y que debe responderse, por lo que los agentes o miembros que están atendiendo más de una cola pueden diferenciarse cómo debe involucrar al cliente.
 queues.announce_frequency = Frecuencia de Anuncio
 queues.announce_frequency.placeholder = Valor en segundos
