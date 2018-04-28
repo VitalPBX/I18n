@@ -207,3 +207,12 @@ module.fax = Факс
 module.follow_me = Следуй за мной
 module.voicemail = Голосовая почта
 extensions.extension.tab = Номер {0}
+extensions.callcenter = Настройки Call-центра
+extensions.dynamic_queues = Динамические очереди
+extensions.dynamic_queues.tooltip =
+	Позволяет определить список очередей, в которых этот номер будет указано как динамический оператор.
+extensions.static_queues = Статические очереди
+extensions.static_queues.tooltip =
+	Позволяет определить список очередей, в которых этот номер будет указано как статический оператор.
+extensions.queue_listed_as_dynamic_and_static =
+	Этот номер не может быть одновременно динамическим и статическим оператором очереди <b>"{0}"</b>
