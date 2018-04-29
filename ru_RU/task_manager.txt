@@ -4,12 +4,12 @@ module.task_manager = {task_manager}
 task_manager.general = {ombutel.general}
 task_manager.description = Описание
 task_manager.description.tooltip = Краткое описание для идентификации этой задачи
-task_manager.cron_profile = Cron Profile
-task_manager.cron_profile.tooltip = Represents the cron's profile to schedule this task
+task_manager.cron_profile = Планировщик задач
+task_manager.cron_profile.tooltip = Планировщик для этой задачи
 task_manager.script = Скрипт
 task_manager.script.tooltip =
-	Allows you to select an script to execute periodically, according to the cron's profile selected.
-	The script must be located at <b>/var/lib/ombutel/scripts</b>
+	Позволяет выбрать скрипт для переодического исполнения, в соответствии с выбранным планировщиком задач.
+	Скрипт должен быть расположен в <b>/var/lib/ombutel/scripts</b>
 task_manager.validations.no_description = Нет описания
 task_manager.validations.duplicated_description = Указанное описание уже используется другой задачей
 task_manager.validations.duplicated_script = Указанный скрипт уже используется другой задачей
