@@ -27,13 +27,12 @@ ring_group.strategy = Стратегия вызова
 ring_group.strategy.one_by_one = Один за другим
 ring_group.strategy.ringall = Звонят все
 ring_group.strategy.tooltip = Стратегия вызова пользователей группы.
-+ring_group.validation.duplicated_description = Указанное описание используется другой группой вызова
-+ring_group.validation.no_extensions = В эту группу вызова не добавлено ни одного внутреннего или внешние номера
-+ring_group.validation.duplicated_extension = The provided extension is being used by another ring group. Please verify
-+ring_group.external_numbers = External Numbers
-+ring_group.external_numbers.tooltip = List with the external numbers to dial when this ring group being called
-+ring_group.cos = {class_of_service.cos}
-+ring_group.cos.tooltip = Class of Service to use for dial the external numbers listed in this ring group
-+ring_group.validation.no_valid_number =
-+	The external number <b>{0}</b> contains invalid characters. Only numbers,
-+	and the following characters are allowed: *, # and +
+ring_group.validation.duplicated_description = Указанное описание используется другой группой вызова
+ring_group.validation.no_extensions = В эту группу вызова не добавлено ни одного внутреннего или внешнего номера
+ring_group.validation.duplicated_extension = Указанный номер группы уже используется другой группой вызова
+ring_group.external_numbers = Внешние номера
+ring_group.external_numbers.tooltip = Список внешних номеров для этой группы вызова
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Класс обслуживания, используемый для набора внешних номеров, перечисленных в этой группе вызова
+ring_group.validation.no_valid_number =
+	Внешний номер <b>{0}</b> содержит недопустимые символы. Разрешены только числа и символы: *, # и + 
