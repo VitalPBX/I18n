@@ -26,4 +26,4 @@ refresh = Refresh
 select_one = -- Select One --
 used_number = The number <b>{0}</b> is being used by {1} module.
 extension = Extension
-app_installing = {0} Installing
+unlimited = Unlimited
