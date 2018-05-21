@@ -37,8 +37,6 @@ extensions.device_id = Device
 extensions.device_id.tooltip = Devices List
 extensions.device_unlinked = The device has been unlinked successfully
 extensions.dev_description = Device Description
-extensions.dialoptions = Dial Options
-extensions.dialoptions.tooltip = There are dozens of options that you can set on the outbound call, including call screening, distinctive ringing and more. Type core show application dial at the Asterisk CLI for a complete list of all available options. If you want to specify multiple options, simply concatenate them together. For example, if you want to use both the *m*and H options, you would set mH as the options parameter.
 extensions.dictate_auto_send = Auto-Send Email
 extensions.dictate_auto_send.tooltip = Recording will be sent once completed.
 extensions.dictate_enable = Enabled
@@ -216,3 +214,8 @@ extensions.static_queues.tooltip =
 	It allows you to define the list of queues in which this extension will be listed as a static agent.
 extensions.queue_listed_as_dynamic_and_static =
 	This extension cannot be listed as dynamic and static agent of queue <b>"{0}"</b> at the same time
+extensions.emergency_cid_name = {extensions.external_cid_name}
+extensions.emergency_cid_number = {extensions.external_cid_number}
+extensions.emergency_cid = Emergency CID
+extensions.emergency_cid.tooltip =
+	It allows to define the caller id that will be used in case of calling an emergency number
