@@ -24,5 +24,3 @@ intrusion_detection.updated_configuration = Конфигурация обнов�
 intrusion_detection.whitelist = Разрешенные
 menu.intrusion_detection = Обнаружение вторжений
 module.intrusion_detection = Обнаружение вторжений
-intrusion_detection.bantime.tooltip = Duration (in seconds) for IP to be banned for. Set to -1 for "permanent" ban.
-intrusion_detection.maxretry.tooltip = Number of matches (i.e. value of the counter) which triggers ban action on the IP
