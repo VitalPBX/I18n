@@ -95,3 +95,5 @@ import_extensions.technology.invalid = La tecnología del dispositivo '%s' para 
 import_extensions.technology.not_match = No se puede cambiar la tecnología del dispositivo para el dispositivo %s
 import_extensions.any_did = Cualquier DID
 import_extensions.description.cid_number = Número/Patrón de CID para coincidir en las rutas entrantes.
+import_extensions.description.emergency_cid_name = Nombre de identificación de llamada de emergencia
+import_extensions.description.emergency_cid_number = Número de identificación de llamadas de emergencia

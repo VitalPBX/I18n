@@ -29,3 +29,5 @@ trunk_group.intra_company.tooltip =
 	de la extensión que llama
 trunk_group.no_description = No se ha proporcionado ninguna descripción
 trunk_group.no_patterns = No hay patrones configurados para esta ruta de salida
+trunk_group.failover_destination = Destino por error
+trunk_group.failover_destination.tooltip = 	Destino opcional para ejecutar en caso de que la llamada falle después de probar con todas las líneas troncales enumeradas.
