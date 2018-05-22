@@ -37,8 +37,6 @@ extensions.device_id = Устройство
 extensions.device_id.tooltip = Список устройств
 extensions.device_unlinked = Устройство успешно отсоединено
 extensions.dev_description = Описание устройства
-extensions.dialoptions = Параметры набора номера
-extensions.dialoptions.tooltip = Есть десятки параметров, которые вы можете установить на исходящий вызов, включая защиту от звонков, отличительный звонок и многое другое. Введите <b>"core show application dial"</b> из Asterisk CLI для получения полного списка всех доступных опций. Если вы хотите указать несколько параметров, просто объедините их вместе. Например, если вы хотите использовать оба параметра <b>m</b> и <b>H</b>, вы должны установить <b>mH</b>.
 extensions.dictate_auto_send = Авто-отправка на Email
 extensions.dictate_auto_send.tooltip = После завершения, запись будет отправлена на Email.
 extensions.dictate_enable = Включено
@@ -216,3 +214,8 @@ extensions.static_queues.tooltip =
 	Позволяет определить список очередей, в которых этот номер будет указано как статический оператор.
 extensions.queue_listed_as_dynamic_and_static =
 	Этот номер не может быть одновременно динамическим и статическим оператором очереди <b>"{0}"</b>
+extensions.emergency_cid_name = {extensions.external_cid_name}
+extensions.emergency_cid_number = {extensions.external_cid_number}
+extensions.emergency_cid = Экстренный CID
+extensions.emergency_cid.tooltip =
+	Позволяет определить идентификатор вызывающего абонента, который будет использоваться в случае вызова экстренного номера
