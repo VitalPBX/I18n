@@ -111,3 +111,11 @@ trunks.continue_on_busy = Continue on Busy
 trunks.continue_on_busy.tooltip =
 	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
 	also continue to the next trunk if any error happens, even if this checkbox is not checked.
+trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
+trunks.validation.duplicated_description = The provided description is being used by another trunk
+trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
+trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
+trunks.validation.no_outgoing_username = The outgoing username has not been provided
+trunks.validation.no_outgoing_host = The outgoing host has not been provided
+trunks.simultaneous_calls = Simultaneous Calls
+trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.

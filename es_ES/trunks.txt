@@ -111,3 +111,11 @@ trunks.continue_on_busy = Continuar en ocupado
 trunks.continue_on_busy.tooltip = 	
 	Obliga a continuar la llamada a la siguiente troncal configurada cuando esta troncal está ocupada. <br><br><b>Nota:</ b> La llamada
 	también continua al siguiente enlace si ocurre algún error, incluso si esta casilla de verificación no está marcada.
+trunks.simultaneous_calls = Llamadas Simultáneas
+trunks.simultaneous_calls.tooltip = Le permite definir la cantidad de llamadas salientes simultáneas permitidas para este enlace troncal.
+trunks.validation.duplicated_description = La descripción proporcionada está siendo utilizada por otra troncal
+trunks.validation.duplicated_incoming_username = El nombre de usuario proporcionado en la sección de llamadas entrantes está siendo utilizado por otra troncal
+trunks.validation.duplicated_outgoing_username = El nombre de usuario saliente provisto está siendo utilizado por otra troncal
+trunks.validation.no_outgoing_host = El Host saliente no ha sido provisto
+trunks.validation.no_outgoing_username = El nombre de usuario saliente no se ha proporcionado
+trunks.validation.same_username = El nombre de usuario para llamadas entrantes y salientes es el mismo. Por favor, use un nombre de usuario diferente para ambos campos

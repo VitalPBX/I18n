@@ -23,3 +23,11 @@ trunk_group.trkpattern.prepend.placeholder = Anteponer
 trunk_group.trkpattern.prepend.tooltip = Dígitos para anteponer al coincidir.
 trunk_group.virttrk = Troncal Tenant 
 trunk_group.virttrk.tooltip = Lista de los Tenants que este Tenant puede llamar por medio de una troncal
+trunk_group.intra_company = Entre-Empresas
+trunk_group.intra_company.tooltip = 	
+	Si está marcada, la identificación del llamante interna se enviará a través de esta ruta de salida, en lugar de la ID de llamada externa
+	de la extensión que llama
+trunk_group.no_description = No se ha proporcionado ninguna descripción
+trunk_group.no_patterns = No hay patrones configurados para esta ruta de salida
+trunk_group.failover_destination = Destino por error
+trunk_group.failover_destination.tooltip = 	Destino opcional para ejecutar en caso de que la llamada falle después de probar con todas las líneas troncales enumeradas.

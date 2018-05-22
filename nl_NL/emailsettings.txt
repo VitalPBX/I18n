@@ -51,3 +51,4 @@ emailsettings.validation.invalid_port = Poort is ongeldig
 menu.email_settings = Emailinstellingen
 module.emailsettings = Emailinstellingen
 emailsettings.address_used_from_address = The address entered here will be set as the "From:" address
+emailsettings.from_address = From Address

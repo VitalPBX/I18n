@@ -10,10 +10,10 @@ There are two ways of localizing VitalPBX. The preferred method is to use GitHub
 
 1. [Create a github account](https://github.com/join) (if you don't have one already)
 2. [Fork the VitalPBX localization repository](https://help.github.com/articles/fork-a-repo/)
-3. [Clone your forked repository to your desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/)
-4. [Create and commit changes](https://help.github.com/desktop/guides/contributing/making-changes-in-a-branch/)
-5. [Push commits to your github repository](https://help.github.com/desktop/guides/contributing/syncing-your-branch/)
-6. [Issue a pull request](https://help.github.com/desktop/guides/contributing/sending-a-pull-request/)
+3. [Clone your forked repository to your desktop](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/)
+4. [Create and commit changes](https://help.github.com/desktop/guides/contributing-to-projects/making-changes-in-a-branch/)
+5. [Push commits to your github repository](https://help.github.com/desktop/guides/contributing-to-projects/syncing-your-branch/)
+6. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/)
 
 Alternatively, you can make changes manually and send them by email:
 

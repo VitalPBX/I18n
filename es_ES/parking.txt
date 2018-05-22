@@ -44,3 +44,5 @@ parking.parkpos = Posiciones de Estacionamiento
 parking.parkpos.tooltip = Rango de plazas de estacionamiento para su uso.
 parking.timeout_destination = Tiempo de Espera de Destino
 parking.invalid.already_exists = Número de Estacionamiento inválido {0}. El número está en uso por módulo {1}.
+parking.announce_space_number = Anunciar el número de espacio
+parking.announce_space_number.tooltip = Si se establece en no, el anuncio del número de espacio de estacionamiento se silenciará

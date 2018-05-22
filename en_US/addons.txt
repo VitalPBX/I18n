@@ -47,3 +47,5 @@ addons.licensing.license_activation = License Activation
 addons.licensing.buy_license = Buy License
 addons.licensing.activate = Activate
 addons.licensing.register = Register {0} Addon
+addons.clean_cache = Clean Cache
+addons.cache_cleaned_up = The cache has been cleaned

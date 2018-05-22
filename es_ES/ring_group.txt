@@ -27,3 +27,13 @@ ring_group.strategy.ringall = Timbrar Todas
 ring_group.strategy.tooltip = Estrategia de Timbrado
 ring_group.invalid.already_exists = Número de grupo de timbre no válido {0}. El número está en uso por módulo {1}.
 ring_group.ringtime.values = El valor del tiempo del timbre debe estar entre 5 y 160 segundos.
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Clase de Servicio que se utilizará para marcar los números externos que se enumeran en este grupo de timbrado
+ring_group.external_numbers = Números Externos
+ring_group.external_numbers.tooltip = Haga una lista con los números externos para marcar cuando se llame a este grupo de timbrado
+ring_group.validation.duplicated_description = La descripción proporcionada está siendo utilizada por otro grupo de timbrado. Por favor verificar.
+ring_group.validation.duplicated_extension = La extensión proporcionada está siendo utilizada por otro grupo de timbrado. Por favor verificar.
+ring_group.validation.no_extensions = No se han agregado extensiones ni números externos a este grupo de timbrado.
+ring_group.validation.no_valid_number = 	
+	El número externo <b>{0}</b> contiene caracteres no válidos. Sólo números,
+	y los siguientes caracteres están permitidos: *, # y +

@@ -24,3 +24,5 @@ intrusion_detection.updated_configuration = Configuration mise à jour
 intrusion_detection.whitelist = Liste blanche
 menu.intrusion_detection = Détection de piratage
 module.intrusion_detection = Détection de piratage
+intrusion_detection.bantime.tooltip = Duration (in seconds) for IP to be banned for. Set to -1 for "permanent" ban.
+intrusion_detection.maxretry.tooltip = Number of matches (i.e. value of the counter) which triggers ban action on the IP

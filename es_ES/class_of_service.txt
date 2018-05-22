@@ -22,3 +22,5 @@ class_of_service.private.tooltip =
 	Define si las extensiones con este CoS pueden ser llamadas por otras con diferentes CoS.
 	Si se marcan solo las llamadas con el mismo CoS o llamadas provenientes de CoS seleccionadas en el campo "Llamadas permitidas por"
 	serán permitidas. <b> Nota: se aplica solo para llamadas internas </b>
+class_of_service.billing_app = Facturación Prepaga
+class_of_service.billing_app.tooltip = Le permite seleccionar una aplicación de facturación para facturar las llamadas realizadas por extensiones con este CoS.

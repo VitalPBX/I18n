@@ -24,3 +24,8 @@ trunk_group.trkpattern.prepend.tooltip = Chiffres à rajouter quand cela corresp
 trunk_group.virttrk = Tenant Trunks
 trunk_group.virttrk.tooltip = List of tenants that this tenant can call as trunk
 menu.outbound_routes = Outbound Routes
+trunk_group.intra_company = Intra-Company
+trunk_group.intra_company.tooltip = 	If checked, the internal caller id will be sent through this outbound route, instead of the external caller id
+	of the calling extension
+trunk_group.no_description = No description has been provided
+trunk_group.no_patterns = No patterns configured for this outbound route
