@@ -117,5 +117,5 @@ trunks.validation.same_username = The username for outgoing and incoming calls a
 trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
 trunks.validation.no_outgoing_username = The outgoing username has not been provided
 trunks.validation.no_outgoing_host = The outgoing host has not been provided
-trunks.simultaneous_calls = Simultaneous Calls
-trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.
+trunks.simultaneous_calls = Одновременные вызовы
+trunks.simultaneous_calls.tooltip = Позволяет установить количество одновременных исходящих вызовов, разрешенных для этой внешней линии.
