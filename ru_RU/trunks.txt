@@ -111,11 +111,11 @@ trunks.continue_on_busy = Продолжить, если занято
 trunks.continue_on_busy.tooltip = 	
 	Продолжить вызов через следующую настроенную внешнюю линию, если текущая внешняя линия занята. <br><br> <b>Примечание: </b> Вызов
 	также продолжит использовать следующую внешнюю линию, когда произошла какая-либо ошибка, даже если этот параметр не активирован.
-trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
-trunks.validation.duplicated_description = The provided description is being used by another trunk
-trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
-trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
-trunks.validation.no_outgoing_username = The outgoing username has not been provided
-trunks.validation.no_outgoing_host = The outgoing host has not been provided
+trunks.validation.duplicated_outgoing_username = Указанное Имя пользователя для исходящих вызовов уже используется другой внешней линией
+trunks.validation.duplicated_description = Указанное описание уже используется другой внешней линией
+trunks.validation.same_username = Имя пользователя для исходящих и входящих вызовов одинаково. Пожалуйста, используйте разные имена для этих полей
+trunks.validation.duplicated_incoming_username = Указанное Имя пользователя для входящих вызовов уже используется другой внешней линией
+trunks.validation.no_outgoing_username = Не указанно Имя пользователя для исходящих вызовов
+trunks.validation.no_outgoing_host = Не указанн Хост для исходящих вызовов
 trunks.simultaneous_calls = Одновременные вызовы
 trunks.simultaneous_calls.tooltip = Позволяет установить количество одновременных исходящих вызовов, разрешенных для этой внешней линии.
