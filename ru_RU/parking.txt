@@ -44,3 +44,5 @@ parking.parkingtime.tooltip = Количество секунд, в течени
 parking.parkpos = Парковочные слоты
 parking.parkpos.tooltip = Количество слотов для использования.
 parking.timeout_destination = Направление при таймауте
+parking.announce_space_number = Announce Space Number
+parking.announce_space_number.tooltip = If set to no, the announcement of the parking space number will be silenced
