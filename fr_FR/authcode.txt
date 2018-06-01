@@ -1,7 +1,7 @@
 authcode = Codes PIN
 authcode.auth_alias = Alias
 authcode.auth_alias.invalid = Veuillez saisir un alias valide. Sont autorisés : chiffes, lettres, underscore (_) et tiret
-authcode.auth_alias.tooltip = Alias identifiant ce code PIN. Poujr des raisons de sécurité, cet alias apparaitra dans les CDR au lieu du code PIN.
+authcode.auth_alias.tooltip = Alias identifiant ce code PIN. Pour des raisons de sécurité, cet alias apparaitra dans les CDR au lieu du code PIN.
 authcode.auth_alias.unique = L'alias doit être unique
 authcode.class_of_service_id = Classe de service
 authcode.class_of_service_id.tooltip = Les classes de service sont utilisées pour router les appels.
