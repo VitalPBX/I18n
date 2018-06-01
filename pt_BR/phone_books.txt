@@ -1,0 +1,14 @@
+menu.phone_books = Agenda de telefones
+module.phone_books = {menu.phone_books}
+phone_books.general = {ombutel.general}
+phone_books.description = Descrição
+phone_books.extensions = Extensões
+phone_books.ring_groups = Grupos de Anéis
+phone_books.feature_codes = Códigos de Recurso
+phone_books.conferences = Conferências
+phone_books.queues = Filas
+phone_books.contacts.tooltip = Permite selecionar quais {0} estarão disponíveis nesta Agenda de telefones.
+phone_books.validations.no_contacts = Você não selecionou nenhum contato para este catálogo telefônico. Por favor, selecione pelo menos um contato
+phone_books.validations.no_desc = Uma descrição inválida foi fornecida. Por favor, forneça uma descrição alfanumérica
+phone_books.url = URL do catálogo telefônico
+phone_books.url.tooltip = URL para carregar esta agenda em qualquer telefone suportado

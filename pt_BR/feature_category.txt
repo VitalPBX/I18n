@@ -1,0 +1,9 @@
+feature_category = Categoria de Recurso
+feature_category.all_features = Todos os recursos
+feature_category.available_features = Recursos Disponíveis
+feature_category.description = Descrição
+feature_category.description.tooltip = Nome que identifica essa categoria de recurso (deve ser exclusivo).
+feature_category.enabled_features = Recursos habilitados
+feature_category.general = Geral
+menu.feature_categories = Categorias de recursos
+module.feature_category = Categorias de recursos

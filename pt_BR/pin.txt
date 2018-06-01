@@ -1,0 +1,16 @@
+menu.pin_lists = Listas PIN
+module.pin = Listas PIN
+pin = Lista de PINs
+pin.general = Geral
+pin.confirm_delete = Tem certeza de que deseja excluir esta lista de PIN?
+pin.delete = Excluir
+pin.description = Descrição
+pin.description.invalid = Descrição é obrigatória
+pin.description.tooltip = Uma breve descrição desta lista de PINs.
+pin.none = Nenhum
+pin.passwords = Lista de PINs
+pin.passwords.duplicate = PINs duplicados
+pin.passwords.empty = Pelo menos um PIN na lista de PIN é obrigatório
+pin.passwords.invalid = PIN inválido na lista de PINs. Use apenas números e o símbolo "*" (asterisk). Separe cada PIN por uma nova linha
+pin.passwords.tooltip = Lista de PINs que podem ser usados. Um PIN pode consistir em qualquer combinação de números e o símbolo “*” (asterisk). Se você quiser adicionar vários PINs, poderá iniciá-los por uma nova linha.
+pin.pin_list_not_found = Nenhuma lista de PINs para excluir

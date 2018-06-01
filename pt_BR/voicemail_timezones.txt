@@ -1,0 +1,14 @@
+menu.voicemail_timezones = Fusos horários do correio de voz
+module.voicemail_timezones = Fusos horários do correio de voz
+voicemail_timezones = Fusos horários do correio de voz
+voicemail_timezones.confirm_delete = Tem certeza de que deseja excluir este fuso horário?
+voicemail_timezones.delete = Excluir
+voicemail_timezones.general = Geral
+voicemail_timezones.none = Nenhum
+voicemail_timezones.timezone = Fuso horário
+voicemail_timezones.timezone.tooltip = Fuso horário a ser selecionado.
+voicemail_timezones.tzdefinition = Definição de horário
+voicemail_timezones.tzname = Nome
+voicemail_timezones.tzname.tooltip = Nome abreviado para este fuso horário.
+voicemail_timezones.voicemail_timezone_id = Mensagens de Zona
+voicemail_timezones.voicemail_timezone_id.tooltip = Fuso horário de Mensagens da Zona, Se definido como 'não', será usado pela seção de configurações gerais. Irrelevante se Envelope for "não".

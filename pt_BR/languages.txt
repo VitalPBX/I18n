@@ -1,0 +1,13 @@
+languages = Línguas
+languages.description = Descrição
+languages.description.tooltip = Breve descrição para identificar esse idioma.
+languages.destination = Destino
+languages.general = Geral
+languages.langcode = Línguas
+languages.langcode.tooltip = Idioma do Canal para definir.
+languages.mod_dest = Destino do Módulo
+languages.name = Nome
+languages.name.tooltip = Nome abreviado (deve ser exclusivo).
+menu.languages = Línguas
+module.languages = Línguas
+

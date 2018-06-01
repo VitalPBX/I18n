@@ -1,0 +1,45 @@
+domotic_extensions.dial = Número para discar
+domotic_extensions.dial.tooltip = Define o número a ser discado para interagir com o {0} selecionado.
+domotic_extensions.description = Descrição
+domotic_extensions.description.help = Breve descrição para identificar isso {0}.
+domotic_extensions.unit_id = Unidade
+domotic_extensions.unit_id.help = Dependendo da unidade selecionada, mostrará o {0} para configurar.
+domotic_extensions.device_id = Dispositivo
+domotic_extensions.device_id.help = Dispositivo para interagir.
+domotic_extensions.class_of_service_id = Classe de serviço
+domotic_extensions.class_of_service_id.help = Define a partir de qual classe de serviço será acessível este {0}.
+domotic_extensions.pin_list_id = Lista PIN
+domotic_extensions.pin_list_id.help = Permite definir uma lista de pinos para proteger a interação com o {0}.
+domotic_extensions.white_list = Lista Branca
+domotic_extensions.white_list.help = Permite definir quais números não precisam inserir um PIN para interagir com o {0} selecionado.
+domotic_extensions.scene_id = Cena
+domotic_extensions.scene_id.help = Cena para interagir.
+domotic_extensions.toggle_mode = Modo de alternância
+domotic_extensions.toggle_mode2 = Pular Instruções
+domotic_extensions.toggle_mode.help = Se definido como sim, o status do dispositivo será alternado sem solicitar nada.
+domotic_extensions.toggle_mode.help2 = Se definido como sim, a cena será executada sem instruções imediatas.
+domotic_extensions.recording_id = Mensagem de boas-vindas
+domotic_extensions.recording_id.help = Mensagem para ser jogada no começo, geralmente para indicar o que {0} você vai interagir
+domotic_extensions.hint = Gerar Dica
+domotic_extensions.hint.help = Gerar sugestão para este dispositivo
+domotic_extensions.blf = Sugestão BLF
+domotic_extensions.blf.help = Esta é a string para adicionar nas linhas BLF do seu telefone.
+
+domotic_extensions.validation.empty_device = O dispositivo é obrigatório.
+domotic_extensions.validation.empty_scene = A cena é necessária.
+domotic_extensions.validation.empty_cos = A classe de serviço é necessária.
+domotic_extensions.validation.empty_dial = O número a ser discado é obrigatório.
+domotic_extensions.validation.invalid_dial = O número a ser discado tem um formato inválido. números, *, # e + são permitidos.
+domotic_extensions.validation.empty_description = A descrição é obrigatória.
+domotic_extensions.validation.invalid_description = A descrição tem um formato inválido. números, letras, espaços, traços e sublinhados são permitidos.
+
+domotic_extensions.delete = {ombutel.delete}
+domotic_extensions.delete.message = {ombutel.confirm_delete.default_msg}
+
+domotic_extensions.device =
+    [um] dispositivo
+    *[outros] dispositivo
+
+domotic_extensions.scene =
+     [um] Cena
+     *[outros] Cena

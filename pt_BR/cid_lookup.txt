@@ -1,0 +1,36 @@
+module.cid_lookup = Pesquisa CID
+menu.cid_lookup = {module.cid_lookup}
+cid_lookup.general = {ombutel.general}
+cid_lookup.description = Descrição {0}
+cid_lookup.description.tooltip = Uma breve descrição para identificar esta consulta CID
+cid_lookup.source = Fonte {0}
+cid_lookup.source.tooltip = Ele define o método para obter o nome cid de um chamador de entrada
+cid_lookup.source.option.opencnam = OpenCNAM
+cid_lookup.source.option.api = HTTP/HTTPS
+cid_lookup.opencnam.sid = SID {0}
+cid_lookup.opencnam.sid.tooltip = OpenCNAM SID
+cid_lookup.opencnam.token = Token {0}
+cid_lookup.opencnam.token.tooltip = OpenCNAM Token
+cid_lookup.host = Host {0}
+cid_lookup.host.tooltip = Ele define o host da API para fazer a solicitação
+cid_lookup.port = Porta
+cid_lookup.port.tooltip = Define a porta para fazer o pedido. Por padrão 80 para solicitação HTTP e 443 para solicitação HTTPS
+cid_lookup.user = Usuário de Autenticação
+cid_lookup.user.tooltip = Ele define o usuário para autenticar a solicitação HTTP / HTTPS
+cid_lookup.password = Senha de autenticação
+cid_lookup.password.tooltip = Define a senha para autenticar a solicitação HTTP / HTTPS
+cid_lookup.path = Caminho
+cid_lookup.path.tooltip = Ele define o nome do arquivo de script para ser executado a pedido. Exemplo: <b>cid_lookup.php</b>
+cid_lookup.arguments = String de consulta
+cid_lookup.arguments.tooltip =
+	Define os argumentos necessários para executar o script.
+	o valor do argumento especial <b>[CIDNUM]</b> será substituído pelo número cid do chamador.
+	<br><br> Exemplo: <br> <b>chamador_num=[CIDNUM]&ctype=vip</b>
+cid_lookup.secure = fonte
+cid_lookup.secure.tooltip = Se estiver marcado, o pedido será através de HTTPS, de outra forma será através de HTTP
+cid_lookup.validation.no_description = Nenhuma descrição foi fornecida.
+cid_lookup.validation.invalid_source = Um tipo de fonte inválido foi fornecido.
+cid_lookup.validation.no_valid_host = Um nome de host ou endereço IP inválido foi fornecido.
+cid_lookup.validation.no_valid_port = Um número de porta inválido foi fornecido.
+cid_lookup.validation.no_sid = O SID não foi fornecido.
+cid_lookup.validation.no_token = O Token não foi fornecido.

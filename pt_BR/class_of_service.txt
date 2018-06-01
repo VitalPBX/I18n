@@ -1,0 +1,24 @@
+class_of_service = Classe de serviço
+class_of_service.ars_id = Seleção de rota
+class_of_service.ars_id.tooltip = Rotas a serem usadas para esta Classe de Serviço
+class_of_service.configurations = Configurações
+class_of_service.cos = Classe de serviço
+class_of_service.cos.tooltip = Nome exclusivo para este nome da classe de serviço. Valores alfanuméricos com traço e sublinhado são permitidos.
+class_of_service.description = Descrição
+class_of_service.description.tooltip = Descrição em texto livre desta classe de serviço
+class_of_service.dialrule_id = Restrições de Discagem
+class_of_service.dialrule_id.tooltip = Regra de Restrição de Discagem a ser associada a esta Classe de Serviço
+class_of_service.feature_code_category_id = Categoria de Recurso
+class_of_service.feature_code_category_id.tooltip = Categoria de recurso a ser associada a esta classe de serviço
+class_of_service.general = Geral
+menu.class_of_service = Classe de serviço
+module.class_of_service = Classe de serviço
+class_of_service.private = Privado
+class_of_service.private.tooltip =
+	Define se as extensões com este CoS podem ser chamadas por outras pessoas com diferentes CoS.
+	Se estiver marcado apenas as chamadas com o mesmo CoS ou chamadas provenientes de CoS selecionadas "Chamadas Permitidas Por" campo
+	será permitido. <b>Note: Aplica-se apenas a chamadas locais</b>
+class_of_service.allowed_calls_by = Chamadas Permitidas Por
+class_of_service.allowed_calls_by.tooltip = Define a lista de CoS a ser permitida a chamada para esta CoS quando o campo "Privado" estiver marcado.
+class_of_service.billing_app = Faturamento Pré-pago
+class_of_service.billing_app.tooltip = Ele permite que você selecione um aplicativo de faturamento para avaliar as chamadas feitas por extensões com este CoS.

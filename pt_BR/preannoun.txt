@@ -1,0 +1,10 @@
+menu.announcements = Anúncios
+module.preannoun = Anúncios
+preannoun = Anúncios
+preannoun.description = Descrição
+preannoun.description.tooltip = Breve descrição para identificar este anúncio.
+preannoun.destination = Destino depois de reproduzir o anúncio %s
+preannoun.general = Geral
+preannoun.mod_dest = Destino do Módulo
+preannoun.recording_id = Gravação Personalizada
+preannoun.recording_id.tooltip = Gravando para tocar neste anúncio.

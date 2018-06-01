@@ -1,0 +1,28 @@
+menu.user_profiles = Perfis de usuário
+module.users_profiles = Perfis de usuário
+users_profiles = Perfis de Usuários
+users_profiles.collapse_all = Recolher todos
+users_profiles.confirm_delete = Tem certeza de que deseja excluir este perfil?
+users_profiles.delete = Excluir
+users_profiles.description = Nome do perfil
+users_profiles.description.tooltip = Nome para este perfil.
+users_profiles.expand_all = Expandir todos
+users_profiles.general = Geral
+users_profiles.module_access = Acesso ao Módulo
+users_profiles.priv.add = Adicionar
+users_profiles.priv.delete = Excluir
+users_profiles.priv.edit = Editar
+users_profiles.priv.view = Visão
+users_profiles.superadmin = Conceder Privilégios
+users_profiles.superadmin.tooltip = Permitir acesso a todos os módulos.
+users_profiles.deleting_default_user_profile = Não é possível excluir o perfil de usuário padrão
+users_profiles.permissions = Permissões
+users_profiles.change_language = Mudar idioma
+users_profiles.change_language.tooltip = 
+	Define se um usuário com este perfil atribuído será capaz de alterar o idioma da GUI
+users_profiles.get_updates = Obter atualizações
+users_profiles.get_updates.tooltip =
+	Define se um usuário com este perfil atribuído será capaz de atualizar o <b>{0}</b> da GUI
+users_profiles.update_profile = Atualizar perfil
+users_profiles.update_profile.tooltip =
+	Define se um usuário com este perfil atribuído será capaz de atualizar suas configurações de perfil

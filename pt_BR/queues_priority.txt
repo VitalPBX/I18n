@@ -1,0 +1,10 @@
+menu.queue_priorities = Prioridades da Fila
+module.queues_priority = Prioridades da Fila
+queues_priority = Prioridade das Filas
+queues_priority.description = Descrição
+queues_priority.description.tooltip = Descrição resumida para identificar essa prioridade de fila.
+queues_priority.destination = Destino
+queues_priority.general = Geral
+queues_priority.mod_dest = Módulo de Destino
+queues_priority.priority = Prioridade
+queues_priority.priority.tooltip = A prioridade da fila para definir.
