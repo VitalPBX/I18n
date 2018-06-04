@@ -55,3 +55,9 @@ conferences.wait_marked = Wait for Leader
 conferences.wait_marked.tooltip = Determines whether callers must wait for a Leader to enter before they can join the conference
 menu.conferences = Conferences
 module.conferences = Conferences
+conferences.class_of_service = {class_of_service}
+conferences.class_of_service.tooltip =
+	It allows you to define which class of service that will be used to invite other people to this conference
+conferences.allow_to_invite = Allow to Invite
+conferences.allow_to_invite.tooltip =
+	If enabled, all the participants could press "<b>**</b>" or "<b>0</b>" to invite other people to this conference
