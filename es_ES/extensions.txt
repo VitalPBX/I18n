@@ -219,3 +219,17 @@ extensions.emergency_cid = CID de emergencia
 extensions.emergency_cid.tooltip = 	Permite definir el identificador de llamadas que se utilizará en caso de llamar a un número de emergencia
 extensions.emergency_cid_name = {extensions.external_cid_name}
 extensions.emergency_cid_number = {extensions.external_cid_number}
+extensions.callback = Permitir Devolver la Llamada
+extensions.callback.tooltip = 	
+	Si está marcado, los usuarios estarán disponibles para devolver la llamada al remitente de un mensaje. La clase de servicio especificada necesitará
+	poder manejar la marcación de números en el formato en el que se reciben (por ejemplo, el código de país puede
+	no haber sido recibido con la identificación de la persona que llama, pero podría ser necesaria para la llamada saliente).
+extensions.create_hint = Generar Hint
+extensions.create_hint.tooltip = 	
+	Si está habilitado, será posible controlar remotamente el estado del correo de voz de esta extensión a través de una tecla BLF. Al
+	configure el BLF debe usar el siguiente formato: vm_1234, donde 1234 es la extensión que será
+	monitoreada
+extensions.dialout = Permitir Marcar
+extensions.dialout.tooltip = 	
+	Si está permitido, los usuarios pueden marcar desde sus buzones (opción 4 del menú avanzado del buzón). <b>Esto se considera una característica muy peligrosa en un sistema telefónico
+	(principalmente porque a muchos usuarios de correo de voz les gusta usar 1234 como contraseña) y, por lo tanto, no se recomienda </b>.
