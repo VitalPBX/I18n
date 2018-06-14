@@ -13,7 +13,7 @@ menu.pbx_settings = Настройки АТС
 menu.portal = Портал
 menu.reports = Отчеты
 menu.security = Безопасность
-menu.settings = <span>Настройки</span>
+menu.settings = <span style="font-size: 1.96em;">Настройки</span>
 menu.system_settings = Настройки системы
 menu.technology_settings = Технологии
 menu.tools = <span style="margin-left: -5px;">Инструменты</span>
