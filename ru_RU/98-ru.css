@@ -23,6 +23,7 @@ button, input, optgroup, select, textarea {
 .form-horizontal .control-label {
     /*padding-top: 0px;*/
     padding: inherit;
+    margin-right: 2px;
     vertical-align: middle;
     float: none;
     display: inline-block;
@@ -45,6 +46,7 @@ button, input, optgroup, select, textarea {
 @media (max-width: 767px) {
   .form-horizontal .control-label  {
      margin-bottom: 0px;
+	  padding: none;
 	}
 }
 
