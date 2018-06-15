@@ -26,7 +26,7 @@ bulk_modification.field.tooltip = Параметр, который необхо�
 bulk_modification.general = Общие
 bulk_modification.select_extensions = Выберите номера
 menu.bulk_modification = <span style="margin-left: -5px;">Массовое изменение</span>
-module.bulk_modification = Массовое изменениеbulk_modification.field.emergency_cid = {extensions.emergency_cid}
+module.bulk_modification = Массовое изменение
 bulk_modification.field_to_change = Поле для изменения
 bulk_modification.field_to_change.tooltip = Установите параметр, который нужно изменить во всех выбранных номерах
 bulk_modification.recording_types = Тип вызовов
