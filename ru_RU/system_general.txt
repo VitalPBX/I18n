@@ -36,3 +36,10 @@ system_general.default_ast_lang = Язык по умолчанию
 system_general.default_ast_lang.tooltip = Язык для выбора по умолчанию при создании нового внутреннего номера
 system_general.devices_prefix = Префикс устройств
 system_general.devices_prefix.tooltip = Префикс по умолчанию для добавления к имени устройства
+system_general.sounds = Системные подсказки
+system_general.dnd = Не беспокоить (DND)
+system_general.dnd.tooltip =
+	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
+system_general.blacklisted = В черном списке
+system_general.blacklisted.tooltip =
+	Позволяет установить сообщение, которое будет воспроизведено для вызывающих абонентов, которые занесены в черный список
