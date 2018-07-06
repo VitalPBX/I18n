@@ -10,4 +10,4 @@ accountcode.general = Общие
 accountcode.not_found = Код клиента не найден.
 accountcode.search = Поиск
 module.accountcode = Код клиента
-menu.account_codes = <span style="margin-left: -5%;">Коды клиентов</span>
+menu.account_codes = <span style="margin-left: -5px;">Коды клиентов</span>

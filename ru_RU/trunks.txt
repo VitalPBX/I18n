@@ -96,9 +96,9 @@ trunks.trkcustom.type.user = User
 trunks.trkcustom.value = Значение
 trunks.trunk_cid = CID внешней линии
 trunks.trunk_cid_number.invalid = Недопустимый CID внешней линии (Trunk CID). Разрешены только *, #, + и числа.
-trunks.trunk_cid.tooltip = ID этой внешней линии.
-trunks.trunk_cid_name = CID Имя
-trunks.trunk_cid_number = CID Номер
+trunks.trunk_cid.tooltip = Определяет имя и номер, которые будут отображаться при исходящих вызовах с этой внешней линии.
+trunks.trunk_cid_name = Имя
+trunks.trunk_cid_number = Номер
 trunks.cos.warning = Действие, которое вы собираетесь выполнить, может создать уязвимость в безопасности. <b>Не продолжайте, если вы не уверены, что понимаете логику «Класса обслуживания» для внешних линий (trunks).</b>
 trunks.cos.warning.title = Предупреждение
 trunks.cos.warning.confirm = Я понимаю и подтверждаю
@@ -111,3 +111,11 @@ trunks.continue_on_busy = Продолжить, если занято
 trunks.continue_on_busy.tooltip = 	
 	Продолжить вызов через следующую настроенную внешнюю линию, если текущая внешняя линия занята. <br><br> <b>Примечание: </b> Вызов
 	также продолжит использовать следующую внешнюю линию, когда произошла какая-либо ошибка, даже если этот параметр не активирован.
+trunks.validation.duplicated_outgoing_username = Указанное Имя пользователя для исходящих вызовов уже используется другой внешней линией
+trunks.validation.duplicated_description = Указанное описание уже используется другой внешней линией
+trunks.validation.same_username = Имя пользователя для исходящих и входящих вызовов одинаково. Пожалуйста, используйте разные имена для этих полей
+trunks.validation.duplicated_incoming_username = Указанное Имя пользователя для входящих вызовов уже используется другой внешней линией
+trunks.validation.no_outgoing_username = Не указанно Имя пользователя для исходящих вызовов
+trunks.validation.no_outgoing_host = Не указанн Хост для исходящих вызовов
+trunks.simultaneous_calls = Одновременные вызовы
+trunks.simultaneous_calls.tooltip = Позволяет установить количество одновременных исходящих вызовов, разрешенных для этой внешней линии.

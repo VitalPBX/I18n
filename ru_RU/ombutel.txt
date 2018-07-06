@@ -1,23 +1,23 @@
 app.name = VitalPBX
 menu.admin = Админ
-menu.applications = <span style="margin-left: -5%;">Приложения</span>
-menu.callcenter = <span style="margin-left: -5%;">Call-центр</span>
+menu.applications = <span style="margin-left: -5px;">Приложения</span>
+menu.callcenter = <span style="margin-left: -5px;">Call-центр</span>
 menu.cdr = Детализация 
 menu.configure = Конфигурировать
-menu.extensions = <span style="margin-left: -5%;">Внутренние номера</span>
-menu.external = <span style="margin-left: -5%;">Маршруты</span>
-menu.incoming_calls = <span style="margin-left: -5%;">Входящие звонки</span>
+menu.extensions = <span style="margin-left: -5px;">Внутренние номера</span>
+menu.external = <span style="margin-left: -5px;">Маршруты</span>
+menu.incoming_calls = <span style="margin-left: -5px;">Входящие звонки</span>
 menu.licenses = Лицензии
 menu.pbx = АТС
 menu.pbx_settings = Настройки АТС
 menu.portal = Портал
 menu.reports = Отчеты
 menu.security = Безопасность
-menu.settings = <span>Настройки</span>
+menu.settings = <span style="font-size: 0.96em;">Настройки</span>
 menu.system_settings = Настройки системы
 menu.technology_settings = Технологии
-menu.tools = <span style="margin-left: -5%;">Инструменты</span>
-menu.extras = <span style="margin-left: -5%;">Дополнительно</span>
+menu.tools = <span style="margin-left: -5px;">Инструменты</span>
+menu.extras = <span style="margin-left: -5px;">Дополнительно</span>
 module.ombutel = Ombutel
 ombutel.accept = Принять
 ombutel.add = Добавить
