@@ -233,3 +233,6 @@ extensions.create_hint.tooltip =
 	If enabled, it will be possible to remotely monitor the voicemail status of this extension through a BLF key. To
 	configure the BLF you must to use the following format: vm_1234, where 1234 is the extension that will be
 	monitored
+module.vm_busy = Voicemail Busy
+module.vm_direct = Voicemail Direct
+module.vm_unavailable = Voicemail Unavailable
