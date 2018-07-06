@@ -55,3 +55,9 @@ conferences.wait_marked = Ждать организатора
 conferences.wait_marked.tooltip = Устанавливает, должны ли пользователи ждать, пока организатор не войдет в конференцию.
 menu.conferences = Конференции
 module.conferences = Конференция
+conferences.class_of_service = {class_of_service}
+conferences.class_of_service.tooltip =
+	Позволяет определить, какой Класс обслуживания будет использоваться для приглашения других людей в эту конференцию
+conferences.allow_to_invite = Разрешить приглашения
+conferences.allow_to_invite.tooltip =
+	Если установлено значение <b>«Да»</b>, то все участники могут нажать «<b>**</b>» или «<b>0</b>», чтобы пригласить других людей в эту конференцию

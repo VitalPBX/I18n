@@ -16,12 +16,19 @@
 	}
 
 /* Align functions name and its fields */
+button, input, optgroup, select, textarea {
+    margin-right: 2px;
+}
+
 .form-horizontal .control-label {
-    padding-top: 0px;
-	  vertical-align: middle;
+    /*padding-top: 0px;*/
+    padding: inherit;
+    margin-right: 2px;
+    vertical-align: middle;
     float: none;
     display: inline-block;
-	  margin-bottom: -15px;
+    text-align: left;
+    margin-bottom: -12px;
 }
 
 .form-group .custom-elem-area {
@@ -29,7 +36,7 @@
     display: inline-table;
     vertical-align: middle;
     float: none;    
-	  margin-bottom: -15px;
+    margin-bottom: -12px;
 }    
 
 .pbx_module_tabs .form-group {
@@ -39,6 +46,7 @@
 @media (max-width: 767px) {
   .form-horizontal .control-label  {
      margin-bottom: 0px;
+	  padding: none;
 	}
 }
 
