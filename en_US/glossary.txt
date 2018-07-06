@@ -31,3 +31,6 @@ system = System
 install = Install
 duplicated_description = The provided description is already in use.
 duplicated_extension = The provided extension is already in use.
+edit = Edit
+download = Download
+inherited = Inherited
