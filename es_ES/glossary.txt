@@ -32,3 +32,6 @@ duplicated_description = La descripción proporcionada ya está en uso.
 duplicated_extension = La extensión proporcionada ya está en uso.
 install = Instalar
 system = Sistema
+download = Descargar
+edit = Editar
+inherited = Heredado

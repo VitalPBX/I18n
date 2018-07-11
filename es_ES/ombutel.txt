@@ -205,3 +205,4 @@ updates.apply = Aplicar Actualizaciones
 updates.available = Actualizaciones Disponibles
 updates.nothing_found = No hay actualizaciones disponibles
 updates.updating = Actualización del Sistema
+being_used_as_destination = Este elemento está siendo utilizado como destino por el módulo <b>{0}</b>

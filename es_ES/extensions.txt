@@ -232,4 +232,7 @@ extensions.create_hint.tooltip =
 extensions.dialout = Permitir Marcar
 extensions.dialout.tooltip = 	
 	Si está permitido, los usuarios pueden marcar desde sus buzones (opción 4 del menú avanzado del buzón). <b>Esto se considera una característica muy peligrosa en un sistema telefónico
-	(principalmente porque a muchos usuarios de correo de voz les gusta usar 1234 como contraseña) y, por lo tanto, no se recomienda </b>.
+	(principalmente porque a muchos usuarios de correo de voz les gusta usar 1234 como contraseña) y, por lo tanto, no se recomienda</b>.
+module.vm_busy = Correo de Voz Ocupado
+module.vm_direct = Correo de Voz Directo
+module.vm_unavailable = Correo de Voz no Disponible

@@ -37,3 +37,4 @@ cdr_filters.general = General
 cdr_filters.none = Ninguno
 menu.cdr_filters = Filtros CDR
 module.cdr_filters = Filtros CDR
+cdr_filters.no_conditions = No se han definido condiciones de búsqueda
