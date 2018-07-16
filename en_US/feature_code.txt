@@ -142,3 +142,7 @@ feature_code.send_vm_msg.tooltip = Allows you to dial any extension and leave a 
 feature_code.spy_ext_barge = Spy on Extension In Barge Mode
 feature_code.spy_ext_barge.tooltip = Instead of whispering on a single channel barge in on both channels involved in the call.
 feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.paging_and_intercom = Paging
+feature_code.paging_and_intercom.tooltip =
+	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
+	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.
