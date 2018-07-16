@@ -33,7 +33,8 @@ vpn_server.invalid_data = Datos inválidos han sido provistos
 vpn_server.keepalive = Keep-Alive
 vpn_server.keepalive.ping = Frecuencia
 vpn_server.keepalive.time_period = Timeout
-vpn_server.keepalive.tooltip = 	La directiva Keep-Alive hace que se envíen mensajes similares a un ping a lo largo del enlace para que cada lado
+vpn_server.keepalive.tooltip =
+	La directiva Keep-Alive hace que se envíen mensajes similares a un ping a lo largo del enlace para que cada lado
 	conozca cuándo esta no disponible el otro lado. Todos los valores en segundos
 vpn_server.max-clients = Clientes Maximos
 vpn_server.max-clients.tooltip = La cantidad máxima de clientes conectados simultáneamente que deseamos permitir
@@ -44,7 +45,8 @@ vpn_server.primary_dns = DNS Primario
 vpn_server.public_host = Host Público
 vpn_server.public_host.tooltip = Host remoto o dirección IP en el cliente, que especifica el servidor OpenVPN.
 vpn_server.redirect-gateway = Redirigir el Gateway
-vpn_server.redirect-gateway.tooltip = Si está habilitada, esta directiva configurará a todos los clientes para redirigir su puerta de enlace de red predeterminada a través de la VPN,	
+vpn_server.redirect-gateway.tooltip =
+	Si está habilitada, esta directiva configurará a todos los clientes para redirigir su puerta de enlace de red predeterminada a través de la VPN,
 	causando que todo el tráfico IP, como la navegación web y las búsquedas DNS, pasen por la VPN (Servidor OpenVPN
 	puede necesitar NAT o unir la interfaz TUN/TAP a internet para que esto funcione correctamente)
 vpn_server.secondary_dns = DNS Secundario
@@ -54,5 +56,6 @@ vpn_server.service_stopped = Las configuraciones se han actualizado y el servici
 vpn_server.subnet = Rango de Servidor
 vpn_server.subnet.ip = Direcciones IPv4
 vpn_server.subnet.mask = Mascara
-vpn_server.subnet.tooltip = Define el rango de IP virtual que se utilizará en la red de túnel VPN. Por ejemplo, si usa como rango la dirección IP 10.8.0.0,
+vpn_server.subnet.tooltip =
+	Define el rango de IP virtual que se utilizará en la red de túnel VPN. Por ejemplo, si usa como rango la dirección IP 10.8.0.0,
 	la IP del servidor será 10.8.0.1 y al primer cliente se le asignará la IP 10.8.0.2
