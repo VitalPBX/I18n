@@ -1,10 +1,10 @@
-menu.trunks_connector = <span style="margin-left: -5px;">Промежуточная АТС</span>
-menu.trunks_connector_routing = Промежуточные линии
+menu.trunks_connector = <span style="margin-left: -5px;">Транзитная АТС</span>
+menu.trunks_connector_routing = Транзитные линии
 module.trunks_connector_routing = {menu.trunks_connector_routing}
-menu.trunks_connector_extensions = Промежуточные номера
+menu.trunks_connector_extensions = Транзитные номера
 module.trunks_connector_extensions = {menu.trunks_connector_extensions}
 trunks_connector_routing.description = Описание
-trunks_connector_routing.description.help = Краткое описание для идентификации этой промежуточной линии
+trunks_connector_routing.description.help = Краткое описание для идентификации этой транзитной линии
 trunks_connector_routing.private_trunk_id = Внутренняя линия
 trunks_connector_routing.private_trunk_id.help = Представляет собой линию, ведущую к локальной АТС
 trunks_connector_routing.public_trunk_id = Внешняя линия
