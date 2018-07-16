@@ -236,3 +236,7 @@ extensions.create_hint.tooltip =
 module.vm_busy = Voicemail Busy
 module.vm_direct = Voicemail Direct
 module.vm_unavailable = Voicemail Unavailable
+extensions.pinless = Pinless
+extensions.pinless.tooltip =
+	If enabled, the user of this extension will not be prompted to enter pin on outbound routes that have
+	assigned a pin set
