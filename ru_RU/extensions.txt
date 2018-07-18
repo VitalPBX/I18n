@@ -233,9 +233,9 @@ extensions.create_hint.tooltip =
 	Если установлено значение <b>«Да»</b>, можно будет контролировать статус голосовой почты с помощью индикаторов IP телефона (BLF). 
 	Чтобы настроить индикацию, вы должны использовать следующий формат: vm_1234, где 1234 - это внутренний номер, чье состояние
 	голосовой почты следует контролировать.
-module.vm_busy = Voicemail Busy
-module.vm_direct = Voicemail Direct
-module.vm_unavailable = Voicemail Unavailable
+module.vm_busy = Голос. почта абонент занят
+module.vm_direct = Голос. почта
+module.vm_unavailable = Голос. почта абонент недоступен
 extensions.pinless = Без PIN-кода
 extensions.pinless.tooltip =
 	Если установлено значение <b>«Да»</b>, пользователю этого номера не придется вводить PIN-код для исходящих маршрутов, с
