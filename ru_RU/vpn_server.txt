@@ -1,32 +1,32 @@
 vpn_server = OpenVPN
 menu.vpn_server = {vpn_server}
 module.vpn_server = {vpn_server}
-vpn_server.server = Server
-vpn_server.clients = Clients
-vpn_server.enabled = Enabled
-vpn_server.enabled.tooltip = It shows the current status of the OpenVPN Server service
-vpn_server.port = Port
-vpn_server.port.tooltip = The port that OpenVPN should listen on
-vpn_server.subnet = Server Range
+vpn_server.server = Сервер
+vpn_server.clients = Клиенты
+vpn_server.enabled = Включен
+vpn_server.enabled.tooltip = Показывает текущий статус сервера OpenVPN
+vpn_server.port = Порт
+vpn_server.port.tooltip = Порт, по которому будет доступен OpenVPN сервер
+vpn_server.subnet = IP диапазон
 vpn_server.subnet.tooltip =
-	Defines the virtual IP range to be used in the VPN tunnel network.. e.g.: if you use as range the IP address 10.8.0.0,
-	the server IP will be 10.8.0.1 and the first client will be assigned the IP 10.8.0.2
-vpn_server.subnet.ip = IPv4 Address
-vpn_server.subnet.mask = Mask
-vpn_server.keepalive = Keep-Alive
+	Определяет виртуальный диапазон IP адресов, который будет использоваться в VPN сети. Например: если вы используете в качестве
+	диапазона IP-адрес 10.8.0.0 и маску 255.255.255.0, то IP-адрес сервера будет 10.8.0.1, а первому клиенту будет присвоен IP-адрес 10.8.0.2
+vpn_server.subnet.ip = Адрес IPv4
+vpn_server.subnet.mask = Маска
+vpn_server.keepalive = Интервал опроса
 vpn_server.keepalive.tooltip =
-	The keepalive directive causes ping-like messages to be sent back and forth over the link so that each side
-	knows when the other side has gone down. All values in seconds
-vpn_server.keepalive.ping = Frequency
-vpn_server.keepalive.time_period = Timeout
-vpn_server.redirect-gateway = Redirect Gateway
+	В течении заданного интервала вызывается отправка сообщений похожих на ping туда и обратно по VPN туннелю, 
+	чтобы каждая сторона знала, что другая сторона все еще работает или отключилась. Все значения в секундах.
+vpn_server.keepalive.ping = Частота
+vpn_server.keepalive.time_period = Таймаут
+vpn_server.redirect-gateway = Перенаправлять шлюз
 vpn_server.redirect-gateway.tooltip =
-	If enabled, this directive will configure all clients to redirect their default network gateway through the VPN,
-	causing all IP traffic such as web browsing and and DNS lookups to go through the VPN (The OpenVPN server machine
-	may need to NAT or bridge the TUN/TAP interface to the internet in order for this to work properly)
-vpn_server.primary_dns = Primary DNS
-vpn_server.secondary_dns = Secondary DNS
-vpn_server.dns.tooltip = DNS to use when the "Redirect Gateway" option is enabled
+	Если выбрано <b>"Да"</b>, то шлюзом по умолчанию для всех клиентов станет IP-адрес VPN сервера. В результате чего весь 
+	IP-трафик, такой как просмотр веб-страниц и DNS-запросы, пойдет через VPN (Чтобы это работало должным образом, OpenVPN серверу
+	может понадобиться настройка NAT или создание моста между TUN/TAP и интернет интерфейсами). 
+vpn_server.primary_dns = Основной DNS
+vpn_server.secondary_dns = Дополнительный DNS
+vpn_server.dns.tooltip = Используемый DNS, когда включена опция «Перенаправлять шлюз»
 vpn_server.max-clients = Max Clients
 vpn_server.max-clients.tooltip = The maximum number of concurrently connected clients we want to allow
 vpn_server.service_restarted = The configurations has been updated and the service has been started
