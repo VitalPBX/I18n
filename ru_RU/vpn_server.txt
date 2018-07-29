@@ -60,4 +60,5 @@ vpn_server.client.received_transmitted = Пакеты Rx / Tx
 vpn_server.client.connected_since = Время подключения
 vpn_server.no_license =
 	Вы достигли максимального количества бесплатных VPN-клиентов. Активируйте лицензию для создания более двух клиентов
-vpn_server.compression = Сжатие
+vpn_server.compression = Сжатие трафика
+vpn_server.compression.tooltip = Позволяет выбрать тип сжатия трафика между сервером и клиентом 
