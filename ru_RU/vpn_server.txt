@@ -60,4 +60,4 @@ vpn_server.client.connected = Подключен
 vpn_server.client.received_transmitted = Пакеты Rx / Tx
 vpn_server.client.connected_since = Время подключения
 vpn_server.no_license =
-	You have reached maximum number of free VPN clients. Activate the add-on to create more than two clients
+	Вы достигли максимального количества бесплатных VPN-клиентов. Активируйте лицензию для создания более двух клиентов
