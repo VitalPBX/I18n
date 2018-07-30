@@ -24,3 +24,11 @@ dashboard.free_space = Free Space
 dashboard.last_minute = Last Minute
 dashboard.last_five_minutes = Last Five Minutes
 dashboard.last_fifteen_minutes = Last Fifteen Minutes
+dashboard.cpu = CPU
+dashboard.memory = Memory
+dashboard.swap = Swap
+dashboard.usage = Usage
+dashboard.last_60_seconds = Last 60 Seconds
+dashboard.free = Free
+dashboard.system_services = System Services
+
