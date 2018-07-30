@@ -60,3 +60,16 @@ vpn_server.client.received_transmitted = Packets Rx / Tx
 vpn_server.client.connected_since = Connected Since
 vpn_server.no_license =
 	You have reached maximum number of free VPN clients. Activate the add-on to create more than two clients
+vpn_server.compression = Compression
+vpn_server.compression.tooltip = Allows you to define the type of compression to use between server & clients traffic
+vpn_server.type = Type
+vpn_server.type.tooltip = It allows to define the type of client, depending on it, the configuration that is downloaded will vary
+vpn_server.type.generic = Generic
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.cipher = Cipher Method
+vpn_server.cipher.tooltip = Encrypt data channel packets with cipher algorithm alg.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.des-ede3-cbc = Triple-DES
