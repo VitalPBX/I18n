@@ -62,3 +62,14 @@ vpn_server.no_license =
 	Вы достигли максимального количества бесплатных VPN-клиентов. Активируйте лицензию для создания более двух клиентов
 vpn_server.compression = Сжатие трафика
 vpn_server.compression.tooltip = Позволяет выбрать тип сжатия трафика между сервером и клиентом 
+vpn_server.type = Тип
+vpn_server.type.tooltip = Позволяет определить тип клиента, в зависимости от которого будет меняться скачиваемая конфигурация
+vpn_server.type.generic = Общий
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.cipher = Метод шифрования
+vpn_server.cipher.tooltip = Позволяет выбрать метод шифрования пакетов данных.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.des-ede3-cbc = Triple-DES
