@@ -59,3 +59,9 @@ vpn_server.subnet.mask = Mascara
 vpn_server.subnet.tooltip =
 	Define el rango de IP virtual que se utilizará en la red de túnel VPN. Por ejemplo, si usa como rango la dirección IP 10.8.0.0,
 	la IP del servidor será 10.8.0.1 y al primer cliente se le asignará la IP 10.8.0.2
+vpn_server.compression = Compresión
+vpn_server.compression.tooltip = Le permite definir el tipo de compresión para usar entre el tráfico del servidor y el cliente
+vpn_server.type = Tipo
+vpn_server.type.tooltip = Permite definir el tipo de cliente, dependiendo de él, la configuración que se descarga variará.
+vpn_server.type.generic = Genérico
+vpn_server.type.yealink = Yealink
