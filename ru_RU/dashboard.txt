@@ -3,45 +3,31 @@ dashboard.asterisk_uptime = Время работы Asterisk
 dashboard.available = Доступно
 dashboard.current_time = Текущее время
 dashboard.dahdi = DAHDi
-dashboard.days =
-	[0]
-	[one] 1 день
-	*[other] {0} дн.
-dashboard.fail2ban = Fail2Ban
 dashboard.general = Панель cостояния
-dashboard.hard_disk = Информация о диске
-dashboard.hours =
-	[0]
-	[one] , 1 час
-	*[other] , {0} час.
-dashboard.minutes =
-	[0]
-	[one] , 1 мин.
-	*[other] , {0} мин.
 dashboard.network_usage = Использование сети
-dashboard.seconds =
-	[0]
-	[one] , 1 сек.
-	*[other] , {0} сек.
 dashboard.server_uptime = Время работы сервера
 dashboard.services_status = Состояние служб
 dashboard.ssh = SSH
 dashboard.system_usage = Использование системы
-dashboard.time = Время
-dashboard.uptime_format = {dashboard.days[0]}{dashboard.hours[1]}{dashboard.minutes[2]}{dashboard.seconds[3]}
 dashboard.used = Занято
-dashboard.unavailable = Н/Д
 menu.dashboard = Панель cостояния
 module.dashboard = Панель cостояния
-dashboard.cpu_usage = Использование CPU
 dashboard.firewall = Firewall
 dashboard.intrusion_detection = Обнаружение вторжений
+dashboard.cpu_usage = Использование CPU
 dashboard.memory_usage = Использование памяти
-dashboard.active_calls = Активные вызовы
 dashboard.devices = {0} Устройства
+dashboard.active_calls = Активные вызовы
 dashboard.disk_usage = Использование диска
+dashboard.used_space = Используемое место
 dashboard.free_space = Свободное место
 dashboard.last_fifteen_minutes = Последние пятнадцать минут
 dashboard.last_five_minutes = Последние пять минут
 dashboard.last_minute = Последняя минута
-dashboard.used_space = Используемое место
+dashboard.cpu = CPU
+dashboard.memory = Память 
+dashboard.swap = Виртуальная память 
+dashboard.usage = Использование
+dashboard.last_60_seconds = Последние 60 секунд 
+dashboard.free = Свободно 
+dashboard.system_services = Системные службы
