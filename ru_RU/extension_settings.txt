@@ -64,3 +64,4 @@ extension_settings.timezone = Часовой пояс
 extension_settings.timezone.tooltip = Часовой пояс данного пользователя.
 menu.my_extension = Мой номер
 module.extension_settings = Мой номер
+extension_settings.dictation.invalid = Предоставлены недопустимые данные для диктофона
