@@ -1,0 +1,75 @@
+vpn_server = OpenVPN
+menu.vpn_server = {vpn_server}
+module.vpn_server = {vpn_server}
+vpn_server.server = Сервер
+vpn_server.clients = Клиенты
+vpn_server.enabled = Включен
+vpn_server.enabled.tooltip = Показывает текущий статус OpenVPN сервера 
+vpn_server.port = Порт
+vpn_server.port.tooltip = Порт, по которому будет доступен OpenVPN сервер
+vpn_server.subnet = IP диапазон
+vpn_server.subnet.tooltip =
+	Определяет виртуальный диапазон IP адресов, который будет использоваться в VPN сети. Например: если вы используете в качестве
+	диапазона IP-адрес 10.8.0.0 и маску 255.255.255.0, то IP-адрес сервера будет 10.8.0.1, а первому клиенту будет присвоен IP-адрес 10.8.0.2
+vpn_server.subnet.ip = Адрес IPv4
+vpn_server.subnet.mask = Маска
+vpn_server.keepalive = Интервал опроса
+vpn_server.keepalive.tooltip =
+	В течении заданного интервала происходит отправка сообщений туда и обратно по VPN туннелю, чтобы каждая сторона знала, 
+	что другая сторона все еще работает или отключилась. Параметры по-умолчанию: каждые 10 секунд посылать ping на удаленный хост, и, если за 120 секунд не было получено ни одного пакета - то перезапустить туннель.
+vpn_server.keepalive.ping = Частота
+vpn_server.keepalive.time_period = Таймаут
+vpn_server.redirect-gateway = Перенаправлять шлюз
+vpn_server.redirect-gateway.tooltip =
+	Если выбрано <b>"Да"</b>, то шлюзом по умолчанию для всех клиентов станет IP-адрес VPN сервера. В результате чего весь 
+	IP-трафик, такой как просмотр веб-страниц и DNS-запросы, пойдет через VPN (Чтобы это работало должным образом, OpenVPN серверу
+	может понадобиться настройка NAT или создание моста между TUN/TAP и интернет интерфейсами). 
+vpn_server.primary_dns = Основной DNS
+vpn_server.secondary_dns = Дополнительный DNS
+vpn_server.dns.tooltip = Используемый DNS, когда включена опция «Перенаправлять шлюз»
+vpn_server.max-clients = Макс. кол-во клиентов
+vpn_server.max-clients.tooltip = Максимально разрешенное количество одновременно подключенных VPN-клиентов
+vpn_server.service_restarted = Конфигурация обновлена. Служба запущена.
+vpn_server.service_stopped = Конфигурация обновлена. Служба остановлена.
+vpn_server.configuration_updated = Конфигурация обновлена
+vpn_server.add_client = Добавить клиента
+vpn_server.client.description = Описание
+vpn_server.client.description.tooltip = Краткое описание для идентификации этого OpenVPN клиента
+vpn_server.client.assigned_address = Назначить IP
+vpn_server.client.assigned_address.tooltip = Позволяет назначить конкретный IP-адрес этому клиенту
+vpn_server.client.enabled = Включен
+vpn_server.client.enabled.tooltip = Позволяет включить\отключить этого пользователя
+vpn_server.configuring_client = Настройка клиента...
+vpn_server.client_saved = Клиент сохранен и настроен.
+vpn_server.client.duplicated_address = Введенный IP-адрес уже используется
+vpn_server.client.no_description = Введите <b>Описание</b> для этого клиента
+vpn_server.client.invalid_ip = Для этого клиента указан неверный <b>IP-адрес</b>
+vpn_server.actions = Действия
+vpn_server.client.duplicated_description = Введенное описание уже используется
+vpn_server.edit_client = Редактировать клиента
+vpn_server.client.cannot_download_cert = Не удается скачать клиентскую конфигурацию
+vpn_server.invalid_data = Введены неверные данные
+vpn_server.client.confirm_delete = Вы уверены, что хотите удалить этого клиента?
+vpn_server.client.deleted = Клиент успешно удален
+vpn_server.public_host = Внешний IP/Хост
+vpn_server.public_host.tooltip = Внешний IP-адрес или хост VPN-сервера, который будет использоваться для подключения клиентов.
+vpn_server.client.private_ip = Назначенный IP
+vpn_server.client.real_address = Реальный адрес
+vpn_server.client.connected = Подключен
+vpn_server.client.received_transmitted = Пакеты Rx / Tx
+vpn_server.client.connected_since = Время подключения
+vpn_server.no_license =
+	Вы достигли максимального количества бесплатных VPN-клиентов. Активируйте лицензию для создания более двух клиентов
+vpn_server.compression = Сжатие трафика
+vpn_server.compression.tooltip = Позволяет выбрать тип сжатия трафика между сервером и клиентом 
+vpn_server.type = Тип
+vpn_server.type.tooltip = Позволяет определить тип клиента, в зависимости от которого будет меняться скачиваемая конфигурация
+vpn_server.type.generic = Общий
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.cipher = Метод шифрования
+vpn_server.cipher.tooltip = Позволяет выбрать метод шифрования пакетов данных.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.des-ede3-cbc = Triple-DES

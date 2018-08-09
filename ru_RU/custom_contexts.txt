@@ -10,3 +10,4 @@ custom_contexts.priority = Приоритет
 custom_contexts.priority.priority = Приоритет, в котором будет запущен вызов.
 custom_contexts.dest = Направление
 custom_contexts.max_custom_contexts = Вы не можете создать более одного дополнительного контекста. Пожалуйста, приобретите лицензию для создания неограниченного количества дополнительных контекстов.
+custom_contexts.general = {ombutel.general}
