@@ -34,3 +34,5 @@ duplicated_extension = Указанный номер уже использует
 edit = Изменить
 download = Скачать
 inherited = Унаследовано
+duplicated_number = Указанный номер уже используется.
+default = По умолчанию
