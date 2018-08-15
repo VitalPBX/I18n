@@ -26,3 +26,7 @@ paging.timeout = Tiempo de Espera
 paging.timeout.tooltip = Especificar la longitud de tiempo que el sistema intentará conectar una llamada. Después de este periodo de tiempo, las llamadas internas que no han sido contestadas serán colgadas por el sistema.
 paging.extension.invalid = El código de Buscapersonas & Intercom no es válido. Solo *, #, + y números están permitidos.
 paging.invalid.already_exists = Número de Buscapersonas & Intercom inválido {0}. El número está en uso por módulo {1}.
+paging.ip_address = Dirección IP
+paging.multicastrtp = Multidifusión RTP
+paging.no_members = No se han proporcionado extensiones ni miembros válidos de multidifusión
+paging.port = Puerto
