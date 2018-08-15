@@ -237,5 +237,6 @@ module.vm_busy = Correo de Voz Ocupado
 module.vm_direct = Correo de Voz Directo
 module.vm_unavailable = Correo de Voz no Disponible
 extensions.pinless = Sin PIN
-extensions.pinless.tooltip = 	Si está habilitado, al usuario de esta extensión no se le pedirá que ingrese el PIN en las rutas de salida que tienen
+extensions.pinless.tooltip =
+	Si está habilitado, al usuario de esta extensión no se le pedirá que ingrese el PIN en las rutas de salida que tienen
 	asignado un conjunto de pin
