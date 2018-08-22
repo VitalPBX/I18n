@@ -11,7 +11,7 @@ menu.blacklist = Черный список
 module.blacklist = Черный список
 blacklist.destination = Направление
 blacklist.destination.tooltip =
-	Дополнительное направление. If set, the caller with a CID Number that match with the configured above, will be redirected
-	to the configured destination. If not set, a message will be played instead
-blacklist.enabled = Enabled
-blacklist.enabled.tooltip = Enable/Disable this CID number from the blacklist
+	Дополнительное направление. Если установлено, то указанный выше номер будет отправлен по заданному направлению. Если не
+	установлено, то будет воспроизводиться сообщение.
+blacklist.enabled = Включено
+blacklist.enabled.tooltip = Активировать\деактивировать этот номер CID из черного списка
