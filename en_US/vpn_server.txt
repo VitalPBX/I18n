@@ -1,4 +1,4 @@
-vpn_server = OpenVPN
+vpn_server = OpenVPN Server
 menu.vpn_server = {vpn_server}
 module.vpn_server = {vpn_server}
 vpn_server.server = Server
