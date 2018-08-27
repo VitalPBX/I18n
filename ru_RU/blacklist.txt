@@ -5,7 +5,13 @@ blacklist.general = Общие
 blacklist.not_found = Черный список не найден
 blacklist.number = Номер CID
 blacklist.number.tooltip = Номер, который будет включен в черный список.
-blacklist.numebr.invalid = Номер не действителен. <br>Должен содержать цифры, числа и/или "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" знаки.
+blacklist.numebr.invalid = Неправильный номер.
 blacklist.search = Поиск
 menu.blacklist = Черный список
 module.blacklist = Черный список
+blacklist.destination = Направление
+blacklist.destination.tooltip =
+	Дополнительное направление. Если установлено, то указанный выше номер будет отправлен по заданному направлению. Если не
+	установлено, то будет воспроизводиться сообщение.
+blacklist.enabled = Включено
+blacklist.enabled.tooltip = Активировать\деактивировать этот номер CID из черного списка
