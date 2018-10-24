@@ -22,3 +22,6 @@ class_of_service.allowed_calls_by = Allowed Calls By
 class_of_service.allowed_calls_by.tooltip = It defines the list of CoS to be allowed to call to this CoS when "Private" field is checked.
 class_of_service.billing_app = Prepaid Billing
 class_of_service.billing_app.tooltip = It allows you to select a billing app to rate calls made by extensions with this CoS.
+class_of_service.validation.cos_duplicated = The class of service "<b>{0}</b>" its already defined.
+class_of_service.validate.default = You cannot delete this class of service because is marked as default
+class_of_service.validation.in_use = This class of service is being used by the module "<b>{0}</b>"
