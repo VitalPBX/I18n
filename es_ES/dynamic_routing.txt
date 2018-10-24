@@ -1,0 +1,30 @@
+dynamic_routing = Enrutamiento Dinámico
+menu.dynamic_routing = {dynamic_routing}
+module.dynamic_routing = {dynamic_routing}
+dynamic_routing.general = {ombutel.general}
+dynamic_routing.list = Lista
+dynamic_routing.et.hours =
+	[one] {0} Hora
+	[other] {0} Horas
+dynamic_routing.et.never = Nunca
+dynamic_routing.expiration_time = Tiempo de Expiración
+dynamic_routing.expiration_time.tooltip =
+	Permite definir cuánto tiempo se conservarán los registros de la lista de enrutamiento dinámico, antes de que sean
+	eliminado automáticamente
+dynamic_routing.digits_match = Coincidencia de Dígitos
+dynamic_routing.digits_match.tooltip =
+	Permite definir el número de dígitos a extraer del número de la persona que llama (de derecha a izquierda), para luego
+	buscar coincidencias en la lista de enrutamiento dinámico. Si se deja en blanco, se utilizará el número completo de la persona que llama para buscar
+	las coincidencias
+dynamic_routing.delete_used_records = Eliminar Registros Usados
+dynamic_routing.delete_used_records.tooltip =
+	Si está marcado, el registro se eliminará de la lista de enrutamiento dinámico cuando se responda la devolución de llamada
+dynamic_routing.only_missed_calls = Sólo mantener llamadas perdidas
+dynamic_routing.only_missed_calls.tooltip =
+	Si está marcado, solo las llamadas (salientes) que se pierdan por la parte llamada se guardarán en la lista de enrutamiento dinámico
+dynamic_routing.calldate = Fecha y Hora de Llamada
+dynamic_routing.extension = Número de Extensión
+dynamic_routing.called = Número Llamado
+dynamic_routing.trunk = Troncal
+dynamic_routing.actions = Acciones
+dynamic_routing.completed = Completado

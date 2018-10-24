@@ -43,3 +43,4 @@ bulk_modification.recording_types.tooltip = Permite habilitar o deshabilitar el 
 bulk_modification.validations.invalid_field = Has seleccionado un campo inválido
 bulk_modification.validations.no_extensions = No ha seleccionado ninguna extensión para ser modificada
 bulk_modification.validations.no_field = No ha seleccionado ningún campo para ser modificado
+bulk_modification.field.generate_hints = {extensions.diversion_hints}

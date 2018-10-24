@@ -17,3 +17,5 @@ authcode.search = Buscar
 menu.authorization_codes = Códigos de Autorización
 module.authcode = Códigos de Autorización
 authcode.code.invalid = El código de autorización no es válido. Use solo números y el símbolo "*" (asterisco).
+authcode.validation.duplicated_auth_alias = El alias del código de autorización proporcionado ya está en uso
+authcode.validation.duplicated_code = El código de autorización proporcionado ya está en uso

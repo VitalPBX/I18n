@@ -24,3 +24,6 @@ class_of_service.private.tooltip =
 	serán permitidas. <b> Nota: se aplica solo para llamadas internas </b>
 class_of_service.billing_app = Facturación Prepaga
 class_of_service.billing_app.tooltip = Le permite seleccionar una aplicación de facturación para facturar las llamadas realizadas por extensiones con este CoS.
+class_of_service.validate.default = No puede eliminar esta clase de servicio porque está marcado como predeterminado
+class_of_service.validation.cos_duplicated = La clase de servicio "<b>{0}</b>" ya está definida
+class_of_service.validation.in_use = Esta clase de servicio está siendo utilizada por el módulo "<b>{0}</b>"

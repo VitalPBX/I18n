@@ -22,3 +22,5 @@ dialrules.play_duration.tooltip = Reproducir duración max sólo si la duración
 dialrules.rules = Reglas
 menu.dialing_restriction_rules = Restricción de Marcado
 module.dialrules = Reglas de Restricción de Marcado
+dialrules.no_rules = No se han proporcionado patrones de reglas de marcación válidos
+dialrules.used_by_cos = Esta Reglas de Restricción de Marcado no se puede eliminar porque se está utilizando para una o más <b>Clases de Servicios</b>

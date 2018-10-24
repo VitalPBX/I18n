@@ -240,3 +240,11 @@ extensions.pinless = Sin PIN
 extensions.pinless.tooltip =
 	Si está habilitado, al usuario de esta extensión no se le pedirá que ingrese el PIN en las rutas de salida que tienen
 	asignado un conjunto de pin
+extensions.ask_password = Pedir Contraseña
+extensions.ask_password.tooltip =
+	Permite definir si los usuarios que marcan <b>{0}</b> para acceder a su propio correo de voz deberán ingresar
+	su contraseña de correo de voz o no. Esto no se aplica a la función "{1} ({2})"
+extensions.dynamic_routing = 
+extensions.dynamic_routing.tooltip = Enrutamiento Dinámico
+	Le permite habilitar o no el enrutamiento dinámico para esta extensión. Si está habilitado, cuando una parte externa
+	(quien anteriormente fue llamado por esta extensión) devuelve la llamada, su llamada se enrutará directamente a esta extensión
