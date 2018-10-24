@@ -4,8 +4,8 @@ module.dynamic_routing = {dynamic_routing}
 dynamic_routing.general = {ombutel.general}
 dynamic_routing.list = Lista
 dynamic_routing.et.hours =
-	[one] {0} Hora
-	[other] {0} Horas
+	[uno] {0} Hora
+	[otro] {0} Horas
 dynamic_routing.et.never = Nunca
 dynamic_routing.expiration_time = Tiempo de Expiración
 dynamic_routing.expiration_time.tooltip =
