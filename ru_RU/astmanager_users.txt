@@ -29,3 +29,6 @@ astmanager_users.write = Права на запись
 astmanager_users.write.tooltip = Права на запись в Asterisk Management Interface (AMI).
 menu.asterisk_manager_users = Пользователи Asterisk Manager
 module.astmanager_users = Пользователь Asterisk Manager
+astmanager_users.message = Сообщение
+astmanager_users.security = Безопасность
+astmanager_users.duplicated_user = Указанный AMI пользователь уже используется.
