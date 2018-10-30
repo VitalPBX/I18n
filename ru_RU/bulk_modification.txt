@@ -35,3 +35,4 @@ bulk_modification.validations.no_extensions = Вы не выбрали номе�
 bulk_modification.validations.no_field = Вы не выбрали какое-либо поле для изменения
 bulk_modification.validations.invalid_field = Вы выбрали неверное поле
 bulk_modification.field.emergency_cid = {extensions.emergency_cid}
+bulk_modification.field.generate_hints = {extensions.diversion_hints}
