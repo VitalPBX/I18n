@@ -1,0 +1,35 @@
+app.activate = Ativar a instalação
+app.billing = Billing
+app.switchboard = Switchboard
+app.recordings = Recordings
+app.activate.existent_account = Já tem uma conta!
+app.activate.register = Registro
+app.activate.info =
+	Você precisa ativar sua instalação para poder atualizar a partir da GUI.
+	Para ativar sua instalação Você precisa criar uma conta ou acessar sua conta existente.
+app.activate.register.email = Seu endereço de email. Após o registro, você pode usar este email para ativar qualquer outra instalação
+app.activate.register.password = Sua senha. Após o registro, você pode usar essa senha para ativar qualquer outra instalação.
+app.activate.register.phone = Seu número de telefone para qualquer chamada comercial. É opcional
+app.activate.register.country = Qual sua Localização.
+app.activate.new_account = Não tenho uma conta!
+app.activate.login = Entrar
+app.register.successfully = Você registrou e ativou com êxito sua instalação
+app.installation_activated = Você ativou com sucesso sua instalação
+app.activation.no_first_name = Por favor, forneça seu primeiro nome
+app.activation.no_last_name = Por favor, forneça seu sobrenome
+app.activation.no_valid_email = Por favor, escreva um endereço de email válido
+app.activation.no_password = Por favor, escreva uma senha
+app.activation.no_response = Algo está errado, não há resposta do servidor de ativação
+app.activate.cannot_create_lic = Não é possível ativar o produto devido à permissão errada da pasta
+app.no_updates = Não há atualizações disponíveis
+app.new_update = Novo {0} Atualizar
+app.new_version = Uma nova versão <b>{0} {1}</b> esta disponivel!
+app.update_now = Atualizar Agora
+app.updated = {0} foi atualizado com sucesso
+app.cannot_update = Não é possível atualizar para a versão mais recente
+app.user_profile_not_allowed = Você não tem permissão para alterar suas configurações de perfil
+app.no_update_from_gui = Você não tem permissão para atualizar a partir da GUI
+app.change_language_not_allowed = Você não tem permissão para alterar o idioma da GUI
+app.module_not_found = O módulo <b>{0}</b> não existe
+app.no_access_to_module = Você não tem acesso ao "<b>{0}</b>" módulo
+app.activation.no_country = Por favor selecione seu país

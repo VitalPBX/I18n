@@ -1,0 +1,16 @@
+menu.queue_vips = Fila VIPs
+module.queues_vip = Filas VIPs
+queues_vip = Filas VIP
+queues_vip.confirm_delete = Tem certeza de que deseja excluir esta lista de VIPs da fila?
+queues_vip.delete = Excluir
+queues_vip.description = Descrição
+queues_vip.description.tooltip = Breve descrição para identificar esta fila VIP.
+queues_vip.general = Geral
+queues_vip.list = Lista VIP
+queues_vip.list.duplicate = A Lista VIP da fila não pode conter números duplicados.
+queues_vip.list.empty = Pelo menos um número deve existir na lista VIP.
+queues_vip.list.invalid = Número inválido na lista VIP da fila. Use apenas números. Separe cada número com uma nova linha.
+queues_vip.list.tooltip = Inserir lista de números. Cada número deve estar em uma linha separada.
+queues_vip.none = Nenhum
+queues_vip.not_found = Lista de VIPs da fila solicitada não existe.
+

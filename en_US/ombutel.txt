@@ -204,3 +204,4 @@ updated.fail = No updates has been applied
 updated.no_packages = No packages available for update
 updates.updating = Updating System
 ombutel.login.invalid_info = You have provided an invalid info.
+being_used_as_destination = This item is being used as destination by the <b>{0}</b> module

@@ -55,3 +55,7 @@ conferences.adminpin.invalid = PIN de líder inválido. Use solo números y el s
 conferences.extension.invalid = El código de la conferencia no es válido. Solo números y *, #, + están permitidos.
 conferences.invalid.already_exists = Número de conferencia inválido {0}. El número está en uso por el módulo {1}.
 conferences.userpin.invalid = PIN de usuario inválido Use solo números y el símbolo "*" (asterisco).
+conferences.allow_to_invite = Permitir Invitar
+conferences.allow_to_invite.tooltip = 	Si está habilitado, todos los participantes podrían presionar "<b>**</b>" o "<b>0</b>" para invitar a otras personas a esta conferencia
+conferences.class_of_service = {class_of_service}
+conferences.class_of_service.tooltip = 	Le permite definir qué Clase de Servicio se utilizará para invitar a otras personas a esta conferencia

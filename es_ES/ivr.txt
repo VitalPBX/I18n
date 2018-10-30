@@ -53,3 +53,7 @@ ivr.generate_stats.tooltip =
 	Si está configurado en sí, se guardarán las estadísticas para cada opción marcada. 
 	Estas estadísticas se pueden consultar en el Módulo de Estadísticas de IVR
 module.ivr = IVR
+ivr.cos.warning = La acción que está a punto de realizar puede crear vulnerabilidades de seguridad. <b>No continúe a menos que esté seguro de que comprende la lógica de la Clase de servicio para IVR.</b>
+ivr.cos.warning.cancel = {ombutel.cancel}
+ivr.cos.warning.confirm = {ombutel.accept}
+ivr.cos.warning.title = {warning}

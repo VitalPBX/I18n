@@ -8,3 +8,4 @@ queues_priority.general = General
 queues_priority.mod_dest = Módulo de Destino
 queues_priority.priority = Prioridad
 queues_priority.priority.tooltip = La prioridad en la cola a establecer.
+queues_priority.menu.priority = Prioridad{0}

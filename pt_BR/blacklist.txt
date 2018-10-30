@@ -1,0 +1,11 @@
+blacklist = Lista negra
+blacklist.description = Descrição
+blacklist.description.tooltip = Descrição de texto livre do número da lista negra
+blacklist.general = Geral
+blacklist.not_found = Lista negra não encontrada
+blacklist.number = CID Numero
+blacklist.number.tooltip = Número CID a ser incluído na lista negra. Pode consistir em dígitos e "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" caracteries
+blacklist.numebr.invalid = Número para lista negra é inválido. <br>Deve conter dígitos e "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" caracteries
+blacklist.search = Pesquisa
+menu.blacklist = Lista negra
+module.blacklist = Lista negra

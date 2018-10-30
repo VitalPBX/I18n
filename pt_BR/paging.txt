@@ -1,0 +1,28 @@
+menu.paging_and_intercom = Paginação e Intercomunicador
+module.paging = Paginaçã e Intercomunicador
+paging = Paginaçã e Intercomunicador
+paging.description = Descrição
+paging.description.tooltip = Breve descrição para identificar esta paginação
+paging.duplex = Áudio Duplex
+paging.duplex.tooltip = Às vezes chamado de "falar de volta falar", o uso dessa opção implica que o equipamento que recebe a página tenha a capacidade de transmitir o áudio de volta ao mesmo tempo em que está recebendo áudio. Geralmente, você não iria querer usar isso, a menos que você tivesse uma necessidade específica para isso.
+paging.extensions = Extensões
+paging.extensions.invalid = Por favor, selecione pelo menos uma extensão
+paging.extensions.tooltip = Lista da (s) extensão (ões) a discar.
+paging.extension = Código
+paging.extension.invalid = O código de paginação é inválido. Somente *,#,+ e números são permitidos.
+paging.extension.tooltip = Número para alcançar este serviço
+paging.general = Geral
+paging.ignore = Ignorar chamada direta
+paging.ignore.tooltip = Ignorar tentativas de encaminhar a chamada
+paging.invalid.already_exists = Número de paginação inválido {0}. O número está em uso pelo módulo {1}.
+paging.quiet = Modo silencioso
+paging.quiet.tooltip = Silencioso, não jogue beep para o chamador
+paging.record = Gravar paginação
+paging.record.tooltip = Grave a página em um arquivo
+paging.seconds =
+	[um] um segundo
+	[outros] {0} segundos
+paging.skip_busy = Ir ocupado
+paging.skip_busy.tooltip = Disca um canal apenas se o estado do dispositivo for NOT_INUSE. Esta opção é provavelmente útil (e confiável) em canais com limite de SIP e, mesmo assim, pode não funcionar se uma única linha permitir múltiplas chamadas nela. Portanto, não confie nessa opção em todos os casos.
+paging.timeout = Tempo esgotado
+paging.timeout.tooltip = Especifique o período de tempo que o sistema tentará conectar uma chamada. Após esse período, todas as chamadas internas que não tiverem sido respondidas serão desligadas pelo sistema.

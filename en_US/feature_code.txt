@@ -86,7 +86,10 @@ feature_code.reminder.tooltip = Records a message. You can configure in how many
 feature_code.remote_substitution = Remote Substitution
 feature_code.remote_substitution.tooltip = Makes it possible for the current phone to make calls as if you are calling from different phone extension. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.remote_vm = Remote Voicemail
-feature_code.remote_vm.tooltip = Remote entry to the voicemail system to listen to voicemail for any extension – requires the user to input both an extension number and the voicemail password for that extension. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.remote_vm.tooltip =
+	Remote entry to the voicemail system to listen to voicemail for any extension. You can either follow the prompts, or
+	(in expert mode) enter the feature code immediately followed by * (asterisk) and the mailbox extension. Feature must
+	be enabled in the Feature Category associated with the extension.
 feature_code.remote_wakeup_call = Remote Wakeup Call
 feature_code.remote_wakeup_call.tooltip = Set a reminder or wakeup call for another extension. Enter the number of the extension for which the reminder is intended. Press 1 for a one-time reminder, or press 2 for a recurring daily reminder. The time should be entered in 24-hour format using  4 digits. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.remove_number_blacklist = Remove Number From Blacklist
@@ -138,3 +141,8 @@ feature_code.send_vm_msg = Send Voicemail Message
 feature_code.send_vm_msg.tooltip = Allows you to dial any extension and leave a voicemail message. For example, dialing *95*2492 will allow you to leave a voicemail message for extension 2492. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.spy_ext_barge = Spy on Extension In Barge Mode
 feature_code.spy_ext_barge.tooltip = Instead of whispering on a single channel barge in on both channels involved in the call.
+feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.paging_and_intercom = Paging
+feature_code.paging_and_intercom.tooltip =
+	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
+	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.

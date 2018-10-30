@@ -119,3 +119,48 @@ trunks.validation.duplicated_outgoing_username = El nombre de usuario saliente p
 trunks.validation.no_outgoing_host = El Host saliente no ha sido provisto
 trunks.validation.no_outgoing_username = El nombre de usuario saliente no se ha proporcionado
 trunks.validation.same_username = El nombre de usuario para llamadas entrantes y salientes es el mismo. Por favor, use un nombre de usuario diferente para ambos campos
+trunks.incoming_settings = Parámetros del Usuario
+trunks.incoming_settings.tooltip = Parámetros de usuario suministrados por su proveedor de VoIP
+trunks.no_outgoing_settings = No hay configuraciones de salida definidas en este Troncal
+trunks.outgoing_settings = Peer Parámetros
+trunks.outgoing_settings.tooltip = Parámetros del Peer proporcionados por su proveedor de VoIP
+trunks.plain_mode = Cambiar al Modo de Texto
+trunks.visual_mode = Cambiar al Modo Visual
+trunks.get_cid_from = Obtener CID de
+trunks.get_cid_from.contact = Contacto
+trunks.get_cid_from.from = De
+trunks.get_cid_from.tooltip = Le permite definir desde qué encabezado SIP se extraerá la información de identificación de la persona que llama
+trunks.get_did_from = Obtener DID de
+trunks.get_did_from.to = A
+trunks.get_did_from.tooltip = Le permite definir desde qué encabezado SIP se extraerá el número DID
+trunks.rules = Reglas de manipulación de marcado
+trunks.rules.enabled = {trunks.trkcustom.enabled}
+trunks.rules.pattern = Patrón
+trunks.rules.prefix = Prefijo
+trunks.rules.prepend = Anteponer
+trunks.auth_rejection_permanent = Rechazo de Autenticación Permanente
+trunks.auth_rejection_permanent.tooltip = 
+	Si esta opción está habilitada y falla un desafío de autenticación, el registro no se intentará de nuevo hasta que
+	la configuración se recarga
+trunks.expiration = Vencimiento
+trunks.expiration.tooltip = Tiempo de caducidad para registros en segundos
+trunks.forbidden_retry_interval = Intervalo de Reintento Prohibido
+trunks.forbidden_retry_interval.tooltip = 
+	Define el tiempo de espera antes de volver a intentar el registro, luego de recibir una respuesta 403 Prohibida.
+	Si se especifica 0, no se realizará ningún reintento después de recibir una respuesta 403 Prohibida
+trunks.general_conf = Configuraciones Generales
+trunks.match = Coincidencia
+trunks.match.tooltip = 
+	El valor es una lista delimitada por comas de direcciones IP o nombres de host. Las direcciones IP pueden tener una máscara de subred adjunta.
+	La máscara de subred puede escribirse en CIDR o en notación decimal punteada. Separe la dirección IP y la máscara de subred
+	con una barra ('/').
+trunks.max_retries = Número Máximo de Reintentos
+trunks.max_retries.tooltip = Número máximo de intentos de registro
+trunks.outbound_registration = Requiere Registro
+trunks.outbound_registration.tooltip = Define, si es necesario registrarse en el servidor remoto o proveedor de VoIP
+trunks.outbound_registration_settings = Configuración de Registro de Salida
+trunks.retry_interval = Reintentar el Intervalo
+trunks.retry_interval.tooltip = Intervalo en segundos entre reintentos si el registro de salida no se realiza correctamente
+trunks.transport = {profiles_pjsip_transport}
+trunks.transport.tooltip = Configuración de transporte explícita para utilizar
+trunks.validation.pjsip.no_remote_credentials = El registro de salida se ha marcado como requerido, pero el nombre de usuario remoto o el secreto remoto no se han definido

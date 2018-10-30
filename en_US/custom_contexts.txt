@@ -10,3 +10,4 @@ custom_contexts.priority = Priority
 custom_contexts.priority.priority = The priority where the call will start.
 custom_contexts.dest = Destination
 custom_contexts.max_custom_contexts = You cannot create more than one custom context. Please buy a license for created unlimited custom contexts.
+custom_contexts.general = {ombutel.general}

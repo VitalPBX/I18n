@@ -10,3 +10,4 @@ custom_contexts.priority = Prioridad
 custom_contexts.priority.priority = La prioridad donde comenzará la llamada.
 menu.custom_contexts = Contextos Personalizados
 module.custom_contexts = Contextos Personalizados
+custom_contexts.general = {ombutel.general}

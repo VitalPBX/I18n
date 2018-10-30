@@ -8,4 +8,10 @@ blacklist.number.tooltip = Número que se incluirán en la Lista Negra.
 blacklist.search = Buscar
 menu.blacklist = Lista Negra
 module.blacklist = Lista Negra
-blacklist.numebr.invalid = Número en la lista negra es inválido. <br>Debe contener dígitos, números y/o símbolos "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/".
+blacklist.numebr.invalid = Número en la lista negra es inválido.
+blacklist.destination = Destino
+blacklist.destination.tooltip =
+	Destino opcional Si se establece, la persona que llama con un número de CID que coincida con la configurada anteriormente,
+	será redireccionado al destino configurado. Si no está configurado, se reproducirá un mensaje en su lugar
+blacklist.enabled = Habilitado
+blacklist.enabled.tooltip = Habilitar/Deshabilitar este número de CID de la lista negra

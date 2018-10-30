@@ -1,0 +1,31 @@
+menu.outbound_routes = Rotas de saída
+module.trunk_group = Rotas de saída
+trunk_group = Rotas de saída
+trunk_group.description = Descrição
+trunk_group.description.tooltip = Breve descrição para identificar esta rota de saída
+trunk_group.general = Geral
+trunk_group.pin_list_id = PIN
+trunk_group.pin_list_id.tooltip = Escolha um PIN de grupo.
+trunk_group.select_outbound_route = - Selecione a rota de saída -
+trunk_group.trklist = Roupa de baixo
+trunk_group.trklist.empty = Nenhum troncos selecionado para esta rota de saída.
+trunk_group.trklist.tooltip = Lista de troncos para discar
+trunk_group.trkpattern = Padrões de discagem% s
+trunk_group.trkpattern.pattern = padronizar
+trunk_group.trkpattern.pattern.invalid = Padrão na linha {0}
+trunk_group.trkpattern.pattern.placeholder = Padrão de jogo
+trunk_group.trkpattern.pattern.tooltip = A correspondência de padrões nos permite criar padrões de extensão em nosso plano de discagem que correspondam a mais de um número discado possível
+trunk_group.trkpattern.prefix = Prefixo
+trunk_group.trkpattern.prefix.placeholder = Prefixo
+trunk_group.trkpattern.prefix.tooltip = Prefixo a ser removido ao corresponder.
+trunk_group.trkpattern.prepend = Prefender
+trunk_group.trkpattern.prepend.placeholder = Prefender
+trunk_group.trkpattern.prepend.tooltip = Dígitos para preceder ao combinar.
+trunk_group.virttrk = Troncos de inquilino
+trunk_group.virttrk.tooltip = Lista de inquilinos que esse inquilino pode chamar como tronco
+trunk_group.intra_company = Intra-empresa
+trunk_group.intra_company.tooltip =
+	Se marcado, o ID do chamador interno será enviado por essa rota de saída, em vez do ID do chamador externo
+	da extensão de chamada
+trunk_group.no_patterns = Nenhum padrão configurado para esta rota de saída
+trunk_group.no_description = Nenhuma descrição foi fornecida

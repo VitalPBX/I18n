@@ -65,3 +65,4 @@ extension_settings.ringtime = Tiempo de Timbrado
 extension_settings.ringtime.tooltip = La cantidad de segundos para permitir que el (los) dispositivo (s) suenen antes de abandonar y pasar a la siguiente prioridad en la extensión.
 extension_settings.timezone.tooltip = Zona hoararia para este suario.
 extension_settings.vm_password.invalid = La contraseña del correo de voz no es válida. Use solo números y el símbolo "*" (asterisco).
+extension_settings.dictation.invalid = Se ha proporcionado un dato de dictado no válido

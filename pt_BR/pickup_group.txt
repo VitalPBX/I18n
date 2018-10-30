@@ -1,0 +1,15 @@
+menu.pickup_groups = Grupos de retirada
+module.pickup_group = Grupos de retirada
+pickup_group = Grupos de retirada
+pickup_group.allow_pickup = Permitir captação
+pickup_group.allow_pickup.tooltip = Permitir membro de retirada deste grupo de captura
+pickup_group.description = Descrição
+pickup_group.description.tooltip = Breve descrição para este grupo de captura.
+pickup_group.extension = Extensão
+pickup_group.extension.tooltip = Extensão para ser um membro ou para ser autorizado a escolher um membro deste grupo de recolha, ou ambos.
+pickup_group.extension_id.duplicate = Extensões duplicadas não são permitidas em grupos de captura.
+pickup_group.extension_id.empty = Você deve adicionar pelo menos uma extensão a este grupo de captura.
+pickup_group.general = Geral
+pickup_group.member = Membro
+pickup_group.member.tooltip = Indique se esta extensão é um membro deste grupo de captura
+pickup_group.no_options = As extensões devem ser designadas como membros e / ou poderem ser atendidas.

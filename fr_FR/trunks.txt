@@ -5,7 +5,7 @@ trunks.advanced = Avancées
 trunks.class_of_service_id = Classe de service
 trunks.class_of_service_id.tooltip = Classe de service associée à ce trunk.
 trunks.codecs = Codecs
-trunks.codecs.tooltip = Liste des codecs autorisés. L'ordre dans lequel les codecs sont listés determine leur ordre de préférence.Si vous select au moins un codec, le paramètre "disallow=all" sera également généré.
+trunks.codecs.tooltip = Liste des codecs autorisés. L'ordre dans lequel les codecs sont listés determine leur ordre de préférence. Si vous selectionnez au moins un codec, le paramètre "disallow=all" sera également généré.
 trunks.custom_settings = Paramètres personnalisés
 trunks.dahdi_trunk_parameters = Paramètres ligne DAHDi
 trunks.description = Description
@@ -109,6 +109,6 @@ trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeri
 trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
 menu.trunks = Trunks
 trunks.continue_on_busy = Continue on Busy
-trunks.continue_on_busy.tooltip = 	
+trunks.continue_on_busy.tooltip =
 	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
 	also continue to the next trunk if any error happens, even if this checkbox is not checked.

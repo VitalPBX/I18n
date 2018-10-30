@@ -1,0 +1,40 @@
+menu.bulk_extensions = Extensão em massa
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {ombutel.general}
+bulk_extensions.range = Faixa de Extensões
+bulk_extensions.range.tooltip =
+	Define o intervalo de extensões que você deseja criar, por exemplo.: a partir de 1000 até 1400.
+	<b>Se qualquer um dos ramais do intervalo já existir será ignorado</b>.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Tecnologia do Dispositivo
+bulk_extensions.dev_technology.tooltip  = Define a tecnologia do dispositivo que será atribuído a cada extensão
+bulk_extensions.vm_enabled = Correio de voz ativado
+bulk_extensions.recording_types = Gravar Chamadas
+bulk_extensions.recording_types.tooltip = Permite que você selecione que tipo de chamadas serão gravadas
+bulk_extensions.vm_password.tooltip =
+	Permite que você defina a senha do correio de voz para cada ramal, se for deixado em branco, a senha será a extensão
+	número. Você pode usar a palavra reservada <b>&#123;ALEATÓRIO&#125;</b> para gerar uma senha aleatória.
+bulk_extensions.accountcode.tooltip =
+	Permite que você defina o código da conta para cada extensão. Você pode usar a palavra reservada <b>&#123;EXTENSÃO&#125;</b>
+	para usar a extensão como código de conta.
+bulk_extensions.features_password.tooltip =
+	Permite que você defina a senha dos recursos para cada extensão, se deixada em branco, uma senha aleatória será gerada.
+	Você pode usar a palavra reservada <b>&#123;EXTENSÃO&#125;</b> para usar a extensão como senha de recursos.
+bulk_extensions.validation.invalid_range = Um intervalo de extensão inválido foi fornecido
+bulk_extensions.validation.invalid_vm_password =
+	A senha do correio de voz contém caracteres inválidos. Apenas números, símbolo de asterisco ou palavras reservadas são permitidos
+bulk_extensions.validation.invalid_f_password =
+	A senha dos recursos contém caracteres inválidos. Apenas números, símbolo de asterisco ou palavras reservadas são permitidos
+bulk_extensions.success =
+	O intervalo de extensões foi processado com sucesso. <b>Extensões criadas</b>: {0} | <b>Extensões ignoradas</b>: {1}
+bulk_extensions.name_prefix = Prefixo do nome
+bulk_extensions.name_prefix.tooltip =
+	Apermite que você defina um prefixo para usar como parte do nome da extensão, por exemplo.: se você definir o valor do prefixo como Agente e
+	a extensão é 200, o nome da extensão será <b>Agent 200</b>. Se em branco, a palavra <b>Extensão</b> será usado como prefixo
+bulk_extensions.device_password = Senha de dispositivos
+bulk_extensions.device_password.tooltip =
+	Ele permite que você defina uma senha dinâmica ou fixa para os dispositivos gerados. Se em branco, uma senha aleatória será definida.
+	Você pode usar a palavra reservada <b>&#123;EXTENSÃO&#125;</b> para tornar o número de extensão parte da senha,
+	por exemplo. : se a extensão for 100 e você definir o seguinte valor para este campo <b>securepwd&#123;EXTENSÃO&#125;</b>, então, a senha será:
+	<b>securepwd100</b>

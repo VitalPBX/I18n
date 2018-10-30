@@ -25,7 +25,9 @@ users.startup.tooltip = Which dialog to be displayed when loging into the system
 users.theme = GUI Theme
 users.theme.tooltip = Theme for GUI style.
 users.timezone = Timezone
-users.timezone.tooltip = Local for this user.
+users.timezone.tooltip =
+	User Timezone. This timezone is used to show reports and other data related with time and date. The <b>System</b>
+	option allows you to take the timezone for this user directly from the PBX System.
 users.username.duplicate = The login name %s is already taken.
 users.user = Login Name
 users.user.tooltip = Name to use to login (nickname).

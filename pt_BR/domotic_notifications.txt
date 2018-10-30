@@ -1,0 +1,23 @@
+module.domotic_notifications = Notificações Domotic
+
+domotic_notifications.general.tab = {ombutel.general}
+
+domotic_notifications.unit_id = Unidade
+domotic_notifications.unit_id.help = Dependendo da unidade selecionada, mostrará o dispositivo a ser configurado.
+domotic_notifications.device_id = Dispositivo
+domotic_notifications.device_id.help = Dispositivo para configurar a notificação.
+domotic_notifications.device_id.select_one = -- Selecionar um --
+domotic_notifications.recording_id = Mensagem de boas-vindas
+domotic_notifications.recording_id.help = Áudio a ser reproduzido quando o dispositivo for acionado
+domotic_notifications.enabled = Ativar
+domotic_notifications.enabled.help = Ativar as notificações para este dispositivo
+domotic_notifications.destination = Destino
+
+domotic_notifications.validation.device_id = O dispositivo é obrigatório.
+domotic_notifications.validation.recording_id = O áudio de notificação é necessário.
+domotic_notifications.validation.mod_destination = O módulo de destino é obrigatório.
+domotic_notifications.validation.destination = O destino é obrigatório.
+
+domotic_notifications.delete = {ombutel.delete}
+domotic_notifications.delete.message = Tem certeza de que deseja excluir esta notificação?
+

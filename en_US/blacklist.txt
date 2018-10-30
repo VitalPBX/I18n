@@ -4,8 +4,14 @@ blacklist.description.tooltip = Free-text description of the blacklisted number
 blacklist.general = General
 blacklist.not_found = Blacklist not found
 blacklist.number = CID Number
-blacklist.number.tooltip = CID number to be included in the blacklist. May consist of digits and "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" characters
-blacklist.numebr.invalid = Number to blacklist is invalid. <br>Must contain digits and "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "=", "+", "$", ",", ";", "?", "/" characters
+blacklist.number.tooltip = CID number to be included in the blacklist.
+blacklist.numebr.invalid = Number to blacklist is invalid.
 blacklist.search = Search
 menu.blacklist = Blacklist
 module.blacklist = Blacklist
+blacklist.destination = Destination
+blacklist.destination.tooltip =
+	Optional destination. If set, the caller with a CID Number that match with the configured above, will be redirected
+	to the configured destination. If not set, a message will be played instead
+blacklist.enabled = Enabled
+blacklist.enabled.tooltip = Enable/Disable this CID number from the blacklist

@@ -35,4 +35,5 @@ bulk_modification.recording_types.tooltip = Allows to enable or disable the type
 bulk_modification.validations.no_extensions = You have not selected any extension to be modified
 bulk_modification.validations.no_field = You have not selected any field to be modified
 bulk_modification.validations.invalid_field = You have selected an invalid field
+bulk_modification.field.generate_hints = {extensions.diversion_hints}
 

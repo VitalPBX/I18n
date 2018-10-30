@@ -1,0 +1,11 @@
+custom_dest = Destinos personalizados
+custom_dest.class_of_service_id = Classe de serviço
+custom_dest.class_of_service_id.tooltip = Classe de serviço para pesquisar o número a ser discado
+custom_dest.description = Descrição
+custom_dest.description.tooltip = Nome que identifica este destino personalizado
+custom_dest.destination = Número para discar
+custom_dest.destination.invalid = Número para discar é inválido. Somente *,#,+ e números são permitidos.
+custom_dest.destination.tooltip = Número interno ou externo para discar
+custom_dest.general = Geral
+menu.custom_destinations = Destinos personalizados
+module.custom_dest = Destinos personalizados

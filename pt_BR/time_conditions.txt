@@ -1,0 +1,16 @@
+menu.time_conditions = Condições de Tempo
+module.time_conditions = Condições de Tempo
+time_conditions = Condições de Tempo
+time_conditions.cancel = Cancelar
+time_conditions.delete = Excluir
+time_conditions.description = Descrição
+time_conditions.description.tooltip = Breve descrição para identificar esta condição de tempo.
+time_conditions.falsegoto = Destino se a hora não corresponder a %s
+time_conditions.general = Condições de Tempo
+time_conditions.modfalse = Módulo falso
+time_conditions.modtrue = Módulo Verdadeiro
+time_conditions.save = Salve
+time_conditions.time_group_id = Time Group
+time_conditions.time_group_id.tooltip = Selecione um Grupo de tempos criado em Grupos de tempo. Os tempos de correspondência serão enviados para o destino correspondente.
+time_conditions.truegoto = Destino se o tempo corresponder a %s
+time_conditions.update = Atualizar

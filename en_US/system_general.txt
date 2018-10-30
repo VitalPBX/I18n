@@ -36,3 +36,10 @@ system_general.default_ast_lang = Default Language
 system_general.default_ast_lang.tooltip = Language to select by default when a new extension is being created
 system_general.devices_prefix = Devices Prefix
 system_general.devices_prefix.tooltip = Prefix to append by default to devices name
+system_general.sounds = System Prompts
+system_general.dnd = DND
+system_general.dnd.tooltip =
+	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
+system_general.blacklisted = Blacklisted
+system_general.blacklisted.tooltip =
+	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted

@@ -1,0 +1,22 @@
+menu.emergency_numbers = Números de emergência
+module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.general = {ombutel.general}
+emergency_numbers.trunks = Troncos
+emergency_numbers.trunks.tooltip = Lista de troncos que podem ser usados em caso de uma chamada de emergência
+emergency_numbers.legend = Lista de números de emergência
+emergency_numbers.number = Numero
+emergency_numbers.number.tooltip = Número de telefone para entrar em contato com os serviços de emergência locais para obter assistência
+emergency_numbers.number.placeholder = por exemplo.: 911
+emergency_numbers.description = Service Nome
+emergency_numbers.description.tooltip = Nome do serviço que representa este número de telefone. Ex .: Polícia, Bombeiros, Ambulância, etc
+emergency_numbers.description.placeholder = por exemplo: Polícia, Bombeiros, Ambulância, Etc.
+emergency_numbers.validation.invalid_number =
+	O seguinte número <b> "{0}" </b> tem um formato inválido, por favor escreva um número de telefone válido.
+	Deve conter os seguintes caracteres: *, #, +
+emergency_numbers.cat_description = Descrição
+emergency_numbers.cat_description.tooltip = Uma breve descrição para reconhecer facilmente esta lista de números de emergência
+emergency_numbers.validation.no_desc = Nenhuma descrição foi fornecida. Por favor, forneça uma descrição válida
+emergency_numbers.validation.no_trunks = Nenhum troncos foi selecionado. Por favor, selecione pelo menos um tronco.
+emergency_numbers.validation.no_numbers = Nenhum número foi fornecido. Por favor, adicione pelo menos um número.
+emergency_numbers.validation.n_duplicated =
+	O número de emergência {0} já está em uso pela seguinte categoria de número de emergência: <b> {1} </b>.

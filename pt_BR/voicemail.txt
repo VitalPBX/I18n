@@ -1,0 +1,2 @@
+vm_bodytext = Você recebeu uma mensagem de $ {VM_DUR} longa de $ {VM_CALLERID} em $ {VM_DATE}. \ NA gravação desta mensagem está anexada a este e-mail, você também pode ouvi-la discando *97 do seu próprio ramal ou discando *98 de qualquer outra extensão
+vm_subject = Número de correio de voz $ {VM_MSGNUM} da caixa de correio $ {VM_MAILBOX} de $ {VM_CALLERID} recebido em $ {VM_DATE}

@@ -219,3 +219,32 @@ extensions.emergency_cid_number = {extensions.external_cid_number}
 extensions.emergency_cid = Emergency CID
 extensions.emergency_cid.tooltip =
 	It allows to define the caller id that will be used in case of calling an emergency number
+extensions.dialout = Allow to Dial Out
+extensions.dialout.tooltip =
+	If allowed, users can dial out from their mailboxes (option 4 from mailbox's advanced menu). <b>This is considered a very dangerous feature in a phone system
+	(mainly because many voicemail users like to use 1234 as their password), and is therefore not recommended</b>.
+extensions.callback = Allow to Call Back
+extensions.callback.tooltip =
+	If checked, users will be available to call back to the sender of a message. The specified Class of Service will need
+	to be able to handle dialing of numbers in the format in which they are received (for example, the country code may
+	not be received with the caller ID, but might be required for the outgoing call).
+extensions.create_hint = Generate Hint
+extensions.create_hint.tooltip =
+	If enabled, it will be possible to remotely monitor the voicemail status of this extension through a BLF key. To
+	configure the BLF you must to use the following format: vm_1234, where 1234 is the extension that will be
+	monitored
+module.vm_busy = Voicemail Busy
+module.vm_direct = Voicemail Direct
+module.vm_unavailable = Voicemail Unavailable
+extensions.pinless = Pinless
+extensions.pinless.tooltip =
+	If enabled, the user of this extension will not be prompted to enter pin on outbound routes that have
+	assigned a pin set
+extensions.ask_password = Ask Password
+extensions.ask_password.tooltip =
+	It allows to define if the users who dials <b>{0}</b> to access to their own voicemail will be prompted to enter
+	its voicemail password or not. This doesn't apply for the "{1} ({2})" feature.
+extensions.dynamic_routing = Dynamic Routing
+extensions.dynamic_routing.tooltip =
+	Allows you to enable or not the dynamic routing for this extension. If enabled, when an outside party
+	(who previously was called by this extension) calls back, his call will be routed directly to this extension

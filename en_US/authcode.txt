@@ -17,3 +17,5 @@ authcode.not_found = Authorization code not found
 authcode.search = Search
 menu.authorization_codes = Authorization Codes
 module.authcode = Authorization Codes
+authcode.validation.duplicated_code = The provided authorization code is already in use
+authcode.validation.duplicated_auth_alias = The provided authorization code alias is already in use
