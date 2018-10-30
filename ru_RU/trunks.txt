@@ -149,18 +149,17 @@ trunks.max_retries = Кол-во попыток
 trunks.max_retries.tooltip = Максимальное количество попыток регистрации
 trunks.expiration = Срок действия
 trunks.expiration.tooltip = Срок действия для регистрации в секундах
-trunks.retry_interval = Retry Interval
-trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
-trunks.forbidden_retry_interval = Forbidden Retry Interval
+trunks.retry_interval = Интервал повтора
+trunks.retry_interval.tooltip = Интервал в секундах между попытками авторизации, если исходящая регистрация не удалась
+trunks.forbidden_retry_interval = Интервал при "403 Forbidden"
 trunks.forbidden_retry_interval.tooltip =
-	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
-	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
+	Интервал в секундах перед повторной регистрацией после получения ответа "403 Forbidden".
+	Если указано 0, повторная попытка не будет выполнена после получения ответа "403 Forbidden".
 trunks.match = Match
 trunks.match.tooltip =
-	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
-	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
-	with a slash ('/').
-trunks.general_conf  = General Configurations
+	Значение представляет собой список IP-адресов или хостов, разделенных запятыми. IP-адреса могут содержать маску подсети.
+	Маска подсети может иметь вид "/24" или "255.255.255.0". Записи нужно разделять косой чертой ("/").
+trunks.general_conf  = Общая конфигурация
 trunks.transport = {profiles_pjsip_transport}
-trunks.transport.tooltip = Explicit transport configuration to use
+trunks.transport.tooltip = Явно заданный канальный драйвер для использования
 trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
