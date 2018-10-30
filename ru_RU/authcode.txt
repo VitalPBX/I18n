@@ -17,3 +17,5 @@ authcode.not_found = Код авторизации не найден
 authcode.search = Поиск
 menu.authorization_codes = <span style="margin-left: -5px;">Коды авторизации</span>
 module.authcode = Код авторизации
+authcode.validation.duplicated_code = Указанный код авторизации уже используется
+authcode.validation.duplicated_auth_alias = Указанный псевдоним уже используется
