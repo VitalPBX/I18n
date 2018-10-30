@@ -137,4 +137,30 @@ trunks.get_did_from.tooltip = Позволяет определить, из ка
 trunks.get_cid_from = Получить CID из
 trunks.get_cid_from.tooltip = Позволяет определить, из какого заголовка SIP будет извлечена CID информация
 trunks.get_cid_from.from = From
-trunks.get_cid_from.contact = Contact
+trunks.get_cid_from.contact = Контакт
+trunks.outbound_registration_settings = Настройки исходящих регистраций
+trunks.outbound_registration = Требовать регистрацию
+trunks.outbound_registration.tooltip = Определяет, требуется ли регистрироваться на удаленном сервере или у VoIP-провайдера
+trunks.auth_rejection_permanent = Повторная авторизация при ошибке
+trunks.auth_rejection_permanent.tooltip =
+	Если этот параметр включен и произошла ошибка авторизации, повторная регистрация не будет предпринята до тех пор, 
+	пока текщая конфигурация не будет перезагружена
+trunks.max_retries = Кол-во попыток
+trunks.max_retries.tooltip = Максимальное количество попыток регистрации
+trunks.expiration = Срок действия
+trunks.expiration.tooltip = Срок действия для регистрации в секундах
+trunks.retry_interval = Retry Interval
+trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
+trunks.forbidden_retry_interval = Forbidden Retry Interval
+trunks.forbidden_retry_interval.tooltip =
+	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
+	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
+trunks.match = Match
+trunks.match.tooltip =
+	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
+	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
+	with a slash ('/').
+trunks.general_conf  = General Configurations
+trunks.transport = {profiles_pjsip_transport}
+trunks.transport.tooltip = Explicit transport configuration to use
+trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
