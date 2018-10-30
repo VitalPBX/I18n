@@ -7,9 +7,9 @@ dynamic_routing.et.hours =
 	[one] {0} Час
 	[other] {0} Часов
 dynamic_routing.et.never = Никогда
-dynamic_routing.expiration_time = Время окончания
+dynamic_routing.expiration_time = Срок действия
 dynamic_routing.expiration_time.tooltip =
-	 Позволяет определить, как долго будут сохраняться записи динамического списка маршрутов, прежде чем они будут  
+	Позволяет определить, как долго будут храниться записи динамических маршрутов, прежде чем они будут  
 	автоматически удалены
 dynamic_routing.digits_match = Совпадение цифр
 dynamic_routing.digits_match.tooltip =
