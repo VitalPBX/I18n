@@ -2,7 +2,7 @@ cid_lookup.arguments = Cadena de Consulta
 cid_lookup.arguments.tooltip =
 	Define los argumentos necesarios para ejecutar el script.
 	el valor de argumento especial <b>[CIDNUM]</b> será reemplazado por el número de cid del llamante.
-	<br><br> Ejemplo: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+	<br> Ejemplo: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
 cid_lookup.description = Descripción {0}
 cid_lookup.description.tooltip = Una breve descripción para identificar esta búsqueda de CID.
 cid_lookup.general = {ombutel.general}
@@ -34,3 +34,18 @@ cid_lookup.validation.no_valid_host = Se ha proporcionado un nombre de host no v
 cid_lookup.validation.no_valid_port = Se ha proporcionado un número de puerto no válido.
 menu.cid_lookup = {module.cid_lookup}
 module.cid_lookup = Búsqueda de CID
+cid_lookup.database = Base de Datos {0}
+cid_lookup.database.tooltip = Base de Datos de MySQL
+cid_lookup.mysql_host.tooltip = MySQL Host
+cid_lookup.mysql_password = Contraseña
+cid_lookup.mysql_password.tooltip = Contraseña para autenticación de MySQL
+cid_lookup.query = Query {0}
+cid_lookup.query.tooltip = 
+	Consulta para ejecutar. El token especial <b>[CIDNUM]</b> se reemplazará con el número de la persona que llama. p.ej.:
+	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+cid_lookup.source.option.mysql = MySQL
+cid_lookup.username = Usuario {0}
+cid_lookup.username.tooltip = Nombre de usuario para la autenticación de MySQL
+cid_lookup.validation.no_database = No se ha proporcionado ningún nombre de base de datos
+cid_lookup.validation.no_mysql_username = No se ha proporcionado ningún nombre de usuario
+cid_lookup.validation.no_query = No se ha proporcionado ninguna consulta

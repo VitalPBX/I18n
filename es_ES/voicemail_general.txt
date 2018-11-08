@@ -48,3 +48,6 @@ voicemail_general.max_message = Mensajes Máximos
 voicemail_general.max_message.tooltip = Número máximo de mensajes por carpeta. Si se establece en 0, un buzón será solo de saludos.
 voicemail_general.operator_number = Número de Operador
 voicemail_general.operator_number.tooltip = Extensión para marcar presionando 0 mientras escucha un correo de voz.
+voicemail_general.no_operator_destination = La función de operador se ha habilitado pero no se ha seleccionado ningún destino
+voicemail_general.operator_destination = Destino del Operador
+voicemail_general.operator_destination.tooltip = Destino a ejecutar al presionar 0 (cero) para llegar al operador.

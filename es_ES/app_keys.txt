@@ -7,7 +7,8 @@ app_keys.description.tooltip = Una breve descripción de su aplicación
 app_keys.enabled = Habilitado
 app_keys.enabled.tooltip = Define si esta clave de APP está habilitada o no
 app_keys.key = Llave
-app_keys.key.tooltip = Clave a utilizar para autenticar aplicaciones de tercerosapp_keys.description = Description
+app_keys.key.tooltip = Clave a utilizar para autenticar aplicaciones de terceros
+app_keys.description = Descripción
 app_keys.description.tooltip = Una breve descripción de su aplicación
 app_keys.enabled = Habilitado
 app_keys.enabled.tooltip = Define si esta clave de APP está habilitada o no
@@ -16,3 +17,4 @@ app_keys.key = Llave
 app_keys.key.tooltip = Clave a utilizar para autenticar aplicaciones de terceros
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
+app_keys.description = Descripción
