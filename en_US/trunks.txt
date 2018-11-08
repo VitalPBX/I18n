@@ -166,6 +166,6 @@ trunks.transport.tooltip = Explicit transport configuration to use
 trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
 trunks.custom_dial_string = Dial String %s
 trunks.custom_dial_string.tooltip =
-	Custom dial string to use during the dialing of this trunk. Use the variable $&#10100;EXTEN&#10101; wherever the number to dial should go.
-	e.g: OH323/$&#10100;EXTEN&#10101;@10.0.1.200:10060
+	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
+	e.g: OH323/$[EXTEN]@10.0.1.200:10060
 trunks.validation.no_dial_string = You have not provided a valid dial string

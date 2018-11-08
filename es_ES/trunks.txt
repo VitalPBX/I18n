@@ -166,6 +166,6 @@ trunks.transport.tooltip = Configuración de transporte explícita para utilizar
 trunks.validation.pjsip.no_remote_credentials = El registro de salida se ha marcado como requerido, pero el nombre de usuario remoto o el secreto remoto no se han definido
 trunks.custom_dial_string = Cadena de Marcado %s
 trunks.custom_dial_string.tooltip = 
-	Cadena de marcación personalizada para usar durante la marcación de esta troncal. Use la variable ${EXTEN}; donde quiera que deba ir el número a marcar.
-	por ejemplo: OH323/{EXTEN}10.0.1.200:10060
+	Cadena de marcación personalizada para usar durante la marcación de esta troncal. Use la variable $[EXTEN] donde quiera que deba ir el número a marcar.
+	por ejemplo: OH323/$[EXTEN]@10.0.1.200:10060
 trunks.validation.no_dial_string = No ha proporcionado una cadena de marcado válida.
