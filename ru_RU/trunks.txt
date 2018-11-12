@@ -157,9 +157,15 @@ trunks.forbidden_retry_interval.tooltip =
 	Если указано 0, повторная попытка не будет выполнена после получения ответа "403 Forbidden".
 trunks.match = Соответствие
 trunks.match.tooltip =
-	Определяет конечные точки с помощью IP-адреса источника. Значение представляет собой список IP-адресов или хостов, разделенных запятыми. 
-	IP-адреса могут содержать маску подсети. Маска подсети может иметь вид "/24" или "255.255.255.0". Записи нужно разделять косой чертой ("/"). (match)
+	Определяет конечные точки с помощью IP-адреса источника. Значение представляет собой список IP-адресов или хостов, 
+	разделенных запятыми. IP-адреса могут содержать маску подсети. Маска подсети может иметь вид "/24" или "255.255.255.0". 
+	IP-адрес и маску подсети необходимо отделять косой чертой ("/"). (match)
 trunks.general_conf  = Общая конфигурация
 trunks.transport = {profiles_pjsip_transport}
 trunks.transport.tooltip = Протокол для использования
 trunks.validation.pjsip.no_remote_credentials = Включен параметр <b>"Требовать регистрацию"</b>, но <b>"Удаленное имя пользователя"</b> или <b>"Удаленный пароль"</b> не указаны.
+trunks.custom_dial_string = Dial String %s
+trunks.custom_dial_string.tooltip =
+	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
+	e.g: OH323/$[EXTEN]@10.0.1.200:10060
+trunks.validation.no_dial_string = You have not provided a valid dial string
