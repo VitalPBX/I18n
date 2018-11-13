@@ -208,10 +208,10 @@ extensions.extension.tab = Номер {0}
 extensions.callcenter = Настройки Call-центра
 extensions.dynamic_queues = Динамические очереди
 extensions.dynamic_queues.tooltip =
-	Позволяет определить список очередей, в которых этот номер будет указано как динамический оператор.
+	Позволяет определить список очередей, в которых этот номер будет указан как динамический оператор.
 extensions.static_queues = Статические очереди
 extensions.static_queues.tooltip =
-	Позволяет определить список очередей, в которых этот номер будет указано как статический оператор.
+	Позволяет определить список очередей, в которых этот номер будет указан как статический оператор.
 extensions.queue_listed_as_dynamic_and_static =
 	Этот номер не может быть одновременно динамическим и статическим оператором очереди <b>"{0}"</b>
 extensions.emergency_cid_name = {extensions.external_cid_name}
