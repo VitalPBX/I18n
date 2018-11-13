@@ -1,4 +1,4 @@
-menu.scom = Sonata Communicator
+menu.scom = <span style="margin-left: -5px;">Sonata Communicator</span>
 menu.scom_softkey_profiles = Профили функциональных клавиш
 menu.scom_pause_profiles = Профили пауз
 scom_softkey_profiles.general = {ombutel.general}
