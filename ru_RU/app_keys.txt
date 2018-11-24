@@ -1,0 +1,10 @@
+app_keys = Ключи приложения
+menu.app_keys = {app_keys}
+module.app_keys = {app_keys}
+app_keys.general = {ombutel.general}
+app_keys.description = Описание
+app_keys.description.tooltip = Краткое описание вашего приложения
+app_keys.enabled = Включено
+app_keys.enabled.tooltip = Определяет, включен ли этот ключ приложения или нет.
+app_keys.key = Ключ
+app_keys.key.tooltip = Ключ для авторизации сторонних приложений

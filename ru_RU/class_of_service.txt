@@ -22,3 +22,6 @@ class_of_service.allowed_calls_by = Разрешенные вызовы от
 class_of_service.allowed_calls_by.tooltip = Определяет список из Классов ослуживания, которым разрешено звонить в этот Класс обслуживания, когда отмечено поле «Частный».
 class_of_service.billing_app = Предоплаченный биллинг
 class_of_service.billing_app.tooltip = Позволяет вам выбрать биллинг приложение, чтобы оценивать вызовы, выполненные номерами с этим Классом обслуживания.
+class_of_service.validation.cos_duplicated = Класс обслуживания "<b>{0}</b>" уже используется.
+class_of_service.validate.default = Вы не можете удалить этот Класс обслуживания, поскольку он помечен как основной 
+class_of_service.validation.in_use = Этот Класс обслуживания используется модулем "<b>{0}</b>"
