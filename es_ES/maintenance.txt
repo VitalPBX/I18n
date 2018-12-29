@@ -1,18 +1,30 @@
 maintenance = Mantenimiento
-maintenance.covert_recordings = Convertir Grabaciones
-maintenance.covert_recordings.tooltip = Habilitar / Deshabilitar la conversión de grabaciones de llamadas a MP3
-maintenance.execute = Ejecutar ahora
-maintenance.general = {ombutel.general}
-maintenance.recordings_min_duration = Borrar grabaciones cortas
-maintenance.recordings_min_duration.tooltip = 
-	Le permite definir la duración mínima en segundos para que una grabación se considere demasiado corta, y eliminarla
-maintenance.recordings_preservation = Borrar las grabaciones más antiguas
-maintenance.recordings_preservation.tooltip = 
-	Le permite definir el número máximo de días que deben conservarse las grabaciones
-	Las grabaciones que tengan más días que los definidos aquí serán eliminadas.
-maintenance.schedule = Horario
-maintenance.schedule.tooltip = 
-	Le permite definir el horario en el que se ejecutará el mantenimiento de la PBX (Conversión de Grabaciones, Limpieza de Grabaciones y CDR, etc.).
-	 Si no se selecciona ningún horario, se desactivarán todas las opciones de mantenimiento.
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
+maintenance.general = {ombutel.general}
+maintenance.cdr_preservation = Borrar CDRs más Antiguos
+maintenance.cdr_preservation.tooltip =
+	Le permite definir el número máximo de días que debe conservarse la CDR.
+    Se eliminará el CDR con más antigüedad que los días definidos aquí.
+maintenance.recordings_preservation = Borrar Grabaciones más Antiguas
+maintenance.recordings_preservation.tooltip =
+	Le permite definir el número máximo de días que deben conservarse las grabaciones.
+	Las grabaciones con más antigüedad que los días definidos aquí serán eliminadas.
+maintenance.recordings_min_duration = Borrar Grabaciones Cortas
+maintenance.recordings_min_duration.tooltip =
+	Le permite definir la duración mínima en segundos para que una grabación se considere demasiado corta, y eliminarla.
+maintenance.covert_recordings = Convertir Grabaciones
+maintenance.covert_recordings.tooltip = Habilitar/Deshabilitar la conversión de grabaciones de llamadas a MP3.
+maintenance.schedule = Horario
+maintenance.schedule.tooltip =
+	Le permite definir el horario en el que se ejecutará el mantenimiento de la PBX (Conversión de Grabaciones, Limpieza de Grabaciones y CDR, etc.).
+	Si no se selecciona ningún horario, se desactivarán todas las opciones de mantenimiento
+maintenance.execute = Ejecutar Ahora
+maintenance.confirm_mcp.title = Confirmar Mantenimiento
+maintenance.confirm_mcp =
+	¿Estás seguro de que quieres ejecutar el mantenimiento ahora? Esto puede llevar varios minutos,
+	especialmente si tiene muchas grabaciones para convertir.
+maintenance.executed = El mantenimiento se está ejecutando en segundo plano.
+maintenance.no_license_notification =
+	Las siguientes funciones: "Borrar Grabaciones más Antiguas" y "Convertir Grabaciones", 
+	no funcionarán hasta que active este complemento con una licencia válida.

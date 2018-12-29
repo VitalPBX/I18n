@@ -2,6 +2,10 @@ maintenance = Maintenance
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
 maintenance.general = {ombutel.general}
+maintenance.cdr_preservation = Clear Oldest CDR
+maintenance.cdr_preservation.tooltip =
+	Allows you to defined the maximum number of days that CDR should be retained. The CDR with more age
+    than the days defined here will be deleted
 maintenance.recordings_preservation = Clear Oldest Recordings
 maintenance.recordings_preservation.tooltip =
 	Allows you to defined the maximum number of days that recordings should be retained. The recordings with more age
@@ -16,3 +20,11 @@ maintenance.schedule.tooltip =
 	It allows you to define the schedule in which the maintenance of the PBX will be executed (Conversion of Recordings,
 	Cleaning of Recordings and CDR, etc). If no schedule is selected, all the maintenance options will be disabled
 maintenance.execute = Execute Now
+maintenance.confirm_mcp.title = Confirm Maintenance
+maintenance.confirm_mcp =
+	Are you sure that you want to execute the maintenance now? This may take several minutes, especially if you have
+	many recordings to convert
+maintenance.executed = The maintenance is being executed in background
+maintenance.no_license_notification =
+	The following features: "Clear Oldest Recordings" & "Convert Recordings", will not work until you activate this add-on
+	with a valid license.
