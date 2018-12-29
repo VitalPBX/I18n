@@ -4,7 +4,7 @@ module.maintenance = {maintenance}
 maintenance.general = {ombutel.general}
 maintenance.cdr_preservation = Borrar CDRs más Antiguos
 maintenance.cdr_preservation.tooltip =
-	Le permite definir el número máximo de días que debe conservarse la CDR.
+	Le permite definir el número máximo de días que debe conservarse el CDR.
     Se eliminará el CDR con más antigüedad que los días definidos aquí.
 maintenance.recordings_preservation = Borrar Grabaciones más Antiguas
 maintenance.recordings_preservation.tooltip =
