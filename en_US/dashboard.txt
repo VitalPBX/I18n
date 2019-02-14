@@ -31,4 +31,10 @@ dashboard.usage = Usage
 dashboard.last_60_seconds = Last 60 Seconds
 dashboard.free = Free
 dashboard.system_services = System Services
-
+dashboard.extensions = Extensions
+dashboard.trunks = Trunks
+dashboard.queues = Queues
+dashboard.ivrs = IVRs
+dashboard.conferences = Conferences
+dashboard.parking_lots = Parking Lots
+dashboard.unlimited = Unlimited
