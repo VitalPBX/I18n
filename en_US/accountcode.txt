@@ -11,3 +11,4 @@ accountcode.not_found = Customer Code not found.
 accountcode.search = Search
 module.accountcode = Customer Codes
 menu.account_codes = Customer Codes
+accountcode.duplicated_code = The provided code is already in use
