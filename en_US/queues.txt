@@ -165,3 +165,4 @@ queues.hangup_dest = After Agent Hangup Destination
 queues.no_agents = No agents assigned to this queue. Please add at least one agent
 queues.join_announcement = Join Announcement
 queues.join_announcement.tooltip = An announcement may be specified which is played to the caller as soon as they reach this queue
+queues.max_reached = You have reached the maximum number of queues allowed

@@ -248,3 +248,4 @@ extensions.dynamic_routing = Dynamic Routing
 extensions.dynamic_routing.tooltip =
 	Allows you to enable or not the dynamic routing for this extension. If enabled, when an outside party
 	(who previously was called by this extension) calls back, his call will be routed directly to this extension
+extensions.max_reached = You have reached the maximum number of allowed extensions
