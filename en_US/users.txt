@@ -38,3 +38,4 @@ users.validate.blank_password = Password cannot be empty
 users.validate.profile = User profile is invalid
 users.validate.displayname = Full Name is cannot be empty
 users.change_language = Change Language
+users.deleting_default = You cannot delete this user because is marked as default user
