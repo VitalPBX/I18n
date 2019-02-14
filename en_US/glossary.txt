@@ -36,3 +36,6 @@ download = Download
 inherited = Inherited
 duplicated_number = The provided number is already in use.
 default = Default
+description = Description
+accept = Accept
+confirm = Confirm
