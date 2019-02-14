@@ -10,7 +10,7 @@ dial_profiles.allow_transfer = Allow Transfer By
 dial_profiles.allow_transfer.help = Allow the called/calling party to transfer the calling party by sending the DTMF sequence defined in feature codes.
 dial_profiles.call_screening = Call Screening
 dial_profiles.call_screening.help = Before ringing your extension, the caller is asked to supply an introduction. The application asks them: "After the tone, say your name". They are allowed 4 seconds of introduction.
-dial_profiles.invalid.default_delete = Cannot delete default dial profile
+dial_profiles.invalid.default_delete = Cannot delete this dial profile because is marked as default
 dial_profiles.invalid.profile_assigned = Cannot delete {0} dial profile. It is being used by at least one extension. Use {1} to see which extensions assigned to this profile.
 dial_profiles.invalid.profile_in_use = Cannot delete {0} dial profile. It is used by the following trunk(s): {1}.
 dial_profiles.ringing_tone = Ringing Tone
@@ -28,4 +28,7 @@ dial_profiles.custom_options.help = Allows you to define custom dial parameters 
 dial_profiles.name.required = Name field is required
 dial_profiles.name.invalid = Name field must not contain spaces
 dial_profiles.name.unique = Dial profile name must be unique
-dial_profiles.warning_note = <b>Warning!</b> Enabling transfer by caller may allow an outside caller to exploit the PBX by transferring their calls to another external destination when a too permissive Class of Service is defined for the trunk.
+dial_profiles.warning_note =
+	<b>Warning!</b> Enabling transfer by caller may allow an outside caller to exploit the PBX by transferring their
+	calls to another external destination when a too permissive Class of Service is defined for the trunk.
+dial_profiles.general = {ombutel.general}
