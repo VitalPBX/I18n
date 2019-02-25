@@ -49,9 +49,5 @@ scom.pp.url = Pause Profile URL
 scom.pp.url.tooltip = URL to retrieve the pause profile settings
 scom.sp.url = Softkey Profile URL
 scom.sp.url.tooltip = URL to retrieve the Softkey profile settings
-module.scom_ext_privileges = Softphone Extensions
 menu.scom_ext_privileges = {module.scom_ext_privileges}
 scom_ext_privileges.general = General
-scom.no_license =
-	You are using the free version of Sonata Communicator Add-on. Activate the add-on to select more than two extensions
-	for the Sonata Communicator Softphone PRO
