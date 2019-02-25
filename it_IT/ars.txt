@@ -1,0 +1,11 @@
+ars = Seleziona Rotte
+ars.all_outbound_routes = -- Tutte le Rotte di Uscita --
+ars.description = Descrizione
+ars.description.tooltip = Una descrizione  per identificare questa selezione di percorso.
+ars.enabled = Abilitato
+ars.general = Generale
+ars.members = Route Selection Members
+ars.outbound_route_id = Rotta Uscita
+ars.time_group_id = Intervallo di Tempo
+menu.route_selections = Seleziona Rotte
+module.ars = Seleziona Rotte

@@ -1,0 +1,44 @@
+module.tenants = Tenants
+menu.tenants = {module.tenants}
+tenants.general = {ombutel.general}
+tenants.name = Name
+tenants.description = Description
+tenants.description.required = Description {0}
+tenants.description.tooltip = Short Description to identify this tenant.
+tenants.name.required = Name {0}
+tenants.name.tooltip = A unique name for this tenant. This name will be used to create folders, linking cdr info, etc.
+tenants.validation.enter_valid_tenant = Enter a valid tenant name: letters, numbers, dash, underscore are allowed
+tenants.user_name.required = Admin User {0}
+tenants.user_name = Admin User
+tenants.user_name.tooltip = Default user to manages this Tenant.
+tenants.user_password.required = Admin Password {0}
+tenants.user_password = Admin Password
+tenants.user_password.tooltip = Password to authenticate the default admin user of this tenant.
+tenants.limitations = Limitations
+tenants.unlimited = Unlimited
+tenants.extensions = Extensions
+tenants.extensions.tooltip = It allows you to define the maximum number of extensions for this tenant
+tenants.trunks = Trunks
+tenants.trunks.tooltip = It allows you to define the maximum number of trunks for this tenant
+tenants.queues = Queues
+tenants.queues.tooltip = It allows you to define the maximum number of queues for this tenant
+tenants.ivrs = IVRs
+tenants.ivrs.tooltip = It allows you to define the maximum number of IVRs for this tenant
+tenants.conferences = Conferences
+tenants.conferences.tooltip = It allows you to define the maximum number of conferences for this tenant
+tenants.parking_lots = Parking Lots
+tenants.parking_lots.tooltip = It allows you to define the maximum number of parking lots for this tenant
+tenants.duplicated_name = The provided name it's already in use
+tenants.user_settings = Tenant Administrator
+tenants.role = {users.role}
+tenants.role.tooltip =
+	Role profile for the administrator of this tenant. <b>Be careful not to assign a too permissive role, which
+	may affect other tenants.</b>
+tenants.startup = {users.startup}
+tenants.startup.tooltip = {users.startup.tooltip}
+tenants.no_role = You have not selected a valid role for the Administrator of this tenant
+tenants.allowed_tenant_trunks = Allowed Tenant Trunks
+tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
+tenants.path = Path
+tenants.path.tooltip =
+	Path name used on storage folder of this tenant and as asterisk database tree

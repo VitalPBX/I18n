@@ -1,0 +1,22 @@
+menu.emergency_numbers = Numeri Emergenza
+module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.general = {ombutel.general}
+emergency_numbers.trunks = Trunks
+emergency_numbers.trunks.tooltip = Elenco di Trunks che possono essere utilizzati in caso di chiamata di emergenza.
+emergency_numbers.legend = Lista dei Numeri Emergenza
+emergency_numbers.number = Numero
+emergency_numbers.number.tooltip = Numero di telefono per contattare i Servizi di Emergenza locali per Assistenza.
+emergency_numbers.number.placeholder = eg.: 113
+emergency_numbers.description = Nome Servizio
+emergency_numbers.description.tooltip = Nome del servizio che rappresenta questo numero di telefono. es .: Polizia, Carabinieri, Vigili del Fuoco, Ambulanza, etc.
+emergency_numbers.description.placeholder = es.: Polizia, Carabinieri, Vigili del Fuoco, Ambulance, Etc.
+emergency_numbers.validation.invalid_number =
+	Il seguente numero <b>"{0}"</b> ha un formato non valido, si prega di scrivere un numero di telefono valido.
+	Dovrebbe contenere i seguenti caratteri: *, #, +
+emergency_numbers.cat_description = Descrizione
+emergency_numbers.cat_description.tooltip = Una breve descrizione per riconoscere facilmente questo elenco di numeri di emergenza.
+emergency_numbers.validation.no_desc = Nessuna descrizione e' stata fornita. Si prega di fornire una descrizione valida
+emergency_numbers.validation.no_trunks = Nessun Trunk e'  stato selezionato. Si prega di selezionare almeno un Trunk.
+emergency_numbers.validation.no_numbers = Nessun numero e' stato fornito. Si prega di aggiungere almeno un numero.
+emergency_numbers.validation.n_duplicated =
+	Il Numero di Emergenza {0} e' gia' in uso dalla seguente categoria di numeri di emergenza: <b>{1}</b>.

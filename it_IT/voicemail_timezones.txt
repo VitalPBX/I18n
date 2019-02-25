@@ -1,0 +1,14 @@
+menu.voicemail_timezones = Fuso Orario Voicemail
+module.voicemail_timezones = Fuso Orario Voicemail
+voicemail_timezones = Fuso orario Voicemail
+voicemail_timezones.confirm_delete = Sicuro di voler eliminare questo Fuso Orario?
+voicemail_timezones.delete = Elimina
+voicemail_timezones.general = Generale
+voicemail_timezones.none = Nessuna
+voicemail_timezones.timezone = Fuso orario
+voicemail_timezones.timezone.tooltip = Fuso Orario da selezionare
+voicemail_timezones.tzdefinition = Definizione del Tempo
+voicemail_timezones.tzname = Nome
+voicemail_timezones.tzname.tooltip = Descrizione per questo Fuso Oaario.
+voicemail_timezones.voicemail_timezone_id = Zona Messaggi
+voicemail_timezones.voicemail_timezone_id.tooltip = Fuso orario dai messaggi di zona, se impostato su "no" verra' preso dalla sezione delle impostazioni generali. Irrilevante se Envelope e' "no".

@@ -1,0 +1,16 @@
+menu.time_conditions = Condizioni Temporali
+module.time_conditions = Condizioni Temporali
+time_conditions = Condizioni Temporali
+time_conditions.cancel = Annulla
+time_conditions.delete = Elimina
+time_conditions.description = Descrizione
+time_conditions.description.tooltip = Descrizione per identificare questa Condizione Temporale.
+time_conditions.falsegoto = Destinazione se il tempo non corrisponde %s
+time_conditions.general = Condizioni Temporali
+time_conditions.modfalse = Modulo Falso
+time_conditions.modtrue = Module Vero
+time_conditions.save = Salva
+time_conditions.time_group_id = Gruppo Temporale
+time_conditions.time_group_id.tooltip = Seleziona un Gruppo Temporale creato in Gruppi Temporali. I tempi di corrispondenza saranno inviati alla destinazione corrispondente.
+time_conditions.truegoto = Destinazione se il tempo corrisponde %s
+time_conditions.update = Aggiorna

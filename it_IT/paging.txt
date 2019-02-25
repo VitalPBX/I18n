@@ -1,0 +1,31 @@
+menu.paging_and_intercom = Paging & Intercom
+module.paging = Paging & Intercom
+paging = Paging & Intercom
+paging.description = Descrizione
+paging.description.tooltip = Breve descrizione per identificare questo cercapersone.
+paging.duplex = Duplex Audio
+paging.duplex.tooltip = A volte indicato come "paging del talkback", l'uso di questa opzione implica che l'apparecchiatura che riceve la pagina abbia la capacita' di trasmettere l'audio nello stesso momento in cui sta ricevendo l'audio. In generale, non si vorrebbe usare questo a meno che tu non ne avessi uno specifico bisogno.
+paging.extensions = Interni
+paging.extensions.tooltip = Elenco degli interni da comporre.
+paging.extension = Code
+paging.extension.invalid = Il codice cercapersone non e' valido. Sono consentiti solo *, #, + e numeri.
+paging.extension.tooltip = Numero per raggiungere questo servizio.
+paging.general = Generale
+paging.ignore = Ignora Inoltro Chiamata.
+paging.ignore.tooltip = Ignora tentativi di inoltrare la chiamata
+paging.invalid.already_exists = Numero di paging non valido {0}. Il numero e' in uso dal modulo {1}.
+paging.quiet = Modalità Silenziosa
+paging.quiet.tooltip = Silenzioso, non suonare il segnale acustico per il chiamante.
+paging.record = Registra Paging
+paging.record.tooltip = Registra la pagina in un file.
+paging.seconds =
+	[one] Un Secondo
+	[other] {0} Secondi
+paging.skip_busy = Salta Occupato
+paging.skip_busy.tooltip = Compone un canale solo se lo stato del dispositivo e' NOT_INUSE. Questa opzione e' probabilmente utile (e affidabile) sui canali associati a SIP, e anche così potrebbe non funzionare se una singola linea e' consentita piu' chiamate su di essa. Pertanto, non fare affidamento su questa opzione in tutti i casi.
+paging.timeout = Timeout
+paging.timeout.tooltip = Specificare il periodo di tempo durante il quale il sistema tentera' di connettere una chiamata. Dopo questa durata, tutte le chiamate intercom che non hanno ricevuto risposta verranno bloccate dal sistema.
+paging.multicastrtp = Multicast RTP
+paging.ip_address = Indirizzo IP
+paging.port = Porta
+paging.no_members = Non sono state fornite estensioni o membri multicast validi.

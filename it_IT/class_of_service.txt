@@ -1,0 +1,24 @@
+class_of_service = Permessi di Chiamata
+class_of_service.ars_id = Seleziona Rotta
+class_of_service.ars_id.tooltip = Rotte da utilizzare con questi Permessi Chiamata
+class_of_service.configurations = Configurazioni
+class_of_service.cos = Permessi di Chiamata
+class_of_service.cos.tooltip = Nome univoco per questo Nome Permessi di Chiamata. Sono ammessi i valori alfanumerici con trattino e trattino basso.
+class_of_service.description = Descrizione
+class_of_service.description.tooltip = Descrizione per questo Permessi di Chiamata
+class_of_service.dialrule_id = Restrizioni Chiamata
+class_of_service.dialrule_id.tooltip = Regole di Restrizione Chimamata da associare con questo Permessi di Chiamata
+class_of_service.feature_code_category_id = Feature Category
+class_of_service.feature_code_category_id.tooltip = Feature Category da associare a questo Permessi di Chiamata
+class_of_service.general = Generale
+menu.class_of_service = Permessi di Chiamata
+module.class_of_service = Permessi di Chiamata
+class_of_service.private = Privato
+class_of_service.private.tooltip =
+	Definisce se gli interni con questo CoS possono essere chiamati da altri con CoS diversi.
+	Se vengono selezionate solo le chiamate con lo stesso CoS o le chiamate provenienti da CoS selezionate nel campo "Chiamate consentite da"
+	sara' permesso. <b> Nota: si applica solo alle chiamate locali </b>
+class_of_service.allowed_calls_by = Chiamate Consentite Da
+class_of_service.allowed_calls_by.tooltip = Definisce l'elenco di CoS da chiamare a questo CoS quando il campo "Privato" e' selezionato.
+class_of_service.billing_app = Fatturazione Prepagata
+class_of_service.billing_app.tooltip = Consente di selezionare una applicazione per la fatturazione delle chiamate effettuate dagli interni.

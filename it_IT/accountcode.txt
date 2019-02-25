@@ -1,0 +1,13 @@
+accountcode = Codici Cliente
+accountcode.code = Codici Cliente
+accountcode.code.invalid = Codice Clienteno valido. Usare solo numeri el il simbolo "*" (asterisco).
+accountcode.code.tooltip = Numero Codice Cliente.
+accountcode.description = Descrizione
+accountcode.description.tooltip = Descrizione per questo Codice Cliente.
+accountcode.enabled = Abilitato
+accountcode.enabled.tooltip = Abilita / Disabilita questo Codice Cliente.
+accountcode.general = Generale
+accountcode.not_found = Codice Cliente non trovato.
+accountcode.search = Cerca
+module.accountcode = Codici Cliente
+menu.account_codes = Codici Cliente

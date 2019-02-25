@@ -1,0 +1,13 @@
+menu.custom_contexts = Contesti Personalizzati
+module.custom_contexts = Contesti Personalizzati
+custom_contexts.description = Descrizione
+custom_contexts.description.help = Una breve descrizione per identificare questo Contesto Personalizzato.
+custom_contexts.context = Contesto
+custom_contexts.context.help = Nome del Contesto Personalizzato creato da te.
+custom_contexts.extension = Interno
+custom_contexts.extension.help = La priorita' definita nel tuo Contesto Personalizzato.
+custom_contexts.priority = Priorita'
+custom_contexts.priority.priority = La priorita' in cui iniziera' la chiamata.
+custom_contexts.dest = Destinazione
+custom_contexts.max_custom_contexts = Non e' possibile creare piu' di un contesto personalizzato. Si prega di acquistare una licenza per creare Contesti Personalizzati illimitati.
+custom_contexts.general = {ombutel.general}

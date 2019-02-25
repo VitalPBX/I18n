@@ -1,0 +1,36 @@
+module.cid_lookup = Ricerca CID
+menu.cid_lookup = {module.cid_lookup}
+cid_lookup.general = {ombutel.general}
+cid_lookup.description = Descrizione {0}
+cid_lookup.description.tooltip = Descrizione per identificare questa Ricerca CID.
+cid_lookup.source = Sorgente {0}
+cid_lookup.source.tooltip = Definisce il metodo per ottenere il nome CID di un chiamante in entrata.
+cid_lookup.source.option.opencnam = OpenCNAM
+cid_lookup.source.option.api = HTTP/HTTPS
+cid_lookup.opencnam.sid = SID {0}
+cid_lookup.opencnam.sid.tooltip = OpenCNAM SID
+cid_lookup.opencnam.token = Token {0}
+cid_lookup.opencnam.token.tooltip = OpenCNAM Token
+cid_lookup.host = Host {0}
+cid_lookup.host.tooltip = Definisce l'host API per effettuare la richiesta.
+cid_lookup.port = Porta
+cid_lookup.port.tooltip = Definisce la porta per effettuare la richiesta. Di default 80 per richiesta HTTP e 443 per richiesta HTTPS.
+cid_lookup.user = Utente Auth
+cid_lookup.user.tooltip = Definisce l'utente per autenticare la richiesta HTTP / HTTPS.
+cid_lookup.password = Auth Password
+cid_lookup.password.tooltip = Definisce la porta per effettuare la richiesta. Di default e' 80 per richiesta HTTP e 443 per richiesta HTTPS.
+cid_lookup.path = Percorso
+cid_lookup.path.tooltip = Definisce il nome del file di script da eseguire su richiesta. Esempio: <b>cid_lookup.php</b>.
+cid_lookup.arguments = Query String
+cid_lookup.arguments.tooltip =
+	Definisce gli argomenti necessari per eseguire lo script.
+	Il valore dell'argomento speciale <b>[CIDNUM]</b> sara' sostituito dal numero cid del chiamante.
+	<br><br> Esempio: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+cid_lookup.secure = Sicuro
+cid_lookup.secure.tooltip = Se e' selezionato, la richiesta avverra' tramite HTTPS, in altro modo avverra' tramite HTTP.
+cid_lookup.validation.no_description = Non e' stata fornita una descrizione.
+cid_lookup.validation.invalid_source = E' stato fornito un tipo di fonte non valido.
+cid_lookup.validation.no_valid_host = E' stato fornito un nome host o un indirizzo IP non valido.
+cid_lookup.validation.no_valid_port = E' stato fornito un numero di porta non valido.
+cid_lookup.validation.no_sid = Il SID non e' stato fornito.
+cid_lookup.validation.no_token = Il Token non e' stato fornito.

@@ -1,0 +1,13 @@
+login.signing_in = Login
+login.panel = Panello Accesso.
+login.pbx.desc = Gestione PBX Asterisk.
+login.billing.desc = Software per la bollettazione delle chiamate.
+login.monitoring.desc = Software per il monitoraggio delle chiamate.
+login.recordings.desc = Software per la gestione delle registrazioni
+login.install_on_addons = Vai A Moduli Aggiuntivi
+login.retype_password = Ridigita Password
+login.validation.password_not_retyped = Ridigitare la propria Password
+login.validation.different_password = Ridigitare lo stesso valore un'altra volta
+login.reset_password_title = Imposta la Password di Amministrazione
+login.reset_password_title.tooltip = Questo ti permette di configurare la password per accedere con l'utente admin
+login.no_db = Attendere, il database ancora non si e' installato (installazione in corso).

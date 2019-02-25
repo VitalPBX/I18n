@@ -1,0 +1,35 @@
+app.activate = Attiva l'Installazione
+app.billing = Bollettazione
+app.switchboard = Switchboard
+app.recordings = Registrazioni
+app.activate.existent_account = Hai gia' un Account!
+app.activate.register = Registrare
+app.activate.info =
+	Devi attivare l'installazione per essere in grado di aggiornare dalla GUI.
+	Per attivare l'installazione e' necessario creare un account o accedere al proprio account esistente.
+app.activate.register.email = Il tuo indirizzo di posta elettronica. Dopo la registrazione, e' possibile utilizzare questa e-mail per attivare qualsiasi altra installazione.
+app.activate.register.password = La tua password. Dopo la registrazione, e' possibile utilizzare questa password per attivare qualsiasi altra installazione.
+app.activate.register.phone = Il tuo numero di telefono per qualsiasi chiamata commerciale. E' opzionale.
+app.activate.register.country = Solo per sapere dove ti trovi.
+app.activate.new_account = Non ho un Account!
+app.activate.login = Login
+app.register.successfully = Hai registrato e attivato correttamente la tua installazione.
+app.installation_activated = Hai attivato correttamente la tua installazione.
+app.activation.no_first_name = Si prega di inserire il proprio nome.
+app.activation.no_last_name = Si prega di fornire il proprio cognome.
+app.activation.no_valid_email = Inserire un indirizzo email valido.
+app.activation.no_password = Inserire password
+app.activation.no_response = C'e' qualcosa che non va, non c'e' risposta dal server di attivazione.
+app.activate.cannot_create_lic = Impossibile attivare il prodotto a causa dell'autorizzazione errata della cartella.
+app.no_updates = Non ci sono aggiornamenti disponibili.
+app.new_update = Nuovi {0} Aggiornamenti
+app.new_version = La Nuova Versione <b>{0} {1}</b> è Disponibile!
+app.update_now = Aggiorna Ora!
+app.updated = {0} e' stato aggiornato con successo.
+app.cannot_update = Impossibile aggiornare all'ultima versione.
+app.user_profile_not_allowed = Non sei autorizzato a modificare le configurazioni del tuo profilo.
+app.no_update_from_gui = Non sei autorizzato ad aggiornare dalla GUI.
+app.change_language_not_allowed = Non sei autorizzato a cambiare la lingua della GUI.
+app.module_not_found = Il Modulo <b>{0}</b> non esiste
+app.no_access_to_module = Non hai accesso al modulo "<b>{0}</b>".
+app.activation.no_country = Inserire la Nazione

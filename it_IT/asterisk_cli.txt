@@ -1,0 +1,5 @@
+asterisk_cli.commands_updated = Tutti i comandi sono stati aggiornati correttamente
+asterisk_cli.general = Generale
+asterisk_cli.input-cmd.placeholder = Scrivere qui il comando!
+menu.asterisk_cli = Asterisk CLI
+module.asterisk_cli = Asterisk CLI

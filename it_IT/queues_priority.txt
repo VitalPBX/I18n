@@ -1,0 +1,10 @@
+menu.queue_priorities = Priorita' delle Code
+module.queues_priority = Priorita' delle Code
+queues_priority = Priorita' delle Code
+queues_priority.description = Descrizione
+queues_priority.description.tooltip = Descrizione per questa priorità di coda.
+queues_priority.destination = Destinazione
+queues_priority.general = Generale
+queues_priority.mod_dest = Modulo Destinazione
+queues_priority.priority = Priorita'
+queues_priority.priority.tooltip = Priorita' della coda da impostare.

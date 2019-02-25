@@ -1,0 +1,17 @@
+custom_app = Applicazioni Personalizzate
+custom_app.description = Nome
+custom_app.description.tooltip = Nome che identifica questa Applicazione Personalizzata.
+custom_app.destination = Destinazione
+custom_app.extension = Codice
+custom_app.extension.invalid = Il codice dell'Applicazione Personalizzata non e' valido. Sono permessi solo numeri e *,#,+ .
+custom_app.extension.tooltip = Codice per attivare l'Applicazione Personalizzata. Il codice dovrebbe essere unico per il sistema, es. non deve essere utilizzato in nessun'altra parte del sistema per un interno, codice funzione, coda, ecc..
+custom_app.general = Generale
+custom_app.invalid.already_exists = Numero di applicazione personalizzata non valido {0}. Il nummero e' usato dal modulo {1} .
+custom_app.mod_dest = Modulo Destinazione
+custom_app.mod_dest.custom = Personalizzazione
+custom_app.mod_dest.select = Seleziona Modulo
+custom_app.mod_dest.terminate_call = Termina Chiamata
+custom_app.status = Abilitato
+custom_app.status.tooltip = Abilita / Disabilita questa Applicazione Personalizzata
+menu.custom_applications = Applicazioni Personalizzate
+module.custom_app = Applicazioni Personalizzate

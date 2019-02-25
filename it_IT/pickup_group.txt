@@ -1,0 +1,15 @@
+menu.pickup_groups = Gruppi di Pickup
+module.pickup_group = Gruppi di Pickup
+pickup_group = Gruppi di Pickup
+pickup_group.allow_pickup = Permettere Pickup
+pickup_group.allow_pickup.tooltip = Consenti al membro il Pickup in  questo Gruppo di Pickup
+pickup_group.description = Descrizione
+pickup_group.description.tooltip = Descrizione per questo Gruppo di Pickup.
+pickup_group.extension = Interno
+pickup_group.extension.tooltip = Interno come membro o a cui e' permesso di prendere un interno di questo gruppo di Pickup, o entrambi.
+pickup_group.extension_id.duplicate = Interni duplicati non sono permessi nei Gruppi di Pickup.
+pickup_group.extension_id.empty = E' necessario aggiungere almeno un interno questo Gruppo di Pickup.
+pickup_group.general = Generale
+pickup_group.member = Membro
+pickup_group.member.tooltip = Indica se questo interno e' un membro di questo Gruppo di Pickup
+pickup_group.no_options = Gli Interni devono essere designati come membri e / o essere autorizzate al Pickup.

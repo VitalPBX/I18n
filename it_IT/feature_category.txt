@@ -1,0 +1,9 @@
+feature_category = Categorie Funzione
+feature_category.all_features = Tutte Funzioni
+feature_category.available_features = Funzioni Disponibili
+feature_category.description = Descrizione
+feature_category.description.tooltip = Nome che identifica questa categoria di funzione (Deve essere unico).
+feature_category.enabled_features = Funzioni Abilitate
+feature_category.general = Generale
+menu.feature_categories = Categorie Funzione
+module.feature_category = Categorie Funzione

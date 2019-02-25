@@ -1,0 +1,14 @@
+menu.speed_dialing = Chiamata Rapida
+module.speeddial = Chiamata Rapida
+speeddial = Chiamata Rapida
+speeddial.class_of_service_id = Permessi di Chiamata
+speeddial.class_of_service_id.tooltip = Permessi di Chiamata da assegnare a questa Chiamata Rapida
+speeddial.description = Descrizione
+speeddial.description.tooltip = Nome che identifica questa Chiamata Rapida
+speeddial.dnumber = Numero Destinazione
+speeddial.dnumber.tooltip = Numero da chiamare.
+speeddial.extension = Codice Chiamata Rapida
+speeddial.extension.invalid = Il codice di Chiamata Rapida non e' valido. Utilizzare solo numeri e il simbolo "*" (asterisco).
+speeddial.extension.tooltip = Codice per attivare questa Chiamata Rapida. Il codice dovrebbe essere univoco per il sistema, cioe' non deve essere utilizzato da nessun'altra parte nel sistema.
+speeddial.general = Generale
+speeddial.invalid.already_exists = Numero Chiamata Rapida non valido {0}. Il numero e' usato dal modulo {1} .

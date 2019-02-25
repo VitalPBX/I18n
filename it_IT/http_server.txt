@@ -1,0 +1,15 @@
+menu.http_server = Server HTTP
+module.http_server = {menu.http_server}
+http_server.general = {ombutel.general}
+http_server.http_port = Porta HTTP
+http_server.http_port.help = Definisce da quale porta sara' accessibile la GUI attraverso il protocollo HTTP.
+http_server.https_port = Porta HTTPS
+http_server.https_port.help = Definisce da quale porta sara' accessibile la GUI attraverso il protocollo HTTPS.
+http_server.certificate = Certificato
+http_server.certificate.help = Definisce il certificato da utilizzare quando si accede alla GUI tramite HTTPS. Per impostazione predefinita viene utilizzato il certificato di pre-costruzione, se si desidera utilizzare un altro, andare al modulo Certificati per generarne uno.
+http_server.https_enable = Abilita HTTPS
+http_server.https_enable.title = Se selezionata, la GUI sara' accessibile tramite HTTPS. Abilita per impostazione predefinita.
+http_server.permanent_redirect = Forza HTTPS
+http_server.permanent_redirect.title = Se selezionato tutto il traffico verso il protocollo HTTP verra' reindirizzato al protocollo HTTPS.
+http_server.native_cert = Certificato pre-compilazione (Nativo)
+http_server.saved_but_not_configured = Le modifiche sono state salvate ma la configurazione non e' stata applicata.

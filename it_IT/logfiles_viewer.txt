@@ -1,0 +1,14 @@
+logfiles_viewer.error = Errore
+logfiles_viewer.general = Generale
+logfiles_viewer.invalid_request = Richiesta non valida.
+logfiles_viewer.lines = Linee
+logfiles_viewer.lines.tooltip = Numero di linee da visualiazzare.
+logfiles_viewer.logfile = File di Log
+logfiles_viewer.logfile.tooltip = Selezionare il File di Log da visualizzare.
+logfiles_viewer.no_file_selected = Nessun file selezionato.
+logfiles_viewer.read_logfile = Leggi File di Log.
+logfiles_viewer.select_logfile = --- Seleziona un File di Log ---
+logfiles_viewer.invalid_filename = Il file di Log richiesto non e' valido.
+menu.log_file_viewer = Visualizzatore File di Logo
+module.logfiles_viewer = Visualizzatore File di Logo
+

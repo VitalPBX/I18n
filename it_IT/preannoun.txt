@@ -1,0 +1,10 @@
+menu.announcements = Annunci
+module.preannoun = Annunci
+preannoun = Annunci
+preannoun.description = Descrizione
+preannoun.description.tooltip = Breve descrizione per identificare questo Annuncio.
+preannoun.destination = Destination after playing announcement %s
+preannoun.general = Generale
+preannoun.mod_dest = Modulo Destinazione
+preannoun.recording_id = Registrazione Personalizzata
+preannoun.recording_id.tooltip = Registrazione per questo Annuncio.

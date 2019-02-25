@@ -1,0 +1,15 @@
+menu.queue_vips = Code VIP
+module.queues_vip = Coda VIP
+queues_vip = Code VIP
+queues_vip.confirm_delete = Si e' sicuri di voler eliminare questa Coda VIP?
+queues_vip.delete = Elimina
+queues_vip.description = Descrizione
+queues_vip.description.tooltip = Inserire una descrizione per identificare questa Coda VIP.
+queues_vip.general = Generale
+queues_vip.list = Lista VIP
+queues_vip.list.duplicate = L'elenco delle code VIP non puo' contenere numeri duplicati.
+queues_vip.list.empty = Almeno un numero deve essere inserito nella Lista VIP.
+queues_vip.list.invalid = Numero non valido nell'elenco Coda VIP. Usare solo numeri. Separare ogni numero con una nuova riga.
+queues_vip.list.tooltip = Inserire la lista dei numeri. Ogni numero dovrebbe essere su una riga separata.
+queues_vip.none = Nessuna
+queues_vip.not_found = L'elenco della Coda VIP richiesta non esiste.

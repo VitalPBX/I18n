@@ -1,0 +1,19 @@
+menu.ivr_reports = Report IVR
+menu.ivr_stats = Statistiche IVR
+module.ivr_stats = Statistiche IVR
+ivr_stats.ivr_id = IVR
+ivr_stats.from = Inizio Data
+ivr_stats.from.tooltip = Definisce la data di inizio per ottenere le statistiche dall'IVR selezionato.
+ivr_stats.to = Fine Data
+ivr_stats.to.tooltip = Definisce la data di fine per ottenere le statistiche dall'IVR selezionato.
+ivr_stats.summary = Sommario
+ivr_stats.detailed = Dettagliato
+ivr_stats.search = Cerca
+ivr_stats.option = Opzione
+ivr_stats.pressed_times = Volte Digitate
+ivr_stats.calldate = Data Chiamata
+ivr_stats.caller = Chiamante
+ivr_stats.callee = Chiamato
+ivr_stats.call_duration = Durata Chiamata
+ivr_stats.call_status = Stato Chimata
+
