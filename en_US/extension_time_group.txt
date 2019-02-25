@@ -11,5 +11,5 @@ extension_time_group.schedules.tstart = Time to Start
 extension_time_group.schedules.wday_end = Week Day Finish
 extension_time_group.schedules.wday_start = Week Day Start
 extension_time_group.select_time = -- Select a time --
-menu.my_time_group = My Time Group
-module.extension_timegroup = My Time Group
+menu.my_time_group = My Time Groups
+module.extension_timegroup = {menu.my_time_group}
