@@ -6,9 +6,13 @@ logfiles_viewer.lines.tooltip = Number of lines to display
 logfiles_viewer.logfile = Log File
 logfiles_viewer.logfile.tooltip = Select the log file to see
 logfiles_viewer.no_file_selected = No file selected
-logfiles_viewer.read_logfile = Read LogFile
 logfiles_viewer.select_logfile = --- Select A Log File ---
 logfiles_viewer.invalid_filename = The requested log file cannot be found
 menu.log_file_viewer = Log File Viewer
 module.logfiles_viewer = Log File Viewer
+logfiles_viewer.refresh = Refresh
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip =
+	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
+	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
 
