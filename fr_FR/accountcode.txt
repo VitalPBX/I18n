@@ -11,3 +11,4 @@ accountcode.search = Rechercher
 module.accountcode = Codes affaires
 menu.account_codes = Codes affaires
 accountcode.code.invalid = Code affaire invalide. Seuls les chiffres et le signe "*" (asterisque) sont autorisés.
+accountcode.duplicated_code = The provided code is already in use

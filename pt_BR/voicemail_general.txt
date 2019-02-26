@@ -48,3 +48,6 @@ voicemail_general.vm_msgnum = Número de mensagens de correio de voz na caixa de
 voicemail_general.vm_name = Nome completo no correio de voz
 voicemail_general.max_message = Mensagens máximas
 voicemail_general.max_message.tooltip = Número máximo de mensagens por pasta. Se definido como 0, uma caixa de correio será apenas para saudações.
+voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
+voicemail_general.operator_destination = Operator Destination
+voicemail_general.operator_destination.tooltip = Destination to execute on pressing 0 (zero) for reach the operator.

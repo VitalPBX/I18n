@@ -8,3 +8,4 @@ queues_priority.general = 基本设置
 queues_priority.mod_dest = 目的地模块
 queues_priority.priority = 优先级
 queues_priority.priority.tooltip = The Queue Priority to set.
+queues_priority.menu.priority = Priority {0}

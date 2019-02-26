@@ -25,3 +25,4 @@ nightmode.hint = Genera Suggerimento
 nightmode.hint.tooltip = Genera suggerimenti per questa modalita' notte.
 nightmode.phone_hint = Suggerimento di BLF.
 nightmode.phone_hint.tooltip = La stringa da aggiungere come linea BLF sul telefono.
+nightmode.normal_dest = Destination when Disabled

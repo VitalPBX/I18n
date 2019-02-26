@@ -21,4 +21,6 @@ class_of_service.private.tooltip =
 class_of_service.allowed_calls_by = Chamadas Permitidas Por
 class_of_service.allowed_calls_by.tooltip = Define a lista de CoS a ser permitida a chamada para esta CoS quando o campo "Privado" estiver marcado.
 class_of_service.billing_app = Faturamento Pré-pago
-class_of_service.billing_app.tooltip = Ele permite que você selecione um aplicativo de faturamento para avaliar as chamadas feitas por extensões com este CoS.
+class_of_service.billing_app.tooltip = Ele permite que você selecione um aplicativo de faturamento para avaliar as chamadas feitas por extensões com este CoS.class_of_service.validate.default = You cannot delete this class of service because is marked as default
+class_of_service.validation.cos_duplicated = The class of service "<b>{0}</b>" its already defined.
+class_of_service.validation.in_use = This class of service is being used by the module "<b>{0}</b>"

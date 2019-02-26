@@ -63,3 +63,6 @@ extensions_status.no_devices = Pas d'équipement
 menu.extensions_status = Etats extensions
 module.extensions_status = Etats extensions
 extensions_status.device_info.channel = Channel
+extensions_status.device_info.port = Port
+extensions_status.device_info.username_channel = Username / Channel
+extensions_status.unspecified = (Unspecified)

@@ -26,3 +26,7 @@ paging.timeout = Délai d'établissement
 paging.timeout.tooltip = Spécifie la durée de tentative de l'etablissement de l'appel. passé cette durée, l'appel sera raccroché si le périphérique n'a pas décroché.
 paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
 paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.
+paging.ip_address = IP Address
+paging.multicastrtp = MulticastRTP
+paging.no_members = No extensions or valid multicast members has been provided
+paging.port = Port

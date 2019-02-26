@@ -13,3 +13,5 @@ pickup_group.general = General
 pickup_group.member = Miembro
 pickup_group.member.tooltip = Indica si esta extensión es un miembro de este grupo de captura
 pickup_group.no_options = Las extensiones deben ser designados como miembro y/o se les permitirá capturar llamadas.
+pickup_group.members = Miembros
+pickup_group.members.empty = No se han agregado miembros válidos a este grupo de captura.

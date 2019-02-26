@@ -13,3 +13,5 @@ pickup_group.general = Algemeen
 pickup_group.member = Lid
 pickup_group.member.tooltip = Geef aan of deze extensie een lid van deze opneemgroep is
 pickup_group.no_options = Extensies moeten worden aangewezen als lid en/of toegestaan om op te nemen.
+pickup_group.members = Members
+pickup_group.members.empty = No valid members has been added to this pickup group.

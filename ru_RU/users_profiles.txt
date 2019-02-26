@@ -23,3 +23,6 @@ users_profiles.get_updates.tooltip = Определяет, сможет ли п�
 users_profiles.permissions = Разрешения
 users_profiles.update_profile = Обновлять профиль
 users_profiles.update_profile.tooltip =	Определяет, сможет ли пользователь с этим профилем обновлять настройки своего профиля.
+users_profiles.multiple_users = multiple users
+users_profiles.role_is_being_used = This role is being used by {0}
+users_profiles.single_user = <b>{0}</b> user

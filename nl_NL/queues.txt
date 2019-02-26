@@ -168,3 +168,4 @@ queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.no_agents = No agents assigned to this queue. Please add at least one agent
+queues.max_reached = You have reached the maximum number of queues allowed

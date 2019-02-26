@@ -41,3 +41,4 @@ cid_management.v.replace_cid_name_with = Campo "Replace With" en la configuraci�
 cid_management.v.skip_on_cid_number = Campo "Strip Off (Skip)" en la configuración de número de CID
 menu.cid_management = Modificadores CID
 module.cid_management = Modificadores CID
+cid_management.general = {ombutel.general}

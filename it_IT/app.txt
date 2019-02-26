@@ -32,4 +32,12 @@ app.no_update_from_gui = Non sei autorizzato ad aggiornare dalla GUI.
 app.change_language_not_allowed = Non sei autorizzato a cambiare la lingua della GUI.
 app.module_not_found = Il Modulo <b>{0}</b> non esiste
 app.no_access_to_module = Non hai accesso al modulo "<b>{0}</b>".
-app.activation.no_country = Inserire la Nazione
+app.activation.no_country = Inserire la Nazioneapp.activate_license = {addons.licensing.activate}
+app.license_info = License Info
+app.plan.carrier = Carrier
+app.plan.community = Community
+app.plan.enterprise = Enterprise
+app.plan.pro = Professional
+app.register_license = Register License
+app.registered_to = Registered to {0
+app.version = {0} {1} {2}

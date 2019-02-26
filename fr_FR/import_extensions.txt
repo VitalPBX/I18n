@@ -84,3 +84,5 @@ import_extensions.description.accountcode = Account Code is used to populate the
 import_extensions.description.dial_profile = Dial Profile name that should be associated with this extension.
 import_extensions.dial_profile.invalid = Dial Profile name {0} is invalid.
 import_extensions.description.cid_number = CID number/pattern to match on incoming routes.
+import_extensions.description.emergency_cid_name = Emergency Caller ID name
+import_extensions.description.emergency_cid_number = Emergency Caller ID number

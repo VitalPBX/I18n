@@ -22,3 +22,5 @@ dialrules.play_duration.tooltip = Cochez cette option pour limiter l'appel à un
 dialrules.rules = Règles
 menu.dialing_restriction_rules = Restrictions de numérotation
 module.dialrules = Restrictions de numérotation
+dialrules.no_rules = No valid dialing rule patterns has been provided
+dialrules.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>

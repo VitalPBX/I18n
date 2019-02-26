@@ -10,3 +10,4 @@ custom_contexts.priority = Priority
 custom_contexts.priority.priority = The priority where the call will start.
 menu.custom_contexts = Custom Contexts
 module.custom_contexts = Custom Contexts
+custom_contexts.general = {ombutel.general}

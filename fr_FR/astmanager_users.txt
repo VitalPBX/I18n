@@ -29,3 +29,6 @@ astmanager_users.write = Permissions en écriture
 astmanager_users.write.tooltip = Permissions en écriture AMI
 menu.asterisk_manager_users = Utilisateurs AMI
 module.astmanager_users = Utilisateurs AMI
+astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
+astmanager_users.message = Message
+astmanager_users.security = Security

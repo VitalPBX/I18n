@@ -55,3 +55,10 @@ conferences.adminpin.invalid = Invalid Leader PIN. Use only numbers and the "*" 
 conferences.extension.invalid = Conference code is invalid. Only numbers and *,#,+ are allowed.
 conferences.invalid.already_exists = Invalid Conference number {0}. The number is in use by {1} module.
 conferences.userpin.invalid = Invalid user PIN. Use only numbers and the "*" (asterisk) symbol.
+conferences.allow_to_invite = Allow to Invite
+conferences.allow_to_invite.tooltip = 
+	If enabled, all the participants could press "<b>**</b>" or "<b>0</b>" to invite other people to this conference
+conferences.class_of_service = {class_of_service}
+conferences.class_of_service.tooltip = 
+	It allows you to define which class of service that will be used to invite other people to this conference
+conferences.max_reached = You have reached the maximum number of conferences allowed

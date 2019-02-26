@@ -28,3 +28,6 @@ trunk_group.intra_company.tooltip = 	If checked, the internal caller id will be 
 	of the calling extension
 trunk_group.no_description = No description has been provided
 trunk_group.no_patterns = No patterns configured for this outbound route
+trunk_group.failover_destination = Failover Destination
+trunk_group.failover_destination.tooltip = 
+	Optional destination to execute in case that the call fails after try with all the listed trunks.

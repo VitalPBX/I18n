@@ -129,3 +129,23 @@ sip_settings.tls_dont_verify = TLS no Verifica
 sip_settings.tls_dont_verify.tooltip = Si se establece en sí, no verifique el certificado de los servidores cuando actúa como cliente.
 sip_settings.tls_enable = Habilitar TLS
 sip_settings.tls_enable.tooltip = Use TLS
+sip_settings.allowexternaldomains = Permitir Dominios Externos
+sip_settings.allowexternaldomains.tooltip = Indica a Asterisk si debe o no permitir llamadas de SIP a SIP a dominios no locales.
+sip_settings.autodomain = Auto-Domain
+sip_settings.autodomain.tooltip = 
+	Esta es una configuración importante con respecto a los dominios SIP. Cuando se establece en "no", Asterisk solo reconocerá
+	los dominios que se definieron explícitamente o simplemente no admitirán dominios SIP (si no hubiera dominios definidos explícitamente).
+	Si lo configura en "sí", tenga en cuenta que Asterisk creará un dominio basado en la dirección IP externa de su servidor de seguridad 
+	como se especifica en el parámetro "externip". Esto podría representar un compromiso en su seguridad SIP.
+	Si no desea que se cree un dominio basado en "externip", configúrelo como "no" y agregue explícitamente dominios para 
+	su dirección IP local (interna) y para cualquier otro dominio que requiera
+sip_settings.domain = Dominio
+sip_settings.sip_domains = Dominios SIP
+sip_settings.sip_domains.info = 
+	Cuando se usan, brindan seguridad mejorada porque los registros solo se aceptarán cuando provengan de un teléfono IP (u otro cliente SIP)
+	que use uno de los dominios reconocidos. Cuando Asterisk conoce la identidad de todos sus dominios SIP locales, 
+	esto permite un mayor nivel de seguridad en el enrutamiento de llamadas SIP a SIP también.
+sip_settings.websocket_enabled = Habilitar Websocket
+sip_settings.websocket_enabled.tooltip = 
+	Establézcalo en "No" para evitar que los canales SIP escuchen websockets. 
+	Esto es necesario cuando se utilizan los sockets web SIP y PJSIP en el mismo sistema.

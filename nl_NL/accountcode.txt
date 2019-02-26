@@ -11,3 +11,4 @@ accountcode.search = Zoeken
 module.accountcode = Accountcodes
 menu.account_codes = Accountcodes
 accountcode.code.invalid = Customer code is invalid. Use only numbers and the "*" (asterisk) symbol.
+accountcode.duplicated_code = The provided code is already in use

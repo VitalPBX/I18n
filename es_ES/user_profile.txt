@@ -1,3 +1,5 @@
 menu.user_profile = Perfil
 module.user_profile = Mi perfil
 user_profile = Perfil del Usuario
+user_profile.general = {users.general}
+user_profile.settings = {users.settings}

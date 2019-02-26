@@ -35,4 +35,9 @@ edit = Modifica
 download = Scarica
 inherited = Eredidato
 duplicated_number = Il numero fornito e' gia' in uso.
-default = Default
+default = Defaultaccept = Accept
+company = Company
+confirm = Confirm
+description = Description
+license = License
+restriction_msg = You're not allowed to get, edit nor delete the requested info

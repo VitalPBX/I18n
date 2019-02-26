@@ -37,3 +37,9 @@ users.validate.profile = O perfil do usuário é inválido
 users.validate.displayname = Nome completo não pode estar vazio
 users.change_language = Mudar idioma
 
+users.deleting_default = You cannot delete this user because is marked as default user
+users.email = E-mail
+users.email.duplicate = The provided e-mail address is already in use
+users.email.duplicated = The provided email is already taken
+users.email.tooltip = User email address to use for login
+users.username.duplicated = The provided username is already taken

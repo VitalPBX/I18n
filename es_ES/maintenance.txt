@@ -28,3 +28,12 @@ maintenance.executed = El mantenimiento se está ejecutando en segundo plano.
 maintenance.no_license_notification =
 	Las siguientes funciones: "Borrar Grabaciones más Antiguas" y "Convertir Grabaciones", 
 	no funcionarán hasta que active este complemento con una licencia válida.
+maintenance.convert_recordings = Convertir Grabaciones
+maintenance.convert_recordings.tooltip = Habilitar / Deshabilitar la conversión de grabaciones de llamadas a MP3
+maintenance.enabled = Habilitado
+maintenance.enabled.tooltip = 
+	Le permite activar o desactivar el mantenimiento de PBX.
+maintenance.mcp.invalid_tenant = El mantenimiento no se puede ejecutar debido a que ha proporcionado información no válida
+maintenance.tenant = Tenant
+maintenance.tenant.tooltip = Le permite seleccionar el Tenant al que se aplicarán las configuraciones de mantenimiento
+maintenance.validation.enabled_without_cron = El mantenimiento se ha habilitado pero no se ha seleccionado ningún perfil cron

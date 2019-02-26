@@ -145,4 +145,4 @@ feature_code.direct_remote_voicemail = Direct Remote Voicemail
 feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip =
 	Inserisce una chiamata in uscita verso l'interno specificato e li scarica in un bridge conferenze come partecipante disattivato
-	(e.g.: *827000). La funzione deve essere abilitata nella categoria di funzione associata all'interno.
+	(e.g.: *827000). La funzione deve essere abilitata nella categoria di funzione associata all'interno.feature_code.lock_unlock_phone = Lock/Unlock Phone

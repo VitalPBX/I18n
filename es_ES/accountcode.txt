@@ -11,3 +11,4 @@ accountcode.search = Buscar
 module.accountcode = Códigos de Cliente
 menu.account_codes = Códigos de Cliente
 accountcode.code.invalid = El código del cliente no es válido. Use solo números y el símbolo "*" (asterisco).
+accountcode.duplicated_code = El código provisto ya está en uso.

@@ -37,3 +37,4 @@ cdr_filters.none = Geen
 menu.cdr_filters = CDR-filters
 module.cdr_filters = CDR-filters
 cdr_filters.conditions.search_by.customer_code = Customer Code
+cdr_filters.no_conditions = No search conditions has been defined

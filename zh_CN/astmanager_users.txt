@@ -29,3 +29,6 @@ astmanager_users.write = 写权限
 astmanager_users.write.tooltip = AMI 写权限。
 menu.asterisk_manager_users = Asterisk Manager Users
 module.astmanager_users = Asterisk Manager Users
+astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
+astmanager_users.message = Message
+astmanager_users.security = Security

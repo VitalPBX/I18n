@@ -248,3 +248,5 @@ extensions.dynamic_routing = Динамическая маршрутизация
 extensions.dynamic_routing.tooltip =
 	Позволяет включить или отключить динамическую маршрутизацию для этого номера. Если включено, то когда внешняя сторона (которая
 	ранее была вызвана этим номером) перезванивает, ее вызов будет перенаправлен непосредственно на этот номер
+extensions.fxs_channel.invalid = FXS channel cannot be empty
+extensions.max_reached = You have reached the maximum number of allowed extensions

@@ -23,3 +23,6 @@ users_profiles.get_updates.tooltip = Define si un usuario con este perfil asigna
 users_profiles.permissions = Permisos
 users_profiles.update_profile = Actualización del Perfil
 users_profiles.update_profile.tooltip =	Define si un usuario con este perfil asignado podrá actualizar su configuración de perfil.
+users_profiles.multiple_users = múltiples usuarios
+users_profiles.role_is_being_used = Este role está siendo utilizado por {0}
+users_profiles.single_user = <b>{0}</b> usuario

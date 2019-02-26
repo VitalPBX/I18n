@@ -29,3 +29,6 @@ astmanager_users.write = Permissões de gravação
 astmanager_users.write.tooltip = Selecione uma (ou mais) opções da lista de permissões de gravação disponíveis
 menu.asterisk_manager_users = Usuários do Asterisk Manager
 module.astmanager_users = Usuários do Asterisk Manager
+astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
+astmanager_users.message = Message
+astmanager_users.security = Security

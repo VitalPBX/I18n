@@ -168,3 +168,4 @@ queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.no_agents = No hay agentes asignados a esta cola. Por favor agregue al menos un agente.
+queues.max_reached = Has alcanzado el número máximo de colas permitidas.

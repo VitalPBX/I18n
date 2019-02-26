@@ -165,3 +165,4 @@ queues.hangup_dest = Направление после завершения вы
 queues.no_agents = Для этой очереди не назначено ни одного оператора. Добавьте хотя бы одного оператора очереди
 queues.join_announcement = Уведомление для абонента
 queues.join_announcement.tooltip = Сообщение вызывающему абоненту, как только он достигнет этой очереди
+queues.max_reached = You have reached the maximum number of queues allowed

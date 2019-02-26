@@ -8,3 +8,4 @@ queues_priority.general = Général
 queues_priority.mod_dest = Module de destination
 queues_priority.priority = Priorité
 queues_priority.priority.tooltip = La priorité à définir pour la file d'attente. Plus la priorité est haute, plus l'appel sera traité en priorité.
+queues_priority.menu.priority = Priority {0}

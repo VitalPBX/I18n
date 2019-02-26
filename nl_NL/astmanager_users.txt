@@ -29,3 +29,6 @@ astmanager_users.write = Schrijfmachtigingen
 astmanager_users.write.tooltip = Schrijfmachtigingen AMI.
 menu.asterisk_manager_users = Gebruikers van de Asterisk Manager
 module.astmanager_users = Gebruikers van de Asterisk Manager
+astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
+astmanager_users.message = Message
+astmanager_users.security = Security

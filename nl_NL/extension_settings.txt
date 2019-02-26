@@ -65,3 +65,4 @@ extension_settings.vm_password.invalid = Voicemail Password is invalid. Use only
 extension_settings.voicemail = Enable Voicemail
 extension_settings.voicemail.tooltip = Enable or disable voicemail.
 extension_settings.white_list.phone_number = Phone Number
+extension_settings.dictation.invalid = An invalid dictation data has been provided

@@ -59,3 +59,4 @@ conferences.allow_to_invite = Permitir Invitar
 conferences.allow_to_invite.tooltip = 	Si está habilitado, todos los participantes podrían presionar "<b>**</b>" o "<b>0</b>" para invitar a otras personas a esta conferencia
 conferences.class_of_service = {class_of_service}
 conferences.class_of_service.tooltip = 	Le permite definir qué Clase de Servicio se utilizará para invitar a otras personas a esta conferencia
+conferences.max_reached = Has alcanzado el número máximo de conferencias permitidas.

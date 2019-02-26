@@ -27,3 +27,7 @@ paging.timeout.tooltip = Bepaalt hoe lang een systeem een oproep zal proberen ve
 paging.description.tooltip = Short description to identify this paging
 paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
 paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.
+paging.ip_address = IP Address
+paging.multicastrtp = MulticastRTP
+paging.no_members = No extensions or valid multicast members has been provided
+paging.port = Port

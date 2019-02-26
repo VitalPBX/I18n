@@ -84,3 +84,5 @@ menu.import_extensions = Importar Extensões
 module.import_extensions = Importar Extensões
 import_extensions.any_did = Qualquer DID
 import_extensions.description.cid_number = Número / padrão CID para corresponder nas rotas recebidas.
+import_extensions.description.emergency_cid_name = Emergency Caller ID name
+import_extensions.description.emergency_cid_number = Emergency Caller ID number

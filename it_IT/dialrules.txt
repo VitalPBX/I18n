@@ -22,3 +22,5 @@ dialrules.play_duration.tooltip = Riproduci la durata massima solo se la durata 
 dialrules.rules = Regole
 menu.dialing_restriction_rules = Regole di Restrizione Chiamata
 module.dialrules = Regole di Restrizione Chiamata
+dialrules.no_rules = No valid dialing rule patterns has been provided
+dialrules.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>

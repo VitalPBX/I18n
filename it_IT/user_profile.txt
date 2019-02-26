@@ -1,3 +1,4 @@
 menu.user_profile = Profilo
 module.user_profile = Mio Profilo
-user_profile = Profilo Utente
+user_profile = Profilo Utenteuser_profile.general = {users.general}
+user_profile.settings = {users.settings}

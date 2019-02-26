@@ -9,3 +9,4 @@ ars.outbound_route_id = Rota de Saída
 ars.time_group_id = Tempo de Grupo
 menu.route_selections = Seleção de Rotas
 module.ars = Seleção de Rotas
+ars.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>

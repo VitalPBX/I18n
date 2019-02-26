@@ -12,3 +12,8 @@ logfiles_viewer.invalid_filename = The requested log file cannot be found
 menu.log_file_viewer = 查看日志
 module.logfiles_viewer = 查看日志
 
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip = 
+	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
+	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
+logfiles_viewer.refresh = Refresh

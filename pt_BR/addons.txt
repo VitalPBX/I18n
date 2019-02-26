@@ -48,4 +48,16 @@ addons.licensing.buy_license = Comprar licença
 addons.licensing.activate = Ativar
 addons.licensing.register = Registro {0} Addon
 addons.clean_cache = Limpar Cache
-addons.cache_cleaned_up = O cache foi limpo
+addons.cache_cleaned_up = O cache foi limpoaddons.addon.license = {0} License
+addons.general = {ombutel.general}
+addons.licensing.no_license = The selected add-on has not license
+addons.licensing.view = View License
+addons.reactivate = Reactivate
+addons.reactivate.success = The add-on has been reactivated successfully
+addons.registered_to = Registered to {0} < {1} >
+addons.revoke = Revoke
+addons.revoke_license = Revoke License
+addons.revoke_license.confirm = Are you sure that you want to revoke the license for the "{0}" add-on?
+addons.revoke_license.success = The license has been revoked successfully
+addons.version = Version {0}
+app.licensing.activated_successfully = The license has been activated successfully

@@ -48,3 +48,6 @@ voicemail_general.max_message = Max Messages
 voicemail_general.max_message.tooltip = Maximum number of messages per folder. If set to 0, a mailbox will be greetings-only.
 voicemail_general.operator_number = Operator Number
 voicemail_general.operator_number.tooltip = Extension to dial on pressing 0 while listening a voicemail.
+voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
+voicemail_general.operator_destination = Operator Destination
+voicemail_general.operator_destination.tooltip = Destination to execute on pressing 0 (zero) for reach the operator.

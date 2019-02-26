@@ -13,3 +13,5 @@ pickup_group.general = Geral
 pickup_group.member = Membro
 pickup_group.member.tooltip = Indique se esta extensão é um membro deste grupo de captura
 pickup_group.no_options = As extensões devem ser designadas como membros e / ou poderem ser atendidas.
+pickup_group.members = Members
+pickup_group.members.empty = No valid members has been added to this pickup group.

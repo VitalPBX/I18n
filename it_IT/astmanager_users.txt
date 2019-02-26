@@ -28,4 +28,6 @@ astmanager_users.verbose = Avviso
 astmanager_users.write = Permessi Scrittura
 astmanager_users.write.tooltip = Selezionare una (o piu') opzioni dall'elenco delle autorizzazioni di scrittura disponibili
 menu.asterisk_manager_users = Gestione Utenti Asterisk
-module.astmanager_users = Gestione Utenti Asterisk
+module.astmanager_users = Gestione Utenti Asteriskastmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
+astmanager_users.message = Message
+astmanager_users.security = Security

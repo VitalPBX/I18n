@@ -248,3 +248,4 @@ extensions.dynamic_routing = Enrutamiento Dinámico
 extensions.dynamic_routing.tooltip =
 	 Le permite habilitar o no el enrutamiento dinámico para esta extensión. Si está habilitado, cuando una parte externa
 	(quien anteriormente fue llamado por esta extensión) devuelve la llamada, su llamada se enrutará directamente a esta extensión
+extensions.max_reached = Has alcanzado el número máximo de extensiones permitidas.

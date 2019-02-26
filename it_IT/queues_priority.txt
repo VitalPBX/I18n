@@ -8,3 +8,4 @@ queues_priority.general = Generale
 queues_priority.mod_dest = Modulo Destinazione
 queues_priority.priority = Priorita'
 queues_priority.priority.tooltip = Priorita' della coda da impostare.
+queues_priority.menu.priority = Priority {0}

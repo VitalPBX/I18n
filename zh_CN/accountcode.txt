@@ -11,3 +11,4 @@ accountcode.search = 查询
 module.accountcode = Account Codes
 menu.account_codes = Account Codes
 accountcode.code.invalid = Customer code is invalid. Use only numbers and the "*" (asterisk) symbol.
+accountcode.duplicated_code = The provided code is already in use

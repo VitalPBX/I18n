@@ -206,3 +206,4 @@ updates.apply = Apply Updates
 updates.available = Available Updates
 updates.nothing_found = No Updates Available
 updates.updating = Updating System
+being_used_as_destination = This item is being used as destination by the <b>{0}</b> module

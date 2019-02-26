@@ -63,3 +63,6 @@ extensions_status.device_info.useragent = Agente de usuário
 extensions_status.no_devices = Nenhum dispositivo
 menu.extensions_status = Status de extensões
 module.extensions_status = Status de extensões
+extensions_status.device_info.port = Port
+extensions_status.device_info.username_channel = Username / Channel
+extensions_status.unspecified = (Unspecified)

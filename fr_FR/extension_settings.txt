@@ -64,3 +64,4 @@ extension_settings.timezone.tooltip = Paramètres régionaux de cet utilisateur
 menu.my_extension = Mon extension
 module.extension_settings = Mon extension
 extension_settings.vm_password.invalid = Voicemail Password is invalid. Use only numbers and the "*" (asterisk) symbol.
+extension_settings.dictation.invalid = An invalid dictation data has been provided

@@ -9,3 +9,9 @@ blacklist.search = Zoeken
 menu.blacklist = Zwarte lijst
 module.blacklist = Zwarte lijst
 blacklist.numebr.invalid = Number to blacklist is invalid. <br>Must contain digits and "-", "_", ".", "!", "~", "*", " ' ", "(", ")", "&", "
+blacklist.destination = Destination
+blacklist.destination.tooltip = 
+	Optional destination. If set, the caller with a CID Number that match with the configured above, will be redirected
+	to the configured destination. If not set, a message will be played instead
+blacklist.enabled = Enabled
+blacklist.enabled.tooltip = Enable/Disable this CID number from the blacklist

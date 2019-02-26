@@ -9,3 +9,4 @@ ars.outbound_route_id = Uitgaande Route
 ars.time_group_id = Tijdsgroep
 menu.route_selections = Routeselecties
 module.ars = Routeselecties
+ars.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>

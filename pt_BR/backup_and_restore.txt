@@ -76,3 +76,4 @@ backup_and_restore.confirm_group_delete =
 	Tem certeza de que deseja excluir este grupo de backup e todos os backups gerados por ele?
 	backup_and_restore.cannot_delete_group = O grupo de backup não pode ser excluído
 
+backup_and_restore.cannot_delete_group = The backup group cannot be deleted

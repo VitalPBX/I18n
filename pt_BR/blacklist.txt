@@ -9,3 +9,9 @@ blacklist.numebr.invalid = Número para lista negra é inválido. <br>Deve conte
 blacklist.search = Pesquisa
 menu.blacklist = Lista negra
 module.blacklist = Lista negra
+blacklist.destination = Destination
+blacklist.destination.tooltip = 
+	Optional destination. If set, the caller with a CID Number that match with the configured above, will be redirected
+	to the configured destination. If not set, a message will be played instead
+blacklist.enabled = Enabled
+blacklist.enabled.tooltip = Enable/Disable this CID number from the blacklist

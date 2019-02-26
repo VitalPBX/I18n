@@ -136,3 +136,8 @@ feature_code.toggle_cfb.tooltip = Toggle to enable or disable call forwarding wh
 feature_code.toggle_cfi.tooltip = Toggles immediate call forwarding. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.toggle_cfn.tooltip = Toggle to enable or disable call forwarding when your extension is unable to answer incoming calls. Calls will be forwarded to the extension defined by default feature code *65. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.toggle_cfu.tooltip = Toggle to enable or disable call forwarding. Calls will be forwarded to the extension defined by default feature code *61. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.paging_and_intercom = Paging
+feature_code.paging_and_intercom.tooltip = 
+	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
+	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.

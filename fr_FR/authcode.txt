@@ -17,3 +17,5 @@ authcode.search = Rechercher
 menu.authorization_codes = Codes PIN
 module.authcode = Codes PIN
 authcode.code.invalid = Authorization code is invalid. Use only numbers and the "*" (asterisk) symbol.
+authcode.validation.duplicated_auth_alias = The provided authorization code alias is already in use
+authcode.validation.duplicated_code = The provided authorization code is already in use

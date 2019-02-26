@@ -65,3 +65,4 @@ extension_settings.ringtime = Ring Time
 extension_settings.ringtime.tooltip = The number of seconds to allow the device(s) to ring before giving up and moving on to the next priority in the extension.
 extension_settings.vm_password.invalid = Voicemail Password is invalid. Use only numbers and the "*" (asterisk) symbol.
 extension_settings.white_list.phone_number = Phone Number
+extension_settings.dictation.invalid = An invalid dictation data has been provided

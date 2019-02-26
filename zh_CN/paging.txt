@@ -26,3 +26,7 @@ paging.timeout = 超时
 paging.timeout.tooltip = Specify the length of time that the system will attempt to connect a call. After this duration, any intercom calls that have not been answered will be hung up by the system.
 paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
 paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.
+paging.ip_address = IP Address
+paging.multicastrtp = MulticastRTP
+paging.no_members = No extensions or valid multicast members has been provided
+paging.port = Port

@@ -11,3 +11,6 @@ login.validation.different_password = Por favor entre com o mesmo valor novament
 login.reset_password_title = Configurar a senha do administrador
 login.reset_password_title.tooltip = Isso permite que você configure a senha para efetuar login com o usuário admin
 login.no_db = Espere, ainda instalando banco de dados
+login.tenant = Tenant
+login.tenant_name = Tenant Name
+login.username.required = Please enter your user name

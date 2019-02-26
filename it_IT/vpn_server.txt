@@ -1,0 +1,75 @@
+menu.vpn_server = {vpn_server}
+module.vpn_server = {vpn_server}
+vpn_server = OpenVPN Server
+vpn_server.actions = Actions
+vpn_server.add_client = Add Client
+vpn_server.cipher = Cipher Method
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.des-ede3-cbc = Triple-DES
+vpn_server.cipher.tooltip = Encrypt data channel packets with cipher algorithm alg.
+vpn_server.client.assigned_address = Fixed IP
+vpn_server.client.assigned_address.tooltip = Allows you to assign a specific IP address to this client
+vpn_server.client.cannot_download_cert = Cannot download the client configurations
+vpn_server.client.confirm_delete = Are you sure you want to delete this client?
+vpn_server.client.connected = Connected
+vpn_server.client.connected_since = Connected Since
+vpn_server.client.deleted = The client has been deleted successfully
+vpn_server.client.description = Description
+vpn_server.client.description.tooltip = A short description to identify this OpenVPN client
+vpn_server.client.duplicated_address = The provided IP address is already in use
+vpn_server.client.duplicated_description = The provided description is already in use
+vpn_server.client.enabled = Enabled
+vpn_server.client.enabled.tooltip = It allows you to enabled or disable this user
+vpn_server.client.invalid_ip = An invalid IP address has been provided for this client
+vpn_server.client.no_description = No description has been provided for this client
+vpn_server.client.private_ip = Assigned IP
+vpn_server.client.real_address = Real Address
+vpn_server.client.received_transmitted = Packets Rx / Tx
+vpn_server.client_saved = The client has been saved and configured.
+vpn_server.clients = Clients
+vpn_server.compression = Compression
+vpn_server.compression.tooltip = Allows you to define the type of compression to use between server & clients traffic
+vpn_server.configuration_updated = The configurations has been updated
+vpn_server.configuring_client = Configuring Client...
+vpn_server.dns.tooltip = DNS to use when the "Redirect Gateway" option is enabled
+vpn_server.edit_client = Edit Client
+vpn_server.enabled = Enabled
+vpn_server.enabled.tooltip = It shows the current status of the OpenVPN Server service
+vpn_server.invalid_data = Invalid data has been provided
+vpn_server.keepalive = Keep-Alive
+vpn_server.keepalive.ping = Frequency
+vpn_server.keepalive.time_period = Timeout
+vpn_server.keepalive.tooltip = 
+	The keepalive directive causes ping-like messages to be sent back and forth over the link so that each side
+	knows when the other side has gone down. All values in seconds
+vpn_server.max-clients = Max Clients
+vpn_server.max-clients.tooltip = The maximum number of concurrently connected clients we want to allow
+vpn_server.no_license = 
+	You have reached maximum number of free VPN clients. Activate the add-on to create more than two clients
+vpn_server.port = Port
+vpn_server.port.tooltip = The port that OpenVPN should listen on
+vpn_server.primary_dns = Primary DNS
+vpn_server.public_host = Public Host
+vpn_server.public_host.tooltip = Remote host or IP address on the client, which specifies the OpenVPN server.
+vpn_server.redirect-gateway = Redirect Gateway
+vpn_server.redirect-gateway.tooltip = 
+	If enabled, this directive will configure all clients to redirect their default network gateway through the VPN,
+	causing all IP traffic such as web browsing and and DNS lookups to go through the VPN (The OpenVPN server machine
+	may need to NAT or bridge the TUN/TAP interface to the internet in order for this to work properly)
+vpn_server.secondary_dns = Secondary DNS
+vpn_server.server = Server
+vpn_server.service_restarted = The configurations has been updated and the service has been started
+vpn_server.service_stopped = The configurations has been updated and the service has been stopped
+vpn_server.subnet = Server Range
+vpn_server.subnet.ip = IPv4 Address
+vpn_server.subnet.mask = Mask
+vpn_server.subnet.tooltip = 
+	Defines the virtual IP range to be used in the VPN tunnel network.. e.g.: if you use as range the IP address 10.8.0.0,
+	the server IP will be 10.8.0.1 and the first client will be assigned the IP 10.8.0.2
+vpn_server.type = Type
+vpn_server.type.generic = Generic
+vpn_server.type.grandstream = Grandstream
+vpn_server.type.tooltip = It allows to define the type of client, depending on it, the configuration that is downloaded will vary
+vpn_server.type.yealink = Yealink

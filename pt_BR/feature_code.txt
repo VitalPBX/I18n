@@ -138,3 +138,8 @@ feature_code.send_vm_msg = Enviar mensagem de correio de voz
 feature_code.send_vm_msg.tooltip = Permite discar qualquer ramal e deixar uma mensagem de correio de voz. Por exemplo, a discagem *95 *2492 permitirá que você deixe uma mensagem de correio de voz para o ramal 2492. O recurso deve estar ativado na Categoria de recurso associada à extensão.
 feature_code.spy_ext_barge = Espionagem na extensão no modo barge
 feature_code.spy_ext_barge.tooltip = Em vez de sussurrar em um único canal em ambos os canais envolvidos na chamada.
+feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.paging_and_intercom = Paging
+feature_code.paging_and_intercom.tooltip = 
+	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
+	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.

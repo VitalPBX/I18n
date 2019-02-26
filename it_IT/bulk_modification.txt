@@ -36,3 +36,4 @@ bulk_modification.validations.no_extensions = Non hai selezionato alcun interno 
 bulk_modification.validations.no_field = Non hai selezionato alcun campo da modificare
 bulk_modification.validations.invalid_field = Hai selezionato un campo non valido
 
+bulk_modification.field.generate_hints = {extensions.diversion_hints}

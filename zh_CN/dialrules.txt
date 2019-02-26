@@ -22,3 +22,5 @@ dialrules.play_duration.tooltip = Play max duration only if max duration is grea
 dialrules.rules = 规则
 menu.dialing_restriction_rules = 拨号限制规则
 module.dialrules = 拨号限制规则
+dialrules.no_rules = No valid dialing rule patterns has been provided
+dialrules.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>

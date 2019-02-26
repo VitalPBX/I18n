@@ -28,3 +28,4 @@ dial_profiles.ringing_tone.help = Indicate ringing to the calling party, even if
 dial_profiles.warning_note = <b>Warning!</b> Enabling transfer by caller may allow an outside caller to exploit the PBX by transferring their calls to another external destination when a too permissive Class of Service is defined for the trunk.
 menu.dial_profiles = Dial Profiles
 module.dial_profiles = Dial Profiles
+dial_profiles.general = {ombutel.general}

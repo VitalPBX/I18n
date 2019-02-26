@@ -12,3 +12,8 @@ logfiles_viewer.invalid_filename = Il file di Log richiesto non e' valido.
 menu.log_file_viewer = Visualizzatore File di Logo
 module.logfiles_viewer = Visualizzatore File di Logo
 
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip = 
+	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
+	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
+logfiles_viewer.refresh = Refresh

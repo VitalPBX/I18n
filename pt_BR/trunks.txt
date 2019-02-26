@@ -110,4 +110,65 @@ trunks.nat = Nat
 trunks.continue_on_busy = Continue no Busy
 trunks.continue_on_busy.tooltip =
 	Ele força para continuar a chamada para o próximo tronco configurado quando este tronco estiver ocupado. <br><br> <b>Note: </b> A chamada será
-	também continuará para o próximo tronco se algum erro ocorrer, mesmo que esta caixa de seleção não esteja marcada.
+	também continuará para o próximo tronco se algum erro ocorrer, mesmo que esta caixa de seleção não esteja marcada.trunks.auth_rejection_permanent = Permanent Auth Rejection
+trunks.auth_rejection_permanent.tooltip = 
+	If this option is enabled and an authentication challenge fails, registration will not be attempted again until
+	the configuration is reloaded
+trunks.custom_dial_string = Dial String %s
+trunks.custom_dial_string.tooltip = 
+	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
+	e.g: OH323/$[EXTEN]@10.0.1.200:10060
+trunks.expiration = Expiration
+trunks.expiration.tooltip = Expiration time for registrations in seconds
+trunks.forbidden_retry_interval = Forbidden Retry Interval
+trunks.forbidden_retry_interval.tooltip = 
+	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
+	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
+trunks.general_conf = General Configurations
+trunks.get_cid_from = Get CID From
+trunks.get_cid_from.contact = Contact
+trunks.get_cid_from.from = From
+trunks.get_cid_from.tooltip = It allows you to define from which SIP header will be extracted the caller ID info
+trunks.get_did_from = Get DID From
+trunks.get_did_from.to = To
+trunks.get_did_from.tooltip = It allows you to define from which SIP header will be extracted the DID number
+trunks.incoming_settings = User Parameters
+trunks.incoming_settings.tooltip = User parameters supplied by your VoIP provider
+trunks.match = Match
+trunks.match.tooltip = 
+	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
+	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
+	with a slash ('/').
+trunks.max_reached = You have reached the maximum number of trunks allowed
+trunks.max_retries = Max Retries
+trunks.max_retries.tooltip = Maximum number of registration attempts
+trunks.no_outgoing_settings = There are not outgoing settings defined on this trunk
+trunks.outbound_registration = Require Registration
+trunks.outbound_registration.tooltip = It defines, if is required to register against the remote server or VoIP provider
+trunks.outbound_registration_settings = Outbound Registration Settings
+trunks.outgoing_settings = Peer Parameters
+trunks.outgoing_settings.tooltip = Peer parameters supplied by your VoIP provider
+trunks.plain_mode = Switch to Text Mode
+trunks.retry_interval = Retry Interval
+trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
+trunks.rules = Dialing Manipulation Rules
+trunks.rules.enabled = {trunks.trkcustom.enabled}
+trunks.rules.pattern = Pattern
+trunks.rules.prefix = Prefix
+trunks.rules.prepend = Prepend
+trunks.simultaneous_calls = Simultaneous Calls
+trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.
+trunks.tenant_trunk = Tenant
+trunks.tenant_trunk.tooltip = It allows you to define to which tenant will be routed the calls made through this trunk.
+trunks.transport = {profiles_pjsip_transport}
+trunks.transport.tooltip = Explicit transport configuration to use
+trunks.validation.duplicated_description = The provided description is being used by another trunk
+trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
+trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
+trunks.validation.no_dial_string = You have not provided a valid dial string
+trunks.validation.no_outgoing_host = The outgoing host has not been provided
+trunks.validation.no_outgoing_username = The outgoing username has not been provided
+trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
+trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
+trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
+trunks.visual_mode = Switch to Visual Mode

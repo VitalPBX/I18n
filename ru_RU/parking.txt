@@ -46,3 +46,4 @@ parking.parkpos.tooltip = Количество слотов для исполь�
 parking.timeout_destination = Направление при таймауте
 parking.announce_space_number = Оповещение о позиции
 parking.announce_space_number.tooltip = Если установлено значение <b>"Нет"</b>, оповещение о номере позиции запаркованного вызова будет отключено
+parking.max_reached = You have reached the maximum number of parking lots allowed

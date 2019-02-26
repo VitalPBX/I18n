@@ -41,3 +41,4 @@ cid_management.phone_number_result.title = Mostra o resultado depois de aplicar 
 cid_management.cid_name = Nome original do CID
 cid_management.cid_name_result = Nome do CID modificado
 cid_management.cid_name_result.title = Mostra o resultado depois de aplicar as configurações ao nome acima.
+cid_management.general = {ombutel.general}

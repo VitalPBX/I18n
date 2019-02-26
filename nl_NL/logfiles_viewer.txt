@@ -11,3 +11,8 @@ logfiles_viewer.select_logfile = --- Selecteer Een Logboekbestand ---
 logfiles_viewer.invalid_filename = Het aangevraagde logboekbestand kan niet worden gevonden
 menu.log_file_viewer = Logbestandviewer
 module.logfiles_viewer = Logbestandviewer
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip = 
+	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
+	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
+logfiles_viewer.refresh = Refresh

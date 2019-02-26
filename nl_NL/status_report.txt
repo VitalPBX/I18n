@@ -56,3 +56,5 @@ status_report.user = User
 status_report.username = Username
 status_report.voicemail = Voicemail
 status_report.weight = Weight
+status_report.pjsip_registration = PJSIP Registrations
+status_report.trunk = Trunk/Endpoint
