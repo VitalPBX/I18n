@@ -39,6 +39,6 @@ default = Default
 description = Description
 accept = Accept
 confirm = Confirm
-restriction_msg = You're not allowed to get, edit nor delete the requested info
+restriction_msg = You're not allowed to get, edit or delete the requested info
 company = Company
 license = License
