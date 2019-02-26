@@ -10,9 +10,11 @@ emergency_numbers.number.placeholder = eg.: 911
 emergency_numbers.number.tooltip = Telephone number to contact local emergency services for assistance
 emergency_numbers.trunks = Trunks
 emergency_numbers.trunks.tooltip = List of trunks than can be used in case of a emergency call
-emergency_numbers.validation.invalid_number = 	The following number <b>"{0}"</b> has an invalid format, please write a valid phone number.
+emergency_numbers.validation.invalid_number =
+	The following number <b>"{0}"</b> has an invalid format, please write a valid phone number.
 	It should contain the following characters: *,#,+
-emergency_numbers.validation.n_duplicated = 	The emergency number {0} is already in use by the following emergency number category: <b>{1}</b>.
+emergency_numbers.validation.n_duplicated =
+	The emergency number {0} is already in use by the following emergency number category: <b>{1}</b>.
 emergency_numbers.validation.no_desc = No description has been provided. Please provide a valid description
 emergency_numbers.validation.no_numbers = No numbers has been provided. Please add at least one number.
 emergency_numbers.validation.no_trunks = No trunks has been selected. Please select at least one trunk.

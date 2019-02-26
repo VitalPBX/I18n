@@ -51,7 +51,8 @@ module.backup_and_restore = Backup & Restore
 backup_and_restore.actions = Actions
 backup_and_restore.app_version = {0} Version
 backup_and_restore.automatic_backup = Run Automatically
-backup_and_restore.automatic_backup.tooltip = 	It allows you to use a Cron previously created at <b>"PBX >> Tools >> Cron Profiles"</b> to automatically
+backup_and_restore.automatic_backup.tooltip =
+	It allows you to use a Cron previously created at <b>"PBX >> Tools >> Cron Profiles"</b> to automatically
 	create a backup with your selected settings.
 backup_and_restore.backup_not_deleted = Backup has not been deleted
 backup_and_restore.backups_list = Backups List
@@ -64,7 +65,8 @@ backup_and_restore.execute = Run Backup Now!
 backup_and_restore.general = {general}
 backup_and_restore.import = Import Backup
 backup_and_restore.limit = Limit
-backup_and_restore.limit.tooltip = 	It allows you to define the number of backup copies that will be stored. When the limit is reached,
+backup_and_restore.limit.tooltip =
+	It allows you to define the number of backup copies that will be stored. When the limit is reached,
 	the oldest copy will be deleted
 backup_and_restore.product_version = App Version
 backup_and_restore.validations.duplicated_name = Already exist a backup with the same name.
