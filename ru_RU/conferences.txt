@@ -61,3 +61,4 @@ conferences.class_of_service.tooltip =
 conferences.allow_to_invite = Разрешить приглашения
 conferences.allow_to_invite.tooltip =
 	Если установлено значение <b>«Да»</b>, то все участники могут нажать «<b>**</b>» или «<b>0</b>», чтобы пригласить других людей в эту конференцию
+conferences.max_reached = Вы достигли максимально допустимого количества конференций
