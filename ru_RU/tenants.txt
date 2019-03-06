@@ -1,13 +1,13 @@
 module.tenants = Tenants
 menu.tenants = {module.tenants}
-tenants.general = General
-tenants.name = Name
-tenants.description = Description
-tenants.description.required = Description {0}
-tenants.description.tooltip = Short Description to identify this tenant.
-tenants.name.required = Name {0}
-tenants.name.tooltip = A unique name for this tenant. This name will be used to create folders, linking cdr info, etc.
-tenants.validation.enter_valid_tenant = Enter a valid tenant name: letters, numbers, dash, underscore are allowed
+tenants.general = Общие
+tenants.name = Имя
+tenants.description = Описание
+tenants.description.required = Описание для {0}
+tenants.description.tooltip = Краткое описание для идентификации этого арендатора.
+tenants.name.required = Имя для {0}
+tenants.name.tooltip = Уникальное имя для этого арендатора. Это имя будет использоваться для создания папок, детализации и т.д.
+tenants.validation.enter_valid_tenant = Введите правильное имя арендатора: разрешены буквы, цифры, тире и подчеркивания
 tenants.user_name.required = Admin User {0}
 tenants.user_name = Admin User
 tenants.user_name.tooltip = Default user to manages this Tenant.
@@ -28,7 +28,7 @@ tenants.conferences = Conferences
 tenants.conferences.tooltip = It allows you to define the maximum number of conferences for this tenant
 tenants.parking_lots = Parking Lots
 tenants.parking_lots.tooltip = It allows you to define the maximum number of parking lots for this tenant
-tenants.duplicated_name = The provided name it's already in use
+tenants.duplicated_name = Указанное имя уже используется
 tenants.user_settings = Tenant Administrator
 tenants.role = {users.role}
 tenants.role.tooltip =
@@ -39,23 +39,23 @@ tenants.startup.tooltip = {users.startup.tooltip}
 tenants.no_role = You have not selected a valid role for the Administrator of this tenant
 tenants.allowed_tenant_trunks = Allowed Tenant Trunks
 tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
-tenants.path = Path
+tenants.path = Путь
 tenants.path.tooltip =
-	Path name used on storage folder of this tenant and as asterisk database tree
-tenants.no_license = You have reached maximum number of free tenants. Activate this add-on with a valid license to create unlimited tenants
+	Путь, используемый для папки этого арендатора и структуры базы данных Asterisk
+tenants.no_license = Вы достигли максимально допустимого числа арендаторов. Активируйте это дополнение с действующей лицензией для создания неограниченного количества арендаторов 
 tenants.confirm_delete =
-	Are you sure that you want to delete this tenant? <br> This action is irreversible, and all the data
-	related to this tenant will be permanently deleted
-tenants.prefix = Prefix
+	Вы уверены, что хотите удалить этого арендатора? <br> Это действие необратимо, и все данные
+	связанные с этим арендатором будут удалены навсегда <br>
+tenants.prefix = Префикс
 tenants.prefix.tooltip =
-	Allows you to define a prefix to be used for extensions devices and others. If left blank an automatic prefix will
-	be used
-tenants.prefix.placeholder = Generate Automatically
-tenants.enabled = Enabled
+	Позволяет определить префикс, который будет использоваться для номеров устройств и всего остального.
+	Если оставить пустым, будет использоваться автоматический префикс 
+tenants.prefix.placeholder = Создавать автоматически
+tenants.enabled = Включено
 tenants.enabled.tooltip =
-	It allows you to enable/disable a tenant. If the tenant is disabled, the users who belongs to it will not be able
-	to login to it nor perform any action
-tenants.allow_recordings = Allow Recordings
-tenants.allow_recordings.tooltip = It allows you to define if this tenant will be able to record or not calls
-tenants.recordings_maintenance = Recordings Maintenance Settings
-tenants.disabled = The access to this tenant has been disabled, please contact to your PBX provider.
+	Позволяет включать/отключать арендатора. Если арендатор отключен, то пользователи, которые ему принадлежат, 
+	не смогут войти в систему или выполнять какие-либо действия	
+tenants.allow_recordings = Разрешить запись
+tenants.allow_recordings.tooltip = Позволяет вам определить, сможет ли этот арендатор записывать вызовы или нет
+tenants.recordings_maintenance = Настройки обслуживания записей Recordings Maintenance Settings
+tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру.
