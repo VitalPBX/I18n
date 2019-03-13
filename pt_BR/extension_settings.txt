@@ -64,3 +64,4 @@ extension_settings.timezone = Fuso horário
 extension_settings.timezone.tooltip = Local para este usuário.
 menu.my_extension = Minha extensão
 module.extension_settings = Minha extensãoextension_settings.dictation.invalid = An invalid dictation data has been provided
+extension_settings.dictation.invalid = An invalid dictation data has been provided

@@ -173,3 +173,5 @@ trunks.max_reached = Has alcanzado el número máximo de troncales permitidos.
 trunks.tenant_trunk = Tenant
 trunks.tenant_trunk.tooltip = Le permite definir a qué Tenant se enrutarán las llamadas realizadas a través de este troncal.
 trunks.validation.no_tenant = No ha seleccionado un Tenant válido para este enlace.
+trunks.custom_headers = Encabezados Personalizados
+trunks.trkcustom.header = Encabezado

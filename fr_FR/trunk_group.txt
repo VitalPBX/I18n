@@ -33,3 +33,8 @@ trunk_group.no_patterns = No patterns configured for this outbound route
 trunk_group.failover_destination = Failover Destination
 trunk_group.failover_destination.tooltip = 
 	Optional destination to execute in case that the call fails after try with all the listed trunks.
+trunk_group.trkpattern.cid_pattern = CID Pattern
+trunk_group.trkpattern.cid_pattern.placeholder = Match CID Pattern
+trunk_group.trkpattern.cid_pattern.tooltip = 
+	If defined, calls that match the defined pattern must also match this call identification pattern in order to
+	take this route. The caller id to match will be the internal CID and not the External CID.

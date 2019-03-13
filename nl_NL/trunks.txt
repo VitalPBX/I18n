@@ -174,3 +174,5 @@ trunks.validation.no_tenant = You have not selected a valid tenant for this trun
 trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
 trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
 trunks.visual_mode = Switch to Visual Mode
+trunks.custom_headers = Custom Headers
+trunks.trkcustom.header = Header

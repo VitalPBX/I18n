@@ -10,3 +10,4 @@ ars.time_group_id = Grupo Horario
 menu.route_selections = Selección de Rutas
 module.ars = Selección de Rutas
 ars.used_by_cos = Este elemento no se puede eliminar porque se está utilizando para una o más <b>Clases de Servicios</b>
+ars.none = {none}

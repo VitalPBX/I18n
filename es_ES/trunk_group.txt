@@ -31,3 +31,8 @@ trunk_group.no_description = No se ha proporcionado ninguna descripción
 trunk_group.no_patterns = No hay patrones configurados para esta ruta de salida
 trunk_group.failover_destination = Destino por error
 trunk_group.failover_destination.tooltip = 	Destino opcional para ejecutar en caso de que la llamada falle después de probar con todas las líneas troncales enumeradas.
+trunk_group.trkpattern.cid_pattern = Patrón CID
+trunk_group.trkpattern.cid_pattern.placeholder = Coincidir con el patrón CID
+trunk_group.trkpattern.cid_pattern.tooltip = 
+	Si se definen, las llamadas que coinciden con el patrón definido también deben coincidir con este patrón de identificación de llamadas para
+	tomar esta ruta. El identificador de llamadas que coincidirá será el CID interno y no el CID externo.
