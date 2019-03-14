@@ -61,3 +61,5 @@ tenants.recordings_maintenance = Настройки обслуживания з�
 tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру
 tenants.full_name = ФИО
 tenants.full_name.tooltip = ФИО администратора, если оно не определено, будет использоваться описание арендатора
+tenants.assign_to_existing_user = Assign to Existing User
+tenants.assign_to_existing_user.tooltip = If checked, instead of create a new user for the tenant, you may assign it a existing one
