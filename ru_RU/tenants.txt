@@ -58,4 +58,6 @@ tenants.enabled.tooltip =
 tenants.allow_recordings = Разрешить запись
 tenants.allow_recordings.tooltip = Позволяет вам определить, сможет ли этот арендатор записывать вызовы или нет
 tenants.recordings_maintenance = Настройки обслуживания записей Recordings Maintenance Settings
-tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру.
+tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру
+tenants.full_name = ФИО
+tenants.full_name.tooltip = ФИО администратора, если оно не определено, будет использоваться описание арендатора
