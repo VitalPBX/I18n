@@ -32,12 +32,12 @@ tenants.duplicated_name = Указанное имя уже использует�
 tenants.user_settings = Администратор Арендатора
 tenants.role = {users.role}
 tenants.role.tooltip =
-	Role profile for the administrator of this tenant. <b>Be careful not to assign a too permissive role, which
-	may affect other tenants.</b>
+	Профиль администратора этого арендатора. <b>Будьте осторожны, чтобы не назначать слишком много прав, 
+	которые могут повлиять на других арендаторов</b>
 tenants.startup = {users.startup}
 tenants.startup.tooltip = {users.startup.tooltip}
-tenants.no_role = You have not selected a valid role for the Administrator of this tenant
-tenants.allowed_tenant_trunks = Allowed Tenant Trunks
+tenants.no_role = Вы не выбрали профиль для Администратора этого арендатора
+tenants.allowed_tenant_trunks = Разрешенные арендные линии
 tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
 tenants.path = Путь
 tenants.path.tooltip =
@@ -51,7 +51,7 @@ tenants.prefix.tooltip =
 	Позволяет определить префикс, который будет использоваться для номеров устройств и всего остального.
 	Если оставить пустым, будет использоваться автоматический префикс 
 tenants.prefix.placeholder = Создавать автоматически
-tenants.enabled = Включено
+tenants.enabled = Включен
 tenants.enabled.tooltip =
 	Позволяет включать/отключать арендатора. Если арендатор отключен, то пользователи, которые ему принадлежат, 
 	не смогут войти в систему или выполнять какие-либо действия	
