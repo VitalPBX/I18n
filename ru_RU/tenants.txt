@@ -38,7 +38,7 @@ tenants.startup = {users.startup}
 tenants.startup.tooltip = {users.startup.tooltip}
 tenants.no_role = Вы не выбрали профиль для Администратора этого арендатора
 tenants.allowed_tenant_trunks = Разрешенные арендные линии
-tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
+tenants.allowed_tenant_trunks.tooltip = Позволяет определить, какие арендаторы могут использоваться в качестве линий
 tenants.path = Путь
 tenants.path.tooltip =
 	Путь, используемый для папки этого арендатора и структуры базы данных Asterisk
