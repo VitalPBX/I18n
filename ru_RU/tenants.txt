@@ -57,9 +57,13 @@ tenants.enabled.tooltip =
 	не смогут войти в систему или выполнять какие-либо действия	
 tenants.allow_recordings = Разрешить запись
 tenants.allow_recordings.tooltip = Позволяет вам определить, сможет ли этот арендатор записывать вызовы или нет
-tenants.recordings_maintenance = Настройки обслуживания записей Recordings Maintenance Settings
+tenants.recordings_maintenance = Настройки обслуживания записей
 tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру
+tenants.assign_to_existing_user = Назначить существующему пользователю
+tenants.assign_to_existing_user.tooltip = Если выбрано, вместо создания нового пользователя для арендатора вы можете назначить ему уже существующего
+tenants.user = Пользователь
+tenants.user.tooltip = Пользователь, который будет отвечать за администрирование и управление этим арендатором
+tenants.duplicated_prefix = Предоставленный префикс уже используется для другого Арендатора
+tenants.no_user = Арендатору не был назначен ни один пользователь
 tenants.full_name = ФИО
 tenants.full_name.tooltip = ФИО администратора, если оно не определено, будет использоваться описание арендатора
-tenants.assign_to_existing_user = Assign to Existing User
-tenants.assign_to_existing_user.tooltip = If checked, instead of create a new user for the tenant, you may assign it a existing one
