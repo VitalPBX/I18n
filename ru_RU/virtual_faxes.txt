@@ -47,52 +47,52 @@ fax_sending.fax_device.tooltip = Факс, используемый для от�
 fax_sending.attached_file = Прикрепленный файл
 fax_sending.attached_file.tooltip = Файл для отправки через факс. Поддерживаемые форматы: <b>PDF, TIFF, TXT</b>
 fax_sending.no_file_selected = Вы не выбрали файл для отправки
-fax_sending.no_recipients = You have not defined the recipients who will receive this fax
-fax_sending.no_fax_device = You have not selected a fax device to send this fax
-fax_sending.invalid_file = You have selected an invalid file. The supported formats are: PDF, TIFF, TXT
-fax_sending.sent = Fax queued for sending
-fax_sending.failed.subject = Fax to {0} has failed
-fax_sending.failed.message = Dear Administrator,\nThe fax to {0} has failed with the following status: {1}\n\n\nThanks,\n{2}
-fax_sending.from_name = PBX Fax Notifications
-fax_sending.sent.subject = Fax to {0} has been sent
-fax_sending.sent.message = Dear {0},\nThe fax to {1} has been sent successfully\n\n\nThanks,\n{2}
-fax_recvd.failed.subject = Fax from {0} couldn't be received
+fax_sending.no_recipients = Вы не определили получателей, которые получат этот факс
+fax_sending.no_fax_device = Вы не выбрали факс
+fax_sending.invalid_file = Вы выбрали неверный файл. Поддерживаемые форматы: PDF, TIFF, TXT
+fax_sending.sent = Факс в очереди на отправку
+fax_sending.failed.subject = Не удалось отправить факс на {0}
+fax_sending.failed.message = Уважаемый администратор,\nФакс на {0} не прошел со следующим статусом: {1}\n\n\nСпасибо,\n{2}
+fax_sending.from_name = Факс уведомления АТС
+fax_sending.sent.subject = Факс на {0} был отправлен
+fax_sending.sent.message = Уважаемый {0},\nФакс на {1} был успешно отправлен\n\n\nСпасибо,\n{2}
+fax_recvd.failed.subject = Факс от {0} не может быть получен
 fax_recvd.failed.message =
-	Dear {0}, \n The fax from {1} couldn't be received due the following error : {2}
-	\n\nDevice: {3}
+	Уважаемый {0},\n Факс от {1} не может быть получен из-за следующей ошибки: {2}
+	\n\Устройство: {3}
 	\nDID: {4}
-	\n\n\nThanks,\n{5}
-fax_recvd.success.subject = You have received a fax from {0}
+	\n\n\nСпасибо,\n{5}
+fax_recvd.success.subject = Вы получили факс от {0}
 fax_recvd.success.message =
-	You have received a fax from {0} through DID {1}
-	\n\n\nThanks,\n{2}
-fax_viewer.search = Search
+	Вы получили факс от {0} через DID {1}
+	\n\n\nСпасибо,\n{2}
+fax_viewer.search = Поиск
 fax_viewer.fax_device = {fax_sending.fax_device}
-fax_viewer.fax_device.tooltip = Allows you to filter the fax list per device
+fax_viewer.fax_device.tooltip = Позволяет фильтровать список факсов для каждого устройства
 fax_viewer.general = {ombutel.general}
-fax_viewer.fax_device.all = -- All Devices --
-fax_viewer.type = Type
-fax_viewer.type.all = -- All Types --
-fax_viewer.type.in = Received
-fax_viewer.type.out = Sent
-fax_viewer.type.tooltip = Allows you to filter the fax list by type
-fax_viewer.start_date = Start Date
-fax_viewer.start_date.tooltip = Allows you to filter the fax list by date
-fax_viewer.end_date = End Date
+fax_viewer.fax_device.all = -- Все устройства --
+fax_viewer.type = Тип
+fax_viewer.type.all = -- Все типы --
+fax_viewer.type.in = Получено
+fax_viewer.type.out = Отправлено
+fax_viewer.type.tooltip = Позволяет фильтровать список факсов по типу
+fax_viewer.start_date = Дата начала
+fax_viewer.start_date.tooltip = Позволяет фильтровать список факсов по дате
+fax_viewer.end_date = Дата окончания
 fax_viewer.end_date.tooltip = {fax_viewer.start_date.tooltip}
-fax.viewer.faxes = Faxes List
-fax_viewer.date_and_time = Date / Time
-fax_viewer.sender = Sender
-fax_viewer.recipient = Recipient
-fax_viewer.file = Fax File
-fax_viewer.actions = Actions
-fax_viewer.fax_not_found = The requested fax file doesn't exists
-fax_viewer.fax.confirm_delete = Are you sure that you want to delete this fax?
-fax_viewer.fax.deleted = The fax has been deleted successfully
-fax_devices.no_license = You have reached maximum number of free Fax devices. Activate the add-on to create more than one device
+fax.viewer.faxes = Список факсов
+fax_viewer.date_and_time = Дата / Время
+fax_viewer.sender = Отправитель
+fax_viewer.recipient = Получатель
+fax_viewer.file = Файл
+fax_viewer.actions = Действия
+fax_viewer.fax_not_found = Запрашиваемый файл факса не существует
+fax_viewer.fax.confirm_delete = Вы уверены, что хотите удалить этот факс?
+fax_viewer.fax.deleted = Факс был успешно удален
+fax_devices.no_license = Вы достигли максимального количества бесплатных виртуальных факсов. Активируйте лицензию, чтобы создать более одного устройства
 fax_devices.fax_device = {fax_sending.fax_device}
-fax_devices.portal.select_one = -- Select a Fax Device --
-fax_devices.portal.help = It allows to assign a fax device to this user extension to allow to send and receive faxes through portal
-fax_sending.portal.no_fax_device = No fax device has been assigned to your extension.
-fgs.devices_port = Devices Port
-fgs.devices_port.tooltip = The port that fax devices listens
+fax_devices.portal.select_one = -- Выберите факс --
+fax_devices.portal.help = Позволяет назначить факс этому номеру, чтобы отправлять и получать факсы через веб-доступ
+fax_sending.portal.no_fax_device = Для вашего номера не был назначен факс
+fgs.devices_port = Порт
+fgs.devices_port.tooltip = Порт, который прослушивают виртуальные факсы
