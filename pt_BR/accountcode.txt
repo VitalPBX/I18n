@@ -1,5 +1,5 @@
-accountcode = Códigos do Cliente.
-accountcode.code = Códigos do Cliente.
+accountcode = Código do Cliente.
+accountcode.code = Código do Cliente.
 accountcode.code.invalid = O código do cliente é inválido. Use apenas números e o "*" (asterisk) símbolo.
 accountcode.code.tooltip = Número de código do cliente.
 accountcode.description = Descrição
@@ -11,4 +11,4 @@ accountcode.not_found = Código do cliente não encontrado.
 accountcode.search = Pesquisa
 module.accountcode = Códigos do Cliente.
 menu.account_codes = Códigos do Cliente.
-accountcode.duplicated_code = The provided code is already in use
+accountcode.duplicated_code = O código fornecido já está em uso
