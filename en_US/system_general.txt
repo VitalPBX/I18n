@@ -43,3 +43,9 @@ system_general.dnd.tooltip =
 system_general.blacklisted = Blacklisted
 system_general.blacklisted.tooltip =
 	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted
+system_general.transferdigittimeout = Transfer Digit Timout
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
+system_general.featuredigittimeout = Features Digit Timeout
+system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
+system_general.featuredigittimeout.placeholder = Value in milliseconds
