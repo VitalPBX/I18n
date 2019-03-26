@@ -6,5 +6,5 @@ export_extensions.extensions = Extensões
 export_extensions.export_extensions.tooltip = Extensões para exportar
 export_extensions.export_extensions = Extensões de exportação
 export_extensions.general = Geral
-export_extensions.no_extensions_selected = Nenhuma extensão selecionada
+export_extensions.no_extensions_selected = Nenhum ramal selecionada
 export_extensions.select_extensions = Selecione extensões para exportar

@@ -1,6 +1,6 @@
 branding = Branding
-branding.base_color = Base Color
-branding.base_color.tooltip = Main color used for active menu items, active form tabs and selected text
+branding.base_color = Cor Base
+branding.base_color.tooltip = Cor Principal usado para ativar itens no Menu, tabs de formunários e texto selecionado
 branding.desktop_logo = Desktop Logo
 branding.facebook_page = Facebook Page
 branding.general = {ombutel.general}
