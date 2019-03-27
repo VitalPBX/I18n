@@ -36,3 +36,10 @@ trunk_group.trkpattern.cid_pattern.placeholder = Coincidir con el patrón CID
 trunk_group.trkpattern.cid_pattern.tooltip = 
 	Si se definen, las llamadas que coinciden con el patrón definido también deben coincidir con este patrón de identificación de llamadas para
 	tomar esta ruta. El identificador de llamadas que coincidirá será el CID interno y no el CID externo.
+trunk_group.cid = CID Saliente
+trunk_group.cid.tooltip = Le permite definir un Número/Nombre de identificación de llamada específico que se usará en esta ruta de salida cuando la configuración "Sobrescribir CID" esté habilitada
+trunk_group.cid_name = Nombre CID
+trunk_group.cid_number = Número CID
+trunk_group.no_cid = La configuración "Sobrescribir CID" está habilitada, pero no definió los parámetros del CID saliente.
+trunk_group.overwrite_cid = Sobrescribir CID
+trunk_group.overwrite_cid.tooltip = Si está habilitado, el CID de salida de la extensión se sobrescribirá con los parámetros de CID definidos en esta Ruta de salida
