@@ -16,3 +16,4 @@ branding.login_footer = Login Footer
 branding.login_footer.tooltip = It allows you to customize the footer content in the login screen
 branding.desktop_logo = Desktop Logo
 branding.mobile_logo = Mobile Logo
+branding.instagram_page = Instagram Page

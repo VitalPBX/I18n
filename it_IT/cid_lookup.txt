@@ -48,3 +48,4 @@ cid_lookup.username.tooltip = Username to use for MySQL authentication
 cid_lookup.validation.no_database = No database name has been provided
 cid_lookup.validation.no_mysql_username = No username has been provided
 cid_lookup.validation.no_query = No query has been provided
+cid_lookup.database = Database {0}

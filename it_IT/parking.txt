@@ -46,3 +46,4 @@ parking.parkpos.tooltip = Gamma di parcheggi da utilizzare.
 parking.timeout_destination = Destinazione Timeout
 parking.announce_space_number = Annuncia Numero di Spazio
 parking.announce_space_number.tooltip = Se impostato su no, l'annuncio del numero dello spazio di parcheggio verra' silenziato.parking.max_reached = You have reached the maximum number of parking lots allowed
+parking.max_reached = You have reached the maximum number of parking lots allowed

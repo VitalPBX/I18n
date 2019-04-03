@@ -24,3 +24,4 @@ class_of_service.billing_app = Fatturazione Prepagata
 class_of_service.billing_app.tooltip = Consente di selezionare una applicazione per la fatturazione delle chiamate effettuate dagli interni.class_of_service.validate.default = You cannot delete this class of service because is marked as default
 class_of_service.validation.cos_duplicated = The class of service "<b>{0}</b>" its already defined.
 class_of_service.validation.in_use = This class of service is being used by the module "<b>{0}</b>"
+class_of_service.validate.default = You cannot delete this class of service because is marked as default

@@ -31,3 +31,4 @@ menu.asterisk_manager_users = Gestione Utenti Asterisk
 module.astmanager_users = Gestione Utenti Asteriskastmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.
 astmanager_users.message = Message
 astmanager_users.security = Security
+astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.

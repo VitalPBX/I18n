@@ -10,3 +10,4 @@ ars.time_group_id = Время использования
 menu.route_selections = <span style="margin-left: -5px;">Выбор маршрута</span>
 module.ars = Выбор маршрута
 ars.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>
+ars.none = {none}

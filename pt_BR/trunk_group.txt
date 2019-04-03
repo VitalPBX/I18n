@@ -31,3 +31,16 @@ trunk_group.no_patterns = Nenhum padrão configurado para esta rota de saída
 trunk_group.no_description = Nenhuma descrição foi fornecidatrunk_group.failover_destination = Failover Destination
 trunk_group.failover_destination.tooltip = 
 	Optional destination to execute in case that the call fails after try with all the listed trunks.
+trunk_group.failover_destination = Failover Destination
+trunk_group.trkpattern.cid_pattern = CID Pattern
+trunk_group.trkpattern.cid_pattern.placeholder = Match CID Pattern
+trunk_group.trkpattern.cid_pattern.tooltip = 
+	If defined, calls that match the defined pattern must also match this call identification pattern in order to
+	take this route. The caller id to match will be the internal CID and not the External CID.
+trunk_group.cid = Outbound CID
+trunk_group.cid.tooltip = It allows you to define a specific Caller ID Number/Name that will be using on this outbound route when the "Overwrite CID" setting is enabled
+trunk_group.cid_name = CID Name
+trunk_group.cid_number = CID Number
+trunk_group.no_cid = The "Overwrite CID" setting is enabled, but you didn't define the Outbound CID parameters.
+trunk_group.overwrite_cid = Overwrite CID
+trunk_group.overwrite_cid.tooltip = If enable, the extension's outbound CID will be overwritten with the CID parameters defined on this Outbound Route

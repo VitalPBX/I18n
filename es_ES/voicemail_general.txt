@@ -51,3 +51,6 @@ voicemail_general.operator_number.tooltip = Extensión para marcar presionando 0
 voicemail_general.no_operator_destination = La función de operador se ha habilitado pero no se ha seleccionado ningún destino
 voicemail_general.operator_destination = Destino del Operador
 voicemail_general.operator_destination.tooltip = Destino a ejecutar al presionar 0 (cero) para llegar al operador.
+voicemail_general.fromstring = De Nombre
+voicemail_general.fromstring.placeholder = Asterisk PBX
+voicemail_general.fromstring.tooltip = Nombre que aparecerá en los correos electrónicos de su PBX.

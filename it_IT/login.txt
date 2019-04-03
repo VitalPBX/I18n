@@ -13,3 +13,4 @@ login.reset_password_title.tooltip = Questo ti permette di configurare la passwo
 login.no_db = Attendere, il database ancora non si e' installato (installazione in corso).login.tenant = Tenant
 login.tenant_name = Tenant Name
 login.username.required = Please enter your user name
+login.tenant = Tenant

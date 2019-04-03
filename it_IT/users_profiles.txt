@@ -28,3 +28,4 @@ users_profiles.update_profile.tooltip =
 	Definisce se un utente con questo profilo assegnato sara' in grado di aggiornare le sue impostazioni del profilo.users_profiles.multiple_users = multiple users
 users_profiles.role_is_being_used = This role is being used by {0}
 users_profiles.single_user = <b>{0}</b> user
+users_profiles.multiple_users = multiple users

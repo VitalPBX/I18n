@@ -172,3 +172,6 @@ trunks.transport.tooltip = Explicit transport configuration to use
 trunks.validation.no_dial_string = You have not provided a valid dial string
 trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
 trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
+trunks.auth_rejection_permanent = Permanent Auth Rejection
+trunks.custom_headers = Custom Headers
+trunks.trkcustom.header = Header

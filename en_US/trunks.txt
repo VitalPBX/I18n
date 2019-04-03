@@ -173,3 +173,5 @@ trunks.tenant_trunk = Tenant
 trunks.tenant_trunk.tooltip = It allows you to define to which tenant will be routed the calls made through this trunk.
 trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
 trunks.max_reached = You have reached the maximum number of trunks allowed
+trunks.custom_headers = Custom Headers
+trunks.trkcustom.header = Header

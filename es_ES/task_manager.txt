@@ -14,3 +14,8 @@ task_manager.validations.duplicated_description = Otra tarea está usando la mis
 task_manager.validations.duplicated_script = Otra tarea se ha definido con el mismo script. Por favor verificar.
 task_manager.validations.no_description = Ninguna descripción ha sido definida. Por favor escribe una descripción válida.
 task_manager.validations.no_script = No se ha seleccionado ninguna secuencia de comandos para este administrador de tareas.
+task_manager.enabled = Habilitado
+task_manager.enabled.tooltip = Le permite Habilitar/Deshabilitar esta tarea
+task_manager.silent_mode = Modo Silencioso
+task_manager.silent_mode.tooltip = 
+	Si está habilitado, se eliminará cualquier salida del script seleccionado, evitando así recibir correos electrónicos cada vez que se ejecuta el cron.

@@ -51,3 +51,6 @@ voicemail_general.max_message.tooltip = Numero massimo di messaggi per cartella.
 voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
 voicemail_general.operator_destination = Operator Destination
 voicemail_general.operator_destination.tooltip = Destination to execute on pressing 0 (zero) for reach the operator.
+voicemail_general.fromstring = From Name
+voicemail_general.fromstring.placeholder = Asterisk PBX
+voicemail_general.fromstring.tooltip = Name that will appear in emails from your PBX

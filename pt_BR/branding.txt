@@ -16,3 +16,4 @@ branding.twitter_page = Twitter Page
 branding.youtube_channel = YouTube Channel
 menu.branding = {branding}
 module.branding = {branding}
+branding.instagram_page = Instagram Page

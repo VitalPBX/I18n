@@ -222,3 +222,4 @@ profiles_sip_force_avp_tooltip =
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
 profiles_sip_rtcp_mux_tooltip = Enable support for RFC 5761 RTCP multiplexing which is required for WebRTC support
+profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}

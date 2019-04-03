@@ -2,3 +2,4 @@ menu.user_profile = Perfil
 module.user_profile = Meu Perfil
 user_profile = Usuário Perfiluser_profile.general = {users.general}
 user_profile.settings = {users.settings}
+user_profile.general = {users.general}

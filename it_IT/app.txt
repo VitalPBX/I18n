@@ -41,3 +41,4 @@ app.plan.pro = Professional
 app.register_license = Register License
 app.registered_to = Registered to {0
 app.version = {0} {1} {2}
+app.activate_license = {addons.licensing.activate}
