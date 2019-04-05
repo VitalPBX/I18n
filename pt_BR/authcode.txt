@@ -17,5 +17,5 @@ authcode.not_found = Código de autorização não encontrado
 authcode.search = Pesquisa
 menu.authorization_codes = Códigos de autorização
 module.authcode = Códigos de autorização
-authcode.validation.duplicated_auth_alias = The provided authorization code alias is already in use
-authcode.validation.duplicated_code = The provided authorization code is already in use
+authcode.validation.duplicated_auth_alias = O alias do código de autorização fornecido já está em uso.
+authcode.validation.duplicated_code = O Código de autorização fornecido já está em uso.

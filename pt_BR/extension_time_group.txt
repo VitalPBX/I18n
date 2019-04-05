@@ -1,6 +1,6 @@
 extension_time_group.default.description = Grupo de tempo do portal %s
 extension_time_group.general = Geral
-extension_time_group.no_extension = Você não tem uma extensão para o usuário do portal
+extension_time_group.no_extension = Você não tem um ramal para o usuário do portal
 extension_time_group.schedules = Horários
 extension_time_group.schedules.mday_end = Mês Dia Concluir
 extension_time_group.schedules.mday_start = Mês Dia Início

@@ -22,7 +22,7 @@ backup_and_restore.created.tooltip = Data e hora de criação deste backup
 backup_and_restore.created.format = {0,longdatetime}
 backup_and_restore.click_to_restore = Clique no botão "Restaurar" abaixo para usar este backup e iniciar o processo de restauração. Este processo pode demorar vários minutos.
 backup_and_restore.download = Download
-backup_and_restore.comment = Comente
+backup_and_restore.comment = Comentário
 backup_and_restore.comment.tooltip = Um comentário definido pelo usuário que será adicionado ao backup
 backup_and_restore.include_cdr = Incluir registros CDR
 backup_and_restore.include_cdr.tooltip = Habilitar isso adicionará registros CDR ao backup
@@ -76,4 +76,4 @@ backup_and_restore.confirm_group_delete =
 	Tem certeza de que deseja excluir este grupo de backup e todos os backups gerados por ele?
 	backup_and_restore.cannot_delete_group = O grupo de backup não pode ser excluído
 
-backup_and_restore.cannot_delete_group = The backup group cannot be deleted
+backup_and_restore.cannot_delete_group = O grupo de backup não pode ser deletado
