@@ -62,3 +62,4 @@ addons.revoke_license.confirm = Are you sure that you want to revoke the license
 addons.revoke_license.success = The license has been revoked successfully
 addons.reactivate.success = The add-on has been reactivated successfully
 app.licensing.activated_successfully = The license has been activated successfully
+addons.licensing.activated_by_server = The selected add-on is under licensing plan
