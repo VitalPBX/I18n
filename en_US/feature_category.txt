@@ -1,0 +1,9 @@
+feature_category = Feature Category
+feature_category.all_features = All Features
+feature_category.available_features = Available Features
+feature_category.description = Description
+feature_category.description.tooltip = Name identifying this feature category (Must be unique).
+feature_category.enabled_features = Enabled Features
+feature_category.general = General
+menu.feature_categories = Feature Categories
+module.feature_category = Feature Categories

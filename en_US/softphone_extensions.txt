@@ -1,0 +1,5 @@
+module.softphone_extensions = Softphone Devices
+menu.softphone_extensions = {module.softphone_extensions}
+softphone_extensions.max_reached =
+	You are not allowed to add more than {0} devices
+softphone_extensions.general = {ombutel.general}
