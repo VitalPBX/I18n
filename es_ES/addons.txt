@@ -61,3 +61,4 @@ addons.revoke_license.confirm = ¿Está seguro de que desea revocar la licencia 
 addons.revoke_license.success = La licencia ha sido revocada con éxito.
 addons.version = Versión {0}
 app.licensing.activated_successfully = La licencia ha sido activada exitosamente.
+addons.licensing.activated_by_server = El complemento seleccionado está bajo plan de licencia

@@ -4,3 +4,5 @@ softphone_extensions.general = {ombutel.general}
 softphone_extensions.no_license = 
 	You are using the free version of Softphones Licensing Server. Activate this add-on to get more than two extensions
 	for {0} Softphones
+softphone_extensions.max_reached = 
+	You are not allowed to add more than {0} devices

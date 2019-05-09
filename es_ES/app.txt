@@ -42,3 +42,6 @@ app.plan.pro = Professional
 app.register_license = Registrar Licencia
 app.registered_to = Registrado a {0}
 app.version = {0} {1} {2}
+app.revoke_license.confirm = ¿Está seguro de que desea revocar la licencia {0} de este servidor?
+app.view_license = Ver licencia
+app.with_plan = {0} {1}

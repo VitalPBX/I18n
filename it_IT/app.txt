@@ -42,3 +42,6 @@ app.register_license = Register License
 app.registered_to = Registered to {0
 app.version = {0} {1} {2}
 app.activate_license = {addons.licensing.activate}
+app.revoke_license.confirm = Are you sure you want to revoke {0} license from this server?
+app.view_license = View License
+app.with_plan = {0} {1}

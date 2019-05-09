@@ -49,3 +49,4 @@ dashboard.trunks = Trunks
 dashboard.unlimited = Unlimited
 dashboard.usage = Usage
 dashboard.virtualization = Virtualization
+dashboard.softphone_devices = Softphone Devices

@@ -4,3 +4,5 @@ softphone_extensions.general = {ombutel.general}
 softphone_extensions.no_license = 
 	Está utilizando la versión gratuita de Softphones Licensing Server. Active este complemento
 	para obtener más de dos extensiones para los Softphones {0}
+softphone_extensions.max_reached = 
+	No está permitido agregar más de {0} dispositivos

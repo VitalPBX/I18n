@@ -67,3 +67,14 @@ tenants.user_password.required = Admin Password {0}
 tenants.user_password.tooltip = Password to authenticate the user who will manage this Tenant.
 tenants.user_settings = Tenant Administrator
 tenants.validation.enter_valid_tenant = Enter a valid tenant name: letters, numbers, dash, underscore are allowed
+tenants.allowed_outbound_routes = Allowed Outbound Routes
+tenants.allowed_outbound_routes.tooltip = 
+	Routes that will be used when this tenant make calls through a tenant trunk pointing to the main tenant.
+	Calls made to any other tenant than the main tenant will be sent through Inbound Routes definitions
+tenants.inbound_numbers = Inbound DIDs
+tenants.inbound_numbers.tooltip = 
+	List of numbers/patterns belonging to this tenant. Calls that match with these numbers will be forward automatically
+	to these tenant inbound routes. The configuration of these numbers takes precedence over the inbound routes definitions
+	on the main tenant.
+tenants.scom_devices = Softphone Devices
+tenants.scom_devices.tooltip = It allows you to define how many Sonata Communicator Devices could be activated on this tenant

@@ -70,3 +70,4 @@ dashboard.system_info = Información del Sistema
 dashboard.trunks = Troncales
 dashboard.unlimited = Ilimitado
 dashboard.virtualization = Virtualización
+dashboard.softphone_devices = Dispositivos de Softphone

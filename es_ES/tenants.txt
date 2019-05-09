@@ -67,3 +67,14 @@ tenants.user_password.required = Admin Contraseña {0}
 tenants.user_password.tooltip = Contraseña para autenticar al usuario que gestionará este Tenant.
 tenants.user_settings = Tenant Administrador
 tenants.validation.enter_valid_tenant = Ingrese un nombre de Tenant válido: se permiten letras, números, guiones, guiones bajos
+tenants.allowed_outbound_routes = Rutas salientes permitidas
+tenants.allowed_outbound_routes.tooltip = 
+	Rutas que se utilizarán cuando este tenant realice llamadas a través de un enlace de tenant que apunta al tenant principal.
+	Las llamadas realizadas a cualquier otro tenant que no sea el tenenat principal se enviarán a través de las definiciones de Rutas de entrada
+tenants.inbound_numbers = DIDs entrantes
+tenants.inbound_numbers.tooltip = 
+	Lista de números/patrones que pertenecen a este tenant. Las llamadas que coincidan con estos números se reenviarán automáticamente
+	a estos tenants las rutas entrantes. La configuración de estos números tiene prioridad sobre las definiciones de las rutas de entrada
+	en el tenenat principal.
+tenants.scom_devices = Dispositivos de Softphone
+tenants.scom_devices.tooltip = Le permite definir cuántos dispositivos Sonata Communicator/VitalPBX Communicator podrían activarse en este tenant.

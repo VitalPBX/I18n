@@ -48,3 +48,4 @@ system_general.featuredigittimeout.tooltip = Max time (ms) between digits for fe
 system_general.transferdigittimeout = Transfer Digit Timout
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
 system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
+system_general.featuredigittimeout = Features Digit Timeout

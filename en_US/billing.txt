@@ -1,2 +1,0 @@
-billing.app.sonata_billing = Sonata Billing
-billing.app.a2billing = A2Billing

@@ -1,1 +1,0 @@
-domotic.connection_fail = Unable to connect to unit with the following address: %s
