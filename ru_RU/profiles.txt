@@ -156,7 +156,8 @@ profiles_pjsip_rtcp_mux = RTCP Mux
 profiles_pjsip_rtcp_mux_tooltip =
 	Если эта опция включена, Asterisk попытается согласовать использование атрибута «rtcp-mux» во всех медиапотоках.
 	Это приведет к тому, что RTP и RTCP будут отправлены и приняты на том же порту. Это смещает логику демультиплексирования
-	на приложение, а не на транспортный уровень. Эта опция полезна при взаимодействии с конечными точками WebRTC, поскольку они 		позволяют использовать эту опцию.
+	на приложение, а не на транспортный уровень. Эта опция полезна при взаимодействии с конечными точками WebRTC, поскольку они
+	позволяют использовать эту опцию.
 profiles_pjsip_media_use_received_transport = Полученный медиа поток
 profiles_pjsip_media_use_received_transport_tooltip = Если установлено <b>Да</b>, res_pjsip будет использовать принятый медиа поток. Если установлено <b>Нет</b>, res_pjsip будет использовать соответствующий профиль RTP в зависимости от конфигурации.
 profiles_pjsip_media_encryption_optimistic = Оптимистичное шифрование.
@@ -191,5 +192,34 @@ profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
 profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
 profiles_pjsip_dtls_rekey = Интервал ключей DTLS
 profiles_pjsip_dtls_rekey_tooltip =
-	Интервал, на котором необходимо перезапустить сеанс TLS и повторно активировать сеанс SRTP. Если ничего не установлено или 		значение равно 0, смена ключей будет отключена
-
+	Интервал, на котором необходимо перезапустить сеанс TLS и повторно активировать сеанс SRTP. Если ничего не установлено или
+	значение равно 0, смена ключей будет отключена
+profiles_sip_none = {profiles_pjsip_none}
+profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
+profiles_sip_dtlsenable = Включено
+profiles_sip_dtlsenable_tooltip = Включить или отключить поддержку DTLS-SRTP
+profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
+profiles_sip_dtlssetup = {profiles_pjsip_dtls_setup}
+profiles_sip_dtlssetup_tooltip = {profiles_pjsip_dtls_setup_tooltip}
+profiles_sip_dtlssetup_active = {profiles_pjsip_dtls_setup_active}
+profiles_sip_dtlssetup_passive = {profiles_pjsip_dtls_setup_passive}
+profiles_sip_dtlssetup_actpass = {profiles_pjsip_dtls_setup_actpass}
+profiles_sip_dtlsverify = {profiles_pjsip_dtls_verify}
+profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
+profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
+profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
+profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
+profiles_sip_dtlsverify_certificate = {profiles_pjsip_dtls_verify_certificate}
+profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
+profiles_sip_dtlsfingerprint_tooltip = {profiles_pjsip_dtls_fingerprint_tooltip}
+profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
+profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
+profiles_sip_dtlsrekey = {profiles_pjsip_dtls_rekey}
+profiles_sip_dtlsrekey_tooltip = {profiles_pjsip_dtls_rekey_tooltip}
+profiles_sip_force_avp = Force AVP
+profiles_sip_force_avp_tooltip =
+	Когда это уместно, принудительно использовать «RTP/AVP», «RTP/AVPF», «RTP/SAVP» и «RTP/SAVPF» для медиапотоков, даже если
+	присутствует поток DTLS.
+profiles_sip_rtcp_mux = RTCP MUX
+profiles_sip_rtcp_mux_tooltip = Включить поддержку RTCP RFC 5761 мультиплексирования, которая требуется для поддержки WebRTC
