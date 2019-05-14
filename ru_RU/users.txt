@@ -38,3 +38,4 @@ users.validate.blank_password = Пароль не может быть пусты
 users.validate.profile = Профиль пользователя недействителен
 users.validate.displayname = ФИО не может быть пустым
 users.change_language = Сменить язык
+users.deleting_default = Вы не можете удалить этого пользователя, потому что он помечен как пользователь по умолчанию
