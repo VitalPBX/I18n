@@ -36,3 +36,6 @@ download = Скачать
 inherited = Унаследовано
 duplicated_number = Указанный номер уже используется.
 default = По умолчанию
+description = Описание
+accept = Принять
+confirm = Подтвердить
