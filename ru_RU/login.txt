@@ -11,3 +11,6 @@ login.validation.different_password = Пароли не совпадает
 login.reset_password_title = Установка пароля администратора
 login.reset_password_title.tooltip = Настройка пароля для входа в систему под учетной записью администратора
 login.no_db = Подождите, все еще устанавливется база данных
+login.username.required = Пожалуйста, введите имя пользователя
+login.tenant_name = Имя арендатора
+login.tenant = Арендатор
