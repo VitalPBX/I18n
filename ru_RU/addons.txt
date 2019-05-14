@@ -61,3 +61,4 @@ addons.revoke_license = Отзыв лицензию
 addons.revoke_license.confirm = Вы уверены, что хотите отозвать лицензию у дополнения "{0}"?
 addons.revoke_license.success = Лицензия была успешно отозвана
 addons.reactivate.success = Дополнение была успешно переактивировано
+app.licensing.activated_successfully = Лицензия была успешно активирована
