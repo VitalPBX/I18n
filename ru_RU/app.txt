@@ -1,4 +1,4 @@
-app.activate = Активировать систему
+app.activate = Зарегистрировать систему
 app.billing = Биллинг
 app.switchboard = Мониторинг
 app.recordings = Записи
@@ -11,7 +11,7 @@ app.activate.register.email = Ваш email. После регистрации в
 app.activate.register.password = Ваш пароль. После регистрации вы сможете использовать этот пароль для активации любой другой системы.
 app.activate.register.phone = Ваш номер телефона. Это необязательное поле.
 app.activate.register.country = Просто знать, где вы находитесь.
-app.activate.new_account = Регистрация
+app.activate.new_account = Создать аккаунт!
 app.activate.login = Войти
 app.register.successfully = Вы успешно зарегистрировали и активировали свою систему
 app.installation_activated = Вы успешно активировали свою систему
