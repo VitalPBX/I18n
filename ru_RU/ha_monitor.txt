@@ -1,6 +1,6 @@
-ha_monitor = Монитор HA
+ha_monitor = Монитор высокой доступности
 menu.ha_monitor = {ha_monitor}
-module.ha_monitor = Монитор HA
+module.ha_monitor = Монитор высокой доступности
 ha_monitor.master = Основной
 ha_monitor.slave = Резервный
 ha_monitor.started = Запущен
@@ -14,7 +14,7 @@ ha_monitor.vitalpbx = VitalPBX
 ha_monitor.firewall = Firewall
 ha_monitor.switchboard = Switchboard
 ha_monitor.bascul = Сменить роли
-ha_monitor.confirm_bascul.title = Изменить роли серверов высокой доступности (HA - High Availability)
+ha_monitor.confirm_bascul.title = Изменить роли серверов высокой доступности
 ha_monitor.confirm_bascul =
     <strong>¡ВНИМАНИЕ!</strong>, все текущие вызовы будут потеряны, и система будет находиться в недоступном состоянии в течение нескольких секунд. <br>
     <strong>Вы уверены, что хотите переключиться с {0} на {1}? </strong>
