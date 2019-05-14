@@ -37,4 +37,4 @@ dashboard.queues = Очереди
 dashboard.ivrs = Голосовые меню
 dashboard.conferences = Конференции
 dashboard.parking_lots = Парковочные слоты
-dashboard.unlimited = Неограниченный
+dashboard.unlimited = Неограниченно
