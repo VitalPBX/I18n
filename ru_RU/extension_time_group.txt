@@ -12,4 +12,4 @@ extension_time_group.schedules.wday_end = День окончания
 extension_time_group.schedules.wday_start = День начала
 extension_time_group.select_time = -- Выберите время --
 menu.my_time_group = Мой временной период
-module.extension_timegroup = Мой временной период
+module.extension_timegroup = {menu.my_time_group}
