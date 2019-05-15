@@ -32,3 +32,8 @@ trunk_group.no_description = Нет описания
 trunk_group.failover_destination = Направление при сбое
 trunk_group.failover_destination.tooltip =
 	      Дополнительное направление, включаемое в случае сбоя вызова через все внешние линии.
+trunk_group.trkpattern.cid_pattern = Шаблон CID
+trunk_group.trkpattern.cid_pattern.placeholder = Шаблон соответствия CID
+trunk_group.trkpattern.cid_pattern.tooltip =
+	Если определено, то вызовы, которые соответствуют <b>"Шаблону"</b>, должны также соответствовать <b>"Шаблону CID"</b> 
+	(Шаблону идентификатора вызывающего абонента), чтобы использовать этот маршрут. Соответствующим идентификатором вызывающего абонента будет внутренний, а не внешний CID.	
