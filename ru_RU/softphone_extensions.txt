@@ -1,6 +1,5 @@
-module.softphone_extensions = Softphone номера
+module.softphone_extensions = Softphone устройства
 menu.softphone_extensions = {module.softphone_extensions}
-softphone_extensions.no_license =
-  Вы используете бесплатную версию дополнения Softphones Licensing Server. Активируйте дополнение, чтобы выбрать более двух номеров 
-	для {0} Softphones	
+softphone_extensions.max_reached =
+	Вам не разрешено добавлять более {0} устройств
 softphone_extensions.general = {ombutel.general}
