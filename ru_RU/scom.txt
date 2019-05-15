@@ -49,9 +49,5 @@ scom.pp.url = URL профиля паузы
 scom.pp.url.tooltip = URL-адрес для получения настроек профиля паузы
 scom.sp.url = URL профиля функц. клавиши
 scom.sp.url.tooltip = URL-адрес для получения настроек профиля функциональной клавиши
-module.scom_ext_privileges = Внутренние номера
 menu.scom_ext_privileges = {module.scom_ext_privileges}
 scom_ext_privileges.general = Общие
-scom.no_license =
-	Вы используете бесплатную версию дополнения Sonata Communicator. Активируйте дополнение, чтобы выбрать более двух номеров 
-	для Sonata Communicator Softphone PRO
