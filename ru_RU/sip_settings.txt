@@ -129,7 +129,7 @@ sip_settings.value = Значение
 sip_settings.video_settings = Настройки видео
 sip_settings.video_support = Поддержка видео
 sip_settings.video_support.tooltip = Вкл/выкл поддержку видеозвонков.
-sip_settings.websocket_enabled = Веб-сокет включен
+sip_settings.websocket_enabled = Включить веб-сокет
 sip_settings.websocket_enabled.tooltip = 
   Установите <b>«Нет»</b>, чтобы каналы SIP не слушали веб-сокеты. Это необходимо при использовании веб-сокетов SIP и PJSIP 
   в одной системе.	
