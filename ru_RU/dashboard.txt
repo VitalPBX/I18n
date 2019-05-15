@@ -49,3 +49,4 @@ dashboard.kernel = Ядро
 dashboard.asterisk_version = Asterisk
 dashboard.last_boot = Последняя загрузка
 dashboard.virtualization = Виртуализация
+dashboard.softphone_devices = Устройства Softphone
