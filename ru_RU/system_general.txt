@@ -43,3 +43,9 @@ system_general.dnd.tooltip =
 system_general.blacklisted = В черном списке
 system_general.blacklisted.tooltip =
 	Позволяет установить сообщение, которое будет воспроизводиться вызывающим абонентам, которые занесены в черный список
+system_general.transferdigittimeout = Таймаут перевода вызова
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Количество секунд ожидания между набором цифр при переводе вызова (по умолчанию 3 секунды)
+system_general.featuredigittimeout = Таймаут сервисных кодов
+system_general.featuredigittimeout.tooltip = Максимальное время (мс) между набором цифр для сервисных кодов (по умолчанию 1000 мс)
+system_general.featuredigittimeout.placeholder = Значение в миллисекундах
