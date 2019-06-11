@@ -166,3 +166,5 @@ queues.no_agents = Для этой очереди не назначено ни �
 queues.join_announcement = Уведомление для абонента
 queues.join_announcement.tooltip = Сообщение вызывающему абоненту, как только он достигнет этой очереди
 queues.max_reached = You have reached the maximum number of queues allowed
+queues.answered_elsewhere = Mark Cancelled Calls as Answered
+queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.

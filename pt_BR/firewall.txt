@@ -35,3 +35,5 @@ firewall.whitelist.host = Hospedeiro
 menu.firewall = Firewall
 module.firewall = Firewall
 
+firewall.block_icmp = Block ICMP Requests
+firewall.block_icmp.tooltip = If enabled, it will ignore all ping requests

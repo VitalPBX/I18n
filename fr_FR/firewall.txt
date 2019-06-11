@@ -34,3 +34,5 @@ firewall.whitelist.description = Description
 firewall.whitelist.host = Hôte
 menu.firewall = Pare feu
 module.firewall = Pare feu
+firewall.block_icmp = Block ICMP Requests
+firewall.block_icmp.tooltip = If enabled, it will ignore all ping requests

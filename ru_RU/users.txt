@@ -44,3 +44,6 @@ users.email.duplicate = The provided e-mail address is already in use
 users.email.duplicated = The provided email is already taken
 users.email.tooltip = User email address to use for login
 users.username.duplicated = The provided username is already taken
+users.tenants = Tenants
+users.tenants.tooltip = It allows you to define to which tenants this user will have access
+users.validations.no_tenants = No tenants has been assigned to this user. Please assign at least one tenant.

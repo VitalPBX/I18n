@@ -47,3 +47,6 @@ users.email.duplicate = La dirección de correo electrónico proporcionada ya es
 users.email.duplicated = El correo electrónico proporcionado ya está tomado
 users.email.tooltip = Dirección de correo electrónico del usuario para usar para iniciar sesión
 users.username.duplicated = El nombre de usuario proporcionado ya está tomado
+users.tenants = Tenants
+users.tenants.tooltip = Le permite definir a qué Tenants tendrá acceso este usuario
+users.validations.no_tenants = No se han asignado Tenants a este usuario. Por favor, asigne al menos un Tenant.

@@ -169,3 +169,5 @@ queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.no_agents = No agents assigned to this queue. Please add at least one agent
 queues.max_reached = You have reached the maximum number of queues allowed
+queues.answered_elsewhere = Mark Cancelled Calls as Answered
+queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.

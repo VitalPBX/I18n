@@ -34,3 +34,5 @@ firewall.whitelist.description = 描述
 firewall.whitelist.host = 主机名
 menu.firewall = 防火墙
 module.firewall = 防火墙
+firewall.block_icmp = Block ICMP Requests
+firewall.block_icmp.tooltip = If enabled, it will ignore all ping requests

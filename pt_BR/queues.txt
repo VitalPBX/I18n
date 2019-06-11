@@ -166,3 +166,5 @@ queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.max_reached = Você atinguiu o número máximo de filas permitido
 queues.no_agents = Não há agentes associados a esta fila. Por favor, adicione pelo menos um agente
+queues.answered_elsewhere = Mark Cancelled Calls as Answered
+queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.
