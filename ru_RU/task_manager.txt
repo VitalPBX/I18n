@@ -14,8 +14,8 @@ task_manager.validations.no_description = Нет описания
 task_manager.validations.duplicated_description = Указанное описание уже используется другой задачей
 task_manager.validations.duplicated_script = Указанный скрипт уже используется другой задачей
 task_manager.validations.no_script = Не выбран скрипт для этого задачи
-task_manager.enabled = Enabled
-task_manager.enabled.tooltip = Allows you to enable/disable this task
-task_manager.silent_mode = Silent Mode
-task_manager.silent_mode.tooltip = 
-	If enabled, any output from the selected script will be suppressed, thus avoiding to get emails each time that the cron is run.
+task_manager.enabled = Включено
+task_manager.enabled.tooltip = Позволяет включить/отключить эту задачу
+task_manager.silent_mode = Бесшумный режим
+task_manager.silent_mode.tooltip =
+	Если этот параметр включен, любой вывод результата выбранного скрипта будет отключен, что позволит избежать получения электронных писем при каждом запуске скрита по расписанию.
