@@ -84,5 +84,5 @@ menu.import_extensions = <span style="margin-left: -5px;">Импорт номе�
 module.import_extensions = Импорт номеров
 import_extensions.any_did = Любой DID
 import_extensions.description.cid_number = CID номер/шаблон для маршрутизации входящих вызовов.
-import_extensions.description.emergency_cid_name = Emergency Caller ID name
-import_extensions.description.emergency_cid_number = Emergency Caller ID number
+import_extensions.description.emergency_cid_name = Название экстренной службы
+import_extensions.description.emergency_cid_number = Экстренный номер
