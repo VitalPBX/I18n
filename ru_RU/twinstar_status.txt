@@ -1,4 +1,4 @@
-twinstar_status.astribanks = Astribanks
+﻿twinstar_status.astribanks = Astribanks
 twinstar_status.astribanks.tooltip = Количество устройств Astribank, подключенных к серверу.
 twinstar_status.connected = Подключено
 twinstar_status.connection = Подключение

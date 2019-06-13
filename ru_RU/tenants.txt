@@ -1,4 +1,4 @@
-menu.tenants = {module.tenants}
+﻿menu.tenants = {module.tenants}
 module.tenants = Tenants
 tenants.allow_recordings = Allow Recordings
 tenants.allow_recordings.tooltip = It allows you to define if this tenant will be able to record or not calls

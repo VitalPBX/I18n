@@ -1,4 +1,4 @@
-file = Файл
+﻿file = Файл
 function = Функция
 exception = <b>Исключение</b>: {0} в файле {1} в строке {2}
 an_exception_occurred = Произошло исключение

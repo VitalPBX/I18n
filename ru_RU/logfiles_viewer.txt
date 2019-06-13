@@ -1,4 +1,4 @@
-logfiles_viewer.error = Ошибка
+﻿logfiles_viewer.error = Ошибка
 logfiles_viewer.general = Общие
 logfiles_viewer.invalid_request = Неверный запрос
 logfiles_viewer.lines = Строки
@@ -6,7 +6,6 @@ logfiles_viewer.lines.tooltip = Количество отображаемых с
 logfiles_viewer.logfile = Журнал
 logfiles_viewer.logfile.tooltip = Выберите файл журнала для просмотра
 logfiles_viewer.no_file_selected = Файл не выбран
-logfiles_viewer.read_logfile = Прочитать журнал
 logfiles_viewer.select_logfile = --- Выберите файл журнала ---
 logfiles_viewer.invalid_filename = Запрошенный файл журнала не найден
 menu.log_file_viewer = Просмотр журнала

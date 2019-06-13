@@ -1,4 +1,4 @@
-task_manager = Диспетчер задач
+﻿task_manager = Диспетчер задач
 menu.task_manager = {task_manager}
 module.task_manager = {task_manager}
 task_manager.general = {ombutel.general}

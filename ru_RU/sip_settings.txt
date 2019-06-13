@@ -1,4 +1,4 @@
-menu.sip_settings = Настройки SIP
+﻿menu.sip_settings = Настройки SIP
 module.sip_settings = Настройки SIP
 sip_settings.accept_outofcall_message = Разрешить сообщения
 sip_settings.accept_outofcall_message.tooltip = Отключите этот параметр, чтобы отклонить все сообщения извне. По умолчанию эта опция включена. Если эта функция включена, то сообщения направляются в план набора (dialplan).

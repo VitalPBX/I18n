@@ -1,4 +1,4 @@
-ars = Выбор маршрутов
+﻿ars = Выбор маршрутов
 ars.all_outbound_routes = -- Все исходящие маршруты --
 ars.description = Описание
 ars.description.tooltip = Краткое описание для идентификации этого маршрута

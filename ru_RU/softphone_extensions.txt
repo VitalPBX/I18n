@@ -1,4 +1,4 @@
-menu.softphone_extensions = {module.softphone_extensions}
+﻿menu.softphone_extensions = {module.softphone_extensions}
 module.softphone_extensions = Softphone Extensions
 softphone_extensions.general = {ombutel.general}
 softphone_extensions.no_license = 

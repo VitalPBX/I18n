@@ -1,4 +1,4 @@
-ha_monitor = HA Monitor
+﻿ha_monitor = HA Monitor
 ha_monitor.asterisk = Asterisk
 ha_monitor.bascul = Bascul
 ha_monitor.confirm_bascul = 

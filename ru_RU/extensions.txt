@@ -1,4 +1,4 @@
-extensions = Внутренние номера
+﻿extensions = Внутренние номера
 extensions.accountcode = Код аккаунта
 extensions.accountcode.invalid = Пожалуйста, введите правильный Код аккаунта
 extensions.accountcode.tooltip = Значение этого параметра, если указано, используется для заполнения поля «Код аккаунта» в Детализации звонков (CDR).

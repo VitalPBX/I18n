@@ -1,4 +1,4 @@
-menu.parking = Парковка вызова
+﻿menu.parking = Парковка вызова
 module.parking = Парковка вызова
 parking = Парковка вызова
 parking.both = Всем
