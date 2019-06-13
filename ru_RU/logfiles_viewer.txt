@@ -10,8 +10,8 @@ logfiles_viewer.select_logfile = --- Выберите файл журнала --
 logfiles_viewer.invalid_filename = Запрошенный файл журнала не найден
 menu.log_file_viewer = Просмотр журнала
 module.logfiles_viewer = Просмотр журнала
-logfiles_viewer.filter = Filter
-logfiles_viewer.filter.tooltip = 
-	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
-	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
-logfiles_viewer.refresh = Refresh
+logfiles_viewer.filter = Фильтр
+logfiles_viewer.filter.tooltip =
+  Позволяет легко фильтровать содержимое файлов журнала в соответствии с введенными строками или словами. Например, если вы хотите
+  отфильтровать журналы Asterisk по ошибкам, вы можете ввести «ERRORS», и будут отображены только сообщения об ошибках.	
+logfiles_viewer.refresh = Обновить
