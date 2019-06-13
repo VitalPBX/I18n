@@ -1,43 +1,43 @@
-maintenance = Maintenance
+﻿maintenance = Обслуживание
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
 maintenance.general = {ombutel.general}
-maintenance.max_cdr = Max Number of CDR
+maintenance.max_cdr = Макс. кол-во записей детализации
 maintenance.max_cdr.tooltip =
-	Allows you to define the maximum number of CDR that should be retained. The oldest CDR items will be deleted when
-	the threshold is reached.
-maintenance.recordings_preservation = Clear Oldest Recordings
+	Позволяет вам определить максимальное количество записей детализации, которые должны быть сохранены. 
+	Самые старые записи детализации будут удалены при достижении порога.
+maintenance.recordings_preservation = Удалять старые записи
 maintenance.recordings_preservation.tooltip =
-	Allows you to defined the maximum number of days that recordings should be retained. The recordings with more age
-	than the days defined here will be deleted
-maintenance.recordings_min_duration = Clear Short Recordings
+	Позволяет вам определить максимальное количество дней, в течение которых должны храниться записи звонков. 
+	Все файлы записей старше указанного кол-ва дней, будут удалены
+maintenance.recordings_min_duration = Удалять короткие записи
 maintenance.recordings_min_duration.tooltip =
-	Allows you to define the minimum duration in seconds for a recording to be considered as too short,  and delete it
-maintenance.covert_recordings = Convert Recordings
-maintenance.covert_recordings.tooltip = Enabled / Disable call recordings conversion to MP3
-maintenance.schedule = Schedule
+	Позволяет определить минимальную продолжительность в секундах для записей. Все файлы записей короче заданной продолжительности будут удалены	
+maintenance.covert_recordings = Конвертировать записи
+maintenance.covert_recordings.tooltip = Включить / отключить преобразование записей звонков в MP3
+maintenance.schedule = Расписание
 maintenance.schedule.tooltip =
-	It allows you to define the schedule in which the maintenance of the PBX will be executed (Conversion of Recordings,
-	Cleaning of Recordings and CDR, etc). If no schedule is selected, all the maintenance options will be disabled
-maintenance.execute = Execute Now
-maintenance.cdr_preservation = Clear Oldest CDR
-maintenance.cdr_preservation.tooltip = 
-	Allows you to defined the maximum number of days that CDR should be retained. The CDR with more age
-    than the days defined here will be deleted
-maintenance.confirm_mcp = 
-	Are you sure that you want to execute the maintenance now? <br> This may take several minutes, especially if you have
-	many recordings to convert
-maintenance.confirm_mcp.title = Confirm Maintenance
-maintenance.convert_recordings = Convert Recordings
-maintenance.convert_recordings.tooltip = Enabled / Disable call recordings conversion to MP3
-maintenance.enabled = Enabled
-maintenance.enabled.tooltip = 
-	It allows you to enable or disable the PBX maintenance.
-maintenance.executed = The maintenance is being executed in background
-maintenance.mcp.invalid_tenant = The maintenance cannot be executed due you have provided invalid info
-maintenance.no_license_notification = 
-	The following features: "Clear Oldest Recordings" & "Convert Recordings", will not work until you activate this add-on
-	with a valid license.
-maintenance.tenant = Tenant
-maintenance.tenant.tooltip = Allows you to select the tenant on which the maintenance configurations will be applied
-maintenance.validation.enabled_without_cron = The maintenance has been enabled but no cron profile has been selected
+	Позволяет определить график, во время которого будет выполняться обслуживание АТС (конвертирование записей,
+	удаление записей и детализии и т.д.). Если расписание не выбрано, все параметры обслуживания будут отключены	
+maintenance.execute = Выполнить сейчас
+maintenance.cdr_preservation = Удалять старую детализацию
+maintenance.cdr_preservation.tooltip =
+	Позволяет вам определить максимальное количество дней, в течение которых должна храниться детализация звонков. 
+	Информация, превышающая указанное кол-во дней, будет удалена из детализации	
+maintenance.confirm_mcp =
+	Вы уверены, что хотите выполнить обслуживание сейчас? <br> Это может занять несколько минут, особенно если у вас есть
+	много записей для конвертации
+maintenance.confirm_mcp.title = Подтвердите обслуживание
+maintenance.convert_recordings = Конвертировать записи
+maintenance.convert_recordings.tooltip = Включить / отключить преобразование записей звонков в MP3
+maintenance.enabled = Включено
+maintenance.enabled.tooltip =
+	Позволяет включать или отключать обслуживание АТС.
+maintenance.executed = Обслуживание выполняется в фоновом режиме
+maintenance.mcp.invalid_tenant = Обслуживание не может быть выполнено, потому что вы предоставили неверную информацию
+maintenance.no_license_notification =
+	Следующие функции: «Удалять старые записи» и «Конвертировать записи» не будут работать, пока вы не активируете лицензию для
+	этого дополнения
+maintenance.tenant = Арендатор
+maintenance.tenant.tooltip = Позволяет выбрать арендатора, к которому будут применяться конфигурации обслуживания
+maintenance.validation.enabled_without_cron = Обслуживание было включено, но график расписания не был выбран

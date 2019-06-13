@@ -1,4 +1,4 @@
-accountcode = Коды клиентов
+﻿accountcode = Коды клиентов
 accountcode.code = Код клиента
 accountcode.code.invalid = Код клиента недействителен. Используйте только цифры и символ "*" (звездочка).
 accountcode.code.tooltip = Цифровой код клиента.
@@ -11,4 +11,4 @@ accountcode.not_found = Код клиента не найден.
 accountcode.search = Поиск
 module.accountcode = Код клиента
 menu.account_codes = <span style="margin-left: -5px;">Коды клиентов</span>
-accountcode.duplicated_code = The provided code is already in use
+accountcode.duplicated_code = Предоставленный код уже используется

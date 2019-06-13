@@ -1,4 +1,4 @@
-ars = Выбор маршрутов
+﻿ars = Выбор маршрутов
 ars.all_outbound_routes = -- Все исходящие маршруты --
 ars.description = Описание
 ars.description.tooltip = Краткое описание для идентификации этого маршрута
@@ -9,5 +9,5 @@ ars.outbound_route_id = Исходящий маршрут
 ars.time_group_id = Время использования
 menu.route_selections = <span style="margin-left: -5px;">Выбор маршрута</span>
 module.ars = Выбор маршрута
-ars.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>
+ars.used_by_cos = Этот элемент невозможно удалить, поскольку он используется одним или несколькими <b>Классами обслуживания</b>
 ars.none = {none}

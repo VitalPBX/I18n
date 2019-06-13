@@ -1,4 +1,4 @@
-login.signing_in = Войти
+﻿login.signing_in = Войти
 login.panel = Панель
 login.pbx.desc = Управление АТС
 login.billing.desc = Программное обеспечение для управления расходами звонков
@@ -11,6 +11,6 @@ login.validation.different_password = Пароли не совпадает
 login.reset_password_title = Установка пароля администратора
 login.reset_password_title.tooltip = Настройка пароля для входа в систему под учетной записью администратора
 login.no_db = Подождите, все еще устанавливется база данных
-login.tenant = Tenant
-login.tenant_name = Tenant Name
-login.username.required = Please enter your user name
+login.tenant = Арендатор
+login.tenant_name = Имя арендатора
+login.username.required = Пожалуйста, введите имя пользователя

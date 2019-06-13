@@ -16,13 +16,15 @@ users_profiles.priv.view = Посмотреть
 users_profiles.superadmin = Предоставить привилегии
 users_profiles.superadmin.tooltip = Разрешить доступ ко всем модулям.
 users_profiles.deleting_default_user_profile = Невозможно удалить профиль пользователя по умолчанию
-users_profiles.change_language = Изменять язык
-users_profiles.change_language.tooltip = Определяет, сможет ли пользователь с этим профилем изменить язык графического интерфейса. 
-users_profiles.get_updates = Получать обновления
-users_profiles.get_updates.tooltip = Определяет, сможет ли пользователь с этим профилем обновить <b>{0}</b> из графического интерфейса.
 users_profiles.permissions = Разрешения
+users_profiles.change_language = Изменять язык
+users_profiles.change_language.tooltip = 
+        Определяет, сможет ли пользователь с этим профилем изменить язык графического интерфейса. 
+users_profiles.get_updates = Получать обновления
+users_profiles.get_updates.tooltip = 
+        Определяет, сможет ли пользователь с этим профилем обновить <b>{0}</b> из графического интерфейса.
 users_profiles.update_profile = Обновлять профиль
 users_profiles.update_profile.tooltip =	Определяет, сможет ли пользователь с этим профилем обновлять настройки своего профиля.
-users_profiles.multiple_users = multiple users
-users_profiles.role_is_being_used = This role is being used by {0}
-users_profiles.single_user = <b>{0}</b> user
+users_profiles.multiple_users = Несколько пользователей
+users_profiles.role_is_being_used =  Эта роль используется {0}
+users_profiles.single_user = <b>{0}</b> пользователь
