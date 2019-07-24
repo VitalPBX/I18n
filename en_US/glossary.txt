@@ -42,3 +42,4 @@ confirm = Confirm
 restriction_msg = You're not allowed to get, edit or delete the requested info
 company = Company
 license = License
+language = Language
