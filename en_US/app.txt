@@ -45,3 +45,4 @@ app.plan.carrier = Carrier
 app.plan.community = Community
 app.license_info = License Info
 app.revoke_license.confirm = Are you sure you want to revoke {0} license from this server?
+app.activate.register.language = The language that you speak
