@@ -46,3 +46,5 @@ app.plan.community = Community
 app.license_info = License Info
 app.revoke_license.confirm = Are you sure you want to revoke {0} license from this server?
 app.activate.register.language = The language that you speak
+menu.call_center_reports = Call Center Reports
+app.license.max_items = You have reached the maximum number of free items allowed on this module
