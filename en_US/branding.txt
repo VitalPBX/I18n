@@ -17,3 +17,5 @@ branding.login_footer.tooltip = It allows you to customize the footer content in
 branding.desktop_logo = Desktop Logo
 branding.mobile_logo = Mobile Logo
 branding.instagram_page = Instagram Page
+branding.app_name = APP Name
+branding.app_name.tooltip = It allows you to modify the main tenant name
