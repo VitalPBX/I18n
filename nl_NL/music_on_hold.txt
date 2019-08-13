@@ -29,3 +29,6 @@ music_on_hold.order.shuffle = Willekeurig
 music_on_hold.order.shuffle.tooltip = Audiobestanden in willekeurige volgorde afspelen
 music_on_hold.order.tooltip = Afspeelvolgorde van de audiobestanden
 music_on_hold.sound_player = Geluidsspeler
+music_on_hold.default.tooltip = 
+	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
+	checked as default

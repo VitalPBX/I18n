@@ -49,3 +49,7 @@ cid_lookup.query.tooltip =
 cid_lookup.validation.no_database = Нет имени базы данных
 cid_lookup.validation.no_query = Запрос не введен
 cid_lookup.validation.no_mysql_username = Нет имени пользователя
+cid_lookup.phonebook = PhoneBook {0}
+cid_lookup.phonebook.tooltip = PhoneBook to use as CID Lookup source. Only the external phone books are listed here
+cid_lookup.source.option.phonebook = PhoneBook
+cid_lookup.validation.no_phonebook = You have not selected any phonebook

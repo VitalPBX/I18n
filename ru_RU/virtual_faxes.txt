@@ -95,4 +95,4 @@ module.fax_devices = Факсы
 module.fax_general_settings = Глобальные настройки факса
 module.fax_sending = Отправка факса
 module.fax_viewer = Просмотрщик факсов
-module.virtual_faxes = Виртуальные факсы
+module.virtual_faxes = Виртуальные факсыfax.viewer.faxes = Faxes List

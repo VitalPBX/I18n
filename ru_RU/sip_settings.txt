@@ -148,4 +148,4 @@ sip_settings.sip_domains.info =
 sip_settings.websocket_enabled = Включить веб-сокет
 sip_settings.websocket_enabled.tooltip = 
   Установите <b>«Нет»</b>, чтобы каналы SIP не слушали веб-сокеты. Это необходимо при использовании веб-сокетов SIP и PJSIP 
-  в одной системе.
+  в одной системе.menu.sip_settings = SIP Settings

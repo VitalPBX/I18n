@@ -77,4 +77,4 @@ tenants.inbound_numbers.tooltip =
 	перенаправляться на эти входящие маршруты арендатора. Конфигурация этих номеров имеет приоритет над правилами входящих
 	маршрутов основного арендатора.	
 tenants.scom_devices = Устройства Softphone
-tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.
+tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.module.tenants = Tenants

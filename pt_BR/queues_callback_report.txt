@@ -1,0 +1,22 @@
+menu.queues_callback_report = {queues_callback_report}
+module.queues_callback_report = {queues_callback_report}
+queues_callback_report = Queues CallBack Report
+queues_callback_report.actions = {actions}
+queues_callback_report.callback_name = CallBack Requester Name
+queues_callback_report.callback_number = CallBack Number
+queues_callback_report.date = Date & Time
+queues_callback_report.queue = CallBack Queue
+queues_callback_report.queue_callback = Queue CallBack
+queues_callback_report.queue_callback.tooltip = 
+	It allows you to filter the report results by a specific queue callback item. By default, the report shows the
+	results of all the configured callback items
+queues_callback_report.report = {report}
+queues_callback_report.scheduled_queue_callbacks = Scheduled Queue Callbacks
+queues_callback_report.sqc.not_found = Cannot found the requested callback
+queues_callback_report.status = Status
+queues_callback_report.status.option.failed = Failed
+queues_callback_report.status.option.in_progress = In Progress
+queues_callback_report.status.option.queued = Queued
+queues_callback_report.status.option.successful = Successful
+queues_callback_report.status.tooltip = It allows you to filter the report results by queue callback status
+queues_callback_report.tries = Tries

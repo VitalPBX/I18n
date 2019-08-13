@@ -42,3 +42,35 @@ cid_management.v.skip_on_cid_number = Campo "Strip Off (Skip)" en la configuraci
 menu.cid_management = Modificadores CID
 module.cid_management = Modificadores CID
 cid_management.general = {ombutel.general}
+cid_management.api_settings = Configuración de Solicitud HTTP/HTTPS
+cid_management.auth_password = Contraseña de Autenticación
+cid_management.auth_password.tooltip = La contraseña para autenticar la solicitud HTTP/HTTPS
+cid_management.auth_user = Usuario de Autenticación
+cid_management.auth_user.tooltip = El nombre de usuario para autenticar la solicitud HTTP/HTTPS
+cid_management.database = Base de Datos {0}
+cid_management.database.tooltip = Nombre de la Base de Datos
+cid_management.mysql_host = Host {0}
+cid_management.mysql_host.tooltip = Nombre de Host o dirección IP donde está alojada la base de datos
+cid_management.mysql_password = Contraseña
+cid_management.mysql_password.tooltip = La contraseña para autenticar las consultas de la base de datos.
+cid_management.mysql_settings = Configuraciones MySQL
+cid_management.mysql_username = Nombre de Usuario {0}
+cid_management.mysql_username.tooltip = El nombre de usuario para autenticar las consultas de la base de datos.
+cid_management.query = Consulta {0}
+cid_management.query.tooltip = 
+	Consulta a ejecutar. por ejemplo: <b>seleccione cidname, cidnumber del cliente donde phone = '[CIDNUM]'</b> <br><br>
+	La variable <b>[CIDNUM]</b> se reemplazará por el número de la persona que llama, y la variable <b>[CIDNAME]</b> se reemplazará por el nombre de la persona que llama. <br><br>
+	La consulta debe devolver las columnas <b>cidname</b> & <b>cidnumber</b> para realizar las modificaciones de CID, en
+	en otro caso, la información del CID no se modificará.
+cid_management.type = Fuente {0}
+cid_management.type.option.api = Solicitud HTTP/HTTPS
+cid_management.type.option.mysql = MySQL
+cid_management.type.option.static = Estático
+cid_management.type.tooltip = Le permite definir de dónde obtener la información para modificar el nombre/número de CID de la persona que llama
+cid_management.url = URL {0}
+cid_management.url.tooltip = 
+	URL que se llamará o ejecutará. Puede pasar muchos argumentos según lo necesite, el argumento especial
+	<b>[CIDNUM]</b> se reemplazará por el número de la persona que llama y el argumento <b>[CIDNAME]</b> se reemplazará por el nombre de la persona que llama.<br><br>
+	por ejemplo: <b>https://mycrm.com/cid.php?caller=[CIDNUMfont>&callername=[CIDNAME]</b> <br><br>
+	La ejecución de la URL debe devolver un resultado en formato json que contenga los atributos <b>"cidname"</b> & <b>"cidnumber"</b> para realizar la modificación CID
+cid_management.validation.no_url = No se ha proporcionado una URL válida

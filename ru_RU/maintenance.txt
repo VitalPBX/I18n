@@ -40,4 +40,4 @@ maintenance.no_license_notification =
 	этого дополнения
 maintenance.tenant = Арендатор
 maintenance.tenant.tooltip = Позволяет выбрать арендатора, к которому будут применяться конфигурации обслуживания
-maintenance.validation.enabled_without_cron = Обслуживание было включено, но график расписания не был выбран
+maintenance.validation.enabled_without_cron = Обслуживание было включено, но график расписания не был выбранmaintenance = Maintenance

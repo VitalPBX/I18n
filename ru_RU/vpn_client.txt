@@ -29,3 +29,10 @@ vpn_client.upload.success = Конфигурация успешно загруж
 vpn_client.service.invalid_action = Вы пытаетесь выполнить недопустимое действие
 vpn_client.service.successfully_enabled = OpenVPN клиент успешно включен
 vpn_client.service.successfully_disabled = OpenVPN клиент успешно отключен
+vpn_client.connection_log = Connection Log
+vpn_client.service_status = Service Status
+vpn_client.service_status.tooltip = 
+	It shows the status of the service. Don't confuse this status with the connection status, the service can be running
+	but not necessarily be connected to the server.
+vpn_client.status.running = Running
+vpn_client.status.stopped = Stopped

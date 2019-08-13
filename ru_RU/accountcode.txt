@@ -12,3 +12,4 @@ accountcode.search = Поиск
 module.accountcode = Код клиента
 menu.account_codes = <span style="margin-left: -5px;">Коды клиентов</span>
 accountcode.duplicated_code = Предоставленный код уже используется
+accountcode = Customer Codes

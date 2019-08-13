@@ -28,3 +28,10 @@ vpn_client.status.tooltip = It shows the current status of the OpenVPN Client co
 vpn_client.update_config = Update Configuration
 vpn_client.upload.success = The configuration has been uploaded successfully
 vpn_client.upload_config = Upload Configuration
+vpn_client.connection_log = Connection Log
+vpn_client.service_status = Service Status
+vpn_client.service_status.tooltip = 
+	It shows the status of the service. Don't confuse this status with the connection status, the service can be running
+	but not necessarily be connected to the server.
+vpn_client.status.running = Running
+vpn_client.status.stopped = Stopped

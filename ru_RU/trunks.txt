@@ -174,4 +174,4 @@ trunks.tenant_trunk = Арендатор
 trunks.tenant_trunk.tooltip = Позволяет вам определить, к какому арендатору будут направляться вызовы, сделанные через эту линию
 trunks.validation.no_tenant = Вы не выбрали арендатора для этой линии
 trunks.custom_headers = Пользовательские заголовки
-trunks.trkcustom.header = Заголовок
+trunks.trkcustom.header = Заголовокmenu.trunks = Trunks

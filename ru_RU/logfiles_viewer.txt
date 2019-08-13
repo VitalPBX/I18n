@@ -14,4 +14,4 @@ logfiles_viewer.filter = Фильтр
 logfiles_viewer.filter.tooltip =
   Позволяет легко фильтровать содержимое файлов журнала в соответствии с введенными строками или словами. Например, если вы хотите
   отфильтровать журналы Asterisk по ошибкам, вы можете ввести «ERRORS», и будут отображены только сообщения об ошибках.	
-logfiles_viewer.refresh = Обновить
+logfiles_viewer.refresh = Обновитьlogfiles_viewer.error = Error

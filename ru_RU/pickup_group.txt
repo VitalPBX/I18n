@@ -13,4 +13,4 @@ pickup_group.member = Участник
 pickup_group.member.tooltip = Укажите, является ли этот внутренний номер участником данной группы перехвата.
 pickup_group.no_options = Внутренний номер должен быть указан как участник группы и/или иметь право на перехват звонка.
 pickup_group.members = Участники
-pickup_group.members.empty = В эту группу не было добавлено ни одного участника.
+pickup_group.members.empty = В эту группу не было добавлено ни одного участника.menu.pickup_groups = Hunting Groups

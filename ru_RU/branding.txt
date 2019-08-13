@@ -16,4 +16,6 @@ branding.twitter_page = Страница в Twitter
 branding.youtube_channel = YouTube канал
 menu.branding = {branding}
 module.branding = {branding}
-branding.instagram_page = Страница в Instagram
+branding.instagram_page = Страница в Instagrambranding = Branding
+branding.app_name = APP Name
+branding.app_name.tooltip = It allows you to modify the main tenant name

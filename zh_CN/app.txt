@@ -45,3 +45,6 @@ app.version = {0} {1} {2}
 app.revoke_license.confirm = Are you sure you want to revoke {0} license from this server?
 app.view_license = View License
 app.with_plan = {0} {1}
+app.activate.register.language = The language that you speak
+app.license.max_items = You have reached the maximum number of free items allowed on this module
+menu.call_center_reports = Call Center Reports

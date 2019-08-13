@@ -49,3 +49,7 @@ cid_lookup.username.tooltip = Nombre de usuario para la autenticación de MySQL
 cid_lookup.validation.no_database = No se ha proporcionado ningún nombre de base de datos
 cid_lookup.validation.no_mysql_username = No se ha proporcionado ningún nombre de usuario
 cid_lookup.validation.no_query = No se ha proporcionado ninguna consulta
+cid_lookup.phonebook = PhoneBook {0}
+cid_lookup.phonebook.tooltip = Agenda para usar como fuente de búsqueda CID. Aquí solo se enumeran las guías telefónicas externas.
+cid_lookup.source.option.phonebook = Agenda
+cid_lookup.validation.no_phonebook = No ha seleccionado ninguna agenda

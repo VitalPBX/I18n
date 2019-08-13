@@ -49,4 +49,4 @@ dashboard.system_info = Системная информация
 dashboard.trunks = Линии
 dashboard.unlimited = Неограниченно
 dashboard.virtualization = Виртуализация
-dashboard.softphone_devices = Устройства Softphone
+dashboard.softphone_devices = Устройства Softphonedashboard.asterisk = Asterisk

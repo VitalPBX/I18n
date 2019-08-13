@@ -5,4 +5,4 @@ softphone_extensions.no_license =
 	Вы используете бесплатную версию сервера лицензирования Softphones. Активируйте это дополнение, чтобы получить более 
 	двух устройств для {0} Softphones
 softphone_extensions.max_reached =
-	Вам не разрешено добавлять более {0} устройств
+	Вам не разрешено добавлять более {0} устройствmenu.softphone_extensions = {module.softphone_extensions}

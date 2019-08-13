@@ -41,4 +41,15 @@ company = Компания
 confirm = Подтвердить
 description = Описание
 license = Лицензия
-restriction_msg = Вам не разрешено получать, редактировать или удалять запрашиваемую информацию
+restriction_msg = Вам не разрешено получать, редактировать или удалять запрашиваемую информациюactions = Actions
+all = All
+csv.invalid_file = You have not selected a CSV file
+default_ringtime = Default ({0})
+download_csv_format = Download CSV Format
+empty_file = You have selected an empty file
+file = File
+from_date = Start Date
+language = Language
+no_file_selected = You have not selected any file
+report = Report
+to_date = End Date

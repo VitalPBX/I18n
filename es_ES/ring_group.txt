@@ -37,3 +37,7 @@ ring_group.validation.no_extensions = No se han agregado extensiones ni números
 ring_group.validation.no_valid_number = 	
 	El número externo <b>{0}</b> contiene caracteres no válidos. Sólo números,
 	y los siguientes caracteres están permitidos: *, # y +
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip = 
+	Con esta opción habilitada, evita que los otros teléfonos graben una llamada perdida cuando la llamada ha sido contestada en un teléfono que figura 
+	en este grupo de timbrado. Esta es una configuración muy útil cuando la estrategia de timbrado se establece en "Ring All"

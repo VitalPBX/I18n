@@ -1,0 +1,22 @@
+menu.queues_callback_report = {queues_callback_report}
+module.queues_callback_report = {queues_callback_report}
+queues_callback_report = Reporte de Colas de Retorno de Llamada
+queues_callback_report.actions = {actions}
+queues_callback_report.callback_name = Nombre del Solicitante de Retorno de Llamada
+queues_callback_report.callback_number = Número de Retorno de Llamada
+queues_callback_report.date = Fecha & Hora
+queues_callback_report.queue = Cola de Retorno de Llamada
+queues_callback_report.queue_callback = Cola de Retorno de Llamada
+queues_callback_report.queue_callback.tooltip = 
+	Le permite filtrar los resultados del reporte por un elemento de retorno de llamada de cola específica.
+	Por defecto, el informe muestra los resultados de todos los elementos de retorno de llamada configurados.
+queues_callback_report.report = {report}
+queues_callback_report.scheduled_queue_callbacks = Horario de Retorno de Cola de Llamada
+queues_callback_report.sqc.not_found = No se pudo encontrar el retorno de llamada solicitada
+queues_callback_report.status = Estado
+queues_callback_report.status.option.failed = Fallida
+queues_callback_report.status.option.in_progress = En Progreso
+queues_callback_report.status.option.queued = En Cola
+queues_callback_report.status.option.successful = Exitosa
+queues_callback_report.status.tooltip = Le permite filtrar los resultados del reporte por estado de retorno de llamada de cola
+queues_callback_report.tries = Intentos

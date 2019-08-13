@@ -13,4 +13,4 @@ login.reset_password_title.tooltip = Настройка пароля для вх
 login.no_db = Подождите, все еще устанавливется база данных
 login.tenant = Арендатор
 login.tenant_name = Имя арендатора
-login.username.required = Пожалуйста, введите имя пользователя
+login.username.required = Пожалуйста, введите имя пользователяlogin.signing_in = Login

@@ -167,4 +167,9 @@ queues.join_announcement = Уведомление для абонента
 queues.join_announcement.tooltip = Сообщение вызывающему абоненту, как только он достигнет этой очереди
 queues.max_reached = Вы достигли максимально допустимого числа очередей
 queues.answered_elsewhere = Пометить отмененные вызовы как отвеченные
-queues.answered_elsewhere.tooltip = Пометить все отмененные системой вызовы как «отвеченные в другом месте». Это позволяет избежать пропущенного вызова на телефоне (если он поддерживает эту функцию), если кто-то другой из Группы вызова ответил на звонок.
+queues.answered_elsewhere.tooltip = Пометить все отмененные системой вызовы как «отвеченные в другом месте». Это позволяет избежать пропущенного вызова на телефоне (если он поддерживает эту функцию), если кто-то другой из Группы вызова ответил на звонок.menu.queues = Queues
+queues.queue_callback = Queue Callback
+queues.queue_callback.tooltip = 
+	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
+	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
+	the selected queue callback's item, also, the IVR feature gets disabled for this queue.
