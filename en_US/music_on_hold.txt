@@ -5,6 +5,9 @@ music_on_hold.actions = Actions
 music_on_hold.close = Close
 music_on_hold.confirm_delete = Are you sure that you want delete this group?
 music_on_hold.default = Default
+music_on_hold.default.tooltip =
+	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
+	checked as default
 music_on_hold.delete = Delete
 music_on_hold.delete.tooltip = Delete this file permanently
 music_on_hold.download = Download
