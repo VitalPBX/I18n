@@ -1,4 +1,4 @@
-﻿menu.system_general = Общие настройки
+menu.system_general = Общие настройки
 module.system_general = Общие настройки
 system_general.ast_agi_dir = Asterisk AGI каталог
 system_general.ast_dir = Asterisk каталог
