@@ -1,4 +1,4 @@
-﻿app.activate = Зарегистрировать систему
+app.activate = Зарегистрировать систему
 app.billing = Биллинг
 app.switchboard = Мониторинг
 app.recordings = Записи
