@@ -1,4 +1,4 @@
-﻿logfiles_viewer.error = Ошибка
+logfiles_viewer.error = Ошибка
 logfiles_viewer.general = Общие
 logfiles_viewer.invalid_request = Неверный запрос
 logfiles_viewer.lines = Строки
