@@ -1,4 +1,4 @@
-﻿accountcode = Коды клиентов
+accountcode = Коды клиентов
 accountcode.code = Код клиента
 accountcode.code.invalid = Код клиента недействителен. Используйте только цифры и символ "*" (звездочка).
 accountcode.code.tooltip = Цифровой код клиента.
