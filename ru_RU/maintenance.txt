@@ -1,4 +1,4 @@
-﻿maintenance = Обслуживание
+maintenance = Обслуживание
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
 maintenance.general = {ombutel.general}
