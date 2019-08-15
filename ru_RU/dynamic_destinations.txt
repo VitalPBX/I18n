@@ -1,21 +1,21 @@
-menu.dynamic_destinations = Dynamic Destinations
+menu.dynamic_destinations = Динамические направления
 dynamic_destinations = {menu.dynamic_destinations}
 module.dynamic_destinations = {menu.dynamic_destinations}
 dynamic_destinations.general = {ombutel.general}
-dynamic_destinations.condition = Response
-dynamic_destinations.destination = Destination
-dynamic_destinations.enabled = Enabled
-dynamic_destinations.description = Description {0}
-dynamic_destinations.description.tooltip = Brief description for this item
-dynamic_destinations.host = Host {0}
-dynamic_destinations.host.tooltip = It allows you to define the host or IP address where is located the script
-dynamic_destinations.path = Path {0}
-dynamic_destinations.path.tooltip = Scripting name to be executed
-dynamic_destinations.query_string = Query String
+dynamic_destinations.condition = Ответ
+dynamic_destinations.destination = Направление
+dynamic_destinations.enabled = Включено
+dynamic_destinations.description = Описание {0}
+dynamic_destinations.description.tooltip = Краткое описание динамического направления
+dynamic_destinations.host = Хост {0}
+dynamic_destinations.host.tooltip = Позволяет определить хост или IP-адрес, где находится скрипт
+dynamic_destinations.path = Путь {0}
+dynamic_destinations.path.tooltip = Полный путь до скрипта
+dynamic_destinations.query_string = Строка запроса
 dynamic_destinations.query_string.tooltip =
-	Series of parameters to be sent as part of the script.
-	The special argument value <b>[CIDNUM]</b> it will be replaced by caller cid number.
-	<br><br> Example: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+	Параметры для отправки как часть скрипта.
+	Значение специального аргумента <b>[CIDNUM]</b> будет заменено номером вызывающего абонента.
+	<br><br> Например: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>	
 dynamic_destinations.port = {cid_lookup.port}
 dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
 dynamic_destinations.auth_user = {cid_lookup.user}
@@ -24,27 +24,27 @@ dynamic_destinations.auth_password = {cid_lookup.password}
 dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
 dynamic_destinations.secure = {cid_lookup.secure}
 dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
-dynamic_destinations.default_destination = Default Destination {0}
-dynamic_destinations.default_destination.tooltip = Destination to be executed in case of receiving an undefined response
-dynamic_destinations.destinations = Destinations
-dynamic_destinations.destinations.title = Destinations to be executed depending of response received after script execution
-dynamic_destinations.mod_dest = Default Destination Module
-dynamic_destinations.conditions.empty = No valid destinations defined
-dynamic_destinations.type  = Source Type
-dynamic_destinations.type.tooltip = Type of source to use
+dynamic_destinations.default_destination = Направление по умолчанию {0}
+dynamic_destinations.default_destination.tooltip = Направление, которое будет выполнено в случае получения неопределенного ответа
+dynamic_destinations.destinations = Направления
+dynamic_destinations.destinations.title = Направления, которые будут выполняться в зависимости от ответа, полученного после выполнения скрипта
+dynamic_destinations.mod_dest = Модуль я по умолчанию
+dynamic_destinations.conditions.empty = Направления не выбраны
+dynamic_destinations.type  = Тип источника
+dynamic_destinations.type.tooltip = Тип источника для использования направления
 dynamic_destinations.type.option.api = URL
 dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
-dynamic_destinations.database = Database {0}
+dynamic_destinations.database = База данных {0}
 dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
-dynamic_destinations.query = Query {0}
+dynamic_destinations.query = Запрос {0}
 dynamic_destinations.query.tooltip =
-	Query to execute. The special token <b>[CIDNUM]</b> will be replaced with the callers number. e.g.:
+	Выполнениемый запрос. Специальный токен <b>[CIDNUM]</b> будет заменен номером вызывающего абонента. Например:
 	<b> SELECT 'VIP_CUSTOMER' as `response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
-dynamic_destinations.mysql_password = Password
+dynamic_destinations.mysql_password = Пароль
 dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
-dynamic_destinations.mysql_host = Host {0}
+dynamic_destinations.mysql_host = Хост {0}
 dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
-dynamic_destinations.mysql_username = Username {0}
+dynamic_destinations.mysql_username = Имя пользователя {0}
 dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
 dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
 dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
