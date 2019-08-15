@@ -1,4 +1,4 @@
-﻿menu.queues = Очереди
+menu.queues = Очереди
 module.queues = Очереди
 queues = Очереди
 queues.announcement_id = Уведомление для оператора
