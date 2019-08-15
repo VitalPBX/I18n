@@ -1,4 +1,4 @@
-﻿menu.addons_market = Дополнения
+menu.addons_market = Дополнения
 menu.addons = Дополнения
 module.addons = Дополнения
 addons.check_online = Проверить онлайн
