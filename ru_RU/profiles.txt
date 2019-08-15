@@ -1,4 +1,4 @@
-﻿menu.profiles = Профили
+menu.profiles = Профили
 module.profiles = Профили
 profiles = Профили
 profiles_advanced = Продвинутые
