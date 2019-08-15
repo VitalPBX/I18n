@@ -1,4 +1,4 @@
-﻿menu.outbound_routes = Исходящие маршруты 
+menu.outbound_routes = Исходящие маршруты 
 module.trunk_group = Исходящие маршруты
 trunk_group = Исходящие маршруты
 trunk_group.description = Описание
