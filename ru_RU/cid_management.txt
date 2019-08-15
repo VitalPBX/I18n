@@ -42,3 +42,35 @@ cid_management.cid_name = Исходное имя CID
 cid_management.cid_name_result = Измененное имя CID
 cid_management.cid_name_result.title = Показывает результат изменения имени после применения настроек выше.
 cid_management.general = {ombutel.general}
+cid_management.type = Источник {0}
+cid_management.type.option.static = Статический
+cid_management.type.option.mysql = MySQL
+cid_management.type.option.api = Запрос HTTP / HTTPS
+cid_management.type.tooltip = озволяет определить, откуда взять информацию, чтобы изменить CID Имя/Номер звонящего
+cid_management.mysql_settings = Настройки MySQL
+cid_management.database = База данных {0}
+cid_management.database.tooltip = Название базы данных
+cid_management.query = Запрос {0}
+cid_management.query.tooltip =
+	Пример запроса: <b>select cidname, cidnumber from customer where phone = '[CIDNUM]'</b> <br><br>
+	Переменная <b>[CIDNUM]</b> будет заменена номером вызывающего абонента, а переменная <b>[CIDNAME]</b> будет заменена именем вызывающего абонента. <br><br>
+	Запрос должен вернуть столбцы <b>cidname</b> и <b>cidnumber</b> для выполнения изменений CID, 
+  в противном случае информация CID не будет изменена.
+cid_management.mysql_host = Хост {0}
+cid_management.mysql_host.tooltip = Имя хоста или IP-адрес, на котором размещена база данных
+cid_management.mysql_username = Имя пользователя {0}
+cid_management.mysql_username.tooltip = Имя пользователя для авторизации запросов в базе данных
+cid_management.mysql_password = Пароль
+cid_management.mysql_password.tooltip = Пароль для авторизации запросов в базе данных
+cid_management.api_settings = Настройки запросов HTTP/HTTPS
+cid_management.url = URL {0}
+cid_management.url.tooltip =
+	URL, который будет вызван или выполнен. Вы можете передать столько аргументов, сколько вам нужно. 
+  Специальный аргумент <b>[CIDNUM]</b> будет заменен номером вызывающего абонента, а аргумент <b>[CIDNAME]</b> будет заменен именем вызывающего абонента. <br><br>
+  Например: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
+  Выполнение URL-адреса должно возвращать результат в формате json, содержащий атрибуты <b>"cidname"</b> и <b>"cidnumber"</b>, чтобы выполнить модификацию CID  
+cid_management.auth_user = Имя пользователя 
+cid_management.auth_user.tooltip = Имя пользователя для авторизации HTTP/HTTPS-запроса 
+cid_management.auth_password = Пароль
+cid_management.auth_password.tooltip = Пароль для авторизации HTTP/HTTPS-запроса
+cid_management.validation.no_url = URL не указан
