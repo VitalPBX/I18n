@@ -1,4 +1,4 @@
-﻿menu.pickup_groups = Группы перехвата
+menu.pickup_groups = Группы перехвата
 module.pickup_group = Группы перехвата
 pickup_group = Группы перехвата
 pickup_group.allow_pickup = Разрешить перехват
