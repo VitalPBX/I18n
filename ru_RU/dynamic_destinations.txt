@@ -38,7 +38,7 @@ dynamic_destinations.database = База данных {0}
 dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
 dynamic_destinations.query = Запрос {0}
 dynamic_destinations.query.tooltip =
-	Выполнениемый запрос. Специальный токен <b>[CIDNUM]</b> будет заменен номером вызывающего абонента. Например:
+	Выполняемый запрос. Специальный токен <b>[CIDNUM]</b> будет заменен номером вызывающего абонента. Например:
 	<b> SELECT 'VIP_CUSTOMER' as `response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
 dynamic_destinations.mysql_password = Пароль
 dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
