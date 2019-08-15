@@ -1,4 +1,4 @@
-﻿menu.dial_profiles = Профили набора
+menu.dial_profiles = Профили набора
 module.dial_profiles = Профили набора
 dial_profiles.name = Название
 dial_profiles.name.help = Название для этого профиля. Название не может включать пробелы.
