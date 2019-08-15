@@ -1,4 +1,4 @@
-﻿branding = Брендинг
+branding = Брендинг
 branding.base_color = Базовый цвет
 branding.base_color.tooltip = Основной цвет, используемый для активных пунктов меню, вкладок и выделенного текста
 branding.desktop_logo = Логотип для десктопов
