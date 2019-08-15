@@ -1,4 +1,4 @@
-﻿module.tenants = Арендаторы линий
+module.tenants = Арендаторы линий
 menu.tenants = {module.tenants}
 tenants.general = Общие
 tenants.name = Имя
