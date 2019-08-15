@@ -1,4 +1,4 @@
-﻿conferences = Конференции
+conferences = Конференции
 conferences.adminpin = PIN организатора
 conferences.adminpin.invalid = PIN организатора недействителен. Используйте только цифры и символ «*» (звездочка).
 conferences.adminpin.tooltip = PIN-код для идентификации пользователя-организатора конференции.
