@@ -1,4 +1,4 @@
-﻿dashboard.asterisk = Asterisk
+dashboard.asterisk = Asterisk
 dashboard.asterisk_uptime = Время работы Asterisk
 dashboard.available = Доступно
 dashboard.current_time = Текущее время
