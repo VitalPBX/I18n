@@ -1,4 +1,4 @@
-﻿fax.viewer.faxes = Список факсов
+fax.viewer.faxes = Список факсов
 fax_devices.area_code = Код города
 fax_devices.area_code.tooltip = Код города
 fax_devices.associated_email = Связанный Email
