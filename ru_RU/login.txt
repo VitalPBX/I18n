@@ -1,4 +1,4 @@
-﻿login.signing_in = Войти
+login.signing_in = Войти
 login.panel = Панель
 login.pbx.desc = Управление АТС
 login.billing.desc = Программное обеспечение для управления расходами звонков
