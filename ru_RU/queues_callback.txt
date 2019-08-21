@@ -28,15 +28,15 @@ queues_callback.cid.tooltip =
 	Информация об идентификаторе вызывающего абонента для использования во время обратного звонка. Эта информация может быть
 	изменена в процессе вызова через внешнюю линию или исходящий маршрут.	
 queues_callback.allowed_tries = Макс. кол-во попыток
-queues_callback.allowed_tries.tooltip = Amount of allowed tries to perform before marking the call back as failed
-queues_callback.ask_callback_number = Ask CallBack Number
+queues_callback.allowed_tries.tooltip = Количество разрешенных попыток перед тем, как пометить обратный звонок как неудачный
+queues_callback.ask_callback_number = Запрашивать номер
 queues_callback.ask_callback_number.tooltip =
-	If enabled, the caller will be prompted to enter its callback number. If set to no, the caller id number it will be used
-	as callback number, as long as the number match with the allowed number rules.
-queues_callback.same_queue = Same Queue
+	Если включено, вызывающему абоненту будет предложено ввести свой номер для обратного звонка. Если установлено значение <b>Нет</b>,
+	будет использоваться идентификатор вызывающего абонента в качестве номера обратного звонка, если он соответствует разрешенным правилам набора номеров.	
+queues_callback.same_queue = Та же очередь
 queues_callback.none = {none}
-queues_callback.cid_name = Caller ID Name
-queues_callback.cid_number = Caller ID Number
+queues_callback.cid_name = Имя абонента
+queues_callback.cid_number = Номер абонента
 queues_callback.allowed_patterns = Allowed Number Rules
 queues_callback.pattern = Pattern
 queues_callback.pattern.tooltip = It allows to define rules of what type of numbers can be used when requesting a call back
