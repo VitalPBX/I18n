@@ -17,3 +17,5 @@ branding.youtube_channel = YouTube канал
 menu.branding = {branding}
 module.branding = {branding}
 branding.instagram_page = Страница в Instagram
+branding.app_name = Имя арендатора
+branding.app_name.tooltip = Позволяет изменить имя основного арендатора
