@@ -12,3 +12,22 @@ phone_books.validations.no_contacts = Вы не выбрали контакт д
 phone_books.validations.no_desc = Недопустимое описание. 
 phone_books.url = URL-адрес телефонной книги
 phone_books.url.tooltip = URL для загрузки этой телефонной книги в любой поддерживаемый телефон
+phone_books.source_type = Тип
+phone_books.source_type.internal = Внутренняя
+phone_books.source_type.external = Внешняя
+phone_books.source_type.tooltip =
+    Позволяет определить, будете ли вы использовать внутренние номера (очереди, конференции, группы и т.д.) или импортировать внешние
+    номера на вашу АТС    
+phone_books.csv = CSV файл
+phone_books.csv.tooltip = Файл со списком контактов для импорта в эту телефонную книгу
+phone_books.contacts = Контакты
+phone_books.firs_name = Имя
+phone_books.last_name = Фамилия
+phone_books.phone = Телефон
+phone_books.organization = Организация
+phone_books.job_title = Должность
+phone_books.email = E-mail
+phone_books.prefix = Префикс
+phone_books.prefix.tooltip =
+  Необязательный префикс, добавляемый к телефонным номерам в момент создания телефонной книги. Полезно, если вы используете префиксы
+  для набора номера.	
