@@ -5,6 +5,9 @@ music_on_hold.actions = Действия
 music_on_hold.close = Закрыть
 music_on_hold.confirm_delete = Вы уверены, что хотите удалить эту группу?
 music_on_hold.default = По умолчанию
+music_on_hold.default.tooltip =
+   Если установлено, данный звуковой файл будет использоваться для музыки по умолчанию в режиме удержания.
+   Только одна музыкальная композиция может быть выбрана по умолчанию.	
 music_on_hold.delete = Удалить
 music_on_hold.delete.tooltip = Удалить этот файл навсегда
 music_on_hold.download = Скачать
