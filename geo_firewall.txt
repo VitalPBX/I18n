@@ -1,0 +1,5 @@
+geo_firewall = GEO Firewall
+menu.geo_firewall = {geo_firewall}
+module.geo_firewall = {geo_firewall}
+geo_firewall.general = {ombutel.general}
+geo_firewall.license.max_items = Вы можете заблокировать только одну страну в бесплатной версии этого дополнения.
