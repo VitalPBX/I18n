@@ -20,14 +20,14 @@ queues_callback.periodic_announcement.tooltip =
   Сообщение с инструкциями для запроса обратного вызова.<br><br>Сообщение по умолчанию: "All of our representatives
 	are currently busy.  Please stay on the line and your call will be answered by the next available representative,
 	or press one to be called back when a representative is available"	
-queues_callback.number_prompt = Number Prompt Message
+queues_callback.number_prompt = Сообщение о запросе номера
 queues_callback.number_prompt.tooltip =
-	Instructions message for asking to enter the callback number.<br><br>Default Message: "Please enter your telephone number"
-queues_callback.cid = Caller ID
+	Сообщение с просьбой ввести номер для обратного звонка.<br><br>Сообщение по умолчанию: "Please enter your telephone number"
+queues_callback.cid = Идентификатор абонента
 queues_callback.cid.tooltip =
-	Caller ID info to use during the callback. This information could be modified during the call process by the trunks
-	or outbound routes settings.
-queues_callback.allowed_tries = Maximum Tries
+	Информация об идентификаторе вызывающего абонента для использования во время обратного звонка. Эта информация может быть
+	изменена в процессе вызова через внешнюю линию или исходящий маршрут.	
+queues_callback.allowed_tries = Макс. кол-во попыток
 queues_callback.allowed_tries.tooltip = Amount of allowed tries to perform before marking the call back as failed
 queues_callback.ask_callback_number = Ask CallBack Number
 queues_callback.ask_callback_number.tooltip =
