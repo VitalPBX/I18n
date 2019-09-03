@@ -44,7 +44,7 @@ queues_callback.enabled = Включено
 queues_callback.enabled.tooltip = Позволяет включать/отключать правила шаблона
 queues_callback.invalid_message = Сообщение об ошибке
 queues_callback.invalid_message.tooltip =
-	Сообщение, которое будет воспроизведено, если предоставленный абонентом номер не соответствует определенным правилам номера
+	Сообщение, которое будет воспроизведено, если предоставленный абонентом номер не соответствует определенным правилам номера.
 	<br><br> Сообщение по умолчанию:"I'm sorry, that is not a recognized phone number"
 queues_callback.ringtime = {extensions.ringtime}
 queues_callback.ringtime.tooltip = Позволяет вам определить время, в течении которого номера обратного звонка будут вызываться, прежде чем вызов будет помечен как не отвеченный
