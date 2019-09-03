@@ -1,0 +1,22 @@
+queues_callback_report = Отчеты по обратным звонкам
+menu.queues_callback_report = {queues_callback_report}
+module.queues_callback_report = {queues_callback_report}
+queues_callback_report.report = {report}
+queues_callback_report.queue_callback = Параметры обратного звонка
+queues_callback_report.queue_callback.tooltip =
+  Позволяет фильтровать результаты отчета по определенным параметрам очереди обратного звонка.
+  По умолчанию отчет показывает результаты всех настроенных параметров обратного звонка	
+queues_callback_report.status = Статус
+queues_callback_report.status.tooltip = Позволяет фильтровать результаты отчета по статусу обратного звонка в очереди.
+queues_callback_report.status.option.queued = В очереди
+queues_callback_report.status.option.in_progress = Выполняется
+queues_callback_report.status.option.successful = Успешен
+queues_callback_report.status.option.failed = Не удался
+queues_callback_report.scheduled_queue_callbacks = Запланированные обратные звонки
+queues_callback_report.date = Дата и время
+queues_callback_report.queue = Очередь
+queues_callback_report.callback_name = Абонент
+queues_callback_report.callback_number = Номер
+queues_callback_report.tries = Попытки
+queues_callback_report.actions = {actions}
+queues_callback_report.sqc.not_found = Не удалось найти запрошенный обратный звонок
