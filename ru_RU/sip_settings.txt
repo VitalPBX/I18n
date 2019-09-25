@@ -1,4 +1,4 @@
-﻿menu.sip_settings = Настройки SIP
+menu.sip_settings = Настройки SIP
 module.sip_settings = Настройки SIP
 sip_settings.accept_outofcall_message = Разрешить сообщения
 sip_settings.accept_outofcall_message.tooltip = Отключите этот параметр, чтобы отклонить все сообщения извне. По умолчанию эта опция включена. Если эта функция включена, то сообщения направляются в план набора (dialplan).
@@ -148,4 +148,4 @@ sip_settings.sip_domains.info =
 sip_settings.websocket_enabled = Включить веб-сокет
 sip_settings.websocket_enabled.tooltip = 
   Установите <b>«Нет»</b>, чтобы каналы SIP не слушали веб-сокеты. Это необходимо при использовании веб-сокетов SIP и PJSIP 
-  в одной системе.menu.sip_settings = SIP Settings
+  в одной системе.

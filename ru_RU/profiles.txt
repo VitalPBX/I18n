@@ -1,4 +1,4 @@
-﻿menu.profiles = Профили
+menu.profiles = Профили
 module.profiles = Профили
 profiles = Профили
 profiles_advanced = Продвинутые
@@ -222,4 +222,4 @@ profiles_sip_force_avp_tooltip =
 	присутствует поток DTLS.
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
-profiles_sip_rtcp_mux_tooltip = Включить поддержку RTCP RFC 5761 мультиплексирования, которая требуется для поддержки WebRTCmenu.profiles = Profiles
+profiles_sip_rtcp_mux_tooltip = Включить поддержку RTCP RFC 5761 мультиплексирования, которая требуется для поддержки WebRTC

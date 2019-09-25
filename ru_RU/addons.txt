@@ -1,4 +1,4 @@
-﻿menu.addons_market = Дополнения
+menu.addons_market = Дополнения
 menu.addons = Дополнения
 module.addons = Дополнения
 addons.check_online = Проверить онлайн
@@ -64,4 +64,3 @@ addons.revoke_license.success = Лицензия была успешно ото�
 addons.version = Версия {0}
 app.licensing.activated_successfully = Лицензия была успешно активирована
 addons.licensing.activated_by_server = Выбранное дополнение входит в состав лицензионной подписки
-menu.addons_market = Add-ons

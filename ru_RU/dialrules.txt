@@ -22,5 +22,5 @@ menu.dialing_restriction_rules = <span style="margin-left: -5px;">Огранич
 module.dialrules = Ограничение вызовов
 dialrules.no_rules =  Не найдено правильных шаблонов набора номера
 dialrules.used_by_cos = Этот элемент нельзя удалить, поскольку он используется одним или несколькими <b>Классами обслуживания</b>
-dialrules.custom_rules_context = Custom Rules Context
-dialrules.custom_rules_context.tooltip = It allows you to include a custom context with your own advanced rules
+dialrules.custom_rules_context = Пользовательское правило
+dialrules.custom_rules_context.tooltip = Позволяет вам включать пользовательский контекст с вашими дополнительными правилами

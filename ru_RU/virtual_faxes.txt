@@ -1,4 +1,4 @@
-﻿fax.viewer.faxes = Список факсов
+fax.viewer.faxes = Список факсов
 fax_devices.area_code = Код города
 fax_devices.area_code.tooltip = Код города
 fax_devices.associated_email = Связанный Email
@@ -95,4 +95,4 @@ module.fax_devices = Факсы
 module.fax_general_settings = Глобальные настройки факса
 module.fax_sending = Отправка факса
 module.fax_viewer = Просмотрщик факсов
-module.virtual_faxes = Виртуальные факсыfax.viewer.faxes = Faxes List
+module.virtual_faxes = Виртуальные факсы

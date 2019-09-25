@@ -1,4 +1,4 @@
-﻿module.tenants = Арендаторы линий
+module.tenants = Арендаторы линий
 menu.tenants = {module.tenants}
 tenants.general = Общие
 tenants.name = Имя
@@ -77,4 +77,4 @@ tenants.inbound_numbers.tooltip =
 	перенаправляться на эти входящие маршруты арендатора. Конфигурация этих номеров имеет приоритет над правилами входящих
 	маршрутов основного арендатора.	
 tenants.scom_devices = Устройства Softphone
-tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.module.tenants = Tenants
+tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.

@@ -33,6 +33,7 @@ firewall.whitelist = Lista Blanca
 firewall.whitelist.description = Descripción
 firewall.whitelist.host = Host
 menu.firewall = Cortafuegos
-module.firewall = Cortafuegosfirewall.block_icmp = Bloquear solicitudes ICMP
+module.firewall = Cortafuegos
+firewall.block_icmp = Bloquear solicitudes ICMP
 firewall.block_icmp.tooltip = Si está habilitado, ignorará todas las solicitudes de ping
 firewall.block_icmp = Bloquear Solicitudes de ICMP

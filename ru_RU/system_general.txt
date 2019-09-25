@@ -1,4 +1,4 @@
-﻿menu.system_general = Общие настройки
+menu.system_general = Общие настройки
 module.system_general = Общие настройки
 system_general.ast_agi_dir = Asterisk AGI каталог
 system_general.ast_dir = Asterisk каталог
@@ -48,4 +48,4 @@ system_general.featuredigittimeout.placeholder = Значение в милли�
 system_general.featuredigittimeout.tooltip = Максимальное время (мс) между набором цифр для сервисных кодов (по умолчанию 1000 мс)
 system_general.transferdigittimeout = Таймаут перевода вызова
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Количество секунд ожидания между набором цифр при переводе вызова (по умолчанию 3 секунды)menu.system_general = System General
+system_general.transferdigittimeout.tooltip = Количество секунд ожидания между набором цифр при переводе вызова (по умолчанию 3 секунды)

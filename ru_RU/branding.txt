@@ -1,4 +1,4 @@
-﻿branding = Брендинг
+branding = Брендинг
 branding.base_color = Базовый цвет
 branding.base_color.tooltip = Основной цвет, используемый для активных пунктов меню, вкладок и выделенного текста
 branding.desktop_logo = Логотип для десктопов
@@ -16,6 +16,6 @@ branding.twitter_page = Страница в Twitter
 branding.youtube_channel = YouTube канал
 menu.branding = {branding}
 module.branding = {branding}
-branding.instagram_page = Страница в Instagrambranding = Branding
-branding.app_name = APP Name
-branding.app_name.tooltip = It allows you to modify the main tenant name
+branding.instagram_page = Страница в Instagram
+branding.app_name = Имя арендатора
+branding.app_name.tooltip = Позволяет изменить имя основного арендатора

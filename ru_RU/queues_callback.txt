@@ -1,50 +1,50 @@
+queues_callback = Обратный звонок из очереди
 menu.queues_callback = {queues_callback}
 module.queues_callback = {queues_callback}
-queues_callback = Queues CallBack
-queues_callback.allowed_patterns = Allowed Number Rules
-queues_callback.allowed_tries = Maximum Tries
-queues_callback.allowed_tries.tooltip = Amount of allowed tries to perform before marking the call back as failed
-queues_callback.ask_callback_number = Ask CallBack Number
-queues_callback.ask_callback_number.tooltip = 
-	If enabled, the caller will be prompted to enter its callback number. If set to no, the caller id number it will be used
-	as callback number, as long as the number match with the allowed number rules.
-queues_callback.cid = Caller ID
-queues_callback.cid.tooltip = 
-	Caller ID info to use during the callback. This information could be modified during the call process by the trunks
-	or outbound routes settings.
-queues_callback.cid_name = Caller ID Name
-queues_callback.cid_number = Caller ID Number
-queues_callback.cos = Class of Service
-queues_callback.cos.tooltip = 
-	It allows you to define what Class of Service will be used to perform the callback. Remember that the class of service
-	contains the permissions to allow outgoing calls through  specific trunks or outbound routes.
-queues_callback.description = Description
-queues_callback.description.tooltip = Brief description
-queues_callback.dial_prefix = Dial Prefix
-queues_callback.dial_prefix.tooltip = If defined, it will be prepended to the requested callback number
-queues_callback.enabled = Enabled
-queues_callback.enabled.tooltip = It allows you to enable / disable pattern rules
 queues_callback.general = {ombutel.general}
-queues_callback.invalid_message = Invalid Message
-queues_callback.invalid_message.tooltip = 
-	Message to be played when the provided number by caller doesn't match with the defined  number rules.<br><br> Default Message:
-	"I'm sorry, that is not a recognized phone number"
-queues_callback.none = {none}
-queues_callback.number_prompt = Number Prompt Message
-queues_callback.number_prompt.tooltip = 
-	Instructions message for asking to enter the callback number.<br><br>Default Message: "Please enter your telephone number"
-queues_callback.pattern = Pattern
-queues_callback.pattern.tooltip = It allows to define rules of what type of numbers can be used when requesting a call back
-queues_callback.periodic_announcement = Instructions Message
-queues_callback.periodic_announcement.tooltip = 
-	Message to be played with the instructions for requesting a callback.<br><br>Default Message: "All of our representatives
+queues_callback.description = Описание
+queues_callback.description.tooltip = Краткое описание
+queues_callback.queue = Очередь
+queues_callback.queue.tooltip = Позволяет определить очередь, в которую будут отправляться абоненты, которые запрашивают обратный звонок.
+queues_callback.cos = Класс обслуживания
+queues_callback.cos.tooltip =
+  Позволяет определить, какой класс обслуживания будет использоваться для выполнения обратного звонка. Помните, 
+  что класс обслуживания содержит разрешения, позволяющие исходящие вызовы через определенные внешние линии или исходящие маршруты.	
+queues_callback.dial_prefix = Префикс набора
+queues_callback.dial_prefix.tooltip = Если определено, префикс будет добавлен к запрошенному номеру обратного звонка.
+queues_callback.time_group = Временной период
+queues_callback.time_group.tooltip =
+  Позволяет настроить временной период, чтобы определить разрешенное время для выполнения обратных звонков.	
+queues_callback.periodic_announcement = Инструкции
+queues_callback.periodic_announcement.tooltip =
+  Сообщение с инструкциями для запроса обратного вызова.<br><br>Сообщение по умолчанию: "All of our representatives
 	are currently busy.  Please stay on the line and your call will be answered by the next available representative,
-	or press one to be called back when a representative is available"
-queues_callback.queue = CallBack Queue
-queues_callback.queue.tooltip = It allows you to define the queue where callers who request a callback will be sent.
+	or press one to be called back when a representative is available"	
+queues_callback.number_prompt = Сообщение о запросе номера
+queues_callback.number_prompt.tooltip =
+	Сообщение с просьбой ввести номер для обратного звонка.<br><br>Сообщение по умолчанию: "Please enter your telephone number"
+queues_callback.cid = Идентификатор абонента
+queues_callback.cid.tooltip =
+	Информация об идентификаторе вызывающего абонента для использования во время обратного звонка. Эта информация может быть
+	изменена в процессе вызова через внешнюю линию или исходящий маршрут.	
+queues_callback.allowed_tries = Макс. кол-во попыток
+queues_callback.allowed_tries.tooltip = Количество разрешенных попыток перед тем, как пометить обратный звонок как неудачный
+queues_callback.ask_callback_number = Запрашивать номер
+queues_callback.ask_callback_number.tooltip =
+	Если включено, вызывающему абоненту будет предложено ввести свой номер для обратного звонка. Если установлено значение <b>Нет</b>,
+	будет использоваться идентификатор вызывающего абонента в качестве номера обратного звонка, если он соответствует разрешенным правилам набора номеров.	
+queues_callback.same_queue = Та же очередь
+queues_callback.none = {none}
+queues_callback.cid_name = Имя абонента
+queues_callback.cid_number = Номер абонента
+queues_callback.allowed_patterns = Правила разрешенных номеров 
+queues_callback.pattern = Шаблон
+queues_callback.pattern.tooltip = Позволяет определить правила того, какой тип номеров можно использовать при запросе обратного звонка.
+queues_callback.enabled = Включено
+queues_callback.enabled.tooltip = Позволяет включать/отключать правила шаблона
+queues_callback.invalid_message = Сообщение об ошибке
+queues_callback.invalid_message.tooltip =
+	Сообщение, которое будет воспроизведено, если предоставленный абонентом номер не соответствует определенным правилам номера.
+	<br><br> Сообщение по умолчанию:"I'm sorry, that is not a recognized phone number"
 queues_callback.ringtime = {extensions.ringtime}
-queues_callback.ringtime.tooltip = It allows you to define the time that the callback numbers will ring before marking the call as not answered
-queues_callback.same_queue = Same Queue
-queues_callback.time_group = Time Group
-queues_callback.time_group.tooltip = 
-	It allows you to configure a time group to define the allowed times to perform callbacks
+queues_callback.ringtime.tooltip = Позволяет вам определить время, в течении которого номера обратного звонка будут вызываться, прежде чем вызов будет помечен как не отвеченный

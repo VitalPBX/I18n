@@ -38,7 +38,9 @@ inbound_route.privacyman.tooltip = If no Caller*ID is sent, Privacy Manager answ
 inbound_route.routing_method = Routing Method
 inbound_route.routing_method.dahdi = FXO
 inbound_route.routing_method.default = Default
-inbound_route.routing_method.tooltip = Default is to match by DID, alternatively by FXO channel.
+inbound_route.routing_method.tooltip =
+	Default is to match by DID, the "DID Range" option is for mapping a range of DIDs to extensions, and the "FXO" option
+	to match by FXO channel.
 menu.inbound_routes = Inbound Routes
 module.inbound_route = Inbound Routes
 inbound_route.cid_management_id = Caller ID Modifier
@@ -47,3 +49,13 @@ inbound_route.cid_lookup_id = CID Lookup
 inbound_route.cid_lookup_id.tooltip =
 	It allows you to select a CID Lookup item to search the incoming caller number into a directory of a CRM or a
 	cloud directory, or other and set the correct CID Name.
+inbound_route.range_parameters = Range Parameters
+inbound_route.routing_method.did_range = DID Range
+inbound_route.digits_to_take = Digits to Take
+inbound_route.digits_to_take.tooltip = Number of digits to take from right to left of the provided DID
+inbound_route.cos = {class_of_service}
+inbound_route.cos.tooltip = Class of Service to use for routing calls of this DID's range
+inbound_route.append = {cid_management.append_to_cid_number}
+inbound_route.append.tooltip = Suffix to be added to the obtained number after retrieving the desired number of digits from the original DID
+inbound_route.prepend = {cid_management.prepend_to_cid_number}
+inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID

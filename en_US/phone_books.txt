@@ -31,3 +31,4 @@ phone_books.prefix = Prefix
 phone_books.prefix.tooltip =
 	Optional prefix to be appended to phone numbers at the moment of generating the phonebook. Useful if you use prefixes
 	for dialing.
+phone_books.csv.missing_columns = {import_extensions.missing_columns}

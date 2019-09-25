@@ -1,4 +1,4 @@
-﻿ha_monitor = Монитор высокой доступности
+ha_monitor = Монитор высокой доступности
 ha_monitor.asterisk = Asterisk
 ha_monitor.bascul = Сменить роли
 ha_monitor.confirm_bascul =
@@ -23,4 +23,4 @@ ha_monitor.success = Смена ролей успешно запущена
 ha_monitor.switchboard = Switchboard
 ha_monitor.vitalpbx = VitalPBX
 menu.ha_monitor = {ha_monitor}
-module.ha_monitor = Монитор высокой доступностиha_monitor = HA Monitor
+module.ha_monitor = Монитор высокой доступности

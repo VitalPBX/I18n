@@ -1,4 +1,4 @@
-﻿task_manager = Диспетчер задач
+task_manager = Диспетчер задач
 menu.task_manager = {task_manager}
 module.task_manager = {task_manager}
 task_manager.general = {ombutel.general}
@@ -18,4 +18,4 @@ task_manager.enabled = Включено
 task_manager.enabled.tooltip = Позволяет включить/отключить эту задачу
 task_manager.silent_mode = Бесшумный режим
 task_manager.silent_mode.tooltip =
-	Если этот параметр включен, любой вывод результата выбранного скрипта будет отключен, что позволит избежать получения электронных писем при каждом запуске скрита по расписанию.task_manager = Task Manager
+	Если этот параметр включен, любой вывод результата выбранного скрипта будет отключен, что позволит избежать получения электронных писем при каждом запуске скрита по расписанию.

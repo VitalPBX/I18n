@@ -1,4 +1,4 @@
-﻿menu.outbound_routes = Исходящие маршруты 
+menu.outbound_routes = Исходящие маршруты 
 module.trunk_group = Исходящие маршруты
 trunk_group = Исходящие маршруты
 trunk_group.description = Описание
@@ -43,4 +43,4 @@ trunk_group.cid_name = Имя CID
 trunk_group.cid_number = Номер CID
 trunk_group.no_cid = Параметр <b>«Перезаписать CID»</b> включен, но вы не заполнили поля параметра <b>«Исходящий CID»</b>.
 trunk_group.overwrite_cid = Перезаписать CID
-trunk_group.overwrite_cid.tooltip = Если включено, исходящий CID внутреннего номера будет перезаписан параметрами CID, определенными в этом маршруте.menu.outbound_routes = Outbound Routes
+trunk_group.overwrite_cid.tooltip = Если включено, исходящий CID внутреннего номера будет перезаписан параметрами CID, определенными в этом маршруте.
