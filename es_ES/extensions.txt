@@ -249,3 +249,20 @@ extensions.dynamic_routing.tooltip =
 	 Le permite habilitar o no el enrutamiento dinámico para esta extensión. Si está habilitado, cuando una parte externa
 	(quien anteriormente fue llamado por esta extensión) devuelve la llamada, su llamada se enrutará directamente a esta extensión
 extensions.max_reached = Has alcanzado el número máximo de extensiones permitidas.
+extensions.cid_on_diversions = CallerID en Desvíos
+extensions.cid_on_diversions.callee = {parking.callee}
+extensions.cid_on_diversions.caller = {parking.caller}
+extensions.cid_on_diversions.tooltip = 
+	Le permite definir qué identificador de llamadas se enviará cuando se realice un desvío.<br><br>
+	<b>{parking.caller}: </b> Se le enviará la identificación de la persona que llama. <br>
+	<b>{parking.callee}: </b> Se le enviará el identificador de la persona que recibió la llamada.
+extensions.followme.enabled = Habilitado
+extensions.followme.enabled.tooltip = Le permite Habilitar/Deshabilitar la función Sígueme en esta extensión
+extensions.initial_ringtime = Tiempo de Timbrado Inicial
+extensions.initial_ringtime.not_ring = Sin Timbrado
+extensions.initial_ringtime.tooltip = Tiempo en segundos para llamar a la extensión principal antes de llamar a los miembros de la lista Sígueme
+extensions.outbound_profile = Perfil Saliente
+extensions.outbound_profile.tooltip = 
+	Le permite definir un perfil de salida para esta extensión. Estos perfiles deben contener una colección 
+	de rutas salientes y sus patrones respectivos, por lo que, dependiendo del perfil saliente, 
+	el usuario de esta extensión podrá llamar o no a ciertos números.

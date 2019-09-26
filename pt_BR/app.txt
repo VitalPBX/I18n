@@ -48,3 +48,4 @@ app.with_plan = {0} {1}
 app.activate.register.language = The language that you speak
 app.license.max_items = You have reached the maximum number of free items allowed on this module
 menu.call_center_reports = Call Center Reports
+app.register.expire_on = Subscription is active until {0}

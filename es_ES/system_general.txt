@@ -47,3 +47,6 @@ system_general.featuredigittimeout.tooltip = Tiempo máximo (ms) entre dígitos 
 system_general.transferdigittimeout = Espera de Dígitos para Transferencia
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
 system_general.transferdigittimeout.tooltip = Número de segundos a esperar entre los dígitos al transferir una llamada (el valor predeterminado es 3 segundos)
+system_general.gui_settings = Configuraciones de GUI
+system_general.show_login_panel = Mostrar Panel de Inicio de Sesión
+system_general.show_login_panel.tooltip = Si se establece en sí, muestra un panel con los complementos de sonata cuando se instalan.

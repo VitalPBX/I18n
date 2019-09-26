@@ -48,3 +48,6 @@ queues_callback.invalid_message.tooltip =
 	<br><br> Сообщение по умолчанию:"I'm sorry, that is not a recognized phone number"
 queues_callback.ringtime = {extensions.ringtime}
 queues_callback.ringtime.tooltip = Позволяет вам определить время, в течении которого номера обратного звонка будут вызываться, прежде чем вызов будет помечен как не отвеченный
+queues_callback.thank_you_prompt = Thanks Prompt
+queues_callback.thank_you_prompt.tooltip = 
+	Message to be played to the caller after finish scheduling a callback. Default Message: "Thanks, you will be callback soon"

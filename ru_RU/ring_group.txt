@@ -41,3 +41,6 @@ ring_group.answered_elsewhere = {queues.answered_elsewhere}
 ring_group.answered_elsewhere.tooltip =
 	Если эта опция включена, другие телефоны не будут записывать событие как "пропущенный вызов", если на этот вызов был дан ответ
 	участником этой группы звонков. Это очень полезная настройка, когда для стратегии вызова установлено значение «Звонить всем».	
+ring_group.allow_diversions = Allow Diversions
+ring_group.allow_diversions.tooltip = 
+	Allows you to define if the diversions defined for the different extensions members will be applied or not.

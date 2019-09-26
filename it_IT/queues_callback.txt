@@ -48,3 +48,6 @@ queues_callback.same_queue = Same Queue
 queues_callback.time_group = Time Group
 queues_callback.time_group.tooltip = 
 	It allows you to configure a time group to define the allowed times to perform callbacks
+queues_callback.thank_you_prompt = Thanks Prompt
+queues_callback.thank_you_prompt.tooltip = 
+	Message to be played to the caller after finish scheduling a callback. Default Message: "Thanks, you will be callback soon"

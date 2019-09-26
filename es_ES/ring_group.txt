@@ -41,3 +41,6 @@ ring_group.answered_elsewhere = {queues.answered_elsewhere}
 ring_group.answered_elsewhere.tooltip = 
 	Con esta opción habilitada, evita que los otros teléfonos graben una llamada perdida cuando la llamada ha sido contestada en un teléfono que figura 
 	en este grupo de timbrado. Esta es una configuración muy útil cuando la estrategia de timbrado se establece en "Ring All"
+ring_group.allow_diversions = Permitir Desvíos
+ring_group.allow_diversions.tooltip = 
+	Le permite definir si los desvios definidos para los diferentes miembros de extensiones se aplicarán o no.

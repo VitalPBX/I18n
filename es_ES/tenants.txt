@@ -78,3 +78,9 @@ tenants.inbound_numbers.tooltip =
 	en el tenenat principal.
 tenants.scom_devices = Dispositivos de Softphone
 tenants.scom_devices.tooltip = Le permite definir cuántos dispositivos Sonata Communicator/VitalPBX Communicator podrían activarse en este tenant.
+tenants.did_pattern = Patrón DID
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Perfiles Salientes
+tenants.outbound_profiles.tooltip = 
+	Le permite definir qué elementos de selección de ruta se pueden usar como perfil saliente en este Tenant.
+tenants.routing = Enrutamiento de Llamadas

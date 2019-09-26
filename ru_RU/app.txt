@@ -48,3 +48,4 @@ app.revoke_license.confirm = Вы уверены, что хотите отозв
 app.activate.register.language = Язык, на котором вы говорите
 menu.call_center_reports = Отчеты колл-центра
 app.license.max_items = Вы достигли предельного количества, разрешенного в бесплатной версии этого модуля
+app.register.expire_on = Subscription is active until {0}

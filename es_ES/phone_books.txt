@@ -31,3 +31,4 @@ phone_books.source_type.internal = Interna
 phone_books.source_type.tooltip = 
     Le permite definir si usará números internos (colas, conferencias, extensiones, etc.) o importará números 
     externos a su PBX
+phone_books.csv.missing_columns = {import_extensions.missing_columns}

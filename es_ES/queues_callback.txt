@@ -48,3 +48,7 @@ queues_callback.same_queue = Misma Cola
 queues_callback.time_group = Grupo Horario
 queues_callback.time_group.tooltip = 
 	Le permite configurar un Horario para definir los tiempos permitidos para realizar retorno de llamada
+queues_callback.thank_you_prompt = Mensaje de Despedida
+queues_callback.thank_you_prompt.tooltip = 
+	Mensaje que se reproducirá a la persona que llama después de terminar de programar una devolución de llamada. 
+	Mensaje predeterminado: "Gracias, pronto le devolveremos la llamada"

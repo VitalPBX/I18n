@@ -223,3 +223,17 @@ profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
 profiles_sip_rtcp_mux_tooltip = Enable support for RFC 5761 RTCP multiplexing which is required for WebRTC support
 profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_pjsip_qualify_frequency = Qualify Frequency
+profiles_pjsip_qualify_frequency_tooltip = Interval between attempts to qualify the contact for reachability. If 0 never qualify. Time in seconds.
+profiles_pjsip_qualify_timeout = Qualify Timeout
+profiles_pjsip_qualify_timeout_tooltip = If the contact doesn't respond to the OPTIONS request before the timeout, the contact is marked unavailable. If 0 no timeout.
+profiles_pjsip_send_diversion = Send Diversion Header
+profiles_pjsip_send_diversion_tooltip = Send the Diversion header, conveying the diversion information to the called user agent
+profiles_pjsip_send_pai = Send P-Asserted-Identity
+profiles_pjsip_send_pai_tooltip = Send the P-Asserted-Identity header
+profiles_pjsip_send_rpid = Send Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Send the Remote-Party-ID header
+profiles_pjsip_webrtc = WebRTC
+profiles_pjsip_webrtc_tooltip = 
+	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
+	rtcp_mux, use_avpf, ice_support, and use_received_transport.

@@ -31,3 +31,4 @@ phone_books.prefix = Префикс
 phone_books.prefix.tooltip =
   Необязательный префикс, добавляемый к телефонным номерам в момент создания телефонной книги. Полезно, если вы используете префиксы
   для набора номера.	
+phone_books.csv.missing_columns = {import_extensions.missing_columns}
