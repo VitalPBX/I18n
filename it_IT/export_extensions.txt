@@ -7,4 +7,4 @@ export_extensions.export_extensions.tooltip = Interni da Esportare
 export_extensions.export_extensions = Esporta Interni
 export_extensions.general = Generale
 export_extensions.no_extensions_selected = No Interni selezionati
-export_extensions.select_extensions = Seleziona interni per l'Esportazione
+export_extensions.select_extensions = Seleziona interni per l'Esportazione.

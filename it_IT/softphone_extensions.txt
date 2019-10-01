@@ -2,7 +2,5 @@ menu.softphone_extensions = {module.softphone_extensions}
 module.softphone_extensions = Softphone Extensions
 softphone_extensions.general = {ombutel.general}
 softphone_extensions.no_license = 
-	You are using the free version of Softphones Licensing Server. Activate this add-on to get more than two extensions
-	for {0} Softphones
-softphone_extensions.max_reached = 
-	You are not allowed to add more than {0} devices
+	Stai utilizzando la versione gratuita di Softphones Licensing Server. Attiva questo componente aggiuntivo per ottenere piu' di due estensioni
+        per {0} Softphone

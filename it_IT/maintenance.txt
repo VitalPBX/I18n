@@ -1,37 +1,37 @@
-maintenance = Maintenance
-maintenance.cdr_preservation = Clear Oldest CDR
+maintenance = Manutenzione
+maintenance.cdr_preservation = Cancella il CDR piu' vecchio.
 maintenance.cdr_preservation.tooltip = 
-	Allows you to defined the maximum number of days that CDR should be retained. The CDR with more age
-    than the days defined here will be deleted
+	Consente di definire il numero massimo di giorni in cui il CDR deve essere conservato. Il CDR con piu' giorni, di 
+    	quelli definiti, saranno cancellati.
 maintenance.confirm_mcp = 
-	Are you sure that you want to execute the maintenance now? <br> This may take several minutes, especially if you have
-	many recordings to convert
-maintenance.confirm_mcp.title = Confirm Maintenance
-maintenance.convert_recordings = Convert Recordings
-maintenance.convert_recordings.tooltip = Enabled / Disable call recordings conversion to MP3
-maintenance.enabled = Enabled
+	Sei sicuro di voler eseguire la manutenzione ora? <br> Potrebbero essere necessari diversi minuti, in special modo
+        se ci sono molte registrazioni da convertire.
+maintenance.confirm_mcp.title = Confermi Manutenzione
+maintenance.convert_recordings = Converte Registrazioni
+maintenance.convert_recordings.tooltip = Abilita / Disabilita call recordings conversion to MP3.
+maintenance.enabled = Abilitato
 maintenance.enabled.tooltip = 
-	It allows you to enable or disable the PBX maintenance.
-maintenance.execute = Execute Now
-maintenance.executed = The maintenance is being executed in background
+	Permette di abilitare o disabilitare la manutenzione del PBX.
+maintenance.execute = Esegui Ora
+maintenance.executed = La manutenzione viene eseguita in background.
 maintenance.general = {ombutel.general}
-maintenance.mcp.invalid_tenant = The maintenance cannot be executed due you have provided invalid info
-maintenance.no_license_notification = 
-	The following features: "Clear Oldest Recordings" & "Convert Recordings", will not work until you activate this add-on
-	with a valid license.
-maintenance.recordings_min_duration = Clear Short Recordings
+maintenance.mcp.invalid_tenant = La manutenzione non puo' essere eseguita perche' sono state fornite informazioni non valide.
+maintenance.no_license_notification = 	
+	Le seguenti funzionalita': "Cancella le registrazioni piu' vecchie" e "Converti registrazioni", non funzioneranno finche' non verra' attivata una licenza
+	per questo componente aggiuntivo.
+maintenance.recordings_min_duration = Cancella Registrazioni Brevi
 maintenance.recordings_min_duration.tooltip = 
-	Allows you to define the minimum duration in seconds for a recording to be considered as too short,  and delete it
-maintenance.recordings_preservation = Clear Oldest Recordings
+	Consente di definire la durata minima in secondi per cui una registrazione deve essere considerata troppo breve ed eliminarla.
+maintenance.recordings_preservation = Cancella Vecchie Registrazioni
 maintenance.recordings_preservation.tooltip = 
-	Allows you to defined the maximum number of days that recordings should be retained. The recordings with more age
-	than the days defined here will be deleted
+	Consente di definire il numero massimo di giorni per la conservazione dele registrazioni. Le registrazioni superiore ai giorni
+	definiti qui, saranno cancellate.
 maintenance.schedule = Schedule
 maintenance.schedule.tooltip = 
-	It allows you to define the schedule in which the maintenance of the PBX will be executed (Conversion of Recordings,
-	Cleaning of Recordings and CDR, etc). If no schedule is selected, all the maintenance options will be disabled
+	Permette di definire il programma in cui verra' eseguita la manutenzione del PBX (Conversione delle registrazioni,
+	Pulizia di registrazioni e CDR, ecc.). Se nessuna pianificazione e' selezionata, tutte le opzioni di manutenzione saranno disabilitate.
 maintenance.tenant = Tenant
-maintenance.tenant.tooltip = Allows you to select the tenant on which the maintenance configurations will be applied
-maintenance.validation.enabled_without_cron = The maintenance has been enabled but no cron profile has been selected
+maintenance.tenant.tooltip = Consente di selezionare l'utente su cui verranno applicate le configurazioni di manutenzione.
+maintenance.validation.enabled_without_cron = La manutenzione e' stata abilitata ma nessun profilo cron e' stato selezionato.
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}

@@ -1,8 +1,8 @@
 custom_dest = Destinazioni Personalizzate
 custom_dest.class_of_service_id = Permessi di Chiamata
-custom_dest.class_of_service_id.tooltip = Permessi di Chiamata per cercare il numero da comporre
+custom_dest.class_of_service_id.tooltip = Permessi di Chiamata per cercare il numero da comporre.
 custom_dest.description = Descrizione
-custom_dest.description.tooltip = Nome che identifica questa destinazione personalizzata
+custom_dest.description.tooltip = Nome che identifica questa destinazione personalizzata.
 custom_dest.destination = Numero da Chiamere
 custom_dest.destination.invalid = Il Numero da Chiamare non e' valido. Sono permessi solo numeri e *,#,+ .
 custom_dest.destination.tooltip = Numero Interno o Esterno da Chiamare

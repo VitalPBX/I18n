@@ -1,23 +1,23 @@
-module.domotic_notifications = Domotic Notifications
+module.domotic_notifications = Notifiche Domotica
 
 domotic_notifications.general.tab = {ombutel.general}
 
-domotic_notifications.unit_id = Unit
-domotic_notifications.unit_id.help = Depending of the selected unit will show the device to configure.
-domotic_notifications.device_id = Device
-domotic_notifications.device_id.help = Device to configure the notification.
-domotic_notifications.device_id.select_one = -- Select One --
-domotic_notifications.recording_id = Welcome Message
-domotic_notifications.recording_id.help = Audio to be played when the device be tripped
-domotic_notifications.enabled = Enabled
-domotic_notifications.enabled.help = Enable the notifications for this device
-domotic_notifications.destination = Destination
+domotic_notifications.unit_id = Unita'
+domotic_notifications.unit_id.help = A seconda dell'unità selezionata mostrera' il dispositivo da configurare.
+domotic_notifications.device_id = Dispositivo
+domotic_notifications.device_id.help = Dispositivo per configurare la notifica.
+domotic_notifications.device_id.select_one = -- Selezionare  --
+domotic_notifications.recording_id = Messaggio di Benvenuto
+domotic_notifications.recording_id.help = Audio da riprodurre quando si fa scattare il dispositivo
+domotic_notifications.enabled = Abilita
+domotic_notifications.enabled.help = Abilita le notifiche per questo dispositivo
+domotic_notifications.destination = Destinazione
 
-domotic_notifications.validation.device_id = The device is required.
-domotic_notifications.validation.recording_id = The notification audio is required.
-domotic_notifications.validation.mod_destination = The destination module is required.
-domotic_notifications.validation.destination = The destination is required.
+domotic_notifications.validation.device_id = Il dispositivo e' obbligatorio.
+domotic_notifications.validation.recording_id = E' richiesto l'audio di notifica.
+domotic_notifications.validation.mod_destination = E' richiesto il modulo di destinazione.
+domotic_notifications.validation.destination = La destinazione e' obbligatoria.
 
 domotic_notifications.delete = {ombutel.delete}
-domotic_notifications.delete.message = Are you sure that you want delete this notification?
+domotic_notifications.delete.message = Sei sicuro di voler eliminare questa notifica?
 

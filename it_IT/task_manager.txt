@@ -13,9 +13,4 @@ task_manager.script.tooltip =
 task_manager.validations.no_description = Nessuna descrizione è stata definita. Si prega di scrivere una descrizione valida.
 task_manager.validations.duplicated_description = Un altro compito sta usando la stessa descrizione. Si prega di verificare.
 task_manager.validations.duplicated_script = Un'altra attività e' stata definita con lo stesso script. Si prega di verificare.
-task_manager.validations.no_script = Nessuno script e' stato selezionato per questo Task Manager.task_manager.enabled = Enabled
-task_manager.enabled.tooltip = Allows you to enable/disable this task
-task_manager.silent_mode = Silent Mode
-task_manager.silent_mode.tooltip = 
-	If enabled, any output from the selected script will be suppressed, thus avoiding to get emails each time that the cron is run.
-task_manager.enabled = Enabled
+task_manager.validations.no_script = Nessuno script e' stato selezionato per questo Task Manager.

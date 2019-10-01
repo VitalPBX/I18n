@@ -1,36 +1,35 @@
-module.domotic_units = Units
+module.domotic_units = Unita'
 domotic_units.menu = {module.domotic_units}
-domotic_units.show_menu = Show Units Menu
+domotic_units.show_menu = Mostra il menu Unita'
 
 domotic_units.general.tab = {ombutel.general}
 
-domotic_units.model_id = Model
-domotic_units.model_id.help = Allows you to select the kind of smart unit.
-domotic_units.description = Description
-domotic_units.description.help = Short description for recognize this unit.
-domotic_units.ip_address = IP Address
-domotic_units.ip_address.help = The IP Address to get/send request.
-domotic_units.port = Port
-domotic_units.port.help = Part of the address. define this if required.
+domotic_units.model_id = Modello
+domotic_units.model_id.help = Consente di selezionare il tipo di unita' intelligente.
+domotic_units.description = Descrizione
+domotic_units.description.help = Breve descrizione per riconoscere questa unita'.
+domotic_units.ip_address = Indirizzo IP
+domotic_units.ip_address.help = L'indirizzo IP per ottenere / inviare la richiesta.
+domotic_units.port = Porta
+domotic_units.port.help = Parte dell'indirizzo. Definirlo se necessario.
 
-domotic_units.validation.empty_model = The unit model is required
-domotic_units.validation.empty_desc = The description is required
-domotic_units.validation.empty_ip = The IP address is required
-domotic_units.validation.invalid_ip = An invalid IP has been defined
-domotic_units.validation.invalid_port = An invalid port has been defined
-domotic_units.validation.invalid_model = An invalid unit model has been provided
-
+domotic_units.validation.empty_model = E' richiesto il modello dell'unita'
+domotic_units.validation.empty_desc = La descrizione e' obbligatoria.
+domotic_units.validation.empty_ip = E' richiesto l'indirizzo IP.
+domotic_units.validation.invalid_ip = È stato definito un IP non valido.
+domotic_units.validation.invalid_port = E' stata definita una porta non valida.
+domotic_units.validation.invalid_model = E' stato fornito un modello di unita' non valido.
 domotic_units.delete = {ombutel.delete}
-domotic_units.delete.message = Are you sure that you want delete this unit?
+domotic_units.delete.message = Sei sicuro di voler eliminare questa unità?
 
 domotic_units.save.btn = {ombutel.save}
-domotic_units.sync.btn = Synchronize
+domotic_units.sync.btn = Sincronizzare
 domotic_units.update.btn = {ombutel.update}
 domotic_units.delete.btn = {ombutel.delete}
 domotic_units.cancel.btn = {ombutel.cancel}
 
-domotic_units.sync_error = Failed Synchronization
-domotic_units.sync_error.msg = The synchronization has failed
+domotic_units.sync_error = Sincronizzazione non Riuscita.
+domotic_units.sync_error.msg = La sincronizzazione non e' riuscita.
 
-domotic_units.sync_success = Successful Synchronization
-domotic_units.sync_success.msg = The synchronization has been successfully
+domotic_units.sync_success = Sincronizzazione Riuscita.
+domotic_units.sync_success.msg = La sincronizzazione e' stata eseguita correttamente.

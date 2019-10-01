@@ -47,13 +47,3 @@ inbound_route.cid_lookup_id = CID Lookup
 inbound_route.cid_lookup_id.tooltip =
 	Consente di selezionare una voce di ricerca CID per cercare il numero del chiamante in entrata in una directory di un CRM o in una
 	directory cloud o altro e impostare il nome CID corretto.
-inbound_route.append = {cid_management.append_to_cid_number}
-inbound_route.append.tooltip = Suffix to be added to the obtained number after retrieving the desired number of digits from the original DID
-inbound_route.cos = {class_of_service}
-inbound_route.cos.tooltip = Class of Service to use for routing calls of this DID's range
-inbound_route.digits_to_take = Digits to Take
-inbound_route.digits_to_take.tooltip = Number of digits to take from right to left of the provided DID
-inbound_route.prepend = {cid_management.prepend_to_cid_number}
-inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID
-inbound_route.range_parameters = Range Parameters
-inbound_route.routing_method.did_range = DID Range

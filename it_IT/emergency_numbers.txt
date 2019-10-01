@@ -15,7 +15,7 @@ emergency_numbers.validation.invalid_number =
 	Dovrebbe contenere i seguenti caratteri: *, #, +
 emergency_numbers.cat_description = Descrizione
 emergency_numbers.cat_description.tooltip = Una breve descrizione per riconoscere facilmente questo elenco di numeri di emergenza.
-emergency_numbers.validation.no_desc = Nessuna descrizione e' stata fornita. Si prega di fornire una descrizione valida
+emergency_numbers.validation.no_desc = Nessuna descrizione e' stata fornita. Si prega di fornire una descrizione valida.
 emergency_numbers.validation.no_trunks = Nessun Trunk e'  stato selezionato. Si prega di selezionare almeno un Trunk.
 emergency_numbers.validation.no_numbers = Nessun numero e' stato fornito. Si prega di aggiungere almeno un numero.
 emergency_numbers.validation.n_duplicated =

@@ -12,4 +12,4 @@ extension_time_group.schedules.wday_end = Giorno Fine Settimana
 extension_time_group.schedules.wday_start = Giorno Inizio Settimana
 extension_time_group.select_time = -- Selezione un Orario --
 menu.my_time_group = Il Mio Gruppo Temporale
-module.extension_timegroup = Il Mio Gruppo Temporale
+module.extension_timegroup = Il Mio Gruppo Temporale.

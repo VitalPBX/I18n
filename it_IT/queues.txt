@@ -165,11 +165,3 @@ queues.hangup_dest = After Agent Hangup Destination
 queues.no_agents = No agents assigned to this queue. Please add at least one agent
 queues.join_announcement = Join Announcement
 queues.join_announcement.tooltip = An announcement may be specified which is played to the caller as soon as they reach this queuequeues.max_reached = You have reached the maximum number of queues allowed
-queues.max_reached = You have reached the maximum number of queues allowed
-queues.answered_elsewhere = Mark Cancelled Calls as Answered
-queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.
-queues.queue_callback = Queue Callback
-queues.queue_callback.tooltip = 
-	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
-	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
-	the selected queue callback's item, also, the IVR feature gets disabled for this queue.

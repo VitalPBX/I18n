@@ -20,12 +20,12 @@ users_profiles.permissions = Permessi
 users_profiles.change_language = Cambia Lingua
 users_profiles.change_language.tooltip =
 	Definisce se l'utente con assegnato questo profilo puo' cambiare la lingua della GUI.
-users_profiles.get_updates = Get Updates
+users_profiles.get_updates = Ricevi aggiornamenti
 users_profiles.get_updates.tooltip =
 	Definisce se un utente con questo profilo assegnato sara' in grado di aggiornare il file <b>{0}</b> dalla GUI.
 users_profiles.update_profile = Aggiorna Profilo
 users_profiles.update_profile.tooltip =
-	Definisce se un utente con questo profilo assegnato sara' in grado di aggiornare le sue impostazioni del profilo.users_profiles.multiple_users = multiple users
-users_profiles.role_is_being_used = This role is being used by {0}
-users_profiles.single_user = <b>{0}</b> user
-users_profiles.multiple_users = multiple users
+	Definisce se un utente con questo profilo assegnato sara' in grado di aggiornare le sue impostazioni del profilo.
+users_profiles.multiple_users = utenti multipli
+users_profiles.role_is_being_used = Questo ruolo e' utilizzato da {0}
+users_profiles.single_user = <b>{0}</b> utente

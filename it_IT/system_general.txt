@@ -42,13 +42,4 @@ system_general.dnd.tooltip =
 	Consente di definire un prompt personalizzato che verra' riprodotto quando un'estensione ha attivato il DND.
 system_general.blacklisted = Per la Lista Nera
 system_general.blacklisted.tooltip =
-	Consente di definire un prompt personalizzato che verra' riprodotto per i chiamanti che sono nella lista nera.system_general.featuredigittimeout = Features Digit Timeout
-system_general.featuredigittimeout.placeholder = Value in milliseconds
-system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
-system_general.transferdigittimeout = Transfer Digit Timout
-system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
-system_general.featuredigittimeout = Features Digit Timeout
-system_general.gui_settings = GUI Settings
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
+	Consente di definire un prompt personalizzato che verra' riprodotto per i chiamanti che sono nella lista nera.

@@ -13,5 +13,5 @@ pickup_group.general = Generale
 pickup_group.member = Membro
 pickup_group.member.tooltip = Indica se questo interno e' un membro di questo Gruppo di Pickup
 pickup_group.no_options = Gli Interni devono essere designati come membri e / o essere autorizzate al Pickup.
-pickup_group.members = Members
-pickup_group.members.empty = No valid members has been added to this pickup group.
+pickup_group.members = Membri
+pickup_group.members.empty = Hai raggiunto il numero massimo di parcheggi consentiti.
