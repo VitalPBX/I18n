@@ -3,3 +3,6 @@ menu.geo_firewall = {geo_firewall}
 module.geo_firewall = {geo_firewall}
 geo_firewall.general = {ombutel.general}
 geo_firewall.license.max_items = You may only block one country on the free version of this add-on
+geo_firewall.select_all = Select All Countries
+geo_firewall.unselect_all = Unselect All Countries
+menu.geo_firewall = Countries List
