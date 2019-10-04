@@ -52,3 +52,6 @@ queues_callback.thank_you_prompt = Mensaje de Despedida
 queues_callback.thank_you_prompt.tooltip = 
 	Mensaje que se reproducirá a la persona que llama después de terminar de programar una devolución de llamada. 
 	Mensaje predeterminado: "Gracias, pronto le devolveremos la llamada"
+queues_callback.dial_agents_first = Primero Llamar a los Agentes
+queues_callback.dial_agents_first.tooltip = 
+	Si se establece en sí, las devoluciones de llamada programadas se enviarán primero a los agentes y luego al cliente.

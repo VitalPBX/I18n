@@ -11,4 +11,23 @@ phone_books.contacts.tooltip = Permette di selezionare quale {0} sara' disponibi
 phone_books.validations.no_contacts = Non hai selezionato alcun contatto per questa rubrica. Si prega di selezionare almeno un contatto.
 phone_books.validations.no_desc = E' stata fornita una descrizione non valida. Si prega di fornire una descrizione alfanumerica.
 phone_books.url = URL Rubrica
-phone_books.url.tooltip = URL da inserire nella configurazione del telefono per visualizzare la Rubrica.
+phone_books.url.tooltip = URL da inserire nella configurazione del telefono per visualizzare la Rubrica.phone_books.contacts = Contacts
+phone_books.csv = CSV File
+phone_books.csv.missing_columns = {import_extensions.missing_columns}
+phone_books.csv.tooltip = File with the list of contacts to import on this phonebook
+phone_books.email = E-mail
+phone_books.firs_name = First Name
+phone_books.job_title = Job Title
+phone_books.last_name = Last Name
+phone_books.organization = Organization
+phone_books.phone = Phone
+phone_books.prefix = Prefix
+phone_books.prefix.tooltip = 
+	Optional prefix to be appended to phone numbers at the moment of generating the phonebook. Useful if you use prefixes
+	for dialing.
+phone_books.source_type = Type
+phone_books.source_type.external = External
+phone_books.source_type.internal = Internal
+phone_books.source_type.tooltip = 
+    It allows you to define if you will use internal numbers (Queues, Conferences, Extensions, etc) or import external
+    numbers to your PBX

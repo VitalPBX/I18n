@@ -51,3 +51,6 @@ queues_callback.ringtime.tooltip = Позволяет вам определит�
 queues_callback.thank_you_prompt = Thanks Prompt
 queues_callback.thank_you_prompt.tooltip = 
 	Message to be played to the caller after finish scheduling a callback. Default Message: "Thanks, you will be callback soon"
+queues_callback.dial_agents_first = Dial Agents First
+queues_callback.dial_agents_first.tooltip = 
+	If set to yes, the scheduled callbacks will be sent first to the agents and then to the customer.

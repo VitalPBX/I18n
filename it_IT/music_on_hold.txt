@@ -29,3 +29,6 @@ music_on_hold.order.shuffle = Casuale
 music_on_hold.order.shuffle.tooltip = Riproduci i file audio in modo casuale.
 music_on_hold.order.tooltip = Ordine di riproduzione dei file audio
 music_on_hold.sound_player = Sound Player
+music_on_hold.default.tooltip = 
+	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
+	checked as default

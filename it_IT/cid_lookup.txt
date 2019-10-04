@@ -49,3 +49,7 @@ cid_lookup.username.tooltip = Nome utente da utilizzare per l'autenticazione MyS
 cid_lookup.validation.no_database = Non e' stato fornito alcun nome di database.
 cid_lookup.validation.no_mysql_username = Nessun nome utente e' stato fornito.
 cid_lookup.validation.no_query = Nessuna query e' stata fornita.
+cid_lookup.phonebook = PhoneBook {0}
+cid_lookup.phonebook.tooltip = PhoneBook to use as CID Lookup source. Only the external phone books are listed here
+cid_lookup.source.option.phonebook = PhoneBook
+cid_lookup.validation.no_phonebook = You have not selected any phonebook

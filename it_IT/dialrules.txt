@@ -24,3 +24,5 @@ menu.dialing_restriction_rules = Regole di Restrizione Chiamata
 module.dialrules = Regole di Restrizione Chiamata
 dialrules.no_rules = Non sono stati forniti schemi di regole di composizione validi
 dialrules.used_by_cos = Questo elemento non puoì essere eliminato perche' viene utilizzato da una o piu' <b>Classi di Servizio</b>.
+dialrules.custom_rules_context = Custom Rules Context
+dialrules.custom_rules_context.tooltip = It allows you to include a custom context with your own advanced rules

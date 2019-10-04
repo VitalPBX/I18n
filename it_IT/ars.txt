@@ -10,3 +10,4 @@ ars.time_group_id = Intervallo di Tempo
 menu.route_selections = Seleziona Rotte
 module.ars = Seleziona Rotte
 ars.used_by_cos = Questo elemento non puo' essere eliminato perche' viene utilizzato da una o piu' <b>Classe di Servizio</b>
+ars.none = {none}

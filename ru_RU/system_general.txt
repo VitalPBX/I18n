@@ -52,3 +52,7 @@ system_general.transferdigittimeout.tooltip = Количество секунд 
 system_general.gui_settings = GUI Settings
 system_general.show_login_panel = Show Login Panel
 system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
+system_general.queues_callback = Queues CallBack
+system_general.search_frequency = Search Frequency
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.

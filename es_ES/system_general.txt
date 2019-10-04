@@ -50,3 +50,7 @@ system_general.transferdigittimeout.tooltip = Número de segundos a esperar entr
 system_general.gui_settings = Configuraciones de GUI
 system_general.show_login_panel = Mostrar Panel de Inicio de Sesión
 system_general.show_login_panel.tooltip = Si se establece en sí, muestra un panel con los complementos de sonata cuando se instalan.
+system_general.queues_callback = Devolución de Llamadas de Colas
+system_general.search_frequency = Frecuencia de Búsqueda
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.search_frequency.tooltip = Define con qué frecuencia el servicio de devolución de llamada de colas buscará devoluciones de llamada programadas.

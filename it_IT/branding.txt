@@ -16,3 +16,6 @@ branding.twitter_page = Pahina Twitter
 branding.youtube_channel = Canale YouTube
 menu.branding = {branding}
 module.branding = {branding}
+branding.app_name = APP Name
+branding.app_name.tooltip = It allows you to modify the main tenant name
+branding.instagram_page = Instagram Page
