@@ -223,3 +223,17 @@ profiles_sip_force_avp_tooltip =
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
 profiles_sip_rtcp_mux_tooltip = Включить поддержку RTCP RFC 5761 мультиплексирования, которая требуется для поддержки WebRTC
+profiles_pjsip_qualify_frequency = Интервал проверки
+profiles_pjsip_qualify_frequency_tooltip = Интервал между попытками проверить контакт на доступность. Если 0 никогда не проверять. Время в секундах.
+profiles_pjsip_qualify_timeout = Тайм-аут проверки
+profiles_pjsip_qualify_timeout_tooltip = Если контакт не отвечает на запрос OPTIONS до истечения тайм-аута, он помечается как недоступный. Если 0, то нет тайм-аута.
+profiles_pjsip_send_pai = Отправлять P-Asserted-Identity
+profiles_pjsip_send_pai_tooltip = Отправлять заголовок P-Asserted-Identity
+profiles_pjsip_send_rpid = Отправлять Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Отправлять заголовок Remote-Party-ID
+profiles_pjsip_send_diversion = Отправлять заголовок Diversion
+profiles_pjsip_send_diversion_tooltip = Отправляет заголовок Diversion, передавая информацию о переадресации вызываемому агенту пользователя
+profiles_pjsip_webrtc = WebRTC
+profiles_pjsip_webrtc_tooltip =
+	Если установлено значение <b>«Да»</b>, то это также включает следующие значения, которые необходимы для работы базовой 
+	поддержки WebRTC: rtcp_mux, use_avpf, ice_support и use_received_transport.	
