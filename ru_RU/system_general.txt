@@ -49,3 +49,6 @@ system_general.featuredigittimeout.tooltip = Максимальное время
 system_general.transferdigittimeout = Таймаут перевода вызова
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
 system_general.transferdigittimeout.tooltip = Количество секунд ожидания между набором цифр при переводе вызова (по умолчанию 3 секунды)
+system_general.gui_settings = Настройки интерфейса
+system_general.show_login_panel = Показать панель входа
+system_general.show_login_panel.tooltip = Если установлено значение <b>«Да»</b>, отображается панель с надстройками Sonata, если они установлены.
