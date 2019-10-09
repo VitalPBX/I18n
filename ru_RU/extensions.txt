@@ -250,3 +250,20 @@ extensions.dynamic_routing.tooltip =
 	ранее была вызвана этим номером) перезванивает, ее вызов будет перенаправлен непосредственно на этот номер
 extensions.fxs_channel.invalid = FXS канал не может быть пустым
 extensions.max_reached = Вы достигли максимально допустимого количества номеров
+extensions.cid_on_diversions = CID при переадресации
+extensions.cid_on_diversions.tooltip =
+	Позволяет вам определить, какой идентификатор вызывающего абонента будет отправлен при переадресации.<br><br>
+	<b>{parking.caller}: </b> Будет отправлен идентификатор вызывающего абонента, который звонит. <br>
+	<b>{parking.callee}: </b> Будет отправлен идентификатор вызывающего абонента, который получил вызов.
+extensions.cid_on_diversions.caller = {parking.caller}
+extensions.cid_on_diversions.callee = {parking.callee}
+extensions.initial_ringtime = Начальное время вызова
+extensions.initial_ringtime.tooltip = Время в секундах для вызова основного номера, прежде чем вызов переадресуется на номера из списка "Cледуй за мной"
+extensions.initial_ringtime.not_ring = Не вызывать
+extensions.followme.enabled = Включено
+extensions.followme.enabled.tooltip = Позволяет включить/отключить функцию «Следуй за мной» на этом номере.
+extensions.outbound_profile = Исходящий профиль
+extensions.outbound_profile.tooltip =
+	Позволяет вам определить исходящий профиль для этого номера. Эти профили должны содержать коллекцию исходящих маршрутов и
+	соответствующие им шаблоны, поэтому в зависимости от исходящего профиля пользователь этого номера сможет вызывать 
+	или не вызывать определенные номера.
