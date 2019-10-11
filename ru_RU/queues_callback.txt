@@ -48,9 +48,9 @@ queues_callback.invalid_message.tooltip =
 	<br><br> Сообщение по умолчанию:"I'm sorry, that is not a recognized phone number"
 queues_callback.ringtime = {extensions.ringtime}
 queues_callback.ringtime.tooltip = Позволяет вам определить время, в течении которого номера обратного звонка будут вызываться, прежде чем вызов будет помечен как не отвеченный
-queues_callback.thank_you_prompt = Thanks Prompt
-queues_callback.thank_you_prompt.tooltip = 
-	Message to be played to the caller after finish scheduling a callback. Default Message: "Thanks, you will be callback soon"
-queues_callback.dial_agents_first = Dial Agents First
-queues_callback.dial_agents_first.tooltip = 
-	If set to yes, the scheduled callbacks will be sent first to the agents and then to the customer.
+queues_callback.thank_you_prompt = Сообщение с благодарностью
+queues_callback.thank_you_prompt.tooltip =
+	Сообщение, которое будет воспроизведено для вызывающего абонента после завершения планирования обратного вызова. Сообщение по умолчанию: «Thanks, you will be callback soon»	
+queues_callback.dial_agents_first = Сначала вызов агентов
+queues_callback.dial_agents_first.tooltip =
+	Если установлено значение <b>«Да»</b>, запланированные обратные звонки будут отправляться сначала агентам, а затем клиенту.
