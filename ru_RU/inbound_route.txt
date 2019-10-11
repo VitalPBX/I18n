@@ -38,7 +38,9 @@ inbound_route.privacyman.tooltip = Если номер (CallerID) абонент
 inbound_route.routing_method = Метод маршрутизации
 inbound_route.routing_method.dahdi = FXO
 inbound_route.routing_method.default = По умолчанию
-inbound_route.routing_method.tooltip = Значение по умолчанию должно совпадать с DID, иначе c каналом FXO.
+inbound_route.routing_method.tooltip = 
+	По умолчанию используется для сопоставления по DID, опция «Диапазон DID» предназначена для сопоставления диапазона DID с
+	номерами, а опция «FXO» для сопоставления по каналу FXO.
 menu.inbound_routes = Входящие маршруты
 module.inbound_route = Входящие маршруты
 inbound_route.cid_management_id = Изменение CID
@@ -47,13 +49,13 @@ inbound_route.cid_lookup_id = Поиск CID
 inbound_route.cid_lookup_id.tooltip =
 	Позволяет вам искать и сопоставлять идентификатор вызывающего абонента (CallerID) с каталогом CRM, облачным каталогом или 
   любым другим каталогом, для корректной идентификации вызовов.
-inbound_route.append = {cid_management.append_to_cid_number}
-inbound_route.append.tooltip = Suffix to be added to the obtained number after retrieving the desired number of digits from the original DID
+inbound_route.range_parameters = Параметры диапазона
+inbound_route.routing_method.did_range = Диапазон DID
+inbound_route.digits_to_take = Цифры, которые нужно взять
+inbound_route.digits_to_take.tooltip = Количество цифр справа налево, которые нужно взять из предоставленного DID
 inbound_route.cos = {class_of_service}
-inbound_route.cos.tooltip = Class of Service to use for routing calls of this DID's range
-inbound_route.digits_to_take = Digits to Take
-inbound_route.digits_to_take.tooltip = Number of digits to take from right to left of the provided DID
+inbound_route.cos.tooltip = Класс обслуживания, используемый для маршрутизации вызовов этого диапазона DID
+inbound_route.append = {cid_management.append_to_cid_number}
+inbound_route.append.tooltip = Суффикс, добавляемый к полученному номеру после получения нужного количества цифр из исходного DID 
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
-inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID
-inbound_route.range_parameters = Range Parameters
-inbound_route.routing_method.did_range = DID Range
+inbound_route.prepend.tooltip = Префикс, добавляемый к полученному номеру после получения нужного количества цифр из исходного DID
