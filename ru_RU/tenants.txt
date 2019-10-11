@@ -1,0 +1,86 @@
+module.tenants = Арендаторы линий
+menu.tenants = {module.tenants}
+tenants.general = Общие
+tenants.name = Имя
+tenants.description = Описание
+tenants.description.required = Описание {0}
+tenants.description.tooltip = Краткое описание для идентификации этого арендатора
+tenants.name.required = Имя {0}
+tenants.name.tooltip = Уникальное имя для этого арендатора. Это имя будет использоваться для создания папок, детализации и т.д.
+tenants.validation.enter_valid_tenant = Введите правильное имя арендатора: разрешены буквы, цифры, тире и подчеркивания
+tenants.user_name.required = Email администратора {0}
+tenants.user_name = Email администратора
+tenants.user_name.tooltip = Email пользователя-администратора, который будет управлять этой арендованной линией
+tenants.user_password.required = Пароль администратора {0}
+tenants.user_password = Пароль
+tenants.user_password.tooltip = Пароль для аутентификации администратора, который будет управлять этой арендованной линией
+tenants.limitations = Ограничения
+tenants.unlimited = Неограниченно
+tenants.extensions = Номера
+tenants.extensions.tooltip = Позволяет определить максимальное количество номеров для этого арендатора
+tenants.trunks = Внешние линии
+tenants.trunks.tooltip = Позволяет определить максимальное количество внешних линий для этого арендатора
+tenants.queues = Очереди
+tenants.queues.tooltip = Позволяет определить максимальное количество очередей для этого арендатора
+tenants.ivrs = Голосовое меню
+tenants.ivrs.tooltip = Позволяет вам определить максимальное количество голосовых меню для этого арендатора
+tenants.conferences = Конференции
+tenants.conferences.tooltip = Позволяет определить максимальное количество конференций для этого арендатора
+tenants.parking_lots = Парковочные слоты
+tenants.parking_lots.tooltip = Позволяет определить максимальное количество парковочных слотов для данного арендатора
+tenants.duplicated_name = Указанное имя уже используется
+tenants.user_settings = Администратор Арендатора
+tenants.role = {users.role}
+tenants.role.tooltip =
+	Профиль администратора этого арендатора. <b>Будьте осторожны, чтобы не назначать слишком много прав, 
+	которые могут повлиять на других арендаторов</b>
+tenants.startup = {users.startup}
+tenants.startup.tooltip = {users.startup.tooltip}
+tenants.no_role = Вы не выбрали профиль для Администратора этого арендатора
+tenants.allowed_tenant_trunks = Разрешенные арендные линии
+tenants.allowed_tenant_trunks.tooltip = Позволяет определить, какие арендаторы могут использоваться в качестве линий
+tenants.path = Путь
+tenants.path.tooltip =
+	Путь, используемый для папки этого арендатора и структуры базы данных Asterisk
+tenants.no_license = Вы достигли максимально допустимого числа арендаторов. Активируйте это дополнение с действующей лицензией для создания неограниченного количества арендаторов 
+tenants.confirm_delete =
+	Вы уверены, что хотите удалить этого арендатора? <br> Это действие необратимо, и все данные
+	связанные с этим арендатором будут удалены навсегда <br>
+tenants.prefix = Префикс
+tenants.prefix.tooltip =
+	Позволяет определить префикс, который будет использоваться для номеров устройств и всего остального.
+	Если оставить пустым, будет использоваться автоматический префикс 
+tenants.prefix.placeholder = Создавать автоматически
+tenants.enabled = Включен
+tenants.enabled.tooltip =
+	Позволяет включать/отключать арендатора. Если арендатор отключен, то пользователи, которые ему принадлежат, 
+	не смогут войти в систему или выполнять какие-либо действия	
+tenants.allow_recordings = Разрешить запись
+tenants.allow_recordings.tooltip = Позволяет вам определить, сможет ли этот арендатор записывать вызовы или нет
+tenants.recordings_maintenance = Настройки обслуживания записей
+tenants.disabled = Доступ к этому арендатору отключен, обратитесь к своему АТС провайдеру
+tenants.assign_to_existing_user = Назначить существующему пользователю
+tenants.assign_to_existing_user.tooltip = Если выбрано, вы можете назначить арендатору уже существующего пользователя, вместо создания нового
+tenants.user = Пользователь
+tenants.user.tooltip = Пользователь, который будет отвечать за администрирование и управление этим арендатором
+tenants.duplicated_prefix = Предоставленный префикс уже используется для другого Арендатора
+tenants.no_user = Арендатору не был назначен ни один пользователь
+tenants.full_name = ФИО
+tenants.full_name.tooltip = ФИО администратора, если оно не определено, будет использоваться описание арендатора
+tenants.allowed_outbound_routes = Разрешенные исходящие маршруты
+tenants.allowed_outbound_routes.tooltip =
+	Маршруты, которые будут использоваться, когда этот арендатор совершает вызовы через линию, указывающую на основного арендатора.
+	Звонки, сделанные любому другому арендатору, кроме основного, будут отправляться через правила входящих маршрутов.	
+tenants.inbound_numbers = Входящие DID
+tenants.inbound_numbers.tooltip =
+	Список номеров/шаблонов, принадлежащих этому арендатору. Звонки, соответствующие этим номерам, будут автоматически
+	перенаправляться на эти входящие маршруты арендатора. Конфигурация этих номеров имеет приоритет над правилами входящих
+	маршрутов основного арендатора.	
+tenants.scom_devices = Устройства Softphone
+tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.
+tenants.did_pattern = DID Pattern
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Outbound Profiles
+tenants.outbound_profiles.tooltip = 
+	Allows you to define what route selection items can be used as an outbound profile on this tenant.
+tenants.routing = Calls Routing

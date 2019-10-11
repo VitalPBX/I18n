@@ -1,0 +1,57 @@
+menu.queues_callback = {queues_callback}
+module.queues_callback = {queues_callback}
+queues_callback = Retorno de Llamada de Colas
+queues_callback.allowed_patterns = Reglas de Número Permitidos
+queues_callback.allowed_tries = Intentos Máximos
+queues_callback.allowed_tries.tooltip = Cantidad de intentos permitidos antes de marcar la llamada como fallida
+queues_callback.ask_callback_number = Preguntar Número de Devolución de Llamada
+queues_callback.ask_callback_number.tooltip = 
+	Si está habilitado, se le pedirá a la persona que llama que ingrese su número de retorno de llamada. Si se establece en no, el número de identificación de 
+	llamada se usará como número de retorno de llamada, siempre que el número coincida con las reglas de número permitidas.
+queues_callback.cid = Identificador de Llamadas
+queues_callback.cid.tooltip = 
+	Información del identificador de llamadas para usar durante el retorno de llamada. Esta información podría ser modificada durante el proceso de llamada 
+	por la configuración de troncales o rutas de salida.
+queues_callback.cid_name = Nombre del Identificador de Llamadas
+queues_callback.cid_number = Número de Identificación de Llamada
+queues_callback.cos = Clase de Servicio
+queues_callback.cos.tooltip = 
+	Le permite definir qué Clase de Servicio se utilizará para realizar el retorno de llamada. Recuerde que la Clase de Servicio contiene los permisos para 
+	permitir llamadas salientes a través de troncales específicas o rutas salientes.
+queues_callback.description = Descripción
+queues_callback.description.tooltip = Breve descripción
+queues_callback.dial_prefix = Prefijo de Marcación
+queues_callback.dial_prefix.tooltip = Si se define, se antepondrá al número de retorno de llamada solicitado.
+queues_callback.enabled = Habilitado
+queues_callback.enabled.tooltip = Le permite Habilitar/Deshabilitar reglas de patrones
+queues_callback.general = {ombutel.general}
+queues_callback.invalid_message = Mensaje inválido
+queues_callback.invalid_message.tooltip = 
+	Mensaje que se reproducirá cuando el número proporcionado por la persona que llama no coincida con las reglas de número definidas. <br><br> Mensaje predeterminado:
+	"Lo siento, ese no es un número de teléfono reconocido"
+queues_callback.none = {none}
+queues_callback.number_prompt = Mensaje de Solicitud de Número
+queues_callback.number_prompt.tooltip = 
+	Mensaje de instrucciones para solicitar ingresar el número de retorno de llamada. <br><br> Mensaje predeterminado: "Ingrese su número de teléfono"
+queues_callback.pattern = Patrón
+queues_callback.pattern.tooltip = Permite definir reglas de qué tipo de números se pueden usar al solicitar un retorno de llamada
+queues_callback.periodic_announcement = Mensaje de Instrucciones
+queues_callback.periodic_announcement.tooltip = 
+	Mensaje que se reproducirá con las instrucciones para solicitar un retorno de llamada. <br><br> Mensaje predeterminado: "Todos nuestros 
+	representantes están ocupados actualmente. Permanezca en línea y el próximo representante disponible responderá su llamada, o presione uno 
+	para que se le retorne la llamada cuando haya un representante disponible "
+queues_callback.queue = Retorno de Llamada de Cola
+queues_callback.queue.tooltip = Le permite definir la cola a la que se enviarán las personas que soliciten un retorno de llamada.
+queues_callback.ringtime = {extensions.ringtime}
+queues_callback.ringtime.tooltip = Le permite definir la duración de repique a los números de retorno de llamada antes de marcar la llamada como no contestada.
+queues_callback.same_queue = Misma Cola
+queues_callback.time_group = Grupo Horario
+queues_callback.time_group.tooltip = 
+	Le permite configurar un Horario para definir los tiempos permitidos para realizar retorno de llamada
+queues_callback.thank_you_prompt = Mensaje de Despedida
+queues_callback.thank_you_prompt.tooltip = 
+	Mensaje que se reproducirá a la persona que llama después de terminar de programar una devolución de llamada. 
+	Mensaje predeterminado: "Gracias, pronto le devolveremos la llamada"
+queues_callback.dial_agents_first = Primero Llamar a los Agentes
+queues_callback.dial_agents_first.tooltip = 
+	Si se establece en sí, las devoluciones de llamada programadas se enviarán primero a los agentes y luego al cliente.

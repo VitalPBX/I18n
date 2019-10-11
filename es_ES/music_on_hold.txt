@@ -29,3 +29,6 @@ music_on_hold.order.shuffle = Aleatorio
 music_on_hold.order.shuffle.tooltip = Reproduce archivos de audio de forma aleatoria
 music_on_hold.order.tooltip = Orden de reproducción de los archivos de audio
 music_on_hold.sound_player = Reproductor de Sonido
+music_on_hold.default.tooltip = 
+	Si se marca, los sonidos de este grupo de música se usarán para la clase de música en espera predeterminada. Solo un grupo de música puede 
+	estar marcado como predeterminado

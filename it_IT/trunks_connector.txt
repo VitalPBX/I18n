@@ -20,4 +20,4 @@ trunks_connector_extensions.incoming_recording = Registrazione Ingresso
 trunks_connector_extensions.incoming_recording.title = Definisce se le chiamate in arrivo verranno registrate.
 trunks_connector_extensions.outgoing_recording = Registrazione Uscita
 trunks_connector_extensions.outgoing_recording.title = Definisce se le chiamate in uscita verranno registrate.
-trunks_connector_extensions.validation.duplicated_numbers = The extension/did is already in use by <b>{0}</b>
+trunks_connector_extensions.validation.duplicated_numbers = Estensione / did e' gia' in uso da <b> {0} </b>

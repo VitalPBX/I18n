@@ -171,3 +171,8 @@ queues.no_agents = No hay agentes asignados a esta cola. Por favor agregue al me
 queues.max_reached = Has alcanzado el número máximo de colas permitidas.
 queues.answered_elsewhere = Marcar Llamadas Canceladas como Respondidas
 queues.answered_elsewhere.tooltip = Marque todas las llamadas como "contestadas en otro lugar" cuando se cancelen. Esto evita una llamada perdida en el teléfono si este lo soporta.
+queues.queue_callback = Retorno de Llamada de Cola
+queues.queue_callback.tooltip = 
+	Le permite definir si las personas que llaman que llegan a esta cola podrán solicitar el retorno de llamada de la cola en caso de que todos los agentes estén ocupados. <br><br>
+	Cuando se selecciona el retorno de llamada de cola, el "Anuncio periódico" se reemplaza por el "Mensaje de instrucciones" configurado para
+	el elemento de retorno de llamada de la cola seleccionada, también, la función IVR se desactiva para esta cola.

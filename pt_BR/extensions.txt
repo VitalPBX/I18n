@@ -250,3 +250,20 @@ extensions.static_queues.tooltip =
 module.vm_busy = Voicemail Busy
 module.vm_direct = Voicemail Direct
 module.vm_unavailable = Voicemail Unavailable
+extensions.cid_on_diversions = CallerID On Diversions
+extensions.cid_on_diversions.callee = {parking.callee}
+extensions.cid_on_diversions.caller = {parking.caller}
+extensions.cid_on_diversions.tooltip = 
+	It allows you to define what caller id will be sent when a diversion is performed.<br><br>
+	<b>{parking.caller}: </b> It will be sent the caller id of who is calling. <br>
+	<b>{parking.callee}: </b> It will be sent the caller id of who received the call.
+extensions.followme.enabled = Enabled
+extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
+extensions.initial_ringtime = Initial Ring Time
+extensions.initial_ringtime.not_ring = Not Ring
+extensions.initial_ringtime.tooltip = Time in seconds to ring the primary extension before calling to the members on the follow-me list
+extensions.outbound_profile = Outbound Profile
+extensions.outbound_profile.tooltip = 
+	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
+	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
+	be able to call or not to certain numbers.

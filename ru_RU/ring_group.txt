@@ -1,0 +1,46 @@
+menu.ring_groups = Группы вызова
+module.ring_group = Группы вызова
+ring_group = Группа Вызова
+ring_group.description = Описание
+ring_group.description.tooltip = Краткое описание для идентификации этой группы вызова.
+ring_group.destination = Назначение
+ring_group.extension = Номер группы
+ring_group.extension.invalid = Необходимо назначить номер
+ring_group.extension.tooltip = Номер для звонка в данную группу.
+ring_group.general = Общие
+ring_group.invalid.already_exists = Недопустимый номер группы вызова {0}. Номер используется модулем {1}.
+ring_group.last_destination = Направление, если никто не ответил.
+ring_group.last_destination.tooltip = Выберите модуль, куда перенаправить вызов, если недоступен ни один из внутренних номеров.
+ring_group.list = Внут. номера
+ring_group.list.tooltip = Список внутренних номеров для этой группы вызова.
+ring_group.mod_dest = Модуль назначения
+ring_group.music_group_id = Музыка на удержании
+ring_group.music_group_id.tooltip = Этот параметр указывает будет ли позвонивыший слушать музыку вместо простого сигнала вызова, пока кто-нибудь не поднимет трубку.
+ring_group.prefix = Префикс группы
+ring_group.prefix.invalid = Введите допустимый префикс. Разрешены подчеркивания, тире и буквенно-цифровые значения.
+ring_group.prefix.tooltip = Префикс группы, добавляемый к идентификатору пользователя. Например, если это группа «Sales:», то, установив такой префикс для этой группы, при звонке John Doe мы увидим на дисплее Sales:John Doe.
+ring_group.ringtime = Время звонка
+ring_group.ringtime.tooltip = Время в секундах в течение которого телефоны будут звонить, макс. 160 секунд.
+ring_group.ringtime.values = Значение должно быть от 5 до 160 секунд.
+ring_group.select_extensions = Выберите внутренние номера
+ring_group.strategy = Стратегия вызова
+ring_group.strategy.one_by_one = Один за другим
+ring_group.strategy.ringall = Звонят все
+ring_group.strategy.tooltip = Стратегия вызова пользователей группы.
+ring_group.validation.duplicated_description = Указанное описание используется другой группой вызова
+ring_group.validation.no_extensions = В эту группу вызова не добавлено ни одного внутреннего или внешнего номера
+ring_group.validation.duplicated_extension = Указанный номер группы уже используется другой группой вызова
+ring_group.external_numbers = Внешние номера
+ring_group.external_numbers.tooltip = Список внешних номеров для этой группы вызова
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Класс обслуживания, используемый для набора внешних номеров, перечисленных в этой группе вызова
+ring_group.validation.no_valid_number =
+	Внешний номер <b>{0}</b> содержит недопустимые символы. 
+	Разрешены только числа и символы: *, # и + 
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip =
+	Если эта опция включена, другие телефоны не будут записывать событие как "пропущенный вызов", если на этот вызов был дан ответ
+	участником этой группы звонков. Это очень полезная настройка, когда для стратегии вызова установлено значение «Звонить всем».	
+ring_group.allow_diversions = Allow Diversions
+ring_group.allow_diversions.tooltip = 
+	Allows you to define if the diversions defined for the different extensions members will be applied or not.

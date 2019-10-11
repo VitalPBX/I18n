@@ -23,15 +23,15 @@ bulk_extensions.features_password.tooltip =
 	E' possibile utilizzare la parola riservata <b>&#123;EXTENSION&#125;</b> per utilizzare l'interno come password delle funzionalita'.
 bulk_extensions.validation.invalid_range = E' stato fornito un intervallo di interno non valido
 bulk_extensions.validation.invalid_vm_password =
-	La password di voicemail contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate
+	La password di voicemail contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate.
 bulk_extensions.validation.invalid_f_password =
-	La password delle funzioni contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate
+	La password delle funzioni contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate.
 bulk_extensions.success =
 	L'intervallo degli interni e' stato elaborato correttamente. <b>Interni Creati</b>: {0} | <b>Interni Saltati</b>: {1}
 bulk_extensions.name_prefix = Prefisso Nome
 bulk_extensions.name_prefix.tooltip =
 	Consente di definire un prefisso da utilizzare come parte del nome dell'interno, es.: se si imposta il valore del prefisso su Agent e
-	l'interno e' 200, il nome dell'interno sara' <b>Agent 200</b>. se vuoto, la parola <b>Interno</b> sara' usato come prefisso
+	l'interno e' 200, il nome dell'interno sara' <b>Agent 200</b>. se vuoto, la parola <b>Interno</b> sara' usato come prefisso.
 bulk_extensions.device_password = Password Dispositivi
 bulk_extensions.device_password.tooltip =
 	Permette di definire una password dinamica o fissa per i dispositivi generati. Se vuoto, verra' impostata una password casuale.

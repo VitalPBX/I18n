@@ -29,3 +29,6 @@ music_on_hold.order.shuffle = 任意播放
 music_on_hold.order.shuffle.tooltip = Play audio files in random order
 music_on_hold.order.tooltip = 回放语音文件
 music_on_hold.sound_player = 播放器
+music_on_hold.default.tooltip = 
+	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
+	checked as default

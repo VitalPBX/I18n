@@ -29,3 +29,6 @@ music_on_hold.order.shuffle = Aléatoire
 music_on_hold.order.shuffle.tooltip = Lit les fichiers dans un ordre aléatoire
 music_on_hold.order.tooltip = Ordre de lecture des musiques d'attentes
 music_on_hold.sound_player = Lecteur audio
+music_on_hold.default.tooltip = 
+	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
+	checked as default

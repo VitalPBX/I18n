@@ -1,0 +1,50 @@
+dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.auth_password = {cid_lookup.password}
+dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
+dynamic_destinations.auth_user = {cid_lookup.user}
+dynamic_destinations.auth_user.tooltip = {cid_lookup.user.tooltip}
+dynamic_destinations.condition = Respuesta
+dynamic_destinations.conditions.empty = No hay destinos válidos definidos
+dynamic_destinations.database = Database {0}
+dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
+dynamic_destinations.default_destination = Destino Predeterminado {0}
+dynamic_destinations.default_destination.tooltip = Destino a ejecutar en caso de recibir una respuesta indefinida
+dynamic_destinations.description = Descripción {0}
+dynamic_destinations.description.tooltip = Breve descripción de este item.
+dynamic_destinations.destination = Destino
+dynamic_destinations.destinations = Destinos
+dynamic_destinations.destinations.title = Destinos a ejecutar según la respuesta recibida después de la ejecución del script
+dynamic_destinations.enabled = Habilitado
+dynamic_destinations.general = {ombutel.general}
+dynamic_destinations.host = Host {0}
+dynamic_destinations.host.tooltip = Le permite definir el host o la dirección IP donde se encuentra el script
+dynamic_destinations.mod_dest = Módulo de Destino Predeterminado
+dynamic_destinations.mysql_host = Host {0}
+dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
+dynamic_destinations.mysql_password = Contraseña
+dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
+dynamic_destinations.mysql_username = Nombre de Usuario {0}
+dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
+dynamic_destinations.path = Ruta {0}
+dynamic_destinations.path.tooltip = Nombre de script para ejecutar
+dynamic_destinations.port = {cid_lookup.port}
+dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
+dynamic_destinations.query = Consulta {0}
+dynamic_destinations.query.tooltip = 
+	Consulta para ejecutar. El token especial <b>[CIDNUM]</b> se reemplazará con el número de la persona que llama. p.ej.:
+	<b> SELECT 'VIP_CUSTOMER' as `response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+dynamic_destinations.query_string = Cadena de Consulta
+dynamic_destinations.query_string.tooltip = 
+	Serie de parámetros que se enviarán como parte del script.
+	El valor del argumento especial <b>[CIDNUM]</b> se reemplazará por el número de cid del llamador.
+	<br><br> Ejemplo: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+dynamic_destinations.secure = {cid_lookup.secure}
+dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
+dynamic_destinations.type = Tipo de Fuente
+dynamic_destinations.type.option.api = URL
+dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
+dynamic_destinations.type.tooltip = Tipo de fuente a utilizar
+dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
+dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
+menu.dynamic_destinations = Destinos Dinámicos
+module.dynamic_destinations = {menu.dynamic_destinations}

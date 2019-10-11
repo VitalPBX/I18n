@@ -27,3 +27,10 @@ vpn_client.status.tooltip = Muestra el estado actual de la conexión del cliente
 vpn_client.update_config = Actualizar Configuración
 vpn_client.upload.success = La configuración se ha subido con éxito.
 vpn_client.upload_config = Cargar Configuración
+vpn_client.connection_log = Registro de Conexión
+vpn_client.service_status = Estado del Servicio
+vpn_client.service_status.tooltip = 
+	Muestra el estado del servicio. No confunda este estado con el estado de la conexión, el servicio puede 
+	estar ejecutándose pero no necesariamente estar conectado al servidor.
+vpn_client.status.running = Corriendo
+vpn_client.status.stopped = Detenido

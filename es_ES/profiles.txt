@@ -223,3 +223,17 @@ profiles_sip_force_avp_tooltip =
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
 profiles_sip_rtcp_mux_tooltip = Habilite el soporte para la multiplexación RTCP del RFC 5761 que se requiere para el soporte de WebRTC
+profiles_pjsip_qualify_frequency = Calificar Frecuencia
+profiles_pjsip_qualify_frequency_tooltip = Intervalo entre intentos de calificar al contacto para alcanzarlo. Si 0 nunca califica. Tiempo en segundos.
+profiles_pjsip_qualify_timeout = Calificar Tiempo de Espera
+profiles_pjsip_qualify_timeout_tooltip = Si el contacto no responde a la solicitud de OPCIONES antes del tiempo de espera, el contacto se marca como no disponible. Valor 0 no hay tiempo de espera.
+profiles_pjsip_send_diversion = Enviar Encabezado de Desvío
+profiles_pjsip_send_diversion_tooltip = Envíe el encabezado de desvío, transmitiendo la información de desvío al agente de usuario llamado
+profiles_pjsip_send_pai = Enviar Identidad Afirmada-P
+profiles_pjsip_send_pai_tooltip = Enviar Encabezado Identidad Afirmada-P
+profiles_pjsip_send_rpid = Enviar Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Enviar Encabezado Remote-Party-ID
+profiles_pjsip_webrtc = WebRTC
+profiles_pjsip_webrtc_tooltip = 
+	Cuando se establece en "sí", esto también habilita los siguientes valores necesarios para que funcione el soporte básico de WebRTC:
+	rtcp_mux, use_avpf, ice_support y use_received_transport.

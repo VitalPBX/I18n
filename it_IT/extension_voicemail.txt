@@ -18,6 +18,6 @@ extension_voicemail.voicemail.date = Data
 extension_voicemail.voicemail.duration = Durata (Secondi)
 extension_voicemail.voicemail.folder = Cartella
 extension_voicemail.voicemail.origin = Origine Voicemail
-extension_voicemail.vm_not_deleted = Impossibile eliminare il messaggio vocale selezionato
+extension_voicemail.vm_not_deleted = Impossibile eliminare il messaggio vocale selezionato.
 menu.my_voicemail = Mia Voicemail
 module.extension_voicemail = Mia Voicemail

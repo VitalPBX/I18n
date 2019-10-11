@@ -42,3 +42,35 @@ cid_management.v.description.unique = Description must be unique
 cid_management.v.prepend_to_cid_number.invalid = %s is invalid. Only numbers and *,#,+ are allowed.
 cid_management.cid_name = Original CID Name
 cid_management.general = {ombutel.general}
+cid_management.api_settings = HTTP/HTTPS Request Settings
+cid_management.auth_password = Auth Password
+cid_management.auth_password.tooltip = The password to authenticate the HTTP/HTTPS request
+cid_management.auth_user = Auth User
+cid_management.auth_user.tooltip = The username to authenticate the HTTP/HTTPS request
+cid_management.database = Database {0}
+cid_management.database.tooltip = Database name
+cid_management.mysql_host = Host {0}
+cid_management.mysql_host.tooltip = Hostname or IP address where the database is hosted
+cid_management.mysql_password = Password
+cid_management.mysql_password.tooltip = The password to authenticate the database queries
+cid_management.mysql_settings = MySQL Settings
+cid_management.mysql_username = Username {0}
+cid_management.mysql_username.tooltip = The username to authenticate the database queries
+cid_management.query = Query {0}
+cid_management.query.tooltip = 
+	Query to be executed. e.g.: <b>select cidname, cidnumber from customer where phone = '[CIDNUM]'</b> <br><br>
+	The <b>[CIDNUM]</b> variable will be replaced by the caller number, and the <b>[CIDNAME]</b> variable will be replaced by the caller name. <br><br>
+	The query must return the <b>cidname</b> & <b>cidnumber</b> columns to perform the CID modifications, in
+	other case, the CID info will not modified.
+cid_management.type = Source {0}
+cid_management.type.option.api = HTTP/HTTPS Request
+cid_management.type.option.mysql = MySQL
+cid_management.type.option.static = Static
+cid_management.type.tooltip = It allows you to define from where get the information to modify the CID Name/Number of the caller
+cid_management.url = URL {0}
+cid_management.url.tooltip = 
+	URL that will be called or executed. You may pass many arguments as you need, the special argument
+	<b>[CIDNUM]</b> will be replaced by the caller number and the argument <b>[CIDNAME]</b> will be replaced by the caller name.<br><br>
+	e.g.: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
+	The URL execution must return a result in json format containing <b>"cidname"</b> & <b>"cidnumber"</b> attributes in order to perform the CID modification
+cid_management.validation.no_url = No valid URL has been provided

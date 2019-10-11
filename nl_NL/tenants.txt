@@ -78,3 +78,9 @@ tenants.inbound_numbers.tooltip =
 	on the main tenant.
 tenants.scom_devices = Softphone Devices
 tenants.scom_devices.tooltip = It allows you to define how many Sonata Communicator Devices could be activated on this tenant
+tenants.did_pattern = DID Pattern
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Outbound Profiles
+tenants.outbound_profiles.tooltip = 
+	Allows you to define what route selection items can be used as an outbound profile on this tenant.
+tenants.routing = Calls Routing

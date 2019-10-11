@@ -1,30 +1,36 @@
 menu.vpn_client = {vpn_client}
 module.vpn_client = {vpn_client}
 vpn_client = OpenVPN Client
-vpn_client.assigned_ip = Assigned IP
-vpn_client.assigned_ip.tooltip = It shows the IP Address assigned by the OpenVPN Server to this client
-vpn_client.cannot_extract_configuration = The provided configuration cannot be extracted
-vpn_client.configuration = VPN Configuration
-vpn_client.configuration.tooltip = Allows you to upload the OpenVPN Client configuration in TAR format
-vpn_client.configuration_not_found = The OpenVPN configuration has not been found in the upload TAR file
-vpn_client.connection_info = Connection Info
-vpn_client.disable = Disable
-vpn_client.enable = Enable
+vpn_client.assigned_ip = IP Assegnato
+vpn_client.assigned_ip.tooltip = Mostra l'indirizzo IP assegnato dal server OpenVPN a questo client.
+vpn_client.cannot_extract_configuration = La configurazione fornita non puo' essere estratta.
+vpn_client.configuration = Configurazione VPN
+vpn_client.configuration.tooltip = Consente di caricare la configurazione del client OpenVPN in formato TAR.
+vpn_client.configuration_not_found = La configurazione OpenVPN non e' stata trovata nel file TAR di caricamento.
+vpn_client.connection_info = Info Connessione
+vpn_client.disable = Disabilita
+vpn_client.enable = Abilita
 vpn_client.general = {ombutel.general}
-vpn_client.network_mask = Network Mask
-vpn_client.network_mask.tooltip = Network Mask
-vpn_client.no_file_selected = No configuration file selected
-vpn_client.no_valid_file = No valid file has been selected. Please upload a tar file
-vpn_client.server_ip = Server IP
+vpn_client.network_mask = Maschera di Rete
+vpn_client.network_mask.tooltip = Maschera di Rete
+vpn_client.no_file_selected = Nessun file di configurazione selezionato.
+vpn_client.no_valid_file = Nessun file valido e' stato selezionato. Carica un file tar.
+vpn_client.server_ip = IP del Server
 vpn_client.server_ip.tooltip = 
-	It shows the IP of the OpenVPN Server
-vpn_client.service.invalid_action = You are trying to execute an invalid action
-vpn_client.service.successfully_disabled = The OpenVPN Client has been disabled successfully
-vpn_client.service.successfully_enabled = The OpenVPN Client has been enabled successfully
-vpn_client.status = Status
-vpn_client.status.active = Connected
-vpn_client.status.inactive = Disconnected
-vpn_client.status.tooltip = It shows the current status of the OpenVPN Client connection
-vpn_client.update_config = Update Configuration
-vpn_client.upload.success = The configuration has been uploaded successfully
-vpn_client.upload_config = Upload Configuration
+	Mostra l'IP del server OpenVPN
+vpn_client.service.invalid_action = Stai tentando di eseguire un'azione non valida.
+vpn_client.service.successfully_disabled = Il client OpenVPN e' stato disabilitato correttamente.
+vpn_client.service.successfully_enabled = Il client OpenVPN e' stato abilitato correttamente.
+vpn_client.status = Stato
+vpn_client.status.active = Connesso
+vpn_client.status.inactive = Disconnesso
+vpn_client.status.tooltip = Mostra lo stato corrente della connessione client OpenVPN.
+vpn_client.update_config = Aggiorna configurazione
+vpn_client.upload.success = La configurazione e' stata caricata correttamente
+vpn_client.upload_config = Carica Configurazionevpn_client.connection_log = Connection Log
+vpn_client.service_status = Service Status
+vpn_client.service_status.tooltip = 
+	It shows the status of the service. Don't confuse this status with the connection status, the service can be running
+	but not necessarily be connected to the server.
+vpn_client.status.running = Running
+vpn_client.status.stopped = Stopped

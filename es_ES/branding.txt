@@ -17,3 +17,5 @@ branding.youtube_channel = Canal de Youtube
 menu.branding = {branding}
 module.branding = {branding}
 branding.instagram_page = Página de Instagram
+branding.app_name = APP Name
+branding.app_name.tooltip = It allows you to modify the main tenant name

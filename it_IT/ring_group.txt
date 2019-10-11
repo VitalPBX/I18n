@@ -15,7 +15,7 @@ ring_group.list = Interni
 ring_group.list.tooltip = Elenco degli Interni per questo Gruppo Suoneria.
 ring_group.mod_dest = Modulo Destinazione
 ring_group.music_group_id = Musica di Attesa
-ring_group.music_group_id.tooltip = This option specifies which music on hold class to suggest to the peer channel when this channel places the peer on hold.
+ring_group.music_group_id.tooltip = Questa opzione specifica quale musica in attesa di classe suggerire al canale peer quando questo canale mette in attesa il peer.
 ring_group.prefix = Prefisso Nome CID
 ring_group.prefix.invalid = Si prega di scrivere un prefisso valido del nome CID. Sono consentiti i caratteri sottolinea, trattini e alfanumerici.
 ring_group.prefix.tooltip = Prefisso da aggiungere a questo Gruppo di Squillo.
@@ -36,4 +36,10 @@ ring_group.cos = {class_of_service.cos}
 ring_group.cos.tooltip = Permessi di Chiamata da utilizzare per comporre i numeri esterni elencati in questo Gruppo di Squillo.
 ring_group.validation.no_valid_number =
 	Il Numero Esterno <b>{0}</b> contiene caratteri non validi. Sono ammessi numeri,
-        e i seguenti caratteri: *, # e +
+        e i seguenti caratteri: *, # e +ring_group.allow_diversions = Allow Diversions
+ring_group.allow_diversions.tooltip = 
+	Allows you to define if the diversions defined for the different extensions members will be applied or not.
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip = 
+	With this option enabled prevents the other phones record a missed call when the call has been answered on a phone
+	listed on this ring group. This is a very useful setting when the ring strategy is set to "Ring All"
