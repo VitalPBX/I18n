@@ -78,9 +78,9 @@ tenants.inbound_numbers.tooltip =
 	маршрутов основного арендатора.	
 tenants.scom_devices = Устройства Softphone
 tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.
-tenants.did_pattern = DID Pattern
+tenants.routing = Маршрутизация вызовов
+tenants.did_pattern = Шаблон DID
 tenants.did_pattern.placeholder = 1NXXNXXXXXX
-tenants.outbound_profiles = Outbound Profiles
-tenants.outbound_profiles.tooltip = 
-	Allows you to define what route selection items can be used as an outbound profile on this tenant.
-tenants.routing = Calls Routing
+tenants.outbound_profiles = Исходящие профили
+tenants.outbound_profiles.tooltip =
+	Позволяет определить, какие маршруты можно использовать в качестве исходящего профиля для этого арендатора.
