@@ -53,3 +53,5 @@ cid_lookup.phonebook = PhoneBook {0}
 cid_lookup.phonebook.tooltip = Agenda para usar como fuente de búsqueda CID. Aquí solo se enumeran las guías telefónicas externas.
 cid_lookup.source.option.phonebook = Agenda
 cid_lookup.validation.no_phonebook = No ha seleccionado ninguna agenda
+cid_lookup.timeout = Tiempo de Conexión
+cid_lookup.timeout.tooltip = Tiempo máximo en segundos que permite que tome la fase de conexión con el servidor. El valor predeterminado es 5 segundos.
