@@ -53,3 +53,5 @@ cid_lookup.validation.no_mysql_username = Нет имени пользовате
 cid_lookup.phonebook = Телефонная книга {0}
 cid_lookup.phonebook.tooltip = Телефонная книга, используемая в качестве источника CID поиска. Здесь перечислены только внешние телефонные книги.
 cid_lookup.validation.no_phonebook = Вы не выбрали ни одной телефонной книги
+cid_lookup.timeout = Таймаут
+cid_lookup.timeout.tooltip = Максимальное время в секундах, для прохождения фазы подключения к серверу.
