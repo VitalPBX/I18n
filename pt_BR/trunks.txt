@@ -175,3 +175,25 @@ trunks.visual_mode = Switch to Visual Mode
 trunks.auth_rejection_permanent = Permanent Auth Rejection
 trunks.custom_headers = Custom Headers
 trunks.trkcustom.header = Header
+trunks.client_uri = Client URI
+trunks.client_uri.tooltip = 
+	This is the address-of-record for the outbound registration (i.e. the URI in the To header of the REGISTER).
+	For registration with an ITSP, the client SIP URI may need to consist of an account name or number and the provider's
+	hostname for their registrar, e.g. <b>1234567890@example.com</b>. This may differ between providers.<br><br>
+	For registration to generic registrars, the client SIP URI will depend on networking specifics and configuration
+	of the registrar.
+trunks.contacts = Contacts
+trunks.contacts.tooltip = 
+	Permanent contacts assigned to an AoR. You can define multiple contact addresses in SIP URI format. <br>
+	e.g.: sip:198.51.100.1:5060
+trunks.dtmfmode = {hot_desking.dtmfmode}
+trunks.profile_id = {hot_desking.profile_id}
+trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
+trunks.server_uri = Server URI
+trunks.server_uri.tooltip = 
+	This is the URI at which to find the registrar to send the outbound REGISTER. This URI is used as the request URI
+	of the outbound REGISTER request from Asterisk. <br><br>For registration with an ITSP, the setting may often be just the
+	domain of the registrar, e.g. <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts = 
+	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
+trunks.validation.pjsip.no_outgoing_host = The registration parameter is enabled but the remote host parameter hasn't been provided

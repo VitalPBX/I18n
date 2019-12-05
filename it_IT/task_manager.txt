@@ -18,3 +18,4 @@ task_manager.enabled.tooltip = Allows you to enable/disable this task
 task_manager.silent_mode = Silent Mode
 task_manager.silent_mode.tooltip = 
 	If enabled, any output from the selected script will be suppressed, thus avoiding to get emails each time that the cron is run.
+task_manager.enabled = Enabled

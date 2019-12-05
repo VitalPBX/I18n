@@ -60,3 +60,10 @@ conferences.allow_to_invite.tooltip = 	Si está habilitado, todos los participan
 conferences.class_of_service = {class_of_service}
 conferences.class_of_service.tooltip = 	Le permite definir qué Clase de Servicio se utilizará para invitar a otras personas a esta conferencia
 conferences.max_reached = Has alcanzado el número máximo de conferencias permitidas.
+conferences.video_mode.last_marked = Último Administrador
+conferences.video_mode.last_marked.tooltip = 
+	El último líder en unirse a la conferencia con capacidades de video será la única fuente de video distribuida a todos los participantes.
+	Si varios usuarios tienen la capacidad de video, el último en unirse es siempre la fuente, 
+	cuando ese usuario lo abandona, va al que se unió antes que el.
+conferences.video_mode.sfu = Unidad de Reenvío Selectivo
+conferences.video_mode.sfu.tooltip = Establece la operación de transmisión múltiple para una videoconferencia de varias partes.

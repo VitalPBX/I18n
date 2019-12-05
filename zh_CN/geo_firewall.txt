@@ -5,3 +5,4 @@ menu.geo_firewall = {geo_firewall}
 module.geo_firewall = {geo_firewall}
 geo_firewall.select_all = Select All Countries
 geo_firewall.unselect_all = Unselect All Countries
+geo_firewall.countries_list = Countries List

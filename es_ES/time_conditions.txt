@@ -13,4 +13,28 @@ time_conditions.save = Guardar
 time_conditions.time_group_id = Grupo Horario
 time_conditions.time_group_id.tooltip = Seleccione un grupo horario creada por grupos horario. Si encuentra coincidencias se enviarán al destino.
 time_conditions.truegoto =  Destino si el horario coincide %s
-time_conditions.update = Actualizar
+time_conditions.update = Actualizartime_conditions.blf_inverted = BLF Invertido
+time_conditions.blf_inverted.tooltip = 
+	Por defecto, el color de la luz BLF es verde cuando la condición de tiempo coincide y rojo cuando no coincide.
+	Configurar esto en "sí" hará que el comportamiento sea el inverso de lo descrito anteriormente.
+time_conditions.code = {nightmode.code}
+time_conditions.code.tooltip = Marque el código para alternar el estado de la condición horaria a través del teléfono.
+time_conditions.hint = {nightmode.phone_hint}
+time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
+time_conditions.pin = PIN de Autorización
+time_conditions.pin.tooltip = Contraseña opcional para proteger contra personas no autorizadas de modificar esta condición de tiempo.
+time_conditions.status = Estado
+time_conditions.status.default = Predeterminado
+time_conditions.status.default.desc = Comportamiento Predeterminado
+time_conditions.status.permanently_matched = Permanentemente Coincide
+time_conditions.status.permanently_matched_unmatched = Permanentemente Coincide / No Coincide
+time_conditions.status.permanently_matched_unmatched.desc = 
+	Anula permanentemente la condición de tiempo y envía las llamadas al destino coincidente / no coincidente hasta que se elimine la anulación.
+time_conditions.status.permanently_unmatched = Permanentemente No Coincide
+time_conditions.status.temporary_matched = Temporalmente Coincide
+time_conditions.status.temporary_matched_unmatched = Temporalmente Coincide / No Coincide
+time_conditions.status.temporary_matched_unmatched.desc = 
+	Anula temporalmente la condición de tiempo y envía las llamadas al destino coincidente / no coincidente hasta que haya transcurrido 
+	el período de tiempo actual. Después de eso, el comportamiento volverá al valor predeterminado.
+time_conditions.status.temporary_unmatched = Temporalmente No Coincide
+time_conditions.status.tooltip = Le permite anular el comportamiento predeterminado de una condición de tiempo.

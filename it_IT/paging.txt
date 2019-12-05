@@ -28,4 +28,28 @@ paging.timeout.tooltip = Specificare il periodo di tempo durante il quale il sis
 paging.multicastrtp = Multicast RTP
 paging.ip_address = Indirizzo IP
 paging.port = Porta
-paging.no_members = Non sono state fornite estensioni o membri multicast validi.
+paging.no_members = Non sono state fornite estensioni o membri multicast validi.paging.announcement = Announcement
+paging.announcement.tooltip = Announcement to be played to all paged participants
+paging.mode = Mode
+paging.mode.annon_only = Announcement Only
+paging.mode.annon_only.tooltip = Plays the announcement and then, hangup
+paging.mode.default = Default
+paging.mode.default.tooltip = Default behavior. Plays the announcement if defined and then allows to the caller continue speaking
+paging.mode.tooltip = It allows you to define the paging behavior
+paging.no_license = 
+ You have reached maximum number of free Paging items with schedule feature enabled. Activate the add-on to have
+ unlimited paging items with this feature
+paging.schedule = Schedule
+paging.schedule_enabled = Enabled
+paging.schedule_enabled.tooltip = If set to yes, it will automate the paging execution according to the provided schedules.
+paging.schedules.description = Description
+paging.schedules.dom = Day of Month
+paging.schedules.end_day = End Day
+paging.schedules.excluded_dates = Excluded Dates
+paging.schedules.month = Month
+paging.schedules.start_day = Start Day
+paging.schedules.time = Time
+paging.validation.mode.no_announcement = You have set the mode to "Announcement Only", but haven't selected an announcement
+paging.validation.no_schedules = You have enabled the paging schedule, but haven't defined any schedule
+paging.validation.schedule.no_announcement = 
+	You have enabled the paging schedule, but haven't selected an announcement to be played when matching a schedule
