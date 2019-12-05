@@ -1,4 +1,4 @@
-menu.scom = Sonata Communicator
+menu.scom = Communicator
 menu.scom_softkey_profiles = Softkey Profiles
 menu.scom_pause_profiles = Pause Profiles
 scom_softkey_profiles.general = {ombutel.general}
