@@ -67,5 +67,5 @@ conferences.video_mode.last_marked.tooltip =
 	Последний организатор, присоединившийся к конференции с видео-возможностями будет единственным источником видео, распространяемым среди всех участников.
 	Если несколько организаторов имеют видео-возможности, последний кто присоединился, всегда становится источником. Если он покидает конференцию, то источником становится организатор, 
 	зашедший до него.
-conferences.video_mode.sfu = Selective Forwarding Unit
-conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.
+conferences.video_mode.sfu = Блок выборочной пересылки
+conferences.video_mode.sfu.tooltip = Устанавливает многопотоковую работу для многопартийной видеоконференции.
