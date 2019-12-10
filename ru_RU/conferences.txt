@@ -62,3 +62,10 @@ conferences.allow_to_invite = Разрешить приглашения
 conferences.allow_to_invite.tooltip =
 	Если установлено значение <b>«Да»</b>, то все участники могут нажать «<b>**</b>» или «<b>0</b>», чтобы пригласить других людей в эту конференцию
 conferences.max_reached = Вы достигли максимально допустимого количества конференций
+conferences.video_mode.last_marked = Last Admin
+conferences.video_mode.last_marked.tooltip = 
+	The last leader to join the conference with video capabilities will be the single source of video distributed to all participants.
+	If multiple marked users are capable of video, the last one to join is always the source, when that user leaves it goes to the one who
+	joined before them.
+conferences.video_mode.sfu = Selective Forwarding Unit
+conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.

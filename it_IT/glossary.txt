@@ -52,3 +52,4 @@ language = Language
 no_file_selected = You have not selected any file
 report = Report
 to_date = End Date
+actions = Actions

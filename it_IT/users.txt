@@ -46,3 +46,4 @@ users.email.tooltip = Indirizzo email dell'utente da utilizzare per l'accesso.
 users.username.duplicated = Il nome utente fornito e' gia' utilizzato.users.tenants = Tenants
 users.tenants.tooltip = It allows you to define to which tenants this user will have access
 users.validations.no_tenants = No tenants has been assigned to this user. Please assign at least one tenant.
+users.tenants = Tenants

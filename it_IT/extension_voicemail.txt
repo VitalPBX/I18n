@@ -21,3 +21,5 @@ extension_voicemail.voicemail.origin = Origine Voicemail
 extension_voicemail.vm_not_deleted = Impossibile eliminare il messaggio vocale selezionato.
 menu.my_voicemail = Mia Voicemail
 module.extension_voicemail = Mia Voicemail
+module.my_voicemail = {module.extension_voicemail}
+my_voicemail.general = {extension_voicemail.general}

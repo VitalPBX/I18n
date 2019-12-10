@@ -30,3 +30,28 @@ paging.ip_address = Dirección IP
 paging.multicastrtp = Multidifusión RTP
 paging.no_members = No se han proporcionado extensiones ni miembros válidos de multidifusión
 paging.port = Puerto
+paging.announcement = Anuncio
+paging.announcement.tooltip = Anuncio que se reproducirá para todos los participantes buscados
+paging.mode = Mode
+paging.mode.annon_only = Solo Anuncio
+paging.mode.annon_only.tooltip = Reproduce el anuncio y luego cuelga
+paging.mode.default = Predeterminado
+paging.mode.default.tooltip = Comportamiento Predeterminado. Reproduce el anuncio si está definido y luego permite que la persona que llama continúe hablando
+paging.mode.tooltip = Le permite definir el comportamiento de paginación
+paging.no_license = 
+ Ha alcanzado el número máximo de elementos de Paginación gratuitos con la función de programación habilitada.
+ Active el complemento para tener elementos de paginación ilimitados con esta función.
+paging.schedule = Horario
+paging.schedule_enabled = Habilitado
+paging.schedule_enabled.tooltip = Si se establece en sí, automatizará la ejecución de paginación de acuerdo con los horarios proporcionados.
+paging.schedules.description = Descripción
+paging.schedules.dom = Dia del Mes
+paging.schedules.end_day = Día Final
+paging.schedules.excluded_dates = Fechas Excluidas
+paging.schedules.month = Mes
+paging.schedules.start_day = Día de Inicio
+paging.schedules.time = Hora
+paging.validation.mode.no_announcement = Ha configurado el modo en "Solo anuncio", pero no ha seleccionado un anuncio
+paging.validation.no_schedules = Ha habilitado la programación de paginación, pero no ha definido ninguna programación.
+paging.validation.schedule.no_announcement = 
+	Ha habilitado la programación de paginación, pero no ha seleccionado un anuncio para reproducir cuando coincide con una programación.

@@ -21,3 +21,5 @@ extension_voicemail.voicemail.origin = Voicemail Origin
 extension_voicemail.vm_not_deleted = Could not delete the selected voicemail
 menu.my_voicemail = My Voicemail
 module.extension_voicemail = My Voicemail
+module.my_voicemail = {module.extension_voicemail}
+my_voicemail.general = {extension_voicemail.general}

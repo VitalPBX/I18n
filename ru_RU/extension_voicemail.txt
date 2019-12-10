@@ -21,3 +21,5 @@ extension_voicemail.voicemail.origin = Источник Голосовая по�
 extension_voicemail.vm_not_deleted = Не удалось удалить выбранную голосовую почту
 menu.my_voicemail = Моя голосовая почта
 module.extension_voicemail = Моя голосовая почта
+module.my_voicemail = {module.extension_voicemail}
+my_voicemail.general = {extension_voicemail.general}

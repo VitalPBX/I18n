@@ -34,3 +34,4 @@ certificates.chain.tooltip = Should be the content intermediate certificate file
 certificates.key = Key
 certificates.key.tooltip = Should be the content of key file (e.g.: private.key)
 certificates.type.custom = Custom
+certificates.certificate = Certificate

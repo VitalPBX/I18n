@@ -21,3 +21,5 @@ extension_voicemail.voicemail.origin = Boite vocale d'origine
 extension_voicemail.vm_not_deleted = Impossible de supprimer ce message vocal
 menu.my_voicemail = Ma boite vocale
 module.extension_voicemail = Ma boite vocale
+module.my_voicemail = {module.extension_voicemail}
+my_voicemail.general = {extension_voicemail.general}

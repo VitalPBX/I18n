@@ -74,3 +74,5 @@ cid_management.url.tooltip =
 	e.g.: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
 	The URL execution must return a result in json format containing <b>"cidname"</b> & <b>"cidnumber"</b> attributes in order to perform the CID modification
 cid_management.validation.no_url = No valid URL has been provided
+cid_management.timeout = {cid_lookup.timeout}
+cid_management.timeout.tooltip = {cid_lookup.timeout.tooltip}

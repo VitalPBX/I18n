@@ -21,3 +21,5 @@ extension_voicemail.record_deleted = Record has been deleted
 extension_voicemail.record_notfound = Record not found
 extension_voicemail.select_all = Select All
 extension_voicemail.vm_not_deleted = Could not delete the selected voicemail
+module.my_voicemail = {module.extension_voicemail}
+my_voicemail.general = {extension_voicemail.general}

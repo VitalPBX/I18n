@@ -5,3 +5,5 @@ softphone_extensions.no_license =
 	Stai utilizzando la versione gratuita di Softphones Licensing Server. Attiva questo componente aggiuntivo per ottenere piu' di due estensioni
         per {0} Softphonesoftphone_extensions.max_reached = 
 	You are not allowed to add more than {0} devices
+softphone_extensions.max_reached = 
+	You are not allowed to add more than {0} devices

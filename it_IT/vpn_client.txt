@@ -34,3 +34,4 @@ vpn_client.service_status.tooltip =
 	but not necessarily be connected to the server.
 vpn_client.status.running = Running
 vpn_client.status.stopped = Stopped
+vpn_client.connection_log = Connection Log
