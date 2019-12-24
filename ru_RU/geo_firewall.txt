@@ -6,4 +6,4 @@ geo_firewall.license.max_items = Вы можете заблокировать т
 geo_firewall.select_all = Выбрать все страны
 geo_firewall.unselect_all = Отменить выбор всех стран
 menu.geo_firewall = Список стран
-geo_firewall.countries_list = Countries List
+geo_firewall.countries_list = Список стран
