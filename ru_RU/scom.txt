@@ -1,5 +1,5 @@
 menu.scom = <span style="margin-left: -5px;">Коммуникатор</span>
-menu.scom_softkey_profiles = Профили функциональных клавиш
+menu.scom_softkey_profiles = Профили функц. клавиш
 menu.scom_pause_profiles = Профили пауз
 scom_softkey_profiles.general = {ombutel.general}
 module.scom_softkey_profiles = {menu.scom_softkey_profiles}
