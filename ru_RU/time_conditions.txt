@@ -14,28 +14,28 @@ time_conditions.time_group_id = Временной период
 time_conditions.time_group_id.tooltip = Выберите временной период из раскрывающегося списка, который был создан в модуле «Временной период».
 time_conditions.truegoto = Направление, если попадает во временной период %s
 time_conditions.update = Обновить
-time_conditions.blf_inverted = BLF Inverted
-time_conditions.blf_inverted.tooltip = 
-	By default the BLF light color is green when the time condition is matching and red when is not matching. Setting up
-	this to "yes" will make that the behavior be the inverse of what is described above.
-time_conditions.code = {nightmode.code}
-time_conditions.code.tooltip = Dial code to toggle the time condition state through the phone.
+time_conditions.status = Статус
+time_conditions.status.tooltip = Позволяет переопределить поведение по умолчанию для правила по времени
+time_conditions.status.default = По умолчанию
+time_conditions.status.temporary_matched = Временное совпадение
+time_conditions.status.temporary_unmatched = Временное несовпадение
+time_conditions.status.permanently_matched = Постоянное совпадение
+time_conditions.status.permanently_unmatched = Постоянное несовпадение
+time_conditions.status.default.desc = Поведение по умолчанию
+time_conditions.status.temporary_matched_unmatched = Временное совпадение / несовпадение
+time_conditions.status.temporary_matched_unmatched.desc =
+	Временно переопределяет текущее правило и отправляет вызовы в совпадающее / несовпадающее направление, пока текущий временной период не истек. 
+	После этого поведение вернется к значению по умолчанию
+time_conditions.status.permanently_matched_unmatched = Постоянное совпадение / несовпадение
+time_conditions.status.permanently_matched_unmatched.desc =
+	Постоянно переопределяет текущее правило и отправляет вызовы в совпадающее / несовпадающее направление, пока переопределение не будет удалено.
+time_conditions.blf_inverted = Перевернутый BLF
+time_conditions.blf_inverted.tooltip =
+	По умолчанию цвет подсветки BLF - зеленый, если правило по времени совпадает, и красный, если не совпадает. Установка 
+	этого значения в <b>«Да»</b> сделает поведение обратным тому, что описано выше.
 time_conditions.hint = {nightmode.phone_hint}
 time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
-time_conditions.pin = Authorization Pin
-time_conditions.pin.tooltip = Optional password to protect from unauthorized people of modifying this time condition.
-time_conditions.status = Status
-time_conditions.status.default = Default
-time_conditions.status.default.desc = Default behavior
-time_conditions.status.permanently_matched = Permanently Matched
-time_conditions.status.permanently_matched_unmatched = Permanently Matched / Unmatched
-time_conditions.status.permanently_matched_unmatched.desc = 
-	Overrides permanently the time condition and sends the calls to the matched/unmatched destination until the override is removed.
-time_conditions.status.permanently_unmatched = Permanently Unmatched
-time_conditions.status.temporary_matched = Temporary Matched
-time_conditions.status.temporary_matched_unmatched = Temporary Matched / Unmatched
-time_conditions.status.temporary_matched_unmatched.desc = 
-	Overrides temporary the time condition and sends the calls to the matched/unmatched destination until the current time span
-	has elapsed. After that, the behavior will return to default
-time_conditions.status.temporary_unmatched = Temporary Unmatched
-time_conditions.status.tooltip = Allows you to override the default behavior of a time condition
+time_conditions.code = {nightmode.code}
+time_conditions.code.tooltip = Наберите код для переключения правила по времени с помощью телефона.
+time_conditions.pin = PIN-код авторизации
+time_conditions.pin.tooltip = Дополнительный пароль для защиты от несанкционированного изменения этого правила по времени.
