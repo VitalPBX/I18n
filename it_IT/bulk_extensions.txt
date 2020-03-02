@@ -4,13 +4,13 @@ bulk_extensions.general = {ombutel.general}
 bulk_extensions.range = Intervallo Interni
 bulk_extensions.range.tooltip =
 	Definire l'intervallo degli interni che si desidera creare , es.: da 1000 a 1400.
-	<b>Se uno qualsiasi degli interni esiste gia' nell'intervallo verra' saltato</b>.
+	<b>Se uno qualsiasi degli interni esiste gia' nell'intervallo verra' escluso</b>.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
 bulk_extensions.dev_technology = Tecnologia Dispositivi
 bulk_extensions.dev_technology.tooltip  = Definisce la tecnologia del dispositivo che verra' assegnato a ciascun interno
 bulk_extensions.vm_enabled = Abilitare Voicemail
-bulk_extensions.recording_types = Recording Calls
+bulk_extensions.recording_types = registrazione Chiamate
 bulk_extensions.recording_types.tooltip = Consente di selezionare il tipo di chiamate da registrare
 bulk_extensions.vm_password.tooltip =
 	Consente di definire la password della segreteria per ciascun interno, se lasciato vuoto, la password sara' il numero

@@ -1,15 +1,15 @@
 app.activate = Attiva l'Installazione
-app.billing = Bollettazione
+app.billing = Fatturazione
 app.switchboard = Switchboard
 app.recordings = Registrazioni
 app.activate.existent_account = Hai gia' un Account!
 app.activate.register = Registrare
 app.activate.info =
-	Devi attivare l'installazione per essere in grado di aggiornare dalla GUI.
+	Devi attivare l'installazione per effettuare aggiornamenti dalla GUI.
 	Per attivare l'installazione e' necessario creare un account o accedere al proprio account esistente.
 app.activate.register.email = Il tuo indirizzo di posta elettronica. Dopo la registrazione, e' possibile utilizzare questa e-mail per attivare qualsiasi altra installazione.
 app.activate.register.password = La tua password. Dopo la registrazione, e' possibile utilizzare questa password per attivare qualsiasi altra installazione.
-app.activate.register.phone = Il tuo numero di telefono per qualsiasi chiamata commerciale. E' opzionale.
+app.activate.register.phone = Il tuo numero di telefono per qualsiasi chiamata commerciale. Opzionale.
 app.activate.register.country = Solo per sapere dove ti trovi.
 app.activate.new_account = Non ho un Account!
 app.activate.login = Login
@@ -40,12 +40,12 @@ app.plan.community = Community
 app.plan.enterprise = Enterprise
 app.plan.pro = Professional
 app.register_license = Registra Licenza
-app.registered_to = Registrata a {0
+app.registered_to = Registrata a {0}
 app.version = {0} {1} {2}
-app.activate.register.language = The language that you speak
-app.license.max_items = You have reached the maximum number of free items allowed on this module
-app.register.expire_on = Subscription is active until {0}
-app.revoke_license.confirm = Are you sure you want to revoke {0} license from this server?
-app.view_license = View License
+app.activate.register.language = La tua lingua
+app.license.max_items = Hai raggiunto il numero massimo di voci gratuite previste da questo modulo
+app.register.expire_on = Abbonamento attivo fino al {0}
+app.revoke_license.confirm = Sei sicuro di voler revocare la licenza {0} da questo server?
+app.view_license = Visualizza Licenza
 app.with_plan = {0} {1}
-menu.call_center_reports = Call Center Reports
+menu.call_center_reports = Rapporti Call Center
