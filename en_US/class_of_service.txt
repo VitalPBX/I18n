@@ -25,3 +25,8 @@ class_of_service.billing_app.tooltip = It allows you to select a billing app to 
 class_of_service.validation.cos_duplicated = The class of service "<b>{0}</b>" its already defined.
 class_of_service.validate.default = You cannot delete this class of service because is marked as default
 class_of_service.validation.in_use = This class of service is being used by the module "<b>{0}</b>"
+class_of_service.outbound_profile = Outbound Profile
+class_of_service.outbound_profile.tooltip =
+	It allows you to define an outbound profile for this class of service. These profiles contain a collection of
+	outbound routes and their respective patterns, so, depending on the outbound profile, the extension users with this
+	class of service assigned will be able or not to perform external calls to international and/or national numbers.

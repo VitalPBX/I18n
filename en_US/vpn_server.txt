@@ -67,6 +67,7 @@ vpn_server.type.tooltip = It allows to define the type of client, depending on i
 vpn_server.type.generic = Generic
 vpn_server.type.yealink = Yealink
 vpn_server.type.grandstream = Grandstream
+vpn_server.type.fanvil = Fanvil
 vpn_server.cipher = Cipher Method
 vpn_server.cipher.tooltip = Encrypt data channel packets with cipher algorithm alg.
 vpn_server.cipher.bf-cbc = Blowfish

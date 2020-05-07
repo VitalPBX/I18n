@@ -21,14 +21,25 @@ phone_books.source_type.tooltip =
 phone_books.csv = CSV File
 phone_books.csv.tooltip = File with the list of contacts to import on this phonebook
 phone_books.contacts = Contacts
-phone_books.firs_name = First Name
+phone_books.first_name = First Name
+phone_books.first_name.tooltip = {phone_books.first_name}
 phone_books.last_name = Last Name
+phone_books.last_name.tooltip = {phone_books.last_name}
 phone_books.phone = Phone
+phone_books.phone.tooltip = {phone_books.phone}
 phone_books.organization = Organization
+phone_books.organization.tooltip ={phone_books.organization}
 phone_books.job_title = Job Title
+phone_books.job_title.tooltip = {phone_books.job_title}
 phone_books.email = E-mail
 phone_books.prefix = Prefix
 phone_books.prefix.tooltip =
 	Optional prefix to be appended to phone numbers at the moment of generating the phonebook. Useful if you use prefixes
 	for dialing.
 phone_books.csv.missing_columns = {import_extensions.missing_columns}
+phone_books.add_contact = Add Contact
+phone_books.invalid_phone = You have provided a invalid phone number
+phone_books.no_first_name = You haven't provided contact first name
+phone_books.duplicated_phone = Already exists another contact with the same phone number
+phone_books.actions = {actions}
+phone_books.edit_contact = Edit Contact

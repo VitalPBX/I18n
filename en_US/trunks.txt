@@ -197,3 +197,8 @@ trunks.server_uri.tooltip =
 	domain of the registrar, e.g. <b>sip:sip.example.com</b>.
 trunks.validation.pjsip.no_contacts =
 	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
+trunks.contact_user = Contact User
+trunks.contact_user.tooltip =
+	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
+	the far end calls you at this registration.
+trunks.none = -- None --
