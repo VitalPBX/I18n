@@ -38,3 +38,4 @@ time_conditions.status.temporary_matched_unmatched.desc =
 	el período de tiempo actual. Después de eso, el comportamiento volverá al valor predeterminado.
 time_conditions.status.temporary_unmatched = Temporalmente No Coincide
 time_conditions.status.tooltip = Le permite anular el comportamiento predeterminado de una condición de tiempo.
+time_conditions.blf_inverted = BLF Invertido

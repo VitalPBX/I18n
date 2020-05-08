@@ -22,3 +22,4 @@ extension_voicemail.vm_not_deleted = Não foi possível eliminar o correio de vo
 menu.my_voicemail = Meu correio de voz
 module.extension_voicemail = Meu correio de vozmodule.my_voicemail = {module.extension_voicemail}
 my_voicemail.general = {extension_voicemail.general}
+module.my_voicemail = {module.extension_voicemail}
