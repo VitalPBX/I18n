@@ -240,7 +240,7 @@ extensions.pinless = Senza Pin
 extensions.pinless.tooltip =	
 	Se abilitato, all'utente di questo interno non verra' richiesto di inserire il pin sui percorsi in uscita che hanno
 	assegnato un set di pin.
-extensions.ask_password = Ask Password
+extensions.ask_password = Richiedi Password
 extensions.ask_password.tooltip = 
 	It allows to define if the users who dials <b>{0}</b> to access to their own voicemail will be prompted to enter
 	its voicemail password or not. This doesn't apply for the "{1} ({2})" feature.

@@ -28,10 +28,10 @@ certificates.validations.no_host = Non hai fornito un nome host.
 certificates.validations.no_desc = Per favore, fornire una descrizione valida. Sono ammessi valori alfanumerici, spazi, trattini, underscore e punti.
 certificates.validations.duplicated_host = Esiste gia' un certificato con lo stesso Nome Host.
 certificates.validations.duplicated_desc = Esiste gia' un certificato con la stessa descrizione.certificates.certificate = Certificate
-certificates.certificate.tooltip = Should be the content of certificate file (e.g.: certificate.crt)
+certificates.certificate.tooltip = Dovrebbe essere il file del certificato (es. certificate.crt)
 certificates.chain = Chain
 certificates.chain.tooltip = Should be the content intermediate certificate file (e.g.: ca_bundle.crt)
 certificates.key = Key
-certificates.key.tooltip = Should be the content of key file (e.g.: private.key)
+certificates.key.tooltip = Dovrebbe essere il file contenente la chiave (es. private.key)
 certificates.type.custom = Custom
-certificates.certificate = Certificate
+certificates.certificate = Certificato

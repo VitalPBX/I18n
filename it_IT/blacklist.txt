@@ -1,14 +1,14 @@
-blacklist = Lista Nera
+blacklist = Blacklist
 blacklist.description = Descrizione
-blacklist.description.tooltip = Descrizione del numero della Lista Nera.
+blacklist.description.tooltip = Descrizione del numero della Blacklist.
 blacklist.general = Generale
-blacklist.not_found = Lista Nera non trovata.
+blacklist.not_found = Blacklist non trovata.
 blacklist.number = Numero CID
 blacklist.number.tooltip = Numero CID da includere nella blacklist.
-blacklist.numebr.invalid = Il numero della Lista Nera non e' valido.
+blacklist.numebr.invalid = Il numero della Blacklist non e' valido.
 blacklist.search = Cerca
-menu.blacklist = Lista Nera
-module.blacklist = Lista Nera
+menu.blacklist = Blacklist
+module.blacklist = Blacklist
 blacklist.destination = Destinazione
 blacklist.destination.tooltip =
 	Destinazione opzionale. Se impostato, il chiamante con un numero CID che corrisponde a quello configurato sopra verra' reindirizzato
