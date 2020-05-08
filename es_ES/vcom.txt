@@ -55,3 +55,4 @@ vcrp.type.positive_end = Final Positivo
 vcrp.type.rescheduled = Reprogramado
 vcrp.validation.cannot_delete_default = No se puede eliminar este elemento porque está marcado como predeterminado.
 vcrp.validation.no_results = No se han proporcionado resultados válidos.
+vcom.csv.missing_columns = {import_extensions.missing_columns}

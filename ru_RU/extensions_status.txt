@@ -61,3 +61,4 @@ module.extensions_status = Доп. настройки
 extensions_status.device_info.username_channel = Технология / Номер
 extensions_status.device_info.port = Порт
 extensions_status.unspecified = (Не назначен)
+extensions_status.device_info.user_agent = User Agent

@@ -199,3 +199,8 @@ trunks.validation.pjsip.no_contacts =
 	No se han definido contactos ni host. Cuando los contactos no están definidos, debe proporcionar un host remoto para construir el URI de contacto predeterminado
 trunks.validation.pjsip.no_outgoing_host = El parámetro de registro está habilitado pero no se ha proporcionado el parámetro de host remoto
 trunks.contacts = Contactos
+trunks.contact_user = Contacto Usuario
+trunks.contact_user.tooltip = 
+	Establece la porción de usuario del encabezado de contacto SIP del SIP URI,
+	esto afectará la extensión alcanzada en el plan de marcado cuando el extremo le llama en este registro.
+trunks.none = -- Ninguno --

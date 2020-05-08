@@ -84,3 +84,7 @@ tenants.did_pattern.placeholder = 1NXXNXXXXXX
 tenants.outbound_profiles = Исходящие профили
 tenants.outbound_profiles.tooltip =
 	Позволяет определить, какие маршруты можно использовать в качестве исходящего профиля для этого арендатора.
+tenants.emergency_trunks = Emergency Trunks
+tenants.emergency_trunks.tooltip = 
+	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
+tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value

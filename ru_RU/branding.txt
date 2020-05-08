@@ -19,3 +19,5 @@ module.branding = {branding}
 branding.instagram_page = Страница в Instagram
 branding.app_name = Имя арендатора
 branding.app_name.tooltip = Позволяет изменить имя основного арендатора
+branding.meet_url = Meet URL
+branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module

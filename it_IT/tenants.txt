@@ -84,3 +84,7 @@ tenants.outbound_profiles.tooltip =
 tenants.routing = Calls Routing
 tenants.scom_devices = Softphone Devices
 tenants.scom_devices.tooltip = It allows you to define how many Sonata Communicator Devices could be activated on this tenant
+tenants.emergency_trunks = Emergency Trunks
+tenants.emergency_trunks.tooltip = 
+	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
+tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value

@@ -16,3 +16,5 @@ vmgroup.vmglist = 分机
 vmgroup.vmglist.tooltip = List of extensions to which group voicemail will be broadcast. Note that only extensions that have active voicemail will be displayed.
 vmgroup.invalid.already_exists = Invalid Voicemail Group number {0}. The number is in use by {1} module.
 vmgroup.password.error = Password cannot be empty and may use only numbers and the "*" (asterisk) symbol.
+vmgroup.skip_instructions = Skip Instructions
+vmgroup.skip_instructions.tooltip = If enable, skips the playback of instructions for leaving a message to the listed extensions on this VM group.

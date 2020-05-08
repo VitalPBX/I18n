@@ -15,4 +15,5 @@ vmgroup.password.error = La password non puo' essere vuota e puo' utilizzare sol
 vmgroup.password.invalid = La password non e' valida. Utilizzare solo numeri e il simbolo "*" (asterisco).
 vmgroup.password.tooltip = Password per proteggere questo Gruppo di Trasmissione Voicemail.
 vmgroup.vmglist = Interni
-vmgroup.vmglist.tooltip = Elenco degli Interni a cui verra' trasmessa la posta vocale di gruppo. Si noti che verranno visualizzati solo gli interni che dispongono di Voicemail attiva.
+vmgroup.vmglist.tooltip = Elenco degli Interni a cui verra' trasmessa la posta vocale di gruppo. Si noti che verranno visualizzati solo gli interni che dispongono di Voicemail attiva.vmgroup.skip_instructions = Skip Instructions
+vmgroup.skip_instructions.tooltip = If enable, skips the playback of instructions for leaving a message to the listed extensions on this VM group.

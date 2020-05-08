@@ -32,3 +32,15 @@ phone_books.prefix.tooltip =
   Необязательный префикс, добавляемый к телефонным номерам в момент создания телефонной книги. Полезно, если вы используете префиксы
   для набора номера.	
 phone_books.csv.missing_columns = {import_extensions.missing_columns}
+phone_books.actions = {actions}
+phone_books.add_contact = Add Contact
+phone_books.duplicated_phone = Already exists another contact with the same phone number
+phone_books.edit_contact = Edit Contact
+phone_books.first_name = First Name
+phone_books.first_name.tooltip = {phone_books.first_name}
+phone_books.invalid_phone = You have provided a invalid phone number
+phone_books.job_title.tooltip = {phone_books.job_title}
+phone_books.last_name.tooltip = {phone_books.last_name}
+phone_books.no_first_name = You haven't provided contact first name
+phone_books.organization.tooltip = {phone_books.organization}
+phone_books.phone.tooltip = {phone_books.phone}

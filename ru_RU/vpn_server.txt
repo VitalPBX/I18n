@@ -73,3 +73,4 @@ vpn_server.cipher.bf-cbc = Blowfish
 vpn_server.cipher.aes-128-cbc = AES-128
 vpn_server.cipher.aes-256-cbc = AES-256
 vpn_server.cipher.des-ede3-cbc = Triple-DES
+vpn_server.type.fanvil = Fanvil

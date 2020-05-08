@@ -72,3 +72,4 @@ vpn_server.cipher.bf-cbc = Blowfish
 vpn_server.cipher.des-ede3-cbc = Triple-DES
 vpn_server.cipher.tooltip = Cifrar paquetes de canales de datos con algoritmo de cifrado alg.
 vpn_server.type.grandstream = Grandstream
+vpn_server.type.fanvil = Fanvil

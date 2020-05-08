@@ -49,3 +49,7 @@ app.revoke_license.confirm = Sei sicuro di voler revocare la licenza {0} da ques
 app.view_license = Visualizza Licenza
 app.with_plan = {0} {1}
 menu.call_center_reports = Rapporti Call Center
+app.call_cannot_be_sent = It was not possible sent the call
+app.call_sent = The call has been sent
+app.insufficient_data = Cannot execute the requested action due you have provided insufficient data
+app.plan.community-plus = Community Plus

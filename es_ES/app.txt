@@ -49,3 +49,7 @@ app.activate.register.language = El idioma que hablas
 app.license.max_items = Has alcanzado el número máximo de items gratuitos permitidos en este módulo
 menu.call_center_reports = Informes del Centro de Llamadas
 app.register.expire_on = La suscripción está activa hasta {0}
+app.call_cannot_be_sent = No fue posible enviar la llamada
+app.call_sent = La llamada ha sido enviada
+app.insufficient_data = No se puede ejecutar la acción solicitada porque ha proporcionado datos insuficientes
+app.plan.community-plus = Community Plus

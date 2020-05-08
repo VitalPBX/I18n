@@ -84,3 +84,7 @@ tenants.outbound_profiles = Perfiles Salientes
 tenants.outbound_profiles.tooltip = 
 	Le permite definir qué elementos de selección de ruta se pueden usar como perfil saliente en este Tenant.
 tenants.routing = Enrrutamiento de Llamadas
+tenants.emergency_trunks = Troncal de emergencia
+tenants.emergency_trunks.tooltip = 
+	Le permite compartir troncales con este Tenant desde el Tenant principal para utilizarlas como troncales de emergencia en el módulo de número de emergencia
+tenants.name.validation.alphanumeric = El nombre del Tenant debe ser un valor alfanumérico válido

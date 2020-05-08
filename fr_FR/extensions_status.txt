@@ -66,3 +66,4 @@ extensions_status.device_info.channel = Channel
 extensions_status.device_info.port = Port
 extensions_status.device_info.username_channel = Username / Channel
 extensions_status.unspecified = (Unspecified)
+extensions_status.device_info.user_agent = User Agent

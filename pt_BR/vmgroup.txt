@@ -16,3 +16,5 @@ vmgroup.password.invalid = Senha é inválida. Use apenas números e o símbolo 
 vmgroup.password.tooltip = Senha para proteger este Grupo de Transmissão de Correio de Voz.
 vmgroup.vmglist = Extensões
 vmgroup.vmglist.tooltip = Lista de extensões para as quais o correio de voz do grupo será transmitido. Observe que somente as extensões que têm correio de voz ativo serão exibidas.
+vmgroup.skip_instructions = Skip Instructions
+vmgroup.skip_instructions.tooltip = If enable, skips the playback of instructions for leaving a message to the listed extensions on this VM group.
