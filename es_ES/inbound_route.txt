@@ -58,3 +58,4 @@ inbound_route.prepend = {cid_management.prepend_to_cid_number}
 inbound_route.prepend.tooltip = Prefijo que se agregará al número obtenido después de recuperar el número deseado de dígitos del DID original
 inbound_route.range_parameters = Parámetros de Rango
 inbound_route.routing_method.did_range = Rango de DID
+inbound_route.verify_did = Verificar DID

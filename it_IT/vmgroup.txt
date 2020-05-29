@@ -17,3 +17,4 @@ vmgroup.password.tooltip = Password per proteggere questo Gruppo di Trasmissione
 vmgroup.vmglist = Interni
 vmgroup.vmglist.tooltip = Elenco degli Interni a cui verra' trasmessa la posta vocale di gruppo. Si noti che verranno visualizzati solo gli interni che dispongono di Voicemail attiva.vmgroup.skip_instructions = Skip Instructions
 vmgroup.skip_instructions.tooltip = If enable, skips the playback of instructions for leaving a message to the listed extensions on this VM group.
+vmgroup.skip_instructions = Skip Instructions

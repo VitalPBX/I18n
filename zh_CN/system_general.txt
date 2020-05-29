@@ -56,3 +56,7 @@ system_general.queues_callback = Queues CallBack
 system_general.search_frequency = Search Frequency
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
 system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
+system_general.email_credentials = Email Credentials
+system_general.email_credentials.tooltip = 
+	Enable this feature to send an email to the newly created extension user with their extension and account information.
+	You can find the template for this email under Admin > System Settings > Email Templates.

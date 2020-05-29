@@ -55,3 +55,5 @@ dhcpsettings.wins = WINS
 dhcpsettings.wins.tooltip = Windows Internet Name Service (WINS) - это служба регистрации и разрешения имен компьютеров, которая сопоставляет NetBIOS-имена компьютеров с IP-адресами. Основная задача WINS - поддерживать клиентов, которые работают с более старыми версиями Windows и приложениями, использующими NetBIOS. 
 menu.dhcp_settings = Настройки DHCP
 module.dhcpsettings = Настройки DHCP
+dhcp_server = DHCP Server
+menu.dhcp_server = {dhcp_server}

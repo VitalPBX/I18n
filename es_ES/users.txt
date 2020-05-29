@@ -50,3 +50,9 @@ users.username.duplicated = El nombre de usuario proporcionado ya está tomado
 users.tenants = Tenants
 users.tenants.tooltip = Le permite definir a qué Tenants tendrá acceso este usuario
 users.validations.no_tenants = No se han asignado Tenants a este usuario. Por favor, asigne al menos un Tenant.
+users.dark_mode = Modo Oscuro
+users.dark_mode.tooltip = Habilitar/Deshabilitar el modo oscuro para el tema de la GUI.
+users.visible_by_others = Visible por Otros
+users.visible_by_others.tooltip = 
+	Le permite definir si este usuario será visible para que otros lo actualicen. Sin embargo, los usuarios
+	administradores siempre podrán ver a todos los usuarios, incluso si esta opción está desactivada.

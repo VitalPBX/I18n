@@ -19,3 +19,7 @@ emergency_numbers.validation.no_numbers = No se han proporcionado números. Por 
 emergency_numbers.validation.no_trunks = Ninguna troncal ha sido seleccionada. Seleccione al menos una troncal.
 menu.emergency_numbers = Números de Emergencia
 module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.email_addresses = Email Addresses
+emergency_numbers.email_addresses.tooltip = 
+	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
+emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.

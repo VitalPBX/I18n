@@ -54,3 +54,5 @@ language = Idioma
 no_file_selected = No has seleccionado ningún archivo
 report = Reporte
 to_date = Fecha Final
+select_country = -- Seleccionar País --
+select_state = -- Seleccione Estado --

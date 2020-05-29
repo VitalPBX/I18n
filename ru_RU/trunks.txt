@@ -3,7 +3,7 @@ module.trunks = Внешние линии
 trunks = Внешние линии
 trunks.advanced = Дополнительные
 trunks.class_of_service_id = Класс обслуживания
-trunks.class_of_service_id.tooltip = Класс обслуживания для доступа к этой внешней линии. 
+trunks.class_of_service_id.tooltip = Класс обслуживания для доступа к этой внешней линии.
 trunks.codecs = Кодеки
 trunks.codecs.tooltip = Список разрешенных кодеков. Приоритет для перечисленых кодеков устанавливается в порядке убывания. Если вы выберете хотя бы один кодек, будет также создан параметр «disallow = all».
 trunks.custom_settings = Дополнительные настройки
@@ -70,14 +70,14 @@ trunks.outgoing_secret.tooltip = Пароль, по которому будет 
 trunks.outgoing_trunk = IAX агрегация
 trunks.outgoing_trunk.tooltip = Позволяет отправлять голос нескольких вызовов в одном пакете IAX. Это может значительно снизить нагрузку на сеть и уменьшит требуемую пропускную способность сети.
 trunks.outgoing_type = Разрешить входящие вызовы (Friend)
-trunks.outgoing_type.tooltip = Разрешить также принимать вызовы. Запись принимает значение <b>Friend</b> (type=friend), которая одновременно и user и peer. 
+trunks.outgoing_type.tooltip = Разрешить также принимать вызовы. Запись принимает значение <b>Friend</b> (type=friend), которая одновременно и user и peer.
 trunks.outgoing_username = Локальное имя пользователя
 trunks.outgoing_username.duplicate = Указанное локальное имя пользователя уже существует (должно быть уникальным)
 trunks.outgoing_username.tooltip = Имя пользователя, которое должно использоваться для связи с удаленным сервером. Также это имя будет присвоено SIP записи, которая будет создана.
 trunks.overwrite_cid = Перезапись CID
-trunks.overwrite_cid.tooltip = Разрешить перезапись исходящего номера на указанный в <b>"CID внешней линии"</b>. 
+trunks.overwrite_cid.tooltip = Разрешить перезапись исходящего номера на указанный в <b>"CID внешней линии"</b>.
 trunks.register_flag = Использовать вариант по умолчанию
-trunks.register_flag.tooltip = Строка регистрации по умолчанию, предлагаемая системой в зависимости от введенных параметров для внешней линии. Выберите значение <b>«Нет»</b> для ввода собственной строки регистрации.  
+trunks.register_flag.tooltip = Строка регистрации по умолчанию, предлагаемая системой в зависимости от введенных параметров для внешней линии. Выберите значение <b>«Нет»</b> для ввода собственной строки регистрации.
 trunks.register_string = Строка регистрации
 trunks.restricted = Линия по умолчанию
 trunks.ringtimer = Время звонка
@@ -86,7 +86,7 @@ trunks.technology = Технология
 trunks.technology.iax2 = IAX2
 trunks.technology.sip = SIP
 trunks.technology.telephony = Телефония
-trunks.technology.tooltip = Технология, по которой производится подключение внешней линии (trunk). 
+trunks.technology.tooltip = Технология, по которой производится подключение внешней линии (trunk).
 trunks.trkcustom.enabled = Включено
 trunks.trkcustom.param = Параметр
 trunks.trkcustom.type = Тип
@@ -108,7 +108,7 @@ trunks.dial_profile_id.tooltip = Профиль с параметрами наб
 trunks.outgoing_username.invalid = Введите правильное имя пользователя. Разрешены буквы, цифры, плюс, тире и нижнее подчеркивание
 trunks.nat = NAT
 trunks.continue_on_busy = Продолжить, если занято
-trunks.continue_on_busy.tooltip = 	
+trunks.continue_on_busy.tooltip =
 	Продолжить вызов через следующую настроенную внешнюю линию, если текущая внешняя линия занята. <br><br> <b>Примечание: </b> Вызов
 	также продолжит использовать следующую внешнюю линию, когда произошла какая-либо ошибка, даже если этот параметр не активирован.
 trunks.validation.duplicated_outgoing_username = Указанное Имя пользователя для исходящих вызовов уже используется другой внешней линией
@@ -157,8 +157,8 @@ trunks.forbidden_retry_interval.tooltip =
 	Если указано 0, повторная попытка не будет выполнена после получения ответа "403 Forbidden".
 trunks.match = Соответствие
 trunks.match.tooltip =
-	Определяет конечные точки с помощью IP-адреса источника. Значение представляет собой список IP-адресов или хостов, 
-	разделенных запятыми. IP-адреса могут содержать маску подсети. Маска подсети может иметь вид "/24" или "255.255.255.0". 
+	Определяет конечные точки с помощью IP-адреса источника. Значение представляет собой список IP-адресов или хостов,
+	разделенных запятыми. IP-адреса могут содержать маску подсети. Маска подсети может иметь вид "/24" или "255.255.255.0".
 	IP-адрес и маску подсети необходимо отделять косой чертой ("/"). (match)
 trunks.general_conf  = Общая конфигурация
 trunks.transport = {profiles_pjsip_transport}
@@ -176,29 +176,35 @@ trunks.validation.no_tenant = Вы не выбрали арендатора дл
 trunks.custom_headers = Пользовательские заголовки
 trunks.trkcustom.header = Заголовок
 trunks.client_uri = URI клиента
-trunks.client_uri.tooltip = 
+trunks.client_uri.tooltip =
 	Это адрес записи для исходящей регистрации (то есть URI в заголовке To в REGISTER).
-	Для регистрации в ITSP клиентский SIP URI, возможно, должен состоять из имени или номера учетной записи и имени хоста 
+	Для регистрации в ITSP клиентский SIP URI, возможно, должен состоять из имени или номера учетной записи и имени хоста
 	провайдера для их регистратора, например, <b>1234567890@example.com</b>. Может отличаться у разных поставщиков.<br><br>
 	Регистрация клиентских SIP URI будет зависеть от особенностей сети и конфигурации
-	регистратора.	
+	регистратора.
 trunks.contacts = Контакты
-trunks.contacts.tooltip = 
+trunks.contacts.tooltip =
 	Постоянные контакты, назначенные адресу регистрации (AoR - Address of Record). Вы можете определить несколько контактных адресов в формате SIP URI. <br>
 	Например: <b>sip:198.51.100.1:5060</b>
 trunks.dtmfmode = {hot_desking.dtmfmode}
 trunks.profile_id = {hot_desking.profile_id}
 trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
 trunks.server_uri = URI сервера
-trunks.server_uri.tooltip = 
-	Это URI, по которому можно найти регистратора для отправки исходящего REGISTER. Этот URI используется 
-	в качестве исходящего запроса REGISTER из Asterisk. <br><br> Для регистрации с помощью ITSP, часто может 
-	быть использован только домен регистратора, например <b>sip:sip.example.com</b>.	
-trunks.validation.pjsip.no_contacts = 
-	Нет контактов и хост не был определен. Если контакты не определены, вы должны указать удаленный хост для создания URI контактов по умолчанию	
+trunks.server_uri.tooltip =
+	Это URI, по которому можно найти регистратора для отправки исходящего REGISTER. Этот URI используется
+	в качестве исходящего запроса REGISTER из Asterisk. <br><br> Для регистрации с помощью ITSP, часто может
+	быть использован только домен регистратора, например <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts =
+	Нет контактов и хост не был определен. Если контакты не определены, вы должны указать удаленный хост для создания URI контактов по умолчанию
 trunks.validation.pjsip.no_outgoing_host = <b>"Необходимость регистрации"</b> включена, но <b>"Удаленный хост"</b> не указан
 trunks.contact_user = Contact User
 trunks.contact_user.tooltip =
-	Имя пользователя, посылаемое в заголовках SIP URI, влияет на номера, 
-	при входящих вызовах по этой линии	
+	Имя пользователя, посылаемое в заголовках SIP URI, влияет на номера,
+	при входящих вызовах по этой линии
 trunks.none = -- Нет --
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
+trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk

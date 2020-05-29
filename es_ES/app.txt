@@ -53,3 +53,5 @@ app.call_cannot_be_sent = No fue posible enviar la llamada
 app.call_sent = La llamada ha sido enviada
 app.insufficient_data = No se puede ejecutar la acción solicitada porque ha proporcionado datos insuficientes
 app.plan.community-plus = Community Plus
+app.invalid_data = No ha proporcionado suficientes datos para realizar la acción solicitada.
+app.reports.generated_by = Generado por: {0}

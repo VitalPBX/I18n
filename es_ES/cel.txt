@@ -1,0 +1,12 @@
+cel.apps = APPS
+cel.apps.tooltip = Le permite especificar la lista de aplicaciones para las que desea recibir eventos CEL
+cel.dateformat = Formato de Fecha
+cel.dateformat.tooltip = Le permite especificar el formato de fecha utilizado cuando se generan eventos CEL.
+cel.enable = Habilitar
+cel.enable.tooltip = Habilitar / Deshabilitar el registro de eventos del canal de Asterisk (CEL)
+cel.events = Eventos
+cel.events.tooltip = Le permite especificar la lista de eventos que desea generar cuando ocurran.
+cel_events = Configuraciones CEL
+cel_events.general = {ombutel.general}
+menu.cel_events = {cel_events}
+module.cel_events = {cel_events}

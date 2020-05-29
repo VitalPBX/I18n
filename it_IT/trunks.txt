@@ -202,3 +202,9 @@ trunks.contact_user.tooltip =
 	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
 	the far end calls you at this registration.
 trunks.none = -- None --
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
+trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
