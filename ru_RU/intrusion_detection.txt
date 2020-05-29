@@ -26,3 +26,5 @@ intrusion_detection.updated_configuration = Конфигурация обнов�
 intrusion_detection.whitelist = Разрешенные
 menu.intrusion_detection = Обнаружение вторжений
 module.intrusion_detection = Обнаружение вторжений
+intrusion_detection.destemail.tooltip = E-mail to receive notifications when some IP address get banned
+intrusion_detection.settings = Intrusion Detection Settings

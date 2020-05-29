@@ -46,4 +46,9 @@ users.email.tooltip = Адрес электронной почты пользо�
 users.username.duplicated = Указанный логин уже занят
 users.tenants = Арендаторы
 users.tenants.tooltip = Позволяет вам определить, к каким арендаторам этот пользователь будет иметь доступ
-users.validations.no_tenants = Для этого пользователя не было назначено ни одного арендатора. Пожалуйста, назначьте хотя бы одного арендатора.
+users.validations.no_tenants = Для этого пользователя не было назначено ни одного арендатора. Пожалуйста, назначьте хотя бы одного арендатора.users.dark_mode = Dark Mode
+users.dark_mode.tooltip = Enable/Disable Dark Mode for the GUI theme
+users.visible_by_others = Visible By Others
+users.visible_by_others.tooltip = 
+	It allows you to define if this user will be visible by others to be updated. However, administrator users will always
+	be able to see all users, even if this option is disabled.

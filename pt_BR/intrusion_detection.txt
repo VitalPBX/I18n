@@ -26,3 +26,5 @@ intrusion_detection.updated_configuration = A configuração foi atualizada.
 intrusion_detection.whitelist = Lista branca
 menu.intrusion_detection = Detecção de intruso
 module.intrusion_detection = Detecção de intruso
+intrusion_detection.destemail.tooltip = E-mail to receive notifications when some IP address get banned
+intrusion_detection.settings = Intrusion Detection Settings

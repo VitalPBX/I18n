@@ -25,4 +25,5 @@ intrusion_detection.service_stopped = Il servizio e' stato fermato.
 intrusion_detection.updated_configuration = La configurazione e' stata aggiornata.
 intrusion_detection.whitelist = Lista Bianca
 menu.intrusion_detection = Rilevamento delle Intrusioni
-module.intrusion_detection = Rilevamento delle Intrusioni.
+module.intrusion_detection = Rilevamento delle Intrusioni.intrusion_detection.destemail.tooltip = E-mail to receive notifications when some IP address get banned
+intrusion_detection.settings = Intrusion Detection Settings

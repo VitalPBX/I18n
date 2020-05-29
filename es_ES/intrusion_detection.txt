@@ -26,3 +26,5 @@ menu.intrusion_detection = Detección de Intrusión
 module.intrusion_detection = Detección de Intrusión 
 intrusion_detection.bantime.tooltip = Duración (en segundos) para que se prohíba la IP. Establecer en -1 para la prohibición "permanente".
 intrusion_detection.maxretry.tooltip = Número de coincidencias (es decir, valor del contador) que desencadena una acción de prohibición en el IP.
+intrusion_detection.destemail.tooltip = Correo electrónico para recibir notificaciones cuando se bloquee alguna dirección IP.
+intrusion_detection.settings = Configuración de detección de Tntrusos

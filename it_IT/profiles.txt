@@ -237,3 +237,9 @@ profiles_pjsip_webrtc_tooltip =
 	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
 	rtcp_mux, use_avpf, ice_support, and use_received_transport.
 profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_pjsip_remove_existing = Remove Existing
+profiles_pjsip_remove_existing_tooltip = 
+	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
+	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
+	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
+	refreshing.

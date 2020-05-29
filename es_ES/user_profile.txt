@@ -3,3 +3,5 @@ module.user_profile = Mi perfil
 user_profile = Perfil del Usuario
 user_profile.general = {users.general}
 user_profile.settings = {users.settings}
+users_profiles.select_all = Seleccionar Todo
+users_profiles.unselect_all = Deselecciona Todo

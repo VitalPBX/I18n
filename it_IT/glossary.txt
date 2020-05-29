@@ -53,3 +53,5 @@ no_file_selected = You have not selected any file
 report = Report
 to_date = End Date
 actions = Actions
+select_country = -- Select Country --
+select_state = -- Select State --

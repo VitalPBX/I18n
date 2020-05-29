@@ -55,3 +55,5 @@ dhcpsettings.wins = WINS
 dhcpsettings.wins.tooltip = WINS (Windows Internet Name Service) est un service de résolution de nom utilisé par le protocole NetBIOS pour résoudre l'adresse IP d'un périphérique utiliant NetBIOS. WINS est utilisé lorsque vous disposez d'anciennes version de Windows ou des logiciels utilisants NetBIOS
 menu.dhcp_settings = Paramètres DHCP
 module.dhcpsettings = Paramètres DHCP
+dhcp_server = DHCP Server
+menu.dhcp_server = {dhcp_server}

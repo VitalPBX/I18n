@@ -18,3 +18,8 @@ app_keys.key.tooltip = Clave a utilizar para autenticar aplicaciones de terceros
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
 app_keys.description = Descripción
+app_keys.tenant = Tenant
+app_keys.tenant.tooltip = 
+	Le permite definir qué Tenant se asociará con esta clave API, por lo que, cuando alguien use esta clave,
+	lo hará solo busca datos relacionados con el Tenant asignado. Sin embargo, si se establece en none,
+	el usuario final debe proporcionar la identificación del Tenant o ruta en cada solicitud.
