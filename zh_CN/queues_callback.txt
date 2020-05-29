@@ -24,7 +24,7 @@ queues_callback.dial_prefix = Dial Prefix
 queues_callback.dial_prefix.tooltip = If defined, it will be prepended to the requested callback number
 queues_callback.enabled = Enabled
 queues_callback.enabled.tooltip = It allows you to enable / disable pattern rules
-queues_callback.general = {ombutel.general}
+queues_callback.general = {vitalpbx.general}
 queues_callback.invalid_message = Invalid Message
 queues_callback.invalid_message.tooltip = 
 	Message to be played when the provided number by caller doesn't match with the defined  number rules.<br><br> Default Message:

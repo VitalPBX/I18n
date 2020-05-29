@@ -10,4 +10,4 @@ custom_contexts.priority = Prioridade
 custom_contexts.priority.priority = A prioridade em que a chamada será iniciada.
 custom_contexts.dest = Destino
 custom_contexts.max_custom_contexts = Você não pode criar mais de um contexto personalizado. Por favor, compre uma licença para contextos personalizados ilimitados criados.
-custom_contexts.general = {ombutel.general}
+custom_contexts.general = {vitalpbx.general}

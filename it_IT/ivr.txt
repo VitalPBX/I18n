@@ -12,7 +12,7 @@ ivr.entries.enabled = Abilitato
 ivr.entries.mod_dest.empty = E' richiesta la destinazione del modulo di ingresso IVR.
 ivr.entries.option = Tasto
 ivr.entries.option.duplicate = Le cifre dell'entrata IVR devono essere uniche.
-ivr.entries.option.invalid = Le cifre della voce IVR devono contenere uno o più numeri.
+ivr.entries.option.invalid = Le cifre della voce IVR devono contenere uno o piï¿½ numeri.
 ivr.entries.option.placeholder = Tasto da Premere
 ivr.entries.option.pound = Cancelletto (#) e' riservato per la terminazione della chiamata.
 ivr.entries.option.star = Asterisco (*) e' riservato per la riproduzione del messaggio di benvenuto.
@@ -51,11 +51,11 @@ menu.ivr = IVR
 module.ivr = IVR
 ivr.generate_stats = Genera Statistiche
 ivr.generate_stats.tooltip =
-	Se è impostato su Sì, saranno le statistiche salvate per ciascuna opzione contrassegnata. Queste statistiche possono essere consultate nel Modulo
+	Se ï¿½ impostato su Sï¿½, saranno le statistiche salvate per ciascuna opzione contrassegnata. Queste statistiche possono essere consultate nel Modulo
 	Statisiche IVR.
 ivr.cos.warning =
 	L'azione che stai per eseguire potrebbe creare vulnerabilita' di sicurezza. <b> Non procedere se non sei sicuro di aver compreso la logica dei Permessi di Chiamata per IVR. </ b>
 ivr.cos.warning.title = {warning}
-ivr.cos.warning.confirm =  {ombutel.accept}
-ivr.cos.warning.cancel = {ombutel.cancel}
+ivr.cos.warning.confirm =  {vitalpbx.accept}
+ivr.cos.warning.cancel = {vitalpbx.cancel}
 ivr.max_reached = E' stato raggiunto il numero massimo di IVR consentiti.

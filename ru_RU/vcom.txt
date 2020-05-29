@@ -1,7 +1,7 @@
 vcrp = Профили результатов кампаний
 menu.vcom_call_result_profiles = {vcrp}
 module.vcom_call_result_profiles = {vcrp}
-vcom_call_result_profiles.general = {ombutel.general}
+vcom_call_result_profiles.general = {vitalpbx.general}
 vcrp.type.negative_end = Отрицательный
 vcrp.type.positive_end = Положительный
 vcrp.type.rescheduled = Перенесенные
@@ -15,7 +15,7 @@ vcrp.validation.no_results = Правильный результат не был
 vc = Кампании
 menu.vcom_campaigns = {vc}
 module.vcom_campaigns = {vc}
-vcom_campaigns.general = {ombutel.general}
+vcom_campaigns.general = {vitalpbx.general}
 vc.seconds =
 	[one] сек
 	[other] {0} сек

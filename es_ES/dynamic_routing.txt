@@ -1,7 +1,7 @@
 dynamic_routing = Enrutamiento Dinámico
 menu.dynamic_routing = {dynamic_routing}
 module.dynamic_routing = {dynamic_routing}
-dynamic_routing.general = {ombutel.general}
+dynamic_routing.general = {vitalpbx.general}
 dynamic_routing.list = Lista
 dynamic_routing.et.hours =
 	[uno] {0} Hora

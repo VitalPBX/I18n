@@ -49,7 +49,7 @@ addons.licensing.activate = Ativar
 addons.licensing.register = Registro {0} Addon
 addons.clean_cache = Limpar Cache
 addons.cache_cleaned_up = O cache foi limpoaddons.addon.license = {0} License
-addons.general = {ombutel.general}
+addons.general = {vitalpbx.general}
 addons.licensing.no_license = The selected add-on has not license
 addons.licensing.view = View License
 addons.reactivate = Reactivate

@@ -28,4 +28,4 @@ dial_profiles.ringing_tone.help = Indique el timbre a la parte llamante, incluso
 dial_profiles.warning_note = <b>¡Advertencia!</b> Habilitar la transferencia por la persona que llama puede permitir que un llamante externo explote la PBX transfiriendo sus llamadas a otro destino externo cuando se define una clase de servicio demasiado permisiva para la línea externa.
 menu.dial_profiles = Perfiles de Marcado
 module.dial_profiles = Perfiles de Marcado
-dial_profiles.general = {ombutel.general}
+dial_profiles.general = {vitalpbx.general}

@@ -1,6 +1,6 @@
 module.domotic_notifications = Notificações Domotic
 
-domotic_notifications.general.tab = {ombutel.general}
+domotic_notifications.general.tab = {vitalpbx.general}
 
 domotic_notifications.unit_id = Unidade
 domotic_notifications.unit_id.help = Dependendo da unidade selecionada, mostrará o dispositivo a ser configurado.
@@ -18,6 +18,6 @@ domotic_notifications.validation.recording_id = O áudio de notificação é nec
 domotic_notifications.validation.mod_destination = O módulo de destino é obrigatório.
 domotic_notifications.validation.destination = O destino é obrigatório.
 
-domotic_notifications.delete = {ombutel.delete}
+domotic_notifications.delete = {vitalpbx.delete}
 domotic_notifications.delete.message = Tem certeza de que deseja excluir esta notificação?
 

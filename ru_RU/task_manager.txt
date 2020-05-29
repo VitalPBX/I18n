@@ -1,7 +1,7 @@
 task_manager = Диспетчер задач
 menu.task_manager = {task_manager}
 module.task_manager = {task_manager}
-task_manager.general = {ombutel.general}
+task_manager.general = {vitalpbx.general}
 task_manager.description = Описание
 task_manager.description.tooltip = Краткое описание для идентификации этой задачи
 task_manager.cron_profile = Планировщик задач

@@ -1,0 +1,16 @@
+login.signing_in = 로그인
+login.panel = Panel
+login.pbx.desc = Immortal PBX 관리
+login.billing.desc = Software to apply 빌링
+login.monitoring.desc = Software for 스위치보드
+login.recordings.desc = Software for 녹취파일
+login.install_on_addons = 애드-온 바로가기
+login.retype_password = Retype Password
+login.validation.password_not_retyped = 다시 한번 비밀번호를 입력하세요
+login.validation.different_password = Please enter the same value again
+login.reset_password_title = Setup Admin Password
+login.reset_password_title.tooltip = This allows you to configure the password to login with the admin user
+login.no_db = Wait, still installing database
+login.username.required = 사용자 이름을 입력하세요
+login.tenant_name = Tenant Name
+login.tenant = Tenant

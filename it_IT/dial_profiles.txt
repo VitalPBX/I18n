@@ -29,5 +29,5 @@ dial_profiles.name.required = Il campo Nome e' obbligatorio.
 dial_profiles.name.invalid = Il campo Nome non deve contenere spazi.
 dial_profiles.name.unique = Il nome del profilo di chiamata deve essere univoco
 dial_profiles.warning_note = <b>Attenzione!</b> L'abilitazione del trasferimento da parte del chiamante puo' consentire a un chiamante esterno di sfruttare il PBX trasferendo le proprie chiamate a un'altra destinazione esterna quando per il trunk e' definita una Classe di servizio troppo permissiva.
-dial_profiles.general = {ombutel.general}
+dial_profiles.general = {vitalpbx.general}
 dial_profiles.invalid.default_delete = Impossibile eliminare questo profilo di composizione perche' e' contrassegnato come predefinito.

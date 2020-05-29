@@ -1,6 +1,6 @@
 menu.asterisk_sounds = File Audio Asterisk
 module.asterisk_sounds = {menu.asterisk_sounds}
-asterisk_sounds.general = {ombutel.general}
+asterisk_sounds.general = {vitalpbx.general}
 asterisk_sounds.sound = Pacchetto Audio
 asterisk_sounds.installed_version = Versione Installata
 asterisk_sounds.available_version = Versione Disponibile
@@ -9,6 +9,6 @@ asterisk_sounds.invalid_data = Dati inseriti non validi
 asterisk_sounds.successfully_installed = Il pacchetto audio di Asterisk e' stato installato con successo.
 asterisk_sounds.not_installed = Il pacchetto audio di Asterisk non e' stato ancora installato.
 asterisk_sounds.successfully_updated = Il pacchetto audio di Asterisk e' stato aggiornato con successo.
-asterisk_sounds.cannot_update = Il pacchetto audio Asterisk non puo' essere aggiornato perche' non è stato ancora installato.
-asterisk_sounds.cannot_remove = Il pacchetto audio Asterisk non può essere rimosso perché non e' stato ancora installato.
+asterisk_sounds.cannot_update = Il pacchetto audio Asterisk non puo' essere aggiornato perche' non ï¿½ stato ancora installato.
+asterisk_sounds.cannot_remove = Il pacchetto audio Asterisk non puï¿½ essere rimosso perchï¿½ non e' stato ancora installato.
 asterisk_sounds.successfully_removed  = Il pacchetto audio di Asterisk e' stato rimosso con successo.

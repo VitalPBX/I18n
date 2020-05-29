@@ -2,7 +2,7 @@ module.domotic_units = Контроллеры
 domotic_units.menu = {module.domotic_units}
 domotic_units.show_menu = Показать меню контроллеров
 
-domotic_units.general.tab = {ombutel.general}
+domotic_units.general.tab = {vitalpbx.general}
 
 domotic_units.model_id = Модель
 domotic_units.model_id.help = Позволяет выбрать тип смарт-контроллера.
@@ -20,14 +20,14 @@ domotic_units.validation.invalid_ip = Введен неверный IP-адре�
 domotic_units.validation.invalid_port = Введен неверный порт
 domotic_units.validation.invalid_model = Была предоставлена неверная модель контроллера
 
-domotic_units.delete = {ombutel.delete}
+domotic_units.delete = {vitalpbx.delete}
 domotic_units.delete.message = Вы уверены, что хотите удалить этот контроллер?
 
-domotic_units.save.btn = {ombutel.save}
+domotic_units.save.btn = {vitalpbx.save}
 domotic_units.sync.btn = Синхронизировать
-domotic_units.update.btn = {ombutel.update}
-domotic_units.delete.btn = {ombutel.delete}
-domotic_units.cancel.btn = {ombutel.cancel}
+domotic_units.update.btn = {vitalpbx.update}
+domotic_units.delete.btn = {vitalpbx.delete}
+domotic_units.cancel.btn = {vitalpbx.cancel}
 
 domotic_units.sync_error = Ошибка синхронизации
 domotic_units.sync_error.msg = Синхронизация не выполнена

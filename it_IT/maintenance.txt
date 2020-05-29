@@ -14,7 +14,7 @@ maintenance.enabled.tooltip =
 	Permette di abilitare o disabilitare la manutenzione del PBX.
 maintenance.execute = Esegui Ora
 maintenance.executed = La manutenzione viene eseguita in background.
-maintenance.general = {ombutel.general}
+maintenance.general = {vitalpbx.general}
 maintenance.mcp.invalid_tenant = La manutenzione non puo' essere eseguita perche' sono state fornite informazioni non valide.
 maintenance.no_license_notification = 	
 	Le seguenti funzionalita': "Cancella le registrazioni piu' vecchie" e "Converti registrazioni", non funzioneranno finche' non verra' attivata una licenza

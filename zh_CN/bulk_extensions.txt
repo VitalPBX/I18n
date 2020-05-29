@@ -14,7 +14,7 @@ bulk_extensions.device_password.tooltip =
 bulk_extensions.features_password.tooltip =
 	Allows you to define the features password for each extension, if left blank, a random password will be generated.
 	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to use the extension as features password.
-bulk_extensions.general = {ombutel.general}
+bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.name_prefix = Name Prefix
 bulk_extensions.name_prefix.tooltip =
 	Allows you to define a prefix to use as part of the extension name, eg.: if you set the prefix value to Agent and

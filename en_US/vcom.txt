@@ -1,7 +1,7 @@
 vcrp = Campaigns Result Profiles
 menu.vcom_call_result_profiles = {vcrp}
 module.vcom_call_result_profiles = {vcrp}
-vcom_call_result_profiles.general = {ombutel.general}
+vcom_call_result_profiles.general = {vitalpbx.general}
 vcrp.type.negative_end = Negative End
 vcrp.type.positive_end = Positive End
 vcrp.type.rescheduled = Rescheduled
@@ -15,7 +15,7 @@ vcrp.validation.no_results = No valid result items have been provided
 vc = Campaigns
 menu.vcom_campaigns = {vc}
 module.vcom_campaigns = {vc}
-vcom_campaigns.general = {ombutel.general}
+vcom_campaigns.general = {vitalpbx.general}
 vc.seconds =
 	[one] One Second
 	[other] {0} Seconds

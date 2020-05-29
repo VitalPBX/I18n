@@ -27,7 +27,7 @@ recmanagement.upload_recording = Subir Brabación
 recmanagement.default = Predeterminado
 recmanagement.none = Ninguna
 recmanagement.name_must_be_unique = Nombre de Grabación debe ser único
-recmanagement.recording_name_required = Nombre de Grabación es un parámetro necesariorecmanagement.action.delete = {ombutel.delete}
+recmanagement.recording_name_required = Nombre de Grabación es un parámetro necesariorecmanagement.action.delete = {vitalpbx.delete}
 recmanagement.action.delete.tooltip = Eliminar permanentemente esta grabación
 recmanagement.action.phone_record = Grabar desde el Teléfono
 recmanagement.action.phone_record.tooltip = Le permite grabar este aviso desde el teléfono
@@ -37,4 +37,4 @@ recmanagement.invalid_extension = Se ha seleccionado una extensión no válida p
 recmanagement.perform_recording = Realizar la grabación
 recmanagement.select_extension = Seleccione la extensión para realizar la grabación
 recmanagement.update_recording = Actualizar Grabación
-recmanagement.action.delete = {ombutel.delete}
+recmanagement.action.delete = {vitalpbx.delete}

@@ -14,7 +14,7 @@ bulk_extensions.device_password.tooltip =
 bulk_extensions.features_password.tooltip = 	
 	Le permite definir la contraseña de Funciones Telefónicas para cada extensión, si se deja en blanco, se generará una contraseña aleatoria.
 	Puede usar la palabra reservada <b>&#123;EXTENSION&#125;</b> para utilizar la extensión como contraseña de Funciones Telefónicas.
-bulk_extensions.general = {ombutel.general}
+bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.name_prefix = Prefijo
 bulk_extensions.name_prefix.tooltip = 	
 	Le permite definir un prefijo para usar como parte del nombre de la extensión, por ej .: si establece el valor del prefijo "Agent" y

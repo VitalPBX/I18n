@@ -1,6 +1,6 @@
 menu.softphone_extensions = {module.softphone_extensions}
 module.softphone_extensions = Softphone устройства
-softphone_extensions.general = {ombutel.general}
+softphone_extensions.general = {vitalpbx.general}
 softphone_extensions.no_license = 
 	Вы используете бесплатную версию сервера лицензирования Softphones. Активируйте это дополнение, чтобы получить более 
 	двух устройств для {0} Softphones

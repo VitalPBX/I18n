@@ -1,6 +1,6 @@
 http_server.certificate = Certificado
 http_server.certificate.help = Define el certificado que se utilizará cuando se acceda a la GUI a través de HTTPS. De forma predeterminada, se utiliza el certificado de precompilación, si desea utilizar otro vaya al módulo de Certificados para generar uno.
-http_server.general = {ombutel.general}
+http_server.general = {vitalpbx.general}
 http_server.http_port = Puerto HTTP
 http_server.http_port.help = Define en qué puerto será accesible la GUI a través del protocolo HTTP.
 http_server.https_enable = Habilitar HTTPS

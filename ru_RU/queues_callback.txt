@@ -1,7 +1,7 @@
 queues_callback = Обратный звонок из очереди
 menu.queues_callback = {queues_callback}
 module.queues_callback = {queues_callback}
-queues_callback.general = {ombutel.general}
+queues_callback.general = {vitalpbx.general}
 queues_callback.description = Описание
 queues_callback.description.tooltip = Краткое описание
 queues_callback.queue = Очередь

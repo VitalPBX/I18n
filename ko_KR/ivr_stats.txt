@@ -1,0 +1,19 @@
+menu.ivr_reports = IVR 보고서
+menu.ivr_stats = IVR Stats
+module.ivr_stats = IVR Stats
+ivr_stats.ivr_id = IVR
+ivr_stats.from = Start Date
+ivr_stats.from.tooltip = It defines the starting date to get stats from the selected IVR
+ivr_stats.to = End Date
+ivr_stats.to.tooltip =It defines the ending date to get stats from the selected IVR
+ivr_stats.summary = Summary
+ivr_stats.detailed = Detailed
+ivr_stats.search = Search
+ivr_stats.option = Option
+ivr_stats.pressed_times = Pressed Times
+ivr_stats.calldate = Call Date
+ivr_stats.caller = Caller
+ivr_stats.callee = Callee
+ivr_stats.call_duration = Call Duration
+ivr_stats.call_status = Call Status
+

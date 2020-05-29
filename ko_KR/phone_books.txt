@@ -1,0 +1,34 @@
+menu.phone_books = Phonebooks
+module.phone_books = {menu.phone_books}
+phone_books.general = {vitalpbx.general}
+phone_books.description = Description
+phone_books.extensions = Extensions
+phone_books.ring_groups = Ring Groups
+phone_books.feature_codes = Feature Codes
+phone_books.conferences = Conferences
+phone_books.queues = Queues
+phone_books.contacts.tooltip = It allows you to select which {0} will be available on this Phonebook
+phone_books.validations.no_contacts = You didn't select any contact for this phone book. Please select at least one contact
+phone_books.validations.no_desc = An invalid description has been provided. Please provide an alphanumeric description
+phone_books.url = Phonebook URL
+phone_books.url.tooltip = URL to load this phonebook in any supported phone
+phone_books.source_type = Type
+phone_books.source_type.internal = Internal
+phone_books.source_type.external = External
+phone_books.source_type.tooltip =
+    It allows you to define if you will use internal numbers (Queues, Conferences, Extensions, etc) or import external
+    numbers to your PBX
+phone_books.csv = CSV File
+phone_books.csv.tooltip = File with the list of contacts to import on this phonebook
+phone_books.contacts = Contacts
+phone_books.firs_name = First Name
+phone_books.last_name = Last Name
+phone_books.phone = Phone
+phone_books.organization = Organization
+phone_books.job_title = Job Title
+phone_books.email = E-mail
+phone_books.prefix = Prefix
+phone_books.prefix.tooltip =
+	Optional prefix to be appended to phone numbers at the moment of generating the phonebook. Useful if you use prefixes
+	for dialing.
+phone_books.csv.missing_columns = {import_extensions.missing_columns}

@@ -1,7 +1,7 @@
 app_keys = Application Keys
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
-app_keys.general = {ombutel.general}
+app_keys.general = {vitalpbx.general}
 app_keys.description = Description
 app_keys.description.tooltip = A short description of your application
 app_keys.enabled = Enabled

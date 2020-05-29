@@ -1,6 +1,6 @@
 menu.bulk_extensions = Bulk Extensions
 module.bulk_extensions = {menu.bulk_extensions}
-bulk_extensions.general = {ombutel.general}
+bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.range = Intervallo Interni
 bulk_extensions.range.tooltip =
 	Definire l'intervallo degli interni che si desidera creare , es.: da 1000 a 1400.

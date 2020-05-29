@@ -1,6 +1,6 @@
 module.cid_lookup = Поиск CID
 menu.cid_lookup = {module.cid_lookup}
-cid_lookup.general = {ombutel.general}
+cid_lookup.general = {vitalpbx.general}
 cid_lookup.description = Описание {0}
 cid_lookup.description.tooltip = Краткое описание для идентификации этого CID поиска
 cid_lookup.source = Источник {0}

@@ -14,7 +14,7 @@ maintenance.enabled.tooltip =
 	It allows you to enable or disable the PBX maintenance.
 maintenance.execute = Execute Now
 maintenance.executed = The maintenance is being executed in background
-maintenance.general = {ombutel.general}
+maintenance.general = {vitalpbx.general}
 maintenance.mcp.invalid_tenant = The maintenance cannot be executed due you have provided invalid info
 maintenance.no_license_notification = 
 	The following features: "Clear Oldest Recordings" & "Convert Recordings", will not work until you activate this add-on

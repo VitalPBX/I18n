@@ -16,5 +16,5 @@ ivr_stats.caller = Caller
 ivr_stats.callee = Callee
 ivr_stats.call_duration = Call Duration
 ivr_stats.call_status = Call Status
-ivr_stats.general = {ombutel.general}
+ivr_stats.general = {vitalpbx.general}
 ivr_stats.no_cdr = No CDR

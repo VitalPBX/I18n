@@ -20,7 +20,7 @@ dynamic_routing.expiration_time.tooltip =
 	It allows to define how long the records of the dynamic routing list will be conserved, before they are
 	automatically deleted
 dynamic_routing.extension = Extension Number
-dynamic_routing.general = {ombutel.general}
+dynamic_routing.general = {vitalpbx.general}
 dynamic_routing.list = List
 dynamic_routing.only_missed_calls = Only Keep Missed Calls
 dynamic_routing.only_missed_calls.tooltip = 

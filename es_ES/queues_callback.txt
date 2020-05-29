@@ -24,7 +24,7 @@ queues_callback.dial_prefix = Prefijo de Marcación
 queues_callback.dial_prefix.tooltip = Si se define, se antepondrá al número de retorno de llamada solicitado.
 queues_callback.enabled = Habilitado
 queues_callback.enabled.tooltip = Le permite Habilitar/Deshabilitar reglas de patrones
-queues_callback.general = {ombutel.general}
+queues_callback.general = {vitalpbx.general}
 queues_callback.invalid_message = Mensaje inválido
 queues_callback.invalid_message.tooltip = 
 	Mensaje que se reproducirá cuando el número proporcionado por la persona que llama no coincida con las reglas de número definidas. <br><br> Mensaje predeterminado:

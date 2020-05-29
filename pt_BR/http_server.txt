@@ -1,6 +1,6 @@
 menu.http_server = Servidor HTTP
 module.http_server = {menu.http_server}
-http_server.general = {ombutel.general}
+http_server.general = {vitalpbx.general}
 http_server.http_port = Porta HTTP
 http_server.http_port.help = Define a partir de qual porta será acessível a GUI através do protocolo HTTP.
 http_server.https_port = Porta HTTPS

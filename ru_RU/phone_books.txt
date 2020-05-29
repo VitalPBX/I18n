@@ -1,6 +1,6 @@
 menu.phone_books = Телефонная книга
 module.phone_books = {menu.phone_books}
-phone_books.general = {ombutel.general}
+phone_books.general = {vitalpbx.general}
 phone_books.description = Описание
 phone_books.extensions = Номера
 phone_books.ring_groups = Группы вызова

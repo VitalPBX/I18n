@@ -2,7 +2,7 @@ module.domotic_units = Unidade
 domotic_units.menu = {module.domotic_units}
 domotic_units.show_menu = Mostrar menu de unidades
 
-domotic_units.general.tab = {ombutel.general}
+domotic_units.general.tab = {vitalpbx.general}
 
 domotic_units.model_id = Modelo
 domotic_units.model_id.help = Permite que você selecione o tipo de unidade inteligente.
@@ -20,14 +20,14 @@ domotic_units.validation.invalid_ip = Um IP inválido foi definido
 domotic_units.validation.invalid_port = Uma porta inválida foi definida
 domotic_units.validation.invalid_model = Um modelo de unidade inválido foi fornecido
 
-domotic_units.delete = {ombutel.delete}
+domotic_units.delete = {vitalpbx.delete}
 domotic_units.delete.message = Tem certeza de que deseja excluir este aparelho?
 
-domotic_units.save.btn = {ombutel.save}
+domotic_units.save.btn = {vitalpbx.save}
 domotic_units.sync.btn = Sincronizar
-domotic_units.update.btn = {ombutel.update}
-domotic_units.delete.btn = {ombutel.delete}
-domotic_units.cancel.btn = {ombutel.cancel}
+domotic_units.update.btn = {vitalpbx.update}
+domotic_units.delete.btn = {vitalpbx.delete}
+domotic_units.cancel.btn = {vitalpbx.cancel}
 
 domotic_units.sync_error = Sincronização com falha
 domotic_units.sync_error.msg = A sincronização falhou

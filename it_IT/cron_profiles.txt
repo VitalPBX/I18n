@@ -1,6 +1,6 @@
 module.cron_profiles = Profili Schedulazione
 menu.cron_profiles = {module.cron_profiles}
-cron_profiles.general = {ombutel.general}
+cron_profiles.general = {vitalpbx.general}
 cron_profiles.description = Descrizione
 cron_profiles.description.tooltip = Descrizione che identifica questo Profilo
 cron_profiles.template = Modello

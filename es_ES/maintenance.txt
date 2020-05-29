@@ -1,7 +1,7 @@
 maintenance = Mantenimiento
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
-maintenance.general = {ombutel.general}
+maintenance.general = {vitalpbx.general}
 maintenance.cdr_preservation = Borrar CDRs más Antiguos
 maintenance.cdr_preservation.tooltip =
 	Le permite definir el número máximo de días que debe conservarse el CDR.
