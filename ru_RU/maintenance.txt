@@ -1,7 +1,7 @@
 maintenance = Обслуживание
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
-maintenance.general = {ombutel.general}
+maintenance.general = {vitalpbx.general}
 maintenance.max_cdr = Макс. кол-во записей детализации
 maintenance.max_cdr.tooltip =
 	Позволяет вам определить максимальное количество записей детализации, которые должны быть сохранены. 

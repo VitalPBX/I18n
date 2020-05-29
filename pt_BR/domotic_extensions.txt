@@ -33,8 +33,8 @@ domotic_extensions.validation.invalid_dial = O número a ser discado tem um form
 domotic_extensions.validation.empty_description = A descrição é obrigatória.
 domotic_extensions.validation.invalid_description = A descrição tem um formato inválido. números, letras, espaços, traços e sublinhados são permitidos.
 
-domotic_extensions.delete = {ombutel.delete}
-domotic_extensions.delete.message = {ombutel.confirm_delete.default_msg}
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
 
 domotic_extensions.device =
     [um] dispositivo

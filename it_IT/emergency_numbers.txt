@@ -1,6 +1,6 @@
 menu.emergency_numbers = Numeri Emergenza
 module.emergency_numbers = {menu.emergency_numbers}
-emergency_numbers.general = {ombutel.general}
+emergency_numbers.general = {vitalpbx.general}
 emergency_numbers.trunks = Trunks
 emergency_numbers.trunks.tooltip = Elenco di Trunks che possono essere utilizzati in caso di chiamata di emergenza.
 emergency_numbers.legend = Lista dei Numeri Emergenza

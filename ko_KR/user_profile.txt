@@ -1,0 +1,5 @@
+menu.user_profile = Profile
+module.user_profile = My Profile
+user_profile = User Profile
+user_profile.general = {users.general}
+user_profile.settings = {users.settings}

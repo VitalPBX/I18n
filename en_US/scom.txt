@@ -1,7 +1,7 @@
 menu.scom = Communicator
 menu.scom_softkey_profiles = Softkey Profiles
 menu.scom_pause_profiles = Pause Profiles
-scom_softkey_profiles.general = {ombutel.general}
+scom_softkey_profiles.general = {vitalpbx.general}
 module.scom_softkey_profiles = {menu.scom_softkey_profiles}
 scom.description = Description %s
 scom.desc = Description
@@ -41,7 +41,7 @@ scom.type.qap = Queues - Agent Pause
 scom.type.redial = Redial
 scom.type.account = Account
 scom.type.dialer = Dialer
-scom_pause_profiles.general = {ombutel.general}
+scom_pause_profiles.general = {vitalpbx.general}
 module.scom_pause_profiles = {menu.scom_pause_profiles}
 scom.causes = Causes %s
 scom.causes.tooltip = Allows you to setup different cause of pauses separated by comma

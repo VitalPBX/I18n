@@ -1,6 +1,6 @@
 menu.bulk_extensions = <span style="margin-left: -5px;">Быстрое создание номеров</span>
 module.bulk_extensions = {menu.bulk_extensions}
-bulk_extensions.general = {ombutel.general}
+bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.range = Диапазон номеров
 bulk_extensions.range.tooltip =
 	Определяет диапазон номеров, которые вы хотите создать, например: от 1000 до 1400.

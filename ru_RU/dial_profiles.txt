@@ -29,4 +29,4 @@ dial_profiles.name.required = Название не может быть пуст
 dial_profiles.name.invalid = Название не должно содержать пробелов
 dial_profiles.name.unique = Название профиля должно быть уникальным
 dial_profiles.warning_note = <b>Внимание!</b> Включение передачи для вызывающего абонента может позволить внешнему абоненту использовать АТС для переадресации своих вызовов другому внешнему абоненту, если для внешней линии установлен Класс Обслуживания со всеми разрешениями. 
-dial_profiles.general = {ombutel.general}
+dial_profiles.general = {vitalpbx.general}

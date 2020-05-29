@@ -1,7 +1,7 @@
 task_manager = Task Manager
 menu.task_manager = {task_manager}
 module.task_manager = {task_manager}
-task_manager.general = {ombutel.general}
+task_manager.general = {vitalpbx.general}
 task_manager.description = Descrizione
 task_manager.description.tooltip = Una breve descrizione per identificare questo compito.
 task_manager.cron_profile = Cron Profile
@@ -10,9 +10,9 @@ task_manager.script = Script
 task_manager.script.tooltip =
 	Ti permette di selezionare uno script da eseguire periodicamente, in base al profilo di cron selezionato.
 	Lo script deve trovarsi a <b>/var/lib/ombutel/scripts</b>.
-task_manager.validations.no_description = Nessuna descrizione è stata definita. Si prega di scrivere una descrizione valida.
+task_manager.validations.no_description = Nessuna descrizione ï¿½ stata definita. Si prega di scrivere una descrizione valida.
 task_manager.validations.duplicated_description = Un altro compito sta usando la stessa descrizione. Si prega di verificare.
-task_manager.validations.duplicated_script = Un'altra attività e' stata definita con lo stesso script. Si prega di verificare.
+task_manager.validations.duplicated_script = Un'altra attivitï¿½ e' stata definita con lo stesso script. Si prega di verificare.
 task_manager.validations.no_script = Nessuno script e' stato selezionato per questo Task Manager.task_manager.enabled = Enabled
 task_manager.enabled.tooltip = Allows you to enable/disable this task
 task_manager.silent_mode = Silent Mode

@@ -29,4 +29,4 @@ dial_profiles.name.required = Campo de nome é obrigatório
 dial_profiles.name.invalid = O campo de nome não deve conter espaços
 dial_profiles.name.unique = O nome do perfil de discagem deve ser exclusivo
 dial_profiles.warning_note = <b> Aviso! </b> Ativar a transferência pelo chamador pode permitir que um chamador externo explore o PBX transferindo suas chamadas para outro destino externo quando uma Classe de serviço muito permissiva é definida para o tronco.
-dial_profiles.general = {ombutel.general}
+dial_profiles.general = {vitalpbx.general}

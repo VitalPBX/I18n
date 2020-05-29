@@ -1,7 +1,7 @@
 menu.dynamic_destinations = Динамические направления
 dynamic_destinations = {menu.dynamic_destinations}
 module.dynamic_destinations = {menu.dynamic_destinations}
-dynamic_destinations.general = {ombutel.general}
+dynamic_destinations.general = {vitalpbx.general}
 dynamic_destinations.condition = Ответ
 dynamic_destinations.destination = Направление
 dynamic_destinations.enabled = Включено

@@ -1,6 +1,6 @@
 module.domotic_notifications = Уведомления Domotic
 
-domotic_notifications.general.tab = {ombutel.general}
+domotic_notifications.general.tab = {vitalpbx.general}
 
 domotic_notifications.unit_id = Контроллер
 domotic_notifications.unit_id.help = В зависимости от выбранного контроллера будет отображаться устройство для настройки.
@@ -18,5 +18,5 @@ domotic_notifications.validation.recording_id = Требуется привет�
 domotic_notifications.validation.mod_destination = Требуется модуль направления.
 domotic_notifications.validation.destination = Требуется направление.
 
-domotic_notifications.delete = {ombutel.delete}
+domotic_notifications.delete = {vitalpbx.delete}
 domotic_notifications.delete.message = Вы уверены, что хотите удалить это уведомление?

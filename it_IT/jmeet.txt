@@ -1,6 +1,6 @@
 module.jmeet = Video Conferenza
 menu.jmeet = {module.jmeet}
-jmeet.general = {ombutel.general}
+jmeet.general = {vitalpbx.general}
 jmeet.vitalpbx = {app.name}
 jmeet.jitsi = Jitsi
 jmeet.custom = Personalizzato

@@ -1,7 +1,7 @@
 cel_events = CEL Settings
 module.cel_events = {cel_events}
 menu.cel_events = {cel_events}
-cel_events.general = {ombutel.general}
+cel_events.general = {vitalpbx.general}
 cel.enable = Enable
 cel.enable.tooltip = Enable / Disable Asterisk Channel Event Logging (CEL)
 cel.apps = APPS

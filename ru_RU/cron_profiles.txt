@@ -1,6 +1,6 @@
 module.cron_profiles = Планировщик задач
 menu.cron_profiles = {module.cron_profiles}
-cron_profiles.general = {ombutel.general}
+cron_profiles.general = {vitalpbx.general}
 cron_profiles.description = Описание
 cron_profiles.description.tooltip = Краткое описание для идентификации этого профиля Планировщика задач
 cron_profiles.template = Шаблон

@@ -1,7 +1,7 @@
 menu.scom = <span style="margin-left: -5px;">Коммуникатор</span>
 menu.scom_softkey_profiles = Профили функц. клавиш
 menu.scom_pause_profiles = Профили пауз
-scom_softkey_profiles.general = {ombutel.general}
+scom_softkey_profiles.general = {vitalpbx.general}
 module.scom_softkey_profiles = {menu.scom_softkey_profiles}
 scom.description = Описание %s
 scom.desc = Описание
@@ -40,7 +40,7 @@ scom.type.qap = Очереди - Пауза оператора
 scom.type.redial = Повторный вызов
 scom.type.account = Учетная запись
 scom.type.dialer = Dialer
-scom_pause_profiles.general = {ombutel.general}
+scom_pause_profiles.general = {vitalpbx.general}
 module.scom_pause_profiles = {menu.scom_pause_profiles}
 scom.causes = Причина %s
 scom.causes.tooltip = Позволяет настроить различные причины пауз, разделенные запятой

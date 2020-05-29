@@ -1,6 +1,6 @@
 menu.bulk_extensions = Ramal em Massa
 module.bulk_extensions = {menu.bulk_extensions}
-bulk_extensions.general = {ombutel.general}
+bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.range = Faixa de Ramais
 bulk_extensions.range.tooltip =
 	Define o intervalo de ramais que você deseja criar, por exemplo.: a partir de 1000 até 1400.

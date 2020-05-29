@@ -50,7 +50,7 @@ backup_and_restore.restore_faxes = Restaurar faxes
 backup_and_restore.restore_faxes.tooltip = Ativar isso substituirá os faxes existentes pelos contidos neste backup
 backup_and_restore.import = Importar Backup
 backup_and_restore.execute = Executar backup agora!
-backup_and_restore.general = {ombutel.general}
+backup_and_restore.general = {vitalpbx.general}
 backup_and_restore.automatic_backup = Executar automaticamente
 backup_and_restore.automatic_backup.tooltip =
 	Ele permite que você use um Cron criado anteriormente em <b>"PBX >> ferramentas >> Cron Profiles"</b> para automaticamente

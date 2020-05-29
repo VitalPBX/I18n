@@ -2,7 +2,7 @@ module.domotic_units = Unita'
 domotic_units.menu = {module.domotic_units}
 domotic_units.show_menu = Mostra il menu Unita'
 
-domotic_units.general.tab = {ombutel.general}
+domotic_units.general.tab = {vitalpbx.general}
 
 domotic_units.model_id = Modello
 domotic_units.model_id.help = Consente di selezionare il tipo di unita' intelligente.
@@ -16,17 +16,17 @@ domotic_units.port.help = Parte dell'indirizzo. Definirlo se necessario.
 domotic_units.validation.empty_model = E' richiesto il modello dell'unita'
 domotic_units.validation.empty_desc = La descrizione e' obbligatoria.
 domotic_units.validation.empty_ip = E' richiesto l'indirizzo IP.
-domotic_units.validation.invalid_ip = È stato definito un IP non valido.
+domotic_units.validation.invalid_ip = ï¿½ stato definito un IP non valido.
 domotic_units.validation.invalid_port = E' stata definita una porta non valida.
 domotic_units.validation.invalid_model = E' stato fornito un modello di unita' non valido.
-domotic_units.delete = {ombutel.delete}
-domotic_units.delete.message = Sei sicuro di voler eliminare questa unità?
+domotic_units.delete = {vitalpbx.delete}
+domotic_units.delete.message = Sei sicuro di voler eliminare questa unitï¿½?
 
-domotic_units.save.btn = {ombutel.save}
+domotic_units.save.btn = {vitalpbx.save}
 domotic_units.sync.btn = Sincronizzare
-domotic_units.update.btn = {ombutel.update}
-domotic_units.delete.btn = {ombutel.delete}
-domotic_units.cancel.btn = {ombutel.cancel}
+domotic_units.update.btn = {vitalpbx.update}
+domotic_units.delete.btn = {vitalpbx.delete}
+domotic_units.cancel.btn = {vitalpbx.cancel}
 
 domotic_units.sync_error = Sincronizzazione non Riuscita.
 domotic_units.sync_error.msg = La sincronizzazione non e' riuscita.

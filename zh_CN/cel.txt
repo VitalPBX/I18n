@@ -7,6 +7,6 @@ cel.enable.tooltip = Enable / Disable Asterisk Channel Event Logging (CEL)
 cel.events = Events
 cel.events.tooltip = Allows you to to specify the list of events which you want to be raised when they occur.
 cel_events = CEL Settings
-cel_events.general = {ombutel.general}
+cel_events.general = {vitalpbx.general}
 menu.cel_events = {cel_events}
 module.cel_events = {cel_events}

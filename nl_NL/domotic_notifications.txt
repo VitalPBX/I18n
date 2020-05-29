@@ -1,4 +1,4 @@
-domotic_notifications.delete = {ombutel.delete}
+domotic_notifications.delete = {vitalpbx.delete}
 domotic_notifications.delete.message = Are you sure that you want delete this notification?
 domotic_notifications.destination = Destination
 domotic_notifications.device_id = Device
@@ -6,7 +6,7 @@ domotic_notifications.device_id.help = Device to configure the notification.
 domotic_notifications.device_id.select_one = -- Select One --
 domotic_notifications.enabled = Enabled
 domotic_notifications.enabled.help = Enable the notifications for this device
-domotic_notifications.general.tab = {ombutel.general}
+domotic_notifications.general.tab = {vitalpbx.general}
 domotic_notifications.recording_id = Welcome Message
 domotic_notifications.recording_id.help = Audio to be played when the device be tripped
 domotic_notifications.unit_id = Unit

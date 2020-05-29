@@ -5,7 +5,7 @@ cid_lookup.arguments.tooltip =
 	<br><br> Example: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
 cid_lookup.description = Description {0}
 cid_lookup.description.tooltip = A short description to identify this CID Lookup
-cid_lookup.general = {ombutel.general}
+cid_lookup.general = {vitalpbx.general}
 cid_lookup.host = Host {0}
 cid_lookup.host.tooltip = It defines the API host to make the request
 cid_lookup.opencnam.sid = SID {0}

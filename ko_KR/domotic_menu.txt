@@ -1,0 +1,6 @@
+menu.domotic = 홈 제어
+menu.domotic_conf = 설정
+menu.domotic_units = Units
+menu.domotic_devices = Devices
+menu.domotic_scenes = Scenes
+menu.domotic_notifications = Notifications

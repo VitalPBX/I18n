@@ -1,7 +1,7 @@
 branding = Branding
 module.branding = {branding}
 menu.branding = {branding}
-branding.general = {ombutel.general}
+branding.general = {vitalpbx.general}
 branding.base_color = Base Color
 branding.base_color.tooltip = Main color used for active menu items, active form tabs and selected text
 branding.page_title = APP Title

@@ -55,7 +55,7 @@ ivr.generate_stats.tooltip =
 	módulo de estatísticas
 ivr.cos.warning = 
 	The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for IVRs.</b>
-ivr.cos.warning.cancel = {ombutel.cancel}
-ivr.cos.warning.confirm = {ombutel.accept}
+ivr.cos.warning.cancel = {vitalpbx.cancel}
+ivr.cos.warning.confirm = {vitalpbx.accept}
 ivr.cos.warning.title = {warning}
 ivr.max_reached = You have reached the maximum number of IVRs allowed

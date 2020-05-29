@@ -1,7 +1,7 @@
 vpn_client = OpenVPN Клиент
 menu.vpn_client = {vpn_client}
 module.vpn_client = {vpn_client}
-vpn_client.general = {ombutel.general}
+vpn_client.general = {vitalpbx.general}
 vpn_client.upload_config = Загрузить конфигурацию
 vpn_client.update_config = Обновить конфигурацию
 vpn_client.configuration = Конфигурация VPN

@@ -1,4 +1,4 @@
 domotic_devices = Dispositivos Domóticos
-domotic_devices.general.tab = {ombutel.general}
+domotic_devices.general.tab = {vitalpbx.general}
 domotic_devices.show_menu = Mostrar menú con dispositivos
 module.domotic_devices = {domotic_devices}

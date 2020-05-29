@@ -1,6 +1,6 @@
 menu.phone_books = Phonebooks
 module.phone_books = {menu.phone_books}
-phone_books.general = {ombutel.general}
+phone_books.general = {vitalpbx.general}
 phone_books.description = Description
 phone_books.extensions = Extensions
 phone_books.ring_groups = Ring Groups

@@ -1,7 +1,7 @@
 app_keys = Ключи приложения
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
-app_keys.general = {ombutel.general}
+app_keys.general = {vitalpbx.general}
 app_keys.description = Описание
 app_keys.description.tooltip = Краткое описание вашего приложения
 app_keys.enabled = Включено

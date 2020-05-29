@@ -1,6 +1,6 @@
 menu.asterisk_sounds = Локализация голос. сообщений
 module.asterisk_sounds = {menu.asterisk_sounds}
-asterisk_sounds.general = {ombutel.general}
+asterisk_sounds.general = {vitalpbx.general}
 asterisk_sounds.sound = Звуковой пакет
 asterisk_sounds.installed_version = Установленная версия
 asterisk_sounds.available_version = Доступная версия

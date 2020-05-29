@@ -5,7 +5,7 @@ task_manager.cron_profile = Perfil de Cron
 task_manager.cron_profile.tooltip = Representa el perfil del cron para programar esta tarea
 task_manager.description = Descripción
 task_manager.description.tooltip = Una breve descripción para identificar esta tarea
-task_manager.general = {ombutel.general}
+task_manager.general = {vitalpbx.general}
 task_manager.script = Script
 task_manager.script.tooltip = 	
 	Le permite seleccionar una secuencia de comandos para ejecutar periódicamente, de acuerdo con el perfil de cron seleccionado.
