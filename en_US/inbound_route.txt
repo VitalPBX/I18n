@@ -59,3 +59,4 @@ inbound_route.append = {cid_management.append_to_cid_number}
 inbound_route.append.tooltip = Suffix to be added to the obtained number after retrieving the desired number of digits from the original DID
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
 inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID
+inbound_route.verify_did = Verify DID

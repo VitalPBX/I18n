@@ -1,5 +1,5 @@
-menu.profiles = Profiles
-module.profiles = Profiles
+menu.profiles = Device Profiles
+module.profiles = Device Profiles
 profiles = Profiles
 profiles_advanced = Advanced
 profiles_advanced_add = Add
@@ -143,7 +143,7 @@ profiles_pjsip_ice_support_tooltip = Enable the ICE mechanism to help traverse N
 profiles_pjsip_rtp_symmetric = RTP Symmetric
 profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric
 profiles_pjsip_rewrite_contact = Rewrite Contact
-profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port
+profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port. necessary if endpoint does not know/register public ip:port
 profiles_pjsip_direct_media = Direct Media
 profiles_pjsip_direct_media_tooltip = Determines whether media may flow directly between endpoints.
 profiles_pjsip_disable_direct_media_on_nat = Disable NAT Direct Media
@@ -237,3 +237,9 @@ profiles_pjsip_webrtc = WebRTC
 profiles_pjsip_webrtc_tooltip =
 	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
 	rtcp_mux, use_avpf, ice_support, and use_received_transport.
+profiles_pjsip_remove_existing = Remove Existing
+profiles_pjsip_remove_existing_tooltip =
+	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
+	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
+	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
+	refreshing.
