@@ -53,5 +53,8 @@ dhcpsettings.validation.tftp = Option 66 For Endpoint Manager, set Option 66 to 
 dhcpsettings.validation.wins = WINS address must be valid
 dhcpsettings.wins = WINS
 dhcpsettings.wins.tooltip = Windows Internet Name Service (WINS) is a name resolution service that maps NetBIOS names to an IP address on the network that uses NetBIOS over TCP/IP (NetBT). The primary purpose of WINS is to support clients that run older versions of Windows and applications that use NetBIOS.
-menu.dhcp_settings = DHCP Settings
-module.dhcpsettings = DHCP Settings
+dhcp_server = DHCP Server
+menu.dhcp_settings = {dhcp_server}
+module.dhcpsettings ={dhcp_server}
+menu.dhcp_server = {dhcp_server}
+

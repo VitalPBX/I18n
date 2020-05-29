@@ -20,3 +20,7 @@ emergency_numbers.validation.no_trunks = No trunks has been selected. Please sel
 emergency_numbers.validation.no_numbers = No numbers has been provided. Please add at least one number.
 emergency_numbers.validation.n_duplicated =
 	The emergency number {0} is already in use by the following emergency number category: <b>{1}</b>.
+emergency_numbers.email_addresses = Email Addresses
+emergency_numbers.email_addresses.tooltip =
+	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
+emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.

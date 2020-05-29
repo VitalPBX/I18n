@@ -9,7 +9,7 @@ task_manager.cron_profile.tooltip = Represents the cron's profile to schedule th
 task_manager.script = Script
 task_manager.script.tooltip =
 	Allows you to select an script to execute periodically, according to the cron's profile selected.
-	The script must be located at <b>/var/lib/ombutel/scripts</b>
+	The script must be located at <b>/var/lib/vitalpbx/scripts</b>
 task_manager.validations.no_description = No description has been defined. Please write a valid description
 task_manager.validations.duplicated_description = Another task is using the same description. Please verify
 task_manager.validations.duplicated_script = Another task has been defined with the same script. Please verify
