@@ -88,3 +88,7 @@ tenants.emergency_trunks = Emergency Trunks
 tenants.emergency_trunks.tooltip = 
 	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
 tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value
+tenants.send_welcome_email = Send Welcome Email
+tenants.send_welcome_email.tooltip = 
+	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
+	for this email under Admin > System Settings > Email Templates.

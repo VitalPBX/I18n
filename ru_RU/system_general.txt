@@ -56,3 +56,7 @@ system_general.queues_callback = Очереди обратных звонков
 system_general.search_frequency = Частота поиска
 system_general.search_frequency.tooltip = Определяет, как часто служба обратных звонков в очереди будет искать запланированные обратные звонки.
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.email_credentials = Email Credentials
+system_general.email_credentials.tooltip = 
+	Enable this feature to send an email to the newly created extension user with their extension and account information.
+	You can find the template for this email under Admin > System Settings > Email Templates.

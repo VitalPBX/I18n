@@ -1,0 +1,15 @@
+menu.pjsip_endpoints = {pjsip_endpoints}
+module.pjsip_endpoints = {pjsip_endpoints}
+pjsip_endpoints = PJSIP Endpoints
+pjsip_endpoints.client_uri = Cliente URI
+pjsip_endpoints.contacts = Contactos
+pjsip_endpoints.endpoint = Endpoint
+pjsip_endpoints.endpoints = Endpoints
+pjsip_endpoints.extension = Extensión
+pjsip_endpoints.match = Match
+pjsip_endpoints.max_contacts = Max Contactos
+pjsip_endpoints.registrations = Registros Salientes
+pjsip_endpoints.server_uri = URI del Servidor
+pjsip_endpoints.status = Estado
+pjsip_endpoints.trunk_name = Nombre del Troncal
+pjsip_endpoints.trunks = Troncales

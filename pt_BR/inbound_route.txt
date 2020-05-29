@@ -57,3 +57,4 @@ inbound_route.prepend.tooltip = Prefix to be added to the obtained number after 
 inbound_route.range_parameters = Range Parameters
 inbound_route.routing_method.did_range = DID Range
 inbound_route.append = {cid_management.append_to_cid_number}
+inbound_route.verify_did = Verify DID

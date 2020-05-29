@@ -1,0 +1,10 @@
+active_calls = Llamadas Activas
+active_calls.called_number = Número Llamado
+active_calls.caller_id = Identificador de Llamada
+active_calls.calls = Llamadas
+active_calls.channel = Canal
+active_calls.duration = Duración
+active_calls.linkedid = ID Vinculado
+active_calls.state = Estado
+menu.active_calls = {active_calls}
+module.active_calls = {active_calls}

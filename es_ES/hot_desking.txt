@@ -59,3 +59,9 @@ hot_desking.profile_id.tooltip = Perfil con parámetros comunes para la tecnolog
 hot_desking.profile_id-pjsip = Perfil
 hot_desking.profile_id-pjsip.tooltip = Perfil de configuración para dispositivos PJSIP.
 hot_desking.user.invalid.spaces = El Usuario del Dispositivo no debe contener espacios.
+hot_desking.dispatchable_location = Ubicación Despachable
+hot_desking.dispatchable_location.tooltip = 
+	Le permite seleccionar o definir la ubicación de envío para este dispositivo. Esta información se utilizará para
+	incluirse en las notificaciones que se enviarán cuando se realice una llamada de emergencia desde este dispositivo.
+hot_desking.send_push = Enviar Push
+hot_desking.send_push.tooltip = Si está habilitado, la central tratará de enviar notificaciones automáticas a los dispositivos móviles que ejecutan el <b>{0}</b> Softphone.

@@ -60,3 +60,9 @@ module.hot_desking = Hot Desking
 hot_desking.profile_id = Profilo
 hot_desking.profile_id.tooltip = Profilo con parametri comuni per la tecnologia selezionata.
 
+hot_desking.dispatchable_location = Dispatchable Location
+hot_desking.dispatchable_location.tooltip = 
+	It allows you to select or define the dispatchable location for this device. This information will be used
+	to be included on notifications that would be sent when an emergency call be performed from this device.
+hot_desking.send_push = Send Push
+hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone

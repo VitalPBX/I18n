@@ -55,3 +55,5 @@ menu.dhcp_settings = DHCP 设置
 module.dhcpsettings = DHCP 设置
 dhcpsettings.validation.invalid_host = Invalid Hostname. Must contain only digits, letters and "." or "-" signes. <br>Cannot start with either "." or "-" and must not end with "-"
 dhcpsettings.validation.lease_mac = One or more duplicate MAC addresses
+dhcp_server = DHCP Server
+menu.dhcp_server = {dhcp_server}

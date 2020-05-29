@@ -1,0 +1,15 @@
+menu.sip_report = {sip_report}
+module.sip_report = {sip_report}
+sip_report = Dispositivos SIP
+sip_report.device = Dispositivo
+sip_report.devices = Dispositivos
+sip_report.extension = Extensión
+sip_report.host = Host
+sip_report.port = Puerto
+sip_report.refresh = Actualizar
+sip_report.registrations = Registros
+sip_report.state = Estado
+sip_report.status = Estatus
+sip_report.trunk_name = Descripción del Troncal
+sip_report.trunks = Troncales
+sip_report.user_agent = Agente de Usuario

@@ -88,3 +88,7 @@ tenants.emergency_trunks = Troncal de emergencia
 tenants.emergency_trunks.tooltip = 
 	Le permite compartir troncales con este Tenant desde el Tenant principal para utilizarlas como troncales de emergencia en el módulo de número de emergencia
 tenants.name.validation.alphanumeric = El nombre del Tenant debe ser un valor alfanumérico válido
+tenants.send_welcome_email = Enviar E-mail de Bienvenida
+tenants.send_welcome_email.tooltip = 
+	Si está habilitado, se enviará un correo electrónico con la información de la cuenta al administrador del Tenant.
+	Puede encontrar la plantilla para este E-mail en Admin>Configuración del Sistema>Plantillas de Email.

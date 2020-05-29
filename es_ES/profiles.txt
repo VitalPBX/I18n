@@ -237,3 +237,9 @@ profiles_pjsip_webrtc = WebRTC
 profiles_pjsip_webrtc_tooltip = 
 	Cuando se establece en "sí", esto también habilita los siguientes valores necesarios para que funcione el soporte básico de WebRTC:
 	rtcp_mux, use_avpf, ice_support y use_received_transport.
+profiles_pjsip_remove_existing = Eliminar Existente
+profiles_pjsip_remove_existing_tooltip = 
+	Permita que un registro tenga éxito al desplazar cualquier contacto existente que ahora exceda el conteo "{hot_desking.max_contacts}". 
+	Los contactos eliminados son los siguientes en caducar. El comportamiento es beneficioso cuando "{profiles_pjsip_rewrite_contact}" está habilitado y
+	"{hot_desking.max_contacts}" es mayor que uno. Es probable que el contacto eliminado sea el contacto antiguo creado por "profiles_pjsip_rewrite_contact}" 
+	que el dispositivo está actualizando.
