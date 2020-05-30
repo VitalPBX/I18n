@@ -27,3 +27,4 @@ intrusion_detection.whitelist = Lista Bianca
 menu.intrusion_detection = Rilevamento delle Intrusioni
 module.intrusion_detection = Rilevamento delle Intrusioni.intrusion_detection.destemail.tooltip = E-mail to receive notifications when some IP address get banned
 intrusion_detection.settings = Intrusion Detection Settings
+intrusion_detection.destemail.tooltip = E-mail to receive notifications when some IP address get banned

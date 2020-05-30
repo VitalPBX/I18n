@@ -56,3 +56,4 @@ dhcpsettings.wins.tooltip = Windows Internet Name Service (WINS) es un servicio 
 menu.dhcp_settings = Configuración DHCP
 module.dhcpsettings = Configuración DHCPdhcp_server = Servidor DHCP
 menu.dhcp_server = {dhcp_server}
+dhcp_server = Servidor DHCP
