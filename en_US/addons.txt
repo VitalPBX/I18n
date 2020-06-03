@@ -68,3 +68,4 @@ addons.cannot_remove = The selected add-on cannot be removed because is not inst
 addons.successfully_removed = The add-on has been removed successfully
 addons.delete_add-on = Uninstall Add-on
 addons.uninstall.confirm = Are you sure that you want to uninstall the add-on "{0}"?
+addons.actions = Actions
