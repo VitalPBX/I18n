@@ -68,3 +68,4 @@ addons.delete_add-on = Uninstall Add-on
 addons.successfully_removed = The add-on has been removed successfully
 addons.uninstall = Uninstall
 addons.uninstall.confirm = Are you sure that you want to uninstall the add-on "{0}"?
+addons.actions = Actions

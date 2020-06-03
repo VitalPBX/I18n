@@ -72,3 +72,6 @@ backup_and_restore.product_version = App Version
 backup_and_restore.validations.duplicated_name = Already exist a backup with the same name.
 backup_and_restore.validations.name = Please, provide a valid name. Alphanumeric values, spaces, dash, underscore and points are allowed.
 backup_and_restore.validations.no_backup_data = No enough information received to make backup
+backup_and_restore.old_backup = 
+	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
+	from a version grater than {3}

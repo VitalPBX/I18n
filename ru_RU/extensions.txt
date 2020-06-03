@@ -267,3 +267,4 @@ extensions.outbound_profile.tooltip =
 	соответствующие им шаблоны, поэтому в зависимости от исходящего профиля пользователь этого номера сможет вызывать 
 	или не вызывать определенные номера.
 extensions.fxs_channel.invalid = FXS канал не может быть пустым
+extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.

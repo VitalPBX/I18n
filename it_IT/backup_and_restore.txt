@@ -73,3 +73,6 @@ backup_and_restore.cannot_create_backup_group = Impossibile creare il gruppo di 
 backup_and_restore.confirm_group_delete =	
 	Sei sicuro di voler eliminare questo gruppo di backup e tutti i backup generati da esso?
 backup_and_restore.cannot_delete_group = Il gruppo di backup non puo' essere cancellato.
+backup_and_restore.old_backup = 
+	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
+	from a version grater than {3}

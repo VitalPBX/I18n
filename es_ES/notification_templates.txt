@@ -25,3 +25,7 @@ notification_templates.voicemail = Nuevo E-Mail de correo de voz
 notifications_templates.no_email_body = No ha proporcionado un cuerpo de E-Mail válido.
 notifications_templates.no_subject = No ha proporcionado un tema válido.
 notifications_templates.return = Regresar
+notification_templates.from_email.tooltip = Dirección de correo electrónico para ser utilizada como remitente
+notification_templates.from_name.tooltip = Nombre del remitente
+notification_templates.name.tooltip = Nombre para identificar esta plantilla
+notification_templates.subject.tooltip = Asunto del email

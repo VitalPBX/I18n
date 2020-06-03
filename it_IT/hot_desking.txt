@@ -66,3 +66,4 @@ hot_desking.dispatchable_location.tooltip =
 	to be included on notifications that would be sent when an emergency call be performed from this device.
 hot_desking.send_push = Send Push
 hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
+hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)

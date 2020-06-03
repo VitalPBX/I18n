@@ -67,3 +67,4 @@ addons.delete_add-on = Desinstalar Complemento
 addons.successfully_removed = El complemento se ha eliminado correctamente
 addons.uninstall = Desinstalar
 addons.uninstall.confirm = ¿Está seguro de que desea desinstalar el complemento "{0}"?
+addons.actions = Acciones
