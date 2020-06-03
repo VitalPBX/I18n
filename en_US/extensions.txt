@@ -261,8 +261,4 @@ extensions.initial_ringtime.tooltip = Time in seconds to ring the primary extens
 extensions.initial_ringtime.not_ring = Not Ring
 extensions.followme.enabled = Enabled
 extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
-extensions.outbound_profile = Outbound Profile
-extensions.outbound_profile.tooltip =
-	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
-	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
-	be able to call or not to certain numbers.
+extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.

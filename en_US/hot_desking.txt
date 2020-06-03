@@ -65,4 +65,4 @@ hot_desking.dispatchable_location = Dispatchable Location
 hot_desking.dispatchable_location.tooltip =
 	It allows you to select or define the dispatchable location for this device. This information will be used
 	to be included on notifications that would be sent when an emergency call be performed from this device.
-
+hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
