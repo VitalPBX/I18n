@@ -266,3 +266,4 @@ extensions.outbound_profile.tooltip =
 	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
 	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
 	be able to call or not to certain numbers.
+extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.

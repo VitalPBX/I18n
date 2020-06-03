@@ -65,3 +65,4 @@ hot_desking.dispatchable_location.tooltip =
 	incluirse en las notificaciones que se enviarán cuando se realice una llamada de emergencia desde este dispositivo.
 hot_desking.send_push = Enviar Push
 hot_desking.send_push.tooltip = Si está habilitado, la central tratará de enviar notificaciones automáticas a los dispositivos móviles que ejecutan el <b>{0}</b> Softphone.
+hot_desking.nat.default.tooltip = Toma las configuraciones NAT de la configuración global SIP (Ajustes >> Ajustes de Tecnología >> Configuraciones SIP)

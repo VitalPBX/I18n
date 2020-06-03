@@ -25,3 +25,7 @@ notification_templates.voicemail = New Voicemail Email
 notifications_templates.no_email_body = You have not provided a valid email body.
 notifications_templates.no_subject = You have not provided a valid subject.
 notifications_templates.return = Return
+notification_templates.from_email.tooltip = Email address to be used as remittent
+notification_templates.from_name.tooltip = Sender's name
+notification_templates.name.tooltip = Name for identifying this template
+notification_templates.subject.tooltip = Email Subject

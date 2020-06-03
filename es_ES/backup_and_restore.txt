@@ -72,3 +72,6 @@ backup_and_restore.product_version = Version de Aplicacion
 backup_and_restore.validations.duplicated_name = Ya existe una copia de seguridad con el mismo nombre.
 backup_and_restore.validations.name = Por favor, proporciona un nombre válido. Se permiten valores alfanuméricos, espacios, guiones, guiones bajos y puntos.
 backup_and_restore.validations.no_backup_data = No se recibió suficiente información para hacer una copia de seguridad
+backup_and_restore.old_backup = 
+	Las copias de seguridad de la versión {0} no se pueden restaurar en {1} con versiones superiores a {2}.
+	Su copia de seguridad debe ser al menos de una versión superior a {3}
