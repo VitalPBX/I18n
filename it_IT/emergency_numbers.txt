@@ -23,3 +23,4 @@ emergency_numbers.validation.n_duplicated =
 emergency_numbers.email_addresses.tooltip = 
 	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
 emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.
+emergency_numbers.email_addresses = Email Addresses
