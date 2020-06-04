@@ -1,7 +1,7 @@
 an_exception_occurred = Una excepción ha ocurrido
 any = Alguna
 country = País
-email = Email
+email = E-Mail
 error = Error
 exception = <b>Excepción</b>: {0} en el archivo {1} en línea {2}
 file = Archivo
