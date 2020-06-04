@@ -54,7 +54,7 @@ system_general.queues_callback = Devolución de Llamadas de Colas
 system_general.search_frequency = Frecuencia de Búsqueda
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
 system_general.search_frequency.tooltip = Define con qué frecuencia el servicio de devolución de llamada de colas buscará devoluciones de llamada programadas.
-system_general.email_credentials = Credenciales de Email
+system_general.email_credentials = Credenciales por Email
 system_general.email_credentials.tooltip = 
 	Habilite esta función para enviar un E-mail al usuario de extensión recién creado con su extensión e información de cuenta.
 	Puede encontrar la plantilla para este Email en Admin>Configuración del Sistema>Plantillas de E-mail.
