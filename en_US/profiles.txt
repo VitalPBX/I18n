@@ -137,11 +137,11 @@ profiles_pjsip_dtls_setup_tooltip =
 	<b>Actpass</b> (we will do both). <br>
 	This value will be used in the outgoing SDP when offering and for incoming SDP offers when the remote party sends actpass
 profiles_pjsip_force_rport = Force rport
-profiles_pjsip_force_rport_tooltip = Force use of return port
+profiles_pjsip_force_rport_tooltip = Force RFC3581 compliant behavior even when no rport parameter exists. Basically always send SIP responses back to the same port we received SIP requests from.
 profiles_pjsip_ice_support = ICE Support
 profiles_pjsip_ice_support_tooltip = Enable the ICE mechanism to help traverse NAT
 profiles_pjsip_rtp_symmetric = RTP Symmetric
-profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric
+profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric. Send RTP back to the same address/port we received it from.
 profiles_pjsip_rewrite_contact = Rewrite Contact
 profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port. necessary if endpoint does not know/register public ip:port
 profiles_pjsip_direct_media = Direct Media
