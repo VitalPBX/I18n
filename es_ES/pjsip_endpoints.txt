@@ -1,6 +1,6 @@
 menu.pjsip_endpoints = {pjsip_endpoints}
 module.pjsip_endpoints = {pjsip_endpoints}
-pjsip_endpoints = PJSIP Endpoints
+pjsip_endpoints = Terminales PJSIP
 pjsip_endpoints.client_uri = Cliente URI
 pjsip_endpoints.contacts = Contactos
 pjsip_endpoints.endpoint = Endpoint
