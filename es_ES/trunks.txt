@@ -210,3 +210,7 @@ trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
 trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
 trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
 trunks.overwrite_cid.yes.tooltip = Obliga a sobrescribir el CID con los parámetros CID definidos en este troncal.
+trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
+trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
+trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
+trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}

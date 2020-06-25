@@ -243,3 +243,14 @@ profiles_pjsip_remove_existing_tooltip =
 	Los contactos eliminados son los siguientes en caducar. El comportamiento es beneficioso cuando "{profiles_pjsip_rewrite_contact}" está habilitado y
 	"{hot_desking.max_contacts}" es mayor que uno. Es probable que el contacto eliminado sea el contacto antiguo creado por "profiles_pjsip_rewrite_contact}" 
 	que el dispositivo está actualizando.
+profiles_pjsip_max_audio_streams = Número Máximo de Flujos de Audio
+profiles_pjsip_max_audio_streams_tooltip = 
+	Esta opción impone un límite en las secuencias de audio negociadas simultáneas máximas permitidas para el punto final.
+profiles_pjsip_max_video_streams = Número Máximo de Flujos de Video
+profiles_pjsip_max_video_streams_tooltip = 
+	Esta opción impone un límite en las transmisiones de video negociadas simultáneas máximas permitidas para el punto final.
+profiles_pjsip_support_path = Ruta de Soporte
+profiles_pjsip_support_path_tooltip = 
+	Cuando esta opción está habilitada, los encabezados de ruta en las solicitudes de registro se guardarán y su contenido se usará
+	en los encabezados de ruta para solicitudes salientes fuera de diálogo y en los encabezados de ruta para 200 respuestas salientes.
+	El soporte de ruta también se indicará en el encabezado admitido.

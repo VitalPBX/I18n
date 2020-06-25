@@ -30,3 +30,46 @@ pjsip_settings.external_media_address.tooltip = Внешний IP адрес и�
 pjsip_settings.external_signaling_address = Внешний адрес для SIP
 pjsip_settings.external_signaling_address.tooltip = Внешний IP адрес используемый для SIP сигнализации. Должен быть назначен тот же IP адрес, что и в поле <b>"Внешний адрес для RTP"</b>, если вы, конечно, не хотите разделить сигнальный и медиа трафик и направить их на разные IP адреса или сервера.
 pjsip_settings.nat_settings = Настройки NAT
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip = 
+	Sets which codecs to use for channels created for PJSIP Devices and Trunks. This parameter only applies if the trunks or the devices
+	doesn't have its own codecs defined.
+pjsip_settings.contact_expiration_check_interval = Expiration Check Interval
+pjsip_settings.contact_expiration_check_interval.tooltip = 
+	The interval (in seconds) to check for expired contacts.
+pjsip_settings.keep_alive_interval = Keep Alive Interval
+pjsip_settings.keep_alive_interval.tooltip = 
+	The interval (in seconds) to send keepalives to active connection-oriented transports.
+pjsip_settings.max_initial_qualify_time = Max Initial Qualify Time
+pjsip_settings.max_initial_qualify_time.tooltip = 
+	The maximum amount of time from startup that qualifies should be attempted on all contacts. If greater than the
+	Qualify Frequency for an AOR, Qualify Frequency will be used instead.
+pjsip_settings.mwi_disable_initial_unsolicited = Disable Initial MWI
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
+	When the initial unsolicited MWI notification are enabled on startup then the initial notifications get sent at
+	startup. If you have a lot of endpoints (thousands) that use unsolicited MWI then you may want to consider
+	disabling the initial startup notifications. When the initial unsolicited MWI notifications are disabled on startup
+	then the notifications will start on the endpoint's next contact update.
+pjsip_settings.mwi_settings = MWI Settings
+pjsip_settings.mwi_tps_queue_high = Taskprocessor Queue High
+pjsip_settings.mwi_tps_queue_high.tooltip = 
+	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
+	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
+	clears when all alerting taskprocessor queues have dropped to their low water clear level.
+pjsip_settings.mwi_tps_queue_low = Taskprocessor Queue Low
+pjsip_settings.mwi_tps_queue_low.tooltip = 
+	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
+	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
+	clears when all alerting taskprocessor queues have dropped to their low water clear level. Set to -1 for the low
+	water level to be 90% of the high water level.
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = Sets which country's indications to use for channels created for PJSIP Devices and Trunks.
+pjsip_settings.unidentified_request_count = Unidentified Request Count
+pjsip_settings.unidentified_request_count.tooltip = The number of unidentified requests from a single IP to allow.
+pjsip_settings.unidentified_request_period = Unidentified Request Period
+pjsip_settings.unidentified_request_period.tooltip = 
+	The number of seconds over which to accumulate unidentified requests. If unidentified requests are received during
+	unidentified request period, a security event will be generated.
+pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
+pjsip_settings.unidentified_request_prune_interval.tooltip = 
+		The interval at which unidentified requests are older than twice the unidentified request period are pruned.

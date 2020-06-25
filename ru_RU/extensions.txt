@@ -268,3 +268,5 @@ extensions.outbound_profile.tooltip =
 	или не вызывать определенные номера.
 extensions.fxs_channel.invalid = FXS канал не может быть пустым
 extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
+extensions.email_multiple = Email Addresses
+extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.

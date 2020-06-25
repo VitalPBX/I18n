@@ -54,3 +54,5 @@ voicemail_general.operator_destination.tooltip = Destino a ejecutar al presionar
 voicemail_general.fromstring = De Nombre
 voicemail_general.fromstring.placeholder = Asterisk PBX
 voicemail_general.fromstring.tooltip = Nombre que aparecerá en los correos electrónicos de su PBX.
+voicemail_general.mp3_attachment = Adjuntar Archivo MP3
+voicemail_general.mp3_attachment.tooltip = Si se establece en sí, el archivo adjunto del correo de voz se enviará en formato MP3.
