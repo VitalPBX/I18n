@@ -43,3 +43,5 @@ phone_books.no_first_name = You haven't provided contact first name
 phone_books.duplicated_phone = Already exists another contact with the same phone number
 phone_books.actions = {actions}
 phone_books.edit_contact = Edit Contact
+phone_books.speed_dials = Speed Dials
+phone_books.speed_dials.tooltip = It allows you to select which {0} will be available on this Phonebook

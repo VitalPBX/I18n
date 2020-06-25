@@ -262,3 +262,5 @@ extensions.initial_ringtime.not_ring = Not Ring
 extensions.followme.enabled = Enabled
 extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
 extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
+extensions.email_multiple = Email Addresses
+extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
