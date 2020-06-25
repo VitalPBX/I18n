@@ -43,4 +43,5 @@ phone_books.job_title.tooltip = {phone_books.job_title}
 phone_books.last_name.tooltip = {phone_books.last_name}
 phone_books.no_first_name = No has proporcionado el nombre de contacto
 phone_books.organization.tooltip = {phone_books.organization}
-phone_books.phone.tooltip = {phone_books.phone}
+phone_books.phone.tooltip = {phone_books.phone}phone_books.speed_dials = Speed Dials
+phone_books.speed_dials.tooltip = Le permite seleccionar qué {0} estará disponible en esta agenda.

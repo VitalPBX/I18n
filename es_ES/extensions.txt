@@ -267,3 +267,5 @@ extensions.outbound_profile.tooltip =
 	de rutas salientes y sus patrones respectivos, por lo que, dependiendo del perfil saliente, 
 	el usuario de esta extensión podrá llamar o no a ciertos números.
 extensions.validation.no_push = No puede habilitar la configuración de notificaciones push en más de cinco dispositivos con su plan actual.
+extensions.email_multiple = Direcciones de Correo
+extensions.email_multiple.tooltip = Lista de direcciones de correo electrónico separadas por una coma a donde se enviarán los mensajes de servicio.

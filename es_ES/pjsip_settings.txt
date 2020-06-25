@@ -30,3 +30,46 @@ pjsip_settings.verify_client = Verificar Cliente
 pjsip_settings.verify_client.tooltip = Requiere verificación del certificado del cliente (TLS SOLAMENTE)
 pjsip_settings.verify_server = Verificar Servidor
 pjsip_settings.verify_server.tooltip = Requiere verificación del certificado del servidor (TLS SOLAMENTE)
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip = 
+	Establece qué códecs usar para los canales creados para dispositivos y troncales PJSIP. Este parámetro solo se aplica si las troncales o los dispositivos
+	no tienen sus propios códecs definidos.
+pjsip_settings.contact_expiration_check_interval = Intervalo de Verificación de Caducidad
+pjsip_settings.contact_expiration_check_interval.tooltip = 
+	El intervalo (en segundos) para buscar contactos caducados.
+pjsip_settings.keep_alive_interval = Mantener Intervalo Vivo
+pjsip_settings.keep_alive_interval.tooltip = 
+	El intervalo (en segundos) para enviar keepalives a transportes activos orientados a la conexión.
+pjsip_settings.max_initial_qualify_time = Tiempo Máximo de Calificación Inicial
+pjsip_settings.max_initial_qualify_time.tooltip = 
+	La cantidad máxima de tiempo desde el inicio que califica debe intentarse en todos los contactos.
+	Si es mayor que la frecuencia de calificación para un AOR, se utilizará en su lugar la frecuencia de calificación.
+pjsip_settings.mwi_disable_initial_unsolicited = Deshabilitar MWI Inicial
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
+	Cuando las notificaciones iniciales de MWI no solicitadas se habilitan al inicio, las notificaciones iniciales se envían al inicio.
+	Si tiene muchos puntos finales (miles) que usan MWI no solicitados, entonces puede considerar
+	deshabilitar las notificaciones iniciales de inicio. Cuando las notificaciones MWI iniciales no solicitadas
+	se deshabilitan al inicio, las notificaciones comenzarán en la próxima actualización de contacto del punto final.
+pjsip_settings.mwi_settings = Configuraciones de MWI
+pjsip_settings.mwi_tps_queue_high = Procesador de Tareas Cola Alta
+pjsip_settings.mwi_tps_queue_high.tooltip = 
+	En un sistema con mucha carga, es posible que deba ajustar los límites de la cola del procesador de tareas
+	Si el tamaño de la cola del procesador de tareas alcanza su nivel de agua alto, pjsip dejará de procesar nuevas solicitudes hasta que se borre la alerta.
+	La alerta se borra cuando todas las colas del procesador de tareas de alerta han caído a su nivel bajo de eliminación de agua.
+pjsip_settings.mwi_tps_queue_low = Procesador de Tareas Cola Baja
+pjsip_settings.mwi_tps_queue_low.tooltip = 
+	En un sistema con mucha carga, es posible que deba ajustar los límites de la cola del procesador de tareas
+	Si el tamaño de la cola del procesador de tareas alcanza su nivel de agua alto, pjsip dejará de procesar nuevas solicitudes hasta que se borre la alerta.
+	La alerta se borra cuando todas las colas del procesador de tareas de alerta han caído a su nivel bajo de eliminación de agua.
+	Establezca en -1 para que el nivel bajo de agua sea el 90% del nivel alto de agua.
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = Establece las indicaciones de qué país usar para los canales creados para dispositivos y troncales PJSIP.
+pjsip_settings.unidentified_request_count = Recuento de Solicitudes no Identificadas
+pjsip_settings.unidentified_request_count.tooltip = El número de solicitudes no identificadas de una sola IP para permitir.
+pjsip_settings.unidentified_request_period = Periodo de Solicitud no Identificado
+pjsip_settings.unidentified_request_period.tooltip = 
+	El número de segundos durante los cuales se acumulan solicitudes no identificadas. Si se reciben solicitudes no identificadas 
+	durante el período de solicitud no identificado, se generará un evento de seguridad.
+pjsip_settings.unidentified_request_prune_interval = Intervalo de Eliminación de Solicitudes no Identificadas
+pjsip_settings.unidentified_request_prune_interval.tooltip = 
+		El intervalo en el que las solicitudes no identificadas son anteriores al doble del período de solicitud no identificado se eliminan.

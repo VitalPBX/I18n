@@ -244,3 +244,14 @@ profiles_pjsip_remove_existing_tooltip =
 	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
 	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
 	refreshing.
+profiles_pjsip_max_audio_streams = Max Audio Streams
+profiles_pjsip_max_audio_streams_tooltip = 
+	This option enforces a limit on the maximum simultaneous negotiated audio streams allowed for the endpoint.
+profiles_pjsip_max_video_streams = Max Video Streams
+profiles_pjsip_max_video_streams_tooltip = 
+	This option enforces a limit on the maximum simultaneous negotiated video streams allowed for the endpoint.
+profiles_pjsip_support_path = Support Path
+profiles_pjsip_support_path_tooltip = 
+	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
+	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
+	also be indicated in the Supported header.
