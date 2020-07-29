@@ -14,4 +14,5 @@ custom_app.mod_dest.terminate_call = Terminate Call
 custom_app.status = Enabled
 custom_app.status.tooltip = Enable / Disable This Custom Application
 menu.custom_applications = Custom Applications
+menu.custom_app = {menu.custom_applications}
 module.custom_app = Custom Applications

@@ -7,3 +7,4 @@ feature_category.enabled_features = Enabled Features
 feature_category.general = General
 menu.feature_categories = Feature Categories
 module.feature_category = Feature Categories
+menu.feature_category = {menu.feature_categories}
