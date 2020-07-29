@@ -15,3 +15,4 @@ menu.custom_applications = Aplicaciones Personalizadas
 module.custom_app = Aplicaciones Personalizadas
 custom_app.extension.invalid = El código de la aplicación personalizada no es válido. Solo *, #, + y números están permitidos.
 custom_app.invalid.already_exists = Número de aplicación personalizada no válida {0}. El número está en uso por el módulo {1}.
+menu.custom_app = {menu.custom_applications}

@@ -72,3 +72,4 @@ pjsip_settings.unidentified_request_period.tooltip =
 pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
 		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
+pjsip_settings.codecs = Codecs

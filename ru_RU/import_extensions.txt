@@ -86,3 +86,5 @@ import_extensions.any_did = Любой DID
 import_extensions.description.cid_number = CID номер/шаблон для маршрутизации входящих вызовов.
 import_extensions.description.emergency_cid_name = Название экстренной службы
 import_extensions.description.emergency_cid_number = Экстренный номер
+import_extensions.description.devices_emergency_cid_name = Caller ID name to be used when this devices place an emergency call
+import_extensions.description.devices_emergency_cid_number = Caller ID number to be used when this devices place an emergency call

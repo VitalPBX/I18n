@@ -70,3 +70,5 @@ extensions_status.device_info.port = Port
 extensions_status.device_info.username_channel = Username / Channel
 extensions_status.unspecified = (Unspecified)
 extensions_status.device_info.user_agent = User Agent
+extensions_status.destination = Destination
+extensions_status.destination.tooltip = Destination, where the caller will be sent in case the callee, doesn't answer

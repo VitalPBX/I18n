@@ -67,3 +67,5 @@ extensions_status.device_info.port = Puerto
 extensions_status.device_info.username_channel = Usuario / Canal
 extensions_status.unspecified = (Unspecified)
 extensions_status.device_info.user_agent = User Agent
+extensions_status.destination = Destino
+extensions_status.destination.tooltip = El destino, donde se enviará a la persona que llama en caso de que la persona que llama, no responda

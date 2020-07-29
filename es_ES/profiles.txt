@@ -254,3 +254,6 @@ profiles_pjsip_support_path_tooltip =
 	Cuando esta opción está habilitada, los encabezados de ruta en las solicitudes de registro se guardarán y su contenido se usará
 	en los encabezados de ruta para solicitudes salientes fuera de diálogo y en los encabezados de ruta para 200 respuestas salientes.
 	El soporte de ruta también se indicará en el encabezado admitido.
+profiles_pjsip_outbound_proxy = Proxy Saliente
+profiles_pjsip_outbound_proxy_tooltip = URI SIP completo del proxy saliente utilizado para enviar solicitudes. por ejemplo: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_transport_auto = Auto
