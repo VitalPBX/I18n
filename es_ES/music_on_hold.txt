@@ -32,3 +32,18 @@ music_on_hold.sound_player = Reproductor de Sonido
 music_on_hold.default.tooltip = 
 	Si se marca, los sonidos de este grupo de música se usarán para la clase de música en espera predeterminada. Solo un grupo de música puede 
 	estar marcado como predeterminado
+music_on_hold.application = Aplicación
+music_on_hold.application.tooltip = 
+	Aplicación que se utilizará para reproducir una transmisión. Si no se proporciona la aplicación,
+	se utilizará la aplicación mpg123 en el siguiente formato: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
+music_on_hold.insufficient_arguments = No ha proporcionado el script de la aplicación ni la URL de transmisión. Se debe proporcionar al menos uno de estos campos.
+music_on_hold.mode = Modo
+music_on_hold.mode.custom = Personalizado
+music_on_hold.mode.custom.tooltip = Ejecuta una aplicación personalizada.
+music_on_hold.mode.files = Archivos
+music_on_hold.mode.files.tooltip = Leer archivos de un directorio en cualquier formato multimedia compatible con Asterisk
+music_on_hold.mode.tooltip = Define el modo para reproducir o recuperar la música en espera.
+music_on_hold.streaming_format = Formato
+music_on_hold.streaming_format.tooltip = La opción 'formato' especifica el formato de audio que la 'aplicación' proporcionará a Asterisk.
+music_on_hold.streaming_url = URL de Transmisión
+music_on_hold.streaming_url.tooltip = URL a transmitir por la aplicación definida

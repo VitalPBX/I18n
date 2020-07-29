@@ -214,3 +214,5 @@ trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
 trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
 trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
+trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
+trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}

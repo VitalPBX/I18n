@@ -7,3 +7,4 @@ feature_category.enabled_features = Recursos habilitados
 feature_category.general = Geral
 menu.feature_categories = Categorias de recursos
 module.feature_category = Categorias de recursos
+menu.feature_category = {menu.feature_categories}

@@ -15,3 +15,4 @@ custom_app.status = Abilitato
 custom_app.status.tooltip = Abilita / Disabilita questa Applicazione Personalizzata.
 menu.custom_applications = Applicazioni Personalizzate
 module.custom_app = Applicazioni Personalizzate
+menu.custom_app = {menu.custom_applications}

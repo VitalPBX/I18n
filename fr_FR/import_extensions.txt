@@ -86,3 +86,5 @@ import_extensions.dial_profile.invalid = Dial Profile name {0} is invalid.
 import_extensions.description.cid_number = CID number/pattern to match on incoming routes.
 import_extensions.description.emergency_cid_name = Emergency Caller ID name
 import_extensions.description.emergency_cid_number = Emergency Caller ID number
+import_extensions.description.devices_emergency_cid_name = Caller ID name to be used when this devices place an emergency call
+import_extensions.description.devices_emergency_cid_number = Caller ID number to be used when this devices place an emergency call

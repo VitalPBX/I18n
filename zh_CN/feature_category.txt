@@ -7,3 +7,4 @@ feature_category.enabled_features = 开启功能
 feature_category.general = 基本设置
 menu.feature_categories = 功能类别
 module.feature_category = 功能类别
+menu.feature_category = {menu.feature_categories}

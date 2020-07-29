@@ -7,3 +7,4 @@ feature_category.enabled_features = Codes de fonctions activés
 feature_category.general = Général
 menu.feature_categories = Restrictions codes de fonction
 module.feature_category = Restrictions codes de fonction
+menu.feature_category = {menu.feature_categories}

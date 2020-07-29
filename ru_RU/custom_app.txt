@@ -15,3 +15,4 @@ custom_app.status = Включено
 custom_app.status.tooltip = Включить/выключить это приложение.
 menu.custom_applications = Доп. приложения
 module.custom_app = Дополнительное приложение
+menu.custom_app = {menu.custom_applications}

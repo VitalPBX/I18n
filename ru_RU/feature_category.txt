@@ -7,3 +7,4 @@ feature_category.enabled_features = Включенные функции
 feature_category.general = Общие
 menu.feature_categories = <span style="margin-left: -5px;">Набор функций</span>
 module.feature_category = Набор функций
+menu.feature_category = {menu.feature_categories}

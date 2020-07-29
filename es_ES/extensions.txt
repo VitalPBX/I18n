@@ -269,3 +269,4 @@ extensions.outbound_profile.tooltip =
 extensions.validation.no_push = No puede habilitar la configuración de notificaciones push en más de cinco dispositivos con su plan actual.
 extensions.email_multiple = Direcciones de Correo
 extensions.email_multiple.tooltip = Lista de direcciones de correo electrónico separadas por una coma a donde se enviarán los mensajes de servicio.
+extensions.vitxi_clients.max_reached = Ha alcanzado el número máximo de clientes VitXi permitido para su licencia actual.
