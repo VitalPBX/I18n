@@ -99,10 +99,10 @@ profiles_sip_sendrpid_rpid = Use RPID (Remote Party ID)
 profiles_sip_sendrpid_tooltip = Add remote party ID header to SIP INVITEs.
 profiles_sip_sendrpid_yes = Yes
 profiles_sip_transport = Transport
+profiles_sip_transport_tooltip = Set the default transports.  The order determines the primary default transport.
 profiles_sip_transport_invalid = Transport must be one of: TCP, UDP, TLS, WS and/or WSS.
 profiles_sip_transport_tcp = TCP
 profiles_sip_transport_tls = TLS
-profiles_sip_transport_tooltip = Communication method to use for this device.
 profiles_sip_transport_udp = UDP
 profiles_sip_transport_wss = WSS
 profiles_sip_transport_ws = WS
@@ -121,7 +121,10 @@ profiles_pjsip_name_tooltip = Name for this profile.
 profiles_pjsip_description = Description
 profiles_pjsip_description_tooltip = Description for this profile.
 profiles_pjsip_transport = Transport
-profiles_pjsip_transport_tooltip = Desired transport configuration.
+profiles_pjsip_transport_tooltip =
+	This will force the endpoint to use the specified transport configuration to send SIP messages. You need to already
+	know what kind of transport (UDP/TCP/TLS/etc) the endpoint device will use. If set to "Auto", then, the default
+	transport chosen is the first compatible transport in the configuration file for the contact URL.
 profiles_pjsip_dtls_cert_file = DTLS Certfile
 profiles_pjsip_dtls_cert_file_tooltip = Path to certificate file to present to peer
 profiles_pjsip_dtls_private_key = DTLS Private Key
@@ -254,3 +257,6 @@ profiles_pjsip_support_path_tooltip =
 	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
 	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
 	also be indicated in the Supported header.
+profiles_pjsip_outbound_proxy = Outbound Proxy
+profiles_pjsip_outbound_proxy_tooltip = Full SIP URI of the outbound proxy used to send requests. e.g.: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_transport_auto = Auto
