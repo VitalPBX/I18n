@@ -1,6 +1,6 @@
 accountcode = Codici Cliente
 accountcode.code = Codici Cliente
-accountcode.code.invalid = Codice Clienteno valido. Usare solo numeri el il simbolo "*" (asterisco).
+accountcode.code.invalid = Codice Cliente non valido. Usare solo numeri e il simbolo "*" (asterisco).
 accountcode.code.tooltip = Numero Codice Cliente.
 accountcode.description = Descrizione
 accountcode.description.tooltip = Descrizione per questo Codice Cliente.

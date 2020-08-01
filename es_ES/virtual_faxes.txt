@@ -96,3 +96,6 @@ module.fax_general_settings = Configuraciones
 module.fax_sending = Envío de Fax
 module.fax_viewer = Visor de fax
 module.virtual_faxes = Faxes Virtuales
+fax_devices.confirm_delete = ¿Está seguro de que desea eliminar este dispositivo de fax? Esto eliminará cualquier fax asociado a este dispositivo.
+fax_devices.status = Estado
+fax_devices.status.tooltip = Estado actual de este dispositivo de fax.

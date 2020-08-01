@@ -49,3 +49,7 @@ app.activate.register.language = The language that you speak
 app.license.max_items = You have reached the maximum number of free items allowed on this module
 menu.call_center_reports = Call Center Reports
 app.register.expire_on = Subscription is active until {0}
+app.call_cannot_be_sent = It was not possible sent the call
+app.call_sent = The call has been sent
+app.insufficient_data = Cannot execute the requested action due you have provided insufficient data
+app.plan.community-plus = Community Plus

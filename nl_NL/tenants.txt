@@ -84,3 +84,7 @@ tenants.outbound_profiles = Outbound Profiles
 tenants.outbound_profiles.tooltip = 
 	Allows you to define what route selection items can be used as an outbound profile on this tenant.
 tenants.routing = Calls Routing
+tenants.emergency_trunks = Emergency Trunks
+tenants.emergency_trunks.tooltip = 
+	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
+tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value

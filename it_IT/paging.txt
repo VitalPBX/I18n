@@ -53,3 +53,4 @@ paging.validation.mode.no_announcement = You have set the mode to "Announcement 
 paging.validation.no_schedules = You have enabled the paging schedule, but haven't defined any schedule
 paging.validation.schedule.no_announcement = 
 	You have enabled the paging schedule, but haven't selected an announcement to be played when matching a schedule
+paging.announcement = Announcement

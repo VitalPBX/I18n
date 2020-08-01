@@ -16,3 +16,5 @@ ivr_stats.to.tooltip = It defines the ending date to get stats from the selected
 menu.ivr_reports = IVR Reports
 menu.ivr_stats = IVR Stats
 module.ivr_stats = IVR Stats
+ivr_stats.general = {ombutel.general}
+ivr_stats.no_cdr = No CDR

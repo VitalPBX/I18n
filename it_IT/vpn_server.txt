@@ -73,3 +73,4 @@ vpn_server.type.generic = Generic
 vpn_server.type.grandstream = Grandstream
 vpn_server.type.tooltip = It allows to define the type of client, depending on it, the configuration that is downloaded will vary
 vpn_server.type.yealink = Yealink
+vpn_server.type.fanvil = Fanvil

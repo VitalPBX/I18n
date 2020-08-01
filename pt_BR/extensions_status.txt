@@ -66,3 +66,4 @@ module.extensions_status = Status de ramais
 extensions_status.device_info.port = Porta
 extensions_status.device_info.username_channel = Usuário / Canal
 extensions_status.unspecified = (Unspecified)
+extensions_status.device_info.user_agent = User Agent

@@ -16,3 +16,5 @@ vmgroup.vmglist = Extensiones
 vmgroup.vmglist.tooltip = Lista de extensiones de correo de voz a la que el grupo será transmitido. Tenga en cuenta que sólo se mostrarán las extensiones que tienen correo de voz activo.
 vmgroup.invalid.already_exists = Número de grupo de correo de voz no válido {0}. El número está en uso por módulo {1}.
 vmgroup.password.error = La contraseña no puede estar vacía y puede usar solo números y el símbolo "*" (asterisco).
+vmgroup.skip_instructions = Omitir Instrucciones
+vmgroup.skip_instructions.tooltip = Si está habilitado, omite la reproducción de instrucciones para dejar un mensaje a las extensiones listadas en este grupo de VM.

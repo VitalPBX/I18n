@@ -55,3 +55,4 @@ vc.result_type.rescheduled = Scheduled
 vc.comments = Comments
 vc.schedule_date = Schedule Date
 vc.no_license = You must activate this add-on with a valid license in order to be able to create campaigns
+vcom.csv.missing_columns = {import_extensions.missing_columns}

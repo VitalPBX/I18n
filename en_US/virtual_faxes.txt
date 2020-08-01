@@ -96,3 +96,6 @@ fax_devices.portal.help = It allows to assign a fax device to this user extensio
 fax_sending.portal.no_fax_device = No fax device has been assigned to your extension.
 fgs.devices_port = Devices Port
 fgs.devices_port.tooltip = The port that fax devices listens
+fax_devices.confirm_delete = Are you sure that you want to delete this fax device? This will delete any fax associated to this device
+fax_devices.status = Status
+fax_devices.status.tooltip = Current status of this fax device

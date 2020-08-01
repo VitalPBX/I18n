@@ -25,3 +25,8 @@ class_of_service.billing_app.tooltip = Позволяет вам выбрать 
 class_of_service.validation.cos_duplicated = Класс обслуживания "<b>{0}</b>" уже используется.
 class_of_service.validate.default = Вы не можете удалить этот Класс обслуживания, поскольку он помечен как основной 
 class_of_service.validation.in_use = Этот Класс обслуживания используется модулем "<b>{0}</b>"
+class_of_service.outbound_profile = Outbound Profile
+class_of_service.outbound_profile.tooltip = 
+	It allows you to define an outbound profile for this class of service. These profiles contain a collection of
+	outbound routes and their respective patterns, so, depending on the outbound profile, the extension users with this
+	class of service assigned will be able or not to perform external calls to international and/or national numbers.

@@ -50,3 +50,6 @@ scom.unconfigured = Unconfigured
 scom_ext_privileges.general = General
 scom_pause_profiles.general = {ombutel.general}
 scom_softkey_profiles.general = {ombutel.general}
+scom.softkey.description.tooltip = Short description to identify this softkey profile
+scom.type.dialer_pause = Dialer Pause
+scom.type.open_form = Open Form

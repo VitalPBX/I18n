@@ -55,3 +55,4 @@ vc.result_type.rescheduled = Запланированный
 vc.comments = Комментарии
 vc.schedule_date = Планируемая дата
 vc.no_license = Вы должны активировать это дополнение, чтобы иметь возможность создавать кампании
+vcom.csv.missing_columns = {import_extensions.missing_columns}

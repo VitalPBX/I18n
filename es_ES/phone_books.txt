@@ -32,3 +32,15 @@ phone_books.source_type.tooltip =
     Le permite definir si usará números internos (colas, conferencias, extensiones, etc.) o importará números 
     externos a su PBX
 phone_books.csv.missing_columns = {import_extensions.missing_columns}
+phone_books.actions = {actions}
+phone_books.add_contact = Agregar Contacto
+phone_books.duplicated_phone = Ya existe otro contacto con el mismo número de teléfono.
+phone_books.edit_contact = Editar Contacto
+phone_books.first_name = Primer Nombre
+phone_books.first_name.tooltip = {phone_books.first_name}
+phone_books.invalid_phone = Has proporcionado un número de teléfono no válido
+phone_books.job_title.tooltip = {phone_books.job_title}
+phone_books.last_name.tooltip = {phone_books.last_name}
+phone_books.no_first_name = No has proporcionado el nombre de contacto
+phone_books.organization.tooltip = {phone_books.organization}
+phone_books.phone.tooltip = {phone_books.phone}

@@ -16,4 +16,5 @@ ivr_stats.caller = Llamador
 ivr_stats.callee = Llamado
 ivr_stats.call_duration = Duración de la Llamada
 ivr_stats.call_status = Estado de Llamada
-
+ivr_stats.general = {ombutel.general}
+ivr_stats.no_cdr = No CDR

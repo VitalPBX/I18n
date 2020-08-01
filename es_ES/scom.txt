@@ -54,3 +54,6 @@ scom.unconfigured = Sin Configurar
 scom_ext_privileges.general = General
 scom_pause_profiles.general = {ombutel.general}
 scom_softkey_profiles.general = {ombutel.general}
+scom.softkey.description.tooltip = Breve descripción para identificar este perfil de teclas programables
+scom.type.dialer_pause = Dialer Pause
+scom.type.open_form = Open Form

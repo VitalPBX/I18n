@@ -19,3 +19,5 @@ branding.mobile_logo = Mobile Logo
 branding.instagram_page = Instagram Page
 branding.app_name = APP Name
 branding.app_name.tooltip = It allows you to modify the main tenant name
+branding.meet_url = Meet URL
+branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module

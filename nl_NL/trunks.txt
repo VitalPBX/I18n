@@ -198,3 +198,8 @@ trunks.server_uri.tooltip =
 trunks.validation.pjsip.no_contacts = 
 	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
 trunks.validation.pjsip.no_outgoing_host = The registration parameter is enabled but the remote host parameter hasn't been provided
+trunks.contact_user = Contact User
+trunks.contact_user.tooltip = 
+	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
+	the far end calls you at this registration.
+trunks.none = -- None --

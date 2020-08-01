@@ -197,3 +197,8 @@ trunks.server_uri.tooltip =
 trunks.validation.pjsip.no_contacts = 
 	Нет контактов и хост не был определен. Если контакты не определены, вы должны указать удаленный хост для создания URI контактов по умолчанию	
 trunks.validation.pjsip.no_outgoing_host = <b>"Необходимость регистрации"</b> включена, но <b>"Удаленный хост"</b> не указан
+trunks.contact_user = Contact User
+trunks.contact_user.tooltip = 
+	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
+	the far end calls you at this registration.
+trunks.none = -- None --
