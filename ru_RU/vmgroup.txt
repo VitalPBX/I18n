@@ -16,5 +16,5 @@ vmgroup.password.invalid = Неправильный пароль. Использ
 vmgroup.password.tooltip = Пароль для защиты этой группы голосовой почты.
 vmgroup.vmglist = Внутр. номера
 vmgroup.vmglist.tooltip = Список внутренних номеров, которым будет передаваться групповая голосовая почта. Обратите внимание, что будут отображаться только номера с активной голосовой почтой.
-vmgroup.skip_instructions = Skip Instructions
-vmgroup.skip_instructions.tooltip = If enable, skips the playback of instructions for leaving a message to the listed extensions on this VM group.
+vmgroup.skip_instructions = Пропустить инструкции
+vmgroup.skip_instructions.tooltip = Если включено, пропускает воспроизведение инструкций по оставлению сообщения перечисленным номерам в этой группе голосовой почты.
