@@ -51,6 +51,6 @@ scom.sp.url = URL профиля функц. клавиши
 scom.sp.url.tooltip = URL-адрес для получения настроек профиля функциональной клавиши
 menu.scom_ext_privileges = {module.scom_ext_privileges}
 scom_ext_privileges.general = Общие
-scom.softkey.description.tooltip = Short description to identify this softkey profile
+scom.softkey.description.tooltip = Краткое описание этого профиля функциональных клавиш
 scom.type.dialer_pause = Dialer Pause
 scom.type.open_form = Open Form
