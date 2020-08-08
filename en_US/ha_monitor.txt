@@ -2,9 +2,9 @@ ha_monitor = HA Monitor
 menu.ha_monitor = {ha_monitor}
 module.ha_monitor = Ha Monitor
 ha_monitor.master = Master
-ha_monitor.slave = Slave
-ha_monitor.started = Started
 ha_monitor.standby = Standby
+ha_monitor.unstandby = Start Server
+ha_monitor.started = Started
 ha_monitor.stopped = Stopped
 ha_monitor.hdd = HDD Sync
 ha_monitor.database = Database
@@ -20,7 +20,6 @@ ha_monitor.confirm_bascul =
     <strong>Are you sure to switch from {0} to {1} ? </strong>
 ha_monitor.success = The Bascul was successfully executed
 ha_monitor.executed = The Bascul is being executed in background
-ha_monitor.standby = Standby
 ha_monitor.confirm_unstandby.title = Start Confirmation
 ha_monitor.confirm_unstandby =
     Are you sure that you want to execute the Start now?

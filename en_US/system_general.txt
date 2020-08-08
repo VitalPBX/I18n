@@ -50,8 +50,6 @@ system_general.featuredigittimeout = Features Digit Timeout
 system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
 system_general.featuredigittimeout.placeholder = Value in milliseconds
 system_general.gui_settings = GUI Settings
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
 system_general.queues_callback = Queues CallBack
 system_general.search_frequency = Search Frequency
 system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
@@ -60,3 +58,6 @@ system_general.email_credentials = Email Credentials
 system_general.email_credentials.tooltip =
 	Enable this feature to send an email to the newly created extension user with their extension and account information.
 	You can find the template for this email under Admin > System Settings > Email Templates.
+system_general.show_addons_menu = Show Add-ons Menu
+system_general.show_addons_menu.tooltip =
+	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi

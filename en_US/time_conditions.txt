@@ -39,3 +39,7 @@ time_conditions.code = {nightmode.code}
 time_conditions.code.tooltip = Dial code to toggle the time condition state through the phone.
 time_conditions.pin = Authorization Pin
 time_conditions.pin.tooltip = Optional password to protect from unauthorized people of modifying this time condition.
+time_conditions.timezone = Time Zone
+time_conditions.timezone.tooltip =
+	It allows defining the timezone to use for matching the time group associated with this time condition. If set to System,
+	it will take the timezone from server.

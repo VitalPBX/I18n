@@ -92,4 +92,12 @@ tenants.send_welcome_email = Send Welcome Email
 tenants.send_welcome_email.tooltip =
 	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
 	for this email under Admin > System Settings > Email Templates.
+tenants.settings = Settings
+tenants.timezone = Time Zone
+tenants.timezone.tooltip =
+	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
+	will be used.
+tenants.addons = External Add-ons
+tenants.addons.tooltip =
+	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
 
