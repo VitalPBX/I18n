@@ -58,3 +58,6 @@ system_general.email_credentials = Credenciales por Email
 system_general.email_credentials.tooltip = 
 	Habilite esta función para enviar un E-mail al usuario de extensión recién creado con su extensión e información de cuenta.
 	Puede encontrar la plantilla para este Email en Admin>Configuración del Sistema>Plantillas de E-mail.
+system_general.show_addons_menu = Mostrar Menú de Complementos
+system_general.show_addons_menu.tooltip = 
+	Si se establece en sí, se mostrará un botón de menú en la pantalla de inicio de sesión para acceder a complementos externos como Sonata Suite o VitXi

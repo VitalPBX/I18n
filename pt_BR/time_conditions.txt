@@ -39,3 +39,7 @@ time_conditions.status.temporary_matched_unmatched.desc =
 	has elapsed. After that, the behavior will return to default
 time_conditions.status.temporary_unmatched = Temporary Unmatched
 time_conditions.status.tooltip = Allows you to override the default behavior of a time condition
+time_conditions.timezone = Time Zone
+time_conditions.timezone.tooltip = 
+	It allows defining the timezone to use for matching the time group associated with this time condition. If set to System,
+	it will take the timezone from server.

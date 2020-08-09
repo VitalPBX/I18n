@@ -23,3 +23,4 @@ app_keys.tenant.tooltip =
 	Le permite definir qué Tenant se asociará con esta clave API, por lo que, cuando alguien use esta clave,
 	lo hará solo busca datos relacionados con el Tenant asignado. Sin embargo, si se establece en none,
 	el usuario final debe proporcionar la identificación del Tenant o ruta en cada solicitud.
+app_keys.all = -- Cualquier Tenant --

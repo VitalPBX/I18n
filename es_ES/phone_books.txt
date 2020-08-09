@@ -46,3 +46,12 @@ phone_books.organization.tooltip = {phone_books.organization}
 phone_books.phone.tooltip = {phone_books.phone}phone_books.speed_dials = Speed Dials
 phone_books.speed_dials.tooltip = Le permite seleccionar qué {0} estará disponible en esta agenda.
 phone_books.speed_dials = Marcaciones Rápidas
+notification_templates.phonebooks = Phonebooks QR Email
+phone_books.email.tooltip = Lista de correos electrónicos separados por una coma a los que se enviará el código QR de la agenda telefónica.
+phone_books.qr = Enviar QR por Email
+phone_books.qr.no_email = No se han proporcionado direcciones de correo electrónico para enviar este código QR
+phone_books.qr.pb_not_found = El Phonbook solicitado no existe
+phone_books.qr.sent = El correo electrónico ha sido enviado con éxito.
+phone_books.qr_email.no_template = La plantilla de correo electrónico para enviar QR no existe
+phone_books.send_by_email = Enviar por E-mail
+phone_books.send_email = Enviar Email

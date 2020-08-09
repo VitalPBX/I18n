@@ -21,3 +21,20 @@ branding.app_name = Nombre APP
 branding.app_name.tooltip = Le permite modificar el nombre del Tenant principal
 branding.meet_url = Meet URL
 branding.meet_url.tooltip = URL que se utilizará de forma predeterminada para conferencias generadas a través del módulo de videoconferencias
+branding.login = Diseño de Inicio de Sesión
+branding.login_addons_menu = Menú de Complementos
+branding.login_addons_menu.tooltip = Color de fondo para el botón del menú de complementos
+branding.login_bg = Fondo de Inicio de Sesión
+branding.login_bg.tooltip = Color de fondo de la página de inicio de sesión. Si se deja en blanco, se utilizará el fondo predeterminado.
+branding.login_btn = Color del Botón de inicio de sesión
+branding.login_btn.tooltip = Color de fondo del botón de inicio de sesión
+branding.login_fc = Color de Fuente
+branding.login_fc.tooltip = Color de fuente que se utilizará en el formulario de inicio de sesión
+branding.login_frm_bg = Fondo del Formulario
+branding.login_frm_bg.tooltip = Color de fondo para el panel izquierdo en el formulario de inicio de sesión
+branding.reset = Reiniciar
+branding.reset.confirm = 
+	¿Está seguro de que desea restablecer la configuración de la marca?
+	Este proceso es irreversible y se perderá toda la configuración que haya realizado.
+branding.reset_applied = Todos los ajustes se han restablecido correctamente..
+branding.warning_note = Esta configuración se aplicará hasta que se aplique una <a href="{0}" target="_blank"> licencia </a> al complemento de marca o se active para cualquiera de las <a href = "{1} "target =" _ blank "> planes disponibles </a>

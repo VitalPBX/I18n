@@ -13,3 +13,4 @@ app_keys.tenant.tooltip =
 	It allows you to define which tenant will be associated with this API key, so, when someone uses this key it will
 	only fetch data related to the assigned tenant. However, if set to none, the end-user must provide the tenant ID or
 	path on each request.
+app_keys.all = -- Any Tenant --

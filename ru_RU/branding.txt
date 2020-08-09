@@ -21,3 +21,20 @@ branding.app_name = Имя арендатора
 branding.app_name.tooltip = Позволяет изменить имя основного арендатора
 branding.meet_url = Meet URL
 branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module
+branding.login = Login Design
+branding.login_addons_menu = Add-ons Menu
+branding.login_addons_menu.tooltip = Background color for the add-ons menu button
+branding.login_bg = Login Background
+branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
+branding.login_btn = Submit Button Color
+branding.login_btn.tooltip = Background color for the login button
+branding.login_fc = Font Color
+branding.login_fc.tooltip = Font color to be used in the login form
+branding.login_frm_bg = Form Background
+branding.login_frm_bg.tooltip = Background color for left panel in the login form
+branding.reset = Reset
+branding.reset.confirm = 
+	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
+	will be lost.
+branding.reset_applied = All the settings have been reset successfully.
+branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>

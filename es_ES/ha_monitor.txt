@@ -1,26 +1,25 @@
 ha_monitor = HA Monitor
+menu.ha_monitor = {ha_monitor}
+module.ha_monitor = Ha Monitor
+ha_monitor.master = Master
+ha_monitor.standby = Standby
+ha_monitor.unstandby = Iniciar Servidor
+ha_monitor.started = Started
+ha_monitor.stopped = Stopped
+ha_monitor.hdd = HDD Sync
+ha_monitor.database = Base de Datos
+ha_monitor.dahdi = DAHDI
 ha_monitor.asterisk = Asterisk
+ha_monitor.vitalpbx = VitalPBX
 ha_monitor.bascul = Bascular
+ha_monitor.confirm_bascul.title = Cambiar los roles de los servidores en alta disponibilidad.
 ha_monitor.confirm_bascul = 
     <strong>¡ADVERTENCIA!</strong>, todas las llamadas en curso se perderán y el sistema estará en un estado no disponible durante unos segundos.<br>
     <strong>¿Seguro que cambia de {0} a {1}?</strong>
-ha_monitor.confirm_bascul.title = Cambiar los roles de los servidores en alta disponibilidad.
+ha_monitor.success = El Basculamiento fue ejecutado con éxito.
+ha_monitor.executed = El Basculamiento se está ejecutando en segundo plano.
+ha_monitor.confirm_unstandby.title = Confirmar Inicio
 ha_monitor.confirm_unstandby = 
     ¿Estás seguro de que quieres ejecutar el Inicio ahora?
-ha_monitor.confirm_unstandby.title = Confirmar Inicio
-ha_monitor.dahdi = DAHDI
-ha_monitor.database = Base de Datos
-ha_monitor.executed = El Basculamiento se está ejecutando en segundo plano.
-ha_monitor.executed_unstandby = El modo de espera se ejecutó con éxito
-ha_monitor.firewall = Cortafuegos
-ha_monitor.hdd = HDD Sync
-ha_monitor.master = Master
-ha_monitor.slave = Slave
-ha_monitor.standby = Standby
-ha_monitor.started = Started
-ha_monitor.stopped = Stopped
-ha_monitor.success = El Basculamiento fue ejecutado con éxito.
-ha_monitor.switchboard = Switchboard
-ha_monitor.vitalpbx = VitalPBX
-menu.ha_monitor = {ha_monitor}
-module.ha_monitor = Ha Monitor
+ha_monitor.executed_unstandby = El modo de espera se ejecutó con éxito	
+ha_monitor.off = Servidor Apagado
