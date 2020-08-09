@@ -11,8 +11,6 @@ ha_monitor.database = Database
 ha_monitor.dahdi = DAHDI
 ha_monitor.asterisk = Asterisk
 ha_monitor.vitalpbx = VitalPBX
-ha_monitor.firewall = Firewall
-ha_monitor.switchboard = Switchboard
 ha_monitor.bascul = Bascul
 ha_monitor.confirm_bascul.title = Change the roles of servers in High Availability
 ha_monitor.confirm_bascul =
@@ -24,3 +22,4 @@ ha_monitor.confirm_unstandby.title = Start Confirmation
 ha_monitor.confirm_unstandby =
     Are you sure that you want to execute the Start now?
 ha_monitor.executed_unstandby = The standby mode was successfully executed
+ha_monitor.off = Server Down

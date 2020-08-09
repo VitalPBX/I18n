@@ -92,3 +92,11 @@ tenants.send_welcome_email = Enviar E-mail de Bienvenida
 tenants.send_welcome_email.tooltip = 
 	Si está habilitado, se enviará un correo electrónico con la información de la cuenta al administrador del Tenant.
 	Puede encontrar la plantilla para este E-mail en Admin>Configuración del Sistema>Plantillas de Email.
+tenants.addons = Complementos Externos
+tenants.addons.tooltip = 
+	Permite seleccionar qué complementos externos se mostrarán a este Tenant en el menú del usuario.
+tenants.settings = Configuraciones
+tenants.timezone = Zona Horaria
+tenants.timezone.tooltip = 
+	Define la zona horaria predeterminada para este inquilino. Si se selecciona la opción "Sistema",
+	se utilizará la zona horaria del servidor.

@@ -55,3 +55,4 @@ network_settings.nmcli_not_installed =
 	La red no se puede configurar porque el comando <b>"nmcli"</b> no está presente en su instalación actual.
 	Esto podría estar sucediendo porque su proveedor de VPS prohíbe este comando
 	de manera predeterminada o porque su servidor no tiene instalado el paquete <b>"NetworkManager"</b>.
+network_settings.general = {vitalpbx.general}

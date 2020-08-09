@@ -1,26 +1,25 @@
 ha_monitor = Монитор высокой доступности
+menu.ha_monitor = {ha_monitor}
+module.ha_monitor = Монитор высокой доступности
+ha_monitor.master = Основной
+ha_monitor.standby = Ожидает
+ha_monitor.unstandby = Запустить сервер
+ha_monitor.started = Запущен
+ha_monitor.stopped = Остановлено
+ha_monitor.hdd = Синхронизация HDD
+ha_monitor.database = База данных
+ha_monitor.dahdi = DAHDI
 ha_monitor.asterisk = Asterisk
+ha_monitor.vitalpbx = VitalPBX
 ha_monitor.bascul = Сменить роли
+ha_monitor.confirm_bascul.title = Изменить роли серверов высокой доступности
 ha_monitor.confirm_bascul =
     <strong>¡ВНИМАНИЕ!</strong>, все текущие вызовы будут потеряны, и система будет находиться в недоступном состоянии в течение нескольких секунд. <br>
     <strong>Вы уверены, что хотите переключиться с {0} на {1}? </strong>
-ha_monitor.confirm_bascul.title = Изменить роли серверов высокой доступности
+ha_monitor.success = Смена ролей успешно запущена
+ha_monitor.executed = Смена ролей выполняется в фоновом режиме
+ha_monitor.confirm_unstandby.title = Начать подтверждение
 ha_monitor.confirm_unstandby =
     Вы уверены, что хотите начать сейчас?
-ha_monitor.confirm_unstandby.title = Начать подтверждение
-ha_monitor.dahdi = DAHDI
-ha_monitor.database = База данных
-ha_monitor.executed = Смена ролей выполняется в фоновом режиме
 ha_monitor.executed_unstandby = Режим ожидания был успешно включен
-ha_monitor.firewall = Firewall
-ha_monitor.hdd = Синхронизация HDD
-ha_monitor.master = Основной
-ha_monitor.slave = Резервный
-ha_monitor.standby = Ожидает
-ha_monitor.started = Запущен
-ha_monitor.stopped = Остановлено
-ha_monitor.success = Смена ролей успешно запущена
-ha_monitor.switchboard = Switchboard
-ha_monitor.vitalpbx = VitalPBX
-menu.ha_monitor = {ha_monitor}
-module.ha_monitor = Монитор высокой доступности
+ha_monitor.off = Сервер не работает

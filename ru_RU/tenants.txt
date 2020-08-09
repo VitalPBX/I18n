@@ -75,7 +75,7 @@ tenants.inbound_numbers = Входящие DID
 tenants.inbound_numbers.tooltip =
 	Список номеров/шаблонов, принадлежащих этому арендатору. Звонки, соответствующие этим номерам, будут автоматически
 	перенаправляться на эти входящие маршруты арендатора. Конфигурация этих номеров имеет приоритет над правилами входящих
-	маршрутов основного арендатора.	
+	маршрутов основного арендатора.
 tenants.scom_devices = Устройства Softphone
 tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.
 tenants.routing = Маршрутизация вызовов
@@ -88,3 +88,15 @@ tenants.emergency_trunks = Аварийные линии
 tenants.emergency_trunks.tooltip =
 	Позволяет вам совместно использовать линии с этим арендатором, которые будут использоваться как аварийные линии в модуле "Экстренные номера"
 tenants.name.validation.alphanumeric = Имя арендатора может содержать только буквы и цифры
+tenants.send_welcome_email = Send Welcome Email
+tenants.send_welcome_email.tooltip =
+	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
+	for this email under Admin > System Settings > Email Templates.
+tenants.addons = External Add-ons
+tenants.addons.tooltip =
+	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
+tenants.settings = Settings
+tenants.timezone = Time Zone
+tenants.timezone.tooltip =
+	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
+	will be used.
