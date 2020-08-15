@@ -6,3 +6,10 @@ geo_firewall.license.max_items = You may only block one country on the free vers
 geo_firewall.select_all = Select All Countries
 geo_firewall.unselect_all = Unselect All Countries
 geo_firewall.countries_list = Countries List
+geo_firewall.disable = Disable
+geo_firewall.enable = Enable
+geo_firewall.successfully_enabled = The GEO firewall restrictions has been successfully enabled
+geo_firewall.disable.confirm =
+	Are you sure about disabling the GEO firewall restrictions? Performing this action will automatically unblock all the countries,
+	however, your configurations on the GEO firewall map will be preserved, so you can apply them back at a later date.
+geo_firewall.successfully_disabled = The GEO firewall restrictions has been successfully disabled
