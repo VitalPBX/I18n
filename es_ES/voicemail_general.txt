@@ -56,3 +56,8 @@ voicemail_general.fromstring.placeholder = Asterisk PBX
 voicemail_general.fromstring.tooltip = Nombre que aparecerá en los correos electrónicos de su PBX.
 voicemail_general.mp3_attachment = Adjuntar Archivo MP3
 voicemail_general.mp3_attachment.tooltip = Si se establece en sí, el archivo adjunto del correo de voz se enviará en formato MP3.
+voicemail_general.locale = Locale
+voicemail_general.locale.tooltip = 
+	Configure la configuración regional para la generación de cadenas de fecha / hora (asegúrese de que las configuraciones regionales estén instaladas en su sistema operativo).
+	Si combina diferentes configuraciones regionales para diferentes usuarios, debe evitar las palabras en la especificación del formato de fecha de correo electrónico, 
+	por ejemplo: <b>%A, %d %B %Y, %H:%M:%S</b>

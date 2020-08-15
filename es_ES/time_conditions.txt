@@ -42,3 +42,4 @@ time_conditions.blf_inverted = BLF Invertidotime_conditions.timezone = Zona Hora
 time_conditions.timezone.tooltip = 
 	Permite definir la zona horaria que se utilizará para hacer coincidir el grupo de tiempo asociado con esta condición de tiempo.
 	Si se establece en Sistema, tomará la zona horaria del servidor.
+time_conditions.timezone = Zona Horaria

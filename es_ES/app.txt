@@ -55,3 +55,5 @@ app.insufficient_data = No se puede ejecutar la acción solicitada porque ha pro
 app.plan.community-plus = Community Plus
 app.invalid_data = No ha proporcionado suficientes datos para realizar la acción solicitada.
 app.reports.generated_by = Generado por: {0}
+app.plan.call-center = Call Center
+app.plan.carrier-plus = Carrier Plus
