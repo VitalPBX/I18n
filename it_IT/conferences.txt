@@ -11,7 +11,7 @@ conferences.announce_only_user.tooltip = Riproduci un annuncio quando un chiaman
 conferences.announce_user_count = Conteggio Partecipanti
 conferences.announce_user_count.tooltip = Annuncia ai nuovi chiamanti il numero di partecipanti che hanno gia' aderito alla conferenza.
 conferences.announce_user_count_all = Annunciare Conteggio Partecipanti
-conferences.announce_user_count_all.tooltip = Annuncia il numero di partecipanti, che hanno aderito alla conferenza, a tutti i membri della conferenza. Se impostato su un numero, l'annuncio viene riprodotto solo quando il numero di partecipanti e' superiore al numero impostato. Le opzioni disponibili sono Sì, No (valore predefinito) o un numero positivo.
+conferences.announce_user_count_all.tooltip = Annuncia il numero di partecipanti, che hanno aderito alla conferenza, a tutti i membri della conferenza. Se impostato su un numero, l'annuncio viene riprodotto solo quando il numero di partecipanti e' superiore al numero impostato. Le opzioni disponibili sono SÃ¬, No (valore predefinito) o un numero positivo.
 conferences.description = Descrizione
 conferences.description.tooltip = Description per identificare questa conferenza.
 conferences.dsp_drop_silence = Elimina Silenzio
@@ -64,8 +64,8 @@ conferences.allow_to_invite.tooltip =
 conferences.max_reached = E' stato raggiunto il numero massimo di conferenze consentite.
 conferences.video_mode.last_marked = Last Admin
 conferences.video_mode.last_marked.tooltip = 
-	The last leader to join the conference with video capabilities will be the single source of video distributed to all participants.
-	If multiple marked users are capable of video, the last one to join is always the source, when that user leaves it goes to the one who
-	joined before them.
+	L'ultimo leader a partecipare alla conferenza con funzionalita' video sara' l'unica fonte di video distribuita a tutti i partecipanti.
+        Se piu' utenti contrassegnati sono in grado di riprodurre video, l'ultimo ad unirsi e' sempre la fonte, quando quell'utente se ne va, va a quello che
+        si sono uniti prima di loro.
 conferences.video_mode.sfu = Selective Forwarding Unit
 conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.
