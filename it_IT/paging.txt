@@ -14,7 +14,7 @@ paging.general = Generale
 paging.ignore = Ignora Inoltro Chiamata.
 paging.ignore.tooltip = Ignora tentativi di inoltrare la chiamata
 paging.invalid.already_exists = Numero di paging non valido {0}. Il numero e' in uso dal modulo {1}.
-paging.quiet = Modalit‡ Silenziosa
+paging.quiet = Modalit√† Silenziosa
 paging.quiet.tooltip = Silenzioso, non suonare il segnale acustico per il chiamante.
 paging.record = Registra Paging
 paging.record.tooltip = Registra la pagina in un file.
@@ -22,13 +22,14 @@ paging.seconds =
 	[one] Un Secondo
 	[other] {0} Secondi
 paging.skip_busy = Salta Occupato
-paging.skip_busy.tooltip = Compone un canale solo se lo stato del dispositivo e' NOT_INUSE. Questa opzione e' probabilmente utile (e affidabile) sui canali associati a SIP, e anche cosÏ potrebbe non funzionare se una singola linea e' consentita piu' chiamate su di essa. Pertanto, non fare affidamento su questa opzione in tutti i casi.
+paging.skip_busy.tooltip = Compone un canale solo se lo stato del dispositivo e' NOT_INUSE. Questa opzione e' probabilmente utile (e affidabile) sui canali associati a SIP, e anche cos√¨ potrebbe non funzionare se una singola linea e' consentita piu' chiamate su di essa. Pertanto, non fare affidamento su questa opzione in tutti i casi.
 paging.timeout = Timeout
 paging.timeout.tooltip = Specificare il periodo di tempo durante il quale il sistema tentera' di connettere una chiamata. Dopo questa durata, tutte le chiamate intercom che non hanno ricevuto risposta verranno bloccate dal sistema.
 paging.multicastrtp = Multicast RTP
 paging.ip_address = Indirizzo IP
 paging.port = Porta
-paging.no_members = Non sono state fornite estensioni o membri multicast validi.paging.announcement = Announcement
+paging.no_members = Non sono state fornite estensioni o membri multicast validi.
+paging.announcement = Announcement
 paging.announcement.tooltip = Announcement to be played to all paged participants
 paging.mode = Mode
 paging.mode.annon_only = Announcement Only
