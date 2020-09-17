@@ -214,3 +214,32 @@ trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
+trunks.fax_settings = Fax Settings
+trunks.t38_udptl_ec = Error Connection Method
+trunks.t38_udptl_ec.tooltip = T.38 UDPTL error correction method
+trunks.t38_udptl_ec.none = {none}
+trunks.t38_udptl_ec.none.info = No error correction should be used.
+trunks.t38_udptl_ec.fec = FEC
+trunks.t38_udptl_ec.fec.info =Forward error correction should be used.
+trunks.t38_udptl_ec.redundancy = Redundancy
+trunks.t38_udptl_ec.redundancy.info = Redundancy error correction should be used.
+trunks.t38_udptl_maxdatagram = MAX Datagram
+trunks.t38_udptl_maxdatagram.tooltip =
+	T.38 UDPTL maximum datagram size. This option can be set to override the maximum datagram of a remote endpoint for
+	broken endpoints.
+trunks.fax_detect_timeout = Detection Timeout
+trunks.fax_detect_timeout.tooltip =
+	The option determines how many seconds into a call before the fax_detect option is disabled for the call. Setting
+	the value to zero disables the timeout.
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip =
+	If set to yes T.38 UDPTL support will be enabled, and T.38 negotiation requests will be accepted and relayed.
+trunks.fax_detect = Fax Detect
+trunks.fax_detect.tooltip = Whether CNG tone detection is enabled
+trunks.t38_udptl_nat = T.38 UDPTL NAT
+trunks.t38_udptl_nat.tooltip = Whether NAT support is enabled on UDPTL sessions
+trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
+trunks.t38_udptl_ipv6.tooltip = Whether IPv6 is used for UDPTL Sessions
+trunks.max_contacts.tooltip =
+	Maximum number of contacts that can associate with this AoR. This value does not affect the number of contacts that
+	can be added with the "contact" option. It only limits contacts added through external interaction, such as registration.

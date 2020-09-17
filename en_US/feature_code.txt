@@ -48,7 +48,10 @@ feature_code.disabled = Disabled
 feature_code.disconnect_call = Disconnect Call
 feature_code.disconnect_call.tooltip = When you are on a call, disconnect the current call. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.dnd = Do Not Disturb - Toggle
-feature_code.dnd.tooltip = Toggle to enable or disable the Do Not Disturb feature. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.dnd.tooltip =
+	Toggle to enable or disable the Do Not Disturb feature. You can either follow the prompts, or (in expert mode) enter the feature
+	code immediately followed by * (asterisk) and the number one for enabling the DND, or number two for disabling the DND. The Feature must be
+	enabled in the Feature Category associated with the extension.
 feature_code.echo_test = Echo Test
 feature_code.echo_test.tooltip = Echo test to measure the response time. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.enabled = Enabled
@@ -58,7 +61,10 @@ feature_code.follow_me = Follow Me - Toggle
 feature_code.follow_me.tooltip = Toggle to enable or disable the Follow Me feature. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.general = General
 feature_code.hot_desking = Hot Desking
-feature_code.hot_desking.tooltip = Toggle to enable or disable Hot Desking. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.hot_desking.tooltip =
+	Toggle to enable or disable Hot Desking. You can either follow the prompts, or (in expert mode) enter the feature
+	code immediately followed by * (asterisk) and the number one for login, or number two for logout.
+	The feature must be enabled in the Feature Category associated with the extension.
 feature_code.lock_unlock_phone = Lock/Unlock Phone
 feature_code.lock_unlock_phone.tooltip = Toggle to lock or unlock the current extension. No outbound calls can be made from a phone that has been locked. In order to unlock the phone, you will be prompted to enter the Features Password for the extension. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.nm_all = Night Mode All
@@ -76,9 +82,13 @@ feature_code.phone_book = Phonebook Directory
 feature_code.pickup_group = Pickup Group
 feature_code.pickup_group.tooltip = When you are on a call, capture a call that is ringing at any other extension in your pickup group. To use this facility is necessary to create call group and pickup group in the extensions dialog. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.queues-pause-unpause = Queues Pause/Unpause
-feature_code.queues-pause-unpause.tooltip = Allows you pause (or unpause) all queues.
+feature_code.queues-pause-unpause.tooltip =
+	Allows you pause (or unpause) all queues. You can either follow the prompts, or (in expert mode) enter the feature
+	code immediately followed by * (asterisk) and the number one for pause, or number two for unpause.
 feature_code.queues_login_logout = Queues Login/Logout
-feature_code.queues_login_logout.tooltip = Allows you to login to (or logout from) all queues.
+feature_code.queues_login_logout.tooltip =
+	Allows you to login to (or logout from) all queues. You can either follow the prompts, or (in expert mode) enter the feature
+	code immediately followed by * (asterisk) and the number one for login, or number two for logout.
 feature_code.rec_msg_pa = Record Msg For Personal Assistant
 feature_code.rec_msg_pa.tooltip = Record a message that callers will hear when they are served by your personal assistant. Only available for extensions where Has Personal Assistant has been enabled in the Advanced tab.
 feature_code.reminder = Reminder
@@ -146,3 +156,9 @@ feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip =
 	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
 	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip =
+	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
+	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
+	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
+	indicates to the system to login extension 100 using the password 1234.
