@@ -11,16 +11,16 @@ domotic_units.description.help = Breve descrizione per riconoscere questa unita'
 domotic_units.ip_address = Indirizzo IP
 domotic_units.ip_address.help = L'indirizzo IP per ottenere / inviare la richiesta.
 domotic_units.port = Porta
-domotic_units.port.help = Parte dell'indirizzo. Definirlo se necessario.
+domotic_units.port.help = Porte dell'indirizzo. Definirlo se necessario.
 
 domotic_units.validation.empty_model = E' richiesto il modello dell'unita'
 domotic_units.validation.empty_desc = La descrizione e' obbligatoria.
 domotic_units.validation.empty_ip = E' richiesto l'indirizzo IP.
-domotic_units.validation.invalid_ip = � stato definito un IP non valido.
+domotic_units.validation.invalid_ip = E' stato definito un IP non valido.
 domotic_units.validation.invalid_port = E' stata definita una porta non valida.
 domotic_units.validation.invalid_model = E' stato fornito un modello di unita' non valido.
 domotic_units.delete = {vitalpbx.delete}
-domotic_units.delete.message = Sei sicuro di voler eliminare questa unit�?
+domotic_units.delete.message = Sei sicuro di voler eliminare questa unita'?
 
 domotic_units.save.btn = {vitalpbx.save}
 domotic_units.sync.btn = Sincronizzare
