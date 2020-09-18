@@ -3,7 +3,7 @@ module.domotic_notifications = Notifiche Domotica
 domotic_notifications.general.tab = {vitalpbx.general}
 
 domotic_notifications.unit_id = Unita'
-domotic_notifications.unit_id.help = A seconda dell'unit� selezionata mostrera' il dispositivo da configurare.
+domotic_notifications.unit_id.help = A seconda dell'unita' selezionata mostrera' il dispositivo da configurare.
 domotic_notifications.device_id = Dispositivo
 domotic_notifications.device_id.help = Dispositivo per configurare la notifica.
 domotic_notifications.device_id.select_one = -- Selezionare  --
