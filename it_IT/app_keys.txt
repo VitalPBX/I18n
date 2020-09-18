@@ -10,7 +10,7 @@ menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
 app_keys.tenant = Tenant
 app_keys.tenant.tooltip = 
-	It allows you to define which tenant will be associated with this API key, so, when someone uses this key it will
-	only fetch data related to the assigned tenant. However, if set to none, the end-user must provide the tenant ID or
-	path on each request.
-app_keys.all = -- Any Tenant --
+	Consente di definire quale tenant sara' associato a questa chiave API, quindi, quando verra' ustata questa chiave, verranno
+        recuperati solo i dati relativi al tenant assegnato. Tuttavia, se impostato su nessuno, l'utente finale deve fornire l'ID tenant o
+        percorso su ogni richiesta.
+app_keys.all = -- Qualsiasi Tenant --
