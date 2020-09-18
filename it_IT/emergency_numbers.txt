@@ -21,6 +21,6 @@ emergency_numbers.validation.no_numbers = Nessun numero e' stato fornito. Si pre
 emergency_numbers.validation.n_duplicated =
 	Il Numero di Emergenza {0} e' gia' in uso dalla seguente categoria di numeri di emergenza: <b>{1}</b>.emergency_numbers.email_addresses = Email Addresses
 emergency_numbers.email_addresses.tooltip = 
-	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
-emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.
-emergency_numbers.email_addresses = Email Addresses
+	Indirizzi e-mail che riceveranno una notifica quando verra' composto uno dei numeri di emergenza qui definiti
+emergency_numbers.validation.invalid_email = L'indirizzo email <b> {0} </b> non e' valido.
+emergency_numbers.email_addresses = Indirizzi Email
