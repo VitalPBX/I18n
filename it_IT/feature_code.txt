@@ -147,3 +147,9 @@ feature_code.paging_and_intercom.tooltip =
 	Inserisce una chiamata in uscita verso l'interno specificato e li scarica in un bridge conferenze come partecipante disattivato
 	(e.g.: *827000). La funzione deve essere abilitata nella categoria di funzione associata all'interno.
 feature_code.lock_unlock_phone = Blocca/Sblocca Telefono
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip = 
+	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
+	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
+	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
+	indicates to the system to login extension 100 using the password 1234.

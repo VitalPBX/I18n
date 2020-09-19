@@ -141,3 +141,10 @@ feature_code.paging_and_intercom = Buscapersonas
 feature_code.paging_and_intercom.tooltip =
 	Coloca una llamada saliente a la extensión dada y los vuelca en un puente de conferencia como participante silenciado
 	(p.e.: *827000). La función debe estar habilitada en la Categoría de Funciones asociada con la extensión.
+feature_code.hot_desking_cc = Escritorio Compartido CC
+feature_code.hot_desking_cc.tooltip = 
+	Funciona igual que la función de escritorio compartido, la única diferencia es que cuando se usa este código de función,
+	la persona que llama o el usuario del escritorio compartido iniciará sesión automáticamente en sus colas asignadas. 
+	Además, es posible utilizar códigos cortos para iniciar sesión en una extensión específica, 
+	por ejemplo: <b>*90#100</b> indica al sistema que inicie sesión en la extensión 100 y <b>*90#100#1234</b> indica 
+	al sistema que inicie sesión en la extensión 100 con la contraseña 1234.

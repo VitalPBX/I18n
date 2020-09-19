@@ -216,3 +216,32 @@ trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
+trunks.fax_detect = Detección de Fax
+trunks.fax_detect.tooltip = Si la detección de tono CNG está habilitada
+trunks.fax_detect_timeout = Tiempo de espera de detección
+trunks.fax_detect_timeout.tooltip = 
+	La opción determina cuántos segundos en una llamada antes de que la opción fax_detect se desactive para la llamada.
+	Establecer el valor en cero desactiva el tiempo de espera.
+trunks.fax_settings = Configuración de Fax
+trunks.max_contacts.tooltip = 
+	Número máximo de contactos que se pueden asociar con este AoR. Este valor no afecta la cantidad de contactos que se pueden agregar
+	con la opción "contacto". Solo limita los contactos agregados a través de la interacción externa, como el registro.
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip = 
+	Si se establece en sí, se habilitará el soporte T.38 UDPTL y se aceptarán y retransmitirán las solicitudes de negociación T.38.
+trunks.t38_udptl_ec = Método de Conexión de Error
+trunks.t38_udptl_ec.fec = FEC
+trunks.t38_udptl_ec.fec.info = Se debe utilizar la corrección de errores hacia adelante.
+trunks.t38_udptl_ec.none = {none}
+trunks.t38_udptl_ec.none.info = No se debe utilizar corrección de errores.
+trunks.t38_udptl_ec.redundancy = Redundancia
+trunks.t38_udptl_ec.redundancy.info = Se debe utilizar la corrección de errores de redundancia.
+trunks.t38_udptl_ec.tooltip = Método de corrección de errores T.38 UDPTL.
+trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
+trunks.t38_udptl_ipv6.tooltip = Si se utiliza IPv6 para sesiones UDPTL.
+trunks.t38_udptl_maxdatagram = Datagrama MAX
+trunks.t38_udptl_maxdatagram.tooltip = 
+	Tamaño máximo de datagrama T.38 UDPTL. Esta opción se puede configurar para anular el datagrama máximo
+	de un punto final remoto para puntos finales rotos.
+trunks.t38_udptl_nat = T.38 UDPTL NAT
+trunks.t38_udptl_nat.tooltip = Si la compatibilidad con NAT está habilitada en sesiones UDPTL.
