@@ -30,7 +30,7 @@ hot_desking.nat.auto_force.tooltip = Imposta l'opzione force_rport se Asterisk r
 hot_desking.nat.comedia.tooltip = Invia un supporto alla porta Asterisk lo ha ricevuto indipendentemente da dove l'SDP dice di inviarlo.
 hot_desking.nat.force.tooltip = Fai finta che ci fosse un parametro rport anche se non c'era.
 hot_desking.nat.no.tooltip = Nessuna gestione NAT speciale diversa da RFC3581.
-hot_desking.nat.tooltip = NAT (Network Address Translation) e' una tecnologia piu' comunemente utilizzata da firewall e router per consentire a piu' dispositivi su una LAN con indirizzi IP "privati" di condividere un singolo indirizzo IP pubblico. Un indirizzo IP privato è un indirizzo, che può essere indirizzato solo dalla LAN, ma non da Internet al di fuori della LAN.
+hot_desking.nat.tooltip = NAT (Network Address Translation) e' una tecnologia piu' comunemente utilizzata da firewall e router per consentire a piu' dispositivi su una LAN con indirizzi IP "privati" di condividere un singolo indirizzo IP pubblico. Un indirizzo IP privato Ã¨ un indirizzo, che puÃ² essere indirizzato solo dalla LAN, ma non da Internet al di fuori della LAN.
 hot_desking.permit = Permesso
 hot_desking.permit.invalid = Il permesso non e' valido Si prega di digitare l'indirizzo IP con la maschera di sottorete. Puoi usare la notazione CIDR. (Example: 192.168.40.38/16)
 hot_desking.permit.tooltip = In una definizione utente / peer, e' possibile limitare il traffico da e verso questo peer a un determinato IP o rete. (Esempio: permesso = 192.168.40.0 / 255.255.255.0 consente il traffico da questa rete).
@@ -59,16 +59,15 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Profilo
 hot_desking.profile_id.tooltip = Profilo con parametri comuni per la tecnologia selezionata.
-
 hot_desking.dispatchable_location = Dispatchable Location
 hot_desking.dispatchable_location.tooltip = 
-	It allows you to select or define the dispatchable location for this device. This information will be used
-	to be included on notifications that would be sent when an emergency call be performed from this device.
+	Consente di selezionare o definire la posizione visualizzabile per questo dispositivo. Queste informazioni verranno incluse
+	nelle notifiche che verrebbero inviate quando viene eseguita una chiamata di emergenza da questo dispositivo.
 hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
-hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
+hot_desking.send_push.tooltip = Se abilitato, il PBX provera' ad inviare notifiche push ai dispositivi mobili su cui e' in esecuzione il <b> {0} </b> Softphone
+hot_desking.nat.default.tooltip = Prende le configurazioni NAT dalle impostazioni SIP globali (Impostazioni >> Impostazioni tecnologia >> Impostazioni SIP)
 hot_desking.vitxi_client = Vitxi Client
 hot_desking.vitxi_client.tooltip = 
-	If enabled, this device could be used for the Vitxi WebRTC app or the Vitxi Softphones (Android or IOS). When
-	the devices flagged with this option are used on mobile devices with the Vitxi Softphone, all the premium features
-	will be enabled on the softphone.
+	Se abilitato, questo dispositivo puo' essere utilizzato per l'app Vitxi WebRTC o per i Softphone Vitxi (Android o IOS). Quando
+        i dispositivi contrassegnati con questa opzione vengono utilizzati sui dispositivi mobili con il Softphone Vitxi, tutte le funzionalita' premium
+        sara' abilitato sul softphone.
