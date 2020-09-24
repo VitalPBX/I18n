@@ -1,26 +1,26 @@
 ivr = IVR
 ivr.class_of_service_id = Permessi di Chiamata
-ivr.class_of_service_id.tooltip = Scegli i Permessi di Chiamata per questo IVR. Se si seleziona Contesto "Solo Interni", il chiamante sara' in grado di comporre solo numeri interni.
+ivr.class_of_service_id.tooltip = Scegli i Permessi di Chiamata per questo IVR. Se si seleziona il Contesto "Solo Interni", il chiamante sara' in grado di comporre solo numeri interni.
 ivr.description = Descrizione
-ivr.description.tooltip = Breve descrizione per questo IVR.
+ivr.description.tooltip = Descrizione dell' IVR.
 ivr.disabled = Disabilitato
 ivr.entries = Inserimenti
 ivr.entries.destination = Modulo / Destinazione
 ivr.entries.dest.empty = E' richiesta la destinazione della registrazione IVR.
-ivr.entries.empty = No IVR entries defined
+ivr.entries.empty = Nessuna voce IVR definita
 ivr.entries.enabled = Abilitato
 ivr.entries.mod_dest.empty = E' richiesta la destinazione del modulo di ingresso IVR.
 ivr.entries.option = Tasto
 ivr.entries.option.duplicate = Le cifre dell'entrata IVR devono essere uniche.
-ivr.entries.option.invalid = Le cifre della voce IVR devono contenere uno o pi� numeri.
+ivr.entries.option.invalid = Le cifre della voce IVR devono contenere uno o piu' numeri.
 ivr.entries.option.placeholder = Tasto da Premere
 ivr.entries.option.pound = Cancelletto (#) e' riservato per la terminazione della chiamata.
 ivr.entries.option.star = Asterisco (*) e' riservato per la riproduzione del messaggio di benvenuto.
-ivr.freedial = Direct Dial
+ivr.freedial = Chimata Diretta
 ivr.freedial.tooltip = Abilita le chiamate dirette a qualsiasi numero consentito dai Permessi di Chiamata configurato su questo IVR.
 ivr.general = Generale
 ivr.invalid_add_msg = Benvenuto dopo Riprova
-ivr.invalid_add_msg.tooltip = Dopo aver riprodotto il messaggio Riprova non Valido, il sistema riprodurra' il messaggio di benvenuto IVR principale.
+ivr.invalid_add_msg.tooltip = Dopo aver riprodotto il messaggio "Riprova non Valido", il sistema riprodurra' il messaggio di benvenuto IVR principale.
 ivr.invalid_dest = Destinazione non Valida
 ivr.invalid_msg_id = Messaggio non Valido
 ivr.invalid_msg_id.tooltip = Messaggio da riprodurre quando si raggiunge il numero massimo di tentativi.
@@ -46,15 +46,15 @@ ivr.timeout_tries.tooltip = Numero di volte da provare quando non viene ricevuto
 ivr.welcome_msg_id = Messaggio di Benvenuto
 ivr.welcome_msg_id.tooltip = Messaggio di Benvenuto che verra' ascoltato.
 ivr.instructions_msg_id = Messaggio Istruzioni
-ivr.instructions_msg_id.tooltip = Messaggio da riprodurre dopo il messaggio di benvenuto. Questo messaggio e' utile per evitare di ripetere il messaggio di benvenuto su un evento non valido / scaduto.
+ivr.instructions_msg_id.tooltip = Messaggio da riprodurre dopo il messaggio di benvenuto. Questo messaggio e' utile per evitare di ripetere il messaggio di benvenuto su un    evento non valido / scaduto.
 menu.ivr = IVR
 module.ivr = IVR
 ivr.generate_stats = Genera Statistiche
 ivr.generate_stats.tooltip =
-	Se � impostato su S�, saranno le statistiche salvate per ciascuna opzione contrassegnata. Queste statistiche possono essere consultate nel Modulo
+	Se e' impostato su Si, le statistiche saranno salvate per ciascuna opzione contrassegnata. Queste statistiche possono essere consultate nel Modulo
 	Statisiche IVR.
 ivr.cos.warning =
-	L'azione che stai per eseguire potrebbe creare vulnerabilita' di sicurezza. <b> Non procedere se non sei sicuro di aver compreso la logica dei Permessi di Chiamata per IVR. </ b>
+	L'azione che stai per eseguire potrebbe creare una vulnerabilita' di sicurezza. <b> Non procedere se non si e' sicuri di aver compreso la logica dei Permessi di Chiamata  per IVR. </ b>
 ivr.cos.warning.title = {warning}
 ivr.cos.warning.confirm =  {vitalpbx.accept}
 ivr.cos.warning.cancel = {vitalpbx.cancel}
