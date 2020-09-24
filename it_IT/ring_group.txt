@@ -36,7 +36,8 @@ ring_group.cos = {class_of_service.cos}
 ring_group.cos.tooltip = Permessi di Chiamata da utilizzare per comporre i numeri esterni elencati in questo Gruppo di Squillo.
 ring_group.validation.no_valid_number =
 	Il Numero Esterno <b>{0}</b> contiene caratteri non validi. Sono ammessi numeri,
-        e i seguenti caratteri: *, # e +ring_group.allow_diversions = Consenti deviazioni
+        e i seguenti caratteri: *, # e +
+ring_group.allow_diversions = Consenti deviazioni
 ring_group.allow_diversions.tooltip = 
 	Consente di definire se le deviazioni definite per i diversi membri degli interni verranno applicate o meno.
 ring_group.answered_elsewhere = {queues.answered_elsewhere}
