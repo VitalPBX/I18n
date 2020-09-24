@@ -36,11 +36,12 @@ ring_group.cos = {class_of_service.cos}
 ring_group.cos.tooltip = Permessi di Chiamata da utilizzare per comporre i numeri esterni elencati in questo Gruppo di Squillo.
 ring_group.validation.no_valid_number =
 	Il Numero Esterno <b>{0}</b> contiene caratteri non validi. Sono ammessi numeri,
-        e i seguenti caratteri: *, # e +ring_group.allow_diversions = Allow Diversions
+        e i seguenti caratteri: *, # e +
+ring_group.allow_diversions = Consenti deviazioni
 ring_group.allow_diversions.tooltip = 
-	Allows you to define if the diversions defined for the different extensions members will be applied or not.
+	Consente di definire se le deviazioni definite per i diversi membri degli interni verranno applicate o meno.
 ring_group.answered_elsewhere = {queues.answered_elsewhere}
 ring_group.answered_elsewhere.tooltip = 
-	With this option enabled prevents the other phones record a missed call when the call has been answered on a phone
-	listed on this ring group. This is a very useful setting when the ring strategy is set to "Ring All"
-ring_group.allow_diversions = Allow Diversions
+	Con questa opzione abilitata impedisce agli altri telefoni di registrare una chiamata persa quando la chiamata ha ricevuto risposta su un telefono
+        elencato in questo gruppo suoneria. Questa e' un'impostazione molto utile quando la strategia per gli squilli e' impostata su "Suona tutti"
+ring_group.allow_diversions = Consenti deviazioni
