@@ -17,24 +17,24 @@ branding.youtube_channel = Canale YouTube
 menu.branding = {branding}
 module.branding = {branding}
 branding.app_name = APP Name
-branding.app_name.tooltip = Consente di modificare il nome del tenant
+branding.app_name.tooltip = Consente di modificare il nome del tenant.
 branding.instagram_page = Pagina Instagram
-branding.meet_url = Meet URL
-branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module
-branding.login = Login Design
-branding.login_addons_menu = Add-ons Menu
-branding.login_addons_menu.tooltip = Background color for the add-ons menu button
+branding.meet_url = URL MeetL
+branding.meet_url.tooltip = URL da utilizzare di default per le conferenze generate tramite il modulo videoconferenze.
+branding.login = Design di Accesso
+branding.login_addons_menu = Menu Moduli Aggiuntivi
+branding.login_addons_menu.tooltip = Colore di sfondo per il pulsante del menu dei componenti aggiuntivi.
 branding.login_bg = Login Background
-branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
-branding.login_btn = Submit Button Color
-branding.login_btn.tooltip = Background color for the login button
+branding.login_bg.tooltip = Colore di sfondo per la pagina di accesso. Se lasciato vuoto, verra' utilizzato lo sfondo predefinito.
+branding.login_btn = Colore Pulsante Invio
+branding.login_btn.tooltip = Colore di sfondo per il pulsante di accesso
 branding.login_fc = Font Color
-branding.login_fc.tooltip = Font color to be used in the login form
+branding.login_fc.tooltip = Colore del carattere da utilizzare nel modulo di accesso
 branding.login_frm_bg = Form Background
-branding.login_frm_bg.tooltip = Background color for left panel in the login form
+branding.login_frm_bg.tooltip = Colore di sfondo per il pannello di sinistra nel modulo di accesso
 branding.reset = Reset
 branding.reset.confirm = 
-	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
-	will be lost.
-branding.reset_applied = All the settings have been reset successfully.
-branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
+	Sei sicuro di voler ripristinare le impostazioni di branding? Questo processo e' irreversibile e tutta la configurazione che hai fatto
+        saranno persi.
+branding.reset_applied = Tutte le impostazioni sono state ripristinate con successo.
+branding.warning_note = Queste impostazioni verranno applicate fino a quando una <a href="{0}" target="_blank"> licenza </a> non verra' applicata al componente aggiuntivo di branding o non verra' attivata per uno qualsiasi dei <a href = "{1} "target =" _ blank "> piani disponibili </a>.
