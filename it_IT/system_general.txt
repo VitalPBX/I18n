@@ -43,23 +43,23 @@ system_general.dnd.tooltip =
 system_general.blacklisted = Per la Lista Nera
 system_general.blacklisted.tooltip =
 	Consente di definire un prompt personalizzato che verra' riprodotto per i chiamanti che sono nella lista nera.system_general.featuredigittimeout = Features Digit Timeout
-system_general.featuredigittimeout.placeholder = Value in milliseconds
-system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
-system_general.gui_settings = GUI Settings
-system_general.queues_callback = Queues CallBack
-system_general.search_frequency = Search Frequency
+system_general.featuredigittimeout.placeholder = Valore in millisecondi
+system_general.featuredigittimeout.tooltip = Tempo massimo (ms) tra le cifre per l'attivazione della funzione (il valore predefinito è 1000 ms)
+system_general.gui_settings = Impostazioni GUI
+system_general.queues_callback = Code Richiamate
+system_general.search_frequency = Frequenza di Ricerca
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
-system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
+system_general.search_frequency.tooltip = Definisce la frequenza con cui il servizio di richiamata delle code cerchera' le richiamate pianificate.
+system_general.show_login_panel = Mostra Pannello di Login
+system_general.show_login_panel.tooltip = Se impostato su si, mostra un pannello con i componenti aggiuntivi della sonata quando questi sono installati.
 system_general.transferdigittimeout = Transfer Digit Timout
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
+system_general.transferdigittimeout.tooltip = Numero di secondi di attesa tra le cifre durante il trasferimento di una chiamata (l'impostazione predefinita e' 3 secondi).
 system_general.featuredigittimeout = Features Digit Timeout
-system_general.email_credentials = Email Credentials
+system_general.email_credentials = Credenziali Email
 system_general.email_credentials.tooltip = 
-	Enable this feature to send an email to the newly created extension user with their extension and account information.
-	You can find the template for this email under Admin > System Settings > Email Templates.
-system_general.show_addons_menu = Show Add-ons Menu
+	Abilita questa funzione per inviare un'e-mail all'utente dell'interno appena creato con l'estensione e le informazioni sull'account.
+        Puoi trovare il modello per questa email in Amministrazione> Impostazioni di sistema> Modelli email.
+system_general.show_addons_menu = Mostra menu componenti aggiuntivi
 system_general.show_addons_menu.tooltip = 
-	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
+	Se impostato su si, verrà visualizzato un pulsante di menu nella schermata di accesso per accedere a componenti aggiuntivi esterni come Sonata o VitXi.
