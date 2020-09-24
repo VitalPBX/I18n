@@ -1,25 +1,25 @@
-ha_monitor = HA Monitor
+ha_monitor = Moitoraggio HA
 menu.ha_monitor = {ha_monitor}
 module.ha_monitor = Ha Monitor
 ha_monitor.master = Master
 ha_monitor.standby = Standby
-ha_monitor.unstandby = Start Server
-ha_monitor.started = Started
-ha_monitor.stopped = Stopped
-ha_monitor.hdd = HDD Sync
+ha_monitor.unstandby = Avvia Server
+ha_monitor.started = Avviato
+ha_monitor.stopped = Fermato
+ha_monitor.hdd = Sinc. HDDc
 ha_monitor.database = Database
 ha_monitor.dahdi = DAHDI
 ha_monitor.asterisk = Asterisk
 ha_monitor.vitalpbx = VitalPBX
 ha_monitor.bascul = Bascul
-ha_monitor.confirm_bascul.title = Change the roles of servers in High Availability
-ha_monitor.confirm_bascul =
-    <strong>¡WARNING!</strong>, All calls in progress will be lost and the system will be in an unavailable state for a few seconds.<br>
-    <strong>Are you sure to switch from {0} to {1} ? </strong>
-ha_monitor.success = The Bascul was successfully executed
-ha_monitor.executed = The Bascul is being executed in background
+ha_monitor.confirm_bascul.title = Modifica i ruoli dei server in High Availability
+ha_monitor.confirm_bascul =    
+     <strong> ¡ATTENZIONE! </strong>, tutte le chiamate in corso andranno perse e il sistema sara' non disponibile per alcuni secondi. <br>
+    <strong> Sei sicuro di passare da {0} a {1}? </ Strong>
+ha_monitor.success = Il Bascul e' stato eseguito con successo
+ha_monitor.executed = Il Bascule viene eseguito in background
 ha_monitor.confirm_unstandby.title = Start Confirmation
 ha_monitor.confirm_unstandby =
-    Are you sure that you want to execute the Start now?
-ha_monitor.executed_unstandby = The standby mode was successfully executed
-ha_monitor.off = Server Down
+   Sei sicuro di voler eseguire l' Avvio adesso?
+ha_monitor.executed_unstandby = La modalita' standby e' stata eseguita con successo.
+ha_monitor.off = Server non funzionante.
