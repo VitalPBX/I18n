@@ -1,15 +1,15 @@
-geo_firewall = GEO Firewall
+geo_firewall = Firewall GEO
 geo_firewall.general = {vitalpbx.general}
-geo_firewall.license.max_items = You may only block one country on the free version of this add-on
-geo_firewall.select_all = Select All Countries
-geo_firewall.unselect_all = Unselect All Countries
-menu.geo_firewall = Countries List
+geo_firewall.license.max_items = Nella versione gratuita di questo componente aggiuntivo e' possibile bloccare solo un paese.
+geo_firewall.select_all = Seleziona tutti i Paesi.
+geo_firewall.unselect_all = Deseleziona tutti i Paesi.
+menu.geo_firewall = Lista Paesi
 module.geo_firewall = {geo_firewall}
-geo_firewall.countries_list = Countries List
-geo_firewall.disable = Disable
+geo_firewall.countries_list = Lista Paesi
+geo_firewall.disable = Disabilita
 geo_firewall.disable.confirm = 
-	Are you sure about disabling the GEO firewall restrictions? Performing this action will automatically unblock all the countries,
-	however, your configurations on the GEO firewall map will be preserved, so you can apply them back at a later date.
-geo_firewall.enable = Enable
-geo_firewall.successfully_disabled = The GEO firewall restrictions has been successfully disabled
-geo_firewall.successfully_enabled = The GEO firewall restrictions has been successfully enabled
+	Si e' sicuri di disabilitare le restrizioni del firewall GEO? L'esecuzione di questa azione sblocchera' automaticamente tutti i paesi,
+        tuttavia, le configurazioni sulla mappa del firewall GEO, verranno conservate in modo da poterle applicare nuovamente in un secondo momento.
+geo_firewall.enable = Abilita
+geo_firewall.successfully_disabled = Le restrizioni del firewall GEO sono state disabilitate con successo.
+geo_firewall.successfully_enabled = Le restrizioni del firewall GEO sono state sabilitate con successo.
