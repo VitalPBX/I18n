@@ -53,11 +53,11 @@ voicemail_general.operator_destination = Destinazione Operatore
 voicemail_general.operator_destination.tooltip = Destinazione da eseguire premendo 0 (zero) per raggiungere l'operatore.
 voicemail_general.fromstring = From Name
 voicemail_general.fromstring.placeholder = Asterisk PBX
-voicemail_general.fromstring.tooltip = Name that will appear in emails from your PBX
-voicemail_general.mp3_attachment = MP3 Attachments
-voicemail_general.mp3_attachment.tooltip = If set to yes, voicemail attachment will be sent in mp3 format
+voicemail_general.fromstring.tooltip = Nome che apparira' nelle e-mail del tuo PBX
+voicemail_general.mp3_attachment = Allegati MP3
+voicemail_general.mp3_attachment.tooltip = Se impostato su si', l'allegato alla posta vocale verra' inviato in formato mp3.
 voicemail_general.locale = Locale
 voicemail_general.locale.tooltip = 
-	Set the locale for generation of the date/time strings (make sure the locales are installed in your operating system).
-	If you mix different locales for different users you should avoid words in the email date format specification, e.g.:
-	<b>%A, %d %B %Y, %H:%M:%S</b>
+	Impostazioni locali per la generazione delle stringhe di data / ora (assicurarsi che le impostazioni locali siano installate nel sistema operativo).
+        Se mescoli impostazioni locali diverse per utenti diversi, dovresti evitare le parole nella specifica del formato della data dell'email, ad esempio:
+        <b>% A,% d% B% Y,% H:% M:% S </b>
