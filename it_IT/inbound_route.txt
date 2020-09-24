@@ -48,13 +48,13 @@ inbound_route.cid_lookup_id.tooltip =
 	Consente di selezionare una voce di ricerca CID per cercare il numero del chiamante in entrata in una directory di un CRM o in una
 	directory cloud o altro e impostare il nome CID corretto.
 inbound_route.append = {cid_management.append_to_cid_number}
-inbound_route.append.tooltip = Suffix to be added to the obtained number after retrieving the desired number of digits from the original DID
+inbound_route.append.tooltip = Suffisso da aggiungere al numero ottenuto dopo aver recuperato il numero di cifre desiderato dal DID originale.
 inbound_route.cos = {class_of_service}
-inbound_route.cos.tooltip = Class of Service to use for routing calls of this DID's range
-inbound_route.digits_to_take = Digits to Take
-inbound_route.digits_to_take.tooltip = Number of digits to take from right to left of the provided DID
+inbound_route.cos.tooltip = Classe di Servizio da utilizzare per instradare le chiamate dell'intervallo di questo DID.
+inbound_route.digits_to_take = Cifre da Prendere
+inbound_route.digits_to_take.tooltip = Numero di cifre da prendere da destra a sinistra del DID fornito.
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
-inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID
-inbound_route.range_parameters = Range Parameters
-inbound_route.routing_method.did_range = DID Range
-inbound_route.verify_did = Verify DID
+inbound_route.prepend.tooltip = Prefisso da aggiungere al numero ottenuto dopo aver recuperato il numero di cifre desiderato dal DID originale
+inbound_route.range_parameters = Parametri di intervallo
+inbound_route.routing_method.did_range = Intervallo ID
+inbound_route.verify_did = Verifica DID
