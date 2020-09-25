@@ -10,12 +10,13 @@ task_manager.script = Script
 task_manager.script.tooltip =
 	Ti permette di selezionare uno script da eseguire periodicamente, in base al profilo di cron selezionato.
 	Lo script deve trovarsi a <b>/var/lib/ombutel/scripts</b>.
-task_manager.validations.no_description = Nessuna descrizione � stata definita. Si prega di scrivere una descrizione valida.
+task_manager.validations.no_description = Nessuna descrizione e' stata definita. Si prega di scrivere una descrizione valida.
 task_manager.validations.duplicated_description = Un altro compito sta usando la stessa descrizione. Si prega di verificare.
-task_manager.validations.duplicated_script = Un'altra attivit� e' stata definita con lo stesso script. Si prega di verificare.
-task_manager.validations.no_script = Nessuno script e' stato selezionato per questo Task Manager.task_manager.enabled = Enabled
-task_manager.enabled.tooltip = Allows you to enable/disable this task
-task_manager.silent_mode = Silent Mode
+task_manager.validations.duplicated_script = Un'altra attivita' e'' stata definita con lo stesso script. Si prega di verificare.
+task_manager.validations.no_script = Nessuno script e' stato selezionato per questo Task Manager.
+task_manager.enabled = Abilitato
+task_manager.enabled.tooltip = Ti consente di abilitare / disabilitare questa attivita'.
+task_manager.silent_mode = Modo Silente
 task_manager.silent_mode.tooltip = 
-	If enabled, any output from the selected script will be suppressed, thus avoiding to get emails each time that the cron is run.
-task_manager.enabled = Enabled
+	Se abilitato, qualsiasi output dello script selezionato verra' soppresso, evitando così di ricevere email ogni volta che viene eseguito il cron.
+task_manager.enabled = Abilitato
