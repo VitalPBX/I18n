@@ -86,3 +86,5 @@ repcdr.cid_dnid = Dialed Number
 repcdr.exten = Extension
 repcdr.context = Context
 repcdr.appname = Application
+repcdr.did = DID
+reports.pdf.did = {repcdr.did}

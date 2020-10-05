@@ -38,3 +38,4 @@ cdr_filters.none = None
 menu.cdr_filters = CDR Filters
 module.cdr_filters = CDR Filters
 cdr_filters.no_conditions = No search conditions has been defined
+cdr_filters.conditions.search_by.did = {repcdr.did}

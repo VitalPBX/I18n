@@ -81,3 +81,6 @@ clearlyip.defaultlocation = Dispatchable Location
 clearlyip.defaultlocation.tooltip = Dispatchable location associated to this callback profile.
 clearlyip.cb_cid_number.validation = Caller ID number must be ten digits length
 clearlyip.cb_cid_number.duplicated = The provided caller id number is already in use by another callback profile
+clearlyip.configure_inbound_routes = Generate Inbound Routes
+clearlyip.configure_inbound_routes.tooltip =
+	If set to yes, it will generate the inbound routes for the DIDs associated with this location.

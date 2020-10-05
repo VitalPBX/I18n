@@ -136,13 +136,21 @@ feature_code.spy_random_chn = Spy Random Channels
 feature_code.spy_random_chn.tooltip = Spy on random channels. Feature must be enabled in the Feature Category associated with the extension.
 feature_code.test_services = Test Services
 feature_code.toggle_cfb = Call Forward Busy - Toggle
-feature_code.toggle_cfb.tooltip = Toggle to enable or disable call forwarding when your extension is busy. Calls will be forwarded to the extension defined by default feature code *63. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.toggle_cfb.tooltip =
+	Toggle to enable or disable call forwarding when your extension is busy.  If you want to enable this diversion and provide
+	the call forward number at the same time, you can use the following format <b>{0}*100</b>.
 feature_code.toggle_cfi = Call Forward Immediately - Toggle
-feature_code.toggle_cfi.tooltip = Toggles immediate call forwarding. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.toggle_cfi.tooltip =
+	Toggles immediate call forwarding. If you want to enable the feature and provide the call forward number at the same
+	time, you can use the following format <b>{0}*100</b>.
 feature_code.toggle_cfn = Call Forward On No Answer - Toggle
-feature_code.toggle_cfn.tooltip = Toggle to enable or disable call forwarding when your extension is unable to answer incoming calls. Calls will be forwarded to the extension defined by default feature code *65. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.toggle_cfn.tooltip =
+	Toggle to enable or disable call forwarding when your extension is unable to answer incoming calls. If you want to
+	enable this diversion and provide the call forward number at the same time, you can use the following format <b>{0}*100</b>.
 feature_code.toggle_cfu = Call Forward Unavailable - Toggle
-feature_code.toggle_cfu.tooltip = Toggle to enable or disable call forwarding. Calls will be forwarded to the extension defined by default feature code *61. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.toggle_cfu.tooltip =
+	Toggle to enable or disable call forwarding. If you want to enable this diversion and provide the call forward number
+	at the same time, you can use the following format <b>{0}*100</b>.
 feature_code.voice-mail = Voicemail
 feature_code.recordings_announcements = Recordings & Announcements
 menu.feature_codes = Feature Codes
