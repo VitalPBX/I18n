@@ -55,3 +55,4 @@ empty_file = Вы выбрали пустой файл
 csv.invalid_file = Вы не выбрали CSV файл
 select_country = -- Select Country --
 select_state = -- Select State --
+continue = Continue

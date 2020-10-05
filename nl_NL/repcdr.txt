@@ -87,3 +87,5 @@ reports.pdf.destination = {repcdr.csv.dst}
 reports.pdf.disposition = {repcdr.csv.disposition}
 reports.pdf.recorded = {repcdr.csv.recorded}
 reports.pdf.source = {repcdr.csv.src}
+repcdr.did = DID
+reports.pdf.did = {repcdr.did}

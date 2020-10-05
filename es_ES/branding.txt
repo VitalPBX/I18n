@@ -38,3 +38,10 @@ branding.reset.confirm =
 	Este proceso es irreversible y se perderá toda la configuración que haya realizado.
 branding.reset_applied = Todos los ajustes se han restablecido correctamente..
 branding.warning_note = Esta configuración se aplicará hasta que se aplique una <a href="{0}" target="_blank"> licencia </a> al complemento de marca o se active para cualquiera de las <a href = "{1} "target =" _ blank "> planes disponibles </a>
+branding.addon.app_name.tooltip = 
+	Le permite definir el nombre/título de la aplicación que se mostrará en la pestaña de los navegadores..
+branding.addon.url_prefix.tooltip = 
+	Le permite definir el prefijo que se utilizará para acceder a la aplicación "<b>{0}</b>".
+	Por ejemplo: si establece el prefijo en <b> "{1}" </b>, significa que debe acceder a la aplicación de la siguiente manera <b>http(s)://YOUR_IP/{1}</b>
+branding.addons = Complementos
+branding.url_prefix = Prefijo de URL

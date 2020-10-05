@@ -74,3 +74,4 @@ vpn_server.type.grandstream = Grandstream
 vpn_server.type.tooltip = Permette di definire il tipo di client, a seconda di esso, la configurazione che viene scaricata variera'.
 vpn_server.type.yealink = Yealink
 vpn_server.type.fanvil = Fanvil
+vpn_server.client.invalid_ip = An invalid IP address has been provided for this client

@@ -61,3 +61,9 @@ system_general.email_credentials.tooltip =
 system_general.show_addons_menu = Mostrar Menú de Complementos
 system_general.show_addons_menu.tooltip = 
 	Si se establece en sí, se mostrará un botón de menú en la pantalla de inicio de sesión para acceder a complementos externos como Sonata Suite o VitXi
+system_general.fqdn = Dominio Público
+system_general.fqdn.invalid = El dominio proporcionado no es válido
+system_general.fqdn.tooltip = 
+	Le permite definir el dominio público de la PBX. Esta información se utilizará en las notificaciones por correo electrónico para traducir
+	o reemplazar la variable de dominio público de las plantillas. En lugar de intentar detectar automáticamente el dominio público por parte del sistema.
+	Además, se utilizará para generar los códigos QR de VitXi.

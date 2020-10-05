@@ -113,3 +113,4 @@ menu.fax_settings = Impostatzioni Fax
 menu.general_fax_settings = Impostatzioni Fax
 menu.my_faxes = Miei Fax
 
+fax.previerw_coversheet_note = Note: please make sure that pop-up windows are enabled in your browser

@@ -56,3 +56,4 @@ report = Report
 to_date = End Date
 select_country = -- Select Country --
 select_state = -- Select State --
+continue = Continue

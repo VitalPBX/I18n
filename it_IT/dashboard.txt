@@ -59,3 +59,4 @@ dashboard.hour = Ora
 dashboard.running = In Esecuzione
 dashboard.stopped = Fermato
 dashboard.uptime = Tempo di Funzionamento
+dashboard.asterisk = Asterisk

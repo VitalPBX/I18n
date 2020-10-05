@@ -81,3 +81,6 @@ menu.clearlyip_settings = {clearlyip_settings}
 module.clearlyip_cb_profiles = {menu.clearlyip_cb_profiles}
 module.clearlyip_dids = {menu.clearlyip_dids}
 module.clearlyip_settings = {clearlyip_settings}
+clearlyip.configure_inbound_routes = Generar Rutas Entrantes
+clearlyip.configure_inbound_routes.tooltip = 
+	Si se establece en sí, generará las rutas entrantes para los DID asociados con esta ubicación.

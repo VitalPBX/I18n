@@ -56,3 +56,4 @@ report = Reporte
 to_date = Fecha Final
 select_country = -- Seleccionar País --
 select_state = -- Seleccione Estado --
+continue = Continuar

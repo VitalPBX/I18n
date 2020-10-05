@@ -63,3 +63,9 @@ system_general.email_credentials.tooltip =
 system_general.show_addons_menu = Show Add-ons Menu
 system_general.show_addons_menu.tooltip = 
 	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
+system_general.fqdn = Public Domain
+system_general.fqdn.invalid = The provided domain domain is not valid
+system_general.fqdn.tooltip = 
+	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
+	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
+	Also, it will be used for generating the VitXi QR codes.

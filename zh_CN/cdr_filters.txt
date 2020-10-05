@@ -38,3 +38,4 @@ menu.cdr_filters = CDR 过滤器
 module.cdr_filters = CDR 过滤器
 cdr_filters.conditions.search_by.customer_code = Customer Code
 cdr_filters.no_conditions = No search conditions has been defined
+cdr_filters.conditions.search_by.did = {repcdr.did}

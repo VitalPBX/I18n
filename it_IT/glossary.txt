@@ -56,3 +56,4 @@ to_date = Data Fine
 actions = Azioni
 select_country = -- Seleziona Nazione --
 select_state = -- Seleziona Stato --
+continue = Continue

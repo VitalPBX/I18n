@@ -28,3 +28,4 @@ notifications_templates.return = Ritorno.
 notification_templates.from_name.tooltip = Nome del mittente
 notification_templates.name.tooltip = Nome per identificare questo modello.
 notification_templates.subject.tooltip = Soggetto Email
+notification_templates.from_email.tooltip = Email address to be used as remittent

@@ -38,3 +38,10 @@ branding.reset.confirm =
 	will be lost.
 branding.reset_applied = All the settings have been reset successfully.
 branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
+branding.addon.app_name.tooltip = 
+	It allows you to define the application name/title to be shown in the browsers' tab.
+branding.addon.url_prefix.tooltip = 
+	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
+	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
+branding.addons = Addons
+branding.url_prefix = URL Prefix
