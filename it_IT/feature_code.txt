@@ -6,7 +6,7 @@ feature_code.add_num_blacklist = Blacklist a Number
 feature_code.add_num_blacklist.tooltip = Immettere un numero di telefono, che viene quindi aggiunto alla lista nera per l'estensione. Le chiamate in arrivo non squillano un'estensione se si trovano sulla lista nera dell'estensione. Ai chiamanti della lista nera verra' comunicato che il numero chiamato non e' piu' in servizio. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.add_remove_queue_agent = Add/Remove Queue Agent
 feature_code.add_remove_queue_agent.tooltip = Attiva / Disattiva l'aggiunta di un agente a una coda specifica o rimuovi l'agente dalla coda. E' possibile seguire i prompt o (in modalita' esperto) immettere il codice funzione immediatamente seguito da * (asterisco) e il numero della coda. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
-feature_code.attended_transfer = Attended Transfer
+feature_code.attended_transfer = Trasferimento Operatore
 feature_code.attended_transfer.tooltip = Quando si e' impegnati in una chiamata, trasferire la chiamata corrente all'operatore. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.auth_code = Codice Autorizazionee
 feature_code.auth_code.tooltip = Consente di effettuare una chiamata da qualsiasi telefono utilizzando un codice di autorizzazione associato a un dial plan illimitato. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
@@ -60,7 +60,7 @@ feature_code.general = Generale
 feature_code.hot_desking = Hot Desking
 feature_code.hot_desking.tooltip = Attiva o Dsattiva la funzione Hot Desking. La funzione deve essere abilitata nella categoria di funzione associata all'interno
 eature_code.lock_unlock_phone = Lock/Unlock Phone
-feature_code.lock_unlock_phone.tooltip = Attiva o disattiva l'internote. Non e' possibile effettuare chiamate in uscita da un telefono che e' stato bloccato. Per sbloccare il telefono, ti verra' richiesto di inserire la password delle funzionalit‡ per l'estensione. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
+feature_code.lock_unlock_phone.tooltip = Attiva o disattiva l'internote. Non e' possibile effettuare chiamate in uscita da un telefono che e' stato bloccato. Per sbloccare il telefono, ti verra' richiesto di inserire la password delle funzionalit√† per l'estensione. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.nm_all = Night Mode All
 feature_code.nm_all.tooltip = Attiva / Disattiva tutte le modalita' notturne definite. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.one_touch_rec = One Touch Recording
@@ -69,7 +69,7 @@ feature_code.on_call_features = On Call Features
 feature_code.park_call = Park Call
 feature_code.park_call.tooltip = Quando si e' impegnati in una chiamata, collocare la chiamata corrente nel parcheggio di chiamata. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.pause_unpause_queue_agent = Pause/Unpause Queue Agent
-feature_code.pause_unpause_queue_agent.tooltip = Attiva o Disattiva la pausa, un agente per una coda specifica. E' possibile seguire i prompt o (in modalit‡ esperto) immettere il codice funzione immediatamente seguito da * (asterisco) e il numero della coda. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
+feature_code.pause_unpause_queue_agent.tooltip = Attiva o Disattiva la pausa, un agente per una coda specifica. E' possibile seguire i prompt o (in modalit√† esperto) immettere il codice funzione immediatamente seguito da * (asterisco) e il numero della coda. La funzione deve essere abilitata nella categoria di funzione associata all'estensione.
 feature_code.personal_assistant = Personal Assistant - Toggle
 feature_code.personal_assistant.tooltip = Attiva / Disattiva l'Assistente Personale per l'interno.
 feature_code.phone_book = Rubrica Telefonica
@@ -88,7 +88,7 @@ feature_code.remote_substitution.tooltip = Rende possibile, per il telefono corr
 feature_code.remote_vm = Remote Voicemail
 feature_code.remote_vm.tooltip = 
 	Accesso remoto al sistema di posta vocale per ascoltare la posta vocale per qualsiasi estensione. E' possibile seguire le istruzioni o
-	(in modalit‡ esperto) inserire il codice funzione immediatamente seguito da * (asterisco) e l'interno della casella postale. Caratteristica deve
+	(in modalit√† esperto) inserire il codice funzione immediatamente seguito da * (asterisco) e l'interno della casella postale. Caratteristica deve
 	essere abilitato nella categoria di caratteristica associata all'interno.
 feature_code.remote_wakeup_call = Remote Wakeup Call
 feature_code.remote_wakeup_call.tooltip = Imposta un promemoria o una chiamata di sveglia per un altro interno. Immettere il numero dell'interno per il quale e' previsto il promemoria. Premere 1 per un promemoria singolo o premere 2 per un promemoria giornaliero ricorrente. L'ora dovrebbe essere inserita nel formato 24 ore utilizzando 4 cifre. La funzione deve essere abilitata nella categoria di funzione associata all'interno.
@@ -149,7 +149,7 @@ feature_code.paging_and_intercom.tooltip =
 feature_code.lock_unlock_phone = Blocca/Sblocca Telefono
 feature_code.hot_desking_cc = Hot Desking CC
 feature_code.hot_desking_cc.tooltip = 
-	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
-	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
-	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
-	indicates to the system to login extension 100 using the password 1234.
+	Funziona proprio come la funzione Hot Desking, l'unica differenza e' quando si utilizza questo codice funzione, il chiamante o hot
+        l'utente desking accedera' automaticamente alle code assegnate. Inoltre, e' possibile utilizzare codici brevi per accedere
+        a un'estensione specifica, ad esempio: <b> * 90 # 100 </b> indica al sistema di accedere all'interno 100 e <b> * 90 # 100 # 1234 </b>
+        indica al sistema di accedere all'interno 100 utilizzando la password 1234.
