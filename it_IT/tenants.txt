@@ -1,102 +1,102 @@
 menu.tenants = {module.tenants}
 module.tenants = Tenants
-tenants.allow_recordings = Allow Recordings
-tenants.allow_recordings.tooltip = It allows you to define if this tenant will be able to record or not calls
-tenants.allowed_tenant_trunks = Allowed Tenant Trunks
-tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
-tenants.assign_to_existing_user = Assign to Existing User
-tenants.assign_to_existing_user.tooltip = If checked, instead of create a new user for the tenant, you may assign it a existing one
-tenants.conferences = Conferences
-tenants.conferences.tooltip = It allows you to define the maximum number of conferences for this tenant
+tenants.allow_recordings = Consenti Registrazioni
+tenants.allow_recordings.tooltip = Consente a questo Tenant di registrare o meno le chiamate.
+tenants.allowed_tenant_trunks = Trunk Tenant consentiti
+tenants.allowed_tenant_trunks.tooltip = Consente di definire quali tenant possono essere utilizzati come trunk tenant.
+tenants.assign_to_existing_user = Assegna ad Utente Esistente
+tenants.assign_to_existing_user.tooltip = Se selezionato, invece di creare un nuovo utente e possibile assegnarne uno esistente.
+tenants.conferences = Conferenze
+tenants.conferences.tooltip = Consente di definire il numero massimo di conferenze per questo tenant.
 tenants.confirm_delete = 
-	Are you sure that you want to delete this tenant? <br> This action is irreversible, and all the data
-	related to this tenant will be permanently deleted
-tenants.description = Description
-tenants.description.required = Description {0}
-tenants.description.tooltip = Short Description to identify this tenant.
-tenants.disabled = The access to this tenant has been disabled, please contact to your PBX provider.
-tenants.duplicated_name = The provided name it's already in use
-tenants.duplicated_prefix = The provided prefix is already in use for another Tenant
-tenants.enabled = Enabled
+	Sei sicuro di voler eliminare questo tenant? <br> Questa azione e' irreversibile e tutti i relativi dati
+        verranno eliminati definitivamente.
+tenants.description = Descrizione
+tenants.description.required = Descrizione {0}
+tenants.description.tooltip = Descrizione per identificare questo tenant.
+tenants.disabled = L'accesso a questo tenant e' stato disabilitato, contatta il tuo provider PBX.
+tenants.duplicated_name = Il nome digitato e' gia' in uso.
+tenants.duplicated_prefix = Il prefisso inserito e' gia' in uso per un altro Tenant.
+tenants.enabled = Abilitato
 tenants.enabled.tooltip = 
-	It allows you to enable/disable a tenant. If the tenant is disabled, the users who belongs to it will not be able
-	to login to it nor perform any action
-tenants.extensions = Extensions
-tenants.extensions.tooltip = It allows you to define the maximum number of extensions for this tenant
-tenants.full_name = Full Name
-tenants.full_name.tooltip = Administrator's full name, if not defined, the tenant description will be used instead.
-tenants.general = General
-tenants.ivrs = IVRs
-tenants.ivrs.tooltip = It allows you to define the maximum number of IVRs for this tenant
-tenants.limitations = Limitations
-tenants.name = Name
-tenants.name.required = Name {0}
-tenants.name.tooltip = A unique name for this tenant. This name will be used to create folders, linking cdr info, etc.
-tenants.no_license = You have reached maximum number of free tenants. Activate this add-on with a valid license to create unlimited tenants
-tenants.no_role = You have not selected a valid role for the Administrator of this tenant
-tenants.no_user = The tenant has not been assigned to any user
-tenants.parking_lots = Parking Lots
-tenants.parking_lots.tooltip = It allows you to define the maximum number of parking lots for this tenant
+	Ti consente di abilitare / disabilitare un Tenant. Se il tenant e' disabilitato, gli utenti che ne fanno parte non saranno in grado
+        per accedere ad esso ne' eseguire alcuna azione.
+tenants.extensions = Interni
+tenants.extensions.tooltip = Consente di definire il numero massimo di interni per questo Tenant.
+tenants.full_name = Nome Completo
+tenants.full_name.tooltip = Il nome completo dell'amministratore, se non definito, verra' utilizzata la descrizione del Tenant.
+tenants.general = Generale
+tenants.ivrs = IVR
+tenants.ivrs.tooltip = Consente di definire il numero massimo di IVR per questo tenant.
+tenants.limitations = Limitazioni
+tenants.name = Nome
+tenants.name.required = Nome {0}
+tenants.name.tooltip = Un nome univoco per questo inquilino. Questo nome verra' utilizzato per creare cartelle, collegare le informazioni del CDR, ecc.
+tenants.no_license = Hai raggiunto il numero massimo di Tenant liberi. Attiva questo componente aggiuntivo con una licenza valida per creare Tenant illimitati.
+tenants.no_role = Non e' stato selezionato un ruolo valido per l'Amministratore di questo Tenant.
+tenants.no_user = Il Tenant non e' stato assegnato a nessun utente.
+tenants.parking_lots = Parcheggi
+tenants.parking_lots.tooltip = Consente di definire il numero massimo di Parcheggi per questo Tenant.
 tenants.path = Path
 tenants.path.tooltip = 
-	Path name used on storage folder of this tenant and as asterisk database tree
-tenants.prefix = Prefix
+	Nome del percorso utilizzato nella cartella di archiviazione di questo Tenant e come albero del database Asterisk
+tenants.prefix = Prefisso
 tenants.prefix.placeholder = Generate Automatically
 tenants.prefix.tooltip = 
-	Allows you to define a prefix to be used for extensions devices and others. If left blank an automatic prefix will
-	be used
-tenants.queues = Queues
-tenants.queues.tooltip = It allows you to define the maximum number of queues for this tenant
-tenants.recordings_maintenance = Recordings Maintenance Settings
+	Consente di definire un prefisso da utilizzare per dispositivi di interni e altri. Se lasciato vuoto, verra' visualizzato un prefisso automatico
+        essere usato.
+tenants.queues = Code
+tenants.queues.tooltip = Consente di definire il numero massimo di Dode per questo Tenant.
+tenants.recordings_maintenance = Impostazioni Manutenzione Registrazioni
 tenants.role = {users.role}
 tenants.role.tooltip = 
-	Role profile for the administrator of this tenant. <b>Be careful not to assign a too permissive role, which
-	may affect other tenants.</b>
+	Profilo del ruolo per l'Amministratore di questo Tenant. <b> Fare attenzione a non assegnare un ruolo troppo permissivo, che
+        puo' interessare altri Tenant. </b>
 tenants.startup = {users.startup}
 tenants.startup.tooltip = {users.startup.tooltip}
 tenants.trunks = Trunks
-tenants.trunks.tooltip = It allows you to define the maximum number of trunks for this tenant
-tenants.unlimited = Unlimited
-tenants.user = User
-tenants.user.tooltip = The user who will be in charge to administer and manage this tenant
-tenants.user_name = Admin Email
-tenants.user_name.required = Admin Email {0}
-tenants.user_name.tooltip = The email address of the user who will manage this Tenant.
-tenants.user_password = Admin Password
-tenants.user_password.required = Admin Password {0}
-tenants.user_password.tooltip = Password to authenticate the user who will manage this Tenant.
-tenants.user_settings = Tenant Administrator
-tenants.validation.enter_valid_tenant = Enter a valid tenant name: letters, numbers, dash, underscore are allowed
-tenants.allowed_outbound_routes = Allowed Outbound Routes
+tenants.trunks.tooltip = Consente di definire il numero massimo di trunk per questo tenant.
+tenants.unlimited = Illimitato
+tenants.user = Utente
+tenants.user.tooltip = Utente incaricato di amministrare e gestire questo Tenant
+tenants.user_name = Eamil Admin
+tenants.user_name.required = Email Admin {0}
+tenants.user_name.tooltip = L'indirizzo e-mail dell'utente che gestira' questo Tenant.
+tenants.user_password = Password Admin
+tenants.user_password.required = Password Admin {0}
+tenants.user_password.tooltip = Password per autenticare l'utente che gestira' questo Tenant.
+tenants.user_settings = Amministratore Tenant
+tenants.validation.enter_valid_tenant = Immettere un nome Tenant valido: sono consentiti lettere, numeri, trattini e trattini bassi.
+tenants.allowed_outbound_routes = Rotte in Uscita Consentite
 tenants.allowed_outbound_routes.tooltip = 
-	Routes that will be used when this tenant make calls through a tenant trunk pointing to the main tenant.
-	Calls made to any other tenant than the main tenant will be sent through Inbound Routes definitions
+	Percorsi che verranno utilizzati quando questo Tenant effettua chiamate tramite un Trunk Tenant che punta al Tenant principale.
+        Le chiamate effettuate a qualsiasi altro Tenant diverso dal principale verranno inviate tramite le definizioni dei percorsi in entrata.
 tenants.did_pattern = DID Pattern
 tenants.did_pattern.placeholder = 1NXXNXXXXXX
-tenants.inbound_numbers = Inbound DIDs
+tenants.inbound_numbers = DID in Entrata
 tenants.inbound_numbers.tooltip = 
-	List of numbers/patterns belonging to this tenant. Calls that match with these numbers will be forward automatically
-	to these tenant inbound routes. The configuration of these numbers takes precedence over the inbound routes definitions
-	on the main tenant.
-tenants.outbound_profiles = Outbound Profiles
+	Elenco di numeri / modelli appartenenti a questo Tenant. Le chiamate che corrispondono a questi numeri verranno inoltrate automaticamente
+        a queste route in ingresso tenant. La configurazione di questi numeri ha la precedenza sulle definizioni delle rotte in entrata
+        sul Tenenat principale.
+tenants.outbound_profiles = Profili Uscita
 tenants.outbound_profiles.tooltip = 
-	Allows you to define what route selection items can be used as an outbound profile on this tenant.
-tenants.routing = Calls Routing
-tenants.scom_devices = Softphone Devices
-tenants.scom_devices.tooltip = It allows you to define how many Sonata Communicator Devices could be activated on this tenant
-tenants.emergency_trunks = Emergency Trunks
+	Consente di definire quali elementi di selezione del percorso possono essere utilizzati come profilo in uscita su questo tenant.
+tenants.routing = Instradamento Chiamate
+tenants.scom_devices = Dispositivi Softphone
+tenants.scom_devices.tooltip = Consente di definire quanti dispositivi Sonata Communicator possono essere attivati su questo Tenant.
+tenants.emergency_trunks = Trunk Emergenze
 tenants.emergency_trunks.tooltip = 
-	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
-tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value
-tenants.send_welcome_email = Send Welcome Email
+	Consente di condividere trunk con questo Tenant da utilizzare come trunk di emergenza sul modulo del numero di emergenza
+tenants.name.validation.alphanumeric = Il nome del tenant deve essere un valore alfanumerico valido.
+tenants.send_welcome_email = Invia e-mail di Benvenuto
 tenants.send_welcome_email.tooltip = 
-	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
-	for this email under Admin > System Settings > Email Templates.
-tenants.addons = External Add-ons
+	Se abilitato, verra' inviata un'e-mail con le informazioni sull'account all'Amministratore del Tenant. Puoi trovare il modello
+        per questa e-mail in Amministratore> Impostazioni di sistema> Modelli e-mail.
+tenants.addons = Componenti Aggiuntivi Esterni
 tenants.addons.tooltip = 
-	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
-tenants.settings = Settings
-tenants.timezone = Time Zone
+	Consente di selezionare quali componenti aggiuntivi esterni verranno mostrati a questo tenant nel menu dell'utente.
+tenants.settings = Impostazioni
+tenants.timezone = Fuso Orario
 tenants.timezone.tooltip = 
-	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
-	will be used.
+	Definisce il Fuso Orario predefinito per questo tenant. Se e' selezionata l'opzione "Sistema", quindi, il fuso orario del server
+        sara' usato.
