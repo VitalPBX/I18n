@@ -17,9 +17,9 @@ profiles_iax_description_tooltip = Descrizione per questo profilo.
 profiles_iax_general_section = Generale
 profiles_iax_host = Host
 profiles_iax_host_invalid = Nessun Host specificato.
-profiles_iax_host_tooltip = Hostname or address of device.
+profiles_iax_host_tooltip = Nome host o indirizzo del dispositivo.
 profiles_iax_name = Nome
-profiles_iax_name_duplicate = Duplicate profile name.
+profiles_iax_name_duplicate = Nome profilo duplicato.
 profiles_iax_name_invalid = Nessun nome Profilo specificato.
 profiles_iax_name_tooltip = Nome per questo Profilo.
 profiles_iax_network_section = Rete
@@ -32,138 +32,138 @@ profiles_iax_peertype_user = Utente
 profiles_iax_qualifyfreq = Qualify Frequency
 profiles_iax_qualifyfreq_invalid = La frequenza di qualifica deve essere un numero che inizia da 0.
 profiles_iax_qualifyfreq_tooltip = Definire l'intervallo di qualifica in secondi. Un valore pari a zero disabilitera' questa funzione.
-profiles_iax_qualify = Qualify Timeout
+profiles_iax_qualify = Timeout Qualify
 profiles_iax_qualify_invalid = Qualify deve essere un numero che inizia da 0.
 profiles_iax_qualify_tooltip = Definire il tempo di risposta massimo in millisecondi prima che un dispositivo sia considerato irraggiungibile. Un valore pari a zero disabilitera' questa funzione.
-profiles_iax_requirecalltoken = Call Token
-profiles_iax_requirecalltoken_auto = Automatic
-profiles_iax_requirecalltoken_invalid = Call Token must be one of: Yes, No, Automatic.
+profiles_iax_requirecalltoken = Token Chiamata
+profiles_iax_requirecalltoken_auto = Automatico
+profiles_iax_requirecalltoken_invalid = Il token di chiamata deve essere uno tra: Sì, No, Automatico.
 profiles_iax_requirecalltoken_no = No
-profiles_iax_requirecalltoken_tooltip = Use a requirecalltoken for authentication.
+profiles_iax_requirecalltoken_tooltip = Usare un requirecalltoken per l'autenticazione.
 profiles_iax_requirecalltoken_yes = Si
-profiles_iax_transfer = Trsferimento
-profiles_iax_transfer_invalid = Transfer must be one of: Yes, No, Media Only.
-profiles_iax_transfer_media = Media Only
+profiles_iax_transfer = Trasferimento
+profiles_iax_transfer_invalid = Il Trasferimento deve essere uno tra: Sì, No, Solo Media.
+profiles_iax_transfer_media = Solo Media
 profiles_iax_transfer_no = No
-profiles_iax_transfer_tooltip = Allow transfers from this device.
+profiles_iax_transfer_tooltip = Consenti trasferimenti da questo dispositivo.
 profiles_iax_transfer_yes = Si
 profiles_iax_transfer_ =
 profiles_name = Nome
-profiles_name_duplicate = Duplicate profile name.
-profiles_name_invalid = No profile name specified.
-profiles_name_tooltip = Name for this profile.
-profiles_profile_deleted = The profile has been successfully deleted.
+profiles_name_duplicate = Nome profilo duplicato.
+profiles_name_invalid = Nessun nome profilo specificato.
+profiles_name_tooltip = Nome per questo profilo.
+profiles_profile_deleted = Il profilo è stato cancellato con successo.
 profiles_sip_avpf = AVPF
-profiles_sip_avpf_tooltip = Enables inter-operatibility with media streams using the AVPF RTP profile.
-profiles_sip_callerid = Caller ID
-profiles_sip_callerid_section = Caller ID
+profiles_sip_avpf_tooltip = Abilita l'interoperatibilità con i flussi multimediali utilizzando il profilo RTP AVPF.
+profiles_sip_callerid = ID Chiamante
+profiles_sip_callerid_section = ID Chiamante
 profiles_sip_description = Descrizione
 profiles_sip_description_tooltip = Descrizione per questo profilo.
 profiles_sip_directmedia = Direct RTP
-profiles_sip_directmedia_invalid = Direct RTP must be one of: Yes, No, Yes if no nat, Use UPDATE.
-profiles_sip_directmedia_nonat = Yes, if no nat
+profiles_sip_directmedia_invalid = L'RTP Diretto deve essere uno dei seguenti: Sì, No, Sì senza nat, Usa UPDATE.
+profiles_sip_directmedia_nonat = S', senza nat
 profiles_sip_directmedia_no = No
-profiles_sip_directmedia_tooltip = Enables direct sending of RTP between call participants.
-profiles_sip_directmedia_update = Use UPDATE
+profiles_sip_directmedia_tooltip = Consente l'invio diretto di RTP tra i partecipanti alla chiamata.
+profiles_sip_directmedia_update = Usa UPDATE
 profiles_sip_directmedia_yes = Si
-profiles_sip_encryption = RTP Encryption
-profiles_sip_encryption_tooltip = Enables sRTP voice encryption.
+profiles_sip_encryption = Crittografia RTP
+profiles_sip_encryption_tooltip = Abilita la crittografia della voce sRTP.
 profiles_sip_general_section = Generale
 profiles_sip_host = Host
-profiles_sip_host_invalid = No host specified.
-profiles_sip_host_tooltip = Hostname or address of device.
+profiles_sip_host_invalid = Nessun host specificato.
+profiles_sip_host_tooltip = Nome host o indirizzo del dispositivo.
 profiles_sip_icesupport = ICE
-profiles_sip_icesupport_tooltip = Use ICE protocol for bridging firewalls.
+profiles_sip_icesupport_tooltip = Utilizza il protocollo ICE per collegare i firewall.
 profiles_sip_name = Nome
-profiles_sip_name_duplicate = Duplicate profile name.
-profiles_sip_name_invalid = No profile name specified.
-profiles_sip_name_tooltip = Name for this profile.
+profiles_sip_name_duplicate = Nome profilo duplicato.
+profiles_sip_name_invalid = Nessun nome profilo specificato.
+profiles_sip_name_tooltip = Nome per questo profilo.
 profiles_sip_network_section = Rete
 profiles_sip_peertype = Tipo
 profiles_sip_peertype_friend = Friend
-profiles_sip_peertype_invalid = Invalid value for Network Type
+profiles_sip_peertype_invalid = Valore non valido per il tipo di Rete.
 profiles_sip_peertype_peer = Peer
-profiles_sip_peertype_tooltip = Defines the device type. "User" is a device that places calls, requires authentication. "Peer" is a trunk device, matched by host. "Friend" is a combination of the "User" and "Peer".
+profiles_sip_peertype_tooltip = Definisce il tipo di dispositivo. "Utente" è un dispositivo che effettua chiamate, richiede l'autenticazione. "Peer" è un dispositivo trunk, abbinato dall'host. "Amico" è una combinazione di "Utente" e "Pari".
 profiles_sip_peertype_user = Utente
 profiles_sip_qualifyfreq = Qualify Frequency
-profiles_sip_qualifyfreq_invalid = Qualify frequency must be a number starting from 0.
-profiles_sip_qualifyfreq_tooltip = Define the qualify interval in seconds. A value of zero will disable this feature.
+profiles_sip_qualifyfreq_invalid = La frequenza di qualificazione deve essere un numero che inizia da 0.
+profiles_sip_qualifyfreq_tooltip = Definisci l'intervallo di qualificazione in secondi. Un valore pari a zero disabiliterà questa funzione.
 profiles_sip_qualify = Qualify Timeout
-profiles_sip_qualify_invalid = Qualify must be a number starting from 0.
-profiles_sip_qualify_tooltip = Define the maximum response time in milliseconds before a device is considered unreachable. A value of zero will disable this feature.
-profiles_sip_sendrpid = Send Remote Party ID
-profiles_sip_sendrpid_invalid = Send Remote Party ID must be one of: Yes, No, Use RPID, Use PAI.
+profiles_sip_qualify_invalid = Qualify deve essere un numero che inizia da 0.
+profiles_sip_qualify_tooltip = Definire il tempo di risposta massimo in millisecondi prima che un dispositivo venga considerato irraggiungibile. Un valore pari a zero disabiliterà questa funzione.
+profiles_sip_sendrpid = Invia Remote Party ID
+profiles_sip_sendrpid_invalid = Invia ID parte remota deve essere uno tra: Sì, No, Usa RPID, Usa PAI.
 profiles_sip_sendrpid_no = No
-profiles_sip_sendrpid_pai = Use PAI (Privacy Asserted Identity)
-profiles_sip_sendrpid_rpid = Use RPID (Remote Party ID)
-profiles_sip_sendrpid_tooltip = Add remote party ID header to SIP INVITEs.
+profiles_sip_sendrpid_pai = Usa PAI (Privacy Asserted Identity)
+profiles_sip_sendrpid_rpid = Usa RPID (Remote Party ID)
+profiles_sip_sendrpid_tooltip = Aggiungi l'intestazione dell'ID del party remoto agli INVITI SIP.
 profiles_sip_sendrpid_yes = Si
-profiles_sip_transport = Transport
-profiles_sip_transport_invalid = Transport must be one of: TCP, UDP, TLS, WS and/or WSS.
+profiles_sip_transport = Trasporto
+profiles_sip_transport_invalid = Il Trasporto deve essere uno tra: TCP, UDP, TLS, WS e / o WSS.
 profiles_sip_transport_tcp = TCP
 profiles_sip_transport_tls = TLS
-profiles_sip_transport_tooltip = Communication method to use for this device.
+profiles_sip_transport_tooltip = Metodo di comunicazione da utilizzare per questo dispositivo.
 profiles_sip_transport_udp = UDP
 profiles_sip_transport_wss = WSS
 profiles_sip_transport_ws = WS
 profiles_sip_trustrpid = Trust Remote Party ID
-profiles_sip_trustrpid_tooltip = Assume that the remote party ID header is correct.
-profiles_technology = Profile Type
-profiles_technology_duplicate_name = Profile name must be unique.
+profiles_sip_trustrpid_tooltip = Supponiamo che l'intestazione dell'ID della parte remota sia corretta.
+profiles_technology = Tipo Profilo
+profiles_technology_duplicate_name = Il nome del profilo deve essere univoco.
 profiles_technology_iax = IAX2
-profiles_technology_invalid = Invalid technology type selected.
+profiles_technology_invalid = Tipo di tecnologia selezionato non valido.
 profiles_technology_sip = SIP
-profiles_technology_tooltip = Technology type for this profile.
+profiles_technology_tooltip = Tipo di tecnologia per questo profilo.
 profiles_technology_pjsip = PJSIP
-profiles_pjsip_general_section = General
+profiles_pjsip_general_section = Generale
 profiles_pjsip_name = Nome
 profiles_pjsip_name_tooltip = Nome per questo Profilo.
 profiles_pjsip_description = Descrizione
-profiles_pjsip_description_tooltip = Description for this profile.
-profiles_pjsip_transport = Transport
-profiles_pjsip_transport_tooltip = Desired transport configuration.
+profiles_pjsip_description_tooltip = Descrizione per questo Profile.
+profiles_pjsip_transport = Trasporto
+profiles_pjsip_transport_tooltip = Configurazione di trasporto desiderata.
 profiles_pjsip_dtls_cert_file = DTLS Certfile
-profiles_pjsip_dtls_cert_file_tooltip = Path to certificate file to present to peer
+profiles_pjsip_dtls_cert_file_tooltip = Percorso del file del certificato da presentare al peer
 profiles_pjsip_dtls_private_key = DTLS Private Key
-profiles_pjsip_dtls_private_key_tooltip = Path to private key for certificate file.
+profiles_pjsip_dtls_private_key_tooltip = Percorso della chiave privata per il file del certificato.
 profiles_pjsip_media_encryption = Media Encryption
-profiles_pjsip_media_encryption_tooltip = Determines whether res_pjsip will use and enforce usage of media encryption for this endpoint.
+profiles_pjsip_media_encryption_tooltip = Determina se res_pjsip utilizzerà e imporrà l'utilizzo della crittografia multimediale per questo endpoint.
 profiles_pjsip_dtls_setup = DTLS Setup
 profiles_pjsip_dtls_setup_tooltip =
-	Whether we are willing to accept connections, connect to the other party, or both.
-	Valid options are:  <br>
-	<b>Active</b> (we want to connect to the other party), <br>
-	<b>Passive</b> (we want to accept connections only), <br>
-	<b>Actpass</b> (we will do both). <br>
-	This value will be used in the outgoing SDP when offering and for incoming SDP offers when the remote party sends actpass
-profiles_pjsip_force_rport = Force rport
-profiles_pjsip_force_rport_tooltip = Force use of return port
+	Se siamo disposti ad accettare connessioni, connetterci con l'altra parte o entrambi.
+    Le opzioni valide sono: <br>
+    <b> Attivo </b> (vogliamo connetterci con l'altra parte), <br>
+    <b> Passivo </b> (desideriamo accettare solo connessioni), <br>
+    <b> Actpass </b> (faremo entrambi). <br>
+    Questo valore verrà utilizzato nell'SDP in uscita durante l'offerta e per le offerte SDP in entrata quando la parte remota invia actpass
+profiles_pjsip_force_rport = Forza rport
+profiles_pjsip_force_rport_tooltip = Forza l'uso della porta di ritorno.
 profiles_pjsip_ice_support = ICE Support
 profiles_pjsip_ice_support_tooltip = Enable the ICE mechanism to help traverse NAT
-profiles_pjsip_rtp_symmetric = RTP Symmetric
-profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric
+profiles_pjsip_rtp_symmetric = RTP Simmetrico
+profiles_pjsip_rtp_symmetric_tooltip = Impone RTP simmetrico
 profiles_pjsip_rewrite_contact = Rewrite Contact
-profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port
+profiles_pjsip_rewrite_contact_tooltip = Consenti la riscrittura dell'intestazione del contatto con la porta dell'indirizzo IP di origine.
 profiles_pjsip_direct_media = Direct Media
-profiles_pjsip_direct_media_tooltip = Determines whether media may flow directly between endpoints.
-profiles_pjsip_disable_direct_media_on_nat = Disable NAT Direct Media
-profiles_pjsip_disable_direct_media_on_nat_tooltip = Disable direct media session refreshes when NAT obstructs the media session
+profiles_pjsip_direct_media_tooltip = Determina se i supporti possono fluire direttamente tra gli endpoint.
+profiles_pjsip_disable_direct_media_on_nat = Disabilita NAT Direct Media
+profiles_pjsip_disable_direct_media_on_nat_tooltip = Disabilitare gli aggiornamenti della sessione multimediale diretta quando NAT ostacola la sessione multimediale.
 profiles_pjsip_dtls_verify = DTLS Verify
-profiles_pjsip_dtls_verify_tooltip = Verify that the provided peer certificate is valid
-profiles_pjsip_use_avpf = Use AVPF
-profiles_pjsip_use_avpf_tooltip = Determines whether res_pjsip will use and enforce usage of AVPF for this endpoint.
+profiles_pjsip_dtls_verify_tooltip = Verificare che il certificato peer fornito sia valido.
+profiles_pjsip_use_avpf = Usa AVPF
+profiles_pjsip_use_avpf_tooltip = Determina se res_pjsip utilizzerà e imporrà l'utilizzo di AVPF per questo endpoint.
 profiles_pjsip_rtcp_mux = RTCP Mux
 profiles_pjsip_rtcp_mux_tooltip =
-	With this option enabled, Asterisk will attempt to negotiate the use of the "rtcp-mux" attribute on all media streams.
-	This will result in RTP and RTCP being sent and received on the same port. This shifts the demultiplexing logic to
-	the application rather than the transport layer. This option is useful when interoperating with WebRTC endpoints
-	since they mandate this option's use.
+	Con questa opzione abilitata, Asterisk tenterà di negoziare l'uso dell'attributo "rtcp-mux" su tutti i flussi multimediali.
+    Ciò comporterà l'invio e la ricezione di RTP e RTCP sulla stessa porta. Questo sposta la logica del demultiplex a
+    l'applicazione piuttosto che il livello di trasporto. Questa opzione è utile durante l'interoperabilità con gli endpoint WebRTC
+    poiché impongono l'uso di questa opzione.
 profiles_pjsip_media_use_received_transport = Media Transport Received
-profiles_pjsip_media_use_received_transport_tooltip = Determines whether res_pjsip will use the media transport received in the offer SDP in the corresponding answer SDP.
+profiles_pjsip_media_use_received_transport_tooltip = Determina se res_pjsip utilizzerà il trasporto multimediale ricevuto nell'offerta SDP nella risposta SDP corrispondente.
 profiles_pjsip_media_encryption_optimistic = Media Encryption Optimistic
-profiles_pjsip_media_encryption_optimistic_tooltip = Determines whether encryption should be used if possible but does not terminate the session if not achieved.
+profiles_pjsip_media_encryption_optimistic_tooltip = Determina se la crittografia deve essere utilizzata, se possibile, ma non termina la sessione se non viene raggiunta.
 profiles_pjsip_asymmetric_rtp_codec = Asymmetric RTP Codec
-profiles_pjsip_asymmetric_rtp_codec_tooltip = Allow the sending and receiving RTP codec to differ
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Consenti la differenza tra il codec RTP di invio e quello di ricezione.
 profiles_pjsip_transport_udp = UDP
 profiles_pjsip_transport_tcp = TCP
 profiles_pjsip_transport_tls = TLS
@@ -178,26 +178,26 @@ profiles_pjsip_dtls_setup_actpass = Actpass
 profiles_pjsip_network_section = Rete
 profiles_pjsip_media_section = Media
 profiles_pjsip_dtls_section = DTLS
-profiles_pjsip_name_invalid = No profile name specified.
-profiles_pjsip_none = -- None --
+profiles_pjsip_name_invalid = Nessun nome profilo specificato.
+profiles_pjsip_none = -- Nessuno --
 profiles_pjsip_dtls_cert_id = Certificato DTLS 
-profiles_pjsip_dtls_cert_id_tooltip = Certificate to use with DTLS connections
+profiles_pjsip_dtls_cert_id_tooltip = Certificato da utilizzare con le connessioni DTLS.
 profiles_pjsip_dtls_verify_yes = Si
 profiles_pjsip_dtls_verify_no = No
 profiles_pjsip_dtls_verify_fingerprint = Fingerprint
 profiles_pjsip_dtls_verify_certificate = Certificato
 profiles_pjsip_dtls_fingerprint = DTLS Fingerprint Hash
-profiles_pjsip_dtls_fingerprint_tooltip = The hash to use for the fingerprint in SDP
+profiles_pjsip_dtls_fingerprint_tooltip = L'hash da utilizzare per l'impronta digitale in SDP
 profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
 profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
-profiles_pjsip_dtls_rekey = DTLS Rekey Interval
+profiles_pjsip_dtls_rekey = DTLS Rekey Intervallo
 profiles_pjsip_dtls_rekey_tooltip =
-	Interval at which to renegotiate the TLS session and rekey the SRTP session. If this is not set or the value
-	provided is 0 rekeying will be disabledprofiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+	Intervallo al quale rinegoziare la sessione TLS e rinominare la sessione SRTP. Se questo non è impostato o il valore
+    fornito è 0 la reimpostazione sarà disabilitataprofiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
 profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
 profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
-profiles_sip_dtlsenable = Enable
-profiles_sip_dtlsenable_tooltip = Enable or disable DTLS-SRTP support
+profiles_sip_dtlsenable = Abilita
+profiles_sip_dtlsenable_tooltip = Abilita o disabilita il supporto DTLS-SRTP.
 profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
 profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
 profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
@@ -215,45 +215,44 @@ profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
 profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
 profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
 profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
-profiles_sip_force_avp = Force AVP
+profiles_sip_force_avp = Forza AVP
 profiles_sip_force_avp_tooltip = 
-	Force 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP', and 'RTP/SAVPF' to be used for media streams when appropriate, even if a
-	DTLS stream is present.
+	Forza l'utilizzo di "RTP / AVP", "RTP / AVPF", "RTP / SAVP" e "RTP / SAVPF" per i flussi multimediali quando appropriato, anche se
+    Il flusso DTLS è presente.
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
-profiles_sip_rtcp_mux_tooltip = Enable support for RFC 5761 RTCP multiplexing which is required for WebRTC support
+profiles_sip_rtcp_mux_tooltip = Abilita il supporto per il multiplexing RTCP RFC 5761 richiesto per il supporto WebRTC.
 profiles_pjsip_qualify_frequency = Qualify Frequency
-profiles_pjsip_qualify_frequency_tooltip = Interval between attempts to qualify the contact for reachability. If 0 never qualify. Time in seconds.
-profiles_pjsip_qualify_timeout = Qualify Timeout
-profiles_pjsip_qualify_timeout_tooltip = If the contact doesn't respond to the OPTIONS request before the timeout, the contact is marked unavailable. If 0 no timeout.
-profiles_pjsip_send_diversion = Send Diversion Header
-profiles_pjsip_send_diversion_tooltip = Send the Diversion header, conveying the diversion information to the called user agent
-profiles_pjsip_send_pai = Send P-Asserted-Identity
-profiles_pjsip_send_pai_tooltip = Send the P-Asserted-Identity header
-profiles_pjsip_send_rpid = Send Remote-Party-ID
-profiles_pjsip_send_rpid_tooltip = Send the Remote-Party-ID header
+profiles_pjsip_qualify_frequency_tooltip = Intervallo tra i tentativi di qualificare il contatto per la raggiungibilità. Se 0 non si qualifica mai. Tempo in secondi.
+profiles_pjsip_qualify_timeout = Timeout Qualify
+profiles_pjsip_qualify_timeout_tooltip = Se il contatto non risponde alla richiesta OPTIONS prima del timeout, il contatto viene contrassegnato come non disponibile. Se 0 nessun timeout.
+profiles_pjsip_send_diversion = Invia Diversion Header
+profiles_pjsip_send_diversion_tooltip = Invia l'intestazione della deviazione, trasmettendo le informazioni sulla deviazione al programma utente chiamato.
+profiles_pjsip_send_pai = Invia P-Asserted-Identity
+profiles_pjsip_send_pai_tooltip = Invia il P-Asserted-Identity header.
+profiles_pjsip_send_rpid = Invia Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Invia il Remote-Party-ID header.
 profiles_pjsip_webrtc = WebRTC
 profiles_pjsip_webrtc_tooltip = 
-	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
-	rtcp_mux, use_avpf, ice_support, and use_received_transport.
+	Se impostato su "sì", abilita anche i seguenti valori necessari affinché il supporto WebRTC di base funzioni:
+    rtcp_mux, use_avpf, ice_support e use_received_transport.
 profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
 profiles_pjsip_remove_existing = Remove Existing
 profiles_pjsip_remove_existing_tooltip = 
-	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
-	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
-	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
-	refreshing.
+	Consenti il ​​successo di una registrazione spostando tutti i contatti esistenti che ora superano il conteggio "{hot_desking.max_contacts}". Qualunque
+    i contatti rimossi sono i prossimi a scadere. Il comportamento è vantaggioso quando "{profiles_pjsip_rewrite_contact}" è abilitato e "{hot_desking.max_contacts}"
+    è maggiore di uno. Il contatto rimosso è probabilmente il vecchio contatto creato da "{profiles_pjsip_rewrite_contact}" che il dispositivo è .
 profiles_pjsip_max_audio_streams = Max Audio Streams
 profiles_pjsip_max_audio_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated audio streams allowed for the endpoint.
+	Questa opzione applica un limite al numero massimo di flussi audio negoziati simultanei consentiti per l'endpoint.
 profiles_pjsip_max_video_streams = Max Video Streams
 profiles_pjsip_max_video_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated video streams allowed for the endpoint.
-profiles_pjsip_support_path = Support Path
+	Questa opzione applica un limite al numero massimo di flussi video negoziati simultaneamente consentiti per l'endpoint.
+profiles_pjsip_support_path = Supporto Path
 profiles_pjsip_support_path_tooltip = 
-	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
-	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
-	also be indicated in the Supported header.
+	Quando questa opzione è abilitata, le intestazioni Path nelle richieste di registro verranno salvate e il suo contenuto verrà utilizzato in
+    Intestazioni di instradamento per le richieste in uscita dal dialogo e nelle intestazioni di percorso per le risposte 200 in uscita. Il supporto del percorso lo farà
+    essere indicato anche nell'intestazione Supportato.
 profiles_pjsip_outbound_proxy = Outbound Proxy
-profiles_pjsip_outbound_proxy_tooltip = Full SIP URI of the outbound proxy used to send requests. e.g.: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_outbound_proxy_tooltip = URI SIP completo del proxy in uscita utilizzato per inviare le richieste. ad esempio: <b> sip: 192.168.0.1 \; lr </b>.
 profiles_pjsip_transport_auto = Auto
