@@ -1,10 +1,10 @@
 branding = Branding
 branding.base_color = Colore di Base
 branding.base_color.tooltip = Colore principale utilizzato per le voci di menu attive, le schede dei moduli attivi e il testo selezionato.
-branding.desktop_logo = Log Desktop
+branding.desktop_logo = Logo Desktop
 branding.facebook_page = Pagina Facebook
 branding.general = {vitalpbx.general}
-branding.login_footer = Login Footer
+branding.login_footer = Footer Login 
 branding.login_footer.tooltip = Ti consente di personalizzare il contenuto del pie' di pagina nella schermata di accesso.
 branding.mobile_logo = Logo Mobile
 branding.page_title = Titolo APP
@@ -24,13 +24,13 @@ branding.meet_url.tooltip = URL da utilizzare di default per le conferenze gener
 branding.login = Design di Accesso
 branding.login_addons_menu = Menu Moduli Aggiuntivi
 branding.login_addons_menu.tooltip = Colore di sfondo per il pulsante del menu dei componenti aggiuntivi.
-branding.login_bg = Login Background
+branding.login_bg = Sfondo Login
 branding.login_bg.tooltip = Colore di sfondo per la pagina di accesso. Se lasciato vuoto, verra' utilizzato lo sfondo predefinito.
 branding.login_btn = Colore Pulsante Invio
 branding.login_btn.tooltip = Colore di sfondo per il pulsante di accesso
-branding.login_fc = Font Color
+branding.login_fc = Colore Caratterer
 branding.login_fc.tooltip = Colore del carattere da utilizzare nel modulo di accesso
-branding.login_frm_bg = Form Background
+branding.login_frm_bg = Sfondo Pannello
 branding.login_frm_bg.tooltip = Colore di sfondo per il pannello di sinistra nel modulo di accesso
 branding.reset = Reset
 branding.reset.confirm = 
@@ -39,9 +39,9 @@ branding.reset.confirm =
 branding.reset_applied = Tutte le impostazioni sono state ripristinate con successo.
 branding.warning_note = Queste impostazioni verranno applicate fino a quando una <a href="{0}" target="_blank"> licenza </a> non verra' applicata al componente aggiuntivo di branding o non verra' attivata per uno qualsiasi dei <a href = "{1} "target =" _ blank "> piani disponibili </a>.
 branding.addon.app_name.tooltip = 
-	It allows you to define the application name/title to be shown in the browsers' tab.
+	Consente di definire il nome / titolo dell'applicazione da visualizzare nella scheda del browser.
 branding.addon.url_prefix.tooltip = 
-	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
-	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
+	Consente di definire il prefisso da utilizzare per accedere all'applicazione "<b> {0} </b>". es .: se si imposta il
+        prefisso a <b> "{1}" </b>, significa che devi accedere all'app nel modo seguente <b> http (s): // YOUR_IP / {1} </b>
 branding.addons = Addons
-branding.url_prefix = URL Prefix
+branding.url_prefix = Prefisso URL
