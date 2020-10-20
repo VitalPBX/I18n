@@ -32,7 +32,7 @@ pjsip_settings.external_signaling_address.tooltip = Indirizzo Esterno Segnalazio
 pjsip_settings.nat_settings = Nat Settingspjsip_settings.codecs = Codec
 pjsip_settings.codecs.tooltip = 
 	Imposta i codec da utilizzare per i canali creati per i dispositivi e le linee PJSIP. Questo parametro si applica solo se le linee oi dispositivi
-non ha i propri codec definiti.
+	non ha i propri codec definiti.
 pjsip_settings.contact_expiration_check_interval = Intervallo Controllo Scadenza
 pjsip_settings.contact_expiration_check_interval.tooltip = 
 	L'intervallo (in secondi) per controllare i contatti scaduti.
@@ -42,13 +42,13 @@ pjsip_settings.keep_alive_interval.tooltip =
 pjsip_settings.max_initial_qualify_time = Max Initial Qualify Time
 pjsip_settings.max_initial_qualify_time.tooltip = 
 	La quantità massima di tempo dall'avvio che si qualifica dovrebbe essere tentata su tutti i contatti. Se maggiore di
-Qualifica la frequenza per un AOR, verrà utilizzata invece la frequenza di qualificazione.
+	Qualifica la frequenza per un AOR, verrà utilizzata invece la frequenza di qualificazione.
 pjsip_settings.mwi_disable_initial_unsolicited = Disabilita MWI Iniziale
 pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
 	Quando la notifica MWI iniziale non richiesta è abilitata all'avvio, le notifiche iniziali vengono inviate a
-        avviare. Se hai molti endpoint (migliaia) che utilizzano MWI non richiesto, potresti prendere in considerazione
-        disabilitando le notifiche di avvio iniziale. Quando le notifiche MWI iniziali non richieste sono disabilitate all'avvio
-        quindi le notifiche inizieranno al prossimo aggiornamento del contatto dell'endpoint.
+	avviare. Se hai molti endpoint (migliaia) che utilizzano MWI non richiesto, potresti prendere in considerazione
+	disabilitando le notifiche di avvio iniziale. Quando le notifiche MWI iniziali non richieste sono disabilitate all'avvio
+	quindi le notifiche inizieranno al prossimo aggiornamento del contatto dell'endpoint.
 pjsip_settings.mwi_settings = Impostazioni MWI
 pjsip_settings.mwi_tps_queue_high = Taskprocessor Queue High
 pjsip_settings.mwi_tps_queue_high.tooltip = 

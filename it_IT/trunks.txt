@@ -240,6 +240,6 @@ trunks.t38_udptl_ipv6.tooltip = Indica se IPv6 viene utilizzato per le sessioni 
 trunks.t38_udptl_maxdatagram = MAX Datagram
 trunks.t38_udptl_maxdatagram.tooltip = 
 	T.38 UDPTL dimensione massima del datagramma. Questa opzione può essere impostata per sovrascrivere il datagramma massimo di un endpoint remoto per
-endpoint interrotti.
+	endpoint interrotti.
 trunks.t38_udptl_nat = T.38 UDPTL NAT
 trunks.t38_udptl_nat.tooltip = Se il supporto NAT e' abilitato nelle sessioni UDPTL.
