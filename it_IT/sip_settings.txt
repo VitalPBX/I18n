@@ -1,151 +1,151 @@
 menu.sip_settings = Impostazioni SIP
 module.sip_settings = Impostazioni SIP
 sip_settings.accept_outofcall_message = Allow Msg Request
-sip_settings.accept_outofcall_message.tooltip = Disable this option to reject all MESSAGE requests outside of a call. By default, this option is enabled. When enabled, MESSAGE requests are passed in to the dial-plan.
-sip_settings.allowguest = Allow Guest
-sip_settings.allowguest.tooltip = Whether to allow guest calls.
+sip_settings.accept_outofcall_message.tooltip = Disabilitare questa opzione per rifiutare tutte le richieste di MESSAGGIO al di fuori di una chiamata. Impostazione predefinita: Abilitata. Quando è abilitata, le richieste MESSAGGIO vengono passate al dial plan.
+sip_settings.allowguest = Permetti Ospite
+sip_settings.allowguest.tooltip = Per consentire le chiamate degli ospiti.
 sip_settings.allowtransfer = Consenti Trasferimento
-sip_settings.allowtransfer.tooltip = Disable all transfers (unless enabled in peers or users). Default is enabled. The Dial() options 't' and 'T' are not related as to whether SIP transfers are allowed or not.
+sip_settings.allowtransfer.tooltip = Disabilitare tutti i trasferimenti (a meno che non siano abilitati in peer o utenti). L'impostazione predefinita è Abilitata. Le opzioni Dial () 't' e 'T' non sono correlate al fatto che i trasferimenti SIP siano consentiti o meno.
 sip_settings.alwaysauthreject = Rifiuta Sempre
-sip_settings.alwaysauthreject.tooltip = When an incoming INVITE or REGISTER is to be rejected, for any reason, always reject with an identical response. This reduces the ability of an attacker to scan for valid SIP usernames.
-sip_settings.authfailureevents = Failure Events
-sip_settings.authfailureevents.tooltip = Generate manager peer-status events when peer can't authenticate with Asterisk. Peer-status will be rejected.
+sip_settings.alwaysauthreject.tooltip = Quando un INVITE o un REGISTER in arrivo deve essere rifiutato, per qualsiasi motivo, rifiutarlo sempre con una risposta identica. Ciò riduce la capacità di un utente malintenzionato di cercare nomi utente SIP validi.
+sip_settings.authfailureevents = Failure Eventi
+sip_settings.authfailureevents.tooltip = Genera eventi di stato peer del manager quando il peer non può autenticarsi con Asterisk. Lo stato di pari verrà rifiutato.
 sip_settings.autoframing = Auto Framing
-sip_settings.autoframing.tooltip = Set packetization based on the remote endpoint's (ptime) preferences.
+sip_settings.autoframing.tooltip = Imposta la pacchettizzazione in base alle preferenze (ptime) dell'endpoint remoto.
 sip_settings.available_codecs = Codec Disponibili
-sip_settings.bindaddr = Bind Address
-sip_settings.bindaddr.tooltip = IP address and optional port to bind for this transport (0.0.0.0 binds to all).
-sip_settings.bindport = Bind Port
-sip_settings.codecs = Codecs
-sip_settings.custom = Custom
-sip_settings.custom_options = Custom Options
+sip_settings.bindaddr = Associa Indirizzo
+sip_settings.bindaddr.tooltip = Indirizzo IP e porta opzionale da associare per questo trasporto (0.0.0.0 si collega a tutti).
+sip_settings.bindport = Associa Porta
+sip_settings.codecs = Codec
+sip_settings.custom = Personalizzazione
+sip_settings.custom_options = Opzioni Personalizzazioni
 sip_settings.defaultexpiry = Default Expiry
-sip_settings.defaultexpiry.tooltip = Default length of incoming/outgoing registration.
-sip_settings.dumphistory = Dump History
-sip_settings.dumphistory.tooltip = Dump SIP history at end of SIP dialogue SIP history is output to the DEBUG logging channel.
-sip_settings.dynamic_exclude_static = Disallow Dynamic Hosts
-sip_settings.dynamic_exclude_static.tooltip = Disallow all dynamic hosts from registering as any IP address used for statically defined hosts. This helps avoid the configuration error of allowing your users to register at the same address as a SIP provider.
-sip_settings.externaddr = External Address
-sip_settings.externaddr.tooltip = Specifies a static address[:port] to be used in SIP and SDP messages.
-sip_settings.externhost = External Host
-sip_settings.externhost.tooltip = Alternatively you can specify an external host, and Asterisk will perform DNS queries periodically. Not recommended for production environments, Use %s instead.
-sip_settings.externrefresh = External Refresh
-sip_settings.externrefresh.tooltip = How often to refresh %s if used (value in seconds).
-sip_settings.faxdetect = Fax Detect
-sip_settings.faxdetect.tooltip = Check to enable both CNG and T.38 detection. Default 'no'.
+sip_settings.defaultexpiry.tooltip = Lunghezza predefinita della registrazione in Entrata/Uscita.
+sip_settings.dumphistory = Cronologia Dump
+sip_settings.dumphistory.tooltip = Esegui il dump della cronologia SIP alla fine del dialogo SIP La cronologia SIP viene inviata al canale di registrazione DEBUG.
+sip_settings.dynamic_exclude_static = Negato Host Dinamici
+sip_settings.dynamic_exclude_static.tooltip = Non consentire a tutti gli host dinamici di registrarsi come qualsiasi indirizzo IP utilizzato per host definiti staticamente. Ciò consente di evitare l'errore di configurazione di consentire agli utenti di registrarsi allo stesso indirizzo di un provider SIP.
+sip_settings.externaddr = Indirizzo Esterno
+sip_settings.externaddr.tooltip = Specifica un indirizzo statico [: port] da utilizzare nei messaggi SIP e SDP.
+sip_settings.externhost = Host Esterno
+sip_settings.externhost.tooltip = In alternativa è possibile specificare un host esterno e Asterisk eseguirà periodicamente query DNS. Non consigliato per ambienti di produzione, usa invece% s.
+sip_settings.externrefresh = Refresh Esterno
+sip_settings.externrefresh.tooltip = Frequenza di aggiornamento di %s se utilizzata (valore in secondi).
+sip_settings.faxdetect = Rilevamento Fax
+sip_settings.faxdetect.tooltip = Selezionare per abilitare il rilevamento sia CNG che T.38. Default "no".
 sip_settings.fax_settings = Impostatzioni Fax
 sip_settings.g726nonstandard = G726-32 Audio
-sip_settings.g726nonstandard.tooltip = If the peer negotiates G726-32 audio, use AAL2 packing order instead of RFC3551 packing order (this is required for Sipura and Grandstream ATAs, among others).
+sip_settings.g726nonstandard.tooltip = Se il peer negozia l'audio G726-32, utilizzare l'ordine di imballaggio AAL2 anziché l'ordine di imballaggio RFC3551 (necessario per Sipura e Grandstream ATA, tra gli altri).
 sip_settings.general = Generale
 sip_settings.ip = Indirizzo IP
-sip_settings.ip.invalid = Local Networks must have a valid IP address.
+sip_settings.ip.invalid = Le Reti Locali devono avere un indirizzo IP valido.
 sip_settings.jbenabled = Abilitato
-sip_settings.jbenabled.tooltip = Enabled/Disabled the use of a jitter-buffer on the receiving side of a SIP channel.
-sip_settings.jbforce = Force
-sip_settings.jbforce.tooltip = Forces the use of a jitter-buffer on the receive side of a SIP channel.
-sip_settings.jbimpl = Jitterbuffer implementation
-sip_settings.jbimpl.adaptive = Adaptive
-sip_settings.jbimpl.adaptive.tooltip = With variable size, actually the new jb of IAX2.
+sip_settings.jbenabled.tooltip = Abilitato/Disabilitato l'uso di un jitter-buffer sul lato ricevente di un canale SIP.
+sip_settings.jbforce = Forza
+sip_settings.jbforce.tooltip = Forza l'uso di un jitter-buffer sul lato di ricezione di un canale SIP.
+sip_settings.jbimpl = Implementazione Jitterbuffer
+sip_settings.jbimpl.adaptive = Adattivo
+sip_settings.jbimpl.adaptive.tooltip = Con dimensioni variabili, in realtà il nuovo jb di IAX2.
 sip_settings.jbimpl.fixed = Fixed
-sip_settings.jbimpl.fixed.tooltip = With size always equals to jb-max-size.
-sip_settings.jbimpl.tooltip = Used on the receiving side of a SIP channel. Two implementations are currently available = Adaptive and Fixed.
-sip_settings.jbmaxsize = Max Size
-sip_settings.jbmaxsize.tooltip = Max length of the jitter-buffer in milliseconds.
-sip_settings.jbresyncthreshold = Resynchronized
-sip_settings.jbresyncthreshold.tooltip = Jump in the frame timestamps over which the jitter-buffer is resynchronized.
-sip_settings.jbtargetextra = Target Extra
-sip_settings.jbtargetextra.tooltip = This option only affects the jb when 'jbimpl = adaptive' is set. The option represents the number of milliseconds by which the new jitter buffer will pad its size.
-sip_settings.jitter_buffer = Jitter Buffer
+sip_settings.jbimpl.fixed.tooltip = Con size sempre uguale a jb-max-size.
+sip_settings.jbimpl.tooltip = Utilizzato sul lato ricevente di un canale SIP. Sono attualmente disponibili due implementazioni = Adaptive e Fixed.
+sip_settings.jbmaxsize = Dimensione Max
+sip_settings.jbmaxsize.tooltip = Lunghezza massima del jitter-buffer in millisecondi.
+sip_settings.jbresyncthreshold = Risincronizzato
+sip_settings.jbresyncthreshold.tooltip = Salta i timestamp del frame su cui viene risincronizzato il jitter-buffer.
+sip_settings.jbtargetextra = Extra Target
+sip_settings.jbtargetextra.tooltip = Questa opzione ha effetto solo su jb quando è impostato "jbimpl = adaptive". L'opzione rappresenta il numero di millisecondi di cui il nuovo buffer jitter riempirà le sue dimensioni.
+sip_settings.jitter_buffer = Buffer Jitter
 sip_settings.language = Lingua
-sip_settings.language.tooltip = Default language setting for all users/peers. This may also be set for individual users/peers.
-sip_settings.localNetwork = Local Networks
+sip_settings.language.tooltip = Impostazione della lingua predefinita per tutti gli utenti / peer. Questo può essere impostato anche per singoli utenti / peer.
+sip_settings.localNetwork = Reti Locali
 sip_settings.maxcallbitrate = Max Call BitRate
-sip_settings.maxcallbitrate.tooltip = Maximum bitrate for video calls (default 384 kb/s).
+sip_settings.maxcallbitrate.tooltip = Bitrate massimo per le videochiamate (predefinito 384 kb / s).
 sip_settings.maxexpiry = Max Expiry
-sip_settings.maxexpiry.tooltip = Maximum allowed time of incoming registrations (seconds).
+sip_settings.maxexpiry.tooltip = Tempo massimo consentito per le registrazioni in entrata (secondi).
 sip_settings.minexpiry = Min Expiry
-sip_settings.minexpiry.tooltip = Minimum length of registrations (default 60).
+sip_settings.minexpiry.tooltip = Lunghezza minima delle registrazioni (impostazione predefinita 60).
 sip_settings.mwiexpiry = MWI Expiry
-sip_settings.mwiexpiry.tooltip = Expiry time for outgoing MWI subscriptions.
+sip_settings.mwiexpiry.tooltip = Tempo di scadenza per gli abbonamenti MWI in uscita.
 sip_settings.network = Rete
 sip_settings.tcp_enable = Abilita TCP
 sip_settings.tcp_enable.tooltip = Usa TCP
-sip_settings.tcp_bindaddr = TCP Bind Address
-sip_settings.tcp_bindaddr.tooltip = IP address and optional port to bind for this transport.
+sip_settings.tcp_bindaddr = Indirizzo di Binding TCP
+sip_settings.tcp_bindaddr.tooltip = Indirizzo IP e porta opzionale da associare a questo trasporto.
 sip_settings.addr = Indirizzo
 sip_settings.port = Porta
 sip_settings.tls_enable = Abilita TLS
 sip_settings.tls_enable.tooltip = Usa TLS
 sip_settings.tls_bindaddr = TLS Bind Address
-sip_settings.tls_bindaddr.tooltip = IP address and optional port to bind for this transport.
-sip_settings.tls_dont_verify = TLS Do Not Verify
-sip_settings.tls_dont_verify.tooltip = If set to yes, don't verify the servers certificate when acting as a client.
-sip_settings.tls_certificate_id = TLS Certificate
-sip_settings.tls_certificate_id.tooltip = The server's certificate file.
+sip_settings.tls_bindaddr.tooltip = Indirizzo IP e porta opzionale da associare a questo trasporto.
+sip_settings.tls_dont_verify = TLS non Verificare
+sip_settings.tls_dont_verify.tooltip = Se impostato su sì, non verificare il certificato del server quando si agisce come client.
+sip_settings.tls_certificate_id = Certificato TLS
+sip_settings.tls_certificate_id.tooltip = Il file del certificato del server.
 sip_settings.nat = NAT
-sip_settings.netmask = Network Mask
-sip_settings.netmask.empty = Local Networks require both an IP address and netmask.
-sip_settings.netmask.invalid = Local Networks must have a valid netmask.
-sip_settings.notification_settings = Notification Settings
-sip_settings.notifycid = Notify CID
-sip_settings.notifycid.tooltip = Control whether caller ID information is sent along with dialog-info+xml notifications (supported by snom phones).
-sip_settings.notifyhold = Notify Hold
-sip_settings.notifyhold.tooltip = Notify subscriptions on HOLD state (default: no).
-sip_settings.notifyringing = Notify Ringing
-sip_settings.notifyringing.tooltip = Control whether subscriptions already INUSE get sent RINGING when another call is sent (default: yes).
-sip_settings.others = Others
+sip_settings.netmask = Maschera Rete
+sip_settings.netmask.empty = Le Reti Locali richiedono sia un indirizzo IP che una maschera di rete.
+sip_settings.netmask.invalid = Le Reti Locali devono avere una maschera di rete valida.
+sip_settings.notification_settings = Impostazioni Notifica
+sip_settings.notifycid = Notifica CID
+sip_settings.notifycid.tooltip = Controlla se le informazioni sull'ID chiamante vengono inviate insieme a dialog-info + notifiche xml (supportate dai telefoni snom).
+sip_settings.notifyhold = Notifica in Attesa
+sip_settings.notifyhold.tooltip = Notifica gli abbonamenti nello stato ATTESA (impostazione predefinita: no).
+sip_settings.notifyringing = Notifica Ringing
+sip_settings.notifyringing.tooltip = Controlla se gli abbonamenti già INUSE vengono inviati RINGING quando viene inviata un'altra chiamata (impostazione predefinita: sì).
+sip_settings.others = Altri
 sip_settings.param = Parametri
-sip_settings.preferred_codec_only = Preferred Codec Only
-sip_settings.preferred_codec_only.tooltip = Respond to a SIP invite with the single most preferred codec rather than advertising all joint codec capabilities. This limits the other side's codec choice to exactly what we prefer.
+sip_settings.preferred_codec_only = Solo Codec Preferito
+sip_settings.preferred_codec_only.tooltip = Rispondi a un invito SIP con il singolo codec preferito piuttosto che pubblicizzare tutte le funzionalità di codec congiunte. Questo limita la scelta del codec dell'altra parte esattamente a ciò che preferiamo.
 sip_settings.qualifyfreq = Qualify Frequency
-sip_settings.qualifyfreq.tooltip = How often to check for the host to be up in seconds and reported in milliseconds with sip show settings.
-sip_settings.recordhistory = Record History
-sip_settings.recordhistory.tooltip = Turn On/Off Record SIP history.
-sip_settings.registration_settings = Registration Settings
+sip_settings.qualifyfreq.tooltip = Con quale frequenza controllare che l'host sia attivo in pochi secondi e riportato in millisecondi con le impostazioni di sip show.
+sip_settings.recordhistory = Cronologia Registrazioni
+sip_settings.recordhistory.tooltip = Attiva/Disattiva la registrazione della cronologia SIP.
+sip_settings.registration_settings = Impostazioni Registrazione
 sip_settings.rtpholdtimeout = RTP Hold Timeout
-sip_settings.rtpholdtimeout.tooltip = Terminate call if %d seconds of no RTP or RTCP activity on the audio channel.
-sip_settings.rtptimeout = RTP Timeout
-sip_settings.rtptimeout.tooltip = Terminate call if %d seconds of no RTP or RTCP activity on the audio channel.
-sip_settings.rtp_timers = RTP Timers
+sip_settings.rtpholdtimeout.tooltip = Termina la chiamata se %d secondi di nessuna attività RTP o RTCP sul canale audio.
+sip_settings.rtptimeout = Timeout RTP Timeout
+sip_settings.rtptimeout.tooltip = Termina la chiamata se %d secondi di nessuna attività RTP o RTCP sul canale audio.
+sip_settings.rtp_timers = Timer RTP
 sip_settings.security = Securezza
 sip_settings.selected_codecs = Codec Selezionati
 sip_settings.sipdebug = SIP Debug
-sip_settings.sipdebug.tooltip = Turn On/Off SIP debugging, from the moment the channel loads this configuration.
+sip_settings.sipdebug.tooltip = Attiva / disattiva il debug SIP, dal momento in cui il canale carica questa configurazione.
 sip_settings.sip_debugging = SIP Debugging
 sip_settings.sip_qos = SIP QoS
-sip_settings.srvlookup = SRV Lookups
-sip_settings.srvlookup.tooltip = Enabled/Disabled DNS SRV lookups on outbound calls.
+sip_settings.srvlookup = Ricerche SRV
+sip_settings.srvlookup.tooltip = Ricerche DNS SRV abilitate / disabilitate sulle chiamate in uscita.
 sip_settings.t38pt_udptl = T.38 Fax Pass-Through
-sip_settings.t38pt_udptl.tooltip = Enables T.38 with FEC error correction and overrides the other endpoints provided value to assume we can send 400 byte T.38 FAX packets to it.
+sip_settings.t38pt_udptl.tooltip = Abilita T.38 con correzione degli errori FEC e sovrascrive il valore fornito dagli altri endpoint per presumere di poter inviare pacchetti FAX T.38 da 400 byte ad esso.
 sip_settings.tonezone = Fuso Orario
-sip_settings.tonezone.tooltip = Default tone zone for all users/peers.
+sip_settings.tonezone.tooltip = Zona toni predefinita per tutti gli utenti / peer.
 sip_settings.tos_audio = Audio TOS
-sip_settings.tos_audio.tooltip = Sets the TOS for RTP audio packets.
+sip_settings.tos_audio.tooltip = Imposta il TOS per i pacchetti audio RTP.
 sip_settings.tos_sip = SIP TOS
-sip_settings.tos_sip.tooltip = Sets the TOS for SIP packets.
+sip_settings.tos_sip.tooltip = Imposta il TOS per i pacchetti SIP.
 sip_settings.tos_video = Video TOS
-sip_settings.tos_video.tooltip = Sets the TOS for RTP video packets.
+sip_settings.tos_video.tooltip = Imposta il TOS per i pacchetti video RTP.
 sip_settings.value = Valore
-sip_settings.video_settings = Imppstatzioni Video
+sip_settings.video_settings = Impostazioni Video
 sip_settings.video_support = Supporto Video
-sip_settings.video_support.tooltip = Turn on/off support for SIP video. You need to turn this on in this section to get any video support at all.
-sip_settings.allowexternaldomains = Allow External Domains
-sip_settings.allowexternaldomains.tooltip = Tells Asterisk whether or not to allow SIP-to-SIP calls to non-local domains.
+sip_settings.video_support.tooltip = Attiva/Disattiva il supporto per il video SIP. È necessario attivarlo in questa sezione per ottenere qualsiasi supporto video.
+sip_settings.allowexternaldomains = Consenti Domini Esterni
+sip_settings.allowexternaldomains.tooltip = Indica ad Asterisk se consentire o meno le chiamate SIP-to-SIP a domini non locali.
 sip_settings.autodomain = Auto-Domain
 sip_settings.autodomain.tooltip = 
-	This is an important setting with respect to SIP domains. When it is set to "no", Asterisk will only recognise
-	domains that were explicitly defined or will simply not support SIP domains at all (if there were no explicitly defined domains).
-	If you set it to "yes" please be aware that Asterisk will create a domain based on the external IP address of your
-	firewall as specified in the "externip" parameter. This might represent a compromise on your SIP security.
-	If you don't want a domain to be created based on "externip", then set to "no" and explicitly add domains
-	for your local (internal) IP address and for any other domains you require.
-sip_settings.domain = Domain
-sip_settings.sip_domains = SIP Domains
+	Questa è un'impostazione importante rispetto ai domini SIP. Quando è impostato su "no", Asterisk riconoscerà solo
+    domini che sono stati definiti in modo esplicito o semplicemente non supporteranno affatto i domini SIP (se non c'erano domini definiti in modo esplicito).
+    Se lo imposti su "sì", tieni presente che Asterisk creerà un dominio basato sull'indirizzo IP esterno del tuo
+    firewall come specificato nel parametro "externip". Questo potrebbe rappresentare un compromesso per la tua sicurezza SIP.
+    Se non desideri creare un dominio basato su "externip", imposta "no" e aggiungi esplicitamente i domini
+    per il tuo indirizzo IP locale (interno) e per qualsiasi altro dominio richiesto.
+sip_settings.domain = Dominio
+sip_settings.sip_domains = Dominio SIP
 sip_settings.sip_domains.info = 
-	When used, they provide enhanced security because registrations will only be accepted when they come from an IP phone
-	(or other SIP client) that is using one of the recognised domains. When Asterisk knows the identity of all its local
-	SIP domains, this allows a higher level of security in the routing of SIP-to-SIP calls too
-sip_settings.websocket_enabled = Websocket Enabled
+	Quando vengono utilizzati, forniscono una maggiore sicurezza perché le registrazioni saranno accettate solo quando provengono da un telefono IP
+    (o altro client SIP) che utilizza uno dei domini riconosciuti. Quando Asterisk conosce l'identità di tutti i suoi locali
+    Domini SIP, questo consente un maggiore livello di sicurezza anche nell'instradamento delle chiamate SIP-to-SIP
+sip_settings.websocket_enabled = Websocket Abilitato
 sip_settings.websocket_enabled.tooltip = 
-	Set to "No" to prevent SIP channels from listening to websockets. This needed when using SIP and PJSIP websockets on
-	the same system.
+	Impostare su "No" per impedire ai canali SIP di ascoltare i websocket. Ciò è necessario quando si utilizzano websocket SIP e PJSIP su
+    lo stesso sistema.
