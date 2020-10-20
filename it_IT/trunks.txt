@@ -3,83 +3,83 @@ module.trunks = Trunks
 trunks = Trunks
 trunks.advanced = Avanzato
 trunks.class_of_service_id = Permessi Chiamata
-trunks.class_of_service_id.tooltip = Class of services for trunk dial plan access.
+trunks.class_of_service_id.tooltip = Classe di servizi per l'accesso al dial plan di linea.
 trunks.codecs = Codec Permessi
 trunks.codecs.tooltip = Elenco di codec consentiti. L'ordine in cui sono elencati i codec determina il loro ordine di preferenza. Se selezioni almeno un codec, verra' generato anche il parametro "disallow = all".
 trunks.custom_settings = Impostazioni Personalizzate
 trunks.dahdi_trunk_parameters = DAHDi Trunk Parameters
 trunks.description = Descrizione
 trunks.description.tooltip = Descrizione per identificare questo Trunk
-trunks.device_for_incoming_calls = Device for Incoming Calls (User)
-trunks.device_for_outgoing_calls = Device for Outgoing Calls (Peer)
+trunks.device_for_incoming_calls = Dispositivo per chiamate in arrivo (Utente).
+trunks.device_for_outgoing_calls = Dispositivo per chiamate in uscita (Peer).
 trunks.dialoptions = Opzioni Chiamata
-trunks.dialoptions.tooltip = Dial Options Parameters
+trunks.dialoptions.tooltip = Parametri delle opzioni di composizione.
 trunks.dialstring = Dialstring
 trunks.disable = Disabilita Trunk
-trunks.disable.tooltip = This allows you to disable this trunk to be inaccessible.
+trunks.disable.tooltip = Consente di disabilitare questo trunk in modo che sia inaccessibile.
 trunks.general = Generale
-trunks.group_id = Channel Group
-trunks.group_id.tooltip = The channel group used by this trunk.
+trunks.group_id = Gruppo Canali
+trunks.group_id.tooltip = Il gruppo di canali utilizzato da questo trunk.
 trunks.group_mode = Modalita'
-trunks.group_mode.tooltip = Selection mode for available channels.
-trunks.incoming_defaultuser = Remote Username
-trunks.incoming_defaultuser.tooltip = Authentication username for remote server
+trunks.group_mode.tooltip = Modalita' di selezione per i canali disponibili.
+trunks.incoming_defaultuser = Username Remoto
+trunks.incoming_defaultuser.tooltip = Nome utente di autenticazione per server remoto.
 trunks.incoming_host = Host
-trunks.incoming_host.tooltip = Address of calling SIP server
-trunks.incoming_qualify = Qualify
-trunks.incoming_qualify.tooltip = Makes sure that is alive
+trunks.incoming_host.tooltip = Indirizzo del server SIP chiamante.
+trunks.incoming_qualify = Qualifica
+trunks.incoming_qualify.tooltip = Si assicura che sia raggiungibile.
 trunks.incoming_remotesecret = Remote Secret
-trunks.incoming_remotesecret.tooltip = Authentication secret for remote server
+trunks.incoming_remotesecret.tooltip = Segreto di autenticazione per server remoto
 trunks.incoming_secret = Local Secret
-trunks.incoming_secret.tooltip = Secret to be used for authentication requests from remote server.
+trunks.incoming_secret.tooltip = Segreto da utilizzare per le richieste di autenticazione dal server remoto.
 trunks.incoming_trunk = IAX Trunking
-trunks.incoming_trunk.tooltip = Allows sending voice of several calls in one IAX packet. It can significantly reduce the required network bandwidth.
+trunks.incoming_trunk.tooltip = Consente l'invio della voce di piu' chiamate in un pacchetto IAX. Puo' ridurre in modo significativo la larghezza di banda di rete richiesta.
 trunks.incoming_type = Autenticazione IP
-trunks.incoming_type.tooltip = If checked, allows the incoming requests authentication by IP address in addition to the username authentication.
+trunks.incoming_type.tooltip = Se selezionato, consente l'autenticazione delle richieste in entrata tramite indirizzo IP oltre all'autenticazione del nome utente.
 trunks.incoming_username = Username
-trunks.incoming_username.duplicate = Incoming Username already exist (must be unique)
-trunks.incoming_username.tooltip = Username the remote server should use to contact this PBX. It is also the device name that will be created.
+trunks.incoming_username.duplicate = Il nome utente in arrivo esiste gia' (deve essere univoco)
+trunks.incoming_username.tooltip = Nome utente che il server remoto deve utilizzare per contattare questo PBX. E' anche il nome del dispositivo che verra' creato.
 trunks.insecure = Insecure
 trunks.insecure.invite = Invite
-trunks.insecure.invite.tooltip = Do not require authentication of incoming INVITES'
+trunks.insecure.invite.tooltip = Non richiedere l'autenticazione degli INVITE in arrivo.
 trunks.insecure.not_used = Non Usato
 trunks.insecure.port = Porta
-trunks.insecure.port.tooltip = Allow matching of peer by IP address without matching port number
+trunks.insecure.port.tooltip = Consenti la corrispondenza del peer tramite l'indirizzo IP senza corrispondere al numero di porta.
 trunks.insecure.port_invite = Port, Invite
-trunks.insecure.port_invite.tooltip = The combination is the minimum security since no checking or port check or authentication to the INVITE message type.
-trunks.insecure.tooltip = Allows relaxing authentication of incoming SIP requests.
+trunks.insecure.port_invite.tooltip = La combinazione e' la sicurezza minima poiché nessun controllo o controllo della porta o autenticazione al tipo di messaggio INVITE.
+trunks.insecure.tooltip = Consente l'autenticazione rilassata delle richieste SIP in arrivo.
 trunks.music_group_id = Musica di Attesa
-trunks.music_group_id.tooltip = This option specifies which music on hold class to suggest to the peer channel when this channel places the peer on hold.
+trunks.music_group_id.tooltip = Questa opzione specifica quale Musica di Attesa suggerire al canale peer quando questo canale mette il peer in attesa.
 trunks.outgoing_defaultuser = Remote Username
-trunks.outgoing_defaultuser.tooltip = Authentication username for remote server
+trunks.outgoing_defaultuser.tooltip = Nome utente di autenticazione per server remoto.
 trunks.outgoing_fromdomain = Dal Dominio
-trunks.outgoing_fromdomain.tooltip = Replaces the domain part in the "From" header field. Sometimes required for proper authentication on remote server. Otherwise, the local IP address is used.
+trunks.outgoing_fromdomain.tooltip = Sostituisce la parte del dominio nel campo dell'intestazione "Da". A volte richiesto per una corretta autenticazione sul server remoto. In caso contrario, viene utilizzato l'indirizzo IP locale.
 trunks.outgoing_fromuser = Dall'Utente
-trunks.outgoing_fromuser.tooltip = Replaces the SIP user name in the "From" header field. Sometimes required for proper authentication on remote server.
+trunks.outgoing_fromuser.tooltip = Sostituisce il nome utente SIP nel campo dell'intestazione "Da". A volte richiesto per una corretta autenticazione sul server remoto.
 trunks.outgoing_host = Host
-trunks.outgoing_host.duplicate = Outgoing Host is required
-trunks.outgoing_host.tooltip = Remote server address
+trunks.outgoing_host.duplicate = E' richiesto l'host in uscita.
+trunks.outgoing_host.tooltip = Indirizzo del server remoto
 trunks.outgoing_port = Porta
-trunks.outgoing_port.tooltip = The port number we want to connect to on the remote side
+trunks.outgoing_port.tooltip = Il numero di porta a cui vogliamo connetterci lato remoto.
 trunks.outgoing_qualify = Qualify
-trunks.outgoing_qualify.tooltip = Makes sure that is alive
+trunks.outgoing_qualify.tooltip = Si assicura che sia raggiungibile.
 trunks.outgoing_remotesecret = Remote Secret
-trunks.outgoing_remotesecret.tooltip = Authentication secret for remote server
+trunks.outgoing_remotesecret.tooltip = Segreto di autenticazione per server remoto.
 trunks.outgoing_secret = Local Secret
-trunks.outgoing_secret.tooltip = Secret to be used for authentication requests from remote server.
+trunks.outgoing_secret.tooltip = Segreto da utilizzare per le richieste di autenticazione dal server remoto.
 trunks.outgoing_trunk = IAX Trunking
-trunks.outgoing_trunk.tooltip = Allows sending voice of several calls in one IAX packet. It can significantly reduce the required network bandwidth.
-trunks.outgoing_type = Allow Inbound Calls
-trunks.outgoing_type.tooltip = If checked,  this device will be allowed also to accept calls.
+trunks.outgoing_trunk.tooltip = Consente l'invio della voce di piu' chiamate in un pacchetto IAX. Puo' ridurre in modo significativo la larghezza di banda di rete richiesta.
+trunks.outgoing_type = Consenti Chiamate in Entrata
+trunks.outgoing_type.tooltip = Se selezionato, questo dispositivo potra' anche accettare le chiamate.
 trunks.outgoing_username = Outgoing Username
-trunks.outgoing_username.duplicate = Outgoing Username already exist (must be unique)
-trunks.outgoing_username.tooltip = Username the remote server should use to contact this PBX. It is also the device name that will be created.
-trunks.overwrite_cid = Overwrite CID
-trunks.overwrite_cid.tooltip = Overwrite Caller ID.
-trunks.register_flag = Use Default
-trunks.register_flag.tooltip = Use default Register String
+trunks.outgoing_username.duplicate = Il nome utente in uscita esiste gia' (deve essere univoco).
+trunks.outgoing_username.tooltip = Nome utente che il server remoto deve utilizzare per contattare questo PBX. E' anche il nome del dispositivo che verra' creato.
+trunks.overwrite_cid = Sovrascrivi CID
+trunks.overwrite_cid.tooltip = Sovrascrivi ID chiamante.
+trunks.register_flag = Usa Predefinita
+trunks.register_flag.tooltip = Usa stringa di registro predefinita.
 trunks.register_string = Register String
-trunks.restricted = Trunk Default
+trunks.restricted = Trunk Predefinito
 trunks.ringtimer = Ring Time
 trunks.ringtimer.tooltip = Time to ring the trunk
 trunks.technology = Tecnologia
@@ -95,119 +95,119 @@ trunks.trkcustom.type.peer = Peer
 trunks.trkcustom.type.user = User
 trunks.trkcustom.value = Value
 trunks.trunk_cid = Trunk CID
-trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
+trunks.trunk_cid_number.invalid = Il CID del trunk non e' valido. Sono consentiti solo *, #, + e numeri.
 trunks.trunk_cid.tooltip = Caller ID for this trunk.
 trunks.trunk_cid_name = Trunk CID Name
 trunks.trunk_cid_number = Trunk CID Number
-trunks.cos.warning = The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for trunks.</b>
+trunks.cos.warning = L'azione che si sta per eseguire potrebbe creare una vulnerabilita' di sicurezza. <b> Non procedere a meno che tu non si e' sicuri di aver compreso la logica della Classe di servizio per i trunk. </b>
 trunks.cos.warning.title = Attenzione
-trunks.cos.warning.confirm = I understand and confirm
+trunks.cos.warning.confirm = Capito e confermo
 trunks.cos.warning.cancel = Cancella i miei cambiamenti.
-trunks.dial_profile_id = Dial Profile
-trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
-trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
+trunks.dial_profile_id = Profilo di Composizone
+trunks.dial_profile_id.tooltip = Profilo con le opzioni di composizione da utilizzare quando viene composto questo trunk.
+trunks.outgoing_username.invalid = Inserire un nome di dispositivo valido. Sono consentiti valori alfanumerici con trattino, trattino basso e segno piu'.
 trunks.nat = Nat
 trunks.continue_on_busy = Continua su Occupato
 trunks.continue_on_busy.tooltip =
-	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
-	also continue to the next trunk if any error happens, even if this checkbox is not checked.
-trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
-trunks.validation.duplicated_description = The provided description is being used by another trunk
-trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
-trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
-trunks.validation.no_outgoing_username = The outgoing username has not been provided
-trunks.validation.no_outgoing_host = The outgoing host has not been provided
+	Forza la continuazione della chiamata al successivo trunk configurato quando questo trunk e' occupato. <br> <br> <b> Nota: </b> la chiamata lo fara'
+    continua anche al trunk successivo se si verifica un errore, anche se questa casella di controllo non e' selezionata.
+trunks.validation.duplicated_outgoing_username = Il nome utente in uscita fornito viene utilizzato da un altro trunk.
+trunks.validation.duplicated_description = La descrizione fornita e' utilizzata da un altro trunk.
+trunks.validation.same_username = Il nome utente per le chiamate in uscita e in arrivo sono gli stessi. Per favore, usare un nome utente diverso per entrambi i campi.
+trunks.validation.duplicated_incoming_username = Il nome utente fornito nella sezione delle chiamate in arrivo viene utilizzato da un altro trunk.
+trunks.validation.no_outgoing_username = Il nome utente in uscita non e' stato fornito.
+trunks.validation.no_outgoing_host = L'host in uscita non e' stato fornito.
 trunks.simultaneous_calls = Chiamate Simultanee
-trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.
-trunks.plain_mode = Switch to Text Mode
-trunks.visual_mode = Switch to Visual Mode
-trunks.outgoing_settings = Peer Parameters
-trunks.outgoing_settings.tooltip = Peer parameters supplied by your VoIP provider
-trunks.incoming_settings = User Parameters
-trunks.incoming_settings.tooltip = User parameters supplied by your VoIP provider
-trunks.no_outgoing_settings = There are not outgoing settings defined on this trunk
-trunks.rules = Dial Manipulation Rules
-trunks.rules.prepend = Prepend
+trunks.simultaneous_calls.tooltip = Consente di definire la quantita' di chiamate in uscita simultanee consentite per questo trunk.
+trunks.plain_mode = Passa alla Modalita' Testo.
+trunks.visual_mode = Passa alla Modalita' Visuale.
+trunks.outgoing_settings = Parametri Peer
+trunks.outgoing_settings.tooltip = Parametri peer forniti dal provider VoIP.
+trunks.incoming_settings = Parametri Utente
+trunks.incoming_settings.tooltip = Parametri Utente forniti dal provider VoIP.
+trunks.no_outgoing_settings = Non ci sono impostazioni in uscita definite su questo trunk.
+trunks.rules = Regole di manipolazione delle Regole.
+trunks.rules.prepend = Anteporre
 trunks.rules.prefix = Prefisso
 trunks.rules.pattern = Pattern
 trunks.rules.enabled = {trunks.trkcustom.enabled}
-trunks.get_did_from = Get DID From
+trunks.get_did_from = Ottieni DID da
 trunks.get_did_from.to = A
-trunks.get_did_from.tooltip = It allows you to define from which SIP header will be extracted the DID number
-trunks.get_cid_from = Get CID From
-trunks.get_cid_from.tooltip = It allows you to define from which SIP header will be extracted the caller ID info
+trunks.get_did_from.tooltip = Consente di definire da quale intestazione SIP verra' estratto il numero DID.
+trunks.get_cid_from = Ottieni CID da
+trunks.get_cid_from.tooltip = Consente di definire da quale intestazione SIP verranno estratte le informazioni sull'ID chiamante
 trunks.get_cid_from.from = Da
-trunks.get_cid_from.contact = Contacttrunks.auth_rejection_permanent = Permanent Auth Rejection
+trunks.get_cid_from.contact = Contact
+Trunks.auth_rejection_permanent = Permanent Auth Rejection
 trunks.auth_rejection_permanent.tooltip = 
-	If this option is enabled and an authentication challenge fails, registration will not be attempted again until
-	the configuration is reloaded
+	Se questa opzione e' abilitata e una verifica dell'autenticazione non riesce, la registrazione non verra' tentata di nuovo fino a quando
+    la configurazione viene ricaricata.
 trunks.custom_dial_string = Dial String %s
 trunks.custom_dial_string.tooltip = 
-	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
-	e.g: OH323/$[EXTEN]@10.0.1.200:10060
+	Stringa di composizione personalizzata da utilizzare durante la composizione di questo trunk. Utilizzare la variabile $ [EXTEN] ovunque debba andare il numero da comporre.
+    ad esempio: OH323 / $ [EXTEN] @ 10.0.1.200: 10060
 trunks.expiration = Expiration
-trunks.expiration.tooltip = Expiration time for registrations in seconds
+trunks.expiration.tooltip = Tempo di scadenza per le registrazioni, in secondi.
 trunks.forbidden_retry_interval = Forbidden Retry Interval
 trunks.forbidden_retry_interval.tooltip = 
-	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
-	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
-trunks.general_conf = General Configurations
+	Definisce il tempo di attesa prima di tentare nuovamente la registrazione, dopo aver ricevuto una risposta 403 Forbidden.
+    Se viene specificato 0, non verra' effettuato alcun nuovo tentativo dopo aver ricevuto una risposta 403 Forbidden
+trunks.general_conf = Configurazioni Generali
 trunks.match = Match
 trunks.match.tooltip = 
-	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
-	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
-	with a slash ('/').
-trunks.max_reached = You have reached the maximum number of trunks allowed
+	Il valore e' un elenco delimitato da virgole di indirizzi IP o nomi host. Agli indirizzi IP puo' essere aggiunta una subnet mask.
+    La subnet mask puo' essere scritta in CIDR o in notazione decimale puntata. Separare l'indirizzo IP e la subnet mask con una barra ("/").
+trunks.max_reached = Hai raggiunto il numero massimo di trunk consentiti
 trunks.max_retries = Max Retries
-trunks.max_retries.tooltip = Maximum number of registration attempts
-trunks.outbound_registration = Require Registration
-trunks.outbound_registration.tooltip = It defines, if is required to register against the remote server or VoIP provider
-trunks.outbound_registration_settings = Outbound Registration Settings
+trunks.max_retries.tooltip = Numero massimo di tentativi di registrazione.
+trunks.outbound_registration = Richiede Registrazione
+trunks.outbound_registration.tooltip = Definisce se è necessario registrarsi sul server remoto o sul provider VoIP.
+trunks.outbound_registration_settings = Impostazioni di Registrazione in Uscita
 trunks.retry_interval = Retry Interval
-trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
+trunks.retry_interval.tooltip = Intervallo in secondi tra i tentativi se la registrazione in uscita non riesce.
 trunks.tenant_trunk = Tenant
-trunks.tenant_trunk.tooltip = It allows you to define to which tenant will be routed the calls made through this trunk.
+trunks.tenant_trunk.tooltip = Consente di definire a quale tenant verranno instradate le chiamate effettuate tramite questo trunk.
 trunks.transport = {profiles_pjsip_transport}
-trunks.transport.tooltip = Explicit transport configuration to use
-trunks.validation.no_dial_string = You have not provided a valid dial string
-trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
-trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
-trunks.auth_rejection_permanent = Permanent Auth Rejection
+trunks.transport.tooltip = Configurazione di trasporto esplicita da utilizzare.
+trunks.validation.no_dial_string = Non hai fornito una stringa di composizione valida.
+trunks.validation.no_tenant = Non hai selezionato un tenant valido per questo trunk.
+trunks.validation.pjsip.no_remote_credentials = La registrazione in uscita e' stata contrassegnata come richiesta, ma il nome utente remoto o il segreto remoto non e' stato definito.
+trunks.auth_rejection_permanent = Rifiuto permanente dell'autenticazione
 trunks.custom_headers = Custom Headers
 trunks.trkcustom.header = Header
 trunks.client_uri = Client URI
 trunks.client_uri.tooltip = 
-	This is the address-of-record for the outbound registration (i.e. the URI in the To header of the REGISTER).
-	For registration with an ITSP, the client SIP URI may need to consist of an account name or number and the provider's
-	hostname for their registrar, e.g. <b>1234567890@example.com</b>. This may differ between providers.<br><br>
-	For registration to generic registrars, the client SIP URI will depend on networking specifics and configuration
-	of the registrar.
-trunks.contacts = Contacts
+	Questo e' l'indirizzo di registrazione per la registrazione in uscita (ovvero l'URI nell'intestazione A del REGISTRO).
+    Per la registrazione con un ITSP, l'URI SIP del client potrebbe dover essere costituito da un nome o un numero di account e da quello del provider
+    nome host per il loro registrar, ad es. <b> 1234567890@example.com </b>. Questo può differire tra i fornitori. <br> <br>
+    Per la registrazione a registrar generici, l'URI SIP del client dipendera' dalle specifiche e dalla configurazione della rete
+    del registrar.
+trunks.contacts = Contatti
 trunks.contacts.tooltip = 
-	Permanent contacts assigned to an AoR. You can define multiple contact addresses in SIP URI format. <br>
-	e.g.: sip:198.51.100.1:5060
+	Contatti permanenti assegnati a un AoR. E' possibile definire più indirizzi di contatto in formato URI SIP. <br>
+    ad esempio: sip: 198.51.100.1: 5060
 trunks.dtmfmode = {hot_desking.dtmfmode}
 trunks.profile_id = {hot_desking.profile_id}
 trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
 trunks.server_uri = Server URI
 trunks.server_uri.tooltip = 
-	This is the URI at which to find the registrar to send the outbound REGISTER. This URI is used as the request URI
-	of the outbound REGISTER request from Asterisk. <br><br>For registration with an ITSP, the setting may often be just the
-	domain of the registrar, e.g. <b>sip:sip.example.com</b>.
+	Questo e' l'URI in cui trovare il registrar per inviare il REGISTRO in uscita. Questo URI viene utilizzato come URI della richiesta
+    della richiesta di REGISTRO in uscita da Asterisk. <br> <br> Per la registrazione con un ITSP, spesso l'impostazione puo' essere solo
+    dominio del registrar, ad es. <b> sip: sip.example.com </b>.
 trunks.validation.pjsip.no_contacts = 
-	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
-trunks.validation.pjsip.no_outgoing_host = The registration parameter is enabled but the remote host parameter hasn't been provided
+	Nessun contatto e nessun host e' stato definito. Quando i contatti non sono definiti, e' necessario fornire un host remoto per creare l'URI di contatto predefinito.
+trunks.validation.pjsip.no_outgoing_host = Il parametro di registrazione e' abilitato ma il parametro host remoto non e' stato fornito.
 trunks.contact_user = Contact User
 trunks.contact_user.tooltip = 
-	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
-	the far end calls you at this registration.
+	Imposta la parte utente dell'intestazione del contatto SIP dell'URI SIP, questo influenzera' l'interno raggiunto nel dialplan quando
+    il capo lontano ti chiama a questa registrazione.
 trunks.none = -- None --
 trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
 trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
 trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
 trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
 trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
-trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
+trunks.overwrite_cid.yes.tooltip = Forza la sovrascrittura del CID con i parametri CID definiti su questo trunk.
 trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
 trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
 trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
@@ -215,31 +215,31 @@ trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
 trunks.fax_detect = Fax Detect
-trunks.fax_detect.tooltip = Whether CNG tone detection is enabled
+trunks.fax_detect.tooltip = Se il rilevamento del tono CNG e' abilitato
 trunks.fax_detect_timeout = Detection Timeout
 trunks.fax_detect_timeout.tooltip = 
-	The option determines how many seconds into a call before the fax_detect option is disabled for the call. Setting
-	the value to zero disables the timeout.
-trunks.fax_settings = Fax Settings
+	L'opzione determina quanti secondi in una chiamata prima che l'opzione fax_detect sia disabilitata per la chiamata. Impostare
+    il valore a zero per disabilitare il timeout.
+trunks.fax_settings = Impostazioni Fax
 trunks.max_contacts.tooltip = 
-	Maximum number of contacts that can associate with this AoR. This value does not affect the number of contacts that
-	can be added with the "contact" option. It only limits contacts added through external interaction, such as registration.
+	Numero massimo di contatti che possono essere associati a questo AoR. Questo valore non influisce sul numero di contatti che
+    puo' essere aggiunto con l'opzione "contatto". Limita solo i contatti aggiunti tramite interazione esterna, come la registrazione.
 trunks.t38_udptl = T.38 UDPTL
 trunks.t38_udptl.tooltip = 
-	If set to yes T.38 UDPTL support will be enabled, and T.38 negotiation requests will be accepted and relayed.
+	Se impostato su si', il supporto UDPTL T.38 verra' abilitato e le richieste di negoziazione T.38 verranno accettate e inoltrate.
 trunks.t38_udptl_ec = Error Connection Method
 trunks.t38_udptl_ec.fec = FEC
-trunks.t38_udptl_ec.fec.info = Forward error correction should be used.
+trunks.t38_udptl_ec.fec.info = Deve essere utilizzata la correzione degli errori.
 trunks.t38_udptl_ec.none = {none}
 trunks.t38_udptl_ec.none.info = No error correction should be used.
 trunks.t38_udptl_ec.redundancy = Redundancy
-trunks.t38_udptl_ec.redundancy.info = Redundancy error correction should be used.
-trunks.t38_udptl_ec.tooltip = T.38 UDPTL error correction method
+trunks.t38_udptl_ec.redundancy.info = Utilizzare la correzione degli errori di ridondanza.
+trunks.t38_udptl_ec.tooltip = Metodo di correzione degli errori T.38 UDPTL
 trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
-trunks.t38_udptl_ipv6.tooltip = Whether IPv6 is used for UDPTL Sessions
+trunks.t38_udptl_ipv6.tooltip = Indica se IPv6 viene utilizzato per le sessioni UDPTL.
 trunks.t38_udptl_maxdatagram = MAX Datagram
 trunks.t38_udptl_maxdatagram.tooltip = 
-	T.38 UDPTL maximum datagram size. This option can be set to override the maximum datagram of a remote endpoint for
-	broken endpoints.
+	T.38 UDPTL dimensione massima del datagramma. Questa opzione può essere impostata per sovrascrivere il datagramma massimo di un endpoint remoto per
+endpoint interrotti.
 trunks.t38_udptl_nat = T.38 UDPTL NAT
-trunks.t38_udptl_nat.tooltip = Whether NAT support is enabled on UDPTL sessions
+trunks.t38_udptl_nat.tooltip = Se il supporto NAT e' abilitato nelle sessioni UDPTL.
