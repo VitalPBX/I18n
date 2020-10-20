@@ -1,75 +1,75 @@
-menu.pjsip_settings = PJSIP Settings
-module.pjsip_settings = PJSIP Settings
-pjsip_settings.general = General
+menu.pjsip_settings = Impostatzioni PJSIP
+module.pjsip_settings = Impostatzioni PJSIP
+pjsip_settings.general = Generale
 pjsip_settings.debug = Debug
-pjsip_settings.debug.tooltip = Enable/Disable SIP debug logging.
+pjsip_settings.debug.tooltip = Abilita/disabilita la registrazione del debug SIP.
 pjsip_settings.timer_t1 = Timer T1
-pjsip_settings.timer_t1.tooltip = Timer T1 is the base for determining how long to wait before retransmitting requests that receive no response when using an unreliable transport (e.g. UDP).
+pjsip_settings.timer_t1.tooltip = Il timer T1 è la base per determinare quanto tempo attendere prima di ritrasmettere le richieste che non ricevono risposta quando si utilizza un trasporto inaffidabile (ad esempio UDP).
 pjsip_settings.timer_b = Timer B
-pjsip_settings.timer_b.tooltip = Timer B determines the maximum amount of time to wait after sending an INVITE request before terminating the transaction.
-pjsip_settings.disable_tcp_switch = Disable TCP Switch
-pjsip_settings.disable_tcp_switch.tooltip = Disable automatic switching from UDP to TCP transports if outgoing request is too large.
+pjsip_settings.timer_b.tooltip = Il timer B determina il tempo massimo da attendere dopo aver inviato una richiesta INVITE prima di terminare la transazione.
+pjsip_settings.disable_tcp_switch = Disabilita TCP Switch
+pjsip_settings.disable_tcp_switch.tooltip = Disabilitare il passaggio automatico dai trasporti UDP a TCP se la richiesta in uscita è troppo grande.
 pjsip_settings.bind = Bind
-pjsip_settings.bindaddr = Address
-pjsip_settings.bindport = Port
-pjsip_settings.bind.tooltip = IP Address and optional port to bind to for this transport.
+pjsip_settings.bindaddr = Indirizzo
+pjsip_settings.bindport = Porta
+pjsip_settings.bind.tooltip = Indirizzo IP e porta opzionale a cui collegarsi per questo trasporto.
 pjsip_settings.tlsbind = TLS Bind
-pjsip_settings.tlsbind.tooltip = IP Address and optional port over TLS protocol to bind to for this transport.
-pjsip_settings.certificate = Certificate
-pjsip_settings.certificate.tooltip = Certificate to use for TLS Connections
-pjsip_settings.verify_client = Verify Client
-pjsip_settings.verify_client.tooltip = Require verification of client certificate (TLS ONLY)
+pjsip_settings.tlsbind.tooltip = Indirizzo IP e porta opzionale sul protocollo TLS a cui collegarsi per questo trasporto.
+pjsip_settings.certificate = Certificato
+pjsip_settings.certificate.tooltip = Certificato da utilizzare per le connessioni TLS.
+pjsip_settings.verify_client = Verifica Client
+pjsip_settings.verify_client.tooltip = Richiedi la verifica del certificato client (SOLO TLS).
 pjsip_settings.ssl_method = SSL Method
-pjsip_settings.ssl_method.tooltip = Method of SSL transport (TLS ONLY)
-pjsip_settings.verify_server = Verify Server
-pjsip_settings.verify_server.tooltip = Require verification of server certificate (TLS ONLY)
-pjsip_settings.local_net = Local Net
-pjsip_settings.local_net.tooltip = Network to consider local (used for NAT purposes).
-pjsip_settings.external_media_address = External Media Address
-pjsip_settings.external_media_address.tooltip = External IP address to use in RTP handling.
-pjsip_settings.external_signaling_address = External Signal Address
-pjsip_settings.external_signaling_address.tooltip = External address for SIP signaling.
-pjsip_settings.nat_settings = Nat Settingspjsip_settings.codecs = Codecs
+pjsip_settings.ssl_method.tooltip = Metodo di trasporto SSL (SOLO TLS).
+pjsip_settings.verify_server = Verifica Server
+pjsip_settings.verify_server.tooltip = Richiedere la verifica del certificato del server (SOLO TLS)
+pjsip_settings.local_net = Rete Locale
+pjsip_settings.local_net.tooltip = Rete da considerare locale (utilizzata per scopi NAT).
+pjsip_settings.external_media_address = Indirizzo Supporto Esterno
+pjsip_settings.external_media_address.tooltip = Indirizzo IP esterno da utilizzare nella gestione RTP.
+pjsip_settings.external_signaling_address = Indirizzo Segnale Esterno
+pjsip_settings.external_signaling_address.tooltip = Indirizzo Esterno Segnalazione SIP.
+pjsip_settings.nat_settings = Nat Settingspjsip_settings.codecs = Codec
 pjsip_settings.codecs.tooltip = 
-	Sets which codecs to use for channels created for PJSIP Devices and Trunks. This parameter only applies if the trunks or the devices
-	doesn't have its own codecs defined.
-pjsip_settings.contact_expiration_check_interval = Expiration Check Interval
+	Imposta i codec da utilizzare per i canali creati per i dispositivi e le linee PJSIP. Questo parametro si applica solo se le linee oi dispositivi
+non ha i propri codec definiti.
+pjsip_settings.contact_expiration_check_interval = Intervallo Controllo Scadenza
 pjsip_settings.contact_expiration_check_interval.tooltip = 
-	The interval (in seconds) to check for expired contacts.
-pjsip_settings.keep_alive_interval = Keep Alive Interval
+	L'intervallo (in secondi) per controllare i contatti scaduti.
+pjsip_settings.keep_alive_interval = Intervallo Keep Alive
 pjsip_settings.keep_alive_interval.tooltip = 
-	The interval (in seconds) to send keepalives to active connection-oriented transports.
+	L'intervallo (in secondi) per inviare keepalive a trasporti attivi orientati alla connessione.
 pjsip_settings.max_initial_qualify_time = Max Initial Qualify Time
 pjsip_settings.max_initial_qualify_time.tooltip = 
-	The maximum amount of time from startup that qualifies should be attempted on all contacts. If greater than the
-	Qualify Frequency for an AOR, Qualify Frequency will be used instead.
-pjsip_settings.mwi_disable_initial_unsolicited = Disable Initial MWI
+	La quantità massima di tempo dall'avvio che si qualifica dovrebbe essere tentata su tutti i contatti. Se maggiore di
+Qualifica la frequenza per un AOR, verrà utilizzata invece la frequenza di qualificazione.
+pjsip_settings.mwi_disable_initial_unsolicited = Disabilita MWI Iniziale
 pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
-	When the initial unsolicited MWI notification are enabled on startup then the initial notifications get sent at
-	startup. If you have a lot of endpoints (thousands) that use unsolicited MWI then you may want to consider
-	disabling the initial startup notifications. When the initial unsolicited MWI notifications are disabled on startup
-	then the notifications will start on the endpoint's next contact update.
-pjsip_settings.mwi_settings = MWI Settings
+	Quando la notifica MWI iniziale non richiesta è abilitata all'avvio, le notifiche iniziali vengono inviate a
+        avviare. Se hai molti endpoint (migliaia) che utilizzano MWI non richiesto, potresti prendere in considerazione
+        disabilitando le notifiche di avvio iniziale. Quando le notifiche MWI iniziali non richieste sono disabilitate all'avvio
+        quindi le notifiche inizieranno al prossimo aggiornamento del contatto dell'endpoint.
+pjsip_settings.mwi_settings = Impostazioni MWI
 pjsip_settings.mwi_tps_queue_high = Taskprocessor Queue High
 pjsip_settings.mwi_tps_queue_high.tooltip = 
-	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
-	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
-	clears when all alerting taskprocessor queues have dropped to their low water clear level.
+	Su un sistema molto carico potrebbe essere necessario regolare i limiti della coda del taskprocessor. Se la dimensione della coda del processore delle attività
+        raggiunge il suo livello d'acqua alto, quindi pjsip interromperà l'elaborazione delle nuove richieste fino a quando l'avviso non viene cancellato. L'allerta
+        si cancella quando tutte le code del taskprocessor di avviso sono scese al livello di cancellazione dell'acqua bassa.
 pjsip_settings.mwi_tps_queue_low = Taskprocessor Queue Low
 pjsip_settings.mwi_tps_queue_low.tooltip = 
-	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
-	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
-	clears when all alerting taskprocessor queues have dropped to their low water clear level. Set to -1 for the low
-	water level to be 90% of the high water level.
+	Su un sistema molto carico potrebbe essere necessario regolare i limiti della coda del taskprocessor. Se la dimensione della coda del processore delle attività
+        raggiunge il suo livello d'acqua alto, quindi pjsip interromperà l'elaborazione delle nuove richieste fino a quando l'avviso non viene cancellato. L'allerta
+        si cancella quando tutte le code del taskprocessor di avviso sono scese al livello di cancellazione dell'acqua bassa. Impostare a -1 per il minimo
+        il livello dell'acqua deve essere il 90% del livello dell'acqua alto.
 pjsip_settings.tonezone = {sip_settings.tonezone}
-pjsip_settings.tonezone.tooltip = Sets which country's indications to use for channels created for PJSIP Devices and Trunks.
-pjsip_settings.unidentified_request_count = Unidentified Request Count
-pjsip_settings.unidentified_request_count.tooltip = The number of unidentified requests from a single IP to allow.
-pjsip_settings.unidentified_request_period = Unidentified Request Period
+pjsip_settings.tonezone.tooltip = Imposta le indicazioni del paese da utilizzare per i canali creati per dispositivi e trunk PJSIP.
+pjsip_settings.unidentified_request_count = Conteggio Richieste non Identificate
+pjsip_settings.unidentified_request_count.tooltip = Il numero di richieste non identificate da consentire da un singolo IP.
+pjsip_settings.unidentified_request_period = Periodo di Richiesta non Identificato
 pjsip_settings.unidentified_request_period.tooltip = 
-	The number of seconds over which to accumulate unidentified requests. If unidentified requests are received during
-	unidentified request period, a security event will be generated.
-pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
+	Il numero di secondi in cui accumulare richieste non identificate. Se vengono ricevute richieste non identificate durante
+        periodo di richiesta non identificato, verrà generato un evento di sicurezza.
+pjsip_settings.unidentified_request_prune_interval = Intervallo di Sfoltimento Richiesta non Identificato
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
-		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
-pjsip_settings.codecs = Codecs
+		L'intervallo in cui le richieste non identificate sono più vecchie del doppio del periodo di richiesta non identificato vengono eliminate.
+pjsip_settings.codecs = Codec
