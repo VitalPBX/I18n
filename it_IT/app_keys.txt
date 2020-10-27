@@ -1,7 +1,7 @@
 app_keys = Chiavi Applicatione
 app_keys.description = Descrizione
 app_keys.description.tooltip = Una breve descrizione della tua applicazione.
-app_keys.enabled = Abiliata
+app_keys.enabled = Abilita
 app_keys.enabled.tooltip = Definisce se questa chiave APP e' abilitata o meno.
 app_keys.general = {vitalpbx.general}
 app_keys.key = Chiave
@@ -10,7 +10,7 @@ menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
 app_keys.tenant = Tenant
 app_keys.tenant.tooltip = 
-	Consente di definire quale tenant sara' associato a questa chiave API, quindi, quando verra' ustata questa chiave, verranno
+	Consente di definire quale tenant sara' associato a questa chiave API, quindi, quando verra' usata questa chiave, verranno
         recuperati solo i dati relativi al tenant assegnato. Tuttavia, se impostato su nessuno, l'utente finale deve fornire l'ID tenant o
         percorso su ogni richiesta.
 app_keys.all = -- Qualsiasi Tenant --
