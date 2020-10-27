@@ -5,8 +5,8 @@ app.recordings = Registrazioni
 app.activate.existent_account = Hai gia' un Account!
 app.activate.register = Registrare
 app.activate.info =
-	Devi attivare l'installazione per effettuare aggiornamenti dalla GUI.
-	Per attivare l'installazione e' necessario creare un account o accedere al proprio account esistente.
+	Attivare l'installazione per effettuare aggiornamenti dalla GUI.
+	Per attivare l'installazione e' necessario creare un account o accedere con il proprio account esistente.
 app.activate.register.email = Il tuo indirizzo di posta elettronica. Dopo la registrazione, e' possibile utilizzare questa e-mail per attivare qualsiasi altra installazione.
 app.activate.register.password = La tua password. Dopo la registrazione, e' possibile utilizzare questa password per attivare qualsiasi altra installazione.
 app.activate.register.phone = Il tuo numero di telefono per qualsiasi chiamata commerciale. Opzionale.
@@ -16,7 +16,7 @@ app.activate.login = Login
 app.register.successfully = Hai registrato e attivato correttamente la tua installazione.
 app.installation_activated = Hai attivato correttamente la tua installazione.
 app.activation.no_first_name = Si prega di inserire il proprio nome.
-app.activation.no_last_name = Si prega di fornire il proprio cognome.
+app.activation.no_last_name = Si prega di inserire il proprio cognome.
 app.activation.no_valid_email = Inserire un indirizzo email valido.
 app.activation.no_password = Inserire password
 app.activation.no_response = C'e' qualcosa che non va, non c'e' risposta dal server di attivazione.
@@ -51,7 +51,7 @@ app.with_plan = {0} {1}
 menu.call_center_reports = Rapporti Call Center
 app.call_cannot_be_sent = Non e' stato possibile inviare la chiamata.
 app.call_sent = La chiamata e' stata inviata.
-app.insufficient_data = Impossibile eseguire l'azione richiesta per dati insufficienti.
+app.insufficient_data = Dati insufficienti, impossibile eseguire l'azione richiesta.
 app.plan.community-plus = Community Plus
 app.invalid_data = Non sono stati forniti dati sufficienti per eseguire l'azione richiesta.
 app.reports.generated_by = Generato Da: {0}
