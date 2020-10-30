@@ -17,11 +17,11 @@ cid_lookup.port = Porta
 cid_lookup.port.tooltip = Definisce la porta per effettuare la richiesta. Di default 80 per richiesta HTTP e 443 per richiesta HTTPS.
 cid_lookup.user = Utente Auth
 cid_lookup.user.tooltip = Definisce l'utente per autenticare la richiesta HTTP / HTTPS.
-cid_lookup.password = Auth Password
+cid_lookup.password = Password Auth 
 cid_lookup.password.tooltip = Definisce la porta per effettuare la richiesta. Di default e' 80 per richiesta HTTP e 443 per richiesta HTTPS.
 cid_lookup.path = Percorso
 cid_lookup.path.tooltip = Definisce il nome del file di script da eseguire su richiesta. Esempio: <b>cid_lookup.php</b>.
-cid_lookup.arguments = Query String
+cid_lookup.arguments = Stringa Query
 cid_lookup.arguments.tooltip =
 	Definisce gli argomenti necessari per eseguire lo script.
 	Il valore dell'argomento speciale <b>[CIDNUM]</b> sara' sostituito dal numero cid del chiamante.
@@ -35,14 +35,14 @@ cid_lookup.validation.no_valid_port = E' stato fornito un numero di porta non va
 cid_lookup.validation.no_sid = Il SID non e' stato fornito.
 cid_lookup.validation.no_token = Il Token non e' stato fornito.
 cid_lookup.database = Database {0}
-cid_lookup.database.tooltip = MySQL Database
-cid_lookup.mysql_host.tooltip = MySQL Host
+cid_lookup.database.tooltip = Database MySQL
+cid_lookup.mysql_host.tooltip = Host MySQL
 cid_lookup.mysql_password = Password
 cid_lookup.mysql_password.tooltip = Password da utilizzare per l'autenticazione MySQL.
 cid_lookup.query = Query {0}
 cid_lookup.query.tooltip = 
-	Query to execute. The special token <b>[CIDNUM]</b> will be replaced with the callers number. e.g.:
-	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+	Query da eseguire. Il token speciale <b> [CIDNUM] </b> verra' sostituito con il numero del chiamante. per esempio.:
+        <b> SELEZIONA `name` FROM` customers` WHERE `number` = '[CIDNUM]' </b>
 cid_lookup.source.option.mysql = MySQL
 cid_lookup.username = Username {0}
 cid_lookup.username.tooltip = Nome utente da utilizzare per l'autenticazione MySQL.
@@ -52,6 +52,6 @@ cid_lookup.validation.no_query = Nessuna query e' stata fornita.
 cid_lookup.phonebook = Rubrica {0}
 cid_lookup.phonebook.tooltip = Rubrica da utilizzare come fonte di ricerca CID. Qui sono elencate solo le rubriche telefoniche esterne.
 cid_lookup.source.option.phonebook = Rubrica
-cid_lookup.validation.no_phonebook = No e' stat selezionata nessuna Rubrica.
+cid_lookup.validation.no_phonebook = No e' stata selezionata nessuna Rubrica.
 cid_lookup.timeout = Timeout
 cid_lookup.timeout.tooltip = Tempo massimo in secondi che si consente alla fase di connessione al server. Valore predefinito: 5 secondi.
