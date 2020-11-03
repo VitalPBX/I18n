@@ -3,14 +3,14 @@ module.bulk_extensions = {menu.bulk_extensions}
 bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.range = Intervallo Interni
 bulk_extensions.range.tooltip =
-	Definire l'intervallo degli interni che si desidera creare , es.: da 1000 a 1400.
+	Definire l'intervallo degli interni che si desiderano creare , es.: da 1000 a 1400.
 	<b>Se uno qualsiasi degli interni esiste gia' nell'intervallo verra' escluso</b>.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
 bulk_extensions.dev_technology = Tecnologia Dispositivi
-bulk_extensions.dev_technology.tooltip  = Definisce la tecnologia del dispositivo che verra' assegnato a ciascun interno
+bulk_extensions.dev_technology.tooltip  = Definisce la tecnologia del dispositivo che verra' assegnato a ciascun interno.
 bulk_extensions.vm_enabled = Abilitare Voicemail
-bulk_extensions.recording_types = registrazione Chiamate
+bulk_extensions.recording_types = Registrazione Chiamate
 bulk_extensions.recording_types.tooltip = Consente di selezionare il tipo di chiamate da registrare
 bulk_extensions.vm_password.tooltip =
 	Consente di definire la password della segreteria per ciascun interno, se lasciato vuoto, la password sara' il numero
@@ -21,17 +21,17 @@ bulk_extensions.accountcode.tooltip =
 bulk_extensions.features_password.tooltip =
 	Consente di definire la password delle funzionalita' per ogni interno, se lasciato vuoto, verra' generata una password casuale.
 	E' possibile utilizzare la parola riservata <b>&#123;EXTENSION&#125;</b> per utilizzare l'interno come password delle funzionalita'.
-bulk_extensions.validation.invalid_range = E' stato fornito un intervallo di interno non valido
+bulk_extensions.validation.invalid_range = E' stato inserito un intervallo di interno non valido.
 bulk_extensions.validation.invalid_vm_password =
-	La password di voicemail contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate.
+	La password della voicemail contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate.
 bulk_extensions.validation.invalid_f_password =
 	La password delle funzioni contiene caratteri non validi. Sono consentiti solo numeri, simbolo asterisco o parole riservate.
 bulk_extensions.success =
 	L'intervallo degli interni e' stato elaborato correttamente. <b>Interni Creati</b>: {0} | <b>Interni Saltati</b>: {1}
 bulk_extensions.name_prefix = Prefisso Nome
 bulk_extensions.name_prefix.tooltip =
-	Consente di definire un prefisso da utilizzare come parte del nome dell'interno, es.: se si imposta il valore del prefisso su Agent e
-	l'interno e' 200, il nome dell'interno sara' <b>Agent 200</b>. se vuoto, la parola <b>Interno</b> sara' usato come prefisso.
+	Consente di definire un prefisso da utilizzare come parte del nome dell'interno, es.: se si imposta il valore del prefisso su Agente e
+	l'interno e' 200, il nome dell'interno sara' <b>Agente 200</b>. se vuoto, la parola <b>Interno</b> sara' usato come prefisso.
 bulk_extensions.device_password = Password Dispositivi
 bulk_extensions.device_password.tooltip =
 	Permette di definire una password dinamica o fissa per i dispositivi generati. Se vuoto, verra' impostata una password casuale.
