@@ -1,5 +1,5 @@
-menu.sip_settings = Impostazioni SIP
-module.sip_settings = Impostazioni SIP
+menu.sip_settings = Settaggi SIP
+module.sip_settings = Settaggi SIP
 sip_settings.accept_outofcall_message = Allow Msg Request
 sip_settings.accept_outofcall_message.tooltip = Disabilitare questa opzione per rifiutare tutte le richieste di MESSAGGIO al di fuori di una chiamata. Impostazione predefinita: Abilitata. Quando è abilitata, le richieste MESSAGGIO vengono passate al dial plan.
 sip_settings.allowguest = Permetti Ospite
