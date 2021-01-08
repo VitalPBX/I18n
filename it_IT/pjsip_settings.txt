@@ -1,5 +1,5 @@
-menu.pjsip_settings = Impostatzioni PJSIP
-module.pjsip_settings = Impostatzioni PJSIP
+menu.pjsip_settings = Settaggi PJSIP
+module.pjsip_settings = Settaggi PJSIP
 pjsip_settings.general = Generale
 pjsip_settings.debug = Debug
 pjsip_settings.debug.tooltip = Abilita/disabilita la registrazione del debug SIP.
