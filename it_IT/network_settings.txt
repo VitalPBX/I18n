@@ -1,6 +1,6 @@
-menu.network_settings = Impostazioni di Rete
-module.network_settings = Impostazioni di Rete
-network_settings = Impostazioni di Rete
+menu.network_settings = Settaggi di Rete
+module.network_settings = Settaggi di Rete
+network_settings = Settaggi di Rete
 network_settings.active = Attiva
 network_settings.active.tooltip = Se questa connessione e' attualmente attiva.
 network_settings.additional_ips = Indirizzo IP Aggiuntivo
