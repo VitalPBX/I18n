@@ -73,3 +73,8 @@ pjsip_settings.unidentified_request_count.tooltip = The number of unidentified r
 pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
 pjsip_settings.unidentified_request_prune_interval.tooltip =
 		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
+pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints
+pjsip_settings.allow_reload = Allow Transports Reload
+pjsip_settings.allow_reload.tooltip =
+	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
+	because reloading a transport may disrupt in-progress calls.

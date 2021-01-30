@@ -75,3 +75,6 @@ system_general.atxferdropcall.tooltip =
 	It allows you to change the default callback behavior. The default is 'no' which results in Asterisk calling back the
 	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
 	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
+system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
+system_general.auto_generated_pwd_length.tooltip =
+	It allows you to define the default length for auto-generated devices passwords

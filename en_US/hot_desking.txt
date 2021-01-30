@@ -14,7 +14,7 @@ hot_desking.digit_map = Digit Mapping
 hot_desking.digit_map.tooltip = The digit mapping to use for this line.
 hot_desking.digium_phone_settings = Digium Phone Settings
 hot_desking.max_contacts = Max Contacts
-hot_desking.max_contacts.tooltip = Maximum number of contacts that can bind to an AoR
+hot_desking.max_contacts.tooltip = Maximum number of contacts/phones' devices that can be associated with a PJSIP device
 hot_desking.dtmfmode = DTMF Mode
 hot_desking.dtmfmode.auto.tooltip = Use rfc2833|rfc4733 if offered, in-band otherwise
 hot_desking.dtmfmode.inband.tooltip = Inband audio (requires 64 kbit codec -alaw, ulaw)
@@ -68,6 +68,4 @@ hot_desking.dispatchable_location.tooltip =
 hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
 hot_desking.vitxi_client = Vitxi Client
 hot_desking.vitxi_client.tooltip =
-	If enabled, this device could be used for the Vitxi WebRTC app or the Vitxi Softphones (Android or IOS). When
-	the devices flagged with this option are used on mobile devices with the Vitxi Softphone, all the premium features
-	will be enabled on the softphone.
+	If enabled, this device could be used for the Vitxi WebRTC application.
