@@ -1,5 +1,5 @@
-menu.rtp_settings = Imostazioni RTP
-module.rtp_settings = Imostazioni RTP
+menu.rtp_settings = Settaggi RTP
+module.rtp_settings = Settaggi RTP
 rtp_settings.general = Generale
 rtp_settings.certificate_id = Certificato
 rtp_settings.certificate_id.tooltip = File del certificato del Server.
