@@ -173,3 +173,9 @@ queues.queue_callback.tooltip =
 	Позволяет определить, смогут ли абоненты, достигшие этой очереди, запросить обратный звонок, если все операторы заняты. <br><br>
 	Когда выбран обратный звонок, «Периодическое уведомление» заменяется звуковым файлом из «Обратный звонок из очереди - Инструкции». 
 	Также все функции «Голосового меню» отключаются для этой очереди.
+queues.alertinfo = {inbound_route.alertinfo}
+queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
+queues.answerchannel = Answer Channel
+queues.answerchannel.tooltip = 
+	It defines if the calls must be answered before executing the Queue application. If set to "no", the music on hold,
+	and other audios might no be played.

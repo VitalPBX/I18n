@@ -57,3 +57,4 @@ actions = Azioni
 select_country = -- Seleziona Nazione --
 select_state = -- Seleziona Stato --
 continue = Continue
+tenant = Tenant

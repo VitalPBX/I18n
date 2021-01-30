@@ -100,3 +100,23 @@ tenants.timezone = Time Zone
 tenants.timezone.tooltip =
 	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
 	will be used.
+tenants.calls_limit = Concurrent Calls Limit
+tenants.calls_limit.invalid = You have provided an invalid calls limit value
+tenants.calls_limit.placeholder = No Limit
+tenants.calls_limit.tooltip = It allows you to define the number of concurrent outgoing calls allowed for this tenant.
+tenants.cid = Default External CID
+tenants.cid.tooltip = 
+	It allows you to define the default external CID Name and Number to be used in outbound calls.
+tenants.cid_name = CID Name
+tenants.cid_number = CID Number
+tenants.main = (Main)
+tenants.no_default_cid = The "Restricted CID" field is set to "Default" but the default external CID number has not been defined
+tenants.no_dids = The "Restricted CID" field is set to "DIDs" but no DIDs has been defined
+tenants.restricted_cid = Restricted CID
+tenants.restricted_cid.default = Default
+tenants.restricted_cid.default.tooltip = All the external calls for this tenant will be forced to use the CID info defined in the "Default External CID" field.
+tenants.restricted_cid.dids = DIDs
+tenants.restricted_cid.dids.tooltip = The external CID number must match with the DIDs patterns/numbers defined for this tenant.
+tenants.restricted_cid.disabled = Disabled
+tenants.restricted_cid.disabled.tooltip = No restrictions will be applied. The tenant will be able to use any external CID number.
+tenants.restricted_cid.tooltip = It allows you to defined if the Caller ID numbers for external calls will be restricted or not.

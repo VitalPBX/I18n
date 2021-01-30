@@ -21,3 +21,13 @@ rtp_settings.turnpassword = Contraseña Sevidor Turn
 rtp_settings.turnpassword.tooltip = Contraseña utilizada para autenticarse con el servidor de retransmisión TURN.
 rtp_settings.turnusername = Nombre del Servidor Turn
 rtp_settings.turnusername.tooltip = Nombre de usuario utilizado para autenticarse con el servidor de retransmisión TURN.
+rtp_settings.advertised_address = Dirección Anunciada
+rtp_settings.ice_host_candidates = Configuración del Host ICE
+rtp_settings.ice_host_candidates.tooltip = 
+	Cuando Asterisk está detrás de un NAT uno a uno estático e ICE está en uso, ICE expondrá la dirección IP interna del servidor
+	como uno de los candidatos de host. Aunque el uso de STUN (consulte la opción de configuración 'stunaddr') proporcionará
+	una IP de acceso público, la IP interna aún se enviará al par remoto. Para ayudar a ocultar la topología de su red interna,
+	puede anular los candidatos de host que Asterisk enviará al par remoto. Si define algo aquí,
+	es casi seguro que NO querrá especificar las direcciones de 'Stun Server' o 'Turn Server'.
+rtp_settings.include_local_address = Incluir Dirección Local
+rtp_settings.local_address = Dirección Local

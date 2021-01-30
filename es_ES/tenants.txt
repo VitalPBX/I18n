@@ -98,5 +98,24 @@ tenants.addons.tooltip =
 tenants.settings = Configuraciones
 tenants.timezone = Zona Horaria
 tenants.timezone.tooltip = 
-	Define la zona horaria predeterminada para este inquilino. Si se selecciona la opción "Sistema",
+	Define la zona horaria predeterminada para este Tenant. Si se selecciona la opción "Sistema",
 	se utilizará la zona horaria del servidor.
+tenants.calls_limit = Límite de Llamadas Simultáneas
+tenants.calls_limit.invalid = Ha proporcionado un valor límite de llamadas no válidas
+tenants.calls_limit.placeholder = Sin límite
+tenants.calls_limit.tooltip = Le permite definir la cantidad de llamadas salientes simultáneas permitidas para este Tenant.
+tenants.cid = CID Externo Predeterminado
+tenants.cid.tooltip = Le permite definir el nombre y número de CID externos predeterminados que se utilizarán en las llamadas salientes.
+tenants.cid_name = Nombre CID
+tenants.cid_number = Número CID
+tenants.main = (Main)
+tenants.no_default_cid = El campo "CID restringido" está configurado como "Predeterminado" pero no se ha definido el número CID externo predeterminado.
+tenants.no_dids = El campo "CID restringido" está configurado en "DID" pero no se ha definido ningún DID.
+tenants.restricted_cid = CID Restringido
+tenants.restricted_cid.default = Predeterminado
+tenants.restricted_cid.default.tooltip = Todas las llamadas externas para este Tenant estarán obligadas a utilizar la información de CID definida en el campo "CID externo predeterminado".
+tenants.restricted_cid.dids = DIDs
+tenants.restricted_cid.dids.tooltip = El número de CID externo debe coincidir con los patrones/números de DID definidos para este Tenant.
+tenants.restricted_cid.disabled = Deshabilitado
+tenants.restricted_cid.disabled.tooltip = No se aplicarán restricciones. El Tenant podrá utilizar cualquier número CID externo.
+tenants.restricted_cid.tooltip = Le permite definir si los números de identificación de llamadas para llamadas externas estarán restringidos o no.
