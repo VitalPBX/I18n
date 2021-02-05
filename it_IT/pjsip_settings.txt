@@ -73,8 +73,8 @@ pjsip_settings.unidentified_request_prune_interval = Intervallo di Sfoltimento R
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
 		L'intervallo in cui le richieste non identificate sono più vecchie del doppio del periodo di richiesta non identificato vengono eliminate.
 pjsip_settings.codecs = Codec
-pjsip_settings.allow_reload = Allow Transports Reload
+pjsip_settings.allow_reload = Consenti Ricaricamento Trasporti
 pjsip_settings.allow_reload.tooltip = 
-	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
-	because reloading a transport may disrupt in-progress calls.
-pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints
+	Definisce se i trasporti PJSIP verranno ricaricati quando res_pjsip viene ricaricato. Si consiglia di impostare questa opzione su "no"
+        perché ricaricare un trasporto può interrompere le chiamate in corso.
+pjsip_settings.language.tooltip = Lingua predefinita da utilizzare per i canali creati dagli endpoint PJSIP
