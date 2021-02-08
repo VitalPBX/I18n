@@ -29,7 +29,7 @@ time_conditions.status.temporary_matched_unmatched.desc =
 time_conditions.status.permanently_matched_unmatched = Постоянное совпадение / несовпадение
 time_conditions.status.permanently_matched_unmatched.desc =
 	Постоянно переопределяет текущее правило и отправляет вызовы в совпадающее / несовпадающее направление, пока переопределение не будет удалено.
-time_conditions.blf_inverted = Перевернутый BLF
+time_conditions.blf_inverted = Обратный BLF
 time_conditions.blf_inverted.tooltip =
 	По умолчанию цвет подсветки BLF - зеленый, если правило по времени совпадает, и красный, если не совпадает. Установка 
 	этого значения в <b>«Да»</b> сделает поведение обратным тому, что описано выше.
@@ -39,7 +39,7 @@ time_conditions.code = {nightmode.code}
 time_conditions.code.tooltip = Наберите код для переключения правила по времени с помощью телефона.
 time_conditions.pin = PIN-код авторизации
 time_conditions.pin.tooltip = Дополнительный пароль для защиты от несанкционированного изменения этого правила по времени.
-time_conditions.timezone = Time Zone
+time_conditions.timezone = Часовой пояс
 time_conditions.timezone.tooltip = 
-	It allows defining the timezone to use for matching the time group associated with this time condition. If set to System,
-	it will take the timezone from server.
+	Позволяет указать часовой пояс, который будет использоваться для сопоставления временного периода, связанного с этим правилом по времени. 
+	Если установлено значение <b>«Система»</b>, часовой пояс будет взят с сервера.

@@ -1,4 +1,4 @@
-menu.scom = <span style="margin-left: -5px;">Коммуникатор</span>
+menu.scom = Коммуникатор
 menu.scom_softkey_profiles = Профили функц. клавиш
 menu.scom_pause_profiles = Профили пауз
 scom_softkey_profiles.general = {vitalpbx.general}
@@ -17,6 +17,7 @@ scom.sk.type = Тип
 scom.sk.description = Описание
 scom.pp.description = {scom.sk.description}
 scom.sk.description.tooltip = Описание функциональной клавиши
+scom.softkey.description.tooltip = Краткое описание этого профиля функциональных клавиш
 scom.pp.description.tooltip  = Краткое описание, чтобы определить этот профиль пауз
 scom.sk.idle_value = Значение, когда не активна
 scom.sk.idle_value.tooltip = Номер для включения выбранного типа функциональной клавиши
@@ -51,6 +52,5 @@ scom.sp.url = URL профиля функц. клавиши
 scom.sp.url.tooltip = URL-адрес для получения настроек профиля функциональной клавиши
 menu.scom_ext_privileges = {module.scom_ext_privileges}
 scom_ext_privileges.general = Общие
-scom.softkey.description.tooltip = Краткое описание этого профиля функциональных клавиш
 scom.type.dialer_pause = Dialer Pause
-scom.type.open_form = Open Form
+scom.type.open_form = Открытая форма

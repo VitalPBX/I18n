@@ -76,7 +76,7 @@ tenants.inbound_numbers.tooltip =
 	Список номеров/шаблонов, принадлежащих этому арендатору. Звонки, соответствующие этим номерам, будут автоматически
 	перенаправляться на эти входящие маршруты арендатора. Конфигурация этих номеров имеет приоритет над правилами входящих
 	маршрутов основного арендатора.
-tenants.scom_devices = Устройства Softphone
+tenants.scom_devices = Программные телефоны
 tenants.scom_devices.tooltip = Позволяет определить, сколько устройств Sonata Communicator может быть активировано на этом клиенте.
 tenants.routing = Маршрутизация вызовов
 tenants.did_pattern = Шаблон DID
@@ -88,35 +88,35 @@ tenants.emergency_trunks = Аварийные линии
 tenants.emergency_trunks.tooltip =
 	Позволяет вам совместно использовать линии с этим арендатором, которые будут использоваться как аварийные линии в модуле "Экстренные номера"
 tenants.name.validation.alphanumeric = Имя арендатора может содержать только буквы и цифры
-tenants.send_welcome_email = Send Welcome Email
+tenants.send_welcome_email = Отправить приветственное письмо
 tenants.send_welcome_email.tooltip =
-	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
-	for this email under Admin > System Settings > Email Templates.
-tenants.addons = External Add-ons
-tenants.addons.tooltip =
-	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
-tenants.settings = Settings
-tenants.timezone = Time Zone
+	Если этот параметр включен, администратору арендатора будет отправлено электронное письмо с информацией об учетной записи. Вы можете найти шаблон 
+	этого электронного письма в разделе Админ > Общие настройки > Email шаблоны	
+tenants.settings = Настройки
+tenants.timezone = Часовой пояс
 tenants.timezone.tooltip =
-	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
-	will be used.
-tenants.calls_limit = Concurrent Calls Limit
-tenants.calls_limit.invalid = You have provided an invalid calls limit value
-tenants.calls_limit.placeholder = No Limit
-tenants.calls_limit.tooltip = It allows you to define the number of concurrent outgoing calls allowed for this tenant.
-tenants.cid = Default External CID
-tenants.cid.tooltip = 
-	It allows you to define the default external CID Name and Number to be used in outbound calls.
-tenants.cid_name = CID Name
-tenants.cid_number = CID Number
-tenants.main = (Main)
-tenants.no_default_cid = The "Restricted CID" field is set to "Default" but the default external CID number has not been defined
-tenants.no_dids = The "Restricted CID" field is set to "DIDs" but no DIDs has been defined
-tenants.restricted_cid = Restricted CID
-tenants.restricted_cid.default = Default
-tenants.restricted_cid.default.tooltip = All the external calls for this tenant will be forced to use the CID info defined in the "Default External CID" field.
+	Если этот параметр определяет часовой пояс по умолчанию для этого арендатора. Если выбрано значение «Система»,
+	то будет использоваться часовой пояс сервера.
+tenants.addons = Внешние дополнения
+tenants.addons.tooltip =
+	Позволяет выбрать, какие внешние дополнения будут показаны этому арендатору в меню пользователя.
+tenants.cid = Внешний CID по умолчанию
+tenants.cid_name = CID Имя
+tenants.cid_number = CID Номер
+tenants.cid.tooltip =
+	Позволяет вам указать имя и номер по умолчанию для внешнего CID, которые будут использоваться при исходящих вызовах.
+tenants.restricted_cid = Ограниченный CID
+tenants.restricted_cid.tooltip  = Позволяет вам определить, будут ли ограничены CID номера для внешних вызовов.
+tenants.restricted_cid.disabled = Отключено
+tenants.restricted_cid.disabled.tooltip = Никаких ограничений применяться не будет. Арендатор сможет использовать любой внешний CID номер.
+tenants.restricted_cid.default = По умолчанию
+tenants.restricted_cid.default.tooltip = Все внешние вызовы для этого арендатора будут принудительно использовать CID информацию, указанную в поле <b>«Внешний CID по умолчанию»</b>.
 tenants.restricted_cid.dids = DIDs
-tenants.restricted_cid.dids.tooltip = The external CID number must match with the DIDs patterns/numbers defined for this tenant.
-tenants.restricted_cid.disabled = Disabled
-tenants.restricted_cid.disabled.tooltip = No restrictions will be applied. The tenant will be able to use any external CID number.
-tenants.restricted_cid.tooltip = It allows you to defined if the Caller ID numbers for external calls will be restricted or not.
+tenants.restricted_cid.dids.tooltip = Номер внешнего CID должен совпадать с шаблонами/номерами DID, указанными для этого арендатора.
+tenants.no_default_cid = В поле <b>«Ограниченный CID»</b> установлено значение <b>«По умолчанию»</b>, но не указан внешний номер CID по умолчанию.
+tenants.no_dids = В поле <b>«Ограниченный CID»</b> установлено значение <b>«DIDs»</b>, но DIDs не были указаны.
+tenants.calls_limit = Лимит одновременных звонков
+tenants.calls_limit.tooltip = Позволяет вам указать количество одновременных исходящих вызовов, разрешенных для этого арендатора.
+tenants.calls_limit.placeholder = Без ограничений
+tenants.calls_limit.invalid = Вы указали недопустимое значение для лимита звонков
+tenants.main = (Основной)

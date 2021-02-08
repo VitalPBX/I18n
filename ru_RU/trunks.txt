@@ -169,12 +169,20 @@ trunks.custom_dial_string.tooltip =
 	Пользовательская строка регистрации, которая будет использоваться во время набора этой линии. Используйте переменную $[EXTEN] везде, где должен использоваться номер.
 	Например: OH323/$[EXTEN]@10.0.1.200:10060
 trunks.validation.no_dial_string = Вы не заполнили строку регистрации
-trunks.max_reached = Вы достигли максимально допустимого количества линий
 trunks.tenant_trunk = Арендатор
-trunks.tenant_trunk.tooltip = Позволяет вам определить, к какому арендатору будут направляться вызовы, сделанные через эту линию
+trunks.tenant_trunk.tooltip = Позволяет вам указать, к какому арендатору будут направляться вызовы, сделанные через эту линию
 trunks.validation.no_tenant = Вы не выбрали арендатора для этой линии
+trunks.max_reached = Вы достигли максимально допустимого количества линий
 trunks.custom_headers = Пользовательские заголовки
 trunks.trkcustom.header = Заголовок
+trunks.profile_id = {hot_desking.profile_id}
+trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
+trunks.dtmfmode = {hot_desking.dtmfmode}
+trunks.contacts = Контакты
+trunks.contacts.tooltip =
+	Постоянные контакты, назначенные адресу регистрации (AoR - Address of Record). Вы можете определить несколько контактных адресов в формате SIP URI. <br>
+	Например: <b>sip:198.51.100.1:5060</b>
+trunks.validation.pjsip.no_outgoing_host = <b>"Необходимость регистрации"</b> включена, но <b>"Удаленный хост"</b> не указан
 trunks.client_uri = URI клиента
 trunks.client_uri.tooltip =
 	Это адрес записи для исходящей регистрации (то есть URI в заголовке To в REGISTER).
@@ -182,13 +190,6 @@ trunks.client_uri.tooltip =
 	провайдера для их регистратора, например, <b>1234567890@example.com</b>. Может отличаться у разных поставщиков.<br><br>
 	Регистрация клиентских SIP URI будет зависеть от особенностей сети и конфигурации
 	регистратора.
-trunks.contacts = Контакты
-trunks.contacts.tooltip =
-	Постоянные контакты, назначенные адресу регистрации (AoR - Address of Record). Вы можете определить несколько контактных адресов в формате SIP URI. <br>
-	Например: <b>sip:198.51.100.1:5060</b>
-trunks.dtmfmode = {hot_desking.dtmfmode}
-trunks.profile_id = {hot_desking.profile_id}
-trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
 trunks.server_uri = URI сервера
 trunks.server_uri.tooltip =
 	Это URI, по которому можно найти регистратора для отправки исходящего REGISTER. Этот URI используется
@@ -196,50 +197,49 @@ trunks.server_uri.tooltip =
 	быть использован только домен регистратора, например <b>sip:sip.example.com</b>.
 trunks.validation.pjsip.no_contacts =
 	Нет контактов и хост не был определен. Если контакты не определены, вы должны указать удаленный хост для создания URI контактов по умолчанию
-trunks.validation.pjsip.no_outgoing_host = <b>"Необходимость регистрации"</b> включена, но <b>"Удаленный хост"</b> не указан
 trunks.contact_user = Contact User
 trunks.contact_user.tooltip =
 	Имя пользователя, посылаемое в заголовках SIP URI, влияет на номера,
 	при входящих вызовах по этой линии
-trunks.none = -- Нет --
-trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
-trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
-trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
-trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
 trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
-trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.yes.tooltip = Заставляет перезаписать CID параметрами, указанными в этой линии.
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.none = -- Нет --
 trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
 trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
 trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
-trunks.fax_detect = Fax Detect
-trunks.fax_detect.tooltip = Whether CNG tone detection is enabled
-trunks.fax_detect_timeout = Detection Timeout
-trunks.fax_detect_timeout.tooltip = 
-	The option determines how many seconds into a call before the fax_detect option is disabled for the call. Setting
-	the value to zero disables the timeout.
-trunks.fax_settings = Fax Settings
-trunks.max_contacts.tooltip = 
-	Maximum number of contacts that can associate with this AoR. This value does not affect the number of contacts that
-	can be added with the "contact" option. It only limits contacts added through external interaction, such as registration.
-trunks.t38_udptl = T.38 UDPTL
-trunks.t38_udptl.tooltip = 
-	If set to yes T.38 UDPTL support will be enabled, and T.38 negotiation requests will be accepted and relayed.
-trunks.t38_udptl_ec = Error Connection Method
+trunks.fax_settings = Настройки факса
+trunks.t38_udptl_ec = Ошибка метода подключения
+trunks.t38_udptl_ec.tooltip = Метод исправления ошибок T.38 UDPTL
+trunks.t38_udptl_ec.none = {нет}
+trunks.t38_udptl_ec.none.info = Не следует использовать исправление ошибок.
 trunks.t38_udptl_ec.fec = FEC
-trunks.t38_udptl_ec.fec.info = Forward error correction should be used.
-trunks.t38_udptl_ec.none = {none}
-trunks.t38_udptl_ec.none.info = No error correction should be used.
-trunks.t38_udptl_ec.redundancy = Redundancy
-trunks.t38_udptl_ec.redundancy.info = Redundancy error correction should be used.
-trunks.t38_udptl_ec.tooltip = T.38 UDPTL error correction method
-trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
-trunks.t38_udptl_ipv6.tooltip = Whether IPv6 is used for UDPTL Sessions
-trunks.t38_udptl_maxdatagram = MAX Datagram
-trunks.t38_udptl_maxdatagram.tooltip = 
-	T.38 UDPTL maximum datagram size. This option can be set to override the maximum datagram of a remote endpoint for
-	broken endpoints.
+trunks.t38_udptl_ec.fec.info = Следует использовать прямое исправление ошибок.
+trunks.t38_udptl_ec.redundancy = Избыточность
+trunks.t38_udptl_ec.redundancy.info = Следует использовать исправление ошибок избыточности.
+trunks.t38_udptl_maxdatagram = Размер датаграммы
+trunks.t38_udptl_maxdatagram.tooltip =
+	Максимальный размер датаграммы UDPTL T.38. Эта опция может быть установлена для переопределения 
+	максимальной датаграммы удаленного устройства.
+trunks.fax_detect_timeout = Тайм-аут обнаружения
+trunks.fax_detect_timeout.tooltip =
+	Определяет через сколько секунд fax_detect опция (обнаружение факса) будет отключена для вызова. 
+	Установка значения на ноль отключает тайм-аут.	
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip =
+	Если установлено значение "да", поддержка UDPTL T.38 будет включена, и запросы согласования T.38 будут приняты и ретранслированы.
+trunks.fax_detect = Обнаружение факса
+trunks.fax_detect.tooltip = Включено ли обнаружение тона CNG
 trunks.t38_udptl_nat = T.38 UDPTL NAT
-trunks.t38_udptl_nat.tooltip = Whether NAT support is enabled on UDPTL sessions
+trunks.t38_udptl_nat.tooltip = Включена ли поддержка NAT в UDPTL сессиях
+trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
+trunks.t38_udptl_ipv6.tooltip = Используется ли IPv6 в UDPTL сессиях
+trunks.max_contacts.tooltip =
+	Максимальное количество контактов, которые могут быть связаны с этим AoR. Это значение не влияет на количество контактов, которые можно добавить
+	с помощью опции <b>«Контакт»</b>. Ограничивает только контакты, добавленные посредством внешнего взаимодействия, такого как регистрация.
