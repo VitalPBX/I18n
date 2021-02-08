@@ -76,5 +76,5 @@ backup_and_restore.confirm_group_delete =
 	Вы уверены, что хотите удалить эту группу резервных копий и все созданные ею резервные копии?
 backup_and_restore.cannot_delete_group = Не удалось удалить группу резервных копий
 backup_and_restore.old_backup = 
-	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
-	from a version grater than {3}
+	Резервная копия версии {0} не может быть восстановлена на {1}, у которой версия выше, чем {2}. 
+	Ваша резервная копия должна быть не ниже версии {3}	
