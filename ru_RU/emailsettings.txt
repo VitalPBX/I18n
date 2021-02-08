@@ -1,4 +1,4 @@
-emailsettings = Настройки Email
+emailsettings = Email настройки 
 emailsettings.address.invalid = Должен быть установлен верный E-Mail
 emailsettings.address_used_from_address = Адрес, указанный здесь, будет установлен как адрес «От:»
 emailsettings.auth = Авторизация
@@ -51,4 +51,4 @@ emailsettings.validation.empty_username = Имя пользователя дол
 emailsettings.validation.invalid_port = Неверный порт
 menu.email_settings = Настройки Email
 module.emailsettings = Настройки Email
-emailsettings.from_address = От адреса
+emailsettings.from_address = Адрес отправителя

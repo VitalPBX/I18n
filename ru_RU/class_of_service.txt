@@ -11,7 +11,7 @@ class_of_service.dialrule_id.tooltip = Правила ограничения в�
 class_of_service.feature_code_category_id = Набор функций
 class_of_service.feature_code_category_id.tooltip = Функции, разрешенные для этого класса обслуживания.
 class_of_service.general = Общие
-menu.class_of_service = <span style="margin-left: -5px;">Класс обслуживания</span>
+menu.class_of_service = Класс обслуживания
 module.class_of_service = Класс обслуживания
 class_of_service.private = Частный
 class_of_service.private.tooltip = 	

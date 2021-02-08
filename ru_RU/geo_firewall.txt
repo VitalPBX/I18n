@@ -1,16 +1,15 @@
-geo_firewall = GEO Firewall
+geo_firewall = Правила по странам
 menu.geo_firewall = {geo_firewall}
 module.geo_firewall = {geo_firewall}
 geo_firewall.general = {vitalpbx.general}
 geo_firewall.license.max_items = Вы можете заблокировать только одну страну в бесплатной версии этого дополнения.
 geo_firewall.select_all = Выбрать все страны
 geo_firewall.unselect_all = Отменить выбор всех стран
-menu.geo_firewall = Список стран
 geo_firewall.countries_list = Список стран
-geo_firewall.disable = Disable
+geo_firewall.disable = Отключить
+geo_firewall.enable = Включить
+geo_firewall.successfully_enabled = Ограничения правил по странам были успешно включены
 geo_firewall.disable.confirm = 
-	Are you sure about disabling the GEO firewall restrictions? Performing this action will automatically unblock all the countries,
-	however, your configurations on the GEO firewall map will be preserved, so you can apply them back at a later date.
-geo_firewall.enable = Enable
-geo_firewall.successfully_disabled = The GEO firewall restrictions has been successfully disabled
-geo_firewall.successfully_enabled = The GEO firewall restrictions has been successfully enabled
+	Вы уверены, что хотите отключить ограничения правил по странам? Выполнение этого действия автоматически разблокирует все страны, 
+	однако ваши настройки на карте будут сохранены и вы сможете применить их позже.	
+geo_firewall.successfully_disabled = Ограничения правил по странам были успешно отключены
