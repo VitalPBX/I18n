@@ -36,14 +36,14 @@ maintenance.validation.enabled_without_cron = La manutenzione e' stata abilitata
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
 maintenance.best = Best ({0}k)
-maintenance.conversion_quality = Audio Quality
+maintenance.conversion_quality = Qualità Audio
 maintenance.conversion_quality.tooltip = 
-	The audio quality to be applied when converting from WAV to MP3. Higher qualities produce better audios, but uses more space
-	in the hard drive; Lower qualities produce smaller audio files, but the quality is dropped.
+	La qualità audio da applicare durante la conversione da WAV a MP3. Qualità più elevate producono audio migliori, ma utilizzano più spazio
+        nel disco rigido; Qualità inferiori producono file audio più piccoli, ma la qualità viene ridotta.
 maintenance.good = Good ({0}k)
 maintenance.high = High ({0}k)
 maintenance.medium = Medium ({0}k)
-maintenance.voicemail_preservation = Clear Oldest Voicemails
+maintenance.voicemail_preservation = Cancella Messaggi Vocali meno recenti
 maintenance.voicemail_preservation.tooltip = 
-	Allows you to defined the maximum number of days that voicemail recordings should be retained. The voicemail
-	recordings with more age than the days defined here will be deleted
+	Consente di definire il numero massimo di giorni in cui conservare le registrazioni della posta vocale.
+        Le registrazioni con un'età superiore ai giorni qui definiti verranno eliminate.
