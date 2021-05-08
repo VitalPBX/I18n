@@ -41,7 +41,7 @@ tenants.path = Path
 tenants.path.tooltip = 
 	Nome del percorso utilizzato nella cartella di archiviazione di questo Tenant e come albero del database Asterisk
 tenants.prefix = Prefisso
-tenants.prefix.placeholder = Generate Automatically
+tenants.prefix.placeholder = Genera Automaticamente
 tenants.prefix.tooltip = 
 	Consente di definire un prefisso da utilizzare per dispositivi di interni e altri. Se lasciato vuoto, verra' visualizzato un prefisso automatico
         essere usato.
@@ -100,23 +100,23 @@ tenants.timezone = Fuso Orario
 tenants.timezone.tooltip = 
 	Definisce il Fuso Orario predefinito per questo tenant. Se e' selezionata l'opzione "Sistema", quindi, il fuso orario del server
         sara' usato.
-tenants.calls_limit = Concurrent Calls Limit
-tenants.calls_limit.invalid = You have provided an invalid calls limit value
-tenants.calls_limit.placeholder = No Limit
-tenants.calls_limit.tooltip = It allows you to define the number of concurrent outgoing calls allowed for this tenant.
-tenants.cid = Default External CID
+tenants.calls_limit = Limite Chiamate Simultanee.
+tenants.calls_limit.invalid = Hai fornito un valore limite per le chiamate non valide.
+tenants.calls_limit.placeholder = No Limite
+tenants.calls_limit.tooltip = Consente di definire il numero di chiamate in uscita simultanee consentite per questo tenant.
+tenants.cid = Default CID Externo
 tenants.cid.tooltip = 
-	It allows you to define the default external CID Name and Number to be used in outbound calls.
-tenants.cid_name = CID Name
-tenants.cid_number = CID Number
+	Consente di definire il nome e il numero CID esterno predefinito da utilizzare nelle chiamate in uscita.
+tenants.cid_name = Nome CID
+tenants.cid_number = Numbero CID
 tenants.main = (Main)
-tenants.no_default_cid = The "Restricted CID" field is set to "Default" but the default external CID number has not been defined
-tenants.no_dids = The "Restricted CID" field is set to "DIDs" but no DIDs has been defined
+tenants.no_default_cid = Il campo "Restricted CID" è impostato su "Predefinito" ma il numero CID esterno predefinito non è stato definito.
+tenants.no_dids = Il campo "Restricted CID" è impostato su "DIDs" ma non è stato definito alcun DID
 tenants.restricted_cid = Restricted CID
 tenants.restricted_cid.default = Default
-tenants.restricted_cid.default.tooltip = All the external calls for this tenant will be forced to use the CID info defined in the "Default External CID" field.
+tenants.restricted_cid.default.tooltip = Tutte le chiamate esterne per questo tenant saranno obbligate a utilizzare le informazioni CID definite nel campo "CID esterno predefinito".
 tenants.restricted_cid.dids = DIDs
-tenants.restricted_cid.dids.tooltip = The external CID number must match with the DIDs patterns/numbers defined for this tenant.
-tenants.restricted_cid.disabled = Disabled
-tenants.restricted_cid.disabled.tooltip = No restrictions will be applied. The tenant will be able to use any external CID number.
-tenants.restricted_cid.tooltip = It allows you to defined if the Caller ID numbers for external calls will be restricted or not.
+tenants.restricted_cid.dids.tooltip = Il numero CID esterno deve corrispondere ai modelli / numeri DID definiti per questo Tenant.
+tenants.restricted_cid.disabled = Disabilitato
+tenants.restricted_cid.disabled.tooltip = Non verranno applicate restrizioni. L'inquilino potrà utilizzare qualsiasi numero CID esterno.
+tenants.restricted_cid.tooltip = Consente di definire se i numeri ID chiamante per le chiamate esterne saranno limitati o meno.
