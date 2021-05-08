@@ -99,10 +99,10 @@ profiles_sip_sendrpid_rpid = Использовать RPID (Remote Party ID)
 profiles_sip_sendrpid_tooltip = Добавить заголовок идентификатора удаленной стороны в SIP INVITEs.
 profiles_sip_sendrpid_yes = Да
 profiles_sip_transport = Транспорт
+profiles_sip_transport_tooltip = Способ связи, используемый для этого устройства.
 profiles_sip_transport_invalid = Транспорт должен быть одним из: TCP, UDP, TLS, WS и/или WSS.
 profiles_sip_transport_tcp = TCP
 profiles_sip_transport_tls = TLS
-profiles_sip_transport_tooltip = Способ связи, используемый для этого устройства.
 profiles_sip_transport_udp = UDP
 profiles_sip_transport_wss = WSS
 profiles_sip_transport_ws = WS
@@ -121,7 +121,10 @@ profiles_pjsip_name_tooltip = Имя для этого профиля.
 profiles_pjsip_description = Описание
 profiles_pjsip_description_tooltip = Описание для этого профиля.
 profiles_pjsip_transport = Транспорт
-profiles_pjsip_transport_tooltip = Способ связи, используемый для этого устройства.
+profiles_pjsip_transport_tooltip =
+	Транспортная конфигурация для отправки SIP сообщений, используемая этой конечной точкой. Вам нужно знать, какой тип транспорта (UDP/TCP/TLS и т.д.) 
+	будет использовать конечное устройство. Если установлено значение «Авто», то выбранный транспорт по умолчанию - это первый совместимый
+	транспорт в файле конфигурации URL-адреса контакта.	
 profiles_pjsip_dtls_cert_file = DTLS сертификат
 profiles_pjsip_dtls_cert_file_tooltip = Путь к файлу сертификата для предоставления его партнеру (peer)
 profiles_pjsip_dtls_private_key = Закрытый ключ DTLS
@@ -136,18 +139,18 @@ profiles_pjsip_dtls_setup_tooltip =
 	<b>Пассивный</b> (мы хотим только принимать соединения), <br>
 	<b>Оба</b> (мы используем оба типа). <br>
 	Это значение будет использоваться в исходящем SDP и во входящем SDP, если удаленная сторона отправляет оба типа Активный и Пассивный.
-profiles_pjsip_force_rport = Force rport
+profiles_pjsip_force_rport = Rport принудительно
 profiles_pjsip_force_rport_tooltip = Принудительное использование rport, т.е. если rport не указан, отправлять SIP ответы на тот же порт с которого были получены запросы.
 profiles_pjsip_ice_support = Поддержка ICE
 profiles_pjsip_ice_support_tooltip = Использовать ICE-протокол (Interactive Connectivity Establishment) для прохождения через межсетевой экран или NAT.
 profiles_pjsip_rtp_symmetric = Cимметричный RTP 
 profiles_pjsip_rtp_symmetric_tooltip = Обязательный симметричный RTP. Отправлять RTP назад на тот же адрес/порт с которого он был получен.
-profiles_pjsip_rewrite_contact = Перезапись Contact
+profiles_pjsip_rewrite_contact = Перезапись "Contact"
 profiles_pjsip_rewrite_contact_tooltip = Во входящих SIP-сообщениях с этой конечной точки заголовок Contact или соответствующий заголовок Record-Route будет изменен, чтобы иметь исходный IP-адрес и порт.
 profiles_pjsip_direct_media = Прямая отправка RTP
 profiles_pjsip_direct_media_tooltip = Управляет медиа потоком, направляя RTP трафик, непосредственно, между конечными точками.
-profiles_pjsip_disable_direct_media_on_nat = Disable NAT Direct Media
-profiles_pjsip_disable_direct_media_on_nat_tooltip = Disable direct media session refreshes when NAT obstructs the media session
+profiles_pjsip_disable_direct_media_on_nat = Отключить NAT Direct Media
+profiles_pjsip_disable_direct_media_on_nat_tooltip = Отключить прямое обновление медиа-сессии, когда NAT препятствует этой медиа-сессии
 profiles_pjsip_dtls_verify = Проверка DTLS
 profiles_pjsip_dtls_verify_tooltip = Проверка на то, что предоставленный от peer сертификат действителен.
 profiles_pjsip_use_avpf = Использовать AVPF
@@ -184,43 +187,43 @@ profiles_pjsip_dtls_cert_id = Сертификат DTLS
 profiles_pjsip_dtls_cert_id_tooltip = Сертификат для использования с DTLS соединениями
 profiles_pjsip_dtls_verify_yes = Да
 profiles_pjsip_dtls_verify_no = Нет
-profiles_pjsip_dtls_verify_fingerprint = Fingerprint
+profiles_pjsip_dtls_verify_fingerprint = Отпечаток
 profiles_pjsip_dtls_verify_certificate = Сертификат
-profiles_pjsip_dtls_fingerprint = DTLS Fingerprint Hash
-profiles_pjsip_dtls_fingerprint_tooltip = The hash to use for the fingerprint in SDP
+profiles_pjsip_dtls_fingerprint = Хэш отпечатка DTLS 
+profiles_pjsip_dtls_fingerprint_tooltip = Хэш, используемый для отпечатка в SDP
 profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
 profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
 profiles_pjsip_dtls_rekey = Интервал ключей DTLS
 profiles_pjsip_dtls_rekey_tooltip =
-	Интервал, на котором необходимо перезапустить сеанс TLS и повторно активировать сеанс SRTP. Если ничего не установлено или значение равно 0, смена ключей будет отключена
-	
-profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
-profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
+	Интервал, на котором необходимо перезапустить сеанс TLS и повторно активировать сеанс SRTP. 
+	Если ничего не установлено или значение равно 0, смена ключей будет отключена
+profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
 profiles_sip_dtlsenable = Включено
 profiles_sip_dtlsenable_tooltip = Включить или отключить поддержку DTLS-SRTP
+profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
+profiles_sip_dtlssetup = {profiles_pjsip_dtls_setup}
+profiles_sip_dtlssetup_tooltip = {profiles_pjsip_dtls_setup_tooltip}
+profiles_sip_dtlssetup_active = {profiles_pjsip_dtls_setup_active}
+profiles_sip_dtlssetup_passive = {profiles_pjsip_dtls_setup_passive}
+profiles_sip_dtlssetup_actpass = {profiles_pjsip_dtls_setup_actpass}
+profiles_sip_dtlsverify = {profiles_pjsip_dtls_verify}
+profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
+profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
+profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
+profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
+profiles_sip_dtlsverify_certificate = {profiles_pjsip_dtls_verify_certificate}
 profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
-profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
-profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
 profiles_sip_dtlsfingerprint_tooltip = {profiles_pjsip_dtls_fingerprint_tooltip}
+profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
+profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
 profiles_sip_dtlsrekey = {profiles_pjsip_dtls_rekey}
 profiles_sip_dtlsrekey_tooltip = {profiles_pjsip_dtls_rekey_tooltip}
-profiles_sip_dtlssetup = {profiles_pjsip_dtls_setup}
-profiles_sip_dtlssetup_active = {profiles_pjsip_dtls_setup_active}
-profiles_sip_dtlssetup_actpass = {profiles_pjsip_dtls_setup_actpass}
-profiles_sip_dtlssetup_passive = {profiles_pjsip_dtls_setup_passive}
-profiles_sip_dtlssetup_tooltip = {profiles_pjsip_dtls_setup_tooltip}
-profiles_sip_dtlsverify = {profiles_pjsip_dtls_verify}
-profiles_sip_dtlsverify_certificate = {profiles_pjsip_dtls_verify_certificate}
-profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
-profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
-profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
-profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
 profiles_sip_force_avp = Force AVP
 profiles_sip_force_avp_tooltip =
 	Когда это уместно, принудительно использовать «RTP/AVP», «RTP/AVPF», «RTP/SAVP» и «RTP/SAVPF» для медиапотоков, даже если
 	присутствует поток DTLS.
-profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
 profiles_sip_rtcp_mux_tooltip = Включить поддержку RTCP RFC 5761 мультиплексирования, которая требуется для поддержки WebRTC
 profiles_pjsip_qualify_frequency = Интервал проверки
@@ -237,25 +240,25 @@ profiles_pjsip_webrtc = WebRTC
 profiles_pjsip_webrtc_tooltip =
 	Если установлено значение <b>«Да»</b>, то это также включает следующие значения, которые необходимы для работы базовой 
 	поддержки WebRTC: rtcp_mux, use_avpf, ice_support и use_received_transport.
-profiles_pjsip_remove_existing = Remove Existing
+profiles_pjsip_remove_existing = Удалить существующие
 profiles_pjsip_remove_existing_tooltip = 
-	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
-	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
-	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
-	refreshing.
-profiles_pjsip_max_audio_streams = Max Audio Streams
+	Разрешить успешную регистрацию, удалив все существующие контакты, превышающие значение <b>'{hot_desking.max_contacts}'</b>. 
+	Срок действия любых удаленных контактов истекает. Такое поведение выгодно, когда включена <b>'{profiles_pjsip_rewrite_contact}'</b> и 
+	значение <b>'{hot_desking.max_contacts}'</b> больше единицы. Удаленный контакт, скорее всего, является старым контактом, созданным при 
+	обновлении конечной точки после <b>'{profiles_pjsip_rewrite_contact}'</b>.	
+profiles_pjsip_max_audio_streams = Макс аудио потоков
 profiles_pjsip_max_audio_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated audio streams allowed for the endpoint.
-profiles_pjsip_max_video_streams = Max Video Streams
+	Этот параметр устанавливает ограничение на максимальное количество одновременных согласованных аудиопотоков, разрешенных для конечной точки.
+profiles_pjsip_max_video_streams = Макс. видео потоков
 profiles_pjsip_max_video_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated video streams allowed for the endpoint.
-profiles_pjsip_support_path = Support Path
+	Этот параметр устанавливает ограничение на максимальное количество одновременных согласованных видеопотоков, разрешенных для конечной точки.
+profiles_pjsip_support_path = Поддержка Path
 profiles_pjsip_support_path_tooltip = 
-	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
-	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
-	also be indicated in the Supported header.
-profiles_pjsip_outbound_proxy = Outbound Proxy
-profiles_pjsip_outbound_proxy_tooltip = Full SIP URI of the outbound proxy used to send requests. e.g.: <b>sip:192.168.0.1\;lr</b>
-profiles_pjsip_transport_auto = Auto
-profiles.advanced = {profiles_advanced}
+	Когда этот параметр включен, заголовки Path в запросах регистрации будут сохранены, и их содержимое будет использоваться в заголовках 
+	Route для исходящих запросов вне диалога и в заголовках Path для 200 исходящих ответов. 
+	Поддержка Path также будет указана в заголовке Supported.	
+profiles_pjsip_outbound_proxy = Исходящий прокси
+profiles_pjsip_outbound_proxy_tooltip = Полный SIP URI исходящего прокси-сервера, используемого для отправки запросов. Например: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_transport_auto = Авто
 profiles.general = {vitalpbx.general}
+profiles.advanced = {profiles_advanced}

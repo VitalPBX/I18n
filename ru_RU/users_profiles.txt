@@ -28,3 +28,4 @@ users_profiles.update_profile.tooltip =	Определяет, сможет ли 
 users_profiles.multiple_users = Несколько пользователей
 users_profiles.role_is_being_used =  Эта роль используется {0}
 users_profiles.single_user = <b>{0}</b> пользователь
+users_profiles.multiple_users = несколько пользователей

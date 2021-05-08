@@ -8,11 +8,11 @@ system_general.ast_module_dir = Asterisk Modules каталог
 system_general.ast_sound_dir = Asterisk Sound каталог
 system_general.ast_spool_dir = Asterisk Spool каталог
 system_general.auto_hints = Создать подсказки
-system_general.auto_hints.tooltip = Если включено, подсказки будут включаться автоматически при создании внутреннего номера.
-system_general.auto_portal = Включить портал
-system_general.auto_portal.tooltip = Если включено, портал будет включаться автоматически каждый раз при создании внутреннего номера.
+system_general.auto_hints.tooltip = Если включено, при создании внутреннего номера подсказки будут включаться автоматически.
+system_general.auto_portal = Включить веб-доступ
+system_general.auto_portal.tooltip = Если включено, каждый раз при создании внутреннего номера веб-доступ будет включаться автоматически.
 system_general.auto_voicemail = Включить голосовую почту
-system_general.auto_voicemail.tooltip = Если включено, голосовая почта будет включаться автоматически каждый раз при создании внутреннего номера.
+system_general.auto_voicemail.tooltip = Если включено, каждый раз при создании внутреннего номера голосовая почта будет включаться автоматически.
 system_general.dialoptions = Параметры набора номера
 system_general.dialoptions.tooltip = Параметры по умолчанию, используемые для внутренних номеров, когда параметры набора не определены (в модуле "Внутренние номера")
 system_general.dialplan_settings = Настройки плана набора номеров
@@ -43,40 +43,38 @@ system_general.dnd.tooltip =
 system_general.blacklisted = В черном списке
 system_general.blacklisted.tooltip =
 	Позволяет установить сообщение, которое будет воспроизводиться вызывающим абонентам, которые занесены в черный список
-system_general.featuredigittimeout = Таймаут сервисных кодов
-system_general.featuredigittimeout.placeholder = Значение в миллисекундах
-system_general.featuredigittimeout.tooltip = Максимальное время (мс) между набором цифр для сервисных кодов (по умолчанию 1000 мс)
 system_general.transferdigittimeout = Таймаут перевода вызова
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
 system_general.transferdigittimeout.tooltip = Количество секунд ожидания между набором цифр при переводе вызова (по умолчанию 3 секунды)
+system_general.featuredigittimeout = Таймаут сервисных кодов
+system_general.featuredigittimeout.tooltip = Максимальное время (мс) между набором цифр для сервисных кодов (по умолчанию 1000 мс)
+system_general.featuredigittimeout.placeholder = Значение в миллисекундах
 system_general.gui_settings = Настройки интерфейса
-system_general.show_login_panel = Показать панель входа
-system_general.show_login_panel.tooltip = Если установлено значение <b>«Да»</b>, отображается панель с надстройками Sonata, если они установлены.
 system_general.queues_callback = Очереди обратных звонков
 system_general.search_frequency = Частота поиска
 system_general.search_frequency.tooltip = Определяет, как часто служба обратных звонков в очереди будет искать запланированные обратные звонки.
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
-system_general.email_credentials = Email Credentials
+system_general.email_credentials = Учетные данные по Email
 system_general.email_credentials.tooltip = 
-	Enable this feature to send an email to the newly created extension user with their extension and account information.
-	You can find the template for this email under Admin > System Settings > Email Templates.
-system_general.show_addons_menu = Show Add-ons Menu
+	Включите эту функцию, чтобы отправить электронное письмо вновь созданному пользователю с его внутренним номером и информацией об учетной записи.
+	Вы можете найти шаблон этого электронного письма в разделе Админ > Настройки системы > Email шаблоны.
+system_general.show_addons_menu = Показать меню дополнений
 system_general.show_addons_menu.tooltip = 
-	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
-system_general.fqdn = Public Domain
-system_general.fqdn.invalid = The provided domain domain is not valid
+	Если установлено <b>«Да»</b>, на экране входа в систему будет отображаться кнопка меню для доступа к внешним дополнениям, таким как Sonata или VitXi
+system_general.fqdn = Внешний домен
 system_general.fqdn.tooltip = 
-	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
-	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
-	Also, it will be used for generating the VitXi QR codes.
+	Позволяет вам указать внешний домен АТС. Вместо того, чтобы пытаться автоматически определить внешний домен силами системы, этот внешний домен
+	будет подставляться в соответствующую переменную при отправке уведомлений, использующих Email шаблон. 
+	Также он будет использоваться для генерации QR-кодов VitXi.
+system_general.fqdn.invalid = Предоставленный домен недействителен
+system_general.atxfernoanswertimeout = Тайм-аут переведённого вызова
+system_general.atxfernoanswertimeout.tooltip = Позволяет вам указать тайм-аут для переведённых вызовов. Это время (в секундах), в течение которого Asterisk будет пытаться дозвониться до абонента, перед тем как сдаться.
+system_general.atxfernoanswertimeout.placeholder = Значение в секундах
 system_general.atxferdropcall = Drop Attended Transfer Callbacks
-system_general.atxferdropcall.tooltip = 
-	It allows you to change the default callback behavior. The default is 'no' which results in Asterisk calling back the
-	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
-	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
-system_general.atxfernoanswertimeout = Attended Transfer Timeout
-system_general.atxfernoanswertimeout.placeholder = Value in seconds
-system_general.atxfernoanswertimeout.tooltip = It allows you to define the timeout for attended transfers. This is the amount of time (in seconds) Asterisk will attempt to ring the target before giving up.
-system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
-system_general.auto_generated_pwd_length.tooltip = 
-	It allows you to define the default length for auto-generated devices passwords
+system_general.atxferdropcall.tooltip =
+	Позволяет вам изменить поведение по умолчанию для переведенного вызова. По умолчанию установлено <b>«Нет»</b>, что приводит к тому, 
+	что Asterisk перезванивает инициатору вызова, когда он вешает трубку раньше времени и время ожидания переведённого вызова истекло. 
+	Если установлено <b>«Да»</b>, то Asterisk перезвонит инициатору вызова, как только он положит трубку.
+system_general.auto_generated_pwd_length = Длина сгенерированных паролей
+system_general.auto_generated_pwd_length.tooltip =
+	Позволяет вам указать по умолчанию длину для автоматически сгенерированных паролей.

@@ -32,25 +32,25 @@ paging.no_members = Не выбран внутренний номер
 paging.announcement = Объявление
 paging.announcement.tooltip = Объявление для всех участников
 paging.mode = Режим
-paging.mode.annon_only = Только объявление
-paging.mode.annon_only.tooltip = Воспроизводит объявление, а затем отключается
-paging.mode.default = По умолчанию
-paging.mode.default.tooltip = Поведение по умолчанию. Проигрывает объявление, если оно определено, а затем позволяет звонящему продолжить разговор.
 paging.mode.tooltip = Позволяет определить поведение объявлений
-paging.no_license = 
- Вы достигли максимального количества бесплатных объявлений с включенной функцией расписания.
- Активируйте дополнение, чтобы отключить это ограничение
+paging.mode.default = По умолчанию
+paging.mode.annon_only = Только объявление
+paging.mode.default.tooltip = Поведение по умолчанию. Проигрывает объявление, если оно определено, а затем позволяет звонящему продолжить разговор.
+paging.mode.annon_only.tooltip = Воспроизводит объявление, а затем отключается
 paging.schedule = Расписание
 paging.schedule_enabled = Включено
 paging.schedule_enabled.tooltip = Если установлено <b>«Да»</b>, то это автоматизирует проигрывание объявлений в соответствии с предоставленным расписанием.
-paging.schedules.description = Описание
-paging.schedules.dom = День месяца
+paging.schedules.time = Время
+paging.schedules.start_day = Начальный день
 paging.schedules.end_day = Конечный день
 paging.schedules.excluded_dates = Исключенные даты
-paging.schedules.month = Месяц
-paging.schedules.start_day = Начальный день
-paging.schedules.time = Время
+paging.schedules.description = Описание
 paging.validation.mode.no_announcement = Вы установили режим «Только объявление», но не выбрали объявление
-paging.validation.no_schedules = Вы включили расписание, но не выбрали дату и время
+paging.schedules.month = Месяц
+paging.schedules.dom = День месяца
 paging.validation.schedule.no_announcement = 
 	Вы включили расписание, но не выбрали объявление, которое будет проигрываться при совпадении расписаний
+paging.validation.no_schedules = Вы включили расписание, но не выбрали дату и время
+paging.no_license = 
+ Вы достигли максимального количества бесплатных объявлений с включенной функцией расписания.
+ Активируйте дополнение, чтобы отключить это ограничение

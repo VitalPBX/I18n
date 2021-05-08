@@ -1,8 +1,5 @@
-menu.softphone_extensions = {module.softphone_extensions}
 module.softphone_extensions = Softphone устройства
-softphone_extensions.general = {vitalpbx.general}
-softphone_extensions.no_license = 
-	Вы используете бесплатную версию сервера лицензирования Softphones. Активируйте это дополнение, чтобы получить более 
-	двух устройств для {0} Softphones
+menu.softphone_extensions = {module.softphone_extensions}
 softphone_extensions.max_reached =
 	Вам не разрешено добавлять более {0} устройств
+softphone_extensions.general = {vitalpbx.general}

@@ -1,8 +1,8 @@
-iax2_report = IAX2 Devices
-iax2_report.description = Description
-iax2_report.devices = {sip_report.devices}
-iax2_report.faxes = Fax Devices
-iax2_report.registrations = {sip_report.registrations}
-iax2_report.trunks = {sip_report.trunks}
+iax2_report = IAX2 устройства
 menu.iax2_report = {iax2_report}
 module.iax2_report = {iax2_report}
+iax2_report.devices = {sip_report.devices}
+iax2_report.trunks = {sip_report.trunks}
+iax2_report.registrations = {sip_report.registrations}
+iax2_report.faxes = Fax устройства
+iax2_report.description = Описание

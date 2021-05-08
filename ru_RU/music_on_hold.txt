@@ -32,18 +32,18 @@ music_on_hold.order.shuffle = Случайно
 music_on_hold.order.shuffle.tooltip = Воспроизведение аудиофайлов в случайном порядке
 music_on_hold.order.tooltip = Порядок воспроизведения аудиофайлов
 music_on_hold.sound_player = Проигрыватель
-music_on_hold.application = Application
-music_on_hold.application.tooltip = 
-	Application to be used for playing a streaming. If not application is provided, then, it will be use the mpg123 application
-	in the following format: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
-music_on_hold.insufficient_arguments = You've not provided the application script nor streaming URL. At least one of these fields must be provided
-music_on_hold.mode = Mode
-music_on_hold.mode.custom = Custom
-music_on_hold.mode.custom.tooltip = Run a custom application.
-music_on_hold.mode.files = Files
-music_on_hold.mode.files.tooltip = Read files from a directory in any Asterisk supported media format
-music_on_hold.mode.tooltip = It defines the mode for playing or retrieve the music on hold.
-music_on_hold.streaming_format = Format
-music_on_hold.streaming_format.tooltip = The 'format' option specifies the audio format that the 'application' will provide to Asterisk.
-music_on_hold.streaming_url = Streaming URL
-music_on_hold.streaming_url.tooltip = URL to be streamed by the defined application
+music_on_hold.mode = Режим
+music_on_hold.mode.tooltip = Определяет режим воспроизведения или возвращения музыки на удержании.
+music_on_hold.mode.files = Файлы
+music_on_hold.mode.files.tooltip = Чтение файлов из каталога в любом медиаформате, поддерживаемом Asterisk
+music_on_hold.mode.custom = Пользовательское
+music_on_hold.mode.custom.tooltip = Запустить пользовательское приложение.
+music_on_hold.application = Приложение
+music_on_hold.application.tooltip =
+	Приложение, которое будет использоваться для воспроизведения потокового аудио. Если приложение не указано, 
+	то будет использоваться приложение mpg123 в следующем формате: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>	
+music_on_hold.streaming_url = URL потока
+music_on_hold.streaming_url.tooltip = URL потока, который будет транслироваться указанным приложением
+music_on_hold.streaming_format = Формат
+music_on_hold.streaming_format.tooltip = Параметр <b>'Формат'</b> указывает аудиоформат, который <b>'Приложение'</b> будет предоставлять Asterisk.
+music_on_hold.insufficient_arguments = Вы не ввели скрипт приложения или URL потока. Необходимо заполнить хотя бы одно из этих полей.
