@@ -282,10 +282,10 @@ extensions.welcome_email.no_template = Impossibile trovare il modello richiesto.
 extensions.welcome_email.sent = L'email di Benvenuto è stata inviata.
 extensions.dynamic_external_cid = Dynamic External CID
 extensions.dynamic_external_cid.tooltip = 
-	When enabled, it will take as external CID the caller id sent by the devices connected to this extension. This is
-	useful when the extension' devices are used as trunks.
+	Quando abilitato, utilizzerà come CID esterno l'ID chiamante inviato dai dispositivi collegati a questo interno. Questo è
+        utile quando i dispositivi dell'estensione vengono utilizzati come trunk.
 extensions.internal_numbers_confirmation = Prompt Internal Callees
 extensions.internal_numbers_confirmation.tooltip = 
-	It allows you to define if the internal' called parties will be asked whether they wish to accept or not the incoming
-	call when the "Prompt Callee" option is enabled.
-extensions.push.max_reached = You've reached the maximum number of devices with the "Push" option enabled that your current license allows.
+	Permette di definire se agli interlocutori interni verrà chiesto se desiderano accettare o meno l'arrivo
+        chiamare quando l'opzione "Chiedi al destinatario della chiamata" è abilitata.
+extensions.push.max_reached = Hai raggiunto il numero massimo di dispositivi con l'opzione "Push" abilitata consentito dalla tua licenza corrente.

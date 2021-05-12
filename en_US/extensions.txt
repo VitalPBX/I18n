@@ -283,3 +283,8 @@ extensions.internal_numbers_confirmation = Prompt Internal Callees
 extensions.internal_numbers_confirmation.tooltip =
 	It allows you to define if the internal' called parties will be asked whether they wish to accept or not the incoming
 	call when the "Prompt Callee" option is enabled.
+extensions.contact = Contact Info
+extensions.mobile_number.tooltip = The mobile phone number that belongs to this extension
+extensions.home_number.tooltip = The landline number that belongs to this extension
+extensions.organization.tooltip = The organization to which this extension belongs to
+extensions.job_title.tooltip = The job title of the user to which this extension belongs to
