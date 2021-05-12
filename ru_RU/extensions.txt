@@ -283,3 +283,8 @@ extensions.internal_numbers_confirmation = Сообщение о вызове
 extensions.internal_numbers_confirmation.tooltip =
 	Позволяет вам определить, будут ли задаваться вопрос вызываемой стороне о том, хочет ли она принять входящий вызов, 
 	когда включена опция «Запрос о вызове».	
+extensions.contact = Контактная информация
+extensions.mobile_number.tooltip = Мобильный телефон владельца этого внутреннего номера
+extensions.home_number.tooltip = Стационарный телефон владельца этого внутреннего номера
+extensions.organization.tooltip = Организация, которой принадлежит этот внутренний номер
+extensions.job_title.tooltip = Должность владельца этого внутреннего номера
