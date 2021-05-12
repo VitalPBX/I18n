@@ -56,7 +56,7 @@ extensions_status.device_info.status = Статус
 extensions_status.device_info.host = Хост
 extensions_status.device_info.useragent = Клиент
 extensions_status.no_devices = Нет устройств
-menu.extensions_status = <span style="margin-left: -5px;">Дополнительные настройки</span>
+menu.extensions_status = Дополнительные настройки
 module.extensions_status = Доп. настройки
 extensions_status.device_info.username_channel = Технология / Номер
 extensions_status.device_info.port = Порт
