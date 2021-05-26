@@ -168,7 +168,7 @@ pcs.tenant.tooltip = Арендатор, которому настраивают
 provisioning_templates.provisioning_settings = {menu.provisioning_settings}
 provisioning_templates.provisioning_settings.tooltip =
 	Позволяет вам выбрать профиль с настройками сервера, который будет использоваться для подключения телефонных устройств к АТС.
-provisioning_templates.name.invalid = Вы должны указать правильное имя для этого шаблона
+provisioning_templates.name.invalid = Вы должны указать правильное название для этого шаблона
 provisioning_templates.setting_id.invalid = Вы должны выбрать профиль с настройками сервера
 provisioning.tenant = {tenant}
 provisioning.general = {vitalpbx.general}
@@ -372,3 +372,4 @@ provisioning.type.speed_dial_xfer = Speeddial/Xfer
 provisioning.type.sprecode = Sprecode
 provisioning.type.xfer = Transfer
 provisioning.type.xml = XML
+provisioning.invalid_mac_address = Вы указали неверный MAC-адрес
