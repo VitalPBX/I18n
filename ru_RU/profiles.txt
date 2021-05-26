@@ -1,7 +1,7 @@
 menu.profiles = Профили
 module.profiles = Профили
 profiles = Профили
-profiles_advanced = Продвинутые
+profiles_advanced = Расширенные
 profiles_advanced_add = Добавить
 profiles_advanced_parameter = Параметр
 profiles_advanced_value = Значение
