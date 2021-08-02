@@ -46,3 +46,5 @@ branding.addon.url_prefix.tooltip =
 branding.app_name = Application Name
 branding.addon.app_name.tooltip =
 	It allows you to define the application name/title to be shown in the browsers' tab.
+branding.desktop_logo_dark = Desktop Logo (Dark Mode)
+branding.mobile_logo_dark = Mobile Logo (Dark Mode)
