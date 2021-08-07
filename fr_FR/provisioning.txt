@@ -289,3 +289,7 @@ provisioning_templates.timezone.tooltip = Fuseau horaire à utiliser pour les t�
 provisioning_templates.unique_name = Nom unique
 provisioning_templates.unique_name.tooltip = Nom unique pour cette Template . Ce nom peut être utilisé lors de l'importation de périphériques
 provisioning_templates.validation.in_use = La Template actuel ne peut pas être supprimé car il est utilisé par certains appareils
+provisioning.type.blf/new_call = {provisioning.type.memory_key_blf/new_call}
+provisioning.invalid_mac_address = Vous n'avez pas fourni d'adresse MAC valide
+provisioning.description = Description
+provisioning.description.tooltip = Une brève description pour identifier à qui appartient cet appareil.

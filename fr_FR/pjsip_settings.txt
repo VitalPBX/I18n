@@ -78,3 +78,15 @@ pjsip_settings.allow_reload.tooltip =
 	Il définit si les transports PJSIP seront rechargés lorsque res_pjsip est rechargé.
 	Il est recommandé de définir cette option sur "non" car le rechargement d'un transport peut perturber les appels en cours.
 pjsip_settings.language.tooltip = Langue par défaut à utiliser pour les canaux créés par les points de terminaison PJSIP
+pjsip_settings.endpoint_identifier_order = Ordre des identifiants de point de terminaison
+pjsip_settings.endpoint_identifier_order.tooltip =
+	Cette option permet de définir une liste de noms d'identifiants de points de terminaison.
+	L'ordre de la liste est l'ordre spécifié dans lequel les identifiants nommés vérifient la requête. Par défaut : <b>"IP,Nom d'utilisateur,Anonyme"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Nom d'utilisateur
+pjsip_settings.endpoint_identifier_order.anonymous = Anonyme
+pjsip_settings.endpoint_identifier_order.auth_username = Nom d'utilisateur d'authentification
+pjsip_settings.endpoint_identifier_order.header = Entête
+pjsip_settings.ms_signaling_address = Domaine MS Teams
+pjsip_settings.ms_signaling_address.tooltip =Le domaine à envoyer lors d'un appel via une jonction avec le transport « TLS+MSTeams ». par exemple : <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = Le domaine MS fourni n'est pas valide. Veuillez fournir un FQDN valide.

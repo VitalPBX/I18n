@@ -44,3 +44,9 @@ ring_group.answered_elsewhere.tooltip =
 ring_group.allow_diversions = Autoriser les détournements
 ring_group.allow_diversions.tooltip =
 	Permet de définir si les déviations définies pour les différents membres des extensions seront appliquées ou non.
+ring_group.skip_busy = Ignorer les extensions occupées
+ring_group.skip_busy.tooltip = Si défini sur oui, tout poste répertorié avec un état occupé sera ignoré.
+ring_group.no_release = Pas de libération
+ring_group.no_release.tooltip =
+	Il ajoute l'indicateur de non-libération (\n) aux membres du groupe d'appel ; cela évite de créer plusieurs éléments sur le CDR ;
+	néanmoins, certains téléphones peuvent présenter des problèmes de transfert lorsque cette option est activée ; par conséquent, vous pouvez désactiver cette option si nécessaire.	

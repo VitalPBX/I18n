@@ -234,3 +234,29 @@ trunks.t38_udptl_maxdatagram.tooltip =
 	Taille maximale du datagramme T.38 UDPTL. Cette option peut être définie pour remplacer le datagramme maximal d'un point de terminaison distant pour les points de terminaison cassés.
 trunks.t38_udptl_nat = T.38 UDPTL NAT
 trunks.t38_udptl_nat.tooltip = Si la prise en charge NAT est activée sur les sessions UDPTL
+
+trunks.disable_hangup_audios = Désactiver les audios de raccrochage
+trunks.disable_hangup_audios.tooltip =
+	S'il est défini sur oui, les audios lus en fonction de la cause du raccrochage seront désactivés.
+	L'activation de cette option est pratique pour les environnements où le PBX est destiné à l'utilisation des appels de transit.
+trunks.dial_prefix = Préfixe de numérotation
+trunks.dial_prefix.tooltip = S'il est défini, le préfixe sera ajouté à tout numéro composé via ce trunk.
+trunks.identify_by = Identifier par
+trunks.identify_by.tooltip =
+	Les points finaux et les AOR peuvent être identifiés de plusieurs manières. Cette option est une liste de méthodes permettant d'identifier le point de terminaison.
+	Si aucune option n'est sélectionnée, le "Nom d'utilisateur" et "IP" seront utilisés par défaut.
+trunks.identify_by.username = Nom d'utilisateur
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Nom d'utilisateur d'authentification
+trunks.identify_by.header = En-tête
+trunks.identify_by.username.tooltip = Identifier par le nom d'utilisateur et le domaine De ou Vers.
+trunks.identify_by.ip.tooltip = Identifier par l'adresse IP source.
+trunks.identify_by.auth_username.tooltip = Identifier par le nom d'utilisateur et le domaine d'autorisation.
+trunks.identify_by.header.tooltip = Identifier par une valeur d'en-tête SIP configurée.
+trunks.match_header = En-tête de correspondance
+trunks.match_header.tooltip =
+	Un en-tête SIP dont la valeur est utilisée pour la correspondance. Les demandes SIP contenant l'en-tête, ainsi que la valeur spécifiée, seront mappées au point de terminaison spécifié.
+	L'en-tête doit être spécifié avec un <b> :</b>, comme dans <b>match_header = SIPHeader : value</b>.
+	La valeur d'en-tête SIP spécifiée peut être une expression régulière si la valeur est de la forme <b>/regex/</b>.
+	Gardez à l'esprit que l'utilisation d'une expression régulière est coûteuse, alors assurez-vous que vous devez utiliser une expression régulière pour correspondre à votre point de terminaison.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams

@@ -18,7 +18,7 @@ menu.branding = {branding}
 module.branding = {branding}
 branding.instagram_page = Page Instagram
 branding.app_name = Nom de l'APP
-branding.app_name.tooltip = Il vous permet de modifier le nom du locataire principal
+branding.app_name.tooltip = Il permet de définir le nom/titre de l'application à afficher dans l'onglet des navigateurs.
 branding.meet_url = URL Visio conférence
 branding.meet_url.tooltip = URL à utiliser par défaut pour les conférences générées via le module de visioconférences
 branding.login = Design de connexion
@@ -45,3 +45,5 @@ branding.addon.url_prefix.tooltip =
 	<b>"{1}"</b>, signifie que vous devez accéder à l'application de la manière suivante <b>http(s)://YOUR_IP/{1}</b>
 branding.addons = Modules complémentaires
 branding.url_prefix = Préfixe d'URL
+branding.desktop_logo_dark = Logo du bureau (mode sombre)
+branding.mobile_logo_dark = Logo mobile (mode sombre)
