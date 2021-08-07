@@ -75,3 +75,5 @@ backup_and_restore.validations.no_backup_data = Pas assez d'informations reçues
 backup_and_restore.old_backup =
 	Les sauvegardes de la version {0} ne peuvent pas être restaurées sur {1} avec des versions supérieures à {2}. 
 	Votre sauvegarde doit être à partir d'une version égale ou supérieure à {3}
+backup_and_restore.addons = Modules complémentaires
+backup_and_restore.addons.tooltip = Il vous permet de sélectionner les modules complémentaires sur lesquels la base de données sera sauvegardée

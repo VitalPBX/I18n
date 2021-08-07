@@ -212,3 +212,4 @@ updates.available = Mises à jour disponibles
 updates.nothing_found = Aucune mise à jour disponible
 updates.updating = Mise à jour du système
 vitalpbx.custom_numbers = Numéro personnalisé
+copy = Copie

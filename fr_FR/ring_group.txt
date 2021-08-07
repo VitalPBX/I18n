@@ -50,3 +50,7 @@ ring_group.no_release = Pas de libération
 ring_group.no_release.tooltip =
 	Il ajoute l'indicateur de non-libération (\n) aux membres du groupe d'appel ; cela évite de créer plusieurs éléments sur le CDR ;
 	néanmoins, certains téléphones peuvent présenter des problèmes de transfert lorsque cette option est activée ; par conséquent, vous pouvez désactiver cette option si nécessaire.	
+ring_group.answerchannel = Canal de réponse
+ring_group.answerchannel.tooltip =
+	S'il est défini sur « oui », les appels entrants vers cette application seront répondus avant de commencer à faire sonner la liste des numéros définis ici.
+	Configurer ce paramètre sur « non » peut empêcher la lecture de certains fichiers audio ou de la musique d'attente.

@@ -27,7 +27,7 @@ extensions.class_of_service_id = Classe de service
 extensions.class_of_service_id.tooltip = Le dialplan peut être ségmenté en sections, appelées classes de services (CoS). les classes de services sont des unitées organisationnelles dans le dialplan, et permettent de garder les différentes sections du diaplan indépendantes les unes des autres. Ombutel utilise les classes de service pour améliorer la sécurité entre les différentes parties du dialplan, mais aussi pour fournir différents droits à différentes groupes d'utilisateurs.
 extensions.confirm = Valider
 extensions.confirm_unlink_device = Etes vous sur de vouloir délier l'équipement "%s" ? Celui ci sera automatiquement défini en mode Hot Desking.
-extensions.contacts = Info contact
+extensions.contacts = Info contacts
 extensions.default = Défaut
 extensions.delete = Supprimer
 extensions.delete.tooltip = Le message vocal est effacé du système après envoi via email
@@ -290,3 +290,8 @@ extensions.internal_numbers_confirmation.tooltip =
 	Il permet de définir s'il sera demandé aux appelés internes s'ils souhaitent accepter ou non l'appel entrant 
 	lorsque l'option « Inviter l'appelé » est activée.
 extensions.push.max_reached = Vous avez atteint le nombre maximum d'appareils avec l'option "Push" activée que votre licence actuelle permet.
+extensions.contact = Info Contact
+extensions.mobile_number.tooltip = Le numéro de téléphone mobile qui appartient à cette extension
+extensions.home_number.tooltip = Le numéro de téléphone fixe qui appartient à cette extension
+extensions.organization.tooltip = L'organisation à laquelle appartient cette extension
+extensions.job_title.tooltip = La fonction de l'utilisateur auquel appartient cette extension

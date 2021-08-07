@@ -43,7 +43,7 @@ queues_callback.periodic_announcement.tooltip =
 queues_callback.queue = file d'attente de rappel
 queues_callback.queue.tooltip = Il vous permet de définir la file d'attente où les appelants qui demandent un rappel seront envoyés.
 queues_callback.ringtime = {extensions.ringtime}
-queues_callback.ringtime.tooltip = Il vous permet de définir la durée pendant laquelle les numéros de rappel sonneront avant de marquer l'appel comme non répondu
+queues_callback.ringtime.tooltip = Il vous permet de définir la durée (en secondes) pendant laquelle les numéros de rappel sonneront avant de marquer l'appel comme non répondu
 queues_callback.same_queue = même file d'attente
 queues_callback.time_group = Groupe de temps
 queues_callback.time_group.tooltip =
@@ -54,3 +54,5 @@ queues_callback.thank_you_prompt.tooltip =
 queues_callback.dial_agents_first = Appelez les agents en premier
 queues_callback.dial_agents_first.tooltip =
 	S'il est défini sur oui, les rappels programmés seront d'abord envoyés aux agents, puis au client.
+queues_callback.priority = Priorité
+queues_callback.priority.tooltip = Il s'agit de la priorité à appliquer lorsqu'un appel programmé entre dans la file d'attente. Une valeur plus élevée signifie une priorité plus élevée.
