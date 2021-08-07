@@ -1,7 +1,7 @@
 menu.profiles = Профили
 module.profiles = Профили
 profiles = Профили
-profiles_advanced = Продвинутые
+profiles_advanced = Расширенные
 profiles_advanced_add = Добавить
 profiles_advanced_parameter = Параметр
 profiles_advanced_value = Значение
@@ -163,7 +163,7 @@ profiles_pjsip_rtcp_mux_tooltip =
 	позволяют использовать эту опцию.
 profiles_pjsip_media_use_received_transport = Полученный медиа поток
 profiles_pjsip_media_use_received_transport_tooltip = Если установлено <b>Да</b>, res_pjsip будет использовать принятый медиа поток. Если установлено <b>Нет</b>, res_pjsip будет использовать соответствующий профиль RTP в зависимости от конфигурации.
-profiles_pjsip_media_encryption_optimistic = Оптимистичное шифрование.
+profiles_pjsip_media_encryption_optimistic = Оптимистичное шифрование
 profiles_pjsip_media_encryption_optimistic_tooltip = Определяет, подключаться даже без шифрования или завершать сессию.
 profiles_pjsip_asymmetric_rtp_codec = Асимметричный RTP-кодек
 profiles_pjsip_asymmetric_rtp_codec_tooltip = Если установлено <b>Да</b>, то кодек, используемый для отправки, будет отличаться от принятого кодека. PJSIP не будет автоматически переключать отправленный кодек на принятый.

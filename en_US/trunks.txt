@@ -243,3 +243,28 @@ trunks.t38_udptl_ipv6.tooltip = Whether IPv6 is used for UDPTL Sessions
 trunks.max_contacts.tooltip =
 	Maximum number of contacts that can associate with this AoR. This value does not affect the number of contacts that
 	can be added with the "contact" option. It only limits contacts added through external interaction, such as registration.
+trunks.disable_hangup_audios = Disable Hangup Audios
+trunks.disable_hangup_audios.tooltip =
+	If set to yes, the audios played depending on hangup cause will be disabled. Enabling this option comes in handy
+	for those environments where the PBX is for transit calls usage.
+trunks.dial_prefix = Dial Prefix
+trunks.dial_prefix.tooltip = If defined, the prefix will be prepended to any number dialed through this trunk.
+trunks.identify_by = Identify By
+trunks.identify_by.tooltip =
+	Endpoints and AORs can be identified in multiple ways. This option is a list of methods the endpoint can be identified.
+	If no options are selected, the "Username" and "IP" will be used by default.
+trunks.identify_by.username = Username
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Auth Username
+trunks.identify_by.header = Header
+trunks.identify_by.username.tooltip = Identify by the From or To username and domain.
+trunks.identify_by.ip.tooltip = Identify by the source IP address.
+trunks.identify_by.auth_username.tooltip = Identify by the Authorization username and realm.
+trunks.identify_by.header.tooltip = Identify by a configured SIP header value.
+trunks.match_header = Match Header
+trunks.match_header.tooltip =
+	A SIP header whose value is used to match against. SIP requests containing the header, along with the specified value,
+	will be mapped to the specified endpoint. The header must be specified with a <b>:</b>, as in <b>match_header = SIPHeader: value</b>.
+	The specified SIP header value can be a regular expression if the value is of the form <b>/ regex/</b>.
+	Bear in mind that the use of a regex is expensive, so be sure you need to use a regex to match your endpoint.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams

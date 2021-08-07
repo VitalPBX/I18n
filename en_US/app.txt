@@ -57,3 +57,5 @@ app.invalid_data = You've not provided enough data to perform the requested acti
 app.call_sent = The call has been sent
 app.call_cannot_be_sent = It was not possible sent the call
 app.insufficient_data =  Cannot execute the requested action due you have provided insufficient data
+app.plan.starter = Starter
+app.plan.starter-plus = Starter Plus

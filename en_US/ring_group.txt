@@ -48,3 +48,9 @@ ring_group.answerchannel = Answer Channel
 ring_group.answerchannel.tooltip =
 	If set to "yes" incoming calls to this application will be answered before starting to ring the list of numbers
 	defined here. Setting up this to "no" might cause some audios or the music on hold to no be played.
+ring_group.skip_busy = Skip Busy Extensions
+ring_group.skip_busy.tooltip = If set to yes, any listed extension with a state of busy will be skipped.
+ring_group.no_release = No Release
+ring_group.no_release.tooltip =
+	It adds the no release flag (\n) to the ring group members; this avoids creating multiple items on CDR; nevertheless,
+	some phones can present issues on the transfer when this option is enabled; therefore, you can disable this option when required.
