@@ -9,5 +9,5 @@ ars.outbound_route_id = Route sortante
 ars.time_group_id = Condition horaire
 menu.route_selections = Discrimination (LCR)
 module.ars = Discrimination (LCR)
-ars.used_by_cos = This item cannot be deleted because is being used for one or more <b>Classes of Services</b>
+ars.used_by_cos = Cet élément ne peut pas être supprimé car il est utilisé pour une ou plusieurs <b>Classes de services</b>
 ars.none = {none}

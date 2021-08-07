@@ -186,107 +186,107 @@ extensions.permit.invalid = L'adresse ip autorisée est invalide. Veuillez saisi
 extensions.name.invalid = Le nom de l'extension %s ne peut contenir de virgule ","
 module.extensions = Extensions
 extensions.actions = Actions
-extensions.call_waiting = Call Waiting
-extensions.call_waiting.tooltip = If you uncheck this option, only one incoming call will be allowed to this extension.
-extensions.cid_number.tooltip = Optional cid number to make route more specific.
-extensions.dial_profile_id = Dial Profile
-extensions.dial_profile_id.tooltip = Allows you to select the profile to use with the dial options to apply to your incoming calls.
-extensions.features_password.invalid = Feature Password is invalid. Use only numbers and the "*" (asterisk) symbol.
-extensions.invalid.already_exists = Invalid Extension number {0}. The number is in use by {1} module.
-extensions.notification.added = The extension {0} has been added
-extensions.notification.confirm.delete = Are you sure than you want delete the extension <b>"{0}"</b>
-extensions.notification.deleted = The extension {0} has been deleted
-extensions.notification.updated = The extension {0} has been updated
-extensions.number.duplicated = The extension {0} is already in use, please check and try again.
-extensions.portal_user.duplicated = The portal username has conflict with another user with the same username, please check and try again.
+extensions.call_waiting = Appel en attente
+extensions.call_waiting.tooltip = Si vous décochez cette option, un seul appel entrant sera autorisé vers cette extension.
+extensions.cid_number.tooltip = Numéro CID facultatif pour rendre l'itinéraire plus spécifique.
+extensions.dial_profile_id = Profil de numérotation
+extensions.dial_profile_id.tooltip = Vous permet de sélectionner le profil à utiliser avec les options de numérotation à appliquer à vos appels entrants.
+extensions.features_password.invalid = Le mot de passe de la fonction n'est pas valide. N'utilisez que des chiffres et le symbole "*" (astérisque).
+extensions.invalid.already_exists = Numéro d'extension {0} non valide. Le numéro est utilisé par le module {1}.
+extensions.notification.added = L'extension {0} a été ajoutée
+extensions.notification.confirm.delete = Êtes-vous sûr de vouloir supprimer l'extension <b>"{0}"</b>
+extensions.notification.deleted = L'extension {0} a été supprimée
+extensions.notification.updated = L'extension {0} a été mise à jour
+extensions.number.duplicated = L'extension {0} est déjà utilisée, veuillez vérifier et réessayer.
+extensions.portal_user.duplicated = Le nom d'utilisateur du portail est en conflit avec un autre utilisateur avec le même nom d'utilisateur, veuillez vérifier et réessayer.
 extensions.route_description = Description
-extensions.route_description.tooltip = A short description to identify the route.
-extensions.routes.no_desc = For add a new incoming route please provide a valid description.
-extensions.routing = Incoming Routes
-extensions.user.invalid.spaces = User Device must not contain spaces
+extensions.route_description.tooltip = Une courte description pour identifier la route.
+extensions.routes.no_desc = Pour ajouter une nouvelle route entrante, veuillez fournir une description valide.
+extensions.routing = Routes entrantes
+extensions.user.invalid.spaces = L'appareil utilisateur ne doit pas contenir d'espaces
 module.fax = Fax
-module.follow_me = Follow Me
-module.voicemail = Voicemail
-extensions.callcenter = Call Center Settings
-extensions.dynamic_queues = Dynamic Queues
-extensions.dynamic_queues.tooltip = 	It allows you to define the list of queues in which this extension will be listed as a dynamic agent.
+module.follow_me = Suivez-moi
+module.voicemail = Messagerie vocale
+extensions.callcenter = Paramètres du centre d'appels
+extensions.dynamic_queues = Files d'attente dynamiques
+extensions.dynamic_queues.tooltip = Il vous permet de définir la liste des files d'attente dans lesquelles cette extension sera répertoriée en tant qu'agent dynamique.
 extensions.extension.tab = Extension {0}
-extensions.fxs_channel.invalid = FXS channel cannot be empty
-extensions.queue_listed_as_dynamic_and_static = 	This extension cannot be listed as dynamic and static agent of queue <b>"{0}"</b> at the same time
-extensions.static_queues = Static Queues
-extensions.static_queues.tooltip = 	It allows you to define the list of queues in which this extension will be listed as a static agent.
-extensions.ask_password = Ask Password
-extensions.ask_password.tooltip = 
-	It allows to define if the users who dials <b>{0}</b> to access to their own voicemail will be prompted to enter
-	its voicemail password or not. This doesn't apply for the "{1} ({2})" feature.
-extensions.callback = Allow to Call Back
-extensions.callback.tooltip = 
-	If checked, users will be available to call back to the sender of a message. The specified Class of Service will need
-	to be able to handle dialing of numbers in the format in which they are received (for example, the country code may
-	not be received with the caller ID, but might be required for the outgoing call).
-extensions.create_hint = Generate Hint
-extensions.create_hint.tooltip = 
-	If enabled, it will be possible to remotely monitor the voicemail status of this extension through a BLF key. To
-	configure the BLF you must to use the following format: vm_1234, where 1234 is the extension that will be
-	monitored
-extensions.dialout = Allow to Dial Out
-extensions.dialout.tooltip = 
-	If allowed, users can dial out from their mailboxes (option 4 from mailbox's advanced menu). <b>This is considered a very dangerous feature in a phone system
-	(mainly because many voicemail users like to use 1234 as their password), and is therefore not recommended</b>.
-extensions.dynamic_routing = Dynamic Routing
-extensions.dynamic_routing.tooltip = 
-	Allows you to enable or not the dynamic routing for this extension. If enabled, when an outside party
-	(who previously was called by this extension) calls back, his call will be routed directly to this extension
-extensions.emergency_cid = Emergency CID
-extensions.emergency_cid.tooltip = 
-	It allows to define the caller id that will be used in case of calling an emergency number
+extensions.fxs_channel.invalid = le canal FXS ne peut pas être vide
+extensions.queue_listed_as_dynamic_and_static = Cette extension ne peut pas être répertoriée en tant qu'agent dynamique et statique de la file d'attente <b>"{0}"</b> en même temps
+extensions.static_queues = Files d'attente statiques
+extensions.static_queues.tooltip = Il vous permet de définir la liste des files d'attente dans lesquelles cette extension sera répertoriée en tant qu'agent statique.
+extensions.ask_password = Demander le mot de passe
+extensions.ask_password.tooltip =
+	Permet de définir si les utilisateurs qui appellent <b>{0}</b> pour accéder à leur propre messagerie vocale seront invités à saisir
+	leurs mot de passe de messagerie vocale ou non. Cela ne s'applique pas à la fonctionnalité "{1} ({2})".
+extensions.callback = Autoriser le rappel
+extensions.callback.tooltip =
+	Si coché, les utilisateurs seront disponibles pour rappeler l'expéditeur d'un message. 
+	La classe de service spécifiée devra être capable de gérer la composition des numéros dans le format dans lequel ils sont reçus 
+	(par exemple, le code du pays peut ne pas être reçu avec l'ID de l'appelant, mais peut être requis pour l'appel sortant).
+extensions.create_hint = Générer un Hint
+extensions.create_hint = Générer un Hint
+extensions.create_hint.tooltip =
+	S'il est activé, il sera possible de surveiller à distance l'état de la messagerie vocale de ce poste via une touche BLF. 
+	Pour configurer le BLF vous devez utiliser le format suivant : vm_1234, où 1234 est l'extension qui sera surveillée
+extensions.dialout = Autoriser les appels sortants
+extensions.dialout.tooltip =
+	S'il est autorisé, les utilisateurs peuvent appeler à partir de leurs boîtes aux lettres (option 4 du menu avancé de la boîte aux lettres). <b>Ceci est considéré comme une fonctionnalité très dangereuse dans un système téléphonique
+	(principalement parce que de nombreux utilisateurs de messagerie vocale aiment utiliser 1234 comme mot de passe), et n'est donc pas recommandé</b>.
+extensions.dynamic_routing = Routage dynamique
+extensions.dynamic_routing.tooltip =
+	Permet d'activer ou non le routage dynamique pour cette extension. Si activé, lorsqu'un tiers
+	(qui était précédemment appelé par ce poste) rappelle, son appel sera acheminé directement vers ce poste
+extensions.emergency_cid = CID d'urgence
+extensions.emergency_cid.tooltip =
+	Il permet de définir l'identifiant de l'appelant qui sera utilisé en cas d'appel d'un numéro d'urgence
 extensions.emergency_cid_name = {extensions.external_cid_name}
 extensions.emergency_cid_number = {extensions.external_cid_number}
-extensions.max_reached = You have reached the maximum number of allowed extensions
-extensions.pinless = Pinless
-extensions.pinless.tooltip = 
-	If enabled, the user of this extension will not be prompted to enter pin on outbound routes that have
-	assigned a pin set
-module.vm_busy = Voicemail Busy
-module.vm_direct = Voicemail Direct
-module.vm_unavailable = Voicemail Unavailable
-extensions.cid_on_diversions = CallerID On Diversions
+extensions.max_reached = Vous avez atteint le nombre maximum d'extensions autorisées
+extensions.pinless = Sans PIN
+extensions.pinless.tooltip =
+	Si activé, l'utilisateur de cette extension ne sera pas invité à saisir le code PIN sur les itinéraires sortants 
+	qui ont d'attribué un codes PIN
+module.vm_busy = Messagerie vocale occupée
+module.vm_direct = Messagerie vocale directe
+module.vm_unavailable = Messagerie vocale indisponible
+extensions.cid_on_diversions = CallerID sur les déviations
 extensions.cid_on_diversions.callee = {parking.callee}
 extensions.cid_on_diversions.caller = {parking.caller}
-extensions.cid_on_diversions.tooltip = 
-	It allows you to define what caller id will be sent when a diversion is performed.<br><br>
-	<b>{parking.caller}: </b> It will be sent the caller id of who is calling. <br>
-	<b>{parking.callee}: </b> It will be sent the caller id of who received the call.
-extensions.followme.enabled = Enabled
-extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
-extensions.initial_ringtime = Initial Ring Time
-extensions.initial_ringtime.not_ring = Not Ring
-extensions.initial_ringtime.tooltip = Time in seconds to ring the primary extension before calling to the members on the follow-me list
-extensions.outbound_profile = Outbound Profile
-extensions.outbound_profile.tooltip = 
-	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
-	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
-	be able to call or not to certain numbers.
-extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
-extensions.email_multiple = Email Addresses
-extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
-extensions.vitxi_clients.max_reached = You've reached the maximum number of Vitxi clients allowed for your current license.
-extensions.qr = QR Viewer
+extensions.cid_on_diversions.tooltip =
+	Il vous permet de définir l'identifiant de l'appelant qui sera envoyé lorsqu'un renvoi est effectué.<br><br>
+	<b>{parking.caller} : </b> Il sera envoyé l'identifiant de l'appelant qui appelle. <br>
+	<b>{parking.callee} : </b> Il sera envoyé l'identifiant de l'appelant qui a reçu l'appel.
+extensions.followme.enabled = Activé
+extensions.followme.enabled.tooltip = Il vous permet d'activer/désactiver la fonction "Suivez-moi" sur cette extension
+extensions.initial_ringtime = Durée de sonnerie initiale
+extensions.initial_ringtime.not_ring = Ne sonne pas
+extensions.initial_ringtime.tooltip = Temps en secondes pour faire sonner le poste principal avant d'appeler les membres de la liste de suivi
+extensions.outbound_profile = Profil sortant
+extensions.outbound_profile.tooltip =
+	Vous permet de définir un profil sortant pour cette extension. 
+	Ces profils doivent contenir une collection de routes sortantes et leurs modèles respectifs, 
+	donc, selon le profil sortant, l'utilisateur de cette extension pourra appeler ou non certains numéros.
+extensions.validation.no_push = Vous ne pouvez pas activer les paramètres de notification push sur plus de cinq appareils avec votre forfait actuel.
+extensions.email_multiple = Adresses e-mail
+extensions.email_multiple.tooltip = Liste des adresses e-mail séparées par une virgule vers lesquelles les messages de service seront envoyés.
+extensions.vitxi_clients.max_reached = Vous avez atteint le nombre maximum de clients Vitxi autorisé pour votre licence actuelle.
+extensions.qr = visionneuse QR
 extensions.qr.fqdn = FQDN
-extensions.qr.invalid_device = Cannot show QR for this device because doesn't exist or is invalid.
-extensions.qr.private = Private IP
-extensions.qr.public = Public IP
-extensions.send_welcome_email = Send Welcome Email
-extensions.show_qr = Show QR Code
-extensions.welcome_email.invalid_device = Cannot send the welcome email, looks like you've selected an invalid device
-extensions.welcome_email.no_template = Cannot find the requested template
-extensions.welcome_email.sent = The welcome email has been sent
-extensions.dynamic_external_cid = Dynamic External CID
-extensions.dynamic_external_cid.tooltip = 
-	When enabled, it will take as external CID the caller id sent by the devices connected to this extension. This is
-	useful when the extension' devices are used as trunks.
-extensions.internal_numbers_confirmation = Prompt Internal Callees
-extensions.internal_numbers_confirmation.tooltip = 
-	It allows you to define if the internal' called parties will be asked whether they wish to accept or not the incoming
-	call when the "Prompt Callee" option is enabled.
-extensions.push.max_reached = You've reached the maximum number of devices with the "Push" option enabled that your current license allows.
+extensions.qr.invalid_device = Impossible d'afficher le QR pour cet appareil car il n'existe pas ou n'est pas valide.
+extensions.qr.private = IP privée
+extensions.qr.public = IP publique
+extensions.send_welcome_email = Envoyer un e-mail de bienvenue
+extensions.show_qr = Afficher le QR code
+extensions.welcome_email.invalid_device = Impossible d'envoyer l'e-mail de bienvenue, il semble que vous ayez sélectionné un appareil invalide
+extensions.welcome_email.no_template = Impossible de trouver le modèle demandé
+extensions.welcome_email.sent = L'e-mail de bienvenue a été envoyé
+extensions.dynamic_external_cid = CID externe dynamique
+extensions.dynamic_external_cid.tooltip =
+	Lorsqu'il est activé, il prendra comme CID externe l'identifiant de l'appelant envoyé par les appareils connectés à ce poste. 
+	Cela utile lorsque les appareils du poste sont utilisés comme lignes réseau.
+extensions.internal_numbers_confirmation = Appels internes rapides
+extensions.internal_numbers_confirmation.tooltip =
+	Il permet de définir s'il sera demandé aux appelés internes s'ils souhaitent accepter ou non l'appel entrant 
+	lorsque l'option « Inviter l'appelé » est activée.
+extensions.push.max_reached = Vous avez atteint le nombre maximum d'appareils avec l'option "Push" activée que votre licence actuelle permet.

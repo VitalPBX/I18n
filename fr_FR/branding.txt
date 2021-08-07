@@ -1,47 +1,47 @@
-branding = Branding
-branding.base_color = Base Color
-branding.base_color.tooltip = Main color used for active menu items, active form tabs and selected text
-branding.desktop_logo = Desktop Logo
-branding.facebook_page = Facebook Page
+branding = Marque Blanche
+branding.base_color = Couleur de base
+branding.base_color.tooltip = Couleur principale utilisée pour les éléments de menu actifs, les onglets de formulaire actifs et le texte sélectionné
+branding.desktop_logo = Logo du bureau
+branding.facebook_page = page Facebook
 branding.general = {vitalpbx.general}
-branding.login_footer = Login Footer
-branding.login_footer.tooltip = It allows you to customize the footer content in the login screen
-branding.mobile_logo = Mobile Logo
-branding.page_title = APP Title
-branding.page_title.tooltip = Allows you to customize the header title that appears in the browser tab
-branding.slogan = Slogan
-branding.slogan.tooltip = It allows you to customize the Slogan that appears in the login screen
-branding.social.tooltip = It allows you to customize the <b>{0}</b> link that appears in the login footer
-branding.twitter_page = Twitter Page
-branding.youtube_channel = YouTube Channel
+branding.login_footer = Pied de page de connexion
+branding.login_footer.tooltip = Il vous permet de personnaliser le contenu du pied de page dans l'écran de connexion
+branding.mobile_logo = Logo mobile
+branding.page_title = Titre de l'APP
+branding.page_title.tooltip = Vous permet de personnaliser le titre de l'en-tête qui apparaît dans l'onglet du navigateur
+branding.slogan = slogan
+branding.slogan.tooltip = Il vous permet de personnaliser le slogan qui apparaît dans l'écran de connexion
+branding.social.tooltip = Il vous permet de personnaliser le lien <b>{0}</b> qui apparaît dans le pied de page de connexion
+branding.twitter_page = page Twitter
+branding.youtube_channel = chaîne YouTube
 menu.branding = {branding}
 module.branding = {branding}
-branding.instagram_page = Instagram Page
-branding.app_name = APP Name
-branding.app_name.tooltip = It allows you to modify the main tenant name
-branding.meet_url = Meet URL
-branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module
-branding.login = Login Design
-branding.login_addons_menu = Add-ons Menu
-branding.login_addons_menu.tooltip = Background color for the add-ons menu button
-branding.login_bg = Login Background
-branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
-branding.login_btn = Submit Button Color
-branding.login_btn.tooltip = Background color for the login button
-branding.login_fc = Font Color
-branding.login_fc.tooltip = Font color to be used in the login form
-branding.login_frm_bg = Form Background
-branding.login_frm_bg.tooltip = Background color for left panel in the login form
-branding.reset = Reset
-branding.reset.confirm = 
-	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
-	will be lost.
-branding.reset_applied = All the settings have been reset successfully.
-branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
-branding.addon.app_name.tooltip = 
-	It allows you to define the application name/title to be shown in the browsers' tab.
-branding.addon.url_prefix.tooltip = 
-	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
-	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
-branding.addons = Addons
-branding.url_prefix = URL Prefix
+branding.instagram_page = Page Instagram
+branding.app_name = Nom de l'APP
+branding.app_name.tooltip = Il vous permet de modifier le nom du locataire principal
+branding.meet_url = URL Visio conférence
+branding.meet_url.tooltip = URL à utiliser par défaut pour les conférences générées via le module de visioconférences
+branding.login = Design de connexion
+branding.login_addons_menu = Menu des modules complémentaires
+branding.login_addons_menu.tooltip = Couleur d'arrière-plan du bouton du menu des modules complémentaires
+branding.login_bg = Arrière-plan de connexion
+branding.login_bg.tooltip = Couleur de fond de la page de connexion. S'il n'est pas renseigné, l'arrière-plan par défaut sera utilisé.
+branding.login_btn = Soumettre la couleur du bouton
+branding.login_btn.tooltip = Couleur de fond du bouton de connexion
+branding.login_fc = Couleur de la police
+branding.login_fc.tooltip = Couleur de police à utiliser dans le formulaire de connexion
+branding.login_frm_bg = Arrière-plan du formulaire
+branding.login_frm_bg.tooltip = Couleur de fond pour le panneau de gauche dans le formulaire de connexion
+branding.reset = Réinitialiser
+branding.reset.confirm =
+	Voulez-vous vraiment réinitialiser les paramètres de la marque blanche? 
+	Ce processus est irréversible et toute la configuration que vous avez effectuée sera perdu.
+branding.reset_applied = Tous les paramètres ont été réinitialisés avec succès.
+branding.warning_note = Ces paramètres seront appliqués jusqu'à ce qu'une <a href="{0}" target="_blank">licence</a> soit appliquée au module complémentaire de marque blanche ou soit activée pour l'un des <a href= "{1}" target="_blank">forfaits disponibles</a>
+branding.addon.app_name.tooltip =
+	Permet de définir le nom/titre de l'application à afficher dans l'onglet des navigateurs.
+branding.addon.url_prefix.tooltip =
+	Permet de définir le préfixe à utiliser pour accéder sur l'application "<b>{0}</b>". ex. : si vous réglez le préfixe de
+	<b>"{1}"</b>, signifie que vous devez accéder à l'application de la manière suivante <b>http(s)://YOUR_IP/{1}</b>
+branding.addons = Modules complémentaires
+branding.url_prefix = Préfixe d'URL

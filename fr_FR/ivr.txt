@@ -47,15 +47,14 @@ ivr.welcome_msg_id = Message d'accueil
 ivr.welcome_msg_id.tooltip = Message d'accueil qui sera lu lorsque l'appelant entre dans ce SVI
 menu.ivr = SVI
 module.ivr = SVI
-ivr.generate_stats = Generate Stats
-ivr.generate_stats.tooltip = 	
-	If is set on yes, it will be saved stats for each option marked. These statistics can be consulted in the IVR
-	Stats module
-ivr.instructions_msg_id = Instructions Message
-ivr.instructions_msg_id.tooltip = Message to be played after the welcome message. This message is useful for avoid to repeat the welcome message on invalid/timeout event.
-ivr.cos.warning = 
-	The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for IVRs.</b>
+ivr.generate_stats = Générer des statistiques
+ivr.generate_stats.tooltip =
+	Si est défini sur oui, il sera enregistré des statistiques pour chaque option marquée. Ces statistiques sont consultables dans le Module de statistiques SVI
+ivr.instructions_msg_id = Message d'instructions
+ivr.instructions_msg_id.tooltip = Message à lire après le message de bienvenue. Ce message est utile pour éviter de répéter le message de bienvenue en cas d'événement invalide/délai d'expiration.
+ivr.cos.warning =
+	L'action que vous êtes sur le point d'effectuer peut créer des failles de sécurité. <b>Ne continuez que si vous êtes sûr de comprendre la logique de la classe de service pour les IVR.</b>
 ivr.cos.warning.cancel = {vitalpbx.cancel}
 ivr.cos.warning.confirm = {vitalpbx.accept}
-ivr.cos.warning.title = {warning}
-ivr.max_reached = You have reached the maximum number of IVRs allowed
+ivr.cos.warning.title = {avertissement}
+ivr.max_reached = Vous avez atteint le nombre maximum d'IVR autorisés
