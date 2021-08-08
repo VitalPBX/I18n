@@ -146,7 +146,7 @@ profiles_pjsip_dtls_setup_tooltip =
 	<b>Actif</b> (nous voulons nous connecter à l'autre partie), <br>
 	<b>Passif</b> (nous souhaitons accepter uniquement les connexions), <br>
 	<b>Actpass</b> (nous ferons les deux). <br>
-Cette valeur sera utilisée dans le SDP sortant lors de l'offre et pour les offres SDP entrantes lorsque la partie distante envoie l'actpass
+	Cette valeur sera utilisée dans le SDP sortant lors de l'offre et pour les offres SDP entrantes lorsque la partie distante envoie l'actpass
 profiles_pjsip_dtls_verify = Vérification DTLS
 profiles_pjsip_dtls_verify_certificate = Certificat
 profiles_pjsip_dtls_verify_fingerprint = Empreinte digitale

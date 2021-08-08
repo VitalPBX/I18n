@@ -24,8 +24,8 @@ maintenance.recordings_min_duration.tooltip =
 	Permet de définir la durée minimale en secondes pour qu'un enregistrement soit considéré comme trop court, et de le supprimer
 maintenance.recordings_preservation = Effacer les enregistrements les plus anciens
 maintenance.recordings_preservation.tooltip =
-Permet de définir le nombre maximum de jours pendant lesquels les enregistrements doivent être conservés. 
-Les enregistrements plus anciens que les jours définis ici seront supprimés
+	Permet de définir le nombre maximum de jours pendant lesquels les enregistrements doivent être conservés. 
+	Les enregistrements plus anciens que les jours définis ici seront supprimés
 maintenance.schedule = Planification
 maintenance.schedule.tooltip =
 	Permet de définir le planning dans lequel la maintenance du PBX sera exécutée (Conversion des Enregistrements,

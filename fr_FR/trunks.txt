@@ -108,7 +108,7 @@ trunks.nat = Nat
 trunks.outgoing_username.invalid = Veuillez saisir un nom de périphérique valide. Les valeurs alphanumériques avec tiret, trait de soulignement et signe plus sont autorisées
 trunks.trunk_cid_number.invalid = Le CID de ligne réseau n'est pas valide. Seuls *,#,+ et les chiffres sont autorisés.
 menu.trunks = Trunks
-trunks.continue_on_busy = Continuer sur Occupé
+trunks.continue_on_busy = Continuer sur Occupation
 trunks.continue_on_busy.tooltip =
 	Il force à continuer l'appel vers la prochaine ligne réseau configurée lorsque cette ligne réseau est occupée. <br><br> <b>Remarque : </b> L'appel se poursuivra également vers la ligne de réseau suivante si une erreur se produit, même si cette case n'est pas cochée.
 trunks.auth_rejection_permanent = Rejet d'authentification permanent

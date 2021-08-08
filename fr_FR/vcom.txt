@@ -33,8 +33,8 @@ vc.result_type.rescheduled = Planifié
 vc.schedule_date = Date de planification
 vc.scheduled = Programmé
 vc.secondes =
-[one] une seconde
-[other] {0} secondes
+	[one] une seconde
+	[other] {0} secondes
 vc.status = Statut
 vc.validation.no_description = Vous n'avez pas fourni de description valide
 vc.wrapup_time = Temps de clôture

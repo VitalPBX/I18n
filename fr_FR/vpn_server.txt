@@ -54,9 +54,9 @@ vpn_server.public_host = Hôte public
 vpn_server.public_host.tooltip = Hôte distant ou adresse IP sur le client, qui spécifie le serveur OpenVPN.
 vpn_server.redirect-gateway = Passerelle de redirection
 vpn_server.redirect-gateway.tooltip =
-Si elle est activée, cette directive configurera tous les clients pour rediriger leur passerelle réseau par défaut via le VPN, 
-provoquant le passage de tout le trafic IP tel que la navigation Web et les recherches DNS via le VPN 
-(la machine serveur OpenVPN peut avoir besoin de NAT ou de ponter le TUN/ TAP interface à Internet pour que cela fonctionne correctement)
+	Si elle est activée, cette directive configurera tous les clients pour rediriger leur passerelle réseau par défaut via le VPN, 
+	provoquant le passage de tout le trafic IP tel que la navigation Web et les recherches DNS via le VPN 
+	(la machine serveur OpenVPN peut avoir besoin de NAT ou de ponter le TUN/ TAP interface à Internet pour que cela fonctionne correctement)
 vpn_server.secondary_dns = DNS secondaire
 vpn_server.server = Serveur
 vpn_server.service_restarted = Les configurations ont été mises à jour et le service a été démarré

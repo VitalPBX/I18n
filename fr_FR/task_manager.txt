@@ -18,4 +18,4 @@ task_manager.enabled = Activé
 task_manager.enabled.tooltip = Vous permet d'activer/désactiver cette tâche
 task_manager.silent_mode = Mode silencieux
 task_manager.silent_mode.tooltip =
-Si activé, toute sortie du script sélectionné sera supprimée, évitant ainsi de recevoir des e-mails à chaque exécution du cron.
+	Si activé, toute sortie du script sélectionné sera supprimée, évitant ainsi de recevoir des e-mails à chaque exécution du cron.

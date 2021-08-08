@@ -1,6 +1,6 @@
 active_calls = Appels actifs
-active_calls.called_number = Called Number
-active_calls.caller_id = Numéro appelé
+active_calls.called_number = Numéro appelé
+active_calls.caller_id = Numéro de l'appelant
 active_calls.calls = Appels
 active_calls.channel = Canal
 active_calls.duration = Durée

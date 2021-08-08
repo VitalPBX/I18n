@@ -49,7 +49,6 @@ pjsip_settings.mwi_disable_initial_unsolicited.tooltip =
 	Lorsque la notification MWI initiale non sollicitée est activée au démarrage, les notifications initiales sont envoyées au démarrage.
 	Si vous avez beaucoup de points de terminaison (des milliers) qui utilisent des MWI non sollicités, vous pouvez envisager de désactiver les notifications de démarrage initiales.
 	Lorsque les notifications MWI initiales non sollicitées sont désactivées au démarrage, les notifications commenceront lors de la prochaine mise à jour de contact du point de terminaison.
-
 pjsip_settings.mwi_settings = Paramètres MWI
 pjsip_settings.mwi_tps_queue_high = File d'attente du processeur de tâches élevée
 pjsip_settings.mwi_tps_queue_high.tooltip =
@@ -81,7 +80,7 @@ pjsip_settings.language.tooltip = Langue par défaut à utiliser pour les canaux
 pjsip_settings.endpoint_identifier_order = Ordre des identifiants de point de terminaison
 pjsip_settings.endpoint_identifier_order.tooltip =
 	Cette option permet de définir une liste de noms d'identifiants de points de terminaison.
-	L'ordre de la liste est l'ordre spécifié dans lequel les identifiants nommés vérifient la requête. Par défaut : <b>"IP,Nom d'utilisateur,Anonyme"</b>
+	L'ordre de la liste est l'ordre spécifié dans lequel les identifiants nommés vérifient la requête. Par défaut : <b>"IP, Nom d'utilisateur, Anonyme"</b>
 pjsip_settings.endpoint_identifier_order.ip = IP
 pjsip_settings.endpoint_identifier_order.username = Nom d'utilisateur
 pjsip_settings.endpoint_identifier_order.anonymous = Anonyme

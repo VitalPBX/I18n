@@ -14,5 +14,5 @@ call_back.general = Général
 call_back.mod_dest = Module de destination
 menu.call_back = Rappel
 module.call_back = Rappel
-call back.dial number.invalid = Le numéro n'est pas valide. Seuls les chiffres,*,#,+ sont autorisés.
-call_back.dial prefix.invalid = Le préfixe de numérotation n'est pas valide. Seuls les chiffres,*,#,+ sont autorisés.
+call_back.dialnumber.invalid = Le numéro n'est pas valide. Seuls les chiffres,*,#,+ sont autorisés.
+call_back.dialprefix.invalid = Le préfixe de numérotation n'est pas valide. Seuls les chiffres,*,#,+ sont autorisés.
