@@ -123,3 +123,7 @@ import_extensions.description.send_welcome_email = Habilita/deshabilita el corre
 import_extensions.description.static_queues = {extensions.static_queues.tooltip}
 import_extensions.description.vitxi_client = {hot_desking.vitxi_client.tooltip} Los valores válidos son "sí" o "no". El valor predeterminado es 'no'
 import_extensions.device_with_invalid_extension = No fue posible crear el dispositivo "{1}" porque la extensión dada "{0}" no existe
+import_extensions.description.home_number = {extensions.home_number.tooltip}
+import_extensions.description.job_title = {extensions.job_title.tooltip}
+import_extensions.description.mobile_number = {extensions.mobile_number.tooltip}
+import_extensions.description.organization = {extensions.organization.tooltip}

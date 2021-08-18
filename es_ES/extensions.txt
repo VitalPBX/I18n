@@ -282,10 +282,13 @@ extensions.welcome_email.no_template = No se puede encontrar la plantilla solici
 extensions.welcome_email.sent = El correo electrónico de bienvenida ha sido enviado.
 extensions.dynamic_external_cid = Dynamic External CID
 extensions.dynamic_external_cid.tooltip = 
-	When enabled, it will take as external CID the caller id sent by the devices connected to this extension. This is
-	useful when the extension' devices are used as trunks.
+	Cuando está habilitado, tomará como CID externo el identificador de llamadas enviado por los dispositivos conectados a esta extensión
+	Esto es útil cuando los dispositivos de la extensión se utilizan como troncales.
 extensions.internal_numbers_confirmation = Prompt Internal Callees
 extensions.internal_numbers_confirmation.tooltip = 
-	It allows you to define if the internal' called parties will be asked whether they wish to accept or not the incoming
-	call when the "Prompt Callee" option is enabled.
-extensions.push.max_reached = You've reached the maximum number of devices with the "Push" option enabled that your current license allows.
+	Le permite definir si se les preguntará a los interlocutores internos si desean aceptar o no la llamada entrante
+	cuando la opción "Preguntar al destinatario" esté habilitada..
+extensions.push.max_reached = Ha alcanzado el número máximo de dispositivos con la opción "Push" habilitada que permite su licencia actual.
+extensions.contact = Datos de Contacto
+extensions.home_number.tooltip = El número de teléfono fijo que pertenece a esta extensión
+extensions.mobile_number.tooltip = El número de teléfono móvil que pertenece a esta extensión.

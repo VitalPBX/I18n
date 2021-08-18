@@ -245,3 +245,28 @@ trunks.t38_udptl_maxdatagram.tooltip =
 	de un punto final remoto para puntos finales rotos.
 trunks.t38_udptl_nat = T.38 UDPTL NAT
 trunks.t38_udptl_nat.tooltip = Si la compatibilidad con NAT está habilitada en sesiones UDPTL.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
+trunks.dial_prefix = Prefijo de Marcado
+trunks.dial_prefix.tooltip = Si se define, el prefijo se antepondrá a cualquier número marcado a través de esta troncal.
+trunks.disable_hangup_audios = Desactivar Hang Up Audios
+trunks.disable_hangup_audios.tooltip = 
+	Si se establece en sí, los audios que se reproduzcan según la causa del bloqueo se desactivarán.
+	Habilitar esta opción resulta útil para aquellos entornos en los que el PBX es para el uso de llamadas en tránsito.
+trunks.identify_by = Identificar Por
+trunks.identify_by.auth_username = Nombre de Usuario
+trunks.identify_by.auth_username.tooltip = Identifíquese por el nombre de usuario y el dominio de autorización.
+trunks.identify_by.header = Encabezado
+trunks.identify_by.header.tooltip = Identificar mediante un valor de encabezado SIP configurado.
+trunks.identify_by.ip = IP
+trunks.identify_by.ip.tooltip = Identificar por la dirección IP de origen.
+trunks.identify_by.tooltip = 
+	Los puntos finales y los AOR se pueden identificar de múltiples formas. Esta opción es una lista de métodos en los que se puede identificar el punto final.
+	Si no se selecciona ninguna opción, el "Nombre de usuario" y la "IP" se utilizarán de forma predeterminada.
+trunks.identify_by.username = Nombre de Usuario
+trunks.identify_by.username.tooltip = Identifíquese por el nombre de usuario y dominio From o To.
+trunks.match_header = Encabezado de Coincidencia
+trunks.match_header.tooltip = 
+	Un encabezado SIP cuyo valor se usa para hacer coincidir. Las solicitudes SIP que contienen el encabezado, junto con el valor especificado,
+	se asignarán al punto final especificado. El encabezado debe especificarse con <b>:</b>, como en <b>match_header = SIPHeader: value</b>.
+	El valor del encabezado SIP especificado puede ser una expresión regular si el valor tiene el formato <b>/regex/</b>.
+	Tenga en cuenta que el uso de una expresión regular es costoso, así que asegúrese de que necesita usar una expresión regular para que coincida con su punto final.
