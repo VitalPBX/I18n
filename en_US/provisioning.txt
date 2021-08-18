@@ -376,3 +376,6 @@ provisioning.type.blf/new_call = {provisioning.type.memory_key_blf/new_call}
 provisioning.invalid_mac_address = You have not provided a valid MAC address
 provisioning.description = Description
 provisioning.description.tooltip = A short description to identify to whom belong this device.
+provisioning.type.auto = {provisioning.auto}
+provisioning.type.paging.multicastpaging = {provisioning.type.multicast_paging}
+provisioning.type.pickup.pickup_directpickup = {provisioning.type.direct_pickup}
