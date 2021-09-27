@@ -1,0 +1,76 @@
+vpn_server = OpenVPN Server
+menu.vpn_server = {vpn_server}
+module.vpn_server = {vpn_server}
+vpn_server.server = Server
+vpn_server.clients = Kunden
+vpn_server.enabled = Ermöglicht
+vpn_server.enabled.tooltip = Es zeigt den aktuellen Status des OpenVPN-Serverdienstes an
+vpn_server.port = Hafen
+vpn_server.port.tooltip = Der Port, auf dem OpenVPN lauschen soll
+vpn_server.subnet = Serverbereich
+vpn_server.subnet.tooltip =
+	Definiert den virtuellen IP-Bereich, der im VPN-Tunnelnetzwerk verwendet werden soll. Bsp.: wenn Sie als Bereich die IP-Adresse 10.8.0.0 verwenden,
+	die Server-IP wird 10.8.0.1 sein und dem ersten Client wird die IP 10.8.0.2 zugewiesen
+vpn_server.subnet.ip = IPv4-Adresse
+vpn_server.subnet.mask = Maske
+vpn_server.keepalive = Bleib am Leben
+vpn_server.keepalive.tooltip =
+	Die Keepalive-Direktive bewirkt, dass ping-ähnliche Nachrichten über den Link hin und her gesendet werden, damit jede Seite
+	weiß, wann die andere Seite untergegangen ist. Alle Werte in Sekunden
+vpn_server.keepalive.ping = Frequenz
+vpn_server.keepalive.time_period = Auszeit
+vpn_server.redirect-gateway = Weiterleitungs-Gateway
+vpn_server.redirect-gateway.tooltip =
+	Wenn diese Anweisung aktiviert ist, werden alle Clients so konfiguriert, dass sie ihr Standard-Netzwerk-Gateway über das VPN umleiten.
+	bewirkt, dass der gesamte IP-Verkehr wie Web-Browsing und DNS-Suchen über das VPN läuft (der OpenVPN-Server-Rechner
+	muss möglicherweise die TUN/TAP-Schnittstelle mit dem Internet über NAT oder Bridge verbinden, damit dies ordnungsgemäß funktioniert)
+vpn_server.primary_dns = Primärer DNS
+vpn_server.secondary_dns = Sekundäre DNS
+vpn_server.dns.tooltip = DNS, die verwendet werden soll, wenn die Option "Redirect Gateway" aktiviert ist
+vpn_server.max-clients = Max. Kunden
+vpn_server.max-clients.tooltip = Die maximale Anzahl gleichzeitig verbundener Clients, die wir zulassen möchten
+vpn_server.service_restarted = Die Konfigurationen wurden aktualisiert und der Dienst wurde gestartet
+vpn_server.service_stopped = Die Konfigurationen wurden aktualisiert und der Dienst wurde gestoppt
+vpn_server.configuration_updated = Die Konfigurationen wurden aktualisiert
+vpn_server.add_client = Kunden hinzufügen
+vpn_server.client.description = Beschreibung
+vpn_server.client.description.tooltip = Eine kurze Beschreibung, um diesen OpenVPN-Client zu identifizieren
+vpn_server.client.assigned_address = Feste IP
+vpn_server.client.assigned_address.tooltip = Ermöglicht Ihnen, diesem Client eine bestimmte IP-Adresse zuzuweisen
+vpn_server.client.enabled = Ermöglicht
+vpn_server.client.enabled.tooltip = Sie können diesen Benutzer aktivieren oder deaktivieren
+vpn_server.configuring_client = Client konfigurieren...
+vpn_server.client_saved = Der Client wurde gespeichert und konfiguriert.
+vpn_server.client.duplicated_address = Die angegebene IP-Adresse wird bereits verwendet
+vpn_server.client.no_description = Für diesen Kunden wurde keine Beschreibung bereitgestellt
+vpn_server.client.invalid_ip = Für diesen Client wurde eine ungültige IP-Adresse bereitgestellt
+vpn_server.actions = Aktionen
+vpn_server.client.duplicated_description = Die bereitgestellte Beschreibung wird bereits verwendet
+vpn_server.edit_client = Kunden bearbeiten
+vpn_server.client.cannot_download_cert = Die Client-Konfigurationen können nicht heruntergeladen werden
+vpn_server.invalid_data = Ungültige Daten wurden bereitgestellt
+vpn_server.client.confirm_delete = Möchten Sie diesen Kunden wirklich löschen?
+vpn_server.client.deleted = Der Kunde wurde erfolgreich gelöscht
+vpn_server.public_host = Öffentlicher Gastgeber
+vpn_server.public_host.tooltip = Remote-Host oder IP-Adresse auf dem Client, die den OpenVPN-Server angibt.
+vpn_server.client.private_ip = Zugewiesene IP
+vpn_server.client.real_address = Echte Adresse
+vpn_server.client.connected = In Verbindung gebracht
+vpn_server.client.received_transmitted = Pakete Rx / Tx
+vpn_server.client.connected_since = Verbunden seit
+vpn_server.no_license =
+	Sie haben die maximale Anzahl kostenloser VPN-Clients erreicht. Aktivieren Sie das Add-on, um mehr als zwei Clients zu erstellen
+vpn_server.compression = Kompression
+vpn_server.compression.tooltip = Ermöglicht Ihnen, die Art der Komprimierung zu definieren, die zwischen Server- und Client-Datenverkehr verwendet werden soll
+vpn_server.type = Typ
+vpn_server.type.tooltip = Es ermöglicht die Definition des Client-Typs, je nachdem, die heruntergeladene Konfiguration variiert
+vpn_server.type.generic = Generisch
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.type.fanvil = Fanvil
+vpn_server.cipher = Chiffriermethode
+vpn_server.cipher.tooltip = Verschlüsseln Sie Datenkanalpakete mit dem Chiffrieralgorithmus alg.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.des-ede3-cbc = Dreifach-DES

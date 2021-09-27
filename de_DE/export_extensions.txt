@@ -1,0 +1,10 @@
+menu.export_extensions = Nebenstellen exportieren
+module.export_extensions =  Nebenstellen exportieren
+export_extensions =  Nebenstellen exportieren
+export_extensions.add_extension =  Nebenstellen hinzufügen
+export_extensions.extensions =  Nebenstellen
+export_extensions.export_extensions.tooltip =  Nebenstellen für den Export
+export_extensions.export_extensions =  Nebenstellen exportieren
+export_extensions.general =  Allgemein
+export_extensions.no_extensions_selected =  Keine Nebenstellen ausgewählt
+export_extensions.select_extensions =  Wählen Sie die zu exportierenden Nebenstellen aus

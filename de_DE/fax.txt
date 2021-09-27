@@ -1,0 +1,2 @@
+fax.fax_process.fax_arrived = Ein Fax von {1} für {0} ist angekommen
+fax.fax_process.subject_new_fax = PBX Fax Service - Neues Fax eingetroffen

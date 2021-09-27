@@ -1,0 +1,14 @@
+menu.pickup_groups = Abholgruppen
+module.pickup_group =  Abholgruppen
+pickup_group =  Abholgruppen
+pickup_group.allow_pickup =  Abholung zulassen
+pickup_group.allow_pickup.tooltip =  Abholmitglied dieser Abholgruppe zulassen
+pickup_group.description =  Beschreibung
+pickup_group.description.tooltip =  Kurze Beschreibung für diese Pickup-Gruppe.
+pickup_group.extension =  Verlängerung
+pickup_group.extension.tooltip =  Erweiterung, um Mitglied zu sein oder ein Mitglied dieser Pickup-Gruppe abholen zu dürfen, oder beides.
+pickup_group.members.empty =  Dieser Abholgruppe wurden keine gültigen Mitglieder hinzugefügt.
+pickup_group.general =  Allgemein
+pickup_group.member =  Mitglied
+pickup_group.member.tooltip =  Geben Sie an, ob diese Nebenstelle Mitglied dieser Abholgruppe ist
+pickup_group.members =  Mitglieder

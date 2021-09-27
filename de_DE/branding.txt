@@ -1,0 +1,50 @@
+branding =Markenzeichen
+module.branding = {Markenzeichen}
+menu.branding = {Markenzeichen}
+branding.general = {vitalpbx.general}
+branding.base_color = Grundfarbe
+branding.base_color.tooltip = Hauptfarbe für aktive Menüpunkte, aktive Formularregisterkarten und ausgewählten Text
+branding.page_title = APP-Titel
+branding.page_title.tooltip = Ermöglicht Ihnen, den Header-Titel anzupassen, der im Browser-Tab angezeigt wird
+branding.slogan = Slogan
+branding.slogan.tooltip = Sie können den Slogan anpassen, der auf dem Anmeldebildschirm angezeigt wird
+branding.facebook_page = Facebook Seite
+branding.twitter_page = Twitter-Seite
+branding.youtube_channel = Youtube Kanal
+branding.social.tooltip = Sie können den Link <b>{0}</b> anpassen, der in der Anmeldefußzeile angezeigt wird
+branding.login_footer = Login-Fußzeile
+branding.login_footer.tooltip = Sie können den Inhalt der Fußzeile im Anmeldebildschirm anpassen
+branding.desktop_logo = Desktop-Logo
+branding.mobile_logo = Handy-Logo
+branding.instagram_page = Instagram-Seite
+branding.app_name = App Name
+branding.app_name.tooltip = Sie können den Namen des Hauptmieters ändern
+branding.meet_url = Meet-URL
+branding.meet_url.tooltip = URL, die standardmäßig für Konferenzen verwendet wird, die über das Videokonferenzmodul generiert werden
+branding.login = Login-Design
+branding.login_bg = Login-Hintergrund
+branding.login_bg.tooltip = Hintergrundfarbe für die Anmeldeseite. Wenn es leer gelassen wird, wird der Standardhintergrund verwendet.
+branding.login_fc = Schriftfarbe
+branding.login_fc.tooltip = Im Anmeldeformular zu verwendende Schriftfarbe
+branding.login_frm_bg = Formularhintergrund
+branding.login_frm_bg.tooltip = Hintergrundfarbe für den linken Bereich im Anmeldeformular
+branding.login_btn = Farbe des Senden-Buttons
+branding.login_btn.tooltip = Hintergrundfarbe für den Login-Button
+branding.login_addons_menu = Add-ons-Menü
+branding.login_addons_menu.tooltip = Hintergrundfarbe für die Add-ons-Menüschaltfläche
+branding.reset = Zurücksetzen
+branding.reset.confirm =
+	Möchten Sie die Branding-Einstellungen wirklich zurücksetzen? Dieser Vorgang ist irreversibel und die gesamte Konfiguration, die Sie vorgenommen haben
+	wird verloren sein.
+branding.reset_applied = Alle Einstellungen wurden erfolgreich zurückgesetzt.
+branding.warning_note =Diese Einstellungen werden angewendet, bis eine <a href={0} target=_blank>Lizenz</a> auf das Branding-Add-On angewendet oder für alle <a href={1} target=_blank>verfügbaren Pläne</a> aktiviert wird.
+branding.addons = Addons
+branding.url_prefix = URL-Präfix
+branding.addon.url_prefix.tooltip =
+	Damit können Sie das Präfix definieren, das für den Zugriff auf die Anwendung "<b>{0}</b>" verwendet werden soll. z.B.: wenn Sie die
+	Präfix <b>"{1}"</b>, bedeutet, dass Sie wie folgt auf die App zugreifen müssen <b>http(s)://IHRE_IP/{1}</b>
+branding.app_name = Anwendungsname
+branding.addon.app_name.tooltip =
+	Es ermöglicht Ihnen, den Namen/Titel der Anwendung zu definieren, der auf der Registerkarte des Browsers angezeigt werden soll.
+branding.desktop_logo_dark = Desktop-Logo (Dunkelmodus)
+branding.mobile_logo_dark = Handy-Logo (Dunkelmodus)

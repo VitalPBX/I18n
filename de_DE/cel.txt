@@ -1,0 +1,12 @@
+cel_events =CEL-Einstellungen
+module.cel_events =  {cel_events}
+menu.cel_events =  {cel_events}
+cel_events.general =  {vitalpbx.general}
+cel.enable =  Aktivieren
+cel.enable.tooltip =  Aktivieren / Deaktivieren der Asterisk-Kanal-Ereignisprotokollierung (CEL)
+cel.apps =  APPS
+cel.apps.tooltip =  Ermöglicht Ihnen, die Liste der Anwendungen anzugeben, für die Sie CEL-Ereignisse erhalten möchten
+cel.events =  Veranstaltungen
+cel.events.tooltip =  Ermöglicht Ihnen, die Liste der Ereignisse anzugeben, die ausgelöst werden sollen, wenn sie auftreten.
+cel.dateformat =  Datumsformat
+cel.dateformat.tooltip =  Ermöglicht Ihnen, das Datumsformat anzugeben, das verwendet wird, wenn CEL-Ereignisse ausgelöst werden.

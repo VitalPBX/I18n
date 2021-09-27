@@ -1,0 +1,14 @@
+module.jmeet = Videokonferenz
+menu.jmeet =  {module.jmeet}
+jmeet.general =  {vitalpbx.general}
+jmeet.vitalpbx =  {App Name}
+jmeet.jitsi =  Jitsi
+jmeet.custom =  Benutzerdefiniert
+jmeet.server =  Server
+jmeet.server.tooltip =  Wählen Sie den Server aus, auf dem die Konferenz gehostet wird
+jmeet.custom_server =  Benutzerdefinierter Server
+jmeet.custom_server.tooltip =  Hier können Sie Ihren eigenen Server definieren, auf dem die Konferenz durchgeführt wird
+jmeet.room =  Raumname
+jmeet.room.tooltip =  Ein Raumname, um einer neuen Konferenz beizutreten oder eine neue zu starten
+jmeet.join_create =  Beitreten / Erstellen
+jmeet.url =  URL

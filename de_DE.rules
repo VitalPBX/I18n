@@ -1,0 +1,2 @@
+eins = n==1
+mehr = n!=1

@@ -1,0 +1,45 @@
+menu.time_conditions = Zeitbedingungen
+module.time_conditions = Zeitbedingungen
+time_conditions = Zeitbedingungen
+time_conditions.cancel = Abbrechen
+time_conditions.delete = Löschen
+time_conditions.description = Beschreibung
+time_conditions.description.tooltip = Kurze Beschreibung zur Identifizierung dieser Zeitbedingung.
+time_conditions.falsegoto = Ziel, wenn Zeit nicht mit %s übereinstimmt
+time_conditions.general = Zeitbedingungen
+time_conditions.modfalse = Modul falsch
+time_conditions.modtrue = Modul wahr
+time_conditions.save = Speichern
+time_conditions.time_group_id = Zeitgruppe
+time_conditions.time_group_id.tooltip = Wählen Sie eine unter Zeitgruppen erstellte Zeitgruppe aus. Passende Zeiten werden an das passende Ziel gesendet.
+time_conditions.truegoto = Ziel, wenn die Zeit mit %s übereinstimmt
+time_conditions.update = Aktualisieren
+time_conditions.status = Status
+time_conditions.status.tooltip = Ermöglicht Ihnen, das Standardverhalten einer Zeitbedingung zu überschreiben
+time_conditions.status.default = Standard
+time_conditions.status.temporary_matched = Temporär abgestimmt
+time_conditions.status.temporary_unmatched = Vorübergehend unübertroffen
+time_conditions.status.permanently_matched = Permanent abgestimmt
+time_conditions.status.permanently_unmatched = Dauerhaft unerreicht
+time_conditions.status.default.desc = Standardverhalten
+time_conditions.status.temporary_matched_unmatched = Temporär übereinstimmend / nicht übereinstimmend
+time_conditions.status.temporary_matched_unmatched.desc =
+	Überschreibt vorübergehend die Zeitbedingung und sendet die Anrufe an das übereinstimmende/nicht übereinstimmende Ziel bis zur aktuellen Zeitspanne
+	ist abgelaufen. Danach wird das Verhalten auf die Standardeinstellungen zurückgesetzt
+time_conditions.status.permanently_matched_unmatched = Dauerhaft abgestimmt / Unübertroffen
+time_conditions.status.permanently_matched_unmatched.desc =
+	Überschreibt dauerhaft die Zeitbedingung und sendet die Anrufe an das übereinstimmende/nicht übereinstimmende Ziel, bis die Überschreibung aufgehoben wird.
+time_conditions.blf_inverted = BLF invertiert
+time_conditions.blf_inverted.tooltip =
+	Standardmäßig ist die BLF-Lichtfarbe grün, wenn die Zeitbedingung übereinstimmt, und rot, wenn sie nicht übereinstimmt. Einrichten
+	dies auf "ja" führt dazu, dass das Verhalten das Gegenteil von dem ist, was oben beschrieben wurde.
+time_conditions.hint = {nightmode.phone_hint}
+time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
+time_conditions.code = {nightmode.code}
+time_conditions.code.tooltip = Vorwahlcode zum Umschalten des Zeitzustands über das Telefon.
+time_conditions.pin = Autorisierungs-Pin
+time_conditions.pin.tooltip = Optionales Passwort zum Schutz vor unbefugten Änderungen dieser Zeitbedingung.
+time_conditions.timezone = Zeitzone
+time_conditions.timezone.tooltip =
+	Es ermöglicht die Definition der Zeitzone, die zum Abgleichen der Zeitgruppe verwendet werden soll, die dieser Zeitbedingung zugeordnet ist. Wenn auf System eingestellt,
+	es wird die Zeitzone vom Server nehmen.

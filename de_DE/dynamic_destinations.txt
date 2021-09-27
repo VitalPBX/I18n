@@ -1,0 +1,50 @@
+menu.dynamic_destinations =Dynamische Ziele
+dynamic_destinations = {menu.dynamic_destinations}
+module.dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.general = {vitalpbx.general}
+dynamic_destinations.condition = Antwort
+dynamic_destinations.destination = Ziel
+dynamic_destinations.enabled = Ermöglicht
+dynamic_destinations.description = Beschreibung {0}
+dynamic_destinations.description.tooltip = Kurzbeschreibung zu diesem Artikel
+dynamic_destinations.host = Gastgeber {0}
+dynamic_destinations.host.tooltip = Es ermöglicht Ihnen, den Host oder die IP-Adresse zu definieren, wo sich das Skript befindet
+dynamic_destinations.path = Pfad {0}
+dynamic_destinations.path.tooltip = Auszuführender Skriptname
+dynamic_destinations.query_string = Abfragezeichenfolge
+dynamic_destinations.query_string.tooltip =
+	Reihe von Parametern, die als Teil des Skripts gesendet werden sollen.
+	Der spezielle Argumentwert <b>[CIDNUM]</b> wird durch die CID-Nummer des Anrufers ersetzt.
+	<br><br> Beispiel: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+dynamic_destinations.port = {cid_lookup.port}
+dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
+dynamic_destinations.auth_user = {cid_lookup.user}
+dynamic_destinations.auth_user.tooltip = {cid_lookup.user.tooltip}
+dynamic_destinations.auth_password = {cid_lookup.password}
+dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
+dynamic_destinations.secure = {cid_lookup.secure}
+dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
+dynamic_destinations.default_destination = Standardziel {0}
+dynamic_destinations.default_destination.tooltip = Ziel, das ausgeführt werden soll, wenn eine undefinierte Antwort empfangen wird
+dynamic_destinations.destinations = Reiseziele
+dynamic_destinations.destinations.title = Auszuführende Ziele in Abhängigkeit von der nach der Skriptausführung empfangenen Antwort
+dynamic_destinations.mod_dest = Standardzielmodul
+dynamic_destinations.conditions.empty = Keine gültigen Ziele definiert
+dynamic_destinations.type  = Quelle Typ
+dynamic_destinations.type.tooltip = Art der zu verwendenden Quelle
+dynamic_destinations.type.option.api = URL
+dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
+dynamic_destinations.database = Datenbank {0}
+dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
+dynamic_destinations.query = Abfrage {0}
+dynamic_destinations.query.tooltip =
+	Abfrage zum Ausführen. Das spezielle Token <b>[CIDNUM]</b> wird durch die Nummer des Anrufers ersetzt. z.B.:
+	<b> SELECT 'VIP_CUSTOMER' as `Response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+dynamic_destinations.mysql_password = Passwort
+dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
+dynamic_destinations.mysql_host = Gastgeber {0}
+dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
+dynamic_destinations.mysql_username = Benutzername {0}
+dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
+dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
+dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}

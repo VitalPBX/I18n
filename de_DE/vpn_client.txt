@@ -1,0 +1,38 @@
+vpn_client = OpenVPN-Client
+menu.vpn_client = {vpn_client}
+module.vpn_client = {vpn_client}
+vpn_client.general = {vitalpbx.general}
+vpn_client.upload_config = Konfiguration hochladen
+vpn_client.update_config = Konfiguration aktualisieren
+vpn_client.configuration = VPN-Konfiguration
+vpn_client.configuration.tooltip = Ermöglicht das Hochladen der OpenVPN-Client-Konfiguration im TAR-Format
+vpn_client.connection_info = Verbindungsinformationen
+vpn_client.status = Verbindungsstatus
+vpn_client.status.tooltip = Es zeigt den aktuellen Status der OpenVPN-Client-Verbindung an
+vpn_client.status.active = In Verbindung gebracht
+vpn_client.status.inactive = Getrennt
+vpn_client.server_ip = Server-IP
+vpn_client.server_ip.tooltip =
+	Zeigt die IP des OpenVPN-Servers
+vpn_client.assigned_ip = Zugewiesene IP
+vpn_client.assigned_ip.tooltip = Es zeigt die IP-Adresse, die der OpenVPN-Server diesem Client zugewiesen hat
+vpn_client.network_mask = Netzwerkmaske
+vpn_client.network_mask.tooltip = Netzwerkmaske
+vpn_client.enable = Aktivieren
+vpn_client.disable = Deaktivieren
+vpn_client.no_file_selected = Keine Konfigurationsdatei ausgewählt
+vpn_client.no_valid_file = Es wurde keine gültige Datei ausgewählt. Bitte laden Sie eine tar-Datei hoch
+vpn_client.configuration_not_found = Die hochgeladene TAR-Datei kann nicht gelesen werden
+vpn_client.configuration_not_found = Die OpenVPN-Konfiguration wurde in der Upload-TAR-Datei nicht gefunden
+vpn_client.cannot_extract_configuration = Die bereitgestellte Konfiguration kann nicht extrahiert werden
+vpn_client.upload.success = Die Konfiguration wurde erfolgreich hochgeladen
+vpn_client.service.invalid_action = Sie versuchen, eine ungültige Aktion auszuführen
+vpn_client.service.successfully_enabled = Der OpenVPN-Client wurde erfolgreich aktiviert
+vpn_client.service.successfully_disabled = Der OpenVPN-Client wurde erfolgreich deaktiviert
+vpn_client.status.running = Gestartet
+vpn_client.status.stopped = Gestoppt
+vpn_client.service_status = Service Status
+vpn_client.service_status.tooltip =
+	Es zeigt den Status des Dienstes an. Verwechseln Sie diesen Status nicht mit dem Verbindungsstatus, der Dienst kann ausgeführt werden
+	aber nicht unbedingt mit dem Server verbunden sein.
+	vpn_client.connection_log = Verbindungsprotokoll

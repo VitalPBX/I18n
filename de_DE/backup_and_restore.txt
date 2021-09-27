@@ -1,0 +1,83 @@
+backup_and_restore.backup = Sicherung
+backup_and_restore.intro = Um ein vorhandenes Backup wiederherzustellen, wählen Sie das gewünschte Backup aus dem Menü auf der rechten Seite aus.
+backup_and_restore.backup_invalid = Das angeforderte Backup kann nicht geladen werden
+backup_and_restore.backup_created = Sicherung erfolgreich erstellt
+backup_and_restore.backup_restored = Sicherung erfolgreich wiederhergestellt
+backup_and_restore.backup_error = Backup kann nicht wie angefordert erstellt werden
+backup_and_restore.restore_error = Das angeforderte Backup kann nicht wiederhergestellt werden
+backup_and_restore.backups = Sicherungen
+backup_and_restore.cancel = Abbrechen
+backup_and_restore.list_content = {0} {1}
+backup_and_restore.list_description = {0,DatumUhrzeit}
+backup_and_restore.restore = Wiederherstellen
+backup_and_restore.title = {0} {1} - {2,longdatetime}
+menu.backup_and_restore = Backup wiederherstellen
+module.backup_and_restore = Backup wiederherstellen
+backup_and_restore.product = Produkt
+backup_and_restore.product.tooltip = Produktname dieses Backups
+backup_and_restore.version = Ausführung
+backup_and_restore.version.tooltip = Produktversion dieses Backups
+backup_and_restore.created = Erstellt
+backup_and_restore.created.tooltip = Erstellungsdatum und -uhrzeit dieses Backups
+backup_and_restore.created.format = {0,longdatetime}
+backup_and_restore.click_to_restore = Klicken Sie unten auf die Schaltfläche "Wiederherstellen", um dieses Backup zu verwenden und den Wiederherstellungsvorgang einzuleiten. Dieser Vorgang kann einige Minuten dauern.
+backup_and_restore.download = Herunterladen
+backup_and_restore.comment = Kommentar
+backup_and_restore.comment.tooltip = Ein benutzerdefinierter Kommentar, der dem Backup hinzugefügt wird
+backup_and_restore.include_cdr = CDR-Einträge einschließen
+backup_and_restore.include_cdr.tooltip = Wenn Sie dies aktivieren, werden CDR-Einträge zum Backup hinzugefügt
+backup_and_restore.include_recordings = Anrufaufzeichnungen einschließen
+backup_and_restore.include_recordings.tooltip = Wenn Sie dies aktivieren, werden Anrufaufzeichnungen zum Backup hinzugefügt
+backup_and_restore.include_voicemail = Voicemail einschließen
+backup_and_restore.include_voicemail.tooltip = Wenn Sie dies aktivieren, werden Voicemailboxen zum Backup hinzugefügt
+backup_and_restore.restore_cdr = CDR-Einträge wiederherstellen
+backup_and_restore.restore_cdr.tooltip = Wenn Sie dies aktivieren, werden vorhandene CDR-Datensätze durch die in diesem Backup enthaltenen ersetzt.
+backup_and_restore.restore_recordings = Aufnahmen wiederherstellen
+backup_and_restore.restore_recordings.tooltip = Wenn Sie dies aktivieren, werden vorhandene Anrufaufzeichnungen durch die in diesem Backup enthaltenen ersetzt.
+backup_and_restore.restore_voicemail = Voicemail wiederherstellen
+backup_and_restore.restore_voicemail.tooltip = Wenn Sie dies aktivieren, werden vorhandene Voicemailboxen durch die in diesem Backup enthaltenen ersetzt.
+backup_and_restore.restore_file = Backup hochladen
+backup_and_restore.restore_file.tooltip = Wählen Sie ein zuvor heruntergeladenes Backup zum Wiederherstellen aus
+backup_and_restore.restore_file.invalid = Ungültige Sicherung bereitgestellt
+backup_and_restore.delete = Löschen
+backup_and_restore.confirm_delete = Möchten Sie diese Sicherung wirklich löschen?
+backup_and_restore.backup_deleted = Backup wurde gelöscht
+backup_and_restore.name = Name
+backup_and_restore.name.tooltip = Beschreibender Name für dieses Backup
+backup_and_restore.include_faxes = Faxe einschließen
+backup_and_restore.include_faxes.tooltip = Wenn Sie dies aktivieren, werden Faxe zum Backup hinzugefügt
+backup_and_restore.restore_faxes = Faxe wiederherstellen
+backup_and_restore.restore_faxes.tooltip = Wenn Sie dies aktivieren, werden vorhandene Faxe durch die in diesem Backup enthaltenen ersetzt.
+backup_and_restore.import = Sicherung importieren
+backup_and_restore.execute = Jetzt Backup ausführen!
+backup_and_restore.general = {Allgemeines}
+backup_and_restore.automatic_backup = Automatisch ausführen
+backup_and_restore.automatic_backup.tooltip =
+	Es ermöglicht Ihnen, ein zuvor unter <b>"PBX >> Tools >> Cron Profiles"</b> erstelltes Cron automatisch zu verwenden
+	Erstellen Sie ein Backup mit Ihren ausgewählten Einstellungen.
+backup_and_restore.limit = Grenze
+backup_and_restore.limit.tooltip =
+	Hier können Sie die Anzahl der zu speichernden Sicherungskopien festlegen. Wenn die Grenze erreicht ist,
+	die älteste Kopie wird gelöscht
+backup_and_restore.validations.name = Bitte geben Sie einen gültigen Namen ein. Alphanumerische Werte, Leerzeichen, Bindestriche, Unterstriche und Punkte sind erlaubt.
+backup_and_restore.validations.duplicated_name = Es existiert bereits ein Backup mit demselben Namen.
+backup_and_restore.backups_list = Backup-Liste
+backup_and_restore.date_time = Terminzeit
+backup_and_restore.app_version = {0}-Version
+backup_and_restore.actions = Aktionen
+backup_and_restore.validations.no_backup_data = Nicht genügend Informationen erhalten, um ein Backup zu erstellen
+backup_and_restore.backup_not_deleted = Backup wurde nicht gelöscht
+backup_and_restore.cannot_restore = Entschuldigung!, das ausgewählte Backup kann nicht wiederhergestellt werden
+backup_and_restore.backup = Sicherung
+backup_and_restore.created = Hergestellt in
+backup_and_restore.product_version = App Version
+backup_and_restore.cannot_create_backup_group = Backup-Gruppe "{0}" kann nicht erstellt werden
+backup_and_restore.confirm_group_delete =
+	Möchten Sie diese Backup-Gruppe und alle von ihr erstellten Backups wirklich löschen?
+	backup_and_restore.cannot_delete_group = Die Backup-Gruppe kann nicht gelöscht werden
+backup_and_restore.old_backup =
+	Sicherungen von Version {0} können auf {1} mit Versionen größer als {2} nicht wiederhergestellt werden. Ihr Backup muss mindestens sein
+	ab einer Version größer als {3}
+backup_and_restore.addons = Add-ons
+backup_and_restore.addons.tooltip = Hier können Sie die Add-Ons auswählen, auf die die Datenbank gesichert werden soll
+

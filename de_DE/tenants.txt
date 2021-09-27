@@ -1,0 +1,122 @@
+module.tenants = Mandanten
+menu.tenants = {module.tenants}
+tenants.general = Allgemein
+tenants.name = Name
+tenants.description = Beschreibung
+tenants.description.required = Beschreibung {0}
+tenants.description.tooltip = Kurze Beschreibung, um diesen Mandanten zu identifizieren.
+tenants.name.required = Name {0}
+tenants.name.tooltip = Ein eindeutiger Name für diesen Mandanten. Dieser Name wird verwendet, um Ordner zu erstellen, CDr-Informationen zu verknüpfen usw.
+tenants.validation.enter_valid_tenant = Geben Sie einen gültigen Mandatennamen ein: Buchstaben, Zahlen, Bindestrich, Unterstrich sind erlaubt
+tenants.user_name.required = Administrator-E-Mail {0}
+tenants.user_name = Administrator-E-Mail
+tenants.user_name.tooltip = Die E-Mail-Adresse des Benutzers, der diesen Mandanten verwaltet.
+tenants.user_password.required = Administratorkennwort {0}
+tenants.user_password = Administrator-Passwort
+tenants.user_password.tooltip = Kennwort zur Authentifizierung des Benutzers, der diesen Mandanten verwaltet.
+tenants.limitations = Privilegien
+tenants.unlimited = Unbegrenzt
+tenants.extensions = Erweiterungen
+tenants.extensions.tooltip = Hier können Sie die maximale Anzahl von Nebenstellen für diesen Mandaten festlegen
+tenants.trunks = Stämme
+tenants.trunks.tooltip = Sie können die maximale Anzahl von Amtsleitungen für diesen Mandanten festlegen
+tenants.queues = Warteschlangen
+tenants.queues.tooltip = Sie können die maximale Anzahl von Warteschlangen für diesen Mandanten definieren
+tenants.ivrs = IVRs
+tenants.ivrs.tooltip = Sie können die maximale Anzahl von IVRs für diesen Mandanten festlegen
+tenants.conferences = Konferenzen
+tenants.conferences.tooltip = Hier können Sie die maximale Anzahl von Konferenzen für diesen Mandanten festlegen
+tenants.parking_lots = Parkplätze
+tenants.parking_lots.tooltip = Hier können Sie die maximale Anzahl von Parkplätzen für diesen Mandaten festlegen
+tenants.duplicated_name = Der angegebene Name wird bereits verwendet
+tenants.user_settings = Mandatenadministrator
+tenants.role = {users.role}
+tenants.role.tooltip =
+	Rollenprofil für den Administrator dieses Mandanten. <b>Achten Sie darauf, keine zu freizügige Rolle zuzuweisen, die
+	kann sich auf andere Mandaten auswirken.</b>
+tenants.startup = {users.startup}
+tenants.startup.tooltip = {users.startup.tooltip}
+tenants.no_role = Sie haben keine gültige Rolle für den Administrator dieses Mandanten ausgewählt
+tenants.allowed_tenant_trunks = Zulässige Mandanten-Trunks
+tenants.allowed_tenant_trunks.tooltip = Damit können Sie definieren, welche Mandanten als Mandanten-Trunks verwendet werden können
+tenants.path = Weg
+tenants.path.tooltip =
+	Pfadname, der im Speicherordner dieses Mandanten und als Asterisk-Datenbankbaum verwendet wird
+	tenants.no_license = Sie haben die maximale Anzahl freier Mandaten erreicht. Aktivieren Sie dieses Add-on mit einer gültigen Lizenz, um unbegrenzte Mandanten zu erstellen
+tenants.confirm_delete =
+	Möchten Sie diesen Mandanten wirklich löschen? <br> Diese Aktion ist irreversibel und alle Daten
+	zu diesem Mandaten wird endgültig gelöscht
+tenants.prefix = Präfix
+tenants.prefix.tooltip =
+	Ermöglicht Ihnen, ein Präfix zu definieren, das für Nebenstellengeräte und andere verwendet werden soll. Wenn es leer gelassen wird, wird ein automatisches Präfix angezeigt
+	verwendet werden
+tenants.prefix.placeholder = Automatisch generieren
+tenants.enabled = Ermöglicht
+tenants.enabled.tooltip =
+	Es ermöglicht Ihnen, einen Mandanten zu aktivieren/deaktivieren. Wenn der Mandaten deaktiviert ist, können die Benutzer, die ihm gehören, nicht
+	um sich anzumelden oder eine Aktion auszuführen
+tenants.allow_recordings = Aufnahmen zulassen
+tenants.allow_recordings.tooltip = Hier können Sie festlegen, ob dieser Mandaten Anrufe aufzeichnen kann oder nicht
+tenants.recordings_maintenance = Wartungseinstellungen für Aufnahmen
+tenants.disabled = Der Zugang zu diesem Mandanten wurde gesperrt, bitte wenden Sie sich an Ihren PBX-Anbieter.
+tenants.assign_to_existing_user = Zu bestehendem Benutzer zuweisen
+tenants.assign_to_existing_user.tooltip = Wenn diese Option aktiviert ist, können Sie anstelle eines neuen Benutzers für den Mandaten einen vorhandenen Benutzer zuweisen
+tenants.user = Benutzer
+tenants.user.tooltip = Der Benutzer, der für die Verwaltung und Verwaltung dieses Mandatens verantwortlich ist
+tenants.duplicated_prefix = Das angegebene Präfix wird bereits von einem anderen Mandanten verwendet
+tenants.no_user = Der Mandaten wurde keinem Benutzer zugewiesen
+tenants.full_name = Vollständiger Name
+tenants.full_name.tooltip = Vollständiger Name des Administrators, falls nicht definiert, wird stattdessen die Mandantenbeschreibung verwendet.
+tenants.allowed_outbound_routes = Zulässige ausgehende Routen
+tenants.allowed_outbound_routes.tooltip =
+	Routen, die verwendet werden, wenn dieser Mandant Anrufe über einen Mandanten-Trunk tätigt, der auf den Hauptmandanten verweist.
+	Anrufe an einen anderen Mandaten als den HauptMandaten werden über die Definitionen für eingehende Routen gesendet
+tenants.inbound_numbers = Eingehende DIDs
+tenants.inbound_numbers.tooltip =
+	Liste der Nummern/Muster, die zu diesem Mandaten gehören. Anrufe, die mit diesen Nummern übereinstimmen, werden automatisch weitergeleitet
+	zu diesen eingehenden Mandatenrouten. Die Konfiguration dieser Nummern hat Vorrang vor den Definitionen der eingehenden Routen
+	beim HauptMandaten.
+tenants.scom_devices = Softphone-Geräte
+tenants.scom_devices.tooltip = Hiermit können Sie festlegen, wie viele Sonata Communicator-Geräte auf diesem Mandanten aktiviert werden können
+tenants.routing = Anrufweiterleitung
+tenants.did_pattern = DID-Muster
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Ausgehende Profile
+tenants.outbound_profiles.tooltip =
+	Ermöglicht Ihnen zu definieren, welche Routenauswahlelemente als ausgehendes Profil für diesen Mandanten verwendet werden können.
+tenants.emergency_trunks = Notfallkoffer
+tenants.emergency_trunks.tooltip =
+	Ermöglicht Ihnen die gemeinsame Nutzung von Amtsleitungen mit diesem Mandaten vom HauptMandaten, die als Notrufleitungen auf dem Notrufnummernmodul verwendet werden können
+tenants.name.validation.alphanumeric = Der Mandatenname muss ein gültiger alphanumerischer Wert sein
+tenants.send_welcome_email = Willkommens-E-Mail senden
+tenants.send_welcome_email.tooltip =
+	Wenn aktiviert, wird eine E-Mail mit den Kontoinformationen an den Mandantenadministrator gesendet. Sie finden die Vorlage
+	für diese E-Mail unter Admin > Systemeinstellungen > E-Mail-Vorlagen.
+tenants.settings = Einstellungen
+tenants.timezone = Zeitzone
+tenants.timezone.tooltip =
+	Es definiert die Standardzeitzone für diesen Mandanten. Wenn die Option "System" ausgewählt ist, dann wird die Server-Zeitzone
+	verwendet werden.
+tenants.addons = Externe Add-ons
+tenants.addons.tooltip =
+	Es ermöglicht die Auswahl, welche externen Add-Ons diesem Mandanten im Menü des Benutzers angezeigt werden.
+tenants.cid = Standardmäßige externe CID
+tenants.cid_name = CID-Name
+tenants.cid_number = CID-Nummer
+tenants.cid.tooltip =
+	Sie können den standardmäßigen externen CID-Namen und die Standardnummer definieren, die bei ausgehenden Anrufen verwendet werden.
+tenants.restricted_cid = Eingeschränkte CID
+tenants.restricted_cid.tooltip  = Hier können Sie festlegen, ob die Rufnummern der Anrufer-ID für externe Anrufe eingeschränkt werden sollen oder nicht.
+tenants.restricted_cid.disabled = Behinderte
+tenants.restricted_cid.disabled.tooltip = Es werden keine Einschränkungen angewendet. Der Mandaten kann jede externe CID-Nummer verwenden.
+tenants.restricted_cid.default = Standard
+tenants.restricted_cid.default.tooltip = Alle externen Anrufe für diesen Mandanten werden gezwungen, die CID-Informationen zu verwenden, die im Feld "Standard-Extern-CID" definiert sind.
+tenants.restricted_cid.dids = DIDs
+tenants.restricted_cid.dids.tooltip = Die externe CID-Nummer muss mit den für diesen Mandanten definierten DID-Mustern/-Nummern übereinstimmen.
+tenants.no_default_cid = Das Feld "Restricted CID" ist auf "Default" gesetzt, aber die standardmäßige externe CID-Nummer wurde nicht definiert
+tenants.no_dids = Das Feld "Restricted CID" ist auf "DIDs" gesetzt, aber es wurden keine DIDs definiert
+tenants.calls_limit = Limit für gleichzeitige Anrufe
+tenants.calls_limit.tooltip = Sie können die Anzahl der gleichzeitigen ausgehenden Anrufe festlegen, die für diesen Mandanten zulässig sind.
+tenants.calls_limit.placeholder =  Keine Begrenzung
+tenants.calls_limit.invalid =  Sie haben einen ungültigen Grenzwert für Anrufe angegeben
+tenants.main =  (main)

@@ -1,0 +1,22 @@
+module.domotic_notifications =Domotic-Benachrichtigungen
+
+domotic_notifications.general.tab =  {vitalpbx.general}
+
+domotic_notifications.unit_id =  Einheit
+domotic_notifications.unit_id.help =  Abhängig von der ausgewählten Einheit wird das zu konfigurierende Gerät angezeigt.
+domotic_notifications.device_id =  Gerät
+domotic_notifications.device_id.help =  Gerät zum Konfigurieren der Benachrichtigung.
+domotic_notifications.device_id.select_one =  -- Wähle eins --
+domotic_notifications.recording_id =  Willkommensnachricht
+domotic_notifications.recording_id.help =  Audio, das abgespielt werden soll, wenn das Gerät ausgelöst wird
+domotic_notifications.enabled =  Ermöglicht
+domotic_notifications.enabled.help =  Benachrichtigungen für dieses Gerät aktivieren
+domotic_notifications.destination =  Ziel
+
+domotic_notifications.validation.device_id =  Das Gerät ist erforderlich.
+domotic_notifications.validation.recording_id =  Das Benachrichtigungsaudio ist erforderlich.
+domotic_notifications.validation.mod_destination =  Das Zielmodul ist erforderlich.
+domotic_notifications.validation.destination =  Das Ziel ist erforderlich.
+
+domotic_notifications.delete =  {vitalpbx.delete}
+domotic_notifications.delete.message =  Möchten Sie diese Benachrichtigung wirklich löschen?

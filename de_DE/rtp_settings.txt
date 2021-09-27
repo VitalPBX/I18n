@@ -1,0 +1,33 @@
+menu.rtp_settings = RTP-Einstellungen
+module.rtp_settings = RTP-Einstellungen
+rtp_settings.general = Allgemein
+rtp_settings.certificate_id = Zertifikat
+rtp_settings.certificate_id.tooltip = Zertifikatsdatei des Servers.
+rtp_settings.rtpstart = RTP-Start
+rtp_settings.rtpstart.tooltip = Gibt an, wo der Port beginnt.
+rtp_settings.rtpend = RTP-Ende
+rtp_settings.rtpend.tooltip = Zeigt das Ende des Ports an.
+rtp_settings.strictrtp = Strenger RTP
+rtp_settings.strictrtp.tooltip = Aktivieren Sie den strikten RTP-Schutz. Dadurch werden RTP-Pakete verworfen, die nicht von der Quelle des RTP-Streams stammen.
+rtp_settings.rtpchecksums = RTP-Prüfsummen
+rtp_settings.rtpchecksums.tooltip = Ob UDP-Prüfsummen für RTP-Datenverkehr aktiviert oder deaktiviert werden sollen.
+rtp_settings.icesupport = ICE-Unterstützung
+rtp_settings.icesupport.tooltip = Ob die ICE-Unterstützung aktiviert oder deaktiviert werden soll. Diese Option ist standardmäßig deaktiviert.
+rtp_settings.stunaddr = Betäubungsserver
+rtp_settings.stunaddr.tooltip = Hostname oder Adresse des STUN-Servers, der bei der Ermittlung der externen IP-Adresse und des Ports verwendet wird, unter dem eine RTP-Sitzung erreicht werden kann. Die Portnummer ist optional.
+rtp_settings.turnaddr = Turn-Server
+rtp_settings.turnaddr.tooltip = Hostname oder Adresse für den TURN-Server, der als Relay verwendet werden soll. Die Portnummer ist optional.
+rtp_settings.turnusername = Servername abbiegen
+rtp_settings.turnusername.tooltip = Benutzername, der zur Authentifizierung beim TURN-Relay-Server verwendet wird.
+rtp_settings.turnpassword = Server-Passwort ändern
+rtp_settings.turnpassword.tooltip = Kennwort zur Authentifizierung beim TURN-Relay-Server.
+rtp_settings.ice_host_candidates = ICE-Hosteinstellungen
+rtp_settings.local_address = Lokale Adresse
+rtp_settings.advertised_address = Beworbene Adresse
+rtp_settings.include_local_address = Lokale Adresse einschließen
+rtp_settings.ice_host_candidates.tooltip =
+	Wenn sich Asterisk hinter einem statischen Eins-zu-Eins-NAT befindet und ICE verwendet wird, legt ICE die interne IP-Adresse des Servers offen
+	als einer der Gastkandidaten. Obwohl die Verwendung von STUN (siehe Konfigurationsoption 'stunaddr') eine
+	öffentlich zugängliche IP, die interne IP wird trotzdem an die Gegenstelle gesendet. Zum Verbergen der Topologie Ihres internen
+	Netzwerk können Sie die Host-Kandidaten überschreiben, die Asterisk an die Gegenstelle sendet. Wenn du etwas definierst
+	Hier werden Sie mit ziemlicher Sicherheit NICHT die Adressen von 'Stun Server' oder 'Turn Server' angeben wollen.

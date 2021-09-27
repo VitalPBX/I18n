@@ -1,0 +1,17 @@
+logfiles_viewer.error = Fehler
+logfiles_viewer.general =  Allgemein
+logfiles_viewer.invalid_request =  Ungültige Anfrage
+logfiles_viewer.lines =  Linien
+logfiles_viewer.lines.tooltip =  Anzahl der anzuzeigenden Zeilen
+logfiles_viewer.logfile =  Logdatei
+logfiles_viewer.logfile.tooltip =  Wählen Sie die Protokolldatei aus, die angezeigt werden soll
+logfiles_viewer.no_file_selected =  Keine Datei ausgewählt
+logfiles_viewer.select_logfile =  --- Wählen Sie eine Protokolldatei ---
+logfiles_viewer.invalid_filename =  Die angeforderte Protokolldatei kann nicht gefunden werden
+menu.log_file_viewer =  Logdatei-Viewer
+module.logfiles_viewer =  Logdatei-Viewer
+logfiles_viewer.refresh =  Aktualisierung
+logfiles_viewer.filter =  Filter
+logfiles_viewer.filter.tooltip =
+	Es ermöglicht Ihnen, den Inhalt der Protokolldateien einfach nach Zeichenfolgen oder Wörtern zu filtern. Zum Beispiel, wenn Sie wollen
+	Um nur die Asterisk-Fehlerprotokolle zu filtern, können Sie "ERRORS" eingeben und es werden nur Fehlermeldungen angezeigt.
