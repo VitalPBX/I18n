@@ -379,3 +379,7 @@ provisioning.description.tooltip = A short description to identify to whom belon
 provisioning.type.auto = {provisioning.auto}
 provisioning.type.paging.multicastpaging = {provisioning.type.multicast_paging}
 provisioning.type.pickup.pickup_directpickup = {provisioning.type.direct_pickup}
+provisioning_settings.https_port = HTTPS Port
+provisioning_settings.https_port.tooltip =
+	It allows you to define the HTTPS port to connect with the VitalPBX API.
+provisioning_settings.https_port.invalid = You must provide a valid HTTPS port. The value must be between 0 and 65535
