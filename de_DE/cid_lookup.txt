@@ -13,20 +13,20 @@ cid_lookup.opencnam.sid.tooltip = OpenCNAM-SID
 cid_lookup.opencnam.token = Token {0}
 cid_lookup.opencnam.token.tooltip = OpenCNAM-Token
 cid_lookup.host = Gastgeber {0}
-cid_lookup.host.tooltip = Es definiert den API-Host, um die Anfrage zu stellen
+cid_lookup.host.tooltip = Definiert den API-Host für die Anfrage
 cid_lookup.port = Hafen
-cid_lookup.port.tooltip = Es definiert den Port, um die Anfrage zu stellen. Standardmäßig 80 für HTTP-Anfragen und 443 für HTTPS-Anfragen
+cid_lookup.port.tooltip = Definiert den Port für die Anfrage. Standardmäßig 80 für HTTP-Anfragen und 443 für HTTPS-Anfragen
 cid_lookup.user = Auth-Benutzer
-cid_lookup.user.tooltip = Es definiert den Benutzer, um die HTTP/HTTPS-Anfrage zu authentifizieren
+cid_lookup.user.tooltip = Definiert den Benutzer um die HTTP/HTTPS-Anfrage zu authentifizieren
 cid_lookup.password = Authentifizierungspasswort
-cid_lookup.password.tooltip = Es definiert das Passwort zur Authentifizierung der HTTP/HTTPS-Anfrage
-cid_lookup.path = Weg
-cid_lookup.path.tooltip = Es definiert den Namen der Skriptdatei, die auf Anforderung ausgeführt werden soll. Beispiel: <b>cid_lookup.php</b>
+cid_lookup.password.tooltip = Definiert das Passwort zur Authentifizierung der HTTP/HTTPS-Anfrage
+cid_lookup.path = Pfad
+cid_lookup.path.tooltip = Definiert den Namen der Skriptdatei, die auf Anforderung ausgeführt werden soll. Beispiel: <b>cid_lookup.php</b>
 cid_lookup.arguments = Abfragezeichenfolge
 cid_lookup.arguments.tooltip =
-	Es definiert die Argumente, die zum Ausführen des Skripts benötigt werden.
-	der spezielle Argumentwert <b>[CIDNUM]</b> wird durch die CID-Nummer des Anrufers ersetzt.
-	<br><br> Beispiel: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+Definiert die Argumente, die zum Ausführen des Skripts benötigt werden.
+Der spezielle Argumentwert <b>[CIDNUM]</b> wird durch die CID-Nummer des Anrufers ersetzt.
+<br><br> Beispiel: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
 cid_lookup.secure = Sicher
 cid_lookup.secure.tooltip = Wenn aktiviert, erfolgt die Anfrage über HTTPS, ansonsten über HTTP
 cid_lookup.validation.no_description = Es wurde keine Beschreibung angegeben.
@@ -45,8 +45,8 @@ cid_lookup.mysql_password = Passwort
 cid_lookup.mysql_password.tooltip = Passwort für die MySQL-Authentifizierung
 cid_lookup.query = Abfrage {0}
 cid_lookup.query.tooltip =
-	Abfrage zum Ausführen. Das spezielle Token <b>[CIDNUM]</b> wird durch die Nummer des Anrufers ersetzt. z.B.:
-	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+Abfrage zum Ausführen. Das spezielle Token <b>[CIDNUM]</b> wird durch die Nummer des Anrufers ersetzt. z.B.:
+<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
 cid_lookup.validation.no_database = Es wurde kein Datenbankname angegeben
 cid_lookup.validation.no_query = Es wurde keine Abfrage bereitgestellt
 cid_lookup.validation.no_mysql_username = Es wurde kein Benutzername angegeben
