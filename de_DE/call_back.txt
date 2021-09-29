@@ -1,7 +1,7 @@
-call_back = Zurückrufen
+call_back = Rückruf
 call_back.class_of_service_id = Dienstleistungsklasse
 call_back.class_of_service_id.tooltip = Serviceklasse, die beim Tätigen eines Anrufs verwendet werden soll
-call_back.delay = Verzögern
+call_back.delay = Verzögerung
 call_back.delay.tooltip = Verzögerung (in Sekunden) vor dem Rückruf. Stellen Sie 0 ein, um sofort zurückzurufen
 call_back.description = Beschreibung
 call_back.description.tooltip = Freitextbeschreibung zur Identifizierung dieses Rückrufs
@@ -14,4 +14,4 @@ call_back.dialprefix.invalid =  Die Vorwahl ist ungültig. Es sind nur Zahlen un
 call_back.dialprefix.tooltip =  Verwenden, um der Rückrufnummer ein Präfix voranzustellen
 call_back.general =  Allgemein
 call_back.mod_dest =  Zielmodul
-menu.call_back =  Zurückrufen
+menu.call_back =  Rückruf
