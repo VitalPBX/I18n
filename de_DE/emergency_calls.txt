@@ -1,5 +1,5 @@
 menu.emergency_calls = Notrufe
-emergency_locations =  Zuweisbare Standorte
+emergency_locations =  Zugewiesene Standorte
 emergency_notifications =  Notfallbenachrichtigungen
 menu.emergency_locations =  {emergency_locations}
 menu.emergency_notifications =  {emergency_notifications}

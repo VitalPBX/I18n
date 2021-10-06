@@ -84,7 +84,7 @@ tenants.did_pattern.placeholder = 1NXXNXXXXXX
 tenants.outbound_profiles = Ausgehende Profile
 tenants.outbound_profiles.tooltip =
 	Ermöglicht Ihnen zu definieren, welche Routenauswahlelemente als ausgehendes Profil für diesen Mandanten verwendet werden können.
-tenants.emergency_trunks = Notfallkoffer
+tenants.emergency_trunks = Notfallleitungen
 tenants.emergency_trunks.tooltip =
 	Ermöglicht Ihnen die gemeinsame Nutzung von Amtsleitungen mit diesem Mandaten vom HauptMandaten, die als Notrufleitungen auf dem Notrufnummernmodul verwendet werden können
 tenants.name.validation.alphanumeric = Der Mandatenname muss ein gültiger alphanumerischer Wert sein
@@ -107,7 +107,7 @@ tenants.cid.tooltip =
 	Sie können den standardmäßigen externen CID-Namen und die Standardnummer definieren, die bei ausgehenden Anrufen verwendet werden.
 tenants.restricted_cid = Eingeschränkte CID
 tenants.restricted_cid.tooltip  = Hier können Sie festlegen, ob die Rufnummern der Anrufer-ID für externe Anrufe eingeschränkt werden sollen oder nicht.
-tenants.restricted_cid.disabled = Behinderte
+tenants.restricted_cid.disabled = Deaktiviert
 tenants.restricted_cid.disabled.tooltip = Es werden keine Einschränkungen angewendet. Der Mandaten kann jede externe CID-Nummer verwenden.
 tenants.restricted_cid.default = Standard
 tenants.restricted_cid.default.tooltip = Alle externen Anrufe für diesen Mandanten werden gezwungen, die CID-Informationen zu verwenden, die im Feld "Standard-Extern-CID" definiert sind.
