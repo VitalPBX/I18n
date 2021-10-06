@@ -1,8 +1,8 @@
-menu.dial_profiles =Wählprofile
+menu.dial_profiles = Wählprofile
 module.dial_profiles = Wählprofile
 dial_profiles.name = Name
 dial_profiles.name.help = Name zur Identifizierung dieses Profils
-dial_profiles.music_group_id = Wartemusik
+dial_profiles.music_group_id = Wartemusikgruppe
 dial_profiles.music_group_id.help = Geben Sie dem Anrufer Wartemusik, bis ein angeforderter Kanal antwortet.
 dial_profiles.allow_parking = Parken zulassen
 dial_profiles.allow_parking.help = Ermöglichen Sie dem angerufenen/anrufenden Teilnehmer, das Parken des Anrufs zu aktivieren, indem Sie die DTMF-Sequenz senden, die für "Anruf parken" in den Funktionscodes definiert ist.

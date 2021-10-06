@@ -33,7 +33,7 @@ cid_management.v.append_to_cid_number.invalid = %s ist ungültig. Es sind nur Za
 cid_management.v.skip_on_cid_number = Feld "Strip Off (Skip)" in den CID-Nummerneinstellungen
 cid_management.v.cid_number_length = Feld "Abziehen (Länge)" in den CID-Nummerneinstellungen
 cid_management.v.description.unique = Beschreibung muss eindeutig sein
-cid_management.none = Keiner
+cid_management.none = Keine
 cid_management.realtime_test = Simulation
 cid_management.phone_number = Ursprüngliche CID-Nummer
 cid_management.phone_number_result = Geänderte CID-Nummer
@@ -46,7 +46,7 @@ cid_management.type = Quelle {0}
 cid_management.type.option.static = Statisch
 cid_management.type.option.mysql = MySQL
 cid_management.type.option.api = HTTP/HTTPS-Anfrage
-cid_management.type.tooltip = Es ermöglicht Ihnen zu definieren, woher die Informationen zum Ändern des CID-Namens/-Nummer des Anrufers stammen
+cid_management.type.tooltip = Ermöglicht Ihnen zu definieren, woher die Informationen zum Ändern des CID-Namens/-Nummer des Anrufers stammen
 cid_management.mysql_settings = MySQL-Einstellungen
 cid_management.database = Datenbank {0}
 cid_management.database.tooltip = Name der Datenbank
@@ -56,7 +56,7 @@ cid_management.query.tooltip =
 	Die Variable <b>[CIDNUM]</b> wird durch die Anrufernummer ersetzt und die Variable <b>[CIDNAME]</b> wird durch den Anrufernamen ersetzt. <br><br>
 	Die Abfrage muss die Spalten <b>cidname</b> & <b>cidnumber</b> zurückgeben, um die CID-Änderungen durchzuführen, in
 	In anderen Fällen werden die CID-Informationen nicht geändert.
-cid_management.mysql_host = Gastgeber {0}
+cid_management.mysql_host = Server {0}
 cid_management.mysql_host.tooltip = Hostname oder IP-Adresse, auf der die Datenbank gehostet wird
 cid_management.mysql_username = Benutzername {0}
 cid_management.mysql_username.tooltip = Der Benutzername zur Authentifizierung der Datenbankabfragen

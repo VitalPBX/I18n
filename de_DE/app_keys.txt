@@ -3,14 +3,14 @@ menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
 app_keys.general = {vitalpbx.general}
 app_keys.description = Beschreibung
-app_keys.description.tooltip = Eine kurze Beschreibung Ihrer Bewerbung
-app_keys.enabled = Ermöglicht
+app_keys.description.tooltip = Eine kurze Beschreibung Ihrer Anwendung
+app_keys.enabled = Aktiviert
 app_keys.enabled.tooltip = Es definiert, ob dieser APP-Schlüssel aktiviert ist oder nicht
 app_keys.key = Taste
 app_keys.key.tooltip = Schlüssel zur Authentifizierung von Drittanbieter-Apps
 Tenant = Mandant
 app_keys.tenant.tooltip =
-		Es ermöglicht Ihnen zu definieren, welcher Mandant mit diesem API-Schlüssel verknüpft wird. Wenn also jemand diesen Schlüssel verwendet, wird dies der Fall sein
-		"nur Daten abrufen, die sich auf den zugewiesenen Mandanten beziehen. Bei Einstellung auf ""Beliebiger Mieter"" können Sie jedoch Informationen abrufen"
+		Ermöglicht Ihnen zu definieren, welcher Mandant mit diesem API-Schlüssel verknüpft wird. Wenn also jemand diesen Schlüssel verwendet, wird dies der Fall sein
+		"nur Daten abrufen, die sich auf den zugewiesenen Mandanten beziehen. Bei Einstellung auf ""Beliebiger Mandant"" können Sie jedoch Informationen abrufen"
 		eines Mandanten, der bei jeder Anfrage nur die Mandanten-ID oder den Pfad angibt.
 app_keys.all = -- Jeder Mandant --
