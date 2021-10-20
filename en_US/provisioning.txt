@@ -383,3 +383,22 @@ provisioning_settings.https_port = HTTPS Port
 provisioning_settings.https_port.tooltip =
 	It allows you to define the HTTPS port to connect with the VitalPBX API.
 provisioning_settings.https_port.invalid = You must provide a valid HTTPS port. The value must be between 0 and 65535
+provisioning_templates.gui = GUI Settings
+provisioning_templates.gui_password = Admin Password
+provisioning_templates.gui_password.tooltip =
+	It allows defining the default password to log in to the phone's Web GUI. You should be aware of limitations imposed
+	by your IP Phone. For example, some IP phones will only accept the password as numeric digits. The Provisioning system
+	does not validate whether the password will be acceptable by the phone. You must refer to the manufacturer's documentation
+	for your specific phone.
+provisioning_templates.phone_wallpaper = Phone's Wallpaper
+provisioning_templates.refresh = Reload
+provisioning_templates.expand = Expand
+provisioning_templates.refresh_template = Reload Template with Base Template
+provisioning_templates.refresh_template.confirm =
+	Are you sure you want to reload the template replacing the current content with the base template provided along
+	with the provisioning add-on?
+provisioning_templates.refresh_template.confirm_additional =
+	Executing this action is useful when a new version of the provisioning add-on is released and includes fixes related
+	to a specific phone model template. Keep in mind that any previous changes made to this template will be overwritten.
+provisioning_templates.accept = {provisioning_templates.refresh}
+provisioning_templates.reload.success = The template has been reloaded successfully.
