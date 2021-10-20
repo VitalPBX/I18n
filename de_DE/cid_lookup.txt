@@ -24,9 +24,9 @@ cid_lookup.path = Pfad
 cid_lookup.path.tooltip = Definiert den Namen der Skriptdatei, die auf Anforderung ausgeführt werden soll. Beispiel: <b>cid_lookup.php</b>
 cid_lookup.arguments = Abfragezeichenfolge
 cid_lookup.arguments.tooltip =
-Definiert die Argumente, die zum Ausführen des Skripts benötigt werden.
-Der spezielle Argumentwert <b>[CIDNUM]</b> wird durch die CID-Nummer des Anrufers ersetzt.
-<br><br> Beispiel: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+	Definiert die Argumente, die zum Ausführen des Skripts benötigt werden.
+	Der spezielle Argumentwert <b>[CIDNUM]</b> wird durch die CID-Nummer des Anrufers ersetzt.
+	<br><br> Beispiel: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
 cid_lookup.secure = Sicher
 cid_lookup.secure.tooltip = Wenn aktiviert, erfolgt die Anfrage über HTTPS, ansonsten über HTTP
 cid_lookup.validation.no_description = Es wurde keine Beschreibung angegeben.
@@ -45,8 +45,8 @@ cid_lookup.mysql_password = Passwort
 cid_lookup.mysql_password.tooltip = Passwort für die MySQL-Authentifizierung
 cid_lookup.query = Abfrage {0}
 cid_lookup.query.tooltip =
-Abfrage zum Ausführen. Das spezielle Token <b>[CIDNUM]</b> wird durch die Nummer des Anrufers ersetzt. z.B.:
-<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+	Abfrage zum Ausführen. Das spezielle Token <b>[CIDNUM]</b> wird durch die Nummer des Anrufers ersetzt. z.B.:
+	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
 cid_lookup.validation.no_database = Es wurde kein Datenbankname angegeben
 cid_lookup.validation.no_query = Es wurde keine Abfrage bereitgestellt
 cid_lookup.validation.no_mysql_username = Es wurde kein Benutzername angegeben
