@@ -13,5 +13,5 @@ blacklist.destination = Ziel
 blacklist.destination.tooltip =
 	Optionales Ziel. Wenn gesetzt, wird der Anrufer mit einer CID-Nummer, die mit der oben konfigurierten übereinstimmt, umgeleitet
 	zum konfigurierten Ziel. Wenn nicht festgelegt, wird stattdessen eine Nachricht abgespielt
-blacklist.enabled = Ermöglicht
+blacklist.enabled = Aktiviert
 blacklist.enabled.tooltip = Aktivieren/Deaktivieren Sie diese CID-Nummer aus der Blacklist
