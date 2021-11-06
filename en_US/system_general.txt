@@ -78,3 +78,7 @@ system_general.atxferdropcall.tooltip =
 system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
 system_general.auto_generated_pwd_length.tooltip =
 	It allows you to define the default length for auto-generated devices passwords
+system_general.route_internally_tenant_dids = Route Calls to Tenant DIDs Internally
+system_general.route_internally_tenant_dids.tooltip =
+	When set to yes, calls to DIDs defined on the PBX' Tenants are routed locally instead of sending them out through
+	the VoIP provider.
