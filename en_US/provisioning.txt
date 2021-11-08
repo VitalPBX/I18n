@@ -402,3 +402,7 @@ provisioning_templates.refresh_template.confirm_additional =
 	to a specific phone model template. Keep in mind that any previous changes made to this template will be overwritten.
 provisioning_templates.accept = {provisioning_templates.refresh}
 provisioning_templates.reload.success = The template has been reloaded successfully.
+provisioning.firmware_version = Firmware Version
+provisioning.firmware_version.tooltip = It shows the current version of the latest uploaded firmware.
+provisioning.unavailable = Unavailable
+provisioning.firmwares.confirm_delete = Are you sure you want to delete the current firmware?
