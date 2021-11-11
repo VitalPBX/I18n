@@ -1,0 +1,31 @@
+menu.user_profiles =  Benutzerprofil
+module.users_profiles =  Benutzerprofil
+users_profiles =  Benutzerprofile
+users_profiles.collapse_all =  Alles ausblenden
+users_profiles.confirm_delete =  Sind Sie sicher, dass Sie dieses Profil löschen möchten?
+users_profiles.delete =  Löschen
+users_profiles.description =  Profilname
+users_profiles.description.tooltip =  Name für dieses Profil.
+users_profiles.expand_all =  Alle erweitern
+users_profiles.general =  Allgemein
+users_profiles.module_access =  Modulzugriff
+users_profiles.priv.add =  Hinzufügen
+users_profiles.priv.delete =  Löschen
+users_profiles.priv.edit =  Bearbeiten
+users_profiles.priv.view =  Sicht
+users_profiles.superadmin =  Privilegien gewähren
+users_profiles.superadmin.tooltip =  Zugriff auf alle Module zulassen.
+users_profiles.deleting_default_user_profile =  Standardbenutzerprofil kann nicht gelöscht werden
+users_profiles.permissions =  Berechtigungen
+users_profiles.change_language =  Sprache ändern
+users_profiles.change_language.tooltip =
+	Es definiert, ob ein Benutzer mit diesem zugewiesenen Profil in der Lage ist, die GUI-Sprache zu ändern
+users_profiles.get_updates =  Updates bekommen
+users_profiles.get_updates.tooltip =
+	Es definiert, ob ein Benutzer mit diesem zugewiesenen Profil in der Lage ist, <b>{0}</b> über die GUI zu aktualisieren
+users_profiles.update_profile =  Profil aktualisieren
+users_profiles.update_profile.tooltip =
+	Es definiert, ob ein Benutzer mit diesem zugewiesenen Profil in der Lage ist, seine Profileinstellungen zu aktualisieren
+users_profiles.role_is_being_used =   Diese Rolle wird von {0} verwendet
+users_profiles.single_user =  <b>{0}</b> Nutzer
+users_profiles.multiple_users =  mehrere Benutzer

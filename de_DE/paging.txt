@@ -1,0 +1,56 @@
+menu.paging_and_intercom = Paging & Gegensprechanlage
+module.paging = Paging & Gegensprechanlage
+paging = Paging & Gegensprechanlage
+paging.description = Beschreibung
+paging.description.tooltip = Kurze Beschreibung zur Identifizierung dieser Seite
+paging.duplex = Duplex-Audio
+paging.duplex.tooltip = Die Verwendung dieser Option, die manchmal als "Talkback-Paging" bezeichnet wird, impliziert, dass das Gerät, das den Ruf empfängt, die Fähigkeit hat, gleichzeitig mit dem Empfang von Audio Audio zurückzusenden. Im Allgemeinen möchten Sie dies nicht verwenden, es sei denn, Sie hätten einen besonderen Bedarf dafür.
+paging.extensions = Erweiterungen
+paging.extensions.tooltip = Liste der zu wählenden Nebenstellen.
+paging.extension = Code
+paging.extension.invalid = Der Paging-Code ist ungültig. Nur *,#,+ und Zahlen sind erlaubt.
+paging.extension.tooltip = Nummer um diesen Service zu erreichen
+paging.general = Allgemein
+paging.ignore = Anrufweiterleitung ignorieren
+paging.ignore.tooltip = Versuche, den Anruf weiterzuleiten, ignorieren
+paging.invalid.already_exists = Ungültige Paging-Nummer {0}. Die Nummer wird vom {1}-Modul verwendet.
+paging.quiet = Ruhemodus
+paging.quiet.tooltip = Ruhig, spielen Sie keinen Piepton für den Anrufer ab
+paging.record = Paging aufzeichnen
+paging.record.tooltip = Zeichnen Sie die Seite in eine Datei auf
+paging.seconds =
+	[eins] Eine Sekunde
+	[mehr] {0} Sekunden
+paging.skip_busy = Beschäftigt überspringen
+paging.skip_busy.tooltip = Wählt einen Kanal nur, wenn der Gerätestatus NOT_INUSE ist. Diese Option ist wahrscheinlich nur auf SIP-gebundenen Kanälen nützlich (und zuverlässig) und funktioniert möglicherweise nicht, wenn auf einer einzelnen Leitung mehrere Anrufe zulässig sind. Verlassen Sie sich daher nicht in allen Fällen auf diese Option.
+paging.timeout = Auszeit
+paging.timeout.tooltip = Geben Sie an, wie lange das System versucht, einen Anruf zu verbinden. Nach Ablauf dieser Zeit werden alle nicht entgegengenommenen Intercom-Anrufe vom System aufgelegt.
+paging.multicastrtp = MulticastRTP
+paging.ip_address = IP Adresse
+paging.port = Port
+paging.no_members = Es wurden keine Erweiterungen oder gültige Multicast-Mitglieder bereitgestellt
+paging.announcement = Bekanntmachung
+paging.announcement.tooltip = Ansage, die an alle ausgelagerten Teilnehmer abgespielt wird
+paging.mode = Modus
+paging.mode.tooltip = Es ermöglicht Ihnen, das Paging-Verhalten zu definieren
+paging.mode.default = Standard
+paging.mode.annon_only = Nur Ankündigung
+paging.mode.default.tooltip = Standardverhalten. Spielt die Ansage ab, falls definiert, und lässt dann den Anrufer weiter sprechen
+paging.mode.annon_only.tooltip = Spielt die Ansage ab und legt dann auf
+paging.schedule = Zeitlicher Ablauf
+paging.schedule_enabled = Ermöglicht
+paging.schedule_enabled.tooltip = Wenn auf yes gesetzt, wird die Paging-Ausführung gemäß den bereitgestellten Zeitplänen automatisiert.
+paging.schedules.time = Zeit
+paging.schedules.start_day = Starttag
+paging.schedules.end_day = Endtag
+paging.schedules.excluded_dates = Ausgeschlossene Daten
+paging.schedules.description = Beschreibung
+paging.validation.mode.no_announcement = Sie haben den Modus auf "Nur Ansage" eingestellt, aber keine Ansage ausgewählt
+paging.schedules.month = Monat
+paging.schedules.dom = Monatstag
+paging.validation.schedule.no_announcement =
+	Sie haben den Paging-Zeitplan aktiviert, aber keine Ansage ausgewählt, die beim Abgleichen eines Zeitplans wiedergegeben werden soll
+paging.validation.no_schedules = Sie haben den Paging-Zeitplan aktiviert, aber keinen Zeitplan definiert
+paging.no_license =
+	Sie haben die maximale Anzahl kostenloser Paging-Elemente bei aktivierter Zeitplanfunktion erreicht. Aktivieren Sie das Add-on, um zu haben
+	unbegrenzte Paging-Elemente mit dieser Funktion

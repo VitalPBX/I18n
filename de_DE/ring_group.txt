@@ -1,0 +1,56 @@
+menu.ring_groups = Klingelgruppen
+module.ring_group = Klingelgruppen
+ring_group = Klingelgruppe
+ring_group.description = Beschreibung
+ring_group.description.tooltip = Kurze Beschreibung zur Identifizierung dieser Ringgruppe.
+ring_group.destination = Ziel
+ring_group.extension = Code
+ring_group.extension.invalid = Erweiterungen sind erforderlich
+ring_group.extension.tooltip = Nummer, die Sie wählen müssen, um diesen Dienst zu erreichen.
+ring_group.general = Allgemein
+ring_group.invalid.already_exists = Ungültige Rufgruppennummer {0}. Die Nummer wird vom {1}-Modul verwendet.
+ring_group.last_destination = Letztes Ziel
+ring_group.last_destination.tooltip = Ziel zum Ausführen, wenn keine der Erweiterungen erreicht wurde
+ring_group.list = Erweiterungen
+ring_group.list.tooltip = Liste der Nebenstellen für diese Rufgruppe.
+ring_group.mod_dest = Zielmodul
+ring_group.music_group_id = Rückrufton
+ring_group.music_group_id.tooltip = Geben Sie dem Anrufer Wartemusik, bis ein angeforderter Kanal antwortet.
+ring_group.prefix = CID-Namenspräfix
+ring_group.prefix.invalid = Bitte geben Sie ein gültiges CID-Namenspräfix ein. Unterstrich, Bindestrich und alphanumerische Werte sind zulässig.
+ring_group.prefix.tooltip = Präfix zum Anhängen an diese Rufgruppe
+ring_group.ringtime = Klingelzeit
+ring_group.ringtime.tooltip = Klingelzeit in Sekunden, MAX 160 Sekunden.
+ring_group.ringtime.values = Der Wert für die Klingelzeit muss zwischen 5 und 160 Sekunden liegen.
+ring_group.select_extensions = Wählen Sie Erweiterungen
+ring_group.strategy = Ringstrategie
+ring_group.strategy.one_by_one = Einer nach dem anderen
+ring_group.strategy.ringall = Ringall
+ring_group.strategy.tooltip = Ringstrategie
+ring_group.validation.duplicated_description = Die bereitgestellte Beschreibung wird von einer anderen Ringgruppe verwendet. Bitte überprüfen
+ring_group.validation.no_extensions = Dieser Rufgruppe wurden keine Durchwahlen oder externen Nummern hinzugefügt
+ring_group.validation.duplicated_extension = Die angegebene Nebenstelle wird von einer anderen Ringgruppe verwendet. Bitte überprüfen
+ring_group.external_numbers = Externe Nummern
+ring_group.external_numbers.tooltip = Liste mit den externen Nummern, die gewählt werden sollen, wenn diese Rufgruppe angerufen wird
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Dienstklasse zum Wählen der in dieser Rufgruppe aufgeführten externen Nummern
+ring_group.validation.no_valid_number =
+	Die externe Nummer <b>{0}</b> enthält ungültige Zeichen. Nur Zahlen,
+	und die folgenden Zeichen sind erlaubt: *, # und +
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip =
+	Wenn diese Option aktiviert ist, wird verhindert, dass die anderen Telefone einen verpassten Anruf aufzeichnen, wenn der Anruf auf einem Telefon angenommen wurde
+	in dieser Ringgruppe aufgeführt. Dies ist eine sehr nützliche Einstellung, wenn die Rufstrategie auf "Alle klingeln" eingestellt ist.
+ring_group.allow_diversions = Umleitungen zulassen
+ring_group.allow_diversions.tooltip =
+	Ermöglicht Ihnen zu definieren, ob die für die verschiedenen Nebenstellenmitglieder definierten Umleitungen angewendet werden oder nicht.
+ring_group.answerchannel = Antwortkanal
+ring_group.answerchannel.tooltip =
+	Wenn auf "Ja" gesetzt, werden eingehende Anrufe an diese Anwendung beantwortet, bevor die Nummernliste klingelt
+	hier definiert. Wenn Sie dies auf "Nein" einstellen, werden möglicherweise einige Audios oder die Musik in der Warteschleife nicht wiedergegeben.
+ring_group.skip_busy = Beschäftigte Erweiterungen überspringen
+ring_group.skip_busy.tooltip = Bei Einstellung auf "Ja" werden alle aufgelisteten Nebenstellen mit dem Status "Besetzt" übersprungen.
+ring_group.no_release = Keine Veröffentlichung
+ring_group.no_release.tooltip =
+	Es fügt den Ringgruppenmitgliedern das Flag no release (\n) hinzu; dies vermeidet das Erstellen mehrerer Elemente auf CDR; Nichtsdestotrotz,
+	bei einigen Telefonen können bei der Übertragung Probleme auftreten, wenn diese Option aktiviert ist. Daher können Sie diese Option bei Bedarf deaktivieren.

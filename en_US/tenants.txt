@@ -120,3 +120,4 @@ tenants.calls_limit.tooltip = It allows you to define the number of concurrent o
 tenants.calls_limit.placeholder = No Limit
 tenants.calls_limit.invalid = You have provided an invalid calls limit value
 tenants.main = (Main)
+tenants.duplicated_did = The DID "{0}" is already in use by tenant "{1}."

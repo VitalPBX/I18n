@@ -1,0 +1,92 @@
+menu.pjsip_settings = PJSIP-Einstellungen
+module.pjsip_settings = PJSIP-Einstellungen
+pjsip_settings.general = Allgemein
+pjsip_settings.debug = Debuggen
+pjsip_settings.debug.tooltip = Aktivieren/Deaktivieren der SIP-Debug-Protokollierung.
+pjsip_settings.timer_t1 = Timer T1
+pjsip_settings.timer_t1.tooltip = Der Timer T1 ist die Basis zum Bestimmen, wie lange gewartet werden muss, bevor Anforderungen erneut gesendet werden, die keine Antwort erhalten, wenn ein unzuverlässiger Transport (z. B. UDP) verwendet wird.
+pjsip_settings.timer_b = Timer B
+pjsip_settings.timer_b.tooltip = Timer B bestimmt die maximale Wartezeit nach dem Senden einer INVITE-Anforderung, bevor die Transaktion beendet wird.
+pjsip_settings.disable_tcp_switch = TCP-Switch deaktivieren
+pjsip_settings.disable_tcp_switch.tooltip = Deaktivieren Sie die automatische Umschaltung von UDP- auf TCP-Transporte, wenn die ausgehende Anfrage zu groß ist.
+pjsip_settings.bind = Binden
+pjsip_settings.bindaddr = Adresse
+pjsip_settings.bindport = Port
+pjsip_settings.bind.tooltip = IP-Adresse und optionaler Port zum Binden für diesen Transport.
+pjsip_settings.tlsbind = TLS-Bindung
+pjsip_settings.tlsbind.tooltip = IP-Adresse und optionaler Port über das TLS-Protokoll zum Binden für diesen Transport.
+pjsip_settings.certificate = Zertifikat
+pjsip_settings.certificate.tooltip = Zertifikat zur Verwendung für TLS-Verbindungen
+pjsip_settings.verify_client = Client verifizieren
+pjsip_settings.verify_client.tooltip = Überprüfung des Clientzertifikats erforderlich (NUR TLS)
+pjsip_settings.ssl_method = SSL-Methode
+pjsip_settings.ssl_method.tooltip = SSL-Transportmethode (NUR TLS)
+pjsip_settings.verify_server = Server verifizieren
+pjsip_settings.verify_server.tooltip = Verifizierung des Serverzertifikats erforderlich (NUR TLS)
+pjsip_settings.local_net = Lokales Netz
+pjsip_settings.local_net.tooltip = Als lokal zu betrachtendes Netzwerk (wird für NAT-Zwecke verwendet).
+pjsip_settings.external_media_address = Externe Medienadresse
+pjsip_settings.external_media_address.tooltip = Externe IP-Adresse, die bei der RTP-Verarbeitung verwendet werden soll.
+pjsip_settings.external_signaling_address = Externe Signaladresse
+pjsip_settings.external_signaling_address.tooltip = Externe Adresse für SIP-Signalisierung.
+pjsip_settings.nat_settings = Nat-Einstellungen
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = Legt fest, welche Länderangaben für Kanäle verwendet werden sollen, die für PJSIP-Geräte und -Trunks erstellt wurden.
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip =
+	Legt fest, welche Codecs für Kanäle verwendet werden sollen, die für PJSIP-Geräte und -Trunks erstellt wurden. Dieser Parameter gilt nur, wenn die Amtsleitungen oder die Geräte
+	hat keine eigenen Codecs definiert.
+pjsip_settings.mwi_settings = MWI-Einstellungen
+pjsip_settings.mwi_tps_queue_high = Taskprozessor-Warteschlange hoch
+pjsip_settings.mwi_tps_queue_high.tooltip =
+	Auf einem stark ausgelasteten System müssen Sie möglicherweise die Grenzwerte für die Warteschlangen des Taskprozessors anpassen. Wenn eine Taskprozessor-Warteschlangengröße
+	seinen Hochwasserstand erreicht, wird pjsip die Verarbeitung neuer Anfragen einstellen, bis die Warnung gelöscht wird. Die Warnung
+	wird gelöscht, wenn alle Warteschlangen des warnenden Taskprozessors auf ihren Niedrigwasser-Clear-Wert abgesunken sind.
+pjsip_settings.mwi_tps_queue_low = Taskprozessor-Warteschlange niedrig
+pjsip_settings.mwi_tps_queue_low.tooltip =
+	Auf einem stark ausgelasteten System müssen Sie möglicherweise die Grenzwerte für die Warteschlangen des Taskprozessors anpassen. Wenn eine Taskprozessor-Warteschlangengröße
+	seinen Hochwasserstand erreicht, wird pjsip die Verarbeitung neuer Anfragen einstellen, bis die Warnung gelöscht wird. Die Warnung
+	wird gelöscht, wenn alle Warteschlangen des warnenden Taskprozessors auf ihren Niedrigwasser-Clear-Wert abgesunken sind. Auf -1 für den Tiefpunkt setzen
+	Wasserstand auf 90 % des Hochwasserstandes.
+pjsip_settings.mwi_disable_initial_unsolicited = Deaktivieren Sie das anfängliche MWI
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip =
+	Wenn die anfängliche unaufgeforderte MWI-Benachrichtigung beim Start aktiviert ist, werden die ersten Benachrichtigungen gesendet an
+	Anlaufen. Wenn Sie viele Endpunkte (Tausende) haben, die unaufgefordert MWI verwenden, sollten Sie dies in Betracht ziehen
+	Deaktivieren der Benachrichtigungen zum ersten Start. Wenn die ersten unerwünschten MWI-Benachrichtigungen beim Start deaktiviert sind
+	dann werden die Benachrichtigungen mit der nächsten Kontaktaktualisierung des Endpunkts gestartet.
+pjsip_settings.keep_alive_interval = Keep Alive-Intervall
+pjsip_settings.keep_alive_interval.tooltip =
+	Das Intervall (in Sekunden), um Keepalives an aktive verbindungsorientierte Transporte zu senden.
+pjsip_settings.contact_expiration_check_interval = Ablaufprüfintervall
+pjsip_settings.contact_expiration_check_interval.tooltip =
+	Das Intervall (in Sekunden), um nach abgelaufenen Kontakten zu suchen.
+pjsip_settings.max_initial_qualify_time =  Maximale anfängliche Qualifikationszeit
+pjsip_settings.max_initial_qualify_time.tooltip =
+	Die maximal zulässige Zeit ab dem Start sollte bei allen Kontakten versucht werden. Wenn größer als der
+	Qualify Frequency für einen AOR, stattdessen wird die Qualify Frequency verwendet.
+pjsip_settings.unidentified_request_period = Zeitraum für nicht identifizierte Anfragen
+pjsip_settings.unidentified_request_period.tooltip =
+	Die Anzahl der Sekunden, über die nicht identifizierte Anforderungen gesammelt werden. Wenn nicht identifizierte Anfragen während
+	nicht identifizierten Anfragezeitraum, wird ein Sicherheitsereignis generiert.
+pjsip_settings.unidentified_request_count = Anzahl nicht identifizierter Anfragen
+pjsip_settings.unidentified_request_count.tooltip = Die Anzahl der nicht identifizierten Anfragen von einer einzelnen IP, die zugelassen werden sollen.
+pjsip_settings.unidentified_request_prune_interval = Bereinigungsintervall für nicht identifizierte Anfragen
+pjsip_settings.unidentified_request_prune_interval.tooltip =
+	Das Intervall, in dem nicht identifizierte Anforderungen älter als das Doppelte des Zeitraums für nicht identifizierte Anforderungen sind, wird bereinigt.
+pjsip_settings.language.tooltip = Standardsprache für Kanäle, die von PJSIP-Endpunkten erstellt werden
+pjsip_settings.allow_reload = Transporte nachladen zulassen
+pjsip_settings.allow_reload.tooltip =
+	Es definiert, ob PJSIP-Transporte neu geladen werden, wenn res_pjsip neu geladen wird. Es wird empfohlen, diese Option auf "nein" zu setzen.
+	da das Neuladen eines Transports laufende Anrufe unterbrechen kann.
+pjsip_settings.endpoint_identifier_order = Reihenfolge der Endpunktkennungen
+pjsip_settings.endpoint_identifier_order.tooltip =
+	Diese Option ermöglicht die Definition einer Liste von Endpunkt-ID-Namen. Die Reihenfolge der Liste ist die angegebene Reihenfolge der
+	benannte Bezeichner prüfen die Anfrage. Standard: <b>"IP,Benutzername,Anonym"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Nutzername
+pjsip_settings.endpoint_identifier_order.anonymous = Anonym
+pjsip_settings.endpoint_identifier_order.auth_username = Auth-Benutzername
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams-Domäne
+pjsip_settings.ms_signaling_address.tooltip = Die zu sendende Domäne beim Aufruf über einen Trunk mit dem Transport "TLS+MSTeams". z.B.: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = Die angegebene MS-Domain ist ungültig. Bitte geben Sie einen gültigen FQDN an.

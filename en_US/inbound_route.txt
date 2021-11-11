@@ -60,3 +60,5 @@ inbound_route.append.tooltip = Suffix to be added to the obtained number after r
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
 inbound_route.prepend.tooltip = Prefix to be added to the obtained number after retrieving the desired number of digits from the original DID
 inbound_route.verify_did = Verify DID
+inbound_route.drop_anon_calls = Drop Anonymous Calls
+inbound_route.drop_anon_calls.tooltip = If set to yes, any anonymous call will get hanged up instantly. If you prefer using the "Privacy Manager" option, then disable this option.

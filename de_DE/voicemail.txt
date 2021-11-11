@@ -1,0 +1,2 @@
+vm_bodytext =Sie haben um ${VM_DATE} eine ${VM_DUR} lange Voicemail-Nachricht von ${VM_CALLERID} erhalten.\nEine Aufzeichnung dieser Nachricht ist an diese E-Mail angehängt, Sie können sie auch abhören, indem Sie *97 von Ihrer eigenen Nebenstelle wählen, oder indem Sie *98 von einer anderen Nebenstelle wählen
+vm_subject =  Voicemail-Nummer ${VM_MSGNUM} für Mailbox ${VM_MAILBOX} von ${VM_CALLERID} empfangen um ${VM_DATE}

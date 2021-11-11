@@ -1,0 +1,25 @@
+ha_monitor = HA-Monitor
+menu.ha_monitor =  {ha_monitor}
+module.ha_monitor =  Ha-Monitor
+ha_monitor.master =  Meister
+ha_monitor.standby =  Stehen zu
+ha_monitor.unstandby =  Server starten
+ha_monitor.started =  Gestartet
+ha_monitor.stopped =  Gestoppt
+ha_monitor.hdd =  HDD-Synchronisierung
+ha_monitor.database =  Datenbank
+ha_monitor.dahdi =  DAHDI
+ha_monitor.asterisk =  Sternchen
+ha_monitor.vitalpbx =  VitalPBX
+ha_monitor.bascul =  Bascul
+ha_monitor.confirm_bascul.title =  Ändern Sie die Rollen von Servern in Hochverfügbarkeit
+ha_monitor.confirm_bascul =
+	<strong>┬íWARNING!</strong>, All calls in progress will be lost and the system will be in an unavailable state for a few seconds.<br>=
+	<strong>Are you sure to switch from {0} to {1} ? </strong>
+ha_monitor.success = Die Bascul wurde erfolgreich ausgeführt
+ha_monitor.executed = Die Bascul wird im Hintergrund hingerichtet
+ha_monitor.confirm_unstandby.title =  Bestätigung starten
+ha_monitor.confirm_unstandby =
+	Are you sure that you want to execute the Start now?
+ha_monitor.executed_unstandby =  Der Standby-Modus wurde erfolgreich ausgeführt
+ha_monitor.off =  Server ausgefallen

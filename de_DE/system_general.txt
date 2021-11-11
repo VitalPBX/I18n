@@ -1,0 +1,80 @@
+menu.system_general = System Allgemein
+module.system_general = System Allgemein
+system_general.ast_agi_dir = Asterisk AGI-Verzeichnis
+system_general.ast_dir = Asterisk-Verzeichnis
+system_general.ast_libs_dir = Asterisk-Bibliothekenverzeichnis
+system_general.ast_log_dir = Asterisk-Protokollverzeichnis
+system_general.ast_module_dir = Verzeichnis der Asterisk-Module
+system_general.ast_sound_dir = Asterisk-Soundverzeichnis
+system_general.ast_spool_dir = Asterisk Spool-Verzeichnis
+system_general.auto_hints = Hinweise erstellen
+system_general.auto_hints.tooltip = Wenn aktiviert, werden die Hinweise jedes Mal automatisch aktiviert, wenn Sie eine Erweiterung erstellen.
+system_general.auto_portal = Portal aktivieren
+system_general.auto_portal.tooltip = Wenn aktiviert, wird das Portal jedes Mal automatisch aktiviert, wenn Sie eine Nebenstelle erstellen.
+system_general.auto_voicemail = Voicemail aktivieren
+system_general.auto_voicemail.tooltip = Wenn aktiviert, wird die Voicemail jedes Mal automatisch aktiviert, wenn Sie eine Nebenstelle erstellen.
+system_general.dialoptions = Wähloptionen für Nebenstellen
+system_general.dialoptions.tooltip = Standardoptionen, die zum Wählen interner Nebenstellen verwendet werden, wenn Wähloptionen nicht definiert sind (im Erweiterungsmodul).
+system_general.dialplan_settings = Wählplaneinstellungen
+system_general.extension_settings = Erweiterungseinstellungen
+system_general.general = Allgemein
+system_general.recording_format = Aufnahmeformat
+system_general.recording_format.tooltip = Standard-Audioformat zum Aufzeichnen von Anrufen.
+system_general.ringtime = Standardklingelzeit
+system_general.ringtime.placeholder = Wert in Sekunden
+system_general.ringtime.tooltip = Standardzeit für das Klingeln ausgehender Anrufe, wenn die Klingelzeit nicht definiert oder (auf dem Erweiterungsmodul) als Standard eingestellt ist.
+system_general.save = Speichern
+system_general.system_directories = Systemverzeichnisse
+system_general.table.description = Beschreibung
+system_general.table.path = Weg
+system_general.trunk_dialoptions = Amtswahloptionen
+system_general.trunk_dialoptions.tooltip = Standardoptionen zum Wählen externer Nummern, wenn Amtswahloptionen nicht definiert sind (auf dem Amtsleitungsmodul).
+system_general.recording_script = Aufnahmeskript
+system_general.recording_script.tooltip = Skript, das ausgeführt werden soll, wenn die Aufnahme beendet ist. Die Skriptparameter können als durch Leerzeichen getrennte Folge von Zeichenfolgen wie ^{{<i><b>Name</b></i>}} definiert werden, wobei <i><b>Name</b></i> kann ein beliebiger Kanal oder eine beliebige MixMonitor-Variable sein. Beispiel: <br> ^{{UNIQUEID}} – Kanal-ID<br> ^{{MIXMONITOR_FILENAME}} – Name der Aufnahmedatei.
+system_general.recording_script.invalid = Aufnahmeskript wird nicht gefunden
+system_general.default_ast_lang = Standardsprache
+system_general.default_ast_lang.tooltip = Standardmäßig auszuwählende Sprache, wenn eine neue Erweiterung erstellt wird
+system_general.devices_prefix = Gerätepräfix
+system_general.devices_prefix.tooltip = Präfix, das standardmäßig an den Gerätenamen angehängt wird
+system_general.sounds = Systemaufforderungen
+system_general.dnd = DND
+system_general.dnd.tooltip =
+	Ermöglicht Ihnen, eine benutzerdefinierte Eingabeaufforderung zu definieren, die reproduziert wird, wenn eine Nebenstelle die DND aktiviert hat
+system_general.blacklisted = Schwarze Liste
+system_general.blacklisted.tooltip =
+	Ermöglicht Ihnen, eine benutzerdefinierte Ansage zu definieren, die Anrufern auf der schwarzen Liste wiedergegeben wird
+system_general.transferdigittimeout = Ziffern-Timeout übertragen
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Anzahl der Sekunden, die zwischen den Ziffern beim Weiterleiten eines Anrufs gewartet werden soll (Standard ist 3 Sekunden)
+system_general.featuredigittimeout = Funktionen Ziffern-Timeout
+system_general.featuredigittimeout.tooltip = Maximale Zeit (ms) zwischen den Ziffern für die Funktionsaktivierung (Standard ist 1000 ms)
+system_general.featuredigittimeout.placeholder = Wert in Millisekunden
+system_general.gui_settings = GUI-Einstellungen
+system_general.queues_callback = Rückruf in Warteschlangen
+system_general.search_frequency = Suchhäufigkeit
+system_general.search_frequency.tooltip = Definiert, wie oft der Rückrufdienst der Warteschlange nach geplanten Rückrufen sucht.
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.email_credentials = E-Mail-Anmeldeinformationen
+system_general.email_credentials.tooltip =
+	Aktivieren Sie diese Funktion, um dem neu erstellten Nebenstellenbenutzer eine E-Mail mit seinen Nebenstellen- und Kontoinformationen zu senden.
+	Die Vorlage für diese E-Mail finden Sie unter Admin > Systemeinstellungen > E-Mail-Vorlagen.
+system_general.show_addons_menu = Add-ons-Menü anzeigen
+system_general.show_addons_menu.tooltip =
+	Wenn auf Ja gesetzt, wird auf dem Anmeldebildschirm eine Menüschaltfläche angezeigt, um auf externe Add-Ons wie Sonata oder VitXi . zuzugreifen
+system_general.fqdn = Gemeinfrei
+system_general.fqdn.tooltip =
+	Es ermöglicht Ihnen, die öffentliche Domäne der PBX zu definieren. Diese Informationen werden in den E-Mail-Benachrichtigungen verwendet, um zu übersetzen
+	oder ersetzen Sie die Public-Domain-Variable aus Vorlagen; Anstatt zu versuchen, die öffentliche Domäne automatisch vom System zu erkennen.
+	Außerdem wird es zum Generieren der VitXi-QR-Codes verwendet.
+system_general.fqdn.invalid = Die angegebene Domain-Domain ist ungültig
+system_general.atxfernoanswertimeout = Zeitüberschreitung bei beaufsichtigtem Transfer
+system_general.atxfernoanswertimeout.tooltip = Hier können Sie das Timeout für beaufsichtigte Transfers definieren. Dies ist die Zeit (in Sekunden), die Asterisk versucht, das Ziel anzurufen, bevor es aufgibt.
+system_general.atxfernoanswertimeout.placeholder = Wert in Sekunden
+system_general.atxferdropcall = Beaufsichtigte Weiterleitungsrückrufe abbrechen
+system_general.atxferdropcall.tooltip =
+	Sie können das Standard-Rückrufverhalten ändern. Der Standardwert ist 'nein', was dazu führt, dass Asterisk den zurückruft
+	Initiator eines Transfers, wenn er früh auflegt und der betreute Transfer abläuft. Wenn auf 'ja' gesetzt, erfolgt die Übertragung
+	Zielkanal wird sofort auf den zu übertragenden Kanal übertragen, sobald der Initiator auflegt.
+system_general.auto_generated_pwd_length = Länge der automatisch generierten Passwörter
+system_general.auto_generated_pwd_length.tooltip =
+	Damit können Sie die Standardlänge für automatisch generierte Gerätepasswörter definieren

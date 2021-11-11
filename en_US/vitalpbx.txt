@@ -213,3 +213,4 @@ menu.firewall_services = Services
 menu.firewall_rules = Rules
 vitalpbx.custom_numbers = Custom Number
 copy = Copy
+vitalpbx.record = Calls Recording

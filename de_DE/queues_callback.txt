@@ -1,0 +1,58 @@
+queues_callback = Rückruf in Warteschlangen
+menu.queues_callback = {queues_callback}
+module.queues_callback = {queues_callback}
+queues_callback.general = {vitalpbx.general}
+queues_callback.description = Beschreibung
+queues_callback.description.tooltip = Kurze Beschreibung
+queues_callback.queue = Rückrufwarteschlange
+queues_callback.queue.tooltip = Hier können Sie die Warteschlange definieren, in die Anrufer, die einen Rückruf anfordern, weitergeleitet werden.
+queues_callback.cos = Dienstleistungsklasse
+queues_callback.cos.tooltip =
+	Es ermöglicht Ihnen zu definieren, welche Serviceklasse verwendet wird, um den Rückruf durchzuführen. Denken Sie daran, dass die Serviceklasse
+	enthält die Berechtigungen, um ausgehende Anrufe über bestimmte Amtsleitungen oder ausgehende Routen zuzulassen.
+queues_callback.dial_prefix = Vorwahlnummer
+queues_callback.dial_prefix.tooltip = Wenn definiert, wird sie der angeforderten Rückrufnummer vorangestellt
+queues_callback.time_group = Zeitgruppe
+queues_callback.time_group.tooltip =
+	Sie können eine Zeitgruppe konfigurieren, um die zulässigen Zeiten für die Durchführung von Rückrufen zu definieren
+queues_callback.periodic_announcement = Anleitung Nachricht
+queues_callback.periodic_announcement.tooltip =
+	Abzuspielende Nachricht mit den Anweisungen zum Anfordern eines Rückrufs.<br><br>Standardnachricht: "Alle unsere Vertreter
+	sind derzeit beschäftigt. Bitte bleiben Sie in der Leitung und Ihr Anruf wird vom nächsten verfügbaren Mitarbeiter beantwortet.
+	oder drücken Sie eine, um zurückgerufen zu werden, wenn ein Vertreter verfügbar ist."
+queues_callback.number_prompt = Nummernaufforderungsnachricht
+queues_callback.number_prompt.tooltip =
+	Anleitungsnachricht für die Aufforderung zur Eingabe der Rückrufnummer.<br><br>Standardnachricht: "Bitte geben Sie Ihre Telefonnummer ein"
+queues_callback.cid = Anruferidentifikation
+queues_callback.cid.tooltip =
+	Anrufer-ID-Informationen, die während des Rückrufs verwendet werden sollen. Diese Informationen können während des Anrufvorgangs von den Amtsleitungen geändert werden
+	oder Einstellungen für ausgehende Routen.
+queues_callback.allowed_tries = Maximale Versuche
+queues_callback.allowed_tries.tooltip = Anzahl der zulässigen Durchführungsversuche, bevor der Rückruf als fehlgeschlagen markiert wird
+queues_callback.ask_callback_number = Rückrufnummer fragen
+queues_callback.ask_callback_number.tooltip =
+	Falls aktiviert, wird der Anrufer aufgefordert, seine Rückrufnummer einzugeben. Wenn nein, wird die Anrufer-ID verwendet
+	als Rückrufnummer, sofern die Nummer mit den zulässigen Nummernregeln übereinstimmt.
+queues_callback.same_queue = Gleiche Warteschlange
+queues_callback.none = {keiner}
+queues_callback.cid_name = Anrufer-ID-Name
+queues_callback.cid_number = Anrufer-ID-Nummer
+queues_callback.allowed_patterns = Zulässige Nummernregeln
+queues_callback.pattern = Muster
+queues_callback.pattern.tooltip = Es ermöglicht, Regeln zu definieren, welche Art von Nummern verwendet werden können, wenn ein Rückruf angefordert wird
+queues_callback.enabled = Ermöglicht
+queues_callback.enabled.tooltip = Es ermöglicht Ihnen, Musterregeln zu aktivieren / deaktivieren
+queues_callback.invalid_message = Ungültige Nachricht
+queues_callback.invalid_message.tooltip =
+	Nachricht, die abgespielt wird, wenn die vom Anrufer angegebene Nummer nicht mit den definierten Nummernregeln übereinstimmt.<br><br> Standardnachricht:
+	Tut mir leid, das ist keine anerkannte Telefonnummer
+queues_callback.ringtime = {Erweiterungen.Klingelzeit}
+queues_callback.ringtime.tooltip = Hier können Sie die Zeit (in Sekunden) festlegen, die die Rückrufnummern klingeln, bevor der Anruf als nicht beantwortet markiert wird
+queues_callback.thank_you_prompt = Danke Aufforderung
+queues_callback.thank_you_prompt.tooltip =
+	Nachricht, die dem Anrufer abgespielt wird, nachdem die Planung eines Rückrufs abgeschlossen ist. Standardnachricht: "Danke, Sie werden bald zurückrufen"
+queues_callback.dial_agents_first = Zuerst Agenten anwählen
+queues_callback.dial_agents_first.tooltip =
+	Wenn ja, werden die geplanten Rückrufe zuerst an die Agenten und dann an den Kunden gesendet.
+queues_callback.priority = Priorität
+queues_callback.priority.tooltip = Dies ist die Priorität, die angewendet wird, wenn ein geplanter Anruf in die Warteschlange eintritt. Ein höherer Wert bedeutet eine höhere Priorität.

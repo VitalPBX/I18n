@@ -1,0 +1,11 @@
+menu.queue_priorities = Warteschlangenprioritäten
+module.queues_priority =  Warteschlangenprioritäten
+queues_priority =  Warteschlangenpriorität
+queues_priority.description =  Beschreibung
+queues_priority.description.tooltip =  Kurze Beschreibung zum Identifizieren dieser Warteschlangenpriorität.
+queues_priority.destination =  Ziel
+queues_priority.general =  Allgemein
+queues_priority.mod_dest =  Zielmodul
+queues_priority.priority =  Priorität
+queues_priority.priority.tooltip =  Die einzustellende Warteschlangenpriorität. Die höheren Werte bedeuten eine höhere Priorität
+queues_priority.menu.priority =  Priorität {0}

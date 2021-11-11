@@ -1,0 +1,22 @@
+queues_callback_report = Warteschlangen-Rückrufbericht
+menu.queues_callback_report =  {queues_callback_report}
+module.queues_callback_report =  {queues_callback_report}
+queues_callback_report.report =  {Prüfbericht}
+queues_callback_report.queue_callback =  Rückruf in Warteschlange
+queues_callback_report.queue_callback.tooltip =
+	Sie können die Berichtsergebnisse nach einem bestimmten Warteschlangenrückrufelement filtern. Standardmäßig zeigt der Bericht die
+	Ergebnisse aller konfigurierten Callback-Items
+queues_callback_report.status =  Status
+queues_callback_report.status.tooltip =  Sie können die Berichtsergebnisse nach dem Status des Rückrufs der Warteschlange filtern
+queues_callback_report.status.option.queued =  In Warteschlange
+queues_callback_report.status.option.in_progress =  Im Gange
+queues_callback_report.status.option.successful =  Erfolgreich
+queues_callback_report.status.option.failed =  Gescheitert
+queues_callback_report.scheduled_queue_callbacks =  Geplante Rückrufe in der Warteschlange
+queues_callback_report.date =  Terminzeit
+queues_callback_report.queue =  Rückrufwarteschlange
+queues_callback_report.callback_name =  Name des Rückrufanforderers
+queues_callback_report.callback_number =  Rückrufnummer
+queues_callback_report.tries =  Versucht
+queues_callback_report.actions =  {Aktionen}
+queues_callback_report.sqc.not_found =  Kann den angeforderten Rückruf nicht finden

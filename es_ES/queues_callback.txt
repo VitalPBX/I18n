@@ -55,3 +55,5 @@ queues_callback.thank_you_prompt.tooltip =
 queues_callback.dial_agents_first = Primero Llamar a los Agentes
 queues_callback.dial_agents_first.tooltip = 
 	Si se establece en sí, las devoluciones de llamada programadas se enviarán primero a los agentes y luego al cliente.
+queues_callback.priority = Prioridad
+queues_callback.priority.tooltip = Es la prioridad que se aplicará cuando una llamada programada ingrese a la Cola. Un valor más alto significa una prioridad más alta.

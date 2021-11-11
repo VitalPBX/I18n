@@ -78,3 +78,15 @@ pjsip_settings.allow_reload = Allow Transports Reload
 pjsip_settings.allow_reload.tooltip =
 	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
 	because reloading a transport may disrupt in-progress calls.
+pjsip_settings.endpoint_identifier_order = Endpoint Identifier Order
+pjsip_settings.endpoint_identifier_order.tooltip =
+	This option allows to define a list of endpoint identifier names. The order of the list is the specified order the
+	named identifiers check the request. Default: <b>"IP,Username,Anonymous"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Username
+pjsip_settings.endpoint_identifier_order.anonymous = Anonymous
+pjsip_settings.endpoint_identifier_order.auth_username = Auth Username
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams Domain
+pjsip_settings.ms_signaling_address.tooltip = The domain to sent when calling through a trunk with the transport "TLS+MSTeams." e.g.: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = The provided MS domain is invalid. Please provide a valid FQDN.

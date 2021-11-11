@@ -1,0 +1,11 @@
+custom_dest = Benutzerdefinierte Ziele
+custom_dest.class_of_service_id =  Dienstleistungsklasse
+custom_dest.class_of_service_id.tooltip =  Serviceklasse, um die zu wählende Nummer zu suchen
+custom_dest.description =  Beschreibung
+custom_dest.description.tooltip =  Name, der dieses benutzerdefinierte Ziel identifiziert
+custom_dest.destination =  Zu wählende Nummer
+custom_dest.destination.invalid =  Die zu wählende Nummer ist ungültig. Nur *,#,+ und Zahlen sind erlaubt.
+custom_dest.destination.tooltip =  Interne oder externe Nummer zum Wählen
+custom_dest.general =  Allgemein
+menu.custom_destinations =  Benutzerdefinierte Ziele
+module.custom_dest =  Benutzerdefinierte Ziele

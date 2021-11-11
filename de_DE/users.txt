@@ -1,0 +1,55 @@
+menu.users = Benutzer
+module.users = Benutzer
+users = Benutzer
+users.confirm_delete = Möchten Sie diesen Benutzer wirklich löschen?
+users.delete = Löschen
+users.deleting_last_privileged_user = Es ist nicht möglich, den letzten verbleibenden Benutzer zu löschen, der Benutzerberechtigungen ändern kann.
+users.deleting_self = Es ist nicht möglich, sich selbst zu löschen.
+users.dept = Abteilung
+users.dept.tooltip = Anwenderabteilung (Beispiel: Entwicklung)
+users.general = Allgemein
+users.locale = Sprache
+users.locale.tooltip = Schnittstellensprache.
+users.multitab = Multitab
+users.multitab.tooltip = Überprüfen Sie, ob Sie mehrere Registerkarten in der Benutzeroberfläche haben möchten!
+users.name = Vollständiger Name
+users.name.tooltip = Vollständiger Name des Benutzers.
+users.password = Passwort
+users.password.tooltip.add = Ihr sicheres Passwort für die Anmeldung.
+users.password.tooltip.edit = Benutzerkennwort (Leer lassen, um dasselbe Kennwort beizubehalten).
+users.role = Profil
+users.role.tooltip = Von diesem Benutzer verwendetes Profil.
+users.settings = Einstellungen
+users.startup = Startdialog
+users.startup.tooltip = Welcher Dialog soll beim Anmelden am System angezeigt werden.
+users.theme = GUI-Theme
+users.theme.tooltip = Thema für GUI-Stil.
+users.timezone = Zeitzone
+users.timezone.tooltip =
+	Zeitzone des Benutzers. Diese Zeitzone wird verwendet, um Berichte und andere Daten zu Uhrzeit und Datum anzuzeigen. Das <b>System</b>
+	Mit dieser Option können Sie die Zeitzone für diesen Benutzer direkt vom PBX-System übernehmen.
+users.username.duplicate = Der Anmeldename %s ist bereits vergeben.
+users.user = Nutzername
+users.user.tooltip = Name für die Anmeldung (Spitzname).
+users.portalexten = Zugewiesene Nebenstelle
+users.portalexten.tooltip = Dem Zugang zum Portal zugewiesene Nebenstelle.
+users.validate.blank_username = Der Benutzername darf nicht leer sein und muss mindestens 4 Zeichen lang sein
+users.validate.blank_password = Passwort kann nicht leer sein
+users.validate.profile = Benutzerprofil ist ungültig
+users.validate.displayname = Vollständiger Name darf nicht leer sein
+users.change_language = Sprache ändern
+users.deleting_default = Sie können diesen Benutzer nicht löschen, da er als Standardbenutzer markiert ist
+users.username.duplicated = Der angegebene Benutzername ist bereits vergeben
+users.email.duplicated = Die angegebene E-Mail ist bereits vergeben
+users.email = Email
+users.email.tooltip = E-Mail-Adresse des Benutzers für die Anmeldung
+users.email.duplicate = Die angegebene E-Mail-Adresse wird bereits verwendet
+users.tenants = Mieter
+users.tenants.tooltip = Hier können Sie definieren, auf welche Mandanten dieser Benutzer Zugriff hat
+users.validations.no_tenants = Diesem Benutzer wurden keine Mandanten zugewiesen. Bitte weisen Sie mindestens einen Mieter zu.
+users.dark_mode = Dunkler Modus
+users.dark_mode.tooltip = Aktivieren/Deaktivieren des Dunkelmodus für das GUI-Theme
+users.visible_by_others = Für andere sichtbar
+users.visible_by_others.tooltip =
+	Hier können Sie festlegen, ob dieser Benutzer für andere Benutzer sichtbar sein soll, um aktualisiert zu werden. Administratorbenutzer werden jedoch immer
+	alle Benutzer sehen können, auch wenn diese Option deaktiviert ist.

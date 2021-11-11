@@ -57,3 +57,5 @@ app.invalid_data = No ha proporcionado suficientes datos para realizar la acció
 app.reports.generated_by = Generado por: {0}
 app.plan.call-center = Call Center
 app.plan.carrier-plus = Carrier Plus
+app.plan.starter = Starter
+app.plan.starter-plus = Starter Plus

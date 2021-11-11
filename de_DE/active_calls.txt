@@ -1,0 +1,10 @@
+active_calls = 	Aktive Anrufe
+menu.active_calls = {active_calls}
+module.active_calls = {active_calls}
+active_calls.calls = Anrufe
+active_calls.channel = Kanal
+active_calls.caller_id = Anruferidentifikation
+active_calls.called_number = Angerufene Nummer
+active_calls.state = Bundesland
+active_calls.duration = Dauer
+active_calls.linkedid = LinkedID

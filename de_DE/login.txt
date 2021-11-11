@@ -1,0 +1,16 @@
+login.signing_in = Anmeldung
+login.panel =  Panel
+login.pbx.desc =  Asterisk PBX-Verwaltung
+login.billing.desc =  Software zum Anrechnen von Kosten auf Ihre Anrufe
+login.monitoring.desc =  Software zur Anrufüberwachung
+login.recordings.desc =  Software zur Aufnahmeverwaltung
+login.install_on_addons =  Gehe zu Addons
+login.retype_password =  Passwort erneut eingeben
+login.validation.password_not_retyped =  Bitte geben Sie ihr Passwort erneut ein
+login.validation.different_password =  Bitte geben Sie den gleichen Wert noch einmal ein
+login.reset_password_title =  Admin-Passwort einrichten
+login.reset_password_title.tooltip =  Mit diesem Formular können Sie das Passwort konfigurieren, um sich mit dem Admin-Benutzer anzumelden
+login.no_db =  Warte, die Datenbank wird noch installiert
+login.username.required =  Bitte geben Sie Ihren Benutzernamen ein
+login.tenant_name =  Mandantenname
+login.tenant =  Mandant

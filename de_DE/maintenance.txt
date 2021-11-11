@@ -1,0 +1,49 @@
+maintenance =  Instandhaltung
+menu.maintenance = {Wartung}
+module.maintenance = {Wartung}
+maintenance.general = {vitalpbx.general}
+maintenance.cdr_preservation = Älteste CDR löschen
+maintenance.cdr_preservation.tooltip =
+	Ermöglicht Ihnen, die maximale Anzahl von Tagen zu definieren, die CDR aufbewahrt werden soll. Die CDR mit mehr Alter
+	than the days defined here will be deleted
+maintenance.recordings_preservation = Älteste Aufnahmen löschen
+maintenance.recordings_preservation.tooltip =
+	Ermöglicht Ihnen, die maximale Anzahl von Tagen festzulegen, die Aufzeichnungen aufbewahrt werden sollen. Die Aufnahmen mit mehr Alter
+	als die hier definierten Tage werden gelöscht
+maintenance.recordings_min_duration = Kurze Aufnahmen löschen
+maintenance.recordings_min_duration.tooltip =
+	Ermöglicht es Ihnen, die Mindestdauer in Sekunden festzulegen, damit eine Aufnahme als zu kurz angesehen wird, und sie zu löschen
+maintenance.convert_recordings = Aufnahmen konvertieren
+maintenance.convert_recordings.tooltip = Aktiviert/Deaktiviert die Konvertierung von Anrufaufzeichnungen in MP3
+maintenance.schedule = Zeitlicher Ablauf
+maintenance.schedule.tooltip =
+	Hiermit können Sie den Zeitplan definieren, in dem die Wartung der PBX ausgeführt wird (Konvertierung von Aufzeichnungen,
+	Reinigung von Aufnahmen und CDR usw.). Wenn kein Zeitplan ausgewählt ist, werden alle Wartungsoptionen deaktiviert
+maintenance.execute = Jetzt ausführen
+maintenance.confirm_mcp.title = Wartung bestätigen
+maintenance.confirm_mcp =
+	Sind Sie sicher, dass Sie die Wartung jetzt durchführen möchten? <br> Dies kann einige Minuten dauern, insbesondere wenn Sie
+	viele Aufnahmen zum Konvertieren
+maintenance.executed = Die Wartung wird im Hintergrund ausgeführt
+maintenance.no_license_notification =
+	Die folgenden Funktionen: "Clear Oldest Recordings" & "Convert Recordings", funktionieren erst, wenn Sie dieses Add-On aktivieren
+	mit gültiger Lizenz.
+maintenance.enabled = Ermöglicht
+maintenance.enabled.tooltip =
+	Hiermit können Sie die PBX-Wartung aktivieren oder deaktivieren.
+maintenance.validation.enabled_without_cron = Die Wartung wurde aktiviert, aber es wurde kein Cron-Profil ausgewählt
+maintenance.tenant = Mieter
+maintenance.tenant.tooltip = Ermöglicht Ihnen die Auswahl des Mandanten, auf den die Wartungskonfigurationen angewendet werden
+maintenance.mcp.invalid_tenant = Die Wartung kann nicht ausgeführt werden, da Sie ungültige Informationen angegeben haben
+maintenance.voicemail_preservation = Älteste Voicemails löschen
+maintenance.voicemail_preservation.tooltip =
+	Ermöglicht Ihnen, die maximale Anzahl von Tagen festzulegen, die Voicemail-Aufzeichnungen aufbewahrt werden sollen. Die Voicemail
+	Aufnahmen mit einem höheren Alter als den hier definierten Tagen werden gelöscht
+maintenance.conversion_quality = Audio Qualität
+maintenance.conversion_quality.tooltip =
+	Die Audioqualität, die beim Konvertieren von WAV in MP3 angewendet werden soll. Höhere Qualitäten erzeugen bessere Audios, benötigen aber mehr Platz
+	auf der Festplatte; Niedrigere Qualitäten erzeugen kleinere Audiodateien, aber die Qualität sinkt.
+maintenance.good = Gut ({0}k)
+maintenance.medium = Mittel ({0}k)
+maintenance.best = Beste ({0}k)
+maintenance.high = Hoch ({0}k)

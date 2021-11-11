@@ -1,0 +1,15 @@
+extension_time_group.default.description =Portalzeitgruppe %s
+extension_time_group.general =  Allgemein
+extension_time_group.no_extension =  Sie haben keine Durchwahl für den Portalbenutzer
+extension_time_group.schedules =  Zeitpläne
+extension_time_group.schedules.mday_end =  Monat Tag Ende
+extension_time_group.schedules.mday_start =  Monat Tag Start
+extension_time_group.schedules.month_end =  Monatsende
+extension_time_group.schedules.month_start =  Monatsbeginn
+extension_time_group.schedules.tend =  Zeit zum Abschluss
+extension_time_group.schedules.tstart =  Zeit anzufangen
+extension_time_group.schedules.wday_end =  Wochentag Ende
+extension_time_group.schedules.wday_start =  Wochentag Start
+extension_time_group.select_time =  -- Wählen Sie eine Zeit --
+menu.my_time_group =  Meine Zeitgruppen
+module.extension_timegroup =  {menu.my_time_group}

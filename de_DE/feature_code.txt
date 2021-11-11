@@ -1,0 +1,172 @@
+feature_code.account_code =Kundennummer
+feature_code.account_code.tooltip = Erstellt einen Kundencode, der vom CDR-System verwendet wird - sehr nützlich für die Anrufabrechnung. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.add_last_caller_blacklist = Letzter Anrufer auf der schwarzen Liste
+feature_code.add_last_caller_blacklist.tooltip = Fügt die letzte Nummer, die Ihre Nebenstelle angerufen hat, zu Ihrer Nebenstellen-Blacklist hinzu. Geben Sie die Nummer ein, die auf die schwarze Liste gesetzt werden soll, gefolgt von #. Stellen Sie sicher, dass Sie die Nummer genau so eingeben, wie sie im System erscheint, d. h. entsprechende Vorwahlen usw. eingeben. Geben Sie 1 ein, um die Eingabe zu akzeptieren, oder legen Sie auf, um sie zu verwerfen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.add_num_blacklist = Eine Nummer auf die schwarze Liste setzen
+feature_code.add_num_blacklist.tooltip = Geben Sie eine Telefonnummer ein, die dann der Blacklist für die Nebenstelle hinzugefügt wird. Eingehende Anrufe klingeln nicht bei einer Nebenstelle, wenn sie auf der schwarzen Liste der Nebenstelle stehen. Anrufern auf der schwarzen Liste wird mitgeteilt, dass die gewählte Nummer nicht mehr in Betrieb ist. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.add_remove_queue_agent = Warteschlangen-Agent hinzufügen/entfernen
+feature_code.add_remove_queue_agent.tooltip = Umschalten, um einen Agenten zu einer bestimmten Warteschlange hinzuzufügen oder den Agenten aus der Warteschlange zu entfernen. Sie können entweder den Aufforderungen folgen oder (im Expertenmodus) den Funktionscode direkt gefolgt von * (Sternchen) und der Nummer der Warteschlange eingeben. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.attended_transfer = Beaufsichtigter Transfer
+feature_code.attended_transfer.tooltip = Wenn Sie ein Gespräch führen, übergeben Sie den aktuellen Anruf an die Vermittlung. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.auth_code = Zugangscode
+feature_code.auth_code.tooltip = Ermöglicht es Ihnen, von jedem Telefon aus einen Anruf zu tätigen, indem Sie einen Autorisierungscode verwenden, der einem uneingeschränkten Wählplan zugeordnet ist. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.black_list = Schwarze Liste
+feature_code.blind_transfer = Blindüberweisung
+feature_code.blind_transfer.tooltip = Wenn Sie ein Gespräch führen, übergeben Sie den aktuellen Anruf, ohne die Nebenstelle zu benachrichtigen, an die der Anruf weitergeleitet wird. Diese Funktion muss sowohl von der Funktionskategorie als auch von dem mit der Nebenstelle verknüpften Wählprofil zugelassen werden.
+feature_code.boss_secretary = Chef/Sekretärin - Toggle
+feature_code.boss_secretary.tooltip = Schalter, der die Weiterleitung aller eingehenden Anrufe für die aktuelle Nebenstelle an die als "Sekretariat" definierte Nebenstelle aktiviert oder deaktiviert. Sobald diese Funktion aktiviert ist, kann nur das "Sekretariat" das Telefon "Chef" direkt anrufen, alle anderen Anrufe werden direkt an das "Sekretariat" geleitet. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert werden und ist nur verfügbar, nachdem eine Nebenstelle "Sekretariat" für die Nebenstelle "Chef" definiert wurde. Die Nebenstelle "Sekretariat" kann diesen Funktionscode wählen, um den Empfang von Anrufen zu beenden.
+feature_code.business_services = Geschäftsdienstleistungen
+feature_code.call_center = Call Center
+feature_code.call_completion = Anrufabschluss (CCSS)
+feature_code.call_flow_ctrl = Anrufflusskontrolle
+feature_code.call_forward = Rufumleitung (CF)
+feature_code.cancel_cc = Anrufabschluss abbrechen
+feature_code.cancel_cc.tooltip = Ermöglicht alle von Ihrer Nebenstelle gestellten Anrufabschlussanforderungen zu stornieren.
+feature_code.change_ext_pwd = Passwort für Funktionen ändern
+feature_code.change_ext_pwd.tooltip = Ändern Sie das Passwort für die aktuelle Nebenstelle, um auf passwortgeschützte Telefonfunktionen zuzugreifen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.clear_all_diversions = Alle Umleitungen löschen
+feature_code.clear_all_diversions.tooltip = Deaktiviert alle Rufumleitungen, einschließlich der Funktion „Nicht stören“. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.custom = Benutzerdefiniert
+feature_code.cust_recording = Benutzerdefinierte Aufnahme
+feature_code.cust_recording.tooltip = Wird verwendet, um eine Nachricht aufzuzeichnen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.default = Standard
+feature_code.dial_by_name_dir = Namenswahlverzeichnis
+feature_code.dial_by_name_dir.tooltip = Verwenden Sie Ihre numerische Tastatur, um einen Benutzernamen zu wählen. Die Nebenstelle für den internen Support kann beispielsweise HELP heißen, Sie wählen also 411 (um diese Funktion zu aktivieren) und dann 4357, um den Support zu erreichen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.dictation_services = Diktat
+feature_code.dictation_services.tooltip = Wird verwendet, um eine Nachricht aufzuzeichnen, mit der Möglichkeit, sie per E-Mail zu senden. Nur verfügbar für Nebenstellen, bei denen das Diktat auf der Registerkarte Aufnahme aktiviert wurde.
+feature_code.direct_pickup = Direktabholung
+feature_code.direct_pickup.tooltip = Nehmen Sie während eines Anrufs einen Anruf auf, der an einer anderen Nebenstelle in Ihrer Übernahmegruppe klingelt. Sie müssen den Funktionscode gefolgt von der Nebenstellennummer wählen, die Sie beantworten möchten. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.direct_toggle_cfi = Direkte Anrufweiterleitung sofort
+feature_code.direct_toggle_cfi.tooltip = Direkte Anrufweiterleitung sofort
+feature_code.direct_pause_unpause_queue_agent = Direktes Anhalten/Aufheben der Warteschlangen-Agenten
+feature_code.direct_pause_unpause_queue_agent.tooltip = Direktes Anhalten/Aufheben der Warteschlangen-Agenten
+feature_code.direct_add_remove_queue_agent = Direktes Hinzufügen/Entfernen von Warteschlangen-Agenten
+feature_code.direct_add_remove_queue_agent.tooltip = Direktes Hinzufügen/Entfernen von Warteschlangen-Agenten
+feature_code.direct_vm = Direkte Voicemail
+feature_code.direct_vm.tooltip = Der direkte Zugang zum Voicemail-System zum Abhören der Voicemail für die aktuelle Nebenstelle ÔÇô erfordert lediglich die Eingabe des Voicemail-Passworts durch den Benutzer. Diese Option ist nur für Nebenstellen verfügbar, bei denen Voicemail auf der Registerkarte Voicemail aktiviert wurde.
+feature_code.disabled = Deaktiviert
+feature_code.disconnect_call = Anruf trennen
+feature_code.disconnect_call.tooltip = Trennen Sie während eines Anrufs den aktuellen Anruf. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.dnd = Bitte nicht stören - Umschalten
+feature_code.dnd.tooltip =
+	Schalten Sie um, um die Funktion „Nicht stören“ zu aktivieren oder zu deaktivieren. Sie können entweder den Anweisungen folgen oder (im Expertenmodus) die Funktion aufrufen
+	Code unmittelbar gefolgt von * (Sternchen) und der Nummer eins zum Aktivieren von DND oder Nummer zwei zum Deaktivieren von DND. Die Funktion muss sein
+	in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert.
+feature_code.echo_test = Echotest
+feature_code.echo_test.tooltip = Echotest zur Messung der Reaktionszeit. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.enabled = Ermöglicht
+feature_code.features.duplicate = Funktionscodes müssen eindeutig sein und können nicht wiederverwendet werden.
+feature_code.features.invalid = Funktionscodes dürfen nicht leer sein und dürfen nur die folgenden Zeichen enthalten: 0-9, #, * und +.
+feature_code.follow_me = Folge mir - Toggle
+feature_code.follow_me.tooltip = Schalten Sie um, um die Follow-Me-Funktion zu aktivieren oder zu deaktivieren. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.general = Allgemein
+feature_code.hot_desking = Hot Desking
+feature_code.hot_desking.tooltip =
+	Schalten Sie um, um Hot Desking zu aktivieren oder zu deaktivieren. Sie können entweder den Anweisungen folgen oder (im Expertenmodus) die Funktion aufrufen
+	Code unmittelbar gefolgt von * (Sternchen) und der Nummer eins für die Anmeldung oder die Nummer zwei für die Abmeldung.
+	Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.lock_unlock_phone = Telefon sperren/entsperren
+feature_code.lock_unlock_phone.tooltip = Umschalten, um die aktuelle Nebenstelle zu sperren oder zu entsperren. Von einem gesperrten Telefon können keine ausgehenden Anrufe getätigt werden. Um das Telefon zu entsperren, werden Sie aufgefordert, das Funktionskennwort für die Nebenstelle einzugeben. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.nm_all = Nachtmodus Alle
+feature_code.nm_all.tooltip = Umschalten, um alle definierten Nachtmodi zu aktivieren/deaktivieren. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.one_touch_rec = One-Touch-Aufnahme
+feature_code.one_touch_rec.tooltip = Wenn Sie ein Gespräch führen, erzwingen Sie die Aufzeichnung des aktuellen Anrufs. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.on_call_features = On Call-Funktionen
+feature_code.park_call = Anruf parken
+feature_code.park_call.tooltip = Wenn Sie ein Gespräch führen, legen Sie den aktuellen Anruf in den Anrufpark. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.pause_unpause_queue_agent = Warteschlangen-Agent anhalten/aufheben
+feature_code.pause_unpause_queue_agent.tooltip = Schalten Sie um, um einen Agenten für eine bestimmte Warteschlange zu pausieren oder aufzuheben. Sie können entweder den Aufforderungen folgen oder (im Expertenmodus) den Funktionscode direkt gefolgt von * (Sternchen) und der Nummer der Warteschlange eingeben. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.personal_assistant = Persönlicher Assistent - Toggle
+feature_code.personal_assistant.tooltip = Schalten Sie um, um den persönlichen Assistenten für Ihre Nebenstelle zu aktivieren/deaktivieren.
+feature_code.phone_book = Telefonbuchverzeichnis
+feature_code.pickup_group = Abholgruppe
+feature_code.pickup_group.tooltip = Nehmen Sie während eines Anrufs einen Anruf auf, der an einer anderen Nebenstelle in Ihrer Übernahmegruppe klingelt. Um diese Funktion nutzen zu können, müssen Sie im Nebenstellendialog eine Anrufgruppe und eine Übernahmegruppe erstellen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.queues-pause-unpause = Warteschlangen anhalten/aufheben
+feature_code.queues-pause-unpause.tooltip =
+	Ermöglicht Ihnen, alle Warteschlangen anzuhalten (oder die Pause aufzuheben). Sie können entweder den Anweisungen folgen oder (im Expertenmodus) die Funktion aufrufen
+	Code unmittelbar gefolgt von * (Sternchen) und der Nummer eins für Pause oder Nummer zwei für Pause.
+feature_code.queues_login_logout = Warteschlangen Anmelden/Abmelden
+feature_code.queues_login_logout.tooltip =
+	Ermöglicht Ihnen, sich bei allen Warteschlangen anzumelden (oder abzumelden). Sie können entweder den Anweisungen folgen oder (im Expertenmodus) die Funktion aufrufen
+	Code unmittelbar gefolgt von * (Sternchen) und der Nummer eins für die Anmeldung oder die Nummer zwei für die Abmeldung.
+feature_code.rec_msg_pa = Nachricht für persönlichen Assistenten aufzeichnen
+feature_code.rec_msg_pa.tooltip = Zeichnen Sie eine Nachricht auf, die Anrufer hören, wenn sie von Ihrem persönlichen Assistenten bedient werden. Nur verfügbar für Nebenstellen, für die auf der Registerkarte "Erweitert" "Hat Personal Assistant" aktiviert wurde.
+feature_code.reminder = Erinnerung
+feature_code.reminder.tooltip = Zeichnet eine Nachricht auf. Sie können konfigurieren, in wie vielen Minuten Sie die Aufnahme hören möchten. Nach Ablauf der eingestellten Zeit werden Sie an der aktuellen Nebenstelle angerufen und die Aufnahme abgespielt. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.remote_substitution = Fernsubstitution
+feature_code.remote_substitution.tooltip = Ermöglicht dem aktuellen Telefon, Anrufe zu tätigen, als ob Sie von einer anderen Telefonnebenstelle aus anrufen würden. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.remote_vm = Remote-Voicemail
+feature_code.remote_vm.tooltip =
+	Fernzugang zum Voicemail-System, um Voicemail für jede Nebenstelle abzuhören. Sie können entweder den Anweisungen folgen oder
+	(im Expertenmodus) geben Sie den Funktionscode direkt gefolgt von * (Sternchen) und der Mailbox-Nebenstelle ein. Funktion muss
+	in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert werden.
+feature_code.remote_wakeup_call = Remote-Weckruf
+feature_code.remote_wakeup_call.tooltip = Legen Sie eine Erinnerung oder einen Weckruf für eine andere Nebenstelle fest. Geben Sie die Nummer der Nebenstelle ein, für die die Erinnerung bestimmt ist. Drücken Sie 1 für eine einmalige Erinnerung oder 2 für eine wiederkehrende tägliche Erinnerung. Die Uhrzeit sollte im 24-Stunden-Format mit 4 Stellen eingegeben werden. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.remove_number_blacklist = Nummer von Blacklist entfernen
+feature_code.remove_number_blacklist.tooltip = Geben Sie eine Telefonnummer auf der schwarzen Liste ein – die Nummer auf der schwarzen Liste wird aus der schwarzen Liste der Nebenstelle entfernt. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.request_cc = Anrufbeendigung - Toggle
+feature_code.request_cc.tooltip =
+	Wenn diese Option aktiviert ist, können Anrufer einen Anrufabschluss für Ihre Nebenstelle anfordern. Dies bedeutet, dass, wenn Sie
+	Das Sternchen beenden, um zu sprechen, generiert automatisch einen Anruf von dem, der die Anrufbeendigung an Ihre Nebenstelle angefordert hat
+feature_code.request_wakeup_call = Weckruf
+feature_code.request_wakeup_call.tooltip =Legen Sie eine Erinnerung oder einen Weckruf für die aktuelle Nebenstelle fest. Drücken Sie 1 für eine einmalige Erinnerung oder 2 für eine wiederkehrende tägliche Erinnerung. Die Uhrzeit sollte im 24-Stunden-Format mit 4 Stellen eingegeben werden. Wenn Sie bereits einen Erinnerungsruf eingerichtet haben, können Sie 1 drücken, um ihn abzubrechen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.save = Speichern
+feature_code.say_date_time = Sprechen Sie Datum und Uhrzeit
+feature_code.say_date_time.tooltip = Sprechen Sie das aktuelle Systemdatum und die aktuelle Uhrzeit an. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.set_cfb_number = CF-Besetztnummer einstellen
+feature_code.set_cfb_number.tooltip = Legt die Nummer fest, an die Anrufe gesendet werden sollen, wenn die Anrufweiterleitung bei aktiviert ist und Ihre Nebenstelle besetzt ist. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.set_cfi_number = CF-Nummer sofort einstellen
+feature_code.set_cfi_number.tooltip = Legt die Nummer fest, an die Anrufe gesendet werden sollen, wenn die sofortige Anrufweiterleitung aktiviert ist. Sie können entweder den Aufforderungen folgen oder (im Expertenmodus) den Funktionscode direkt gefolgt von * (Sternchen) und die Nummer eingeben, an die Anrufe weitergeleitet werden sollen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.set_cfn_number = CF auf Nummer für keine Antwort einstellen
+feature_code.set_cfn_number.tooltip = Legt die Nummer fest, an die Anrufe weitergeleitet werden sollen, wenn Ihre Nebenstelle nicht antworten kann. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.set_cfu_number = CF nicht verfügbare Nummer einstellen
+feature_code.set_cfu_number.tooltip = Stellen Sie die Nummer ein, an die Anrufe gesendet werden sollen, wenn die bedingungslose Rufumleitung aktiviert ist. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.simulate_incoming_call = Eingehenden Anruf simulieren
+feature_code.simulate_incoming_call.tooltip = Simulieren Sie einen eingehenden Anruf, um das Klingeln des Telefons zu testen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.speak_ext_number = Sprechen Sie Ihre Nebenstellennummer
+feature_code.speak_ext_number.tooltip = Sprechen Sie die Nebenstellennummer, von der aus Sie anrufen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.speak_last_number = Letzte Nummer sprechen
+feature_code.speak_last_number.tooltip = Spricht die letzte Nummer, die die aktuelle Nebenstelle angerufen hat. Sie können 1 drücken, um den ursprünglichen Anrufer anzurufen. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.special_features = Besondere Merkmale
+feature_code.spy_extension = Erweiterung ausspionieren
+feature_code.spy_extension.tooltip = Spionieren Sie eine bestimmte Erweiterung aus. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.spy_ext_whisper = Erweiterung im Flüstermodus ausspionieren
+feature_code.spy_ext_whisper.tooltip = Spionieren Sie eine bestimmte Nebenstelle im Flüstermodus aus. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.spy_random_chn = Zufällige Kanäle ausspionieren
+feature_code.spy_random_chn.tooltip = Spionieren Sie zufällige Kanäle aus. Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.test_services = Testdienste
+feature_code.toggle_cfb = Anrufweiterleitung bei Besetzt - Toggle
+feature_code.toggle_cfb.tooltip =
+	Umschalten, um die Anrufweiterleitung zu aktivieren oder zu deaktivieren, wenn Ihre Nebenstelle besetzt ist. Wenn Sie diese Umleitung aktivieren und bereitstellen möchten
+	gleichzeitig die Rufumleitungsnummer verwenden, können Sie das folgende Format <b>{0}*100</b> verwenden.
+feature_code.toggle_cfi = Sofortige Rufumleitung - Toggle
+feature_code.toggle_cfi.tooltip =
+	Schaltet die sofortige Anrufweiterleitung um. Wenn Sie die Funktion aktivieren und gleichzeitig die Rufumleitungsnummer angeben möchten
+	Mal können Sie das folgende Format <b>{0}*100</b> verwenden.
+feature_code.toggle_cfn = Rufumleitung bei keiner Antwort - Toggle
+feature_code.toggle_cfn.tooltip =
+	Schalten Sie um, um die Anrufweiterleitung zu aktivieren oder zu deaktivieren, wenn Ihre Nebenstelle eingehende Anrufe nicht beantworten kann. Wenn du möchtest
+	Wenn Sie diese Umleitung aktivieren und gleichzeitig die Rufumleitungsnummer angeben, können Sie das folgende Format <b>{0}*100</b> verwenden.
+feature_code.toggle_cfu = Anrufweiterleitung nicht verfügbar - Toggle
+feature_code.toggle_cfu.tooltip =
+	Umschalten, um die Anrufweiterleitung zu aktivieren oder zu deaktivieren. Wenn Sie diese Umleitung aktivieren und die Rufumleitungsnummer angeben möchten
+	gleichzeitig können Sie das folgende Format <b>{0}*100</b> verwenden.
+feature_code.voice-mail = Voicemail
+feature_code.recordings_announcements = Aufnahmen & Ankündigungen
+menu.feature_codes = Funktionscodes
+module.feature_code = Funktionscodes
+feature_code.send_vm_msg = Voicemail-Nachricht senden
+feature_code.send_vm_msg.tooltip = Ermöglicht Ihnen, eine beliebige Nebenstelle zu wählen und eine Voicemail-Nachricht zu hinterlassen. Wenn Sie beispielsweise *95*2492 wählen, können Sie eine Voicemail-Nachricht für die Nebenstelle 2492 hinterlassen. Die Funktion muss in der der Nebenstelle zugeordneten Funktionskategorie aktiviert sein.
+feature_code.spy_ext_barge = Erweiterung im Barge-Modus ausspionieren
+feature_code.spy_ext_barge.tooltip = Anstatt auf einem einzigen Kanal zu flüstern, schalten Sie auf beiden am Anruf beteiligten Kanälen ein.
+feature_code.direct_remote_voicemail = Direkte Remote-Voicemail
+feature_code.paging_and_intercom = Paging
+feature_code.paging_and_intercom.tooltip =
+	Stellt einen ausgehenden Anruf an die angegebene Nebenstelle und leitet ihn als stummgeschalteter Teilnehmer in eine Konferenzbrücke ab
+	(z.B.: *827000). Die Funktion muss in der mit der Nebenstelle verknüpften Funktionskategorie aktiviert sein.
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip =
+	Es funktioniert genauso wie die Hot Desking-Funktion, der einzige Unterschied besteht darin, dass Sie diesen Funktionscode verwenden, den Anrufer oder Hot
+	Desking-Benutzer werden automatisch in die zugewiesenen Warteschlangen eingeloggt. Es ist auch möglich, sich mit Shortcodes anzumelden
+	an eine bestimmte Nebenstelle, z. B.: <b>*90#100</b> zeigt dem System an, die Nebenstelle 100 anzumelden, und <b>*90#100#1234</b>
+	weist das System an, die Nebenstelle 100 mit dem Passwort 1234 anzumelden.
