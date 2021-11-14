@@ -1,0 +1,21 @@
+ms_teams = Microsoft Teams
+menu.ms_teams = {ms_teams}
+module.ms_teams = {ms_teams}
+ms_teams.allowed_numbers = Разрешенные номера
+ms_teams.csv = CSV
+ms_teams.csv.tooltip = CSV файл со списком номеров для приема/отправки звонков от/в MS Team.
+ms_teams.general = {vitalpbx.general}
+ms_teams.description = Описание
+ms_teams.description.tooltip = Название или описание номера MS Team.
+ms_teams.number = Номер
+ms_teams.number.tooltip = Номер в том же формате, который отправляется или принимается от/в MS Team.
+ms_teams.import = Импорт
+ms_teams.add_number = Добавьте номер
+ms_teams.edit_number = Изменить номер
+ms_teams.csv.missing_columns = Вы не указали номер столбца.
+ms_teams.validation.no_number = Вы указали неправильный номер.
+ms_teams.validation.duplicated_number = Номер, который вы пытаетесь добавить, уже существует.
+ms_teams.numbers_imported =
+	[one] Один номер был импортирован.
+    [other] Импортировано номеров: {0}.
+ms_teams.validation.max_numbers_reached = Текущая лицензия позволяет вам добавить только {0} номер(-ов), поэтому вы не можете добавить больше.
