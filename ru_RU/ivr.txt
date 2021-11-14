@@ -59,3 +59,8 @@ ivr.cos.warning.title = {warning}
 ivr.cos.warning.confirm =  {vitalpbx.accept}
 ivr.cos.warning.cancel = {vitalpbx.cancel}
 ivr.max_reached = Вы достигли максимально допустимого числа Голосовых меню
+ivr.asr_enabled = Включить ASR
+ivr.asr_enabled.tooltip =
+	Если этот параметр включен, клиенты, попадающие в это Голосовое меню, будут выбирать параметры с помощью голосовых команд вместо использования цифр.
+ivr.entries.asr_command = Голосовая команда
+ivr.entries.asr_command.placeholder = Команда
