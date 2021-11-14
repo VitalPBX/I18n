@@ -58,6 +58,7 @@ queues.ivr_id.tooltip = Может быть указано Голосовое м
 queues.joinempty = Добавление в очередь
 queues.joinempty.loose = Мягко
 queues.joinempty.no = Нет
+queues.joinempty.no_inuse = Нет + Используется
 queues.joinempty.strict = Строго
 queues.joinempty.tooltip = Контролирует, добавляется ли абонент в очередь, если нет операторов, которые могли бы обработать вызов.<br><b>"Да"</b> - вызов всегда добавляется в очередь.<br><b>"Строго"</b> - не добавлять вызов в очередь, если очереди не назначен оператор.<br><b>"Мягко"</b> - не добавлять вызов в очередь, если очереди не назначен оператор или у всех операторов статус "недоступен".<br><b>"Нет"</b> - не добавлять вызов в очередь, если очереди не назначен оператор или у всех операторов статус "приостановлен" или "недоступен". 
 queues.joinempty.yes = Да
@@ -67,6 +68,7 @@ queues.leavewhenempty.loose = {queues.joinempty.loose}
 queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
+queues.leavewhenempty.yes_inuse = Да + Используется
 queues.maxlen = Макс. длина очереди
 queues.maxlen.placeholder = Значение большее или равное 0
 queues.maxlen.tooltip = Задает максимальное количество абонентов, которым разрешено находиться в очереди. Значение ноль означает, что в очереди допускается неограниченное количество абонентов.
@@ -179,4 +181,3 @@ queues.answerchannel = Канал ответа
 queues.answerchannel.tooltip =
 	Определяет, нужно ли отвечать на вызовы перед отправкой их в очередь. Если установлено <b>«Нет»</b>, 
 	музыка в режиме ожидания и другие аудио могут не воспроизводиться.
-	
