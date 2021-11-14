@@ -379,3 +379,7 @@ provisioning.description.tooltip = Краткое описание, чтобы �
 provisioning.type.auto = {provisioning.auto}
 provisioning.type.paging.multicastpaging = {provisioning.type.multicast_paging}
 provisioning.type.pickup.pickup_directpickup = {provisioning.type.direct_pickup}
+provisioning_settings.https_port = HTTPS порт
+provisioning_settings.https_port.tooltip =
+	Позволяет вам определить HTTPS порт для подключения к VitalPBX API.
+provisioning_settings.https_port.invalid = Вы должны указать правильный HTTPS порт. Значение должно быть от 0 до 65535.
