@@ -376,3 +376,6 @@ provisioning.type.blf/new_call = {provisioning.type.memory_key_blf/new_call}
 provisioning.invalid_mac_address = Вы указали неверный MAC-адрес
 provisioning.description = Описание
 provisioning.description.tooltip = Краткое описание, чтобы определить, кому принадлежит это устройство.
+provisioning.type.auto = {provisioning.auto}
+provisioning.type.paging.multicastpaging = {provisioning.type.multicast_paging}
+provisioning.type.pickup.pickup_directpickup = {provisioning.type.direct_pickup}
