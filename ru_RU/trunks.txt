@@ -226,7 +226,7 @@ trunks.t38_udptl_ec.redundancy.info = Следует использовать и
 trunks.t38_udptl_maxdatagram = Размер датаграммы
 trunks.t38_udptl_maxdatagram.tooltip =
 	Максимальный размер датаграммы UDPTL T.38. Эта опция может быть установлена для переопределения 
-	максимальной датаграммы удаленного устройства.
+	максимальной датаграммы удаленного Endpoint.
 trunks.fax_detect_timeout = Тайм-аут обнаружения
 trunks.fax_detect_timeout.tooltip =
 	Определяет через сколько секунд fax_detect опция (обнаружение факса) будет отключена для вызова. 
