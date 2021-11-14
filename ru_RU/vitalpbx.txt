@@ -213,3 +213,4 @@ menu.firewall_services = Службы
 menu.firewall_rules = Правила
 vitalpbx.custom_numbers = Пользовательский номер
 copy = Копировать
+vitalpbx.record = Запись звонков
