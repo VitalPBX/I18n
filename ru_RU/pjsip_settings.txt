@@ -78,3 +78,15 @@ pjsip_settings.allow_reload = Разрешить перезагрузку тра
 pjsip_settings.allow_reload.tooltip =
 	Определяет, будут ли перезагружаться PJSIP транспорт при перезагрузке res_pjsip. Рекомендуется установить для этого параметра
 	значение <b>«Нет»</b>, поскольку перезагрузка транспорта может нарушить выполняющиеся вызовы.	
+pjsip_settings.endpoint_identifier_order = Endpoint Identifier Order
+pjsip_settings.endpoint_identifier_order.tooltip =
+	This option allows to define a list of endpoint identifier names. The order of the list is the specified order the
+	named identifiers check the request. Default: <b>"IP,Username,Anonymous"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Username
+pjsip_settings.endpoint_identifier_order.anonymous = Anonymous
+pjsip_settings.endpoint_identifier_order.auth_username = Auth Username
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams домен
+pjsip_settings.ms_signaling_address.tooltip = Домен, который будет отправлен при вызове через внешнюю линию с транспортом «TLS+MSTeams», например: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = Предоставленный MS домен недействителен. Пожалуйста, укажите правильное полное доменное имя.
