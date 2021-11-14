@@ -78,10 +78,10 @@ pjsip_settings.allow_reload = Разрешить перезагрузку тра
 pjsip_settings.allow_reload.tooltip =
 	Определяет, будут ли перезагружаться PJSIP транспорт при перезагрузке res_pjsip. Рекомендуется установить для этого параметра
 	значение <b>«Нет»</b>, поскольку перезагрузка транспорта может нарушить выполняющиеся вызовы.	
-pjsip_settings.endpoint_identifier_order = Endpoint Identifier Order
+pjsip_settings.endpoint_identifier_order = Порядок идентификаторов Endpoint
 pjsip_settings.endpoint_identifier_order.tooltip =
-	This option allows to define a list of endpoint identifier names. The order of the list is the specified order the
-	named identifiers check the request. Default: <b>"IP,Username,Anonymous"</b>
+	Этот параметр позволяет определить список имен идентификаторов Endpoint. Порядок списка - это указанный порядок, в котором именованные 
+	идентификаторы проверяют запрос. По умолчанию: <b>"IP,Username,Anonymous"</b>
 pjsip_settings.endpoint_identifier_order.ip = IP
 pjsip_settings.endpoint_identifier_order.username = Username
 pjsip_settings.endpoint_identifier_order.anonymous = Anonymous
