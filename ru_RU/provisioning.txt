@@ -372,4 +372,7 @@ provisioning.type.speed_dial_xfer = Speeddial/Xfer
 provisioning.type.sprecode = Sprecode
 provisioning.type.xfer = Transfer
 provisioning.type.xml = XML
+provisioning.type.blf/new_call = {provisioning.type.memory_key_blf/new_call}
 provisioning.invalid_mac_address = Вы указали неверный MAC-адрес
+provisioning.description = Описание
+provisioning.description.tooltip = Краткое описание, чтобы определить, кому принадлежит это устройство.
