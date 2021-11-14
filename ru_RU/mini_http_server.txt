@@ -17,3 +17,5 @@ mini_http_server.none = -- Нет --
 mini_http_server.invalid_ip = Недопустимый адрес <b>{0}</b>. Пожалуйста, введите верный IP-адрес.
 mini_http_server.no_cert = Если TLS включен, вы должны предоставить действующий сертификат.
 mini_http_server.no_http_enable = Если TLS включен, вы должны также включить параметр HTTP
+mini_http_server.sessionlimit = Лимит сессий
+mini_http_server.sessionlimit.tooltip = Определяет максимальное количество HTTP/WebSocket сессий, которые могут существовать в любой момент времени.
