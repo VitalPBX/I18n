@@ -33,8 +33,8 @@ vc.result_type.rescheduled = Scheduled
 vc.schedule_date = Schedule Date
 vc.scheduled = Scheduled
 vc.seconds = 
-	[one] One Second
-	[other] {0} Seconds
+	[um] One Second
+	[outros] {0} Seconds
 vc.status = Status
 vc.validation.no_description = You have not provided a valid description
 vc.wrapup_time = Wrap-up Time
