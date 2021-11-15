@@ -66,8 +66,8 @@ profiles_sip_directmedia_no = Non
 profiles_sip_directmedia_tooltip = Active l'envoi de flux RTP directement entre les participants. le Flux ne transite plus via l'IPBX ce qui peut permettre l'économie de ressources. Attention vous ne pourrez plus réaliser de captures audio.
 profiles_sip_directmedia_update = Utiliser UPDATE
 profiles_sip_directmedia_yes = Oui
-profiles_sip_encryption = Cryptage RTP
-profiles_sip_encryption_tooltip = Active le cryptage sRTP
+profiles_sip_encryption = Chiffrage RTP
+profiles_sip_encryption_tooltip = Active le chiffrage sRTP
 profiles_sip_general_section = Général
 profiles_sip_host = Hôte
 profiles_sip_host_invalid = Pas d'hôte spécifié
@@ -114,91 +114,89 @@ profiles_technology_iax = IAX2
 profiles_technology_invalid = Technologie spécifiée invalide 
 profiles_technology_sip = SIP
 profiles_technology_tooltip = Type de technologie du profil
-profiles_pjsip_asymmetric_rtp_codec = Asymmetric RTP Codec
-profiles_pjsip_asymmetric_rtp_codec_tooltip = Allow the sending and receiving RTP codec to differ
+profiles_pjsip_asymmetric_rtp_codec = codec RTP asymétrique
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Autoriser le codec RTP d'envoi et de réception à différer
 profiles_pjsip_description = Description
-profiles_pjsip_description_tooltip = Description for this profile.
-profiles_pjsip_direct_media = Direct Media
-profiles_pjsip_direct_media_tooltip = Determines whether media may flow directly between endpoints.
-profiles_pjsip_disable_direct_media_on_nat = Disable NAT Direct Media
-profiles_pjsip_disable_direct_media_on_nat_tooltip = Disable direct media session refreshes when NAT obstructs the media session
-profiles_pjsip_dtls_cert_file = DTLS Certfile
-profiles_pjsip_dtls_cert_file_tooltip = Path to certificate file to present to peer
-profiles_pjsip_dtls_cert_id = DTLS Certificate
-profiles_pjsip_dtls_cert_id_tooltip = Certificate to use with DTLS connections
-profiles_pjsip_dtls_fingerprint = DTLS Fingerprint Hash
+profiles_pjsip_description_tooltip = Description de ce profil.
+profiles_pjsip_direct_media = Média direct
+profiles_pjsip_direct_media_tooltip = Détermine si les médias peuvent circuler directement entre les points de terminaison.
+profiles_pjsip_disable_direct_media_on_nat = Désactiver NAT Direct Media
+profiles_pjsip_disable_direct_media_on_nat_tooltip = Désactiver les rafraîchissements directs de la session multimédia lorsque NAT obstrue la session multimédia
+profiles_pjsip_dtls_cert_file = Fichier de certificat DTLS
+profiles_pjsip_dtls_cert_file_tooltip = Chemin d'accès au fichier de certificat à présenter au pair
+profiles_pjsip_dtls_cert_id = Certificat DTLS
+profiles_pjsip_dtls_cert_id_tooltip = Certificat à utiliser avec les connexions DTLS
+profiles_pjsip_dtls_fingerprint = hachage d'empreintes digitales DTLS
 profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
 profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
-profiles_pjsip_dtls_fingerprint_tooltip = The hash to use for the fingerprint in SDP
-profiles_pjsip_dtls_private_key = DTLS Private Key
-profiles_pjsip_dtls_private_key_tooltip = Path to private key for certificate file.
-profiles_pjsip_dtls_rekey = DTLS Rekey Interval
-profiles_pjsip_dtls_rekey_tooltip = 	
-	Interval at which to renegotiate the TLS session and rekey the SRTP session. If this is not set or the value
-	provided is 0 rekeying will be disabled
+profiles_pjsip_dtls_fingerprint_tooltip = Le hachage à utiliser pour l'empreinte digitale dans SDP
+profiles_pjsip_dtls_private_key = clé privée DTLS
+profiles_pjsip_dtls_private_key_tooltip = Chemin vers la clé privée pour le fichier de certificat.
+profiles_pjsip_dtls_rekey = Intervalle de renouvellement de clé DTLS
+profiles_pjsip_dtls_rekey_tooltip =
+	Intervalle auquel renégocier la session TLS et modifier la clé de la session SRTP. S'il n'est pas défini ou si la valeur fournie est 0, le rekeying sera désactivé
 profiles_pjsip_dtls_section = DTLS
-profiles_pjsip_dtls_setup = DTLS Setup
-profiles_pjsip_dtls_setup_active = Active
+profiles_pjsip_dtls_setup = Configuration DTLS
+profiles_pjsip_dtls_setup_active = Actif
 profiles_pjsip_dtls_setup_actpass = Actpass
-profiles_pjsip_dtls_setup_passive = Passive
-profiles_pjsip_dtls_setup_tooltip = 	
-	Whether we are willing to accept connections, connect to the other party, or both.
-	Valid options are:  <br>
-	<b>Active</b> (we want to connect to the other party), <br>
-	<b>Passive</b> (we want to accept connections only), <br>
-	<b>Actpass</b> (we will do both). <br>
-	This value will be used in the outgoing SDP when offering and for incoming SDP offers when the remote party sends actpass
-profiles_pjsip_dtls_verify = DTLS Verify
-profiles_pjsip_dtls_verify_certificate = Certificate
-profiles_pjsip_dtls_verify_fingerprint = Fingerprint
-profiles_pjsip_dtls_verify_no = No
-profiles_pjsip_dtls_verify_tooltip = Verify that the provided peer certificate is valid
-profiles_pjsip_dtls_verify_yes = Yes
-profiles_pjsip_force_rport = Force rport
-profiles_pjsip_force_rport_tooltip = Force use of return port
-profiles_pjsip_general_section = General
-profiles_pjsip_ice_support = ICE Support
-profiles_pjsip_ice_support_tooltip = Enable the ICE mechanism to help traverse NAT
-profiles_pjsip_media_encryption = Media Encryption
+profiles_pjsip_dtls_setup_passive = Passif
+profiles_pjsip_dtls_setup_tooltip =
+	Que nous soyons disposés à accepter des connexions, à nous connecter à l'autre partie, ou les deux.
+	Les options valides sont : <br>
+	<b>Actif</b> (nous voulons nous connecter à l'autre partie), <br>
+	<b>Passif</b> (nous souhaitons accepter uniquement les connexions), <br>
+	<b>Actpass</b> (nous ferons les deux). <br>
+	Cette valeur sera utilisée dans le SDP sortant lors de l'offre et pour les offres SDP entrantes lorsque la partie distante envoie l'actpass
+profiles_pjsip_dtls_verify = Vérification DTLS
+profiles_pjsip_dtls_verify_certificate = Certificat
+profiles_pjsip_dtls_verify_fingerprint = Empreinte digitale
+profiles_pjsip_dtls_verify_no = Non
+profiles_pjsip_dtls_verify_tooltip = Vérifiez que le certificat pair fourni est valide
+profiles_pjsip_dtls_verify_yes = Oui
+profiles_pjsip_force_rport = Forcer le rapport
+profiles_pjsip_force_rport_tooltip = Forcer l'utilisation du port de retour
+profiles_pjsip_general_section = Général
+profiles_pjsip_ice_support = Assistance ICE
+profiles_pjsip_ice_support_tooltip = Activer le mécanisme ICE pour aider à traverser NAT
+profiles_pjsip_media_encryption = Chiffrage des médias
 profiles_pjsip_media_encryption_dtls = DTLS
-profiles_pjsip_media_encryption_no = No
-profiles_pjsip_media_encryption_optimistic = Media Encryption Optimistic
-profiles_pjsip_media_encryption_optimistic_tooltip = Determines whether encryption should be used if possible but does not terminate the session if not achieved.
+profiles_pjsip_media_encryption_no = Non
+profiles_pjsip_media_encryption_optimistic = Optimiste pour le chiffrement des médias
+profiles_pjsip_media_encryption_optimistic_tooltip = Détermine si le chiffrement doit être utilisé si possible mais ne met pas fin à la session s'il n'est pas atteint.
 profiles_pjsip_media_encryption_sdes = SDES
-profiles_pjsip_media_encryption_tooltip = Determines whether res_pjsip will use and enforce usage of media encryption for this endpoint.
-profiles_pjsip_media_section = Media
-profiles_pjsip_media_use_received_transport = Media Transport Received
-profiles_pjsip_media_use_received_transport_tooltip = Determines whether res_pjsip will use the media transport received in the offer SDP in the corresponding answer SDP.
-profiles_pjsip_name = Name
-profiles_pjsip_name_invalid = No profile name specified.
-profiles_pjsip_name_tooltip = Name for this profile.
-profiles_pjsip_network_section = Network
-profiles_pjsip_none = -- None --
-profiles_pjsip_rewrite_contact = Rewrite Contact
-profiles_pjsip_rewrite_contact_tooltip = Allow Contact header to be rewritten with the source IP address-port
-profiles_pjsip_rtcp_mux = RTCP Mux
-profiles_pjsip_rtcp_mux_tooltip = 	
-	With this option enabled, Asterisk will attempt to negotiate the use of the "rtcp-mux" attribute on all media streams.
-	This will result in RTP and RTCP being sent and received on the same port. This shifts the demultiplexing logic to
-	the application rather than the transport layer. This option is useful when interoperating with WebRTC endpoints
-	since they mandate this option's use.
-profiles_pjsip_rtp_symmetric = RTP Symmetric
-profiles_pjsip_rtp_symmetric_tooltip = Enforce that RTP must be symmetric
+profiles_pjsip_media_encryption_tooltip = Détermine si res_pjsip utilisera et appliquera l'utilisation du chiffrement multimédia pour ce point de terminaison.
+profiles_pjsip_media_section = Média
+profiles_pjsip_media_use_received_transport = Transport de média reçu
+profiles_pjsip_media_use_received_transport_tooltip = Détermine si res_pjsip utilisera le transport multimédia reçu dans l'offre SDP dans la réponse SDP correspondante.
+profiles_pjsip_name = Nom
+profiles_pjsip_name_invalid = Aucun nom de profil spécifié.
+profiles_pjsip_name_tooltip = Nom de ce profil.
+profiles_pjsip_network_section = Réseau
+profiles_pjsip_none = -- Aucun --
+profiles_pjsip_rewrite_contact = Réécrire le contact
+profiles_pjsip_rewrite_contact_tooltip = Autoriser la réécriture de l'en-tête du contact avec l'adresse IP source-port
+profiles_pjsip_rtcp_mux = Mux RTCP
+profiles_pjsip_rtcp_mux_tooltip =
+	Avec cette option activée, Asterisk tentera de négocier l'utilisation de l'attribut "rtcp-mux" sur tous les flux multimédias.
+	Cela entraînera l'envoi et la réception de RTP et RTCP sur le même port.
+	Cela déplace la logique de démultiplexage vers l'application plutôt que vers la couche de transport. Cette option est utile lors de l'interopérabilité avec les points de terminaison WebRTC car ils imposent l'utilisation de cette option.
+profiles_pjsip_rtp_symmetric = RTP symétrique
+profiles_pjsip_rtp_symmetric_tooltip = Imposer que RTP doit être symétrique
 profiles_pjsip_transport = Transport
 profiles_pjsip_transport_tcp = TCP
 profiles_pjsip_transport_tls = TLS
-profiles_pjsip_transport_tooltip = Desired transport configuration.
+profiles_pjsip_transport_tooltip = Configuration de transport souhaitée.
 profiles_pjsip_transport_udp = UDP
 profiles_pjsip_transport_ws = WS
 profiles_pjsip_transport_wss = WSS
-profiles_pjsip_use_avpf = Use AVPF
-profiles_pjsip_use_avpf_tooltip = Determines whether res_pjsip will use and enforce usage of AVPF for this endpoint.
+profiles_pjsip_use_avpf = Utiliser AVPF
+profiles_pjsip_use_avpf_tooltip = Détermine si res_pjsip utilisera et appliquera l'utilisation d'AVPF pour ce point de terminaison.
 profiles_technology_pjsip = PJSIP
 profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
 profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
 profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
-profiles_sip_dtlsenable = Enable
-profiles_sip_dtlsenable_tooltip = Enable or disable DTLS-SRTP support
+profiles_sip_dtlsenable = Activer
+profiles_sip_dtlsenable_tooltip = Activer ou désactiver le support DTLS-SRTP
 profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
 profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
 profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
@@ -216,46 +214,50 @@ profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
 profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
 profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
 profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
-profiles_sip_force_avp = Force AVP
-profiles_sip_force_avp_tooltip = 
-	Force 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP', and 'RTP/SAVPF' to be used for media streams when appropriate, even if a
-	DTLS stream is present.
+profiles_sip_force_avp = Forcer l'AVP
+profiles_sip_force_avp_tooltip =
+	Force l'utilisation de 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP' et 'RTP/SAVPF' pour les flux multimédias lorsque cela est approprié 
+	même si un flux DTLS est présent.
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
-profiles_sip_rtcp_mux_tooltip = Enable support for RFC 5761 RTCP multiplexing which is required for WebRTC support
-profiles_pjsip_qualify_frequency = Qualify Frequency
-profiles_pjsip_qualify_frequency_tooltip = Interval between attempts to qualify the contact for reachability. If 0 never qualify. Time in seconds.
-profiles_pjsip_qualify_timeout = Qualify Timeout
-profiles_pjsip_qualify_timeout_tooltip = If the contact doesn't respond to the OPTIONS request before the timeout, the contact is marked unavailable. If 0 no timeout.
-profiles_pjsip_send_diversion = Send Diversion Header
-profiles_pjsip_send_diversion_tooltip = Send the Diversion header, conveying the diversion information to the called user agent
-profiles_pjsip_send_pai = Send P-Asserted-Identity
-profiles_pjsip_send_pai_tooltip = Send the P-Asserted-Identity header
-profiles_pjsip_send_rpid = Send Remote-Party-ID
-profiles_pjsip_send_rpid_tooltip = Send the Remote-Party-ID header
+profiles_sip_rtcp_mux_tooltip = Activer la prise en charge du multiplexage RFC 5761 RTCP qui est requis pour la prise en charge WebRTC
+profiles_pjsip_qualify_fréquence = Qualifier la fréquence
+profiles_pjsip_qualify_fréquence_tooltip = Intervalle entre les tentatives de qualification du contact en "reachability". Si 0 ne se qualifie jamais. Temps en secondes.
+profiles_pjsip_qualify_timeout = Délai de qualification
+profiles_pjsip_qualify_timeout_tooltip = Si le contact ne répond pas à la requête OPTIONS avant l'expiration du délai, le contact est marqué comme indisponible. Si 0 pas de délai d'attente.
+profiles_pjsip_send_diversion = Envoyer l'en-tête de déviation
+profiles_pjsip_send_diversion_tooltip = Envoie l'en-tête Diversion, transmettant les informations de déviation à l'agent utilisateur appelé
+profiles_pjsip_send_pai = Envoyer P-Asserted-Identity
+profiles_pjsip_send_pai_tooltip = Envoyer l'en-tête P-Asserted-Identity
+profiles_pjsip_send_rpid = Envoyer le Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Envoyer l'en-tête Remote-Party-ID
 profiles_pjsip_webrtc = WebRTC
-profiles_pjsip_webrtc_tooltip = 
-	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
-	rtcp_mux, use_avpf, ice_support, and use_received_transport.
-profiles_pjsip_remove_existing = Remove Existing
-profiles_pjsip_remove_existing_tooltip = 
-	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
-	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
-	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
-	refreshing.
-profiles_pjsip_max_audio_streams = Max Audio Streams
-profiles_pjsip_max_audio_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated audio streams allowed for the endpoint.
-profiles_pjsip_max_video_streams = Max Video Streams
-profiles_pjsip_max_video_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated video streams allowed for the endpoint.
-profiles_pjsip_support_path = Support Path
-profiles_pjsip_support_path_tooltip = 
-	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
-	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
-	also be indicated in the Supported header.
-profiles_pjsip_outbound_proxy = Outbound Proxy
-profiles_pjsip_outbound_proxy_tooltip = Full SIP URI of the outbound proxy used to send requests. e.g.: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_webrtc_tooltip =
+	Lorsqu'il est défini sur « oui », cela active également les valeurs suivantes qui sont nécessaires pour que la prise en charge de base de WebRTC fonctionne :
+	rtcp_mux, use_avpf, ice_support et use_received_transport.
+profiles_pjsip_remove_existing = Supprimer l'existant
+profiles_pjsip_remove_existing_tooltip =
+	Autorisez la réussite d'une inscription en déplaçant tous les contacts existants qui dépassent désormais le nombre "{hot_desking.max_contacts}".
+	Tous les contacts supprimés sont les prochains à expirer. Le comportement est bénéfique lorsque "{profiles_pjsip_rewrite_contact}" est activé et que "{hot_desking.max_contacts}" est supérieur à un.
+	Le contact supprimé est probablement l'ancien contact créé par "{profiles_pjsip_rewrite_contact}" que l'équippement est en train de rafraîchir.
+profiles_pjsip_max_audio_streams = Max Flux Audio
+profiles_pjsip_max_audio_streams_tooltip =
+	Cette option applique une limite sur le nombre maximal de flux audio négociés simultanés autorisés pour le point de terminaison.
+profiles_pjsip_max_video_streams = Flux vidéo max.
+profiles_pjsip_max_video_streams_tooltip =
+	Cette option applique une limite au nombre maximal de flux vidéo négociés simultanés autorisés pour le point de terminaison.
+profiles_pjsip_support_path = Chemin d'assistance
+profiles_pjsip_support_path_tooltip =
+	Lorsque cette option est activée, les en-têtes de chemin dans les demandes de registre seront enregistrés et leur contenu sera utilisé dans les en-têtes de route pour les demandes sortantes hors dialogue et dans les en-têtes de chemin pour les réponses 200 sortantes.
+	La prise en charge des chemins sera également indiquée dans l'en-tête Supported.
+profiles_pjsip_outbound_proxy = Proxy sortant
+profiles_pjsip_outbound_proxy_tooltip = URI SIP complet du proxy sortant utilisé pour envoyer les requêtes. par exemple : <b>sip:192.168.0.1\;lr</b>
 profiles_pjsip_transport_auto = Auto
 profiles.advanced = {profiles_advanced}
 profiles.general = {vitalpbx.general}
+profiles_pjsip_default_expiration = Expiration par défaut
+profiles_pjsip_default_expiration_tooltip = Délai d'expiration par défaut en secondes pour les contacts liés dynamiquement à une AoR.
+profiles_pjsip_maximum_expiration = Expiration maximale
+profiles_pjsip_maximum_expiration_tooltip = Temps maximum pour garder un peer avec expiration explicite. Temps en secondes.
+profiles_pjsip_minimum_expiration = Expiration minimale
+profiles_pjsip_minimum_expiration_tooltip = Temps minimum pour garder un peer avec une expiration explicite. Temps en secondes.

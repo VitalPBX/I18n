@@ -5,9 +5,10 @@ ring_group.description = Description
 ring_group.description.tooltip = Courte description de ce groupe de sonnerie
 ring_group.destination = Destination
 ring_group.extension = Code
-ring_group.extension.invalid = Estensions requises
+ring_group.extension.invalid = Extensions requises
 ring_group.extension.tooltip = Numéro du groupe
 ring_group.general = Général
+ring_group.invalid.already_exists = Numéro de groupe de sonnerie {0} non valide. Le numéro est utilisé par le module {1} .
 ring_group.last_destination = Destination suivante
 ring_group.last_destination.tooltip = Destination vers laquelle l'appel est envoyé s'il n'st pas traîté par ce groupe.
 ring_group.list = Extensions
@@ -20,27 +21,36 @@ ring_group.prefix.invalid = Merci d'écrire un Préfixe de CID correct. Seul les
 ring_group.prefix.tooltip = Préfixe à ajouter à ce groupe de sonneries
 ring_group.ringtime = Temps de sonnerie
 ring_group.ringtime.tooltip = Temps de sonnerie en seconde, MAX 160 secondes.
+ring_group.ringtime.values = La valeur Ring Time doit être comprise entre 5 et 160 secondes.
 ring_group.select_extensions = Extensions sélectionnés
 ring_group.strategy = Stratégie de sonnerie
 ring_group.strategy.one_by_one = Un par un
 ring_group.strategy.ringall = Sonner tous en même temps
 ring_group.strategy.tooltip = Stratégie de sonnerie
-ring_group.invalid.already_exists = Invalid Ring Group number {0}. The number is in use by {1} module.
-ring_group.ringtime.values = Ring Time value must be between 5 and 160 seconds.
+ring_group.validation.duplicated_description = La description fournie est utilisée par un autre groupe de sonnerie. Veuillez vérifier
+ring_group.validation.duplicated_extension = L'extension fournie est utilisée par un autre groupe d'appel. Veuillez vérifier
+ring_group.validation.no_extensions = Aucun poste ou numéro externe n'a été ajouté à ce groupe d'appels
+ring_group.external_numbers = Numéros externes
+ring_group.external_numbers.tooltip = Liste avec les numéros externes à composer lorsque ce groupe de sonnerie est appelé
 ring_group.cos = {class_of_service.cos}
-ring_group.cos.tooltip = Class of Service to use for dial the external numbers listed in this ring group
-ring_group.external_numbers = External Numbers
-ring_group.external_numbers.tooltip = List with the external numbers to dial when this ring group being called
-ring_group.validation.duplicated_description = The provided description is being used by another ring group. Please verify
-ring_group.validation.duplicated_extension = The provided extension is being used by another ring group. Please verify
-ring_group.validation.no_extensions = No extensions or external numbers have been added to this ring group
+ring_group.cos.tooltip = Classe de service à utiliser pour composer les numéros externes répertoriés dans ce groupe d'appels
 ring_group.validation.no_valid_number =
-	The external number <b>{0}</b> contains invalid characters. Only numbers,
-	and the following characters are allowed: *, # and +
+	Le numéro externe <b>{0}</b> contient des caractères non valides. 
+	Seuls les chiffres et les caractères suivants sont autorisés : *, # et +
 ring_group.answered_elsewhere = {queues.answered_elsewhere}
-ring_group.answered_elsewhere.tooltip = 
-	With this option enabled prevents the other phones record a missed call when the call has been answered on a phone
-	listed on this ring group. This is a very useful setting when the ring strategy is set to "Ring All"
-ring_group.allow_diversions = Allow Diversions
-ring_group.allow_diversions.tooltip = 
-	Allows you to define if the diversions defined for the different extensions members will be applied or not.
+ring_group.answered_elsewhere.tooltip =
+	Lorsque cette option est activée, les autres téléphones n'enregistrent pas un appel manqué lorsque l'appel a été répondu sur un téléphone répertorié dans ce groupe d'appels. 
+	Il s'agit d'un paramètre très utile lorsque la stratégie de sonnerie est définie sur « Tout sonner »
+ring_group.allow_diversions = Autoriser les détournements
+ring_group.allow_diversions.tooltip =
+	Permet de définir si les déviations définies pour les différents membres des extensions seront appliquées ou non.
+ring_group.answerchannel = Canal de réponse
+ring_group.answerchannel.tooltip =
+	S'il est défini sur « oui », les appels entrants vers cette application seront répondus avant de commencer à faire sonner la liste des numéros définis ici.
+	Configurer ce paramètre sur « non » peut empêcher la lecture de certains fichiers audio ou de la musique d'attente.
+ring_group.skip_busy = Ignorer les extensions occupées
+ring_group.skip_busy.tooltip = Si défini sur oui, tout poste répertorié avec un état occupé sera ignoré.
+ring_group.no_release = Pas de libération
+ring_group.no_release.tooltip =
+	Il ajoute l'indicateur de non-libération (\n) aux membres du groupe d'appel ; cela évite de créer plusieurs éléments sur le CDR ;
+	néanmoins, certains téléphones peuvent présenter des problèmes de transfert lorsque cette option est activée ; par conséquent, vous pouvez désactiver cette option si nécessaire.	

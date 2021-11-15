@@ -1,7 +1,7 @@
 menu.system_general = Général Système
 module.system_general = Général Système
 system_general.ast_agi_dir = Repertoire de l'Asterisk
-system_general.ast_dir = Répertoire de l'Astersik
+system_general.ast_dir = Répertoire de l'Asterikk
 system_general.ast_libs_dir = Répertoire des librairies Asterisk
 system_general.ast_log_dir = Répertoire des log Asterisk
 system_general.ast_module_dir = Répertoire des modules Asterisk
@@ -32,51 +32,45 @@ system_general.trunk_dialoptions.tooltip = Paramètres par défaut à utiliser p
 system_general.recording_script = Script d'enregistrement
 system_general.recording_script.tooltip = Script a exécuter quand un enregistrement est terminé. les paramètres du script doivent être definit comme une séquences de châine de caractère séparés par des espaces comme ^{{<i><b>name</b></i>}}, ou <i><b>name</b></i> peut-être un canal ou une variable MixMonitor . Par exemple , <br> ^{{UNIQUEID}} - channel ID<br> ^{{MIXMONITOR_FILENAME}} - recording file name.
 system_general.recording_script.invalid = Le script d'enregistrement n'est pas trouvé.
-system_general.default_ast_lang = Default Language
-system_general.default_ast_lang.tooltip = Language to select by default when a new extension is being created
-system_general.devices_prefix = Devices Prefix
-system_general.devices_prefix.tooltip = Prefix to append by default to devices name
-system_general.blacklisted = Blacklisted
-system_general.blacklisted.tooltip = 
-	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted
-system_general.dnd = DND
-system_general.dnd.tooltip = 
-	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
-system_general.sounds = System Prompts
-system_general.featuredigittimeout = Features Digit Timeout
-system_general.featuredigittimeout.placeholder = Value in milliseconds
-system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
-system_general.transferdigittimeout = Transfer Digit Timout
+system_general.default_ast_lang = Langue par défaut
+system_general.default_ast_lang.tooltip = Langue à sélectionner par défaut lors de la création d'une nouvelle extension
+system_general.devices_prefix = Préfixe des appareils
+system_general.devices_prefix.tooltip = Préfixe à ajouter par défaut au nom des appareils
+system_general.blacklisted = Sur liste noire
+system_general.blacklisted.tooltip = Vous permet de définir une invite personnalisée qui sera reproduite aux appelants qui sont sur liste noire
+system_general.dnd = NPD
+system_general.dnd.tooltip = Permet de définir une invite personnalisée qui sera reproduite lorsqu'un poste aura activé le NPD
+system_general.sounds = Invites système
+system_general.featuredigittimeout = Délai d'expiration des chiffres des fonctionnalités
+system_general.featuredigittimeout.placeholder = Valeur en millisecondes
+system_general.featuredigittimeout.tooltip = Temps maximum (ms) entre les chiffres pour l'activation de la fonctionnalité (la valeur par défaut est 1000 ms)
+system_general.transferdigittimeout = Délai de transfert des chiffres
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
-system_general.gui_settings = GUI Settings
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
-system_general.queues_callback = Queues CallBack
-system_general.search_frequency = Search Frequency
+system_general.transferdigittimeout.tooltip = Nombre de secondes à attendre entre les chiffres lors du transfert d'un appel (la valeur par défaut est de 3 secondes)
+system_general.gui_settings = Paramètres de l'interface graphique
+system_general.show_login_panel = Afficher le panneau de connexion
+system_general.show_login_panel.tooltip = S'il est défini sur yes, il affiche un panneau avec les add-ons sonata lorsqu'ils sont installés.
+system_general.queues_callback = Rappel des files d'attente
+system_general.search_frequency = Fréquence de recherche
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
-system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
-system_general.email_credentials = Email Credentials
-system_general.email_credentials.tooltip = 
-	Enable this feature to send an email to the newly created extension user with their extension and account information.
-	You can find the template for this email under Admin > System Settings > Email Templates.
-system_general.show_addons_menu = Show Add-ons Menu
-system_general.show_addons_menu.tooltip = 
-	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
-system_general.fqdn = Public Domain
-system_general.fqdn.invalid = The provided domain domain is not valid
-system_general.fqdn.tooltip = 
-	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
-	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
-	Also, it will be used for generating the VitXi QR codes.
-system_general.atxferdropcall = Drop Attended Transfer Callbacks
+system_general.search_fréquence.tooltip = Définit la fréquence à laquelle le service de rappel des files d'attente recherchera les rappels programmés.
+system_general.email_credentials = Identifiants de messagerie
+system_general.email_credentials.tooltip =
+	Activez cette fonctionnalité pour envoyer un e-mail à l'utilisateur d'extension nouvellement créé avec ses informations d'extension et de compte.
+	Vous pouvez trouver le modèle de cet e-mail sous Admin > Paramètres système > Modèles d'e-mail.
+system_general.show_addons_menu = Afficher le menu des modules complémentaires
+system_general.show_addons_menu.tooltip = S'il est défini sur oui, un bouton de menu s'affichera sur l'écran de connexion pour accéder aux modules complémentaires externes tels que Sonata ou VitXi
+system_general.fqdn = Domaine public
+system_general.fqdn.invalid = Le domaine de domaine fourni n'est pas valide
+system_general.fqdn.tooltip =
+	Il vous permet de définir le domaine public du PBX. Ces informations seront utilisées sur les notifications par e-mail pour traduire ou remplacer la variable du domaine public à partir des modèles ; Au lieu d'essayer de détecter automatiquement le domaine public par le système.
+	En outre, il sera utilisé pour générer les codes QR VitXi.
+system_general.atxferdropcall = Abandonner les rappels de transfert assisté
 system_general.atxferdropcall.tooltip = 
-	It allows you to change the default callback behavior. The default is 'no' which results in Asterisk calling back the
-	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
-	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
-system_general.atxfernoanswertimeout = Attended Transfer Timeout
-system_general.atxfernoanswertimeout.placeholder = Value in seconds
-system_general.atxfernoanswertimeout.tooltip = It allows you to define the timeout for attended transfers. This is the amount of time (in seconds) Asterisk will attempt to ring the target before giving up.
-system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
-system_general.auto_generated_pwd_length.tooltip = 
-	It allows you to define the default length for auto-generated devices passwords
+	Il vous permet de modifier le comportement de rappel par défaut. La valeur par défaut est « non », ce qui fait qu'Asterisk rappelle l'initiateur d'un transfert lorsqu'il raccroche plus tôt et que le transfert surveillé expire. 
+	S'il est défini sur « oui », le canal cible du transfert sera immédiatement transféré vers le canal en cours de transfert dès que l'initiateur raccrochera.
+system_general.atxfernoanswertimeout = Délai de transfert surveillé
+system_general.atxfernoanswertimeout.placeholder = Valeur en secondes
+system_general.atxfernoanswertimeout.tooltip = Il vous permet de définir le délai d'attente pour les transferts surveillés. Il s'agit de la durée (en secondes) pendant laquelle Asterisk tentera de faire sonner la cible avant d'abandonner.
+system_general.auto_generated_pwd_length = Longueur des mots de passe générés automatiquement
+system_general.auto_generated_pwd_length.tooltip = Il vous permet de définir la longueur par défaut des mots de passe des appareils générés automatiquement

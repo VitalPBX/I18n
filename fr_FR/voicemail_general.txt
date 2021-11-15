@@ -33,8 +33,8 @@ voicemail_general.searchcontexts.tooltip = Le fonctionnement par défaut est de 
 voicemail_general.serveremail = Expéditeur
 voicemail_general.serveremail.placeholder = "Nom" <MV@domain.com>
 voicemail_general.serveremail.tooltip = Adresse expéditrice de l'email. Exaeple: "nom" &lt;MV@domain.com&gt;
-voicemail_general.usedirectory = Use Directory
-voicemail_general.usedirectory.tooltip = Permit finding entries for forward/compose from the directory.
+voicemail_general.usedirectory = Utiliser le répertoire
+voicemail_general.usedirectory.tooltip = Autoriser la recherche d'entrées pour transférer/composer à partir du répertoire.
 voicemail_general.vm_callerid = Numéro du correspondant (Personne qui laisse le message)
 voicemail_general.vm_category = Définir la catégorie du message
 voicemail_general.vm_cidname = Nom de la boite vocale
@@ -44,20 +44,20 @@ voicemail_general.vm_duration = Durée du message vocal
 voicemail_general.vm_messagefile = Chemin du message vocal
 voicemail_general.vm_msgnum = Nombre de message dans la boite vocale
 voicemail_general.vm_name = Nom de l'utilisateur de la boite vocale
-voicemail_general.max_message = Max Messages
-voicemail_general.max_message.tooltip = Maximum number of messages per folder. If set to 0, a mailbox will be greetings-only.
-voicemail_general.operator_number = Operator Number
-voicemail_general.operator_number.tooltip = Extension to dial on pressing 0 while listening a voicemail.
-voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
-voicemail_general.operator_destination = Operator Destination
-voicemail_general.operator_destination.tooltip = Destination to execute on pressing 0 (zero) for reach the operator.
-voicemail_general.fromstring = From Name
+voicemail_general.max_message = Messages Max
+voicemail_general.max_message.tooltip = Nombre maximum de messages par dossier. S'il est défini sur 0, une boîte aux lettres sera réservée aux messages d'accueil.
+voicemail_general.operator_number = Numéro d'opérateur
+voicemail_general.operator_number.tooltip = Poste à composer en appuyant sur 0 pendant l'écoute d'un message vocal.
+voicemail_general.no_operator_destination = La fonction opérateur a été activée mais aucune destination n'a été sélectionnée
+voicemail_general.operator_destination = Destination de l'opérateur
+voicemail_general.operator_destination.tooltip = Destination à exécuter en appuyant sur 0 (zéro) pour joindre l'opérateur.
+voicemail_general.fromstring = De Nom
 voicemail_general.fromstring.placeholder = Asterisk PBX
-voicemail_general.fromstring.tooltip = Name that will appear in emails from your PBX
-voicemail_general.mp3_attachment = MP3 Attachments
-voicemail_general.mp3_attachment.tooltip = If set to yes, voicemail attachment will be sent in mp3 format
-voicemail_general.locale = Locale
-voicemail_general.locale.tooltip = 
-	Set the locale for generation of the date/time strings (make sure the locales are installed in your operating system).
-	If you mix different locales for different users you should avoid words in the email date format specification, e.g.:
+voicemail_general.fromstring.tooltip = Nom qui apparaîtra dans les e-mails de votre PBX
+voicemail_general.mp3_attachment = Pièces jointes MP3
+voicemail_general.mp3_attachment.tooltip = Si défini sur oui, la pièce jointe de la messagerie vocale sera envoyée au format mp3
+voicemail_general.locale = Paramètres régionaux
+voicemail_general.locale.tooltip =
+	Définissez les paramètres régionaux pour la génération des chaînes de date/heure (assurez-vous que les paramètres régionaux sont installés dans votre système d'exploitation).
+	Si vous mélangez différents paramètres régionaux pour différents utilisateurs, évitez les mots dans la spécification du format de date de l'e-mail, par exemple :
 	<b>%A, %d %B %Y, %H:%M:%S</b>

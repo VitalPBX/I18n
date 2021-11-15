@@ -1,33 +1,32 @@
-menu.rtp_settings = RTP Settings
-module.rtp_settings = RTP Settings
-rtp_settings.certificate_id = Certificate
-rtp_settings.certificate_id.tooltip = Server's certificate file.
-rtp_settings.general = General
-rtp_settings.icesupport = ICE Support
-rtp_settings.icesupport.tooltip = Whether to enable or disable ICE support. This option is disabled by default.
-rtp_settings.rtpchecksums = RTP Checksums
-rtp_settings.rtpchecksums.tooltip = Whether to enable or disable UDP checksums on RTP traffic.
-rtp_settings.rtpend = RTP End
-rtp_settings.rtpend.tooltip = Indicates the end of the port.
-rtp_settings.rtpstart = RTP Start
-rtp_settings.rtpstart.tooltip = Indicates where the port start.
-rtp_settings.strictrtp = Strict RTP
-rtp_settings.strictrtp.tooltip = Enable strict RTP protection. This will drop RTP packets that do not come from the source of the RTP stream.
-rtp_settings.stunaddr = Stun Server
-rtp_settings.stunaddr.tooltip = Hostname or address for the STUN server used when determining the external IP address and port an RTP session can be reached at. The port number is optional.
-rtp_settings.turnaddr = Turn Server
-rtp_settings.turnaddr.tooltip = Hostname or address for the TURN server to be used as a relay. The port number is optional.
-rtp_settings.turnpassword = Turn Server Password
-rtp_settings.turnpassword.tooltip = Password used to authenticate with TURN relay server.
-rtp_settings.turnusername = Turn Server Name
-rtp_settings.turnusername.tooltip = Username used to authenticate with TURN relay server.
-rtp_settings.advertised_address = Advertised Address
-rtp_settings.ice_host_candidates = ICE Host Settings
-rtp_settings.ice_host_candidates.tooltip = 
-	When Asterisk is behind a static one-to-one NAT and ICE is in use, ICE will expose the server's internal IP address
-	as one of the host candidates. Although using STUN (see the 'stunaddr' configuration option) will provide a
-	publicly accessible IP, the internal IP will still be sent to the remote peer. To help hide the topology of your internal
-	network, you can override the host candidates that Asterisk will send to the remote peer. If you do define anything
-	here, you almost certainly will NOT want to specify the 'Stun Server' or 'Turn Server' addresses.
-rtp_settings.include_local_address = Include Local Address
-rtp_settings.local_address = Local Address
+menu.rtp_settings = Paramètres RTP
+module.rtp_settings = Paramètres RTP
+rtp_settings.certificate_id = Certificat
+rtp_settings.certificate_id.tooltip = Fichier de certificat du serveur.
+rtp_settings.general = Général
+rtp_settings.icesupport = Assistance ICE
+rtp_settings.icesupport.tooltip = Activer ou désactiver le support ICE. Cette option est désactivée par défaut.
+rtp_settings.rtpchecksums = Checksums RTP
+rtp_settings.rtpchecksums.tooltip = Activer ou désactiver les Checksums (sommes de contrôle) UDP sur le trafic RTP.
+rtp_settings.rtpend = Fin RTP
+rtp_settings.rtpend.tooltip = Indique le port de fin.
+rtp_settings.rtpstart = Début RTP
+rtp_settings.rtpstart.tooltip = Indique le port de commencencement de la plage.
+rtp_settings.strictrtp = RTP strict
+rtp_settings.strictrtp.tooltip = Activer la protection RTP stricte. Cela supprimera les paquets RTP qui ne proviennent pas de la source du flux RTP.
+rtp_settings.stunaddr = Serveur STUN
+rtp_settings.stunaddr.tooltip = Nom d'hôte ou adresse du serveur STUN utilisé lors de la détermination de l'adresse IP externe et du port auquel une session RTP peut être atteinte. Le numéro de port est facultatif.
+rtp_settings.turnaddr = serveur TURN
+rtp_settings.turnaddr.tooltip = Nom d'hôte ou adresse du serveur TURN à utiliser comme relais. Le numéro de port est facultatif.
+rtp_settings.turnpassword = Mot de passe du serveur TURN
+rtp_settings.turnpassword.tooltip = Mot de passe utilisé pour s'authentifier avec le serveur relais TURN.
+rtp_settings.turnusername = Nom du serveur TURN
+rtp_settings.turnusername.tooltip = Nom d'utilisateur utilisé pour s'authentifier avec le serveur relais TURN.
+rtp_settings.advertised_address = Adresse annoncée
+rtp_settings.ice_host_candidates = Paramètres d'hôte ICE
+rtp_settings.ice_host_candidates.tooltip =
+	Lorsqu'Asterisk est derrière un NAT un-à-un statique et qu'ICE est en cours d'utilisation, ICE exposera l'adresse IP interne du serveur comme l'un des candidats hôtes. 
+	Bien que l'utilisation de STUN (voir l'option de configuration 'stunaddr') fournira une IP accessible publiquement, l'IP interne sera toujours envoyée au peer distant. 
+	Pour aider à masquer la topologie de votre réseau interne, vous pouvez remplacer les candidats hôtes qu'Asterisk enverra au peer distant. 
+	Si vous définissez quoi que ce soit ici, vous ne voudrez certainement PAS spécifier les adresses 'Stun Server' ou 'Turn Server'.
+rtp_settings.include_local_address = Inclure l'adresse locale
+rtp_settings.local_address = Adresse locale

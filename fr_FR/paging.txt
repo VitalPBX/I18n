@@ -24,34 +24,34 @@ paging.skip_busy = Ignorer occupés
 paging.skip_busy.tooltip = Appelle uniquement les périphériques marqués comme non utilisés (NOT_INUSE). Cette option ne fonctionne qu'avec les équipements SIP ne diposant pas du double appel. Dans tous les cas, ne vous appuyez pas trop sur cette fonction.
 paging.timeout = Délai d'établissement
 paging.timeout.tooltip = Spécifie la durée de tentative de l'etablissement de l'appel. passé cette durée, l'appel sera raccroché si le périphérique n'a pas décroché.
-paging.extension.invalid = Paging Code is invalid. Only *,#,+ and numbers are allowed.
-paging.invalid.already_exists = Invalid Paging number {0}. The number is in use by {1} module.
-paging.ip_address = IP Address
+paging.extension.invalid = Le code de paging n'est pas valide. Seuls *,#,+ et les chiffres sont autorisés.
+paging.invalid.already_exists = Numéro de pagination {0} non valide. Le numéro est utilisé par le module {1}.
+paging.ip_address = Adresse IP
 paging.multicastrtp = MulticastRTP
-paging.no_members = No extensions or valid multicast members has been provided
+paging.no_members = Aucune extension ou membre de multidiffusion valide n'a été fourni
 paging.port = Port
-paging.announcement = Announcement
-paging.announcement.tooltip = Announcement to be played to all paged participants
+paging.announcement = Annonce
+paging.announcement.tooltip = Annonce à diffuser à tous les participants paginés
 paging.mode = Mode
-paging.mode.annon_only = Announcement Only
-paging.mode.annon_only.tooltip = Plays the announcement and then, hangup
-paging.mode.default = Default
-paging.mode.default.tooltip = Default behavior. Plays the announcement if defined and then allows to the caller continue speaking
-paging.mode.tooltip = It allows you to define the paging behavior
-paging.no_license = 
- You have reached maximum number of free Paging items with schedule feature enabled. Activate the add-on to have
- unlimited paging items with this feature
-paging.schedule = Schedule
-paging.schedule_enabled = Enabled
-paging.schedule_enabled.tooltip = If set to yes, it will automate the paging execution according to the provided schedules.
+paging.mode.annon_only = Annonce uniquement
+paging.mode.annon_only.tooltip = Lit l'annonce puis raccroche
+paging.mode.default = Par défaut
+paging.mode.default.tooltip = Comportement par defaut. Joue l'annonce si elle est définie et permet ensuite à l'appelant de continuer à parler
+paging.mode.tooltip = Il vous permet de définir le comportement de pagination
+paging.no_license =
+	Vous avez atteint le nombre maximum d'éléments de pagination gratuits avec la fonction de planification activée. 
+	Activez le module complémentaire pour avoir des éléments de pagination illimités avec cette fonctionnalité
+paging.schedule = Planification
+paging.schedule_enabled = Activé
+paging.schedule_enabled.tooltip = S'il est défini sur yes, il automatisera l'exécution de la pagination selon les horaires fournis.
 paging.schedules.description = Description
-paging.schedules.dom = Day of Month
-paging.schedules.end_day = End Day
-paging.schedules.excluded_dates = Excluded Dates
-paging.schedules.month = Month
-paging.schedules.start_day = Start Day
-paging.schedules.time = Time
-paging.validation.mode.no_announcement = You have set the mode to "Announcement Only", but haven't selected an announcement
-paging.validation.no_schedules = You have enabled the paging schedule, but haven't defined any schedule
-paging.validation.schedule.no_announcement = 
-	You have enabled the paging schedule, but haven't selected an announcement to be played when matching a schedule
+paging.schedules.dom = Jour du mois
+paging.schedules.end_day = Jour de fin
+paging.schedules.excluded_dates = Dates exclues
+paging.schedules.month = Mois
+paging.schedules.start_day = Jour de début
+paging.schedules.time = Heure
+paging.validation.mode.no_announcement = Vous avez défini le mode sur "Annonce uniquement", mais n'avez sélectionné aucune annonce
+paging.validation.no_schedules = Vous avez activé le planning de pagination, mais n'avez défini aucun planning
+paging.validation.schedule.no_announcement =
+	Vous avez activé le programme de téléavertissement, mais n'avez pas sélectionné d'annonce à diffuser lors de la correspondance avec un programme

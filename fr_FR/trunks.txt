@@ -101,146 +101,162 @@ trunks.trunk_cid_number = Numéro CID de la ligne
 trunks.cos.warning = L'action que vous allez effectuer peut créer des vulnérabilités de sécurité. <b> Ne procédez pas à moins que vous soyez sûr de comprendre la logique de la classe de service pour les lignes réseau. </b>
 trunks.cos.warning.title = Attention
 trunks.cos.warning.confirm = Je comprends et confirme
-trunks.cos.warning.cancel = Annuler mes modificationsmenu.trunks = Trunks
-trunks.dial_profile_id = Dial Profile
-trunks.dial_profile_id.tooltip = Profile with the dial options to use when this trunk is dialed.
+trunks.cos.warning.cancel = Annuler mes modifications
+trunks.dial_profile_id = Profil de numérotation
+trunks.dial_profile_id.tooltip = Profil avec les options de numérotation à utiliser lorsque ce tronc est composé.
 trunks.nat = Nat
-trunks.outgoing_username.invalid = Please enter a valid device name. Alphanumeric value with dash, underscore and plus sign are allowed
-trunks.trunk_cid_number.invalid = Trunk CID is invalid. Only *,#,+ and numbers are allowed.
+trunks.outgoing_username.invalid = Veuillez saisir un nom de périphérique valide. Les valeurs alphanumériques avec tiret, trait de soulignement et signe plus sont autorisées
+trunks.trunk_cid_number.invalid = Le CID de ligne réseau n'est pas valide. Seuls *,#,+ et les chiffres sont autorisés.
 menu.trunks = Trunks
-trunks.continue_on_busy = Continue on Busy
+trunks.continue_on_busy = Continuer sur Occupation
 trunks.continue_on_busy.tooltip =
-	It force to continue the call to the next configured trunk when this trunk being busy. <br><br> <b>Note: </b> The call will
-	also continue to the next trunk if any error happens, even if this checkbox is not checked.
-trunks.auth_rejection_permanent = Permanent Auth Rejection
-trunks.auth_rejection_permanent.tooltip = 
-	If this option is enabled and an authentication challenge fails, registration will not be attempted again until
-	the configuration is reloaded
-trunks.custom_dial_string = Dial String %s
-trunks.custom_dial_string.tooltip = 
-	Custom dial string to use during the dialing of this trunk. Use the variable $[EXTEN] wherever the number to dial should go.
-	e.g: OH323/$[EXTEN]@10.0.1.200:10060
+	Il force à continuer l'appel vers la prochaine ligne réseau configurée lorsque cette ligne réseau est occupée. <br><br> <b>Remarque : </b> L'appel se poursuivra également vers la ligne de réseau suivante si une erreur se produit, même si cette case n'est pas cochée.
+trunks.auth_rejection_permanent = Rejet d'authentification permanent
+trunks.auth_rejection_permanent.tooltip =
+	Si cette option est activée et qu'un défi d'authentification échoue, l'enregistrement ne sera pas tenté à nouveau tant que la configuration n'est pas rechargée
+trunks.custom_dial_string = Chaîne de numérotation %s
+trunks.custom_dial_string.tooltip =
+	Chaîne de numérotation personnalisée à utiliser lors de la numérotation de cette ligne réseau. Utilisez la variable $[EXTEN] partout où le numéro à composer doit aller.
+	Par exemple : OH323/$[EXTEN]@10.0.1.200:10060
 trunks.expiration = Expiration
-trunks.expiration.tooltip = Expiration time for registrations in seconds
-trunks.forbidden_retry_interval = Forbidden Retry Interval
-trunks.forbidden_retry_interval.tooltip = 
-	It defines the time to wait before attempting registration again, after receive a 403 Forbidden response.
-	If 0 is specified, no retry will be made after receiving a 403 Forbidden response
-trunks.general_conf = General Configurations
-trunks.get_cid_from = Get CID From
+trunks.expiration.tooltip = Délai d'expiration des enregistrements en secondes
+trunks.forbidden_retry_interval = Intervalle de nouvelle tentative interdit
+trunks.forbidden_retry_interval.tooltip =
+	Il définit le temps d'attente avant de tenter à nouveau l'enregistrement, après avoir reçu une réponse 403 Forbidden.
+	Si 0 est spécifié, aucune nouvelle tentative ne sera effectuée après avoir reçu une réponse 403 Forbidden.
+trunks.general_conf = Configurations générales
+trunks.get_cid_from = Obtenir le CID de
 trunks.get_cid_from.contact = Contact
-trunks.get_cid_from.from = From
-trunks.get_cid_from.tooltip = It allows you to define from which SIP header will be extracted the caller ID info
-trunks.get_did_from = Get DID From
-trunks.get_did_from.to = To
-trunks.get_did_from.tooltip = It allows you to define from which SIP header will be extracted the DID number
-trunks.incoming_settings = User Parameters
-trunks.incoming_settings.tooltip = User parameters supplied by your VoIP provider
-trunks.match = Match
-trunks.match.tooltip = 
-	The value is a comma-delimited list of IP addresses or hostnames. IP addresses may have a subnet mask appended.
-	The subnet mask may be written in either CIDR or dotted-decimal notation. Separate the IP address and subnet mask
-	with a slash ('/').
-trunks.max_reached = You have reached the maximum number of trunks allowed
-trunks.max_retries = Max Retries
-trunks.max_retries.tooltip = Maximum number of registration attempts
-trunks.no_outgoing_settings = There are not outgoing settings defined on this trunk
-trunks.outbound_registration = Require Registration
-trunks.outbound_registration.tooltip = It defines, if is required to register against the remote server or VoIP provider
-trunks.outbound_registration_settings = Outbound Registration Settings
-trunks.outgoing_settings = Peer Parameters
-trunks.outgoing_settings.tooltip = Peer parameters supplied by your VoIP provider
-trunks.plain_mode = Switch to Text Mode
-trunks.retry_interval = Retry Interval
-trunks.retry_interval.tooltip = Interval in seconds between retries if outbound registration is unsuccessful
-trunks.rules = Dialing Manipulation Rules
+trunks.get_cid_from.from = De
+trunks.get_cid_from.tooltip = Il vous permet de définir à partir de quel en-tête SIP seront extraites les informations d'identification de l'appelant
+trunks.get_did_from = Obtenir le DID de
+trunks.get_did_from.to = À
+trunks.get_did_from.tooltip = Il permet de définir de quel en-tête SIP sera extrait le numéro DID
+trunks.incoming_settings = Paramètres utilisateur
+trunks.incoming_settings.tooltip = Paramètres utilisateur fournis par votre opérateur VoIP
+trunks.match = Correspondance
+trunks.match.tooltip =
+	La valeur est une liste délimitée par des virgules d'adresses IP ou de noms d'hôte. Les adresses IP peuvent avoir un masque de sous-réseau ajouté.
+	Le masque de sous-réseau peut être écrit en notation CIDR ou en notation décimale à points.
+	Séparez l'adresse IP et le masque de sous-réseau par une barre oblique ('/').
+trunks.max_reached = Vous avez atteint le nombre maximum de troncs autorisés
+trunks.max_retries = Nombre maximal de tentatives
+trunks.max_retries.tooltip = Nombre maximum de tentatives d'enregistrement
+trunks.no_outgoing_settings = Il n'y a pas de paramètres de sortie définis sur ce tronc
+trunks.outbound_registration = Inscription requise
+trunks.outbound_registration.tooltip = Il définit, s'il est nécessaire de s'enregistrer auprès du serveur distant ou du fournisseur VoIP
+trunks.outbound_registration_settings = Paramètres d'enregistrement sortant
+trunks.outgoing_settings = Paramètres des pairs
+trunks.outgoing_settings.tooltip = Paramètres homologues fournis par votre opérateur VoIP
+trunks.plain_mode = Passer en mode texte
+trunks.retry_interval = Intervalle de nouvelle tentative
+trunks.retry_interval.tooltip = Intervalle en secondes entre les tentatives si l'enregistrement sortant échoue
+trunks.rules = Règles de manipulation de numérotation
 trunks.rules.enabled = {trunks.trkcustom.enabled}
-trunks.rules.pattern = Pattern
-trunks.rules.prefix = Prefix
-trunks.rules.prepend = Prepend
-trunks.simultaneous_calls = Simultaneous Calls
-trunks.simultaneous_calls.tooltip = It allows you to define the amount of simultaneous outgoing calls allowed for this trunk.
-trunks.tenant_trunk = Tenant
-trunks.tenant_trunk.tooltip = It allows you to define to which tenant will be routed the calls made through this trunk.
+trunks.rules.pattern = Plan de num
+trunks.rules.prefix = Préfixe
+trunks.rules.prepend = Ajouter au début
+trunks.simultaneous_calls = Appels simultanés
+trunks.simultaneous_calls.tooltip = Il vous permet de définir le nombre d'appels sortants simultanés autorisés pour ce tronc.
+trunks.tenant_trunk = Locataire
+trunks.tenant_trunk.tooltip = Il permet de définir vers quel locataire seront acheminés les appels passés via ce tronc.
 trunks.transport = {profiles_pjsip_transport}
-trunks.transport.tooltip = Explicit transport configuration to use
-trunks.validation.duplicated_description = The provided description is being used by another trunk
-trunks.validation.duplicated_incoming_username = The provided username in the incoming calls section is being used by another trunk
-trunks.validation.duplicated_outgoing_username = The provided outgoing username is being used by another trunk
-trunks.validation.no_dial_string = You have not provided a valid dial string
-trunks.validation.no_outgoing_host = The outgoing host has not been provided
-trunks.validation.no_outgoing_username = The outgoing username has not been provided
-trunks.validation.no_tenant = You have not selected a valid tenant for this trunk
-trunks.validation.pjsip.no_remote_credentials = The outbound registration has been marked as required, but the remote username or the remote secret has not been defined
-trunks.validation.same_username = The username for outgoing and incoming calls are the same. Please, use different username for both fields
-trunks.visual_mode = Switch to Visual Mode
-trunks.custom_headers = Custom Headers
-trunks.trkcustom.header = Header
-trunks.client_uri = Client URI
-trunks.client_uri.tooltip = 
-	This is the address-of-record for the outbound registration (i.e. the URI in the To header of the REGISTER).
-	For registration with an ITSP, the client SIP URI may need to consist of an account name or number and the provider's
-	hostname for their registrar, e.g. <b>1234567890@example.com</b>. This may differ between providers.<br><br>
-	For registration to generic registrars, the client SIP URI will depend on networking specifics and configuration
-	of the registrar.
+trunks.transport.tooltip = Configuration de transport explicite à utiliser
+trunks.validation.duplicated_description = La description fournie est utilisée par un autre tronc
+trunks.validation.duplicated_incoming_username = Le nom d'utilisateur fourni dans la section des appels entrants est utilisé par un autre tronc
+trunks.validation.duplicated_outgoing_username = Le nom d'utilisateur sortant fourni est utilisé par un autre tronc
+trunks.validation.no_dial_string = Vous n'avez pas fourni de chaîne de numérotation valide
+trunks.validation.no_outgoing_host = L'hôte sortant n'a pas été fourni
+trunks.validation.no_outgoing_username = Le nom d'utilisateur sortant n'a pas été fourni
+trunks.validation.no_tenant = Vous n'avez pas sélectionné de locataire valide pour ce tronc
+trunks.validation.pjsip.no_remote_credentials = L'enregistrement sortant a été marqué comme requis, mais le nom d'utilisateur distant ou le secret distant n'a pas été défini
+trunks.validation.same_username = Le nom d'utilisateur pour les appels sortants et entrants est le même. Veuillez utiliser un nom d'utilisateur différent pour les deux champs
+trunks.visual_mode = Passer en mode visuel
+trunks.custom_headers = En-têtes personnalisés
+trunks.trkcustom.header = En-tête
+trunks.client_uri = URI du client
+trunks.client_uri.tooltip =
+	Il s'agit de l'adresse d'enregistrement pour l'enregistrement sortant (c'est-à-dire l'URI dans l'en-tête À du REGISTRE).
+	Pour l'enregistrement auprès d'un ITSP, l'URI SIP du client peut devoir se composer d'un nom ou d'un numéro de compte et du nom d'hôte du fournisseur pour son bureau d'enregistrement, par ex. <b>1234567890@exemple.com</b>. Cela peut différer d'un fournisseur à l'autre.<br><br>
+	Pour l'enregistrement auprès de bureaux d'enregistrement génériques, l'URI SIP client dépendra des spécificités du réseau et de la configuration du bureau d'enregistrement.
 trunks.contacts = Contacts
-trunks.contacts.tooltip = 
-	Permanent contacts assigned to an AoR. You can define multiple contact addresses in SIP URI format. <br>
-	e.g.: sip:198.51.100.1:5060
+trunks.contacts.tooltip =
+	Contacts permanents affectés à une AoR. Vous pouvez définir plusieurs adresses de contact au format SIP URI. <br>
+	par exemple : sip : 198.51.100.1:5060
 trunks.dtmfmode = {hot_desking.dtmfmode}
 trunks.profile_id = {hot_desking.profile_id}
 trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
-trunks.server_uri = Server URI
-trunks.server_uri.tooltip = 
-	This is the URI at which to find the registrar to send the outbound REGISTER. This URI is used as the request URI
-	of the outbound REGISTER request from Asterisk. <br><br>For registration with an ITSP, the setting may often be just the
-	domain of the registrar, e.g. <b>sip:sip.example.com</b>.
-trunks.validation.pjsip.no_contacts = 
-	No contacts and no host has been defined. When contacts are not defined you must provide remote host to build default contact URI
-trunks.validation.pjsip.no_outgoing_host = The registration parameter is enabled but the remote host parameter hasn't been provided
-trunks.contact_user = Contact User
-trunks.contact_user.tooltip = 
-	sets the SIP contact header's user portion of the SIP URI, this will affect the extension reached in dialplan when
-	the far end calls you at this registration.
-trunks.none = -- None --
+trunks.server_uri = URI du serveur
+trunks.server_uri.tooltip =
+	Il s'agit de l'URI auquel trouver le bureau d'enregistrement pour envoyer le REGISTRE sortant. Cet URI est utilisé comme URI de demande de la demande REGISTER sortante d'Asterisk. <br><br>Pour l'enregistrement auprès d'un ITSP, le paramètre peut souvent être uniquement le domaine du registraire, par ex. <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts =
+	Aucun contact et aucun hôte n'a été défini. Lorsque les contacts ne sont pas définis, vous devez fournir un hôte distant pour créer l'URI de contact par défaut
+trunks.validation.pjsip.no_outgoing_host = Le paramètre d'enregistrement est activé mais le paramètre d'hôte distant n'a pas été fourni
+trunks.contact_user = Contacter l'utilisateur
+trunks.contact_user.tooltip =
+	définit la partie utilisateur de l'en-tête du contact SIP de l'URI SIP, cela affectera le poste atteint dans le plan de numérotation lorsque l'extrémité distante vous appelle lors de cet enregistrement.
+trunks.none = -- Aucun --
 trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
 trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
 trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
 trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
 trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
-trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
+trunks.overwrite_cid.yes.tooltip = Il force à écraser le CID avec les paramètres CID définis sur ce tronc
 trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
 trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
 trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
 trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
 trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
 trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
-trunks.fax_detect = Fax Detect
-trunks.fax_detect.tooltip = Whether CNG tone detection is enabled
-trunks.fax_detect_timeout = Detection Timeout
-trunks.fax_detect_timeout.tooltip = 
-	The option determines how many seconds into a call before the fax_detect option is disabled for the call. Setting
-	the value to zero disables the timeout.
-trunks.fax_settings = Fax Settings
-trunks.max_contacts.tooltip = 
-	Maximum number of contacts that can associate with this AoR. This value does not affect the number of contacts that
-	can be added with the "contact" option. It only limits contacts added through external interaction, such as registration.
+trunks.fax_detect = Détection de fax
+trunks.fax_detect.tooltip = Si la détection de tonalité CNG est activée
+trunks.fax_detect_timeout = Délai de détection
+trunks.fax_detect_timeout.tooltip =
+	L'option détermine le nombre de secondes après le début d'un appel avant que l'option fax_detect ne soit désactivée pour l'appel. La définition de la valeur à zéro désactive le délai d'attente.
+trunks.fax_settings = Paramètres de télécopie
+trunks.max_contacts.tooltip =
+	Nombre maximum de contacts pouvant s'associer à cette AoR. Cette valeur n'affecte pas le nombre de contacts pouvant être ajoutés avec l'option "contact". Il ne limite que les contacts ajoutés via une interaction externe, telle que l'enregistrement.
 trunks.t38_udptl = T.38 UDPTL
-trunks.t38_udptl.tooltip = 
-	If set to yes T.38 UDPTL support will be enabled, and T.38 negotiation requests will be accepted and relayed.
-trunks.t38_udptl_ec = Error Connection Method
+trunks.t38_udptl.tooltip =
+	S'il est défini sur oui, le support UDPTL T.38 sera activé et les demandes de négociation T.38 seront acceptées et relayées.
+trunks.t38_udptl_ec = Méthode de connexion d'erreur
 trunks.t38_udptl_ec.fec = FEC
-trunks.t38_udptl_ec.fec.info = Forward error correction should be used.
+trunks.t38_udptl_ec.fec.info = La correction d'erreur directe doit être utilisée.
 trunks.t38_udptl_ec.none = {none}
-trunks.t38_udptl_ec.none.info = No error correction should be used.
-trunks.t38_udptl_ec.redundancy = Redundancy
-trunks.t38_udptl_ec.redundancy.info = Redundancy error correction should be used.
-trunks.t38_udptl_ec.tooltip = T.38 UDPTL error correction method
+trunks.t38_udptl_ec.none.info = Aucune correction d'erreur ne doit être utilisée.
+trunks.t38_udptl_ec.redundancy = Redondance
+trunks.t38_udptl_ec.redundancy.info = La correction d'erreur de redondance doit être utilisée.
+trunks.t38_udptl_ec.tooltip = Méthode de correction d'erreur T.38 UDPTL
 trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
-trunks.t38_udptl_ipv6.tooltip = Whether IPv6 is used for UDPTL Sessions
-trunks.t38_udptl_maxdatagram = MAX Datagram
-trunks.t38_udptl_maxdatagram.tooltip = 
-	T.38 UDPTL maximum datagram size. This option can be set to override the maximum datagram of a remote endpoint for
-	broken endpoints.
+trunks.t38_udptl_ipv6.tooltip = Si IPv6 est utilisé pour les sessions UDPTL
+trunks.t38_udptl_maxdatagram = Datagramme MAX
+trunks.t38_udptl_maxdatagram.tooltip =
+	Taille maximale du datagramme T.38 UDPTL. Cette option peut être définie pour remplacer le datagramme maximal d'un point de terminaison distant pour les points de terminaison cassés.
 trunks.t38_udptl_nat = T.38 UDPTL NAT
-trunks.t38_udptl_nat.tooltip = Whether NAT support is enabled on UDPTL sessions
+trunks.t38_udptl_nat.tooltip = Si la prise en charge NAT est activée sur les sessions UDPTL
+
+trunks.disable_hangup_audios = Désactiver les audios de raccrochage
+trunks.disable_hangup_audios.tooltip =
+	S'il est défini sur oui, les audios lus en fonction de la cause du raccrochage seront désactivés.
+	L'activation de cette option est pratique pour les environnements où le PBX est destiné à l'utilisation des appels de transit.
+trunks.dial_prefix = Préfixe de numérotation
+trunks.dial_prefix.tooltip = S'il est défini, le préfixe sera ajouté à tout numéro composé via ce trunk.
+trunks.identify_by = Identifier par
+trunks.identify_by.tooltip =
+	Les points finaux et les AOR peuvent être identifiés de plusieurs manières. Cette option est une liste de méthodes permettant d'identifier le point de terminaison.
+	Si aucune option n'est sélectionnée, le "Nom d'utilisateur" et "IP" seront utilisés par défaut.
+trunks.identify_by.username = Nom d'utilisateur
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Nom d'utilisateur d'authentification
+trunks.identify_by.header = En-tête
+trunks.identify_by.username.tooltip = Identifier par le nom d'utilisateur et le domaine De ou Vers.
+trunks.identify_by.ip.tooltip = Identifier par l'adresse IP source.
+trunks.identify_by.auth_username.tooltip = Identifier par le nom d'utilisateur et le domaine d'autorisation.
+trunks.identify_by.header.tooltip = Identifier par une valeur d'en-tête SIP configurée.
+trunks.match_header = En-tête de correspondance
+trunks.match_header.tooltip =
+	Un en-tête SIP dont la valeur est utilisée pour la correspondance. Les demandes SIP contenant l'en-tête, ainsi que la valeur spécifiée, seront mappées au point de terminaison spécifié.
+	L'en-tête doit être spécifié avec un <b> :</b>, comme dans <b>match_header = SIPHeader : value</b>.
+	La valeur d'en-tête SIP spécifiée peut être une expression régulière si la valeur est de la forme <b>/regex/</b>.
+	Gardez à l'esprit que l'utilisation d'une expression régulière est coûteuse, alors assurez-vous que vous devez utiliser une expression régulière pour correspondre à votre point de terminaison.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams

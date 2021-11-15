@@ -1,40 +1,40 @@
 bulk_extensions.accountcode.tooltip =
-	Allows you to define the account code for each extension. You may use the reserved word <b>&#123;EXTENSION&#125;</b>
-	to use the extension as account code.
+	Permet de définir le code de compte pour chaque poste. Vous pouvez utiliser le mot réservé <b>&#123;EXTENSION&#125;</b>
+	pour utiliser l'extension comme code de compte.
 bulk_extensions.cos = {extensions.class_of_service_id}
 bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
-bulk_extensions.dev_technology = Devices Technology
-bulk_extensions.dev_technology.tooltip = Defines the technology of the device that will be assigned to each extension
-bulk_extensions.device_password = Devices Password
+bulk_extensions.dev_technology = Technologie des appareils
+bulk_extensions.dev_technology.tooltip = Définit la technologie de l'appareil qui sera affectée à chaque extension
+bulk_extensions.device_password = Mot de passe des appareils
 bulk_extensions.device_password.tooltip =
-	It allows you to define a dynamic or fixed password for the generated devices. If blank, a random password will be set.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to make the extension number part of the password,
-	eg.: if the extension is 100 and you set the following value to this field <b>securepwd&#123;EXTENSION&#125;</b>, then, the password will be:
+	Il permet de définir un mot de passe dynamique ou fixe pour les appareils générés. Si vide, un mot de passe aléatoire sera défini.
+	Vous pouvez utiliser le mot réservé <b>&#123;EXTENSION&#125;</b> pour que le numéro de poste fasse partie du mot de passe,
+	ex. : si l'extension est 100 et que vous définissez la valeur suivante dans ce champ <b>securepwd&#123;EXTENSION&#125;</b>, alors, le mot de passe sera :
 	<b>securepwd100</b>
 bulk_extensions.features_password.tooltip =
-	Allows you to define the features password for each extension, if left blank, a random password will be generated.
-	You may use the reserved word <b>&#123;EXTENSION&#125;</b> to use the extension as features password.
+	Vous permet de définir le mot de passe des fonctionnalités pour chaque extension, si laissé vide, un mot de passe aléatoire sera généré.
+	Vous pouvez utiliser le mot réservé <b>&#123;EXTENSION&#125;</b> pour utiliser l'extension comme mot de passe des fonctionnalités.
 bulk_extensions.general = {vitalpbx.general}
-bulk_extensions.name_prefix = Name Prefix
+bulk_extensions.name_prefix = Préfixe du nom
 bulk_extensions.name_prefix.tooltip =
-	Allows you to define a prefix to use as part of the extension name, eg.: if you set the prefix value to Agent and
-	the extension is 200, the extension name will be <b>Agent 200</b>. If blank, the word <b>Extension</b> will be used as prefix
-bulk_extensions.range = Extensions Range
+	Vous permet de définir un préfixe à utiliser dans le nom de l'extension, par exemple : si vous définissez la valeur du préfixe sur Agent et
+	que l'extension est 200, le nom de l'extension sera <b>Agent 200</b>. Si vide, le mot <b>Extension</b> sera utilisé comme préfixe
+bulk_extensions.range = Plage d'extensions
 bulk_extensions.range.tooltip =
-	Defines the range of extensions that you want to create, eg.: from 1000 to 1400.
-	<b>If any of the extensions in the range already exists will be skipped</b>.
-bulk_extensions.recording_types = Recording Calls
-bulk_extensions.recording_types.tooltip = Allows you to select which kind of calls will be recorded
+	Définit la plage d'extensions que vous souhaitez créer, par exemple : de 1000 à 1400.
+	<b>Si l'une des extensions de la plage existe déjà, elle sera ignorée</b>.
+bulk_extensions.recording_types = Enregistrement des appels
+bulk_extensions.recording_types.tooltip = Vous permet de sélectionner le type d'appels à enregistrer
 bulk_extensions.success =
-	The extensions range have been processed successfully. <b>Created Extensions</b>: {0} | <b>Skipped Extensions</b>: {1}
+	La plage d'extensions a été traitée avec succès. <b>Extensions créées</b> : {0} | <b>Extensions ignorées</b> : {1}
 bulk_extensions.validation.invalid_f_password =
-	The features password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
-bulk_extensions.validation.invalid_range = An invalid extension range have been provided
+	Le mot de passe des fonctionnalités contient des caractères non valides. Seuls les chiffres, le symbole astérisque ou les mots réservés sont autorisés
+bulk_extensions.validation.invalid_range = Une plage d'extensions invalide a été fournie
 bulk_extensions.validation.invalid_vm_password =
-	The voicemail password contains invalid characters. Only numbers, asterisk symbol or reserved words are allowed
-bulk_extensions.vm_enabled = Voicemail Enabled
+	Le mot de passe de la messagerie vocale contient des caractères invalides. Seuls les chiffres, le symbole astérisque ou les mots réservés sont autorisés
+bulk_extensions.vm_enabled = Messagerie vocale activée
 bulk_extensions.vm_password.tooltip =
-	Allows you to define the voicemail password for each extension, if left blank, the password will be the extension
-	number. You may use the reserved word <b>&#123;RANDOM&#125;</b> to generate a random password.
-menu.bulk_extensions = Bulk Extensions
+	Vous permet de définir le mot de passe de la messagerie vocale pour chaque poste, si laissé vide, le mot de passe sera le numéro du poste
+	Vous pouvez utiliser le mot réservé <b>&#123;RANDOM&#125;</b> pour générer un mot de passe aléatoire.
+menu.bulk_extensions = Extensions en masse
 module.bulk_extensions = {menu.bulk_extensions}

@@ -9,4 +9,4 @@ languages.mod_dest = Module de destination
 languages.name = Nom
 languages.name.tooltip = Nom court (doit être unique)
 menu.languages = Langues
-module.languages = Languaes
+module.languages = Langues

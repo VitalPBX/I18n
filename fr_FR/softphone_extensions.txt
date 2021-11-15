@@ -1,8 +1,7 @@
 menu.softphone_extensions = {module.softphone_extensions}
-module.softphone_extensions = Softphone Extensions
+module.softphone_extensions = Extensions Softphone
 softphone_extensions.general = {vitalpbx.general}
 softphone_extensions.no_license = 
-	You are using the free version of Softphones Licensing Server. Activate this add-on to get more than two extensions
-	for {0} Softphones
+	Vous utilisez la version gratuite de Softphones Licensing Server. Activez ce module complémentaire pour obtenir plus de deux extensions pour {0} Softphones
 softphone_extensions.max_reached = 
-	You are not allowed to add more than {0} devices
+	Vous n'êtes pas autorisé à ajouter plus de {0} appareils

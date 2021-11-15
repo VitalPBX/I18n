@@ -57,9 +57,11 @@ queues.ivr_id.tooltip = Un SVI peut être spécifié dans lequel l'appelant peut
 queues.joinempty = Rejoindre si vide
 queues.joinempty.loose = Permissif
 queues.joinempty.no = Non
+queues.joinempty.no_inuse =Non + en cours d'utilisation
 queues.joinempty.strict = Stricte
 queues.joinempty.tooltip = Indique si l'appelant doit rejoindre la file d'attente si aucun agent n'est disponible.
 queues.joinempty.yes = Oui
+queues.leavewhenempty.yes_inuse = Oui + en cours d'utilisation
 queues.leavewhenempty = Ejecter si vide
 queues.leavewhenempty.tooltip = Indique si l'appelant doit être ejecter de la file d'attente si tous les agents se sont déconnectés
 queues.maxlen = Taille maximale de la file
@@ -98,7 +100,7 @@ queues.periodic_announce_frequency.placeholder = Valeur en seconde
 queues.position_annoucements = Annoncer la position
 queues.prefix = Préfixer le CID
 queues.prefix.invalid = Veuillez saisir un préfixe valide. "_", "-" et les valeurs alpha numériques sont autorisées.
-queues.prefix.tooltip = Préfixe à ajouter au numéro de l'appelant. PErmet à l'agent d'identifier la source de l'appel. Par exemple, en ajoutant le préfixe "COM_" au numéro de l'appelant, l'agent identifie que l'appel est d'objet commercial plutot que technique.
+queues.prefix.tooltip = Préfixe à ajouter au numéro de l'appelant. Permet à l'agent d'identifier la source de l'appel. Par exemple, en ajoutant le préfixe "COM_" au numéro de l'appelant, l'agent identifie que l'appel est d'objet commercial plutot que technique.
 queues.queue_timeout = Attente maximum
 queues.queue_timeout.placeholder = Valeur en secondes
 queues.queue_timeout.tooltip = Enverra l'appelant sur la destination d'echec si ce dernier dépasse cette durée d'attente.
@@ -122,16 +124,16 @@ queues.strategy.fewestcalls = L'agent qui a eu le moins d'appels
 queues.strategy.fewestcalls.tooltip = Fait sonner l'agent qui a pris le moins d'appels
 queues.strategy.leastrecent = L'agent qui a pris l'appel le moins récemment
 queues.strategy.leastrecent.tooltip = Fait sonner l'agent qui a pris l'appel le moins récemment.
-queues.strategy.linear = Linéaire
+queues.strategy.linear = Cyclique
 queues.strategy.linear.tooltip = Fait sonner les agents dans l'ordre défini dans la liste. Si vos agent sonts dynamiques, ils seronts traités dans l'ordre de la connexion.
 queues.strategy.random = Aléatoire
 queues.strategy.random.tooltip = Fait sonner un agent aléatoirement
 queues.strategy.ringall = Tous en même temps
 queues.strategy.ringall.tooltip = Fait sonner tous les agents en même temps.
-queues.strategy.rrmemory = Linéaire avec mémoire (Round Robin Mémory)
-queues.strategy.rrmemory.tooltip = Fait sonner les agents de façon linéaire, mais en reprenant a partir du dernier agent qui a décroché.
-queues.strategy.rrordered = Linéaire avec mémoire ordonée (Round Robin Mémory with order)
-queues.strategy.rrordered.tooltip = Identifique à "Linéaire avec mémoire", mais en conservant l'ordre des agents dans la configuration
+queues.strategy.rrmemory = Cyclique mémorisé (Round Robin Mémory)
+queues.strategy.rrmemory.tooltip = Fait sonner les agents de façon Cyclique, mais en reprenant a partir du dernier agent qui a décroché.
+queues.strategy.rrordered = Cyclique mémorisé ordoné (Round Robin Mémory with order)
+queues.strategy.rrordered.tooltip = Identifique à "Cyclique mémorisé", mais en conservant l'ordre des agents dans la configuration
 queues.strategy.tooltip = Défini la stratégie de distribution des appels.
 queues.strategy.wrandom = Aléatoire avec pénalité
 queues.strategy.wrandom.tooltip = Fait sonner de façon aléatoire les agents, mais en utilisant la pénalité des agents dans la sélection aléatoire.
@@ -154,31 +156,30 @@ queues.weight.tooltip = Une file dont le point est supérieur aux autrs files ve
 queues.wrapuptime = Délai de repos
 queues.wrapuptime.placeholder = Valeur en secondes
 queues.wrapuptime.tooltip = Le nombre de secondes pendant lequel nous ne faisons pas sonner à nouveau un agent qui vient de raccrocher. Utilisez ce délai pour accorder quelques secondes à vos agents pour souffler, boire, remplir un dossier, se détendre...
-queues.hangup_dest = After Agent Hangup Destination
-queues.invalid.already_exists = Invalid Queue number {0}. The number is in use by {1} module.
-queues.record = Record
-queues.record.tooltip = Record this queue.
-queues.reset_stats = Reset Stats
-queues.reset_stats.disabled = Disabled
-queues.reset_stats.tooltip = It allows you to select a cron profile to reset the queue stats periodically
-queues.join_announcement = Join Announcement
-queues.join_announcement.tooltip = An announcement may be specified which is played to the caller as soon as they reach this queue
+queues.hangup_dest = Après la destination de raccrochage de l'agent
+queues.invalid.already_exists = Numéro de file d'attente {0} non valide. Le numéro est utilisé par le module {1}.
+queues.record = Enregistrer
+queues.record.tooltip = Enregistrer cette file d'attente.
+queues.reset_stats = Réinitialiser les statistiques
+queues.reset_stats.disabled = Désactiver
+queues.reset_stats.tooltip = Il vous permet de sélectionner un profil cron pour réinitialiser périodiquement les statistiques de la file d'attente
+queues.join_announcement = Annonce de participation
+queues.join_announcement.tooltip = Une annonce peut être spécifiée afin d'être jouée à l'appelant dès qu'il rejoind cette file d'attente
 queues.leavewhenempty.loose = {queues.joinempty.loose}
 queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
-queues.no_agents = No agents assigned to this queue. Please add at least one agent
-queues.max_reached = You have reached the maximum number of queues allowed
-queues.answered_elsewhere = Mark Cancelled Calls as Answered
-queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.
-queues.queue_callback = Queue Callback
-queues.queue_callback.tooltip = 
-	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
-	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
-	the selected queue callback's item, also, the IVR feature gets disabled for this queue.
+queues.no_agents = Aucun agent affecté à cette file d'attente. Veuillez ajouter au moins un agent
+queues.max_reached = Vous avez atteint le nombre maximum de files d'attente autorisé
+queues.answered_elsewhere = Marquer les appels annulés comme répondus
+queues.answered_elsewhere.tooltip = Marquer tous les appels comme "répondus ailleurs" lorsqu'ils sont annulés. Cela évite un appel manqué sur le téléphone s'il le prend en charge.
+queues.queue_callback = Rappel de file d'attente
+queues.queue_callback.tooltip =
+	Il vous permet de définir si les appelants qui atteignent cette file d'attente pourront demander un rappel de file d'attente dans le cas où tous les agents sont occupé.<br><br>
+	Lorsqu'un rappel de file d'attente est sélectionné, l'"Annonce périodique" est remplacée par le "Message d'instructions" configuré pour l'élément de rappel de file d'attente sélectionné. De plus, la fonction SVI est désactivée pour cette file d'attente.
 queues.alertinfo = {inbound_route.alertinfo}
 queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
-queues.answerchannel = Answer Channel
-queues.answerchannel.tooltip = 
-	It defines if the calls must be answered before executing the Queue application. If set to "no", the music on hold,
-	and other audios might no be played.
+queues.answerchannel = canal de réponse
+queues.answerchannel.tooltip =
+	Il définit si les appels doivent être répondus avant d'exécuter l'application Queue. 
+	S'il est défini sur « non », la musique d'attente et les autres fichiers audio peuvent ne pas être lus.
