@@ -158,18 +158,18 @@ queues.reset_stats = Redefinir estatísticas
 queues.reset_stats.tooltip = Ele permite que você selecione um perfil cron para redefinir as estatísticas da fila periodicamente
 queues.reset_stats.disabled = Desativado
 queues.hangup_dest = Após o destino do agente Hangup
-queues.join_announcement = Join Announcement
-queues.join_announcement.tooltip = An announcement may be specified which is played to the caller as soon as they reach this queue
+queues.join_announcement = Anúncio inicial
+queues.join_announcement.tooltip = Pode ser especificado um anúncio que será reproduzido para o chamador assim que ele chegar a esta fila
 queues.leavewhenempty.loose = {queues.joinempty.loose}
 queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.max_reached = Você atinguiu o número máximo de filas permitido
 queues.no_agents = Não há agentes associados a esta fila. Por favor, adicione pelo menos um agente
-queues.answered_elsewhere = Mark Cancelled Calls as Answered
-queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.
-queues.queue_callback = Queue Callback
+queues.answered_elsewhere = Marcar chamadas canceladas como atendidas
+queues.answered_elsewhere.tooltip = Marque todas as chamadas como "atendidas em outro lugar" quando canceladas. Isso evita uma chamada perdida no telefone, se for compatível.
+queues.queue_callback = Callback de Filas(Rechamada de fila)
 queues.queue_callback.tooltip = 
-	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
-	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
-	the selected queue callback's item, also, the IVR feature gets disabled for this queue.
+	Permite definir se os chamadores que alcançam esta fila poderão solicitar um retorno de chamada da fila caso todos os agentes estejam ocupados.<br><br>
+	Quando um retorno de chamada da fila é selecionado, o "Anúncio Periódico" é substituído pela "Mensagem de Instruções" configurada para
+	o item do retorno de chamada da fila selecionado, também, o recurso IVR fica desabilitado para esta fila.

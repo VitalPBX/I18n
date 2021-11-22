@@ -30,23 +30,23 @@ trunk_group.intra_company.tooltip =
 trunk_group.no_patterns = Nenhum padrão configurado para esta rota de saída
 trunk_group.no_description = Nenhuma descrição foi fornecidatrunk_group.failover_destination = Failover Destination
 trunk_group.failover_destination.tooltip = 
-	Optional destination to execute in case that the call fails after try with all the listed trunks.
-trunk_group.failover_destination = Failover Destination
-trunk_group.trkpattern.cid_pattern = CID Pattern
-trunk_group.trkpattern.cid_pattern.placeholder = Match CID Pattern
+	Destino opcional a executar caso a chamada falhe após tentativa com todos os troncos listados.
+trunk_group.failover_destination = Destino se falhar
+trunk_group.trkpattern.cid_pattern = Padrão CID
+trunk_group.trkpattern.cid_pattern.placeholder = Corresponder ao padrão CID
 trunk_group.trkpattern.cid_pattern.tooltip = 
-	If defined, calls that match the defined pattern must also match this call identification pattern in order to
-	take this route. The caller id to match will be the internal CID and not the External CID.
-trunk_group.cid = Outbound CID
-trunk_group.cid.tooltip = It allows you to define a specific Caller ID Number/Name that will be using on this outbound route when the "Overwrite CID" setting is enabled
-trunk_group.cid_name = CID Name
-trunk_group.cid_number = CID Number
-trunk_group.no_cid = The "Overwrite CID" setting is enabled, but you didn't define the Outbound CID parameters.
-trunk_group.overwrite_cid = Overwrite CID
-trunk_group.overwrite_cid.tooltip = If enable, the extension's outbound CID will be overwritten with the CID parameters defined on this Outbound Route
-trunk_group.overwrite_cid.if_not_provided = If not provided
-trunk_group.overwrite_cid.if_not_provided.tooltip = It will overwrite the CID information only if no External CID is provided during the call
+	Se definido, as chamadas que correspondem ao padrão definido também devem corresponder a este padrão de identificação de chamada, a fim de
+	siga este caminho. O identificador de chamadas correspondente será o CID interno e não o CID externo.
+trunk_group.cid = CID de saída
+trunk_group.cid.tooltip = Ele permite que você defina um número / nome de ID do chamador específico que será usado nesta rota de saída quando a configuração "Substituir CID" estiver habilitada
+trunk_group.cid_name = Nome CID
+trunk_group.cid_number = Número CID
+trunk_group.no_cid = A configuração "Substituir CID" está habilitada, mas você não definiu os parâmetros de CID de saída.
+trunk_group.overwrite_cid = Substituir CID
+trunk_group.overwrite_cid.tooltip = Se habilitado, o CID de saída da extensão será substituído pelos parâmetros CID definidos nesta rota de saída
+trunk_group.overwrite_cid.if_not_provided = Se não for fornecido
+trunk_group.overwrite_cid.if_not_provided.tooltip = Ele substituirá as informações do CID apenas se nenhum CID externo for fornecido durante a chamada
 trunk_group.overwrite_cid.no = {vitalpbx.no}
-trunk_group.overwrite_cid.no.tooltip = It will preserve any CID provided during the call. It will not perform any overwriting
+trunk_group.overwrite_cid.no.tooltip = Ele preservará qualquer CID fornecido durante a chamada. Não irá realizar nenhuma sobregravação
 trunk_group.overwrite_cid.yes = {vitalpbx.yes}
-trunk_group.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this outbound route
+trunk_group.overwrite_cid.yes.tooltip = Força a sobrescrever o CID com os parâmetros CID definidos nesta rota de saída

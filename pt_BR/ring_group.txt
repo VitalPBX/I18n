@@ -28,19 +28,19 @@ ring_group.strategy.one_by_one = Um por um
 ring_group.strategy.ringall = Toca Todos
 ring_group.strategy.tooltip = Estratégia de Toque
 ring_group.cos = {class_of_service.cos}
-ring_group.cos.tooltip = Class of Service to use for dial the external numbers listed in this ring group
+ring_group.cos.tooltip = Classe de serviço a ser usada para discar os números externos listados neste grupo de toque
 ring_group.external_numbers = Números Externos
-ring_group.external_numbers.tooltip = List with the external numbers to dial when this ring group being called
-ring_group.validation.duplicated_description = The provided description is being used by another ring group. Please verify
-ring_group.validation.duplicated_extension = The provided extension is being used by another ring group. Please verify
-ring_group.validation.no_extensions = No extensions or external numbers have been added to this ring group
+ring_group.external_numbers.tooltip = Lista com os números externos para discar quando este grupo de toque for chamado
+ring_group.validation.duplicated_description = A descrição fornecida está sendo usada por outro grupo de toque. Por favor verifique
+ring_group.validation.duplicated_extension = O ramal fornecido está sendo usado por outro grupo de toque. Por favor verifique
+ring_group.validation.no_extensions = Nenhum ramal ou número externo foi adicionado a este grupo de toque
 ring_group.validation.no_valid_number = 
-	The external number <b>{0}</b> contains invalid characters. Only numbers,
-	and the following characters are allowed: *, # and +
+	O número externo <b>{0}</b> Contém caracteres inválidos. Apenas números,
+	e os seguintes caracteres são permitidos: *, # and +
 ring_group.answered_elsewhere = {queues.answered_elsewhere}
 ring_group.answered_elsewhere.tooltip = 
-	With this option enabled prevents the other phones record a missed call when the call has been answered on a phone
-	listed on this ring group. This is a very useful setting when the ring strategy is set to "Ring All"
-ring_group.allow_diversions = Allow Diversions
+	Com esta opção habilitada evita que os outros telefones gravem uma chamada perdida quando a chamada foi atendida em um telefone
+	listado neste grupo de toque. Esta é uma configuração muito útil quando a estratégia de toque está definida para "Tocar Todos"
+ring_group.allow_diversions = Permitir desvios
 ring_group.allow_diversions.tooltip = 
-	Allows you to define if the diversions defined for the different extensions members will be applied or not.
+	Permite definir se os desvios definidos para os diferentes membros do ramal serão aplicados ou não.

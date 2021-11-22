@@ -54,8 +54,8 @@ ivr.generate_stats.tooltip =
 	se estiver definido sim, serão gravadas as estatísticas de cada opção marcada. Estas estatísticas podem ser consultadas no IVR
 	módulo de estatísticas
 ivr.cos.warning = 
-	The action you are about to perform may create security vulnerabilities. <b>Do not proceed unless you are sure you understand the logic of Class of Service for IVRs.</b>
+	A ação que você está prestes a executar pode criar vulnerabilidades de segurança. <b> Não prossiga a menos que tenha certeza de que entende a lógica da Classe de serviço para IVRs. </b>
 ivr.cos.warning.cancel = {vitalpbx.cancel}
 ivr.cos.warning.confirm = {vitalpbx.accept}
 ivr.cos.warning.title = {warning}
-ivr.max_reached = You have reached the maximum number of IVRs allowed
+ivr.max_reached = Você atingiu o número máximo de IVRs permitidos

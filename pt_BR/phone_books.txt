@@ -3,7 +3,7 @@ module.phone_books = {menu.phone_books}
 phone_books.general = {vitalpbx.general}
 phone_books.description = Descrição
 phone_books.extensions = Extensões
-phone_books.ring_groups = Grupos de Anéis
+phone_books.ring_groups = Grupos de Toque
 phone_books.feature_codes = Códigos de Recurso
 phone_books.conferences = Conferências
 phone_books.queues = Filas
@@ -12,46 +12,46 @@ phone_books.validations.no_contacts = Você não selecionou nenhum contato para 
 phone_books.validations.no_desc = Uma descrição inválida foi fornecida. Por favor, forneça uma descrição alfanumérica
 phone_books.url = URL do catálogo telefônico
 phone_books.url.tooltip = URL para carregar esta agenda em qualquer telefone suportado
-phone_books.contacts = Contacts
-phone_books.csv = CSV File
-phone_books.csv.tooltip = File with the list of contacts to import on this phonebook
+phone_books.contacts = Contatos
+phone_books.csv = Arquivo CSV 
+phone_books.csv.tooltip = Arquivo com a lista de contatos para importar nesta lista telefônica
 phone_books.email = E-mail
-phone_books.firs_name = First Name
-phone_books.job_title = Job Title
-phone_books.last_name = Last Name
-phone_books.organization = Organization
-phone_books.phone = Phone
-phone_books.prefix = Prefix
+phone_books.firs_name = Primeiro nome
+phone_books.job_title = Cargo
+phone_books.last_name = Último nome
+phone_books.organization = Organização
+phone_books.phone = Fone
+phone_books.prefix = Prefixo
 phone_books.prefix.tooltip = 
-	Optional prefix to be appended to phone numbers at the moment of generating the phonebook. Useful if you use prefixes
-	for dialing.
+	Prefixo opcional a ser anexado aos números de telefone no momento de gerar a lista telefônica. Útil se você usar prefixos
+	para discar.
 phone_books.source_type = Type
-phone_books.source_type.external = External
-phone_books.source_type.internal = Internal
+phone_books.source_type.external = Externo
+phone_books.source_type.internal = Interno
 phone_books.source_type.tooltip = 
-    It allows you to define if you will use internal numbers (Queues, Conferences, Extensions, etc) or import external
-    numbers to your PBX
+    Permite que você defina se usará números internos (Filas, Conferências, Extensões, etc) ou importará externos
+    números para o seu PBX
 phone_books.csv.missing_columns = {import_extensions.missing_columns}
 phone_books.actions = {actions}
-phone_books.add_contact = Add Contact
-phone_books.duplicated_phone = Already exists another contact with the same phone number
-phone_books.edit_contact = Edit Contact
-phone_books.first_name = First Name
+phone_books.add_contact = Adicionar contato
+phone_books.duplicated_phone = Já existe outro contato com o mesmo número de telefone
+phone_books.edit_contact = Editar Contato
+phone_books.first_name = Primeiro nome
 phone_books.first_name.tooltip = {phone_books.first_name}
-phone_books.invalid_phone = You have provided a invalid phone number
+phone_books.invalid_phone = Você forneceu um número de telefone inválido
 phone_books.job_title.tooltip = {phone_books.job_title}
 phone_books.last_name.tooltip = {phone_books.last_name}
-phone_books.no_first_name = You haven't provided contact first name
+phone_books.no_first_name = Você não forneceu o primeiro nome do contato
 phone_books.organization.tooltip = {phone_books.organization}
 phone_books.phone.tooltip = {phone_books.phone}
-phone_books.speed_dials = Speed Dials
-phone_books.speed_dials.tooltip = It allows you to select which {0} will be available on this Phonebook
-notification_templates.phonebooks = Phonebooks QR Email
-phone_books.email.tooltip = List of emails separated by a comma to which the phone book QR code will be sent.
-phone_books.qr = Send QR by Email
-phone_books.qr.no_email = No email addresses have been provided for sending this QR code
-phone_books.qr.pb_not_found = The requested phonbook doesn't exists
-phone_books.qr.sent = The email has been successfully sent
-phone_books.qr_email.no_template = The email template for sending QR doesn't exists
-phone_books.send_by_email = Send by E-mail
-phone_books.send_email = Send Email
+phone_books.speed_dials = Discagens rápidas
+phone_books.speed_dials.tooltip = Permite que você selecione quais {0} estará disponível nesta lista telefônica
+notification_templates.phonebooks = E-mail QR da agenda de telefones
+phone_books.email.tooltip = Lista de emails separados por vírgula para onde será enviado o código QR da lista telefônica.
+phone_books.qr = Enviar QR por Email
+phone_books.qr.no_email = Nenhum endereço de e-mail foi fornecido para o envio deste código QR
+phone_books.qr.pb_not_found = A lista telefônica solicitada não existe
+phone_books.qr.sent = O email foi enviado com sucesso
+phone_books.qr_email.no_template = O modelo de e-mail para o envio de QR não existe
+phone_books.send_by_email = Enviar por email
+phone_books.send_email = Enviar email

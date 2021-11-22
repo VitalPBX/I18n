@@ -59,15 +59,15 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Perfil
 hot_desking.profile_id.tooltip = Perfil com parâmetros comuns para a tecnologia selecionada.
-hot_desking.dispatchable_location = Dispatchable Location
+hot_desking.dispatchable_location = Localização expedível
 hot_desking.dispatchable_location.tooltip = 
-	It allows you to select or define the dispatchable location for this device. This information will be used
-	to be included on notifications that would be sent when an emergency call be performed from this device.
+	Ele permite que você selecione ou defina o local despachável para este dispositivo. Esta informação será usada
+	para ser incluído nas notificações que seriam enviadas quando uma chamada de emergência fosse realizada a partir deste dispositivo.
 hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
-hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
+hot_desking.send_push.tooltip = Se habilitado, o PBX tentará enviar notificações push para dispositivos móveis executando o <b>{0}</b> Softphone
+hot_desking.nat.default.tooltip = Leva as configurações de NAT das configurações globais de SIP (Configurações >> Configurações de tecnologia >> Configurações de SIP)
 hot_desking.vitxi_client = Vitxi Client
 hot_desking.vitxi_client.tooltip = 
-	If enabled, this device could be used for the Vitxi WebRTC app or the Vitxi Softphones (Android or IOS). When
-	the devices flagged with this option are used on mobile devices with the Vitxi Softphone, all the premium features
-	will be enabled on the softphone.
+	Se ativado, este dispositivo pode ser usado para o aplicativo Vitxi WebRTC ou os Softphones Vitxi (Android ou IOS). Quando
+	os dispositivos sinalizados com esta opção são usados ​​em dispositivos móveis com Vitxi Softphone, todos os recursos premium
+	será habilitado no softphone.

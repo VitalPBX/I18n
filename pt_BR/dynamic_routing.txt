@@ -1,30 +1,30 @@
-dynamic_routing = Dynamic Routing
+dynamic_routing = Roteamento Dinâmico
 dynamic_routing.actions = Actions
-dynamic_routing.calldate = Call Date & Time
-dynamic_routing.called = Called Number
-dynamic_routing.completed = Completed
-dynamic_routing.delete_used_records = Delete Used Records
+dynamic_routing.calldate = Data e hora da chamada
+dynamic_routing.called = Número Chamado
+dynamic_routing.completed = Concluído
+dynamic_routing.delete_used_records = Excluir registros usados
 dynamic_routing.delete_used_records.tooltip = 
-	If checked, the record will be deleted from the dynamic routing list when the callback is answered
-dynamic_routing.digits_match = Digits Match
+	Se marcado, o registro será excluído da lista de roteamento dinâmico quando o retorno de chamada for respondido
+dynamic_routing.digits_match = Correspondência de dígitos
 dynamic_routing.digits_match.tooltip = 
-	It allows to define the number of digits to be extracted from the caller's number (from right to left), to later
-	search for matches in the dynamic routing list. If left blank, the entire caller's number will be used to search
-	for matches
+	Permite definir a quantidade de dígitos a serem extraídos do número do chamador (da direita para a esquerda), para posteriormente
+	procure correspondências na lista de roteamento dinâmico. Se for deixado em branco, todo o número do chamador será usado para pesquisar
+	para correspondências
 dynamic_routing.et.hours = 
-	[um] {0} Hour
-	[outros] {0} Hours
-dynamic_routing.et.never = Never
-dynamic_routing.expiration_time = Expiration Time
+	[um] {0} Hora
+	[outros] {0} Horas
+dynamic_routing.et.never = Nunca
+dynamic_routing.expiration_time = Data de validade
 dynamic_routing.expiration_time.tooltip = 
-	It allows to define how long the records of the dynamic routing list will be conserved, before they are
-	automatically deleted
-dynamic_routing.extension = Extension Number
+	Permite definir por quanto tempo os registros da lista de roteamento dinâmico serão conservados, antes de serem
+	excluído automaticamente
+dynamic_routing.extension = Numero do Ramal
 dynamic_routing.general = {vitalpbx.general}
-dynamic_routing.list = List
-dynamic_routing.only_missed_calls = Only Keep Missed Calls
+dynamic_routing.list = Lista
+dynamic_routing.only_missed_calls = Manter apenas chamadas perdidas
 dynamic_routing.only_missed_calls.tooltip = 
-	If checked, only calls (outgoing) that are missed by the called party will be saved in the dynamic routing list
-dynamic_routing.trunk = Trunk
+	Se marcado, apenas as chamadas (de saída) que são perdidas pela parte chamada serão salvas na lista de roteamento dinâmico
+dynamic_routing.trunk = Tronco
 menu.dynamic_routing = {dynamic_routing}
 module.dynamic_routing = {dynamic_routing}
