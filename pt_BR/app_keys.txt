@@ -11,6 +11,6 @@ module.app_keys = {app_keys}
 app_keys.tenant = Tenant
 app_keys.tenant.tooltip = 
 	Ele permite que você defina qual tenant será associado a esta chave de API, então, quando alguém usar esta chave, ele irá
-busque apenas dados relacionados ao tenant atribuído. No entanto, se definido como nenhum, o usuário final deve fornecer o ID do tenant ou
-caminho em cada pedido.
+	busque apenas dados relacionados ao tenant atribuído. No entanto, se definido como nenhum, o usuário final deve fornecer o ID do tenant ou
+	caminho em cada pedido.
 app_keys.all = -- Qualquer Tenant --

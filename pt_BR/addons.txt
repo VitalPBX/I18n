@@ -48,7 +48,8 @@ addons.licensing.buy_license = Comprar licença
 addons.licensing.activate = Ativar
 addons.licensing.register = Registro {0} Complemento
 addons.clean_cache = Limpar Cache
-addons.cache_cleaned_up = O cache foi limpoaddons.addon.license = {0} License
+addons.cache_cleaned_up = O cache foi limpo
+addons.addon.license = {0} License
 addons.general = {vitalpbx.general}
 addons.licensing.no_license = Os complementos selecionados não possuem licença
 addons.licensing.view = Ver licença
