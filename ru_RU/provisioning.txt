@@ -383,3 +383,21 @@ provisioning_settings.https_port = HTTPS порт
 provisioning_settings.https_port.tooltip =
 	Позволяет вам определить HTTPS порт для подключения к VitalPBX API.
 provisioning_settings.https_port.invalid = Вы должны указать правильный HTTPS порт. Значение должно быть от 0 до 65535.
+provisioning_templates.gui = Настройки GUI
+provisioning_templates.gui_password = Пароль администратора
+provisioning_templates.gui_password.tooltip =
+	Позволяет определить пароль по умолчанию для входа в веб-интерфейс телефона. Вы должны знать об ограничениях, 
+	накладываемых вашим IP-телефоном. Например, некоторые IP-телефоны принимают пароль только в цифровом виде. 
+	Система Автоконфигурации не проверяет, будет ли пароль принят телефоном. 
+	Вы должны обратиться к документации производителя вашего конкретного телефона	
+provisioning_templates.phone_wallpaper = Обои для телефона
+provisioning_templates.refresh = Обновить
+provisioning_templates.expand = Расширить
+provisioning_templates.refresh_template = Обновите шаблон с помощью Базового шаблона
+provisioning_templates.refresh_template.confirm =
+	Вы уверены, что хотите обновить шаблон, заменив текущее содержимое базовым шаблоном, полученным вместе с дополнением к Автоконфигурации?
+provisioning_templates.refresh_template.confirm_additional =
+	Выполнение этого действия полезно, когда выпущена новая версия дополнения к Автоконфигурации и включает исправления, связанные с шаблоном конкретной модели телефона.
+	Имейте в виду, что любые предыдущие изменения, внесенные в этот шаблон, будут перезаписаны.
+provisioning_templates.accept = {provisioning_templates.refresh}
+provisioning_templates.reload.success = Шаблон был успешно обновлен
