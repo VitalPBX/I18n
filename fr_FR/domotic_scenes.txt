@@ -1,4 +1,4 @@
-domotic_scenes = Domotic Scenes
+domotic_scenes = Scénarios domotiques
 domotic_scenes.general.tab = {vitalpbx.general}
-domotic_scenes.show_menu = Show menu with scenes
+domotic_scenes.show_menu = Afficher le menu avec des Scénarios
 module.domotic_scenes = {domotic_scenes}

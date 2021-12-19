@@ -14,32 +14,32 @@ time_conditions.time_group_id = Grupo de Horário
 time_conditions.time_group_id.tooltip = Selecione um Grupo de tempos criado em Grupos de tempo. Os tempos de correspondência serão enviados para o destino correspondente.
 time_conditions.truegoto = Destino se o tempo corresponder a %s
 time_conditions.update = Atualizar
-time_conditions.blf_inverted = BLF Inverted
+time_conditions.blf_inverted = Inverter BLF
 time_conditions.blf_inverted.tooltip = 
-	By default the BLF light color is green when the time condition is matching and red when is not matching. Setting up
-	this to "yes" will make that the behavior be the inverse of what is described above.
+	Por padrão, a cor da luz BLF é verde quando a condição de tempo é compatível e vermelha quando não é compatível. Configurando
+	isso para "sim" fará com que o comportamento seja o inverso do descrito acima.
 time_conditions.code = {nightmode.code}
-time_conditions.code.tooltip = Dial code to toggle the time condition state through the phone.
+time_conditions.code.tooltip = Disque o código para alternar o estado da condição de tempo através do telefone.
 time_conditions.hint = {nightmode.phone_hint}
 time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
-time_conditions.pin = Authorization Pin
-time_conditions.pin.tooltip = Optional password to protect from unauthorized people of modifying this time condition.
+time_conditions.pin = Autorização Pin
+time_conditions.pin.tooltip = Senha opcional para proteger de pessoas não autorizadas de modificar esta condição de tempo.
 time_conditions.status = Status
-time_conditions.status.default = Default
-time_conditions.status.default.desc = Default behavior
-time_conditions.status.permanently_matched = Permanently Matched
-time_conditions.status.permanently_matched_unmatched = Permanently Matched / Unmatched
+time_conditions.status.default = Padrão
+time_conditions.status.default.desc = Comportamento padrão
+time_conditions.status.permanently_matched = Combinado Permanentemente
+time_conditions.status.permanently_matched_unmatched = Com correspondência permanente / sem correspondência
 time_conditions.status.permanently_matched_unmatched.desc = 
-	Overrides permanently the time condition and sends the calls to the matched/unmatched destination until the override is removed.
-time_conditions.status.permanently_unmatched = Permanently Unmatched
-time_conditions.status.temporary_matched = Temporary Matched
-time_conditions.status.temporary_matched_unmatched = Temporary Matched / Unmatched
+	Substitui permanentemente a condição de tempo e envia as chamadas para o destino compatível / não correspondido até que a substituição seja removida.
+time_conditions.status.permanently_unmatched = Permanentemente incomparável
+time_conditions.status.temporary_matched = Combinado Temporário
+time_conditions.status.temporary_matched_unmatched = Combinado Temporário / Não Combinado
 time_conditions.status.temporary_matched_unmatched.desc = 
-	Overrides temporary the time condition and sends the calls to the matched/unmatched destination until the current time span
-	has elapsed. After that, the behavior will return to default
-time_conditions.status.temporary_unmatched = Temporary Unmatched
-time_conditions.status.tooltip = Allows you to override the default behavior of a time condition
-time_conditions.timezone = Time Zone
+	Substitui a condição temporária de tempo e envia as chamadas para o destino combinado / não correspondido até o intervalo de tempo atual
+	já passou. Depois disso, o comportamento retornará ao padrão
+time_conditions.status.temporary_unmatched = Temporário Não Combinado
+time_conditions.status.tooltip = Permite que você substitua o comportamento padrão de uma condição de tempo
+time_conditions.timezone = Fuso horário
 time_conditions.timezone.tooltip = 
-	It allows defining the timezone to use for matching the time group associated with this time condition. If set to System,
-	it will take the timezone from server.
+	Permite definir o fuso horário a ser usado para coincidir com o grupo de horários associado a esta condição de horário. Se definido como Sistema,
+	levará o fuso horário do servidor.

@@ -78,5 +78,5 @@ backup_and_restore.confirm_group_delete =
 
 backup_and_restore.cannot_delete_group = O grupo de backup não pode ser deletado
 backup_and_restore.old_backup = 
-	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
-	from a version grater than {3}
+	Backups da versão {0} não pode ser restaurado em {1} com versões maiores que {2}. Seu backup deve ser de pelo menos
+	de uma versão maior do que {3}

@@ -55,17 +55,17 @@ conferences.wait_marked = Espere pelo Líder
 conferences.wait_marked.tooltip = Determina se os chamadores devem aguardar a entrada de um Líder antes que possam participar da conferência.
 menu.conferences = Conferências
 module.conferences = Conferências
-conferences.allow_to_invite = Allow to Invite
+conferences.allow_to_invite = Permitir convidar
 conferences.allow_to_invite.tooltip = 
-	If enabled, all the participants could press "<b>**</b>" or "<b>0</b>" to invite other people to this conference
+	Se ativado, todos os participantes podem pressionar "<b>**</b>" ou "<b>0</b>" para convidar outras pessoas para esta conferência
 conferences.class_of_service = {class_of_service}
 conferences.class_of_service.tooltip = 
-	It allows you to define which class of service that will be used to invite other people to this conference
-conferences.max_reached = You have reached the maximum number of conferences allowed
-conferences.video_mode.last_marked = Last Admin
+	Permite que você defina qual classe de serviço será usada para convidar outras pessoas para esta conferência
+conferences.max_reached = Você atingiu o número máximo de conferências permitidas
+conferences.video_mode.last_marked = Último Admin
 conferences.video_mode.last_marked.tooltip = 
-	The last leader to join the conference with video capabilities will be the single source of video distributed to all participants.
-	If multiple marked users are capable of video, the last one to join is always the source, when that user leaves it goes to the one who
-	joined before them.
-conferences.video_mode.sfu = Selective Forwarding Unit
-conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.
+	O último líder a ingressar na conferência com recursos de vídeo será a única fonte de vídeo distribuída a todos os participantes.
+	Se vários usuários marcados são capazes de vídeo, o último a entrar é sempre a fonte, quando esse usuário sai, vai para aquele que
+	juntou-se antes deles.
+conferences.video_mode.sfu = Unidade de encaminhamento seletivo
+conferences.video_mode.sfu.tooltip = Define a operação multi-stream para uma videoconferência com vários participantes.

@@ -11,8 +11,8 @@ logfiles_viewer.select_logfile = --- Selecione um arquivo de log ---
 logfiles_viewer.invalid_filename = O arquivo de log solicitado não pode ser encontrado
 menu.log_file_viewer = Visualizador de arquivos de log
 module.logfiles_viewer = Visualizador de arquivos de log
-logfiles_viewer.filter = Filter
+logfiles_viewer.filter = Filtro
 logfiles_viewer.filter.tooltip = 
-	It allows you to easily filter the log files content according to giving strings or words. For example, if you want
-	to filter only the asterisk errors logs, you may put "ERRORS" and only errors messages will appear.
-logfiles_viewer.refresh = Refresh
+	Ele permite que você filtre facilmente o conteúdo dos arquivos de log de acordo com as cadeias de caracteres ou palavras fornecidas. Por exemplo, se você quiser
+	para filtrar apenas os logs de erros de asterisco, pode-se colocar "ERRORS" e somente mensagens de erros aparecerão.
+logfiles_viewer.refresh = Atualizar

@@ -56,7 +56,7 @@ sip_settings.jbresyncthreshold.tooltip = Salta nos timestamps de frame sobre os 
 sip_settings.jbtargetextra = Target Extra
 sip_settings.jbtargetextra.tooltip = Esta opção afeta somente o jb quando 'jbimpl
 sip_settings.jitter_buffer = Buffer de jitter
-sip_settings.language = Língua
+sip_settings.language = Idioma
 sip_settings.language.tooltip = Configuração de idioma padrão para todos os usuários/pares. Isso também pode ser definido para usuários individuais / pares.
 sip_settings.localNetwork = Redes locais
 sip_settings.maxcallbitrate = BitRate de chamada máxima
@@ -129,23 +129,23 @@ sip_settings.value = Valor
 sip_settings.video_settings = Configurações de vídeo
 sip_settings.video_support = Suporte de Vídeo
 sip_settings.video_support.tooltip = Ativar/desativar suporte para vídeo SIP. Você precisa ativar isso nesta seção para obter suporte a qualquer vídeo.
-sip_settings.allowexternaldomains = Allow External Domains
-sip_settings.allowexternaldomains.tooltip = Tells Asterisk whether or not to allow SIP-to-SIP calls to non-local domains.
-sip_settings.autodomain = Auto-Domain
+sip_settings.allowexternaldomains = Permitir Domínios Externos
+sip_settings.allowexternaldomains.tooltip = Diz ao Asterisk se deve ou não permitir chamadas SIP-para-SIP para domínios não locais.
+sip_settings.autodomain = Auto-Domínio
 sip_settings.autodomain.tooltip = 
-	This is an important setting with respect to SIP domains. When it is set to "no", Asterisk will only recognise
-	domains that were explicitly defined or will simply not support SIP domains at all (if there were no explicitly defined domains).
-	If you set it to "yes" please be aware that Asterisk will create a domain based on the external IP address of your
-	firewall as specified in the "externip" parameter. This might represent a compromise on your SIP security.
-	If you don't want a domain to be created based on "externip", then set to "no" and explicitly add domains
-	for your local (internal) IP address and for any other domains you require.
-sip_settings.domain = Domain
-sip_settings.sip_domains = SIP Domains
+	Esta é uma configuração importante com relação aos domínios SIP. Quando está definido como "não", o Asterisk apenas reconhecerá
+	domínios que foram definidos explicitamente ou simplesmente não oferecerão suporte a domínios SIP (se não houver domínios definidos explicitamente).
+	Se você definir como "sim", esteja ciente de que o Asterisk criará um domínio baseado no endereço IP externo do seu
+	firewall conforme especificado no parâmetro "externip". Isso pode representar um compromisso em sua segurança SIP.
+	Se você não quiser que um domínio seja criado com base em "externip", defina como "não" e adicione domínios explicitamente
+	para seu endereço IP local (interno) e para quaisquer outros domínios que você precisar.
+sip_settings.domain = Domínio
+sip_settings.sip_domains = Domínios SIP
 sip_settings.sip_domains.info = 
-	When used, they provide enhanced security because registrations will only be accepted when they come from an IP phone
-	(or other SIP client) that is using one of the recognised domains. When Asterisk knows the identity of all its local
-	SIP domains, this allows a higher level of security in the routing of SIP-to-SIP calls too
-sip_settings.websocket_enabled = Websocket Enabled
+	Quando usados, eles fornecem segurança aprimorada porque os registros só serão aceitos quando vierem de um telefone IP
+	(ou outro cliente SIP) que está usando um dos domínios reconhecidos. Quando o Asterisk conhece a identidade de todos os seus
+	Domínios SIP, isso permite um maior nível de segurança no roteamento de chamadas SIP para SIP também
+sip_settings.websocket_enabled = Websocket Ativado
 sip_settings.websocket_enabled.tooltip = 
-	Set to "No" to prevent SIP channels from listening to websockets. This needed when using SIP and PJSIP websockets on
-	the same system.
+	Defina como "Não" para evitar que os canais SIP ouçam os websockets. Isso é necessário ao usar websockets SIP e PJSIP em
+	o mesmo sistema.

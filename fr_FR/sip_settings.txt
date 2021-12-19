@@ -11,7 +11,7 @@ sip_settings.alwaysauthreject.tooltip = Quand un paquet entrant INVITE ou REGIST
 sip_settings.authfailureevents = Evèvement d'erreur
 sip_settings.authfailureevents.tooltip = Générer des événement d'état des utilisateurs quand un utilisateur n'arrive pas à s'authentifier avec Asteriskwhen peer can't authenticate with Asterisk.
 sip_settings.autoframing = Encadrement automatique
-sip_settings.autoframing.tooltip = Set packetization based on the remote endpoint's (ptime) preferences.
+sip_settings.autoframing.tooltip = Définissez la mise en paquets en fonction des préférences (ptime) du point de terminaison distant.
 sip_settings.available_codecs = Codecs Disponibles
 sip_settings.bindaddr = Adresse d'écoute
 sip_settings.bindaddr.tooltip = Adresse IP pour écouter(0.0.0.0 écoute sur toutes les adresses).
@@ -22,8 +22,8 @@ sip_settings.custom = personnalisation
 sip_settings.custom_options = Options de personnalisation
 sip_settings.defaultexpiry = Expiration par défaut
 sip_settings.defaultexpiry.tooltip = temps par défaut de l'enregistrement.
-sip_settings.dumphistory = Dump History
-sip_settings.dumphistory.tooltip = Dump SIP history at end of SIP dialogue SIP history is output to the DEBUG logging channel.
+sip_settings.dumphistory = Vider l'historique
+sip_settings.dumphistory.tooltip = Vider l'historique SIP à la fin du dialogue SIP L'historique SIP est transmis au canal de journalisation DEBUG.
 sip_settings.dynamic_exclude_static = Interdire les hôtes dynamiques
 sip_settings.dynamic_exclude_static.tooltip = Interdire à tous les hôtes dynamique de s'enregistrer sauf pour IP configuré statiquement dans les utilisateurs.
 sip_settings.externaddr = Adresse IP externe
@@ -46,9 +46,9 @@ sip_settings.jbforce = Force
 sip_settings.jbforce.tooltip = Forcer l'utilisation du Jitter Buffer.
 sip_settings.jbimpl = Implementation du Jitter buffer
 sip_settings.jbimpl.adaptive = Adaptive
-sip_settings.jbimpl.adaptive.tooltip = Avec un taille variable.
+sip_settings.jbimpl.adaptive.tooltip = Avec une taille variable.
 sip_settings.jbimpl.fixed = Fixé
-sip_settings.jbimpl.fixed.tooltip = With size always equals to jb-max-size.
+sip_settings.jbimpl.fixed.tooltip = Avec la taille toujours égale à jb-max-size.
 sip_settings.jbimpl.tooltip = Utilisé sur la reception de paquet SIP. Deux implementation possbile = Adaptive et Fixé.
 sip_settings.jbmaxsize = Taille maximun
 sip_settings.jbmaxsize.tooltip = Longeur Maximum du jitter buffer en milisecondes.
@@ -66,9 +66,9 @@ sip_settings.maxexpiry = Expiration Max
 sip_settings.maxexpiry.tooltip = Temps maximun autorisé pour les enregistrement entrant(secondes).
 sip_settings.minexpiry = Expiration Min
 sip_settings.minexpiry.tooltip = Temps minimum pour les enregistrements (par défaut 60).
-sip_settings.mwiexpiry = Expiration MWI
-sip_settings.mwiexpiry.tooltip = Temps d'expiration pour les subscriptions MWI.
-sip_settings.nat = NonAT
+sip_settings.mwiexpiry = Expiration MWI (Message Waiting Indication)
+sip_settings.mwiexpiry.tooltip = Temps d'expiration pour les subscriptions MWI (Message Waiting Indication).
+sip_settings.nat = NonNAT
 sip_settings.netmask = Masque Réseau
 sip_settings.netmask.empty = Le réseau local nécessite une adresse Ip et un masque.
 sip_settings.netmask.invalid = Le réseau local doit avoir un masque valide.
@@ -100,7 +100,7 @@ sip_settings.sipdebug.tooltip = Activer/Désactiver le Debug SIP.
 sip_settings.sip_debugging = Débogage SIP
 sip_settings.sip_qos = SIP QoS
 sip_settings.srvlookup = SRV Lookups
-sip_settings.srvlookup.tooltip = Enabled/Disabled DNS SRV lookups on outbound calls.
+sip_settings.srvlookup.tooltip = Recherches DNS SRV activées/désactivées sur les appels sortants.
 sip_settings.t38pt_udptl = Laisser le T.38 Fax traversé
 sip_settings.t38pt_udptl.tooltip = Activer le T.38 avec la correction d'erreur FEC.
 sip_settings.tonezone = Zone de la tonalité
@@ -115,38 +115,32 @@ sip_settings.value = Valeur
 sip_settings.video_settings = Paramètres Vidéo
 sip_settings.video_support = Support Vidéo
 sip_settings.video_support.tooltip = Activer/Désactiver le support de la vidéo.
-sip_settings.addr = Address
-sip_settings.network = Network
+p_settings.addr = Adresse
+sip_settings.network = Réseau
 sip_settings.port = Port
-sip_settings.tcp_bindaddr = TCP Bind Address
-sip_settings.tcp_bindaddr.tooltip = IP address and optional port to bind for this transport.
-sip_settings.tcp_enable = TCP Enable
-sip_settings.tcp_enable.tooltip = Use TCP
-sip_settings.tls_bindaddr = TLS Bind Address
-sip_settings.tls_bindaddr.tooltip = IP address and optional port to bind for this transport.
-sip_settings.tls_certificate_id = TLS Certificate
-sip_settings.tls_certificate_id.tooltip = The server's certificate file.
-sip_settings.tls_dont_verify = TLS Do Not Verify
-sip_settings.tls_dont_verify.tooltip = If set to yes, don't verify the servers certificate when acting as a client.
-sip_settings.tls_enable = Enable TLS
-sip_settings.tls_enable.tooltip = Use TLS
-sip_settings.allowexternaldomains = Allow External Domains
-sip_settings.allowexternaldomains.tooltip = Tells Asterisk whether or not to allow SIP-to-SIP calls to non-local domains.
-sip_settings.autodomain = Auto-Domain
-sip_settings.autodomain.tooltip = 
-	This is an important setting with respect to SIP domains. When it is set to "no", Asterisk will only recognise
-	domains that were explicitly defined or will simply not support SIP domains at all (if there were no explicitly defined domains).
-	If you set it to "yes" please be aware that Asterisk will create a domain based on the external IP address of your
-	firewall as specified in the "externip" parameter. This might represent a compromise on your SIP security.
-	If you don't want a domain to be created based on "externip", then set to "no" and explicitly add domains
-	for your local (internal) IP address and for any other domains you require.
-sip_settings.domain = Domain
-sip_settings.sip_domains = SIP Domains
-sip_settings.sip_domains.info = 
-	When used, they provide enhanced security because registrations will only be accepted when they come from an IP phone
-	(or other SIP client) that is using one of the recognised domains. When Asterisk knows the identity of all its local
-	SIP domains, this allows a higher level of security in the routing of SIP-to-SIP calls too
-sip_settings.websocket_enabled = Websocket Enabled
-sip_settings.websocket_enabled.tooltip = 
-	Set to "No" to prevent SIP channels from listening to websockets. This needed when using SIP and PJSIP websockets on
-	the same system.
+sip_settings.tcp_bindaddr = Adresse de liaison TCP
+sip_settings.tcp_bindaddr.tooltip = Adresse IP et port optionnel à lier pour ce transport.
+sip_settings.tcp_enable = Activer TCP
+sip_settings.tcp_enable.tooltip = Utiliser TCP
+sip_settings.tls_bindaddr = Adresse de liaison TLS
+sip_settings.tls_bindaddr.tooltip = Adresse IP et port optionnel à lier pour ce transport.
+sip_settings.tls_certificate_id = Certificat TLS
+sip_settings.tls_certificate_id.tooltip = Le fichier de certificat du serveur.
+sip_settings.tls_dont_verify = TLS ne pas vérifier
+sip_settings.tls_dont_verify.tooltip = Si défini sur yes, ne vérifie pas le certificat du serveur lorsqu'il agit en tant que client.
+sip_settings.tls_enable = Activer TLS
+sip_settings.tls_enable.tooltip = Utiliser TLS
+sip_settings.allowexternaldomains = Autoriser les domaines externes
+sip_settings.allowexternaldomains.tooltip = Indique à Asterisk s'il faut ou non autoriser les appels SIP à SIP vers des domaines non locaux.
+sip_settings.autodomain = Auto-Domaine
+sip_settings.autodomain.tooltip =
+	Il s'agit d'un paramètre important en ce qui concerne les domaines SIP. Lorsqu'il est défini sur "non", Asterisk ne reconnaîtra que les domaines qui ont été explicitement définis ou ne prendront tout simplement pas en charge les domaines SIP (s'il n'y avait pas de domaines explicitement définis).
+	Si vous le définissez sur "oui", sachez qu'Asterisk créera un domaine basé sur l'adresse IP externe de votre pare-feu comme spécifié dans le paramètre "externip". Cela peut représenter un compromis sur votre sécurité SIP.
+	Si vous ne voulez pas qu'un domaine soit créé sur la base de "externip", définissez-le sur "non" et ajoutez explicitement des domaines pour votre adresse IP locale (interne) et pour tout autre domaine dont vous avez besoin.
+sip_settings.domain = Domaine
+sip_settings.sip_domains = Domaines SIP
+sip_settings.sip_domains.info =
+	Lorsqu'ils sont utilisés, ils offrent une sécurité renforcée car les enregistrements ne seront acceptés que lorsqu'ils proviennent d'un téléphone IP (ou d'un autre client SIP) qui utilise l'un des domaines reconnus. Lorsqu'Asterisk connaît l'identité de tous ses domaines SIP locaux, cela permet également un niveau de sécurité plus élevé dans le routage des appels SIP à SIP.
+sip_settings.websocket_enabled = Websocket activé
+sip_settings.websocket_enabled.tooltip =
+	Réglez sur "Non" pour empêcher les canaux SIP d'écouter les websockets. Cela est nécessaire lors de l'utilisation de Websockets SIP et PJSIP sur le même système.

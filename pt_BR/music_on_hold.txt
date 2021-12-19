@@ -30,20 +30,20 @@ music_on_hold.order.shuffle.tooltip = Reproduzir arquivos de áudio em ordem ale
 music_on_hold.order.tooltip = Ordem de reprodução dos arquivos de áudio
 music_on_hold.sound_player = Leitor de som
 music_on_hold.default.tooltip = 
-	If checked, the sounds of this music group will be used for the default music on hold class. Only one music group might be
-	checked as default
-music_on_hold.application = Application
+	Se marcada, os sons deste grupo de música serão usados ​​para a classe de música em espera padrão. Apenas um grupo de música pode ser
+	verificado como padrão
+music_on_hold.application = Aplicação
 music_on_hold.application.tooltip = 
-	Application to be used for playing a streaming. If not application is provided, then, it will be use the mpg123 application
-	in the following format: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
-music_on_hold.insufficient_arguments = You've not provided the application script nor streaming URL. At least one of these fields must be provided
-music_on_hold.mode = Mode
-music_on_hold.mode.custom = Custom
-music_on_hold.mode.custom.tooltip = Run a custom application.
-music_on_hold.mode.files = Files
-music_on_hold.mode.files.tooltip = Read files from a directory in any Asterisk supported media format
-music_on_hold.mode.tooltip = It defines the mode for playing or retrieve the music on hold.
+	Aplicativo a ser usado para reproduzir um streaming. Se nenhum aplicativo for fornecido, será usado o aplicativo mpg123
+	no seguinte formato: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
+music_on_hold.insufficient_arguments = Você não forneceu o script do aplicativo nem o URL de streaming. Pelo menos um desses campos deve ser fornecido
+music_on_hold.mode = Modo
+music_on_hold.mode.custom = Personalizado
+music_on_hold.mode.custom.tooltip = Execute um aplicativo personalizado.
+music_on_hold.mode.files = Arquivos
+music_on_hold.mode.files.tooltip = Leia arquivos de um diretório em qualquer formato de mídia compatível com Asterisk
+music_on_hold.mode.tooltip = Ele define o modo para reproduzir ou recuperar a música em espera.
 music_on_hold.streaming_format = Format
-music_on_hold.streaming_format.tooltip = The 'format' option specifies the audio format that the 'application' will provide to Asterisk.
+music_on_hold.streaming_format.tooltip = A opção 'format' especifica o formato de áudio que o 'aplicativo' irá fornecer ao Asterisk.
 music_on_hold.streaming_url = Streaming URL
-music_on_hold.streaming_url.tooltip = URL to be streamed by the defined application
+music_on_hold.streaming_url.tooltip = URL a ser transmitido pelo aplicativo definido

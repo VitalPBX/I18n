@@ -28,30 +28,30 @@ paging.timeout = Tempo esgotado
 paging.timeout.tooltip = Especifique o período de tempo que o sistema tentará conectar uma chamada. Após esse período, todas as chamadas internas que não tiverem sido respondidas serão desligadas pelo sistema.
 paging.ip_address = IP Address
 paging.multicastrtp = MulticastRTP
-paging.no_members = No extensions or valid multicast members has been provided
-paging.port = Port
-paging.announcement = Announcement
-paging.announcement.tooltip = Announcement to be played to all paged participants
-paging.mode = Mode
-paging.mode.annon_only = Announcement Only
-paging.mode.annon_only.tooltip = Plays the announcement and then, hangup
-paging.mode.default = Default
-paging.mode.default.tooltip = Default behavior. Plays the announcement if defined and then allows to the caller continue speaking
-paging.mode.tooltip = It allows you to define the paging behavior
+paging.no_members = Nenhuma extensão ou membro multicast válido foi fornecido
+paging.port = Porta
+paging.announcement = Anúncio
+paging.announcement.tooltip = Anúncio a ser reproduzido para todos os participantes paginados
+paging.mode = Modo
+paging.mode.annon_only = Apenas anúncio
+paging.mode.annon_only.tooltip = Toca o anúncio e, em seguida, desligue
+paging.mode.default = Padrão
+paging.mode.default.tooltip = Comportamento padrão. Reproduz o anúncio, se definido, e permite que o chamador continue falando
+paging.mode.tooltip = Ele permite que você defina o comportamento de paginação
 paging.no_license = 
- You have reached maximum number of free Paging items with schedule feature enabled. Activate the add-on to have
- unlimited paging items with this feature
-paging.schedule = Schedule
-paging.schedule_enabled = Enabled
-paging.schedule_enabled.tooltip = If set to yes, it will automate the paging execution according to the provided schedules.
-paging.schedules.description = Description
-paging.schedules.dom = Day of Month
-paging.schedules.end_day = End Day
-paging.schedules.excluded_dates = Excluded Dates
-paging.schedules.month = Month
-paging.schedules.start_day = Start Day
-paging.schedules.time = Time
-paging.validation.mode.no_announcement = You have set the mode to "Announcement Only", but haven't selected an announcement
-paging.validation.no_schedules = You have enabled the paging schedule, but haven't defined any schedule
+ Você atingiu o número máximo de itens de Paging gratuitos com o recurso de programação habilitado. Ative o Complemento para ter
+ itens de paging ilimitados com este recurso
+paging.schedule = Cronograma
+paging.schedule_enabled = Ativado
+paging.schedule_enabled.tooltip = Se definido como sim, ele automatizará a execução da paginação de acordo com as programações fornecidas.
+paging.schedules.description = Descrição
+paging.schedules.dom = Dia do mês
+paging.schedules.end_day = Dia de Fim
+paging.schedules.excluded_dates = Datas Excluídas
+paging.schedules.month = Mês
+paging.schedules.start_day = Dia de início
+paging.schedules.time = Tempo
+paging.validation.mode.no_announcement = Você definiu o modo para "Somente anúncio", mas não selecionou um anúncio
+paging.validation.no_schedules = Você ativou a programação de paginação, mas não definiu nenhuma programação
 paging.validation.schedule.no_announcement = 
-	You have enabled the paging schedule, but haven't selected an announcement to be played when matching a schedule
+	Você ativou a programação de paging, mas não selecionou um anúncio a ser reproduzido ao corresponder a uma programação

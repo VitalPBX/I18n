@@ -51,8 +51,7 @@ network_settings.vlan.empty = l'ID VLAN est obligatoire
 network_settings.vlan.tooltip = ID représentant ce VLAN
 network_settings.vlan_modal.vlan.tooltip = ID de VLAN de la connexion. Laissez vierge si vous ne souhaitez pas utiliser d'ID de VLAN
 network_settings.general = {vitalpbx.general}
-network_settings.hostname_updated = The hostname has been updated successfully
+network_settings.hostname_updated = Le nom d'hôte a été mis à jour avec succès
 network_settings.nmcli_not_installed = 
-	The network cannot be configured because the command <b>"nmcli"</b> is not present on your current installation.
-	This could be happening because your VPS provider prohibits this command by default or because of your server
-	doesn't have the package <b>"NetworkManager"</b> installed.
+	Le réseau ne peut pas être configuré car la commande <b>"nmcli"</b> n'est pas présente sur votre installation actuelle.
+	Cela peut se produire parce que votre fournisseur VPS interdit cette commande par défaut ou parce que votre serveur n'a pas installé le package <b>"NetworkManager"</b>.

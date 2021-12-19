@@ -48,16 +48,16 @@ voicemail_general.vm_msgnum = Número de mensagens de correio de voz na caixa de
 voicemail_general.vm_name = Nome completo no correio de voz
 voicemail_general.max_message = Mensagens máximas
 voicemail_general.max_message.tooltip = Número máximo de mensagens por pasta. Se definido como 0, uma caixa de correio será apenas para saudações.
-voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
-voicemail_general.operator_destination = Operator Destination
-voicemail_general.operator_destination.tooltip = Destination to execute on pressing 0 (zero) for reach the operator.
-voicemail_general.fromstring = From Name
+voicemail_general.no_operator_destination = O recurso da operadora foi habilitado, mas nenhum destino foi selecionado
+voicemail_general.operator_destination = Destino do Operador
+voicemail_general.operator_destination.tooltip = Destino a ser executado ao pressionar 0 (zero) para chegar ao operador.
+voicemail_general.fromstring = De nome
 voicemail_general.fromstring.placeholder = Asterisk PBX
-voicemail_general.fromstring.tooltip = Name that will appear in emails from your PBX
-voicemail_general.mp3_attachment = MP3 Attachments
-voicemail_general.mp3_attachment.tooltip = If set to yes, voicemail attachment will be sent in mp3 format
-voicemail_general.locale = Locale
+voicemail_general.fromstring.tooltip = Nome que aparecerá nos e-mails de seu PBX
+voicemail_general.mp3_attachment = Anexos de MP3
+voicemail_general.mp3_attachment.tooltip = Se definido como sim, o anexo do correio de voz será enviado no formato mp3
+voicemail_general.locale = Localidade
 voicemail_general.locale.tooltip = 
-	Set the locale for generation of the date/time strings (make sure the locales are installed in your operating system).
-	If you mix different locales for different users you should avoid words in the email date format specification, e.g.:
+	Defina a localidade para geração das strings de data / hora (certifique-se de que as localidades estejam instaladas em seu sistema operacional).
+	Se você misturar diferentes locais para diferentes usuários, deve evitar palavras na especificação do formato de data de e-mail, por exemplo:
 	<b>%A, %d %B %Y, %H:%M:%S</b>

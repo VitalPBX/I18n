@@ -1,15 +1,15 @@
-geo_firewall = GEO Firewall
+geo_firewall = Pare-feu Géographique
 geo_firewall.general = {vitalpbx.general}
-geo_firewall.license.max_items = You may only block one country on the free version of this add-on
+geo_firewall.license.max_items = Vous ne pouvez bloquer qu'un seul pays sur la version gratuite de ce module complémentaire
 menu.geo_firewall = {geo_firewall}
 module.geo_firewall = {geo_firewall}
-geo_firewall.select_all = Select All Countries
-geo_firewall.unselect_all = Unselect All Countries
-geo_firewall.countries_list = Countries List
-geo_firewall.disable = Disable
-geo_firewall.disable.confirm = 
-	Are you sure about disabling the GEO firewall restrictions? Performing this action will automatically unblock all the countries,
-	however, your configurations on the GEO firewall map will be preserved, so you can apply them back at a later date.
-geo_firewall.enable = Enable
-geo_firewall.successfully_disabled = The GEO firewall restrictions has been successfully disabled
-geo_firewall.successfully_enabled = The GEO firewall restrictions has been successfully enabled
+geo_firewall.select_all = Sélectionner tous les pays
+geo_firewall.unselect_all = Désélectionner tous les pays
+geo_firewall.countries_list = Liste des pays
+geo_firewall.disable = Désactiver
+geo_firewall.disable.confirm =
+	Êtes-vous sûr de désactiver les restrictions du pare-feu Géographique? Effectuer cette action débloquera automatiquement tous les pays,
+	cependant, vos configurations sur la carte du pare-feu GEO seront conservées, vous pourrez donc les réappliquer à une date ultérieure.
+geo_firewall.enable = Activer
+geo_firewall.successfully_disabled = Les restrictions du pare-feu GEO ont été désactivées avec succès
+geo_firewall.successfully_enabled = Les restrictions du pare-feu GEO ont été activées avec succès

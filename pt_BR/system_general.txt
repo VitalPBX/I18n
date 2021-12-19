@@ -36,47 +36,30 @@ system_general.default_ast_lang = Idioma padrão
 system_general.default_ast_lang.tooltip = Idioma para selecionar por padrão quando uma novo ramal está sendo criada
 system_general.devices_prefix = Prefixo de dispositivos
 system_general.devices_prefix.tooltip = Prefixo para anexar por padrão ao nome dos dispositivos
-system_general.blacklisted = Blacklisted
+system_general.blacklisted = Na lista negra
 system_general.blacklisted.tooltip = 
-	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted
+	Permite que você defina um prompt personalizado que será reproduzido para os chamadores que estão na lista negra
 system_general.dnd = DND
 system_general.dnd.tooltip = 
-	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
-system_general.sounds = System Prompts
-system_general.featuredigittimeout = Features Digit Timeout
-system_general.featuredigittimeout.placeholder = Value in milliseconds
-system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
-system_general.transferdigittimeout = Transfer Digit Timout
+	Permite definir um prompt personalizado que será reproduzido quando uma extensão tiver o DND ativo
+system_general.sounds = Prompts do sistema
+system_general.featuredigittimeout = Tempo limite de dígitos de recursos
+system_general.featuredigittimeout.placeholder = Valor em milissegundos
+system_general.featuredigittimeout.tooltip = Tempo máximo (ms) entre os dígitos para ativação do recurso (o padrão é 1000 ms)
+system_general.transferdigittimeout = Tempo limite de transferência de dígitos
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
-system_general.gui_settings = GUI Settings
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
-system_general.queues_callback = Queues CallBack
-system_general.search_frequency = Search Frequency
+system_general.transferdigittimeout.tooltip = Número de segundos de espera entre os dígitos ao transferir uma chamada (o padrão é 3 segundos)
+system_general.gui_settings = Configurações da GUI
+system_general.show_login_panel = Mostrar painel de login
+system_general.show_login_panel.tooltip = Se definido como sim, ele mostra um painel com os complementos do sonata quando eles são instalados.
+system_general.queues_callback = CallBack de filas
+system_general.search_frequency = Frequência de pesquisa
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
-system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
-system_general.email_credentials = Email Credentials
+system_general.search_frequency.tooltip = Define com que freqüência o serviço de retorno de chamada das filas pesquisará retornos de chamada programados.
+system_general.email_credentials = Credenciais de e-mail
 system_general.email_credentials.tooltip = 
-	Enable this feature to send an email to the newly created extension user with their extension and account information.
-	You can find the template for this email under Admin > System Settings > Email Templates.
-system_general.show_addons_menu = Show Add-ons Menu
+	Habilite este recurso para enviar um e-mail ao usuário de ramal recém-criado com seu ramal e informações de conta.
+	Você pode encontrar o modelo para este e-mail em Admin> Configurações do sistema> Modelos de e-mail.
+system_general.show_addons_menu = Mostrar menu de complementos
 system_general.show_addons_menu.tooltip = 
-	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
-system_general.fqdn = Public Domain
-system_general.fqdn.invalid = The provided domain domain is not valid
-system_general.fqdn.tooltip = 
-	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
-	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
-	Also, it will be used for generating the VitXi QR codes.
-system_general.atxferdropcall = Drop Attended Transfer Callbacks
-system_general.atxferdropcall.tooltip = 
-	It allows you to change the default callback behavior. The default is 'no' which results in Asterisk calling back the
-	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
-	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
-system_general.atxfernoanswertimeout = Attended Transfer Timeout
-system_general.atxfernoanswertimeout.placeholder = Value in seconds
-system_general.atxfernoanswertimeout.tooltip = It allows you to define the timeout for attended transfers. This is the amount of time (in seconds) Asterisk will attempt to ring the target before giving up.
-system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
-system_general.auto_generated_pwd_length.tooltip = 
-	It allows you to define the default length for auto-generated devices passwords
+	Se definido como sim, um botão de menu será mostrado na tela de login para acessar add-ons externos como o Sonata ou VitXi

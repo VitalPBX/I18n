@@ -32,49 +32,44 @@ pjsip_settings.external_signaling_address.tooltip = Endereço externo para sinal
 pjsip_settings.nat_settings = Configurações Nat
 pjsip_settings.codecs = Codecs
 pjsip_settings.codecs.tooltip = 
-	Sets which codecs to use for channels created for PJSIP Devices and Trunks. This parameter only applies if the trunks or the devices
-	doesn't have its own codecs defined.
-pjsip_settings.contact_expiration_check_interval = Expiration Check Interval
+	Define quais codecs usar para canais criados para dispositivos e troncos PJSIP. Este parâmetro só se aplica se os troncos ou os dispositivos
+	não tem seus próprios codecs definidos.
+pjsip_settings.contact_expiration_check_interval = Intervalo de verificação de expiração
 pjsip_settings.contact_expiration_check_interval.tooltip = 
-	The interval (in seconds) to check for expired contacts.
-pjsip_settings.keep_alive_interval = Keep Alive Interval
+	O intervalo (em segundos) para verificar os contatos expirados.
+pjsip_settings.keep_alive_interval = Intervalo Keep Alive
 pjsip_settings.keep_alive_interval.tooltip = 
-	The interval (in seconds) to send keepalives to active connection-oriented transports.
-pjsip_settings.max_initial_qualify_time = Max Initial Qualify Time
+	O intervalo (em segundos) para enviar keep-alives para transportes orientados a conexão ativa.
+pjsip_settings.max_initial_qualify_time = Tempo máximo de qualificação inicial
 pjsip_settings.max_initial_qualify_time.tooltip = 
-	The maximum amount of time from startup that qualifies should be attempted on all contacts. If greater than the
-	Qualify Frequency for an AOR, Qualify Frequency will be used instead.
-pjsip_settings.mwi_disable_initial_unsolicited = Disable Initial MWI
+	O tempo máximo de inicialização que se qualifica deve ser tentado em todos os contatos. Se for maior que o
+	Frequência de qualificação para um AOR, frequência de qualificação será usada em seu lugar.
+pjsip_settings.mwi_disable_initial_unsolicited = Desativar MWI inicial
 pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
-	When the initial unsolicited MWI notification are enabled on startup then the initial notifications get sent at
-	startup. If you have a lot of endpoints (thousands) that use unsolicited MWI then you may want to consider
-	disabling the initial startup notifications. When the initial unsolicited MWI notifications are disabled on startup
-	then the notifications will start on the endpoint's next contact update.
-pjsip_settings.mwi_settings = MWI Settings
-pjsip_settings.mwi_tps_queue_high = Taskprocessor Queue High
+	Quando a notificação MWI não solicitada inicial é habilitada na inicialização, as notificações iniciais são enviadas em
+	comece. Se você tiver muitos endpoints (milhares) que usam MWI não solicitados, você pode querer considerar
+	desabilitando as notificações de inicialização inicial. Quando as notificações iniciais de MWI não solicitadas são desativadas na inicialização
+	então, as notificações começarão na próxima atualização de contato do endpoint.
+pjsip_settings.mwi_settings = Configurações MWI
+pjsip_settings.mwi_tps_queue_high = Fila alta do processador de tarefas
 pjsip_settings.mwi_tps_queue_high.tooltip = 
-	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
-	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
-	clears when all alerting taskprocessor queues have dropped to their low water clear level.
-pjsip_settings.mwi_tps_queue_low = Taskprocessor Queue Low
+	Em um sistema muito carregado, você pode precisar ajustar os limites da fila do processador de tarefas. Se houver algum tamanho da fila do processador de tarefas
+	atinge seu nível de água alto, então o pjsip irá parar de processar novas solicitações até que o alerta seja apagado. O alerta
+	limpa quando todas as filas do processador de tarefas de alerta caem para seu nível de limpeza de água baixo.
+pjsip_settings.mwi_tps_queue_low = Baixa fila do processador de tarefas
 pjsip_settings.mwi_tps_queue_low.tooltip = 
-	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
-	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
-	clears when all alerting taskprocessor queues have dropped to their low water clear level. Set to -1 for the low
-	water level to be 90% of the high water level.
+	Em um sistema muito carregado, você pode precisar ajustar os limites da fila do processador de tarefas. Se houver algum tamanho da fila do processador de tarefas
+	atinge seu nível de água alto, então o pjsip irá parar de processar novas solicitações até que o alerta seja apagado. O alerta
+	limpa quando todas as filas do processador de tarefas de alerta caem para seu nível de limpeza de água baixo. Defina como -1 para o mínimo
+	nível de água a 90% do nível de água alto.
 pjsip_settings.tonezone = {sip_settings.tonezone}
-pjsip_settings.tonezone.tooltip = Sets which country's indications to use for channels created for PJSIP Devices and Trunks.
-pjsip_settings.unidentified_request_count = Unidentified Request Count
-pjsip_settings.unidentified_request_count.tooltip = The number of unidentified requests from a single IP to allow.
-pjsip_settings.unidentified_request_period = Unidentified Request Period
+pjsip_settings.tonezone.tooltip = Define as indicações de país a serem usadas para canais criados para dispositivos e troncos PJSIP.
+pjsip_settings.unidentified_request_count = Contagem de pedidos não identificados
+pjsip_settings.unidentified_request_count.tooltip = O número de solicitações não identificadas de um único IP para permitir.
+pjsip_settings.unidentified_request_period = Período de solicitação não identificado
 pjsip_settings.unidentified_request_period.tooltip = 
-	The number of seconds over which to accumulate unidentified requests. If unidentified requests are received during
-	unidentified request period, a security event will be generated.
-pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
+	O número de segundos durante os quais acumular solicitações não identificadas. Se solicitações não identificadas forem recebidas durante
+	período de solicitação não identificado, um evento de segurança será gerado.
+pjsip_settings.unidentified_request_prune_interval = Intervalo de remoção de solicitação não identificado
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
-		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
-pjsip_settings.allow_reload = Allow Transports Reload
-pjsip_settings.allow_reload.tooltip = 
-	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
-	because reloading a transport may disrupt in-progress calls.
-pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints
+		O intervalo no qual as solicitações não identificadas são mais antigas do que o dobro do período de solicitação não identificada é removido.

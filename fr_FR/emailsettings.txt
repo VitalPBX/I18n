@@ -51,4 +51,4 @@ emailsettings.validation.empty_username = Le nom d'utilisateur doit être défin
 emailsettings.validation.invalid_port = Le port est invalide
 menu.email_settings = Paramètres email
 module.emailsettings = Paramètres email
-emailsettings.from_address = From Address
+emailsettings.from_address = De l'adresse

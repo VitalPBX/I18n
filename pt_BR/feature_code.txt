@@ -1,5 +1,5 @@
 feature_code.account_code = Código do Consumidor
-feature_code.account_code.tooltip = Creates a customer code to be used by the CDR system - very useful for call accounting. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.account_code.tooltip = Cria um código de cliente a ser usado pelo sistema CDR - muito útil para contabilização de chamadas. O recurso deve ser habilitado na categoria de recurso associada ao ramal.
 feature_code.add_last_caller_blacklist = Lista negra Último chamador
 feature_code.add_last_caller_blacklist.tooltip = Adiciona o último número que chamou seu ramal à lista negra de extensões. Digite o número a ser colocado na lista negra, seguido de #. Certifique-se de digitar o número exatamente como aparece no sistema, ou seja, incluir códigos de área apropriados, etc. Digite 1 para aceitar a entrada ou desligue-a para descartá-la. O recurso deve estar ativado na categoria de recurso associada à extensão.
 feature_code.add_num_blacklist = Lista negra de um número
@@ -138,14 +138,8 @@ feature_code.send_vm_msg = Enviar mensagem de correio de voz
 feature_code.send_vm_msg.tooltip = Permite discar qualquer ramal e deixar uma mensagem de correio de voz. Por exemplo, a discagem *95 *2492 permitirá que você deixe uma mensagem de correio de voz para o ramal 2492. O recurso deve estar ativado na Categoria de recurso associada à extensão.
 feature_code.spy_ext_barge = Espionagem no ramal no modo barge
 feature_code.spy_ext_barge.tooltip = Em vez de sussurrar em um único canal em ambos os canais envolvidos na chamada.
-feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.direct_remote_voicemail = Correio de voz remoto direto
 feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip = 
-	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
-	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.
-feature_code.hot_desking_cc = Hot Desking CC
-feature_code.hot_desking_cc.tooltip = 
-	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
-	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
-	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
-	indicates to the system to login extension 100 using the password 1234.
+	Faz uma chamada de saída para o ramal fornecido e os despeja em uma ponte de conferência como um participante sem som
+	(ex.: *827000). O recurso deve ser habilitado na categoria de recurso associada ao ramal.

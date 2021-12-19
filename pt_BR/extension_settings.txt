@@ -63,5 +63,5 @@ extension_settings.white_list.phone_number = Número de telefone
 extension_settings.timezone = Fuso horário
 extension_settings.timezone.tooltip = Local para este usuário.
 menu.my_extension = Meu ramal
-extension_settings.dictation.invalid = An invalid dictation data has been provided
-module.extension_settings = My Extension
+extension_settings.dictation.invalid = Um ditado inválido foi fornecido
+module.extension_settings = Meu Ramal
