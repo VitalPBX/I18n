@@ -1,5 +1,5 @@
 menu.fop2_menu = Operador
-menu.fop2_submenu = Quadro de distribuição
+menu.fop2_submenu = Dashboard
 menu.fop2 = Quadro de distribuição
 menu.fop2_admin_submenu = Gerente de FOP2
 menu.fop2_admin = Gerente de FOP2
