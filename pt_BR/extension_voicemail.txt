@@ -20,6 +20,7 @@ extension_voicemail.voicemail.folder = Pasta
 extension_voicemail.voicemail.origin = Origem do correio de voz
 extension_voicemail.vm_not_deleted = Não foi possível eliminar o correio de voz selecionado
 menu.my_voicemail = Meu correio de voz
-module.extension_voicemail = Meu correio de vozmodule.my_voicemail = {module.extension_voicemail}
+module.extension_voicemail = Meu correio de voz
+module.my_voicemail = {module.extension_voicemail}
 my_voicemail.general = {extension_voicemail.general}
 module.my_voicemail = {module.extension_voicemail}
