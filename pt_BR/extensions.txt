@@ -143,9 +143,9 @@ extensions.ringtime = Tempo de toque
 extensions.ringtime.tooltip = O número de segundos para permitir que o(s) dispositivo(s) toque(m) antes de desistir e passar para a próxima prioridade no ramal.
 extensions.ring_strategy = Estratégia do Toque
 extensions.ring_strategy.one_by_one = Um por um
-extensions.ring_strategy.ring_all = Ring All
+extensions.ring_strategy.ring_all = Tocar Todos
 extensions.ring_strategy.tooltip = Estratégia do Toque
-extensions.save = Salve 
+extensions.save = Salvar 
 extensions.saycid = Diga CID
 extensions.saycid.tooltip = Diga as informações do identificador de chamadas antes da mensagem.
 extensions.sayduration = Dizer a duração
@@ -171,7 +171,7 @@ extensions.update = Atualizar
 extensions.user = Usuário do dispositivo
 extensions.user.invalid = O nome do dispositivo do usuário já foi usado
 extensions.user.invalid.spaces = O dispositivo do usuário não deve conter espaços
-extensions.user_image = User Image
+extensions.user_image = Foto Usuário
 extensions.user_portal = Portal do usuário
 extensions.vm_email = Endereço de e-mail do correio de voz
 extensions.vm_enabled = ativado
@@ -218,9 +218,8 @@ extensions.callback.tooltip =
 extensions.callcenter = Call Center Settings
 extensions.create_hint = Gerar Hint
 extensions.create_hint.tooltip = 
-	If enabled, it will be possible to remotely monitor the voicemail status of this extension through a BLF key. To
-	configure the BLF you must to use the following format: vm_1234, where 1234 is the extension that will be
-	monitored
+	Se Habilitado, será possível monitorar remotamente o status do correio de voz deste ramal por meio de uma tecla BLF. 
+	Para configurar o BLF voce deve usar o seguinte formato: vm_1234, onde 1234 é o ramal que será monitorado.
 extensions.dialout = Permitir Discagem Externa
 extensions.dialout.tooltip = 
 	If allowed, users can dial out from their mailboxes (option 4 from mailbox's advanced menu). <b>This is considered a very dangerous feature in a phone system
@@ -230,8 +229,8 @@ extensions.dynamic_queues.tooltip =
 	It allows you to define the list of queues in which this extension will be listed as a dynamic agent.
 extensions.dynamic_routing = Roteamento Dinâmico
 extensions.dynamic_routing.tooltip = 
-	Allows you to enable or not the dynamic routing for this extension. If enabled, when an outside party
-	(who previously was called by this extension) calls back, his call will be routed directly to this extension
+	Permite habilitar ou não o roteamento dinâmico para esse ramal. Se ativado, quando uma parte externa
+	(que anteriormente foi chamado por este ramal) retorna a chamada, sua chamada será encaminhada diretamente para este ramal
 extensions.emergency_cid = CID de Emergêcia
 extensions.emergency_cid.tooltip = 
 	It allows to define the caller id that will be used in case of calling an emergency number
@@ -240,7 +239,7 @@ extensions.emergency_cid_number = {extensions.external_cid_number}
 extensions.max_reached = Você atingiu o número máximo de ramais
 extensions.pinless = Pinless
 extensions.pinless.tooltip = 
-	If enabled, the user of this extension will not be prompted to enter pin on outbound routes that have
+	Se ativado, o usuário desse ramal não sera solicitado ao inserir o PIN em rotas de saida que necessritem de um conjunto de PIN
 	assigned a pin set
 extensions.queue_listed_as_dynamic_and_static = 
 	This extension cannot be listed as dynamic and static agent of queue <b>"{0}"</b> at the same time
@@ -257,27 +256,37 @@ extensions.cid_on_diversions.tooltip =
 	It allows you to define what caller id will be sent when a diversion is performed.<br><br>
 	<b>{parking.caller}: </b> It will be sent the caller id of who is calling. <br>
 	<b>{parking.callee}: </b> It will be sent the caller id of who received the call.
-extensions.followme.enabled = Enabled
-extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
-extensions.initial_ringtime = Initial Ring Time
-extensions.initial_ringtime.not_ring = Not Ring
-extensions.initial_ringtime.tooltip = Time in seconds to ring the primary extension before calling to the members on the follow-me list
+extensions.followme.enabled = Habilitar
+extensions.followme.enabled.tooltip = Habilitar / Desabilitar o recurso de siga-me nesse ramal
+extensions.initial_ringtime = Tempo Inicio Toque
+extensions.initial_ringtime.not_ring = Não Tocar
+extensions.initial_ringtime.tooltip = Tempo em segundos que ira tocar no ramal antes de ser encaminhado para o membros da lista de siga-me
 extensions.outbound_profile = Outbound Profile
 extensions.outbound_profile.tooltip = 
 	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
 	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
 	be able to call or not to certain numbers.
 extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
-extensions.email_multiple = Email Addresses
+extensions.email_multiple = Endereço E-mail
 extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
 extensions.vitxi_clients.max_reached = You've reached the maximum number of Vitxi clients allowed for your current license.
 extensions.qr = QR Viewer
 extensions.qr.fqdn = FQDN
 extensions.qr.invalid_device = Cannot show QR for this device because doesn't exist or is invalid.
-extensions.qr.private = Private IP
-extensions.qr.public = Public IP
+extensions.qr.private = IP Privado
+extensions.qr.public = IP Publico
 extensions.send_welcome_email = Send Welcome Email
 extensions.show_qr = Show QR Code
 extensions.welcome_email.invalid_device = Cannot send the welcome email, looks like you've selected an invalid device
 extensions.welcome_email.no_template = Cannot find the requested template
 extensions.welcome_email.sent = The welcome email has been sent
+extensions.callcenter = Configurações de Call Center
+extensions.cid_on_diversions = Identificador nos Desvios
+extensions.cid_on_diversions.tooltip =
+	Ele permite que você defina qual identificador de chamadas será enviado quando um desvio for realizado.<br><br>
+	<b>{parking.caller}: </b> Será enviado o identificador de chamada de quem está ligando. <br>
+	<b>{parking.callee}: </b> Será enviado o identificador de chamadas de quem recebeu a chamada.
+extensions.dynamic_external_cid = CID Externo Dinamico
+extensions.dynamic_external_cid.tooltip =
+	Quando habilitado, tomará como CID externo a identificação do chamador enviada pelos dispositivos conectados a este ramal. Isto é
+	útil quando os dispositivos da extensão são usados como troncos.
