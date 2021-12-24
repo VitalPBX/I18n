@@ -8,10 +8,10 @@ users.deleting_self = Não é possível excluir você mesmo.
 users.dept = Departamento
 users.dept.tooltip = Departamento de usuários (exemplo: desenvolvimento)
 users.general = Geral
-users.locale = Língua
+users.locale = Idioma
 users.locale.tooltip = Interface de linguagem.
-users.multitab = Multitab
-users.multitab.tooltip = Verifique se você deseja várias abas na interface!
+users.multitab = Abas
+users.multitab.tooltip = Permite que abra varias Abas na interface.
 users.name = Nome completo
 users.name.tooltip = Nome completo do usuário.
 users.password = Senha
@@ -36,7 +36,6 @@ users.validate.blank_password = A senha não pode estar vazia
 users.validate.profile = O perfil do usuário é inválido
 users.validate.displayname = Nome completo não pode estar vazio
 users.change_language = Mudar idioma
-
 users.deleting_default = You cannot delete this user because is marked as default user
 users.email = E-mail
 users.email.duplicate = The provided e-mail address is already in use
@@ -46,9 +45,10 @@ users.username.duplicated = The provided username is already taken
 users.tenants = Tenants
 users.tenants.tooltip = It allows you to define to which tenants this user will have access
 users.validations.no_tenants = No tenants has been assigned to this user. Please assign at least one tenant.
-users.dark_mode = Dark Mode
-users.dark_mode.tooltip = Enable/Disable Dark Mode for the GUI theme
-users.visible_by_others = Visible By Others
+users.dark_mode = Modo Escuro
+users.dark_mode.tooltip = Habilitar/Desabilitar tema escuro na GUI
+users.visible_by_others = Visível
 users.visible_by_others.tooltip = 
-	It allows you to define if this user will be visible by others to be updated. However, administrator users will always
-	be able to see all users, even if this option is disabled.
+	Ele permite que você defina se este usuário estará visível para ser atualizado por outras pessoas. 
+	No entanto, os usuários administradores sempre poderão ver todos os usuários, mesmo se essa opção 
+	estiver desabilitada.

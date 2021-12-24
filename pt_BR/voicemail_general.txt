@@ -1,4 +1,4 @@
-menu.voicemail_settings = Configurações de correio de voz
+menu.voicemail_settings = Correio de voz
 module.voicemail_general = Configurações de correio de voz
 voicemail_general.backupdeleted = Backup excluído
 voicemail_general.backupdeleted.tooltip = Número máximo de mensagens permitidas na pasta Excluída.

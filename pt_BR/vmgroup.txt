@@ -1,4 +1,4 @@
-menu.voicemail_broadcast_groups = Grupos de transmissão de correio de voz
+menu.voicemail_broadcast_groups = Grupos de correio de voz
 module.vmgroup = Grupos de transmissão de correio de voz
 vmgroup = Grupo de transmissão de correio de voz
 vmgroup.description = Descrição
