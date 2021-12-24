@@ -1,7 +1,7 @@
 menu.user_profile = Perfil
 module.user_profile = Meu Perfil
-user_profile = Usuário Perfiluser_profile.general = {users.general}
-user_profile.settings = {users.settings}
+user_profile = Perfil do Usuário
 user_profile.general = {users.general}
-users_profiles.select_all = Select All
-users_profiles.unselect_all = Unselect All
+user_profile.settings = {users.settings}
+users_profiles.select_all = Selecionar Todos
+users_profiles.unselect_all = Desmarcar Todos
