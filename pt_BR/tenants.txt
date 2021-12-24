@@ -1,52 +1,48 @@
 menu.tenants = {module.tenants}
 module.tenants = Tenants
-tenants.allow_recordings = Allow Recordings
-tenants.allow_recordings.tooltip = It allows you to define if this tenant will be able to record or not calls
+tenants.allow_recordings = Permitir Gravações
+tenants.allow_recordings.tooltip = Define se o Tenant poderá gravar ou não as chamadas
 tenants.allowed_tenant_trunks = Allowed Tenant Trunks
 tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
 tenants.assign_to_existing_user = Assign to Existing User
 tenants.assign_to_existing_user.tooltip = If checked, instead of create a new user for the tenant, you may assign it a existing one
-tenants.conferences = Conferences
-tenants.conferences.tooltip = It allows you to define the maximum number of conferences for this tenant
+tenants.conferences = Conferências
+tenants.conferences.tooltip = Numero Máximo de conferencias permitidas para o tenant
 tenants.confirm_delete = 
 	Are you sure that you want to delete this tenant? <br> This action is irreversible, and all the data
 	related to this tenant will be permanently deleted
-tenants.description = Description
-tenants.description.required = Description {0}
-tenants.description.tooltip = Short Description to identify this tenant.
+tenants.description = Descrição
+tenants.description.required = Descrição {0}
+tenants.description.tooltip = Descrição curta para identificar esse tenant
 tenants.disabled = The access to this tenant has been disabled, please contact to your PBX provider.
 tenants.duplicated_name = The provided name it's already in use
 tenants.duplicated_prefix = The provided prefix is already in use for another Tenant
-tenants.enabled = Enabled
-tenants.enabled.tooltip = 
-	It allows you to enable/disable a tenant. If the tenant is disabled, the users who belongs to it will not be able
-	to login to it nor perform any action
-tenants.extensions = Extensions
-tenants.extensions.tooltip = It allows you to define the maximum number of extensions for this tenant
+tenants.enabled = Habilitado
+tenants.enabled.tooltip = Ele permite que você habilite ou desabilite um tenant. Se o tenant estiver desabilitado, os usuários que pertencem a ele não poderão entrar nele nem realizar qualquer ação
+tenants.extensions = Ramais
+tenants.extensions.tooltip = Numro maximo de ramais permitido para o Tenant
 tenants.full_name = Full Name
 tenants.full_name.tooltip = Administrator's full name, if not defined, the tenant description will be used instead.
 tenants.general = General
 tenants.ivrs = IVRs
-tenants.ivrs.tooltip = It allows you to define the maximum number of IVRs for this tenant
-tenants.limitations = Limitations
-tenants.name = Name
-tenants.name.required = Name {0}
-tenants.name.tooltip = A unique name for this tenant. This name will be used to create folders, linking cdr info, etc.
-tenants.no_license = You have reached maximum number of free tenants. Activate this add-on with a valid license to create unlimited tenants
-tenants.no_role = You have not selected a valid role for the Administrator of this tenant
+tenants.ivrs.tooltip = Numero maximo de Ivrs permitidos para o Tenant
+tenants.limitations = Limites
+tenants.name = Nome
+tenants.name.required = Nome {0}
+tenants.name.tooltip = Nome unico para o Tenant. Este nome será usado para criar pastas, vinculando informações de cdr, etc.
+tenants.no_license = Você atingiu o número máximo de Tenant gratuitos. Ative este add-on com uma licença válida para criar Tenants ilimitados
+tenants.no_role = Você não selecionou uma função válida para o Administrador deste tenant
 tenants.no_user = The tenant has not been assigned to any user
 tenants.parking_lots = Parking Lots
 tenants.parking_lots.tooltip = It allows you to define the maximum number of parking lots for this tenant
 tenants.path = Path
 tenants.path.tooltip = 
 	Path name used on storage folder of this tenant and as asterisk database tree
-tenants.prefix = Prefix
-tenants.prefix.placeholder = Generate Automatically
-tenants.prefix.tooltip = 
-	Allows you to define a prefix to be used for extensions devices and others. If left blank an automatic prefix will
-	be used
-tenants.queues = Queues
-tenants.queues.tooltip = It allows you to define the maximum number of queues for this tenant
+tenants.prefix = Prefixo
+tenants.prefix.placeholder = Gerado Automaticamente
+tenants.prefix.tooltip = Permite definir um prefixo a ser usado para os ramais, dispositivos e outros. Se for deixado em branco, um prefixo automático irá ser usado
+tenants.queues = Filas
+tenants.queues.tooltip = Numro maximo de Filas permitido para o Tenant
 tenants.recordings_maintenance = Recordings Maintenance Settings
 tenants.role = {users.role}
 tenants.role.tooltip = 
@@ -54,9 +50,9 @@ tenants.role.tooltip =
 	may affect other tenants.</b>
 tenants.startup = {users.startup}
 tenants.startup.tooltip = {users.startup.tooltip}
-tenants.trunks = Trunks
-tenants.trunks.tooltip = It allows you to define the maximum number of trunks for this tenant
-tenants.unlimited = Unlimited
+tenants.trunks = Troncos
+tenants.trunks.tooltip = Numro maximo de troncos permitido para o Tenant
+tenants.unlimited = Ilimitado
 tenants.user = User
 tenants.user.tooltip = The user who will be in charge to administer and manage this tenant
 tenants.user_name = Admin Email
