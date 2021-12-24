@@ -1,5 +1,5 @@
-menu.import_speeddial = Discagem rápida de importação / exportação
-module.import_speeddial = Discagem rápida de importação / exportação
+menu.import_speeddial = Discagem rápida import/export
+module.import_speeddial = Discagem rápida import/export
 import_speeddial = Importar discagem rápida
 import_speeddial.added = Discagem rápida adicionada {0}
 import_speeddial.cannot_import = Discagem rápida {0} não pode ser importada.
