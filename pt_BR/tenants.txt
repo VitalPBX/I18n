@@ -4,8 +4,8 @@ tenants.allow_recordings = Permitir Gravações
 tenants.allow_recordings.tooltip = Define se o Tenant poderá gravar ou não as chamadas
 tenants.allowed_tenant_trunks = Allowed Tenant Trunks
 tenants.allowed_tenant_trunks.tooltip = It allows you to define which tenants could be used as tenant trunks
-tenants.assign_to_existing_user = Assign to Existing User
-tenants.assign_to_existing_user.tooltip = If checked, instead of create a new user for the tenant, you may assign it a existing one
+tenants.assign_to_existing_user = Associar a um usuário existente
+tenants.assign_to_existing_user.tooltip = Se marcado, em vez de criar um novo usuário para o tenant, você pode atribuir a ele um usuário existente
 tenants.conferences = Conferências
 tenants.conferences.tooltip = Numero Máximo de conferencias permitidas para o tenant
 tenants.confirm_delete = 
@@ -20,12 +20,12 @@ tenants.duplicated_prefix = The provided prefix is already in use for another Te
 tenants.enabled = Habilitado
 tenants.enabled.tooltip = Ele permite que você habilite ou desabilite um tenant. Se o tenant estiver desabilitado, os usuários que pertencem a ele não poderão entrar nele nem realizar qualquer ação
 tenants.extensions = Ramais
-tenants.extensions.tooltip = Numro maximo de ramais permitido para o Tenant
-tenants.full_name = Full Name
-tenants.full_name.tooltip = Administrator's full name, if not defined, the tenant description will be used instead.
-tenants.general = General
+tenants.extensions.tooltip = Numero maximo de ramais permitido para o Tenant
+tenants.full_name = Nome Completo
+tenants.full_name.tooltip = O nome completo do administrador, se não definido, a descrição do tenant será usada.
+tenants.general = Geral
 tenants.ivrs = IVRs
-tenants.ivrs.tooltip = Numero maximo de Ivrs permitidos para o Tenant
+tenants.ivrs.tooltip = Numero maximo de IVRs permitidos para o Tenant
 tenants.limitations = Limites
 tenants.name = Nome
 tenants.name.required = Nome {0}
@@ -33,8 +33,8 @@ tenants.name.tooltip = Nome unico para o Tenant. Este nome será usado para cria
 tenants.no_license = Você atingiu o número máximo de Tenant gratuitos. Ative este add-on com uma licença válida para criar Tenants ilimitados
 tenants.no_role = Você não selecionou uma função válida para o Administrador deste tenant
 tenants.no_user = The tenant has not been assigned to any user
-tenants.parking_lots = Parking Lots
-tenants.parking_lots.tooltip = It allows you to define the maximum number of parking lots for this tenant
+tenants.parking_lots = Chamada Estacionada
+tenants.parking_lots.tooltip = Numero maximo de chamadas estacionadas permitida para o Tenant
 tenants.path = Path
 tenants.path.tooltip = 
 	Path name used on storage folder of this tenant and as asterisk database tree
@@ -42,26 +42,25 @@ tenants.prefix = Prefixo
 tenants.prefix.placeholder = Gerado Automaticamente
 tenants.prefix.tooltip = Permite definir um prefixo a ser usado para os ramais, dispositivos e outros. Se for deixado em branco, um prefixo automático irá ser usado
 tenants.queues = Filas
-tenants.queues.tooltip = Numro maximo de Filas permitido para o Tenant
-tenants.recordings_maintenance = Recordings Maintenance Settings
+tenants.queues.tooltip = Numero maximo de Filas permitido para o Tenant
+tenants.recordings_maintenance = Configurações das Gravações
 tenants.role = {users.role}
 tenants.role.tooltip = 
-	Role profile for the administrator of this tenant. <b>Be careful not to assign a too permissive role, which
-	may affect other tenants.</b>
+	Perfil selecionado para esse administrador de Tenant. <b>Tome muito cuidado para não associar um perfil muito permissivo que dará acesso a outros tenants.</b>
 tenants.startup = {users.startup}
 tenants.startup.tooltip = {users.startup.tooltip}
 tenants.trunks = Troncos
-tenants.trunks.tooltip = Numro maximo de troncos permitido para o Tenant
+tenants.trunks.tooltip = Numero maximo de troncos permitido para o Tenant
 tenants.unlimited = Ilimitado
-tenants.user = User
+tenants.user = Usuario
 tenants.user.tooltip = The user who will be in charge to administer and manage this tenant
 tenants.user_name = Admin Email
 tenants.user_name.required = Admin Email {0}
 tenants.user_name.tooltip = The email address of the user who will manage this Tenant.
-tenants.user_password = Admin Password
-tenants.user_password.required = Admin Password {0}
+tenants.user_password = Senha Admin
+tenants.user_password.required = Senha Admin {0}
 tenants.user_password.tooltip = Password to authenticate the user who will manage this Tenant.
-tenants.user_settings = Tenant Administrator
+tenants.user_settings = Administrador do Tenant
 tenants.validation.enter_valid_tenant = Enter a valid tenant name: letters, numbers, dash, underscore are allowed
 tenants.allowed_outbound_routes = Allowed Outbound Routes
 tenants.allowed_outbound_routes.tooltip = 
@@ -79,19 +78,19 @@ tenants.did_pattern.placeholder = 1NXXNXXXXXX
 tenants.outbound_profiles = Outbound Profiles
 tenants.outbound_profiles.tooltip = 
 	Allows you to define what route selection items can be used as an outbound profile on this tenant.
-tenants.routing = Calls Routing
+tenants.routing = Rotas
 tenants.emergency_trunks = Emergency Trunks
 tenants.emergency_trunks.tooltip = 
 	Allows you to share trunks with this tenant from master tenant to be used as emergency trunks on the emergency number module
 tenants.name.validation.alphanumeric = The tenant name must be a valid alphanumeric value
-tenants.send_welcome_email = Send Welcome Email
+tenants.send_welcome_email = Enviar Email de Boas Vindas
 tenants.send_welcome_email.tooltip = 
-	If enabled, an email will be sent with the account information to the tenant administrator. You can find the template
-	for this email under Admin > System Settings > Email Templates.
+	Se ativado, um e-mail será enviado com as informações da conta ao administrador do tenant. Você pode encontrar o modelo
+	para este e-mail em Admin> Configurações do sistema> Modelos de e-mail.
 tenants.addons = External Add-ons
 tenants.addons.tooltip = 
 	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
-tenants.settings = Settings
+tenants.settings = Configurações
 tenants.timezone = Time Zone
 tenants.timezone.tooltip = 
 	It defines the default time zone for this tenant. If the option "System" is selected, then, the server time zone
