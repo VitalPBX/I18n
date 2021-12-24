@@ -12,8 +12,8 @@ dynamic_routing.digits_match.tooltip =
 	search for matches in the dynamic routing list. If left blank, the entire caller's number will be used to search
 	for matches
 dynamic_routing.et.hours = 
-	[one] {0} Hour
-	[other] {0} Hours
+	[um] {0} Hour
+	[outros] {0} Hours
 dynamic_routing.et.never = Never
 dynamic_routing.expiration_time = Expiration Time
 dynamic_routing.expiration_time.tooltip = 
