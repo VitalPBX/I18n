@@ -1,16 +1,16 @@
-app_keys = Application Keys
-app_keys.description = Description
-app_keys.description.tooltip = A short description of your application
-app_keys.enabled = Enabled
-app_keys.enabled.tooltip = It defines if this APP key is enabled or not
+app_keys = Chaves Aplicações
+app_keys.description = Descrição
+app_keys.description.tooltip = A breve descrição da sua aplicação
+app_keys.enabled = Ativo
+app_keys.enabled.tooltip = Define se esta chave APP está habilitada ou não
 app_keys.general = {vitalpbx.general}
-app_keys.key = Key
-app_keys.key.tooltip = Key to use for authenticate third party apps
+app_keys.key = Chave
+app_keys.key.tooltip = Chave a ser usada para autenticar aplicativos de terceiros
 menu.app_keys = {app_keys}
 module.app_keys = {app_keys}
 app_keys.tenant = Tenant
 app_keys.tenant.tooltip = 
-	It allows you to define which tenant will be associated with this API key, so, when someone uses this key it will
-	only fetch data related to the assigned tenant. However, if set to none, the end-user must provide the tenant ID or
-	path on each request.
+	Ele permite que você defina qual tenant será associado a esta chave de API, então, quando 
+	alguém usar esta chave, ele irá	buscar apenas dados relacionados ao tenant atribuído. No entanto, 
+	se definido como nenhum, o usuário final deve fornecer o ID do tenant ou caminho em cada solicitação.
 app_keys.all = -- Any Tenant --
