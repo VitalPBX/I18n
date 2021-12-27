@@ -402,3 +402,7 @@ provisioning_templates.refresh_template.confirm_additional =
 	Имейте в виду, что любые предыдущие изменения, внесенные в этот шаблон, будут перезаписаны.
 provisioning_templates.accept = {provisioning_templates.refresh}
 provisioning_templates.reload.success = Шаблон был успешно обновлен
+provisioning.firmware_version = Версия прошивки
+provisioning.firmware_version.tooltip = Показывает текущую версию последней загруженной прошивки.
+provisioning.unavailable = Недоступно
+provisioning.firmwares.confirm_delete = Вы уверены, что хотите удалить текущую прошивку?
