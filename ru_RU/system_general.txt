@@ -78,3 +78,7 @@ system_general.atxferdropcall.tooltip =
 system_general.auto_generated_pwd_length = Длина сгенерированных паролей
 system_general.auto_generated_pwd_length.tooltip =
 	Позволяет вам указать по умолчанию длину для автоматически сгенерированных паролей.
+system_general.route_internally_tenant_dids = Маршрутизировать локально вызовы на DID Арендаторов
+system_general.route_internally_tenant_dids.tooltip =
+	Если установлено <b>«Да»</b>, вызовы на DID, выделенные для Арендаторов АТС, маршрутизируются локально, 
+	а не отправляются через поставщика VoIP.	
