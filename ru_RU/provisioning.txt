@@ -372,4 +372,46 @@ provisioning.type.speed_dial_xfer = Speeddial/Xfer
 provisioning.type.sprecode = Sprecode
 provisioning.type.xfer = Transfer
 provisioning.type.xml = XML
+provisioning.type.blf/new_call = {provisioning.type.memory_key_blf/new_call}
 provisioning.invalid_mac_address = Вы указали неверный MAC-адрес
+provisioning.description = Описание
+provisioning.description.tooltip = Краткое описание, чтобы определить, кому принадлежит это устройство.
+provisioning.type.auto = {provisioning.auto}
+provisioning.type.paging.multicastpaging = {provisioning.type.multicast_paging}
+provisioning.type.pickup.pickup_directpickup = {provisioning.type.direct_pickup}
+provisioning_settings.https_port = HTTPS порт
+provisioning_settings.https_port.tooltip =
+	Позволяет вам определить HTTPS порт для подключения к VitalPBX API.
+provisioning_settings.https_port.invalid = Вы должны указать правильный HTTPS порт. Значение должно быть от 0 до 65535.
+provisioning_templates.gui = Настройки GUI
+provisioning_templates.gui_password = Пароль администратора
+provisioning_templates.gui_password.tooltip =
+	Позволяет определить пароль по умолчанию для входа в веб-интерфейс телефона. Вы должны знать об ограничениях, 
+	накладываемых вашим IP-телефоном. Например, некоторые IP-телефоны принимают пароль только в цифровом виде. 
+	Система Автоконфигурации не проверяет, будет ли пароль принят телефоном. 
+	Вы должны обратиться к документации производителя вашего конкретного телефона	
+provisioning_templates.phone_wallpaper = Обои для телефона
+provisioning_templates.refresh = Обновить
+provisioning_templates.expand = Расширить
+provisioning_templates.refresh_template = Обновите шаблон с помощью Базового шаблона
+provisioning_templates.refresh_template.confirm =
+	Вы уверены, что хотите обновить шаблон, заменив текущее содержимое базовым шаблоном, полученным 
+	вместе с дополнением к Автоконфигурации?
+provisioning_templates.refresh_template.confirm_additional =
+	Выполнение этого действия полезно, когда выпущена новая версия дополнения к Автоконфигурации и включает исправления, связанные с шаблоном конкретной модели телефона.
+	Имейте в виду, что любые предыдущие изменения, внесенные в этот шаблон, будут перезаписаны.
+provisioning_templates.accept = {provisioning_templates.refresh}
+provisioning_templates.reload.success = Шаблон был успешно обновлен
+provisioning.firmware_version = Версия прошивки
+provisioning.firmware_version.tooltip = Показывает текущую версию последней загруженной прошивки.
+provisioning.unavailable = Недоступно
+provisioning.firmwares.confirm_delete = Вы уверены, что хотите удалить текущую прошивку?
+provisioning.dt.address = Адрес
+provisioning.type.blf/normal = {provisioning.type.blf}
+provisioning.type.blf/automata = Автоматизированный BLF
+provisioning.type.service_uri = Служебный URI
+provisioning.type.blf_speed_dial = Быстрый набор
+provisioning.type.blf_directed_call_park = Парковка вызова
+provisioning.type.malicious_call = Злонамеренный вызов
+provisioning.type.all_calls = Все вызовы
+provisioning.type.alerting_calls = Предупреждающие вызовы

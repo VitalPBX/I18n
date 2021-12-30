@@ -46,3 +46,5 @@ branding.addon.url_prefix.tooltip =
 branding.app_name = Название приложения
 branding.addon.app_name.tooltip =
 	Позволяет вам определить название/заголовок приложения, которое будет отображаться во вкладке браузера.
+branding.desktop_logo_dark = Логотип для десктопов (темный режим)
+branding.mobile_logo_dark = Логотип для мобильных (темный режим)

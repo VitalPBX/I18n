@@ -1,10 +1,10 @@
-pjsip_endpoints = PJSIP устройства
+pjsip_endpoints = PJSIP Endpoints
 menu.pjsip_endpoints = {pjsip_endpoints}
 module.pjsip_endpoints = {pjsip_endpoints}
-pjsip_endpoints.endpoints = Устройства
+pjsip_endpoints.endpoints = Endpoints
 pjsip_endpoints.max_contacts = Макс кол-во контактов
 pjsip_endpoints.contacts = Контакты
-pjsip_endpoints.endpoint = Устройства
+pjsip_endpoints.endpoint = Endpoint
 pjsip_endpoints.extension = Номера
 pjsip_endpoints.trunk_name = Название линии
 pjsip_endpoints.match = Соответствие

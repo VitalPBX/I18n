@@ -50,3 +50,5 @@ trunk_group.overwrite_cid.if_not_provided = Если не указано
 trunk_group.overwrite_cid.yes.tooltip = Заставляет перезаписать CID параметрами, указанными в этом исходящем маршруте.
 trunk_group.overwrite_cid.no.tooltip = Это действие сохранит любой CID, предоставленный во время вызова и не будет ничего перезаписывать
 trunk_group.overwrite_cid.if_not_provided.tooltip = Это действие перезапишет информацию о CID только в том случае, если внешний CID не будет предоставлен во время вызова.
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = Если установлено <b>«Да»</b>, будут записываться все вызовы, использующие этот исходящий маршрут.
