@@ -35,3 +35,10 @@ certificates.key = Key
 certificates.key.tooltip = Should be the content of key file (e.g.: private.key)
 certificates.chain = Chain
 certificates.chain.tooltip = Should be the content intermediate certificate file (e.g.: ca_bundle.crt)
+certificates.sub_domains = Sub-Domains
+certificates.sub_domains.tooltip =
+	List of sub-domain names to be included in the certificate. So if your top domain is "example.com," then your sub-domains
+	should be in the format "sip1.example.com," "sip2.example.com," and so on.
+certificates.invalid_sub_domain = The sub-domain "{0}" is not in a valid format.
+certificates.no_sub_domain = The sub-domain "{0}" is not a sub-domain of "{1}."
+certificates.duplicated_sub_domain = The sub-domain "{0}" is defined multiple times.

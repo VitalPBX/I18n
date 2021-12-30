@@ -214,3 +214,5 @@ menu.firewall_rules = Rules
 vitalpbx.custom_numbers = Custom Number
 copy = Copy
 vitalpbx.record = Calls Recording
+no_mt_capable = This module is not Multi-Tenant capable, so you cannot edit, delete or create new items from a tenant.
+only_by_license = You have to get a license to access this module from tenants.

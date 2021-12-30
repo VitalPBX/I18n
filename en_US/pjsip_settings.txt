@@ -24,7 +24,9 @@ pjsip_settings.ssl_method.tooltip = Method of SSL transport (TLS ONLY)
 pjsip_settings.verify_server = Verify Server
 pjsip_settings.verify_server.tooltip = Require verification of server certificate (TLS ONLY)
 pjsip_settings.local_net = Local Net
-pjsip_settings.local_net.tooltip = Network to consider local (used for NAT purposes).
+pjsip_settings.local_net.tooltip =
+	Networks to consider local (used for NAT purposes); this must be in CIDR or dotted decimal format with the IP and mask separated
+    with a slash ('/'). e.g.: 10.8.0.0/24. You can insert multiple networks separated by a comma.
 pjsip_settings.external_media_address = External Media Address
 pjsip_settings.external_media_address.tooltip = External IP address to use in RTP handling.
 pjsip_settings.external_signaling_address = External Signal Address
