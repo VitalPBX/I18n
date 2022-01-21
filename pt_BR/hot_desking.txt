@@ -66,8 +66,6 @@ hot_desking.dispatchable_location.tooltip =
 hot_desking.send_push = Send Push
 hot_desking.send_push.tooltip = Se habilitado, o PBX tentará enviar notificações push para dispositivos móveis executando o <b>{0}</b> Softphone
 hot_desking.nat.default.tooltip = Leva as configurações de NAT das configurações globais de SIP (Configurações >> Configurações de tecnologia >> Configurações de SIP)
-hot_desking.vitxi_client = Vitxi Client
+hot_desking.vitxi_client = WebRTC Client
 hot_desking.vitxi_client.tooltip = 
-	Se ativado, este dispositivo pode ser usado para o aplicativo Vitxi WebRTC ou os Softphones Vitxi (Android ou IOS). Quando
-	os dispositivos sinalizados com esta opção são usados ​​em dispositivos móveis com Vitxi Softphone, todos os recursos premium
-	será habilitado no softphone.
+	Se ativado, este dispositivo poderia ser usado para a aplicação WebRTC.
