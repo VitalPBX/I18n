@@ -44,3 +44,15 @@ ring_group.answered_elsewhere.tooltip =
 ring_group.allow_diversions = Permitir desvios
 ring_group.allow_diversions.tooltip = 
 	Permite definir se os desvios definidos para os diferentes membros do ramal serão aplicados ou não.
+ring_group.answerchannel = Responder ao canal
+ring_group.answerchannel.tooltip =
+    Se definido como "sim", as chamadas recebidas para esta aplicação serão atendidas antes de começar a tocar a lista
+    de números definida aqui. Configurar isto para "não" pode fazer com que alguns áudios ou a música em espera não
+    sejam tocados.
+ring_group.skip_busy = Saltar extensões ocupadas
+ring_group.skip_busy.tooltip = Se a resposta for sim, qualquer extensão listada com um estado de ocupado será ignorada.
+ring_group.no_release = Sem liberação
+ring_group.no_release.tooltip =
+    Ele adiciona a bandeira de não liberação (\n) aos membros do grupo do anel; isto evita a criação de múltiplos itens
+    no CDR; no entanto, alguns telefones podem apresentar problemas na transferência quando esta opção é ativada;
+    portanto, você pode desativar esta opção quando necessário.

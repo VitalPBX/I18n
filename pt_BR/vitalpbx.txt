@@ -212,3 +212,7 @@ updates.available = Atualizações Disponíveis
 updates.nothing_found = Nenhuma atualização disponível
 updates.updating = Atualizando sistema
 vitalpbx.custom_numbers = Número Personalizado
+copy = Copiar
+vitalpbx.record = Gravação de chamadas
+no_mt_capable = Este módulo não é capaz de Multi-Tenant, portanto você não pode editar, apagar ou criar novos itens de um inquilino.
+only_by_license = Você tem que obter uma licença para acessar este módulo dos inquilinos.

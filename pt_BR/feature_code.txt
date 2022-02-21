@@ -143,3 +143,21 @@ feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip = 
 	Faz uma chamada de saída para o ramal fornecido e os despeja em uma ponte de conferência como um participante sem som
 	(ex.: *827000). O recurso deve ser habilitado na categoria de recurso associada ao ramal.
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip =
+    Funciona exatamente como o recurso de hot desking, a única diferença é que, ao usar este código de recurso, o
+    usuário que faz a chamada ou o usuário do hot desking será logado automaticamente em suas filas atribuídas.
+    Além disso, é possível usar códigos curtos para fazer login em um ramal específico, por exemplo <b>*90#100</b> indica ao
+    sistema para logar a ramal <b>100</b>, e <b>*90#100#1234</b> indica ao sistema para logar a ramal <b>100</b> usando
+    a senha <b>1234</b>.
+feature_code.paging_duplex = Paging Duplex
+feature_code.paging_duplex.tooltip =
+    Este código de recurso funciona exatamente como o código de recurso de paging, mas com áudio duplex, o que
+    significa que o dispositivo que recebe a chamada pode transmitir áudio de volta ao mesmo tempo em que o está
+    recebendo. Para usar este recurso, você deve usar o seguinte formato <b>{0}100</b>, onde <b>{0}</b> é o código
+    de recurso, e <b>100</b> o ramal que você deseja paginar.
+feature_code.anonymous_calling = Chamada anônima
+feature_code.anonymous_calling.tooltip =
+    Este código de recurso permite o envio de chamadas anônimas de saída sob demanda. Para usar este recurso, você deve
+    usar o seguinte formato <b>{0}100</b>, onde <b>{0}</b> é o código do recurso, e <b>100</b> é o número externo
+    que você deseja chamar.

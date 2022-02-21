@@ -69,3 +69,4 @@ conferences.video_mode.last_marked.tooltip =
 	juntou-se antes deles.
 conferences.video_mode.sfu = Unidade de encaminhamento seletivo
 conferences.video_mode.sfu.tooltip = Define a operação multi-stream para uma videoconferência com vários participantes.
+conferences.same_pins = O PIN do Usuário e do Líder não pode ser o mesmo.

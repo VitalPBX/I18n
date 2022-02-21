@@ -1,8 +1,8 @@
 menu.tenants = {module.tenants}
-module.tenants = Tenants
+module.tenants = Inquilinos
 tenants.allow_recordings = Permitir gravações
 tenants.allow_recordings.tooltip = Permite definir se este Tenant poderá gravar ou não chamadas
-tenants.allowed_tenant_trunks = Troncos permitidos para o Tenant.
+tenants.allowed_tenant_trunks = Troncos permitidos para o inquilino
 tenants.allowed_tenant_trunks.tooltip = Permite definir quais Tenants podem ser usados ​​como troncos de outros Tenants
 tenants.assign_to_existing_user = Atribuir a usuário existente
 tenants.assign_to_existing_user.tooltip = Se marcado, em vez de criar um novo usuário para o Tenant, você pode atribuí-lo a um existente
@@ -65,7 +65,7 @@ tenants.user_name.tooltip = O endereço de e-mail do usuário que gerenciará es
 tenants.user_password = Senha do administrador
 tenants.user_password.required = Senha do administrador {0}
 tenants.user_password.tooltip = Senha para autenticar o usuário que irá gerenciar este Tenant.
-tenants.user_settings = Administrador do Tenant
+tenants.user_settings = Administrador do Inquilino
 tenants.validation.enter_valid_tenant = Insira um nome de Tenant válido: letras, números, traço, sublinhado são permitidos
 tenants.allowed_outbound_routes = Rotas de saída permitidas
 tenants.allowed_outbound_routes.tooltip = 
@@ -90,13 +90,35 @@ tenants.emergency_trunks.tooltip =
 tenants.name.validation.alphanumeric = O nome do Tenant deve ser um valor alfanumérico válido
 tenants.send_welcome_email = Enviar e-mail de boas-vindas
 tenants.send_welcome_email.tooltip = 
-	Se habilitado, um email será enviado com as informações da conta para o administrador do Tenant. Você pode encontrar o modelo
-para este e-mail em Admin > Configurações do sistema > Modelos de e-mail.
+	Se habilitado, um email será enviado com as informações da conta para o administrador do inquilino. Você pode encontrar o modelo
+    para este e-mail em Admin > Configurações do sistema > Modelos de e-mail.
 tenants.addons = Complementos Externos
 tenants.addons.tooltip = 
-	Permite selecionar quais complementos externos serão mostrados a este Tenant no menu do usuário.
+	Permite selecionar quais complementos externos serão mostrados a este inquilino no menu do usuário.
 tenants.settings = Configurações
 tenants.timezone = Fuso horário
 tenants.timezone.tooltip = 
-	Ele define o fuso horário padrão para este Tenant. Se a opção "Sistema" estiver selecionada, o fuso horário do servidor
-será usado.
+	Ele define o fuso horário padrão para este inquilino. Se a opção "Sistema" estiver selecionada, o fuso horário do servidor
+    será usado.
+tenants.cid = CID externo padrão
+tenants.cid_name = Nome do CID
+tenants.cid_number = Número do CID
+tenants.cid.tooltip = Ele permite definir o Nome e Número CID externo padrão a ser usado em chamadas de saída.
+tenants.restricted_cid = CID restrito
+tenants.restricted_cid.tooltip = Ele permite definir se os números de identificação de chamada para chamadas externas serão restritos ou não.
+tenants.restricted_cid.disabled = Desabilitado
+tenants.restricted_cid.disabled.tooltip = Nenhuma restrição será aplicada. O locatário poderá usar qualquer número CID externo.
+tenants.restricted_cid.default = Padrão
+tenants.restricted_cid.default.tooltip =
+    Todas as chamadas externas para este inquilino serão forçadas a usar as informações CID definidas no campo
+    "CID externo padrão".
+tenants.restricted_cid.dids = DIDs
+tenants.restricted_cid.dids.tooltip = O número CID externo deve corresponder aos padrões/números DIDs definidos para este inquilino.
+tenants.no_default_cid = O campo "CID restrito" está definido como "Padrão", mas o número do CID externo padrão não foi definido
+tenants.no_dids = O campo "CID restrito" está definido como "DIDs", mas nenhum DID foi definido
+tenants.calls_limit = Limite de chamadas simultâneas
+tenants.calls_limit.tooltip = Ele permite definir o número de chamadas simultâneas permitidas para este inquilino.
+tenants.calls_limit.placeholder = Sem limite
+tenants.calls_limit.invalid = Você forneceu um valor limite de chamadas inválidas
+tenants.main = (Principal)
+tenants.duplicated_did = O DID "{0}" já está em uso pelo inquilino "{1}".

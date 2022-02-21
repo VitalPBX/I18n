@@ -58,3 +58,7 @@ inbound_route.range_parameters = Parâmetros de intervalo(Range)
 inbound_route.routing_method.did_range = Intervalo DID(Range)
 inbound_route.append = {cid_management.append_to_cid_number}
 inbound_route.verify_did = Verificar DID
+inbound_route.drop_anon_calls = Soltar chamadas anônimas
+inbound_route.drop_anon_calls.tooltip =
+    Se a resposta for sim, qualquer chamada anônima será desligada instantaneamente. Se você preferir usar a opção
+    "Privacy Manager", então desabilite esta opção.

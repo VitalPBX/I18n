@@ -35,3 +35,16 @@ maintenance.tenant.tooltip = Permite selecionar o Tenant no qual as configuraç�
 maintenance.validation.enabled_without_cron = A manutenção foi habilitada mas nenhum perfil cron foi selecionado
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
+maintenance.voicemail_preservation = Limpar o correio de voz mais antigo
+maintenance.voicemail_preservation.tooltip =
+    Permite definir o número máximo de dias em que as gravações de correio de voz devem ser retidas. As gravações
+    de correio de voz com mais idade do que os dias aqui definidos serão apagadas.
+maintenance.conversion_quality = Qualidade de áudio
+maintenance.conversion_quality.tooltip =
+    A qualidade de áudio a ser aplicada na conversão de WAV para MP3. As qualidades superiores produzem melhores áudios,
+    mas utilizam mais espaço no disco rígido; as qualidades inferiores produzem arquivos de áudio menores,
+    mas a qualidade é reduzida.
+maintenance.good = Bom ({0}k)
+maintenance.medium = Médio ({0}k)
+maintenance.best = Melhor ({0}k)
+maintenance.high = Alto ({0}k)

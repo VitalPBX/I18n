@@ -13,3 +13,4 @@ pjsip_endpoints.server_uri = Server URI
 pjsip_endpoints.status = Status
 pjsip_endpoints.trunk_name = Nome dos troncos
 pjsip_endpoints.trunks = Troncos
+pjsip_endpoints.tenant = Tenant

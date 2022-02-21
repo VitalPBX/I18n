@@ -63,3 +63,26 @@ system_general.email_credentials.tooltip =
 system_general.show_addons_menu = Mostrar menu de complementos
 system_general.show_addons_menu.tooltip = 
 	Se definido como sim, um botão de menu será mostrado na tela de login para acessar add-ons externos como o Sonata ou VitXi
+system_general.fqdn = Domínio público
+system_general.fqdn.tooltip =
+    Ele permite definir o domínio público do PBX. Estas informações serão usadas nas notificações por e-mail para traduzir
+    ou substituir a variável de domínio público dos modelos; em vez de tentar autodetectar o domínio público pelo sistema.
+    Além disso, ela será usada para gerar os códigos {0} QR.
+system_general.fqdn.invalid = O domínio fornecido não é válido
+system_general.atxfernoanswertimeout = Tempo limite de transferência atendida
+system_general.atxfernoanswertimeout.tooltip =
+    Ele permite definir o tempo de espera para as transferências assistidas. É a quantidade de tempo (em segundos) que o
+    Asterisk tentará tocar o alvo antes de desistir.
+system_general.atxfernoanswertimeout.placeholder = Valor em segundos
+system_general.atxferdropcall = Soltar as ligações de retorno de transferência atendidas
+system_general.atxferdropcall.tooltip =
+     Ele permite alterar o comportamento padrão de retorno de chamada. O padrão é 'não', o que resulta em Asterisk
+     chamando de volta o iniciador de uma transferência quando eles desligam mais cedo e os horários de transferência
+     atendida são excluídos. Se definido como 'sim', então o canal alvo da transferência será imediatamente transferido
+     para o canal que está sendo transferido, assim que o iniciador desligar.
+system_general.auto_generated_pwd_length = Comprimento para as senhas geradas automaticamente
+system_general.auto_generated_pwd_length.tooltip = Permite definir o comprimento padrão para senhas de dispositivos gerados automaticamente
+system_general.route_internally_tenant_dids = Rotear internamente as ligações para os DIDs dos inquilinos
+system_general.route_internally_tenant_dids.tooltip =
+    Quando definido para sim, as chamadas para DIDs definidas nos locatários do PBX são encaminhadas localmente em vez
+    de enviá-las através do provedor VoIP.

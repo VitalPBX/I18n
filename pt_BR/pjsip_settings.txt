@@ -73,3 +73,20 @@ pjsip_settings.unidentified_request_period.tooltip =
 pjsip_settings.unidentified_request_prune_interval = Intervalo de remoção de solicitação não identificado
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
 		O intervalo no qual as solicitações não identificadas são mais antigas do que o dobro do período de solicitação não identificada é removido.
+pjsip_settings.language.tooltip = Linguagem padrão a ser utilizada para os canais criados pelos pontos finais PJSIP
+pjsip_settings.allow_reload = Permitir o Recarregamento de Transportes
+pjsip_settings.allow_reload.tooltip =
+    Ele define se os transportes PJSIP serão recarregados quando o res_pjsip for recarregado. Recomenda-se definir esta
+    opção como "não", pois recarregar um transporte pode interromper as chamadas em andamento.
+pjsip_settings.endpoint_identifier_order = Ordem de identificação do ponto final
+pjsip_settings.endpoint_identifier_order.tooltip =
+    Esta opção permite definir uma lista de nomes de identificadores de pontos finais. A ordem da lista é a ordem
+    especificada que os identificadores nomeados verificam o pedido. Padrão: "<b>IP,Nome de usuário,Anônimo</b>".
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Nome de usuário
+pjsip_settings.endpoint_identifier_order.anonymous = Anônimo
+pjsip_settings.endpoint_identifier_order.auth_username = Auth Nome de usuário
+pjsip_settings.endpoint_identifier_order.header = Cabeçalho
+pjsip_settings.ms_signaling_address = Domínio MS Teams
+pjsip_settings.ms_signaling_address.tooltip = O domínio a ser enviado ao chamar por um tronco com o transporte "TLS+MSTeams", por exemplo: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = O domínio MS fornecido é inválido. Por favor, forneça um FQDN válido.

@@ -1,56 +1,61 @@
 menu.queues_callback = {queues_callback}
 module.queues_callback = {queues_callback}
-queues_callback = Queues CallBack
-queues_callback.allowed_patterns = Allowed Number Rules
-queues_callback.allowed_tries = Maximum Tries
-queues_callback.allowed_tries.tooltip = Amount of allowed tries to perform before marking the call back as failed
-queues_callback.ask_callback_number = Ask CallBack Number
+queues_callback = Filas de Chamada de Retorno
+queues_callback.allowed_patterns = Regras de números permitidos
+queues_callback.allowed_tries = Máximo de tentativas
+queues_callback.allowed_tries.tooltip = Quantidade de tentativas permitidas antes de marcar a chamada de volta como falhada
+queues_callback.ask_callback_number = Pergunte o número de retorno da chamada
 queues_callback.ask_callback_number.tooltip = 
-	If enabled, the caller will be prompted to enter its callback number. If set to no, the caller id number it will be used
-	as callback number, as long as the number match with the allowed number rules.
-queues_callback.cid = Caller ID
+	Se ativado, o chamador será solicitado a digitar seu número de retorno. Se definido como não, o número de
+	identificação de chamada será utilizado como número de retorno, desde que o número corresponda às regras de número permitido.
+queues_callback.cid = Identificação do chamador
 queues_callback.cid.tooltip = 
-	Caller ID info to use during the callback. This information could be modified during the call process by the trunks
-	or outbound routes settings.
-queues_callback.cid_name = Caller ID Name
-queues_callback.cid_number = Caller ID Number
-queues_callback.cos = Class of Service
+	Informações de identificação de chamadas a serem usadas durante a ligação de retorno. Estas informações podem ser
+	modificadas durante o processo de chamada pelos troncos ou configurações de rotas de saída.
+queues_callback.cid_name = Nome de identificação do chamador
+queues_callback.cid_number = Número de identificação do chamador
+queues_callback.cos = Classe de serviço
 queues_callback.cos.tooltip = 
-	It allows you to define what Class of Service will be used to perform the callback. Remember that the class of service
-	contains the permissions to allow outgoing calls through  specific trunks or outbound routes.
-queues_callback.description = Description
-queues_callback.description.tooltip = Brief description
-queues_callback.dial_prefix = Dial Prefix
-queues_callback.dial_prefix.tooltip = If defined, it will be prepended to the requested callback number
-queues_callback.enabled = Enabled
-queues_callback.enabled.tooltip = It allows you to enable / disable pattern rules
+	Permite definir que Classe de Serviço será utilizada para realizar a ligação de retorno. Lembre-se de que a classe
+	de serviço contém as permissões para permitir chamadas de saída através de troncos específicos ou rotas de saída.
+queues_callback.description = Descrição
+queues_callback.description.tooltip = Breve descrição
+queues_callback.dial_prefix = Prefixo de discagem
+queues_callback.dial_prefix.tooltip = Se definido, ele será prefixado ao número de retorno solicitado.
+queues_callback.enabled = Habilitado
+queues_callback.enabled.tooltip = Permite ativar / desativar regras padrão
 queues_callback.general = {vitalpbx.general}
-queues_callback.invalid_message = Invalid Message
+queues_callback.invalid_message = Mensagem inválida
 queues_callback.invalid_message.tooltip = 
-	Message to be played when the provided number by caller doesn't match with the defined  number rules.<br><br> Default Message:
-	"I'm sorry, that is not a recognized phone number"
+	Mensagem a ser reproduzida quando o número fornecido pelo chamador não coincide com as regras de número definidas.
+	<br><br> Mensagem padrão: "Desculpe, esse não é um número de telefone reconhecido"
 queues_callback.none = {none}
-queues_callback.number_prompt = Number Prompt Message
+queues_callback.number_prompt = Áudio para pedir número
 queues_callback.number_prompt.tooltip = 
-	Instructions message for asking to enter the callback number.<br><br>Default Message: "Please enter your telephone number"
-queues_callback.pattern = Pattern
-queues_callback.pattern.tooltip = It allows to define rules of what type of numbers can be used when requesting a call back
-queues_callback.periodic_announcement = Instructions Message
+	Mensagem de instruções para pedir a digitação do número de retorno.<br><br>Mensagem padrão: "Por favor, digite seu
+	número de telefone"
+queues_callback.pattern = Padrão
+queues_callback.pattern.tooltip = Permite definir regras de que tipo de números podem ser usados ao solicitar uma chamada de retorno
+queues_callback.periodic_announcement = Mensagem de instruções
 queues_callback.periodic_announcement.tooltip = 
-	Message to be played with the instructions for requesting a callback.<br><br>Default Message: "All of our representatives
-	are currently busy.  Please stay on the line and your call will be answered by the next available representative,
-	or press one to be called back when a representative is available"
-queues_callback.queue = CallBack Queue
-queues_callback.queue.tooltip = It allows you to define the queue where callers who request a callback will be sent.
+	Mensagem a ser reproduzida com as instruções para solicitar uma chamada de retorno.<br><br>Mensagem padrão:
+	"Todos os nossos representantes estão atualmente ocupados.  Por favor, fique em linha e sua chamada será atendida
+	pelo próximo representante disponível, ou pressione um para ser chamado de volta quando um representante estiver
+	disponível".
+queues_callback.queue = Fila de retorno
+queues_callback.queue.tooltip = Ele permite definir a fila para onde os chamadores que solicitam uma ligação de retorno serão enviados.
 queues_callback.ringtime = {extensions.ringtime}
-queues_callback.ringtime.tooltip = It allows you to define the time that the callback numbers will ring before marking the call as not answered
-queues_callback.same_queue = Same Queue
-queues_callback.time_group = Time Group
+queues_callback.ringtime.tooltip = Permite definir o tempo que os números de chamada de retorno tocarão antes de marcar a chamada como não atendida
+queues_callback.same_queue = Mesma fila
+queues_callback.time_group = Grupo de tempo
 queues_callback.time_group.tooltip = 
-	It allows you to configure a time group to define the allowed times to perform callbacks
-queues_callback.thank_you_prompt = Thanks Prompt
+	Permite configurar um grupo de tempo para definir os tempos permitidos para realizar chamadas de retorno
+queues_callback.thank_you_prompt = Mensagem de agradecimento
 queues_callback.thank_you_prompt.tooltip = 
-	Message to be played to the caller after finish scheduling a callback. Default Message: "Thanks, you will be callback soon"
-queues_callback.dial_agents_first = Dial Agents First
+	Mensagem a ser reproduzida para o interlocutor após o término do agendamento de uma ligação de retorno. Mensagem
+	padrão: "Obrigado, você será chamado de volta em breve".
+queues_callback.dial_agents_first = Disque primeiro os agentes
 queues_callback.dial_agents_first.tooltip = 
-	If set to yes, the scheduled callbacks will be sent first to the agents and then to the customer.
+	Se a resposta for sim, as chamadas programadas serão enviadas primeiro aos agentes e depois ao cliente.
+queues_callback.priority = Prioridade
+queues_callback.priority.tooltip = É a prioridade a ser aplicada quando uma chamada programada entra na Fila de espera. Um valor maior significa maior prioridade.

@@ -48,3 +48,5 @@ dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_
 dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
 menu.dynamic_destinations = Destinos Dinâmicos
 module.dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.timeout = {cid_lookup.timeout}
+dynamic_destinations.timeout.tooltip = {cid_lookup.timeout.tooltip}

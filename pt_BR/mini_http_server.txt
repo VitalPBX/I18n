@@ -17,3 +17,5 @@ mini_http_server.none = -- Nenhum --
 mini_http_server.invalid_ip = O <b>{0}</b> é inválido. por favor escreva um endereço ip válido.
 mini_http_server.no_cert = Se o TLS estiver ativado, você deverá fornecer um certificado válido.
 mini_http_server.no_http_enable = Se o TLS estiver ativado, você deverá ativar também a opção HTTP
+mini_http_server.sessionlimit = Limite de sessões
+mini_http_server.sessionlimit.tooltip = Ela especifica o número máximo de sessões HTTP/WebSocket que poderão existir a qualquer momento.

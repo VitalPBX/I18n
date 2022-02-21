@@ -173,3 +173,16 @@ queues.queue_callback.tooltip =
 	Permite definir se os chamadores que alcançam esta fila poderão solicitar um retorno de chamada da fila caso todos os agentes estejam ocupados.<br><br>
 	Quando um retorno de chamada da fila é selecionado, o "Anúncio Periódico" é substituído pela "Mensagem de Instruções" configurada para
 	o item do retorno de chamada da fila selecionado, também, o recurso IVR fica desabilitado para esta fila.
+queues.joinempty.no_inuse = Não + EmUso
+queues.leavewhenempty.yes_inuse = Sim + EmUso
+queues.alertinfo = {inbound_route.alertinfo}
+queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
+queues.answerchannel = Responder ao canal
+queues.answerchannel.tooltip =
+    Define se as chamadas devem ser atendidas antes de executar a aplicação Fila de espera. Se definido como "não",
+    a música em espera e outros áudios podem não ser tocados.
+queues.ring_unavailable = Anel agentes indisponíveis
+queues.ring_unavailable.tooltip =
+    Quando definido para sim, a fila entregará chamadas aos agentes mesmo que eles não estejam registrados no PBX.
+    A habilitação deste recurso pode ser útil quando seus agentes tiverem seus ramais desviados para seu celular,
+    por exemplo.
