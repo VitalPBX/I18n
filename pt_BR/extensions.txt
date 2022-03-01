@@ -299,3 +299,4 @@ extensions.confirm_remove_device = Você tem certeza de que quer remover o dispo
 extensions.remove_device = Remover dispositivo
 extensions.invalid.remove_new_device = Nenhum dispositivo é selecionado.
 extensions.device_removed = O dispositivo foi removido com sucesso.
+extensions.push.max_devices_with_qr = Você atingiu o número máximo de dispositivos com a opção "QR" habilitada que sua licença atual permite.

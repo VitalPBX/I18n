@@ -59,3 +59,5 @@ queues_callback.dial_agents_first.tooltip =
 	Se a resposta for sim, as chamadas programadas serão enviadas primeiro aos agentes e depois ao cliente.
 queues_callback.priority = Prioridade
 queues_callback.priority.tooltip = É a prioridade a ser aplicada quando uma chamada programada entra na Fila de espera. Um valor maior significa maior prioridade.
+queues_callback.dtmf_digit = Dígito DTMF
+queues_callback.dtmf_digit.tooltip = O dígito DTMF que o chamador tem que pressionar para solicitar uma ligação de retorno.

@@ -69,3 +69,5 @@ hot_desking.nat.default.tooltip = Leva as configurações de NAT das configuraç
 hot_desking.vitxi_client = WebRTC Client
 hot_desking.vitxi_client.tooltip = 
 	Se ativado, este dispositivo poderia ser usado para a aplicação WebRTC.
+hot_desking.generate_qr = Gerar QR móvel
+hot_desking.generate_qr.tooltip = Se ativado, você poderá escanear o código QR com a aplicação <b>{0}</b>
