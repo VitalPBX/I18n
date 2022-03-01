@@ -59,8 +59,8 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Profile
 hot_desking.profile_id.tooltip = Profile with common parameters for the technology selected.
-hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
+hot_desking.generate_qr = Generate Mobile QR
+hot_desking.generate_qr.tooltip = If enabled, you will be able to scan the QR code with the <b>{0}</b> application
 hot_desking.dispatchable_location = Dispatchable Location
 hot_desking.dispatchable_location.tooltip =
 	It allows you to select or define the dispatchable location for this device. This information will be used

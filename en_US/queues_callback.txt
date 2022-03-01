@@ -56,3 +56,5 @@ queues_callback.dial_agents_first.tooltip =
 	If set to yes, the scheduled callbacks will be sent first to the agents and then to the customer.
 queues_callback.priority = Priority
 queues_callback.priority.tooltip = It is the priority to be applied when a scheduled call enters the Queue. A higher value means higher priority.
+queues_callback.dtmf_digit = DTMF Digit
+queues_callback.dtmf_digit.tooltip = The DTMF digit that the caller has to press for requesting a callback.

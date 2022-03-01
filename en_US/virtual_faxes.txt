@@ -21,18 +21,6 @@ fax_devices.country_code = Country Code
 fax_devices.country_code.tooltip = Country Code
 fax_devices.area_code = Area Code
 fax_devices.area_code.tooltip = Area Code
-fgs.notifications_email = Notifications Email
-fgs.notifications_email.tooltip = Email address who will receive notifications of received messages, errors and activity summary of the Fax Server
-fgs.country_code = {fax_devices.country_code}
-fgs.country_code.tooltip = {fax_devices.country_code.tooltip}
-fgs.area_code = {fax_devices.area_code}
-fgs.area_code.tooltip = {fax_devices.area_code.tooltip}
-fgs.long_distance_prefix = Long Distance Prefix
-fgs.long_distance_prefix.tooltip = Long distance dialing prefix (1 in US)
-fgs.international_prefix =  International Prefix
-fgs.international_prefix.tooltip =  International dialing prefix  (011 in US)
-fgs.allowed_ip_addresses = Allowed Hosts
-fgs.allowed_ip_addresses.tooltip = Specifies the hosts that are allowed to send faxes.
 fax_general_settings.general = {vitalpbx.general}
 fax_devices.cos = {class_of_service}
 fax_devices.cos.tooltip = Class of service to use for routing outbound faxes
@@ -51,21 +39,6 @@ fax_sending.no_recipients = You have not defined the recipients who will receive
 fax_sending.no_fax_device = You have not selected a fax device to send this fax
 fax_sending.invalid_file = You have selected an invalid file. The supported formats are: PDF, TIFF
 fax_sending.sent = Fax queued for sending
-fax_sending.failed.subject = Fax to {0} has failed
-fax_sending.failed.message = Dear Administrator,\nThe fax to {0} has failed with the following status: {1}\n\n\nThanks,\n{2}
-fax_sending.from_name = PBX Fax Notifications
-fax_sending.sent.subject = Fax to {0} has been sent
-fax_sending.sent.message = Dear {0},\nThe fax to {1} has been sent successfully\n\n\nThanks,\n{2}
-fax_recvd.failed.subject = Fax from {0} couldn't be received
-fax_recvd.failed.message =
-	Dear {0}, \n The fax from {1} couldn't be received due the following error : {2}
-	\n\nDevice: {3}
-	\nDID: {4}
-	\n\n\nThanks,\n{5}
-fax_recvd.success.subject = You have received a fax from {0}
-fax_recvd.success.message =
-	You have received a fax from {0} through DID {1}
-	\n\n\nThanks,\n{2}
 fax_viewer.search = Search
 fax_viewer.fax_device = {fax_sending.fax_device}
 fax_viewer.fax_device.tooltip = Allows you to filter the fax list per device
