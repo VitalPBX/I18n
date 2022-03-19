@@ -1,6 +1,6 @@
 conferences = Conferências
 conferences.adminpin = PIN do Líder
-conferences.adminpin.invalid = PIN de Líder Inválido. Use apenas números e o "*" (asterisk) símbolo.
+conferences.adminpin.invalid = PIN de Líder Inválido. Use apenas números e o "*" (asterisco) símbolo.
 conferences.adminpin.tooltip = Número PIN para identificar o líder
 conferences.announcement_id = Junte-se ao anúncio
 conferences.announcement_id.tooltip = Reproduzir um arquivo de som para os chamadores quando eles participarem da conferência
@@ -52,7 +52,7 @@ conferences.video_mode.follow_talker.tooltip = o feed de vídeo seguirá quem es
 conferences.video_mode.none = Nenhum
 conferences.video_mode.none.tooltip = nenhuma fonte de vídeo é definida por padrão na conferência. Ainda é possível que um usuário seja definido como uma fonte de vídeo via ação AMI ou DTMF a qualquer momento.
 conferences.wait_marked = Espere pelo Líder
-conferences.wait_marked.tooltip = Determina se os chamadores devem aguardar a entrada de um Líder antes que possam participar da conferência.
+conferences.wait_marked.tooltip = Determina se os chamadores devem aguardar a entrada de um Líder antes que possam participar da conferência. A Senha/PIN do líder deve ser configurada.
 menu.conferences = Conferências
 module.conferences = Conferências
 conferences.allow_to_invite = Permitir convidar
