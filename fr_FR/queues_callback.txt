@@ -56,3 +56,5 @@ queues_callback.dial_agents_first.tooltip =
 	S'il est défini sur oui, les rappels programmés seront d'abord envoyés aux agents, puis au client.
 queues_callback.priority = Priorité
 queues_callback.priority.tooltip = Il s'agit de la priorité à appliquer lorsqu'un appel programmé entre dans la file d'attente. Une valeur plus élevée signifie une priorité plus élevée.
+queues_callback.dtmf_digit = DTMF Digit
+queues_callback.dtmf_digit.tooltip = The DTMF digit that the caller has to press for requesting a callback.

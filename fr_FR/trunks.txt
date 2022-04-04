@@ -260,3 +260,5 @@ trunks.match_header.tooltip =
 	La valeur d'en-tête SIP spécifiée peut être une expression régulière si la valeur est de la forme <b>/regex/</b>.
 	Gardez à l'esprit que l'utilisation d'une expression régulière est coûteuse, alors assurez-vous que vous devez utiliser une expression régulière pour correspondre à votre point de terminaison.
 profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
+trunks.record = {vitalpbx.record}
+trunks.record.tooltip = If set to yes, all the calls using this trunk will be recorded. It applies to outgoing calls only.

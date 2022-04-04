@@ -47,3 +47,4 @@ maintenance.voicemail_preservation = Effacer les messages vocaux les plus ancien
 maintenance.voicemail_preservation.tooltip =
 	Vous permet de définir le nombre maximum de jours pendant lesquels les enregistrements de messagerie vocale doivent être conservés. 
 	Les enregistrements de messagerie vocale plus anciens que les jours définis ici seront supprimés
+maintenance = Maintenance

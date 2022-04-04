@@ -50,3 +50,5 @@ trunk_group.overwrite_cid.no = {vitalpbx.no}
 trunk_group.overwrite_cid.no.tooltip = Il conservera tout CID fourni lors de l'appel. Il n'effectuera aucun écrasement
 trunk_group.overwrite_cid.yes = {vitalpbx.yes}
 trunk_group.overwrite_cid.yes.tooltip = Il force à écraser le CID avec les paramètres CID définis sur cette route sortante
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = If set to yes, all the calls using this outbound route will be recorded.

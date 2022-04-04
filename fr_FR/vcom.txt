@@ -56,3 +56,4 @@ vcrp.type.rescheduled = Reprogrammé
 vcrp.validation.cannot_delete_default = Impossible de supprimer cet élément car il est marqué par défaut.
 vcrp.validation.no_results = Aucun élément de résultat valide n'a été fourni
 vcom.csv.missing_columns = {import_extensions.missing_columns}
+vc.seconds = [one] One Second [other] {0} Seconds

@@ -24,3 +24,4 @@ emergency_numbers.email_addresses = Adresses e-mail
 emergency_numbers.email_addresses.tooltip =
 	Adresses e-mail qui recevront une notification lorsque l'un des numéros d'urgence définis ici sera composé
 emergency_numbers.validation.invalid_email = L'adresse e-mail <b>{0}</b> n'est pas valide.
+emergency_numbers.validation.invalid_number = The following number <b>"{0}"</b> has an invalid format, please write a valid phone number. It should contain the following characters: *,#,+

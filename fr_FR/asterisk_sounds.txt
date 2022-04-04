@@ -12,3 +12,5 @@ asterisk_sounds.successfully_removed = Le package du son Asterisk a été suppri
 asterisk_sounds.successfully_updated = Le package du son Asterisk a été mis à jour avec succès
 menu.asterisk_sounds = Sons d'astérisk
 module.asterisk_sounds = {menu.asterisk_sounds}
+
+asterisk_sounds.general = {vitalpbx.general}

@@ -261,3 +261,7 @@ profiles_pjsip_maximum_expiration = Expiration maximale
 profiles_pjsip_maximum_expiration_tooltip = Temps maximum pour garder un peer avec expiration explicite. Temps en secondes.
 profiles_pjsip_minimum_expiration = Expiration minimale
 profiles_pjsip_minimum_expiration_tooltip = Temps minimum pour garder un peer avec une expiration explicite. Temps en secondes.
+profiles_pjsip_qualify_frequency = Qualify Frequency
+profiles_pjsip_qualify_frequency_tooltip = Interval between attempts to qualify the contact for reachability. If 0 never qualify. Time in seconds.
+profiles_pjsip_transport_id = {profiles_pjsip_transport}
+profiles_pjsip_transport_id_tooltip = {profiles_pjsip_transport_tooltip}

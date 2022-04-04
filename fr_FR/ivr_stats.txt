@@ -18,3 +18,4 @@ menu.ivr_stats = Statistiques SVI
 module.ivr_stats = Statistiques SVI
 ivr_stats.general = {vitalpbx.general}
 ivr_stats.no_cdr = Pas de CDR 
+ivr_stats.answered = Answered

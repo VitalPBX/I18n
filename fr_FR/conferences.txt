@@ -69,3 +69,5 @@ conferences.video_mode.last_marked.tooltip =
 	il va à celui ayant rejoint avant.
 conferences.video_mode.sfu = Unité de transfert sélectif
 conferences.video_mode.sfu.tooltip = Définit le fonctionnement multi-flux pour une vidéoconférence à plusieurs.
+
+conferences.same_pins = The User and Leader PIN cannot be the same.

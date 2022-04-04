@@ -14,3 +14,5 @@ login.validation.password_not_retyped = Veuillez retaper votre mot de passe
 login.tenant = Locataire
 login.tenant_name = Nom du locataire
 login.username.required = Veuillez saisir votre nom d'utilisateur
+
+login.title = Login to your account

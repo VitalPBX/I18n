@@ -17,3 +17,6 @@ mini_http_server.tlsbindaddress.tooltip = Adresse et port à lier à ce transpor
 mini_http_server.tlsenable = Activer TLS
 mini_http_server.tlsenable.tooltip = Prise en charge HTTPS. En plus d'activer, vous devez activer explicitement TLS, définir le port à utiliser et disposer d'un certificat quelque part.
 module.mini_http_server = Mini serveur HTTP
+
+mini_http_server.sessionlimit = Sessions Limit
+mini_http_server.sessionlimit.tooltip = It specifies the maximum number of HTTP/WebSocket sessions that will be allowed to exist at any given time.

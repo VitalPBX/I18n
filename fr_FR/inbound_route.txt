@@ -64,3 +64,5 @@ inbound_route.prepend.tooltip = Préfixe à ajouter au numéro obtenu après avo
 inbound_route.range_parameters = Paramètres de plage
 inbound_route.routing_method.did_range = Plage DID
 inbound_route.verify_did = Vérifier DID
+inbound_route.drop_anon_calls = Drop Anonymous Calls
+inbound_route.drop_anon_calls.tooltip = If set to yes, any anonymous call will get hanged up instantly. If you prefer using the "Privacy Manager" option, then disable this option.

@@ -213,3 +213,6 @@ updates.nothing_found = Aucune mise à jour disponible
 updates.updating = Mise à jour du système
 vitalpbx.custom_numbers = Numéro personnalisé
 copy = Copie
+vitalpbx.record = Calls Recording
+no_mt_capable = This module is not Multi-Tenant capable, so you cannot edit, delete or create new items from a tenant.
+only_by_license = You have to get a license to access this module from tenants.

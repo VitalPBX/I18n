@@ -144,3 +144,4 @@ sip_settings.sip_domains.info =
 sip_settings.websocket_enabled = Websocket activé
 sip_settings.websocket_enabled.tooltip =
 	Réglez sur "Non" pour empêcher les canaux SIP d'écouter les websockets. Cela est nécessaire lors de l'utilisation de Websockets SIP et PJSIP sur le même système.
+sip_settings.addr = Address

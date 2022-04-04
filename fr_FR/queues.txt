@@ -183,3 +183,5 @@ queues.answerchannel = canal de réponse
 queues.answerchannel.tooltip =
 	Il définit si les appels doivent être répondus avant d'exécuter l'application Queue. 
 	S'il est défini sur « non », la musique d'attente et les autres fichiers audio peuvent ne pas être lus.
+queues.ring_unavailable = Ring Unavailable Agents
+queues.ring_unavailable.tooltip = When set to yes, the queue will deliver calls to agents even if they are unregistered from the PBX. Enabling this feature could be helpful when your agents have their extensions diverted to their mobile, for instance.

@@ -26,3 +26,6 @@ dialrules.no_rules = Aucun modèle de règle de numérotation valide n'a été f
 dialrules.used_by_cos = Cet élément ne peut pas être supprimé car il est utilisé pour une ou plusieurs <b>Classes de services</b>
 dialrules.custom_rules_context = Contexte des règles personnalisées
 dialrules.custom_rules_context.tooltip = Il vous permet d'inclure un contexte personnalisé avec vos propres règles avancées
+
+dialrules.internal_rules = Internal Restriction Rules
+dialrules.pattern.placeholder = {dialrules.number.placeholder}

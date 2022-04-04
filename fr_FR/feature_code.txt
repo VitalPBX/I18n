@@ -148,3 +148,7 @@ feature_code.hot_desking_cc.tooltip =
 	De plus, il est possible d'utiliser des shortcodes pour se connecter à une extension spécifique, 
 	par exemple : <b>*90#100</b> indique au système de se connecter à l'extension 100, et <b>*90#100#1234</b > 
 	indique au système de se connecter au poste 100 à l'aide du mot de passe 1234.
+feature_code.paging_duplex = Paging Duplex
+feature_code.paging_duplex.tooltip = This feature code works just like the paging feature code but with duplex audio, which means that the device that receives the call can transmit audio back at the same time as it is receiving it. To use this feature, you must use the following format <b>{0}100</b>, where <b>{0}</b> is the feature code, and <b>100</b> the extension you want to page.
+feature_code.anonymous_calling = Anonymous Calling
+feature_code.anonymous_calling.tooltip = This feature code allows sending anonymous outbound calls on demand. To use this feature, you must use the following format <b>{0}100</b>, where <b>{0}</b> is the feature code, and <b>100</b> is the external number you want to call.

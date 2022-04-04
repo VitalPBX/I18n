@@ -75,3 +75,5 @@ hot_desking.vitxi_client.tooltip =
 	S'il est activé, cet appareil peut être utilisé pour l'application Vitxi WebRTC ou les téléphones logiciels Vitxi (Android ou IOS). Lorsque
 	les appareils marqués avec cette option sont utilisés sur les appareils mobiles avec le Vitxi Softphone, toutes les fonctionnalités premium
 	seront activées sur le softphone.
+
+hot_desking.dtmfmode.auto_info.tooltip = DTMF is sent as RFC 4733 if the other side supports it or as SIP INFO if not. (PJSIP Only)

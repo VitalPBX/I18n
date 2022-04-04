@@ -47,3 +47,7 @@ parking.invalid.already_exists = Numéro de parking {0} non valide. Le numéro e
 parking.announce_space_number = Annoncer le numéro de place
 parking.announce_space_number.tooltip = Si défini sur non, l'annonce du numéro de place de parking sera coupée
 parking.max_reached = Vous avez atteint le nombre maximum de parkings autorisés
+
+parking.record = Record
+parking.record.tooltip = When set to yes, calls retrieved from parking lots belonging to this parking item will be recorded.
+parking.extension.collision = The given parking lot with the specified range is clashing with the parking space "{0}".

@@ -104,3 +104,5 @@ tenants.restricted_cid.dids.tooltip = Le numéro CID externe doit correspondre a
 tenants.restricted_cid.disabled = Désactivé
 tenants.restricted_cid.disabled.tooltip = Aucune restriction ne sera appliquée. Le locataire pourra utiliser n'importe quel numéro CID externe.
 tenants.restricted_cid.tooltip = Il vous permet de définir si les numéros d'identification de l'appelant pour les appels externes seront restreints ou non.
+tenants.path.tooltip = Path name used on storage folder of this tenant and as asterisk database tree
+tenants.duplicated_did = The DID "{0}" is already in use by tenant "{1}."

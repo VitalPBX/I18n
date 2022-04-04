@@ -116,3 +116,5 @@ import_extensions.description.mobile_number = {extensions.mobile_number.tooltip}
 import_extensions.description.home_number = {extensions.home_number.tooltip}
 import_extensions.description.organization = {extensions.organization.tooltip}
 import_extensions.description.job_title = {extensions.job_title.tooltip}
+import_extensions.description.virtual_number = Virtual Number. This parameter is only required when the technology is "virtual."
+import_extensions.virtual_number.empty = Cannot create the device of type Virtual because the Virtual Number isn't defined.
