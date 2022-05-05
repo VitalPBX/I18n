@@ -270,3 +270,4 @@ trunks.match_header.tooltip =
 profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
 trunks.record = {vitalpbx.record}
 trunks.record.tooltip = If set to yes, all the calls using this trunk will be recorded. It applies to outgoing calls only.
+trunks.validation.ext_device_duplicated = The provided trunk username "{0}" is already used by the extension device "{1}."

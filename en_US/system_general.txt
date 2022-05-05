@@ -82,3 +82,7 @@ system_general.route_internally_tenant_dids = Route Calls to Tenant DIDs Interna
 system_general.route_internally_tenant_dids.tooltip =
 	When set to yes, calls to DIDs defined on the PBX' Tenants are routed locally instead of sending them out through
 	the VoIP provider.
+system_general.send_diversion_headers = Send Diversion Headers
+system_general.send_diversion_headers.tooltip =
+    If enabled, the PBX will send additional headers with the diversion info during a call forward like follow-me,
+    C.F immediately, and others. When these headers are present, some SBC devices might complain.
