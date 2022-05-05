@@ -420,3 +420,6 @@ provisioning.tcp = TCP
 provisioning.tls = TLS
 provisioning.add_device = Agregar dispositivo
 provisioning.export_devices = Exportar os dispositivos
+provisioning_templates.dynamic_vpk_keys = Teclas dinâmicas VPK
+provisioning_templates.fixed_vpk_keys = Teclas fixas VPK
+provisioning.dt.tpl_override = Sobreescrever modelo

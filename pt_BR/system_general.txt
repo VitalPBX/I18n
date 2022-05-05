@@ -86,3 +86,7 @@ system_general.route_internally_tenant_dids = Rotear internamente as ligações 
 system_general.route_internally_tenant_dids.tooltip =
     Quando definido para sim, as chamadas para DIDs definidas nos locatários do PBX são encaminhadas localmente em vez
     de enviá-las através do provedor VoIP.
+system_general.send_diversion_headers = Enviar Cabeçalhos de Desvio
+system_general.send_diversion_headers.tooltip =
+    Se ativado, o PBX enviará cabeçalhos adicionais com as informações de desvio durante uma chamada como follow-me,
+    C.F imediatamente, e outros. Quando esses cabeçalhos estiverem presentes, alguns dispositivos SBC poderão reclamar.

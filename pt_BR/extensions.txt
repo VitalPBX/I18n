@@ -300,3 +300,4 @@ extensions.remove_device = Remover dispositivo
 extensions.invalid.remove_new_device = Nenhum dispositivo é selecionado.
 extensions.device_removed = O dispositivo foi removido com sucesso.
 extensions.push.max_devices_with_qr = Você atingiu o número máximo de dispositivos com a opção "QR" habilitada que sua licença atual permite.
+extensions.trunk_duplicated = O dispositivo de usuário fornecido "{0}" está sendo usado pelo tronco "{1}".

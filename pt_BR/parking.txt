@@ -49,3 +49,4 @@ parking.announce_space_number.tooltip = Se definido como não, o anúncio do nú
 parking.max_reached = Você atingiu o número máximo de estacionamentos permitidos
 parking.record = Gravar
 parking.record.tooltip = Quando definido para sim, as chamadas recuperadas dos estacionamentos pertencentes a este item de estacionamento serão gravadas.
+parking.extension.collision = O estacionamento dado com a faixa especificada está em conflito com a vaga de estacionamento "{0}".

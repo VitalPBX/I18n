@@ -79,3 +79,4 @@ fax_sending.retries.tooltip = Ele permite definir o número máximo de tentativa
 fax_sending.retry_time = Tempo de Tentativa
 fax_sending.retry_time.tooltip = Quantos segundos para esperar antes de tentar novamente. O tempo padrão é de 300 (5 minutos).
 fax_viewer.status.queued = Enfileirado
+notification_templates.fax_sending_success = Envio de fax com êxito

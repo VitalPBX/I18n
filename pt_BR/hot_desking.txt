@@ -71,3 +71,4 @@ hot_desking.vitxi_client.tooltip =
 	Se ativado, este dispositivo poderia ser usado para a aplicação WebRTC.
 hot_desking.generate_qr = Gerar QR móvel
 hot_desking.generate_qr.tooltip = Se ativado, você poderá escanear o código QR com a aplicação <b>{0}</b>
+hot_desking.dtmfmode.auto_info.tooltip = O DTMF é enviado como RFC 4733 se o outro lado o suportar ou como SIP INFO se não o suportar. ( Unicamente PJSIP)

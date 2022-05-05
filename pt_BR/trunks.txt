@@ -256,3 +256,4 @@ trunks.match_header.tooltip = A SIP header whose value is used to match against.
 profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
 trunks.record = {vitalpbx.record}
 trunks.record.tooltip = If set to yes, all the calls using this trunk will be recorded. It applies to outgoing calls only.
+trunks.validation.ext_device_duplicated = O nome de usuário do tronco fornecido "{0}" já é usado pelo dispositivo de extensão "{1}".
