@@ -255,4 +255,5 @@ trunks.match_header = Match Header
 trunks.match_header.tooltip = Um cabeçalho SIP cujo valor é usado para corresponder. As solicitações SIP contendo o cabeçalho, juntamente com o valor especificado, serão mapeadas para o endpoint especificado. O cabeçalho deve ser especificado com um <b>:</b>, como em <b>match_header = SIPHeader: valor</b>. O valor do cabeçalho SIP especificado pode ser uma expressão regular se o valor estiver no formato <b>/regex/</b>. Lembre-se de que o uso de um regex é caro, portanto, certifique-se de usar um regex para corresponder ao seu ponto de extremidade.
 profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
 trunks.record = {vitalpbx.record}
-trunks.validation.ext_device_duplicated = O nome de usuário do tronco fornecido "{0}" já é usado pelo dispositivo de extensão "{1}".trunks.record.tooltip = Se definido como sim, todas as chamadas usando este tronco serão gravadas. Aplica-se apenas a chamadas de saída.
+trunks.validation.ext_device_duplicated = O nome de usuário do tronco fornecido "{0}" já é usado pelo dispositivo de extensão "{1}".
+trunks.record.tooltip = Se definido como sim, todas as chamadas usando este tronco serão gravadas. Aplica-se apenas a chamadas de saída.
