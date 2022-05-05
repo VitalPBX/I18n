@@ -1,7 +1,7 @@
 extension_settings.voicemail = Ativar correio de voz
 extension_settings.voicemail.tooltip = Ativar ou desativar o correio de voz.
 extension_settings.attach = Anexar correio de voz
-extension_settings.attach.tooltip = Anexar correio de voz ao email.
+extension_settings.attach.tooltip = Anexar correio de voz ao e-mail.
 extension_settings.cfb.destination.empty = Não há destino especificado para CFB
 extension_settings.cfi.destination.empty = Não há destinos especificados para CFI
 extension_settings.cfn.destination.empty = Não há destino especificado para CFN
@@ -55,7 +55,7 @@ extension_settings.status.tooltip = Habilitar desabilitar
 extension_settings.time_group_id = Grupo de Horário
 extension_settings.time_group_id.tooltip = A hora em que o Grupo permitirá tempos de correspondência será ativada este recurso.
 extension_settings.vm_password = Senha do correio de voz
-extension_settings.vm_password.invalid = A senha do correio de voz é inválida. Use apenas números e o símbolo "*" (asterisk).
+extension_settings.vm_password.invalid = A senha do correio de voz é inválida. Use apenas números e o símbolo "*" (asterisco).
 extension_settings.vm_password.tooltip = Senha do correio de voz
 extension_settings.white_list = Secretário do Chefe White List
 extension_settings.white_list.extension = Número

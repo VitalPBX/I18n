@@ -1,7 +1,7 @@
 status_report.registrations = Inscrições
 status_report.channels = Canais
 status_report.type = Tipo
-status_report.host = Hospedeiro
+status_report.host = Enderço do servidor
 status_report.username = Nome de usuário
 status_report.state = Estado
 status_report.reg_time = Tempo de inscrição

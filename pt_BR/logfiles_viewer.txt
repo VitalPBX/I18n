@@ -14,5 +14,5 @@ module.logfiles_viewer = Visualizador de arquivos de log
 logfiles_viewer.filter = Filtro
 logfiles_viewer.filter.tooltip = 
 	Ele permite que você filtre facilmente o conteúdo dos arquivos de log de acordo com as cadeias de caracteres ou palavras fornecidas. Por exemplo, se você quiser
-	para filtrar apenas os logs de erros de asterisco, pode-se colocar "ERRORS" e somente mensagens de erros aparecerão.
+	para filtrar apenas os logs de erros de Asterisk, pode-se colocar "ERRORS" e somente mensagens de erros aparecerão.
 logfiles_viewer.refresh = Atualizar

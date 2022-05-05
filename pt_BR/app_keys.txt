@@ -1,4 +1,4 @@
-app_keys = Application Keys
+app_keys = Chaves de aplicação
 app_keys.description = Descrição
 app_keys.description.tooltip = Uma breve descrição do seu aplicativo
 app_keys.enabled = Ativado

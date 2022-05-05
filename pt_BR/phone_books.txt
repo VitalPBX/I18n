@@ -2,7 +2,7 @@ menu.phone_books = Agenda de telefones
 module.phone_books = {menu.phone_books}
 phone_books.general = {vitalpbx.general}
 phone_books.description = Descrição
-phone_books.extensions = Extensões
+phone_books.extensions = Ramais
 phone_books.ring_groups = Grupos de Toque
 phone_books.feature_codes = Códigos de Recurso
 phone_books.conferences = Conferências
@@ -29,7 +29,7 @@ phone_books.source_type = Type
 phone_books.source_type.external = Externo
 phone_books.source_type.internal = Interno
 phone_books.source_type.tooltip = 
-    Permite que você defina se usará números internos (Filas, Conferências, Extensões, etc) ou importará externos
+    Permite que você defina se usará números internos (Filas, Conferências, Ramais, etc) ou importará externos
     números para o seu PBX
 phone_books.csv.missing_columns = {import_extensions.missing_columns}
 phone_books.actions = {actions}
@@ -47,14 +47,14 @@ phone_books.phone.tooltip = {phone_books.phone}
 phone_books.speed_dials = Discagens rápidas
 phone_books.speed_dials.tooltip = Permite que você selecione quais {0} estará disponível nesta lista telefônica
 notification_templates.phonebooks = E-mail QR da agenda de telefones
-phone_books.email.tooltip = Lista de emails separados por vírgula para onde será enviado o código QR da lista telefônica.
-phone_books.qr = Enviar QR por Email
+phone_books.email.tooltip = Lista de e-mails separados por vírgula para onde será enviado o código QR da lista telefônica.
+phone_books.qr = Enviar QR por E-mail
 phone_books.qr.no_email = Nenhum endereço de e-mail foi fornecido para o envio deste código QR
 phone_books.qr.pb_not_found = A lista telefônica solicitada não existe
 phone_books.qr.sent = O email foi enviado com sucesso
 phone_books.qr_email.no_template = O modelo de e-mail para o envio de QR não existe
-phone_books.send_by_email = Enviar por email
-phone_books.send_email = Enviar email
+phone_books.send_by_email = Enviar por e-mail
+phone_books.send_email = Enviar e-mail
 phone_books.mobile_number = Número de telefone celular
 phone_books.home_number = Número da linha fixa
 phone_books.mobile_number.tooltip = O número de telefone celular que pertence a este contato

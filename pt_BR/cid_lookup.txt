@@ -26,7 +26,7 @@ cid_lookup.arguments.tooltip =
 	Define os argumentos necessários para executar o script.
 	o valor do argumento especial <b>[CIDNUM]</b> será substituído pelo número cid do chamador.
 	<br><br> Exemplo: <br> <b>chamador_num=[CIDNUM]&ctype=vip</b>
-cid_lookup.secure = fonte
+cid_lookup.secure = Fonte
 cid_lookup.secure.tooltip = Se estiver marcado, o pedido será através de HTTPS, de outra forma será através de HTTP
 cid_lookup.validation.no_description = Nenhuma descrição foi fornecida.
 cid_lookup.validation.invalid_source = Um tipo de fonte inválido foi fornecido.

@@ -10,7 +10,7 @@ extensions.answermode.disable = Desabilitar
 extensions.answermode.intercom = Interfone
 extensions.answermode.tooltip = Quando o atendimento automático de chamadas é permitido no telefone, o atendimento automático de chamadas pode ser solicitado a partir da chamada recebida pelo cabeçalho SIP Alert-Info.
 extensions.attach = Anexar correio de voz
-extensions.attach.tooltip = Anexar correio de voz ao email.
+extensions.attach.tooltip = Anexar correio de voz ao e-mail.
 extensions.call-limit = Limite de Chamada
 extensions.call-limit.no_limit = Sem limite
 extensions.call-limit.tooltip = Número de chamadas simultâneas através deste usuário / peer.
@@ -24,14 +24,14 @@ extensions.call_screen.tooltip = Antes de tocar seu ramal, o chamador é solicit
 extensions.cancel = Cancelar
 extensions.channel.invalid = O canal fxs selecionado já está em uso
 extensions.class_of_service_id = Classe de serviço
-extensions.class_of_service_id.tooltip = O plano de discagem pode ser segmentado em seções, chamadas Classes of Service (CoS). CoS são a unidade organizacional básica dentro do plano de discagem e, como tal, mantêm seções diferentes do plano de discagem independentes umas das outras. O {0} usa CoS para impor limites de segurança entre as várias partes do plano de discagem, bem como para fornecer diferentes classes de serviço a diferentes grupos de usuários.
+extensions.class_of_service_id.tooltip = O plano de discagem pode ser segmentado em seções, chamadas Classes of Service (CoS). CoS são a unidade organizacional básica dentro do plano de discagem e, como tal, mantêm seções diferentes do plano de discagem independentes umas das outras.Neste produto a {0} usa CoS para impor limites de segurança entre as várias partes do plano de discagem, bem como para fornecer diferentes classes de serviço a diferentes grupos de usuários.
 extensions.confirm = confirme
 extensions.confirm_unlink_device = Tem certeza de que deseja desmarcar o dispositivo "%s"? Ele será automaticamente convertido em um dispositivo Hot-Desking
 extensions.contacts = Informações de contato
 extensions.default = Padrão ({0})
 extensions.delete = Excluir
 extensions.delete.tooltip = O correio de voz é excluído do servidor após sua entrega.
-extensions.devices = Devices
+extensions.devices = Dispositivos
 extensions.device = Dispositivo
 extensions.device_id = Dispositivo
 extensions.device_id.tooltip = Lista de dispositivos
@@ -68,17 +68,17 @@ extensions.external_cid_number.invalid = Por favor, insira um ID de Chamada Exte
 extensions.ext_language = Idioma
 extensions.ext_language.tooltip = Especifica a configuração de idioma a ser usada para este ramal. Isso forçará todos os prompts específicos para o usuário a serem reproduzidos no idioma selecionado, desde que o idioma esteja instalado e os prompts de voz para o idioma especificado existam em seu servidor.
 extensions.fax_auto_send = Fax para e-mail
-extensions.fax_auto_send.tooltip = Fax será enviado para o email quando recebido.
+extensions.fax_auto_send.tooltip = Fax será enviado para o e-mail quando recebido.
 extensions.fax_enabled = Fax ativado
 extensions.fax_enabled.tooltip = Ativar / Desativar fax
 extensions.features_password = Senha dos recursos
-extensions.features_password.invalid = A senha do recurso é inválida. Use apenas números e o símbolo "*" (asterisk).
+extensions.features_password.invalid = A senha do recurso é inválida. Use apenas números e o símbolo "*" (asterisco).
 extensions.features_password.tooltip = Senha para acessar alguns recursos do PBX.
 extensions.followme = Siga-me
 extensions.followme_numbers = Siga-me lista
 extensions.followme_numbers.tooltip = Lista de números que serão chamados no siga-me.
 extensions.followme_options = Opções Siga-me
-extensions.followme_self.invalid = A lista Follow me não pode conter auto extensão (%s)
+extensions.followme_self.invalid = A lista Follow me não pode conter auto ramais (%s)
 extensions.fw_ringtime = Tempo de toque
 extensions.fw_ringtime.tooltip = A hora em que o telefone poderá tocar os números definidos na lista Siga-me sem receber resposta antes de continuar para um destino alternativo, como o Correio de voz.
 extensions.fxs_channel.invalid = O canal FXS não pode estar vazio
@@ -92,12 +92,12 @@ extensions.internal_cid.tooltip = Interno de Identificação de Chamada para o r
 extensions.internal_cid_name = Nome
 extensions.internal_cid_number = Número
 extensions.internal_cid_number.invalid = Por favor, insira um ID interno de chamadas válido. Somente *, #, + e números são permitidos
-extensions.internal_rec = interno
+extensions.internal_rec = Interno
 extensions.internal_rec.tooltip = Grave chamadas internas.
 extensions.invalid.already_exists = Número de ramal inválido {0}. O número está em uso pelo módulo {1}.
 extensions.invalid.cos = A classe de serviço é inválida. Certifique-se de que a classe de serviço existe.
-extensions.invalid.email = O email "%s" é inválido. Verifique se o endereço de e-mail está correto.
-extensions.invalid.extension = O número de extensão <b>%s</b> é inválido. Deve conter apenas dígitos
+extensions.invalid.email = O e-mail "%s" é inválido. Verifique se o endereço de e-mail está correto.
+extensions.invalid.extension = O número de ramal <b>%s</b> é inválido. Deve conter apenas dígitos
 extensions.invalid.extension_missing = O número do ramal está faltando
 extensions.invalid.features_password = Característica Senha <b>%s</b> é inválida. Deve conter apenas dígitos e o sinal "*".
 extensions.invalid.language = O idioma do ramal %s é inválido. Certifique-se de que a linguagem existe
@@ -117,7 +117,7 @@ extensions.none = Nenhum
 extensions.norecording_prompt_id = Nenhum prompt de gravação
 extensions.norecording_prompt_id.tooltip = Você pode selecionar a opção padrão para usar o prompt de mensagem 'Você recebe uma chamada' quando o chamador decidir não deixar seu nome ou a opção não estiver definida para isso, ou usar seu próprio prompt personalizado.
 extensions.nospy = Bloquear espionar-me
-extensions.nospy.tooltip = Não deixe que outras extensões espionem esse ramal.
+extensions.nospy.tooltip = Não deixe que outros ramais espionem esse ramal.
 extensions.notes = Notas
 extensions.notes.tooltip = Quaisquer notas que você deseja associar a esse contato. Este é um campo de texto livre.
 extensions.no_limit = Sem limite
@@ -164,7 +164,7 @@ extensions.status_prompt_id.tooltip = Você pode optar por usar o aviso padrão 
 extensions.suffix = Sufixo
 extensions.suffix.tooltip = Define um sufixo para um contato, por exemplo "Jr."
 extensions.technology = Tecnologia
-extensions.technology.invalid = A tecnologia deve ser uma das seguintes opções: SIP, IAX, FXS, NONE
+extensions.technology.invalid = A tecnologia deve ser uma das seguintes opções: SIP, IAX, FXS, NENHUMA
 extensions.technology.tooltip = Tipo de tecnologia para este dispositivo
 extensions.unlink_device = Desvincular dispositivo
 extensions.update = Atualizar
@@ -185,7 +185,7 @@ extensions.voicemail.direct = %s - %s (direto)
 extensions.voicemail.unavailable = %s - %s (indisponível)
 extensions.deny.invalid = Negar é inválido. Por favor, digite o endereço IP com a máscara de sub-rede. Você pode usar a notação CIDR. (Exemplo: 192.168.40.38/16)
 extensions.permit.invalid = A permissão é inválida. Por favor, digite o endereço IP com a máscara de sub-rede. Você pode usar a notação CIDR. (Exemplo: 192.168.40.38/16)
-extensions.name.invalid = Nome de extensão% s não pode conter o caractere ","
+extensions.name.invalid = Nome de ramal% s não pode conter o caractere ","
 module.extensions = Ramais
 extensions.dial_profile_id = Perfil de discagem
 extensions.dial_profile_id.tooltip = Permite que você selecione o perfil a ser usado com as opções de discagem para aplicar às suas chamadas recebidas.
@@ -230,7 +230,7 @@ extensions.dynamic_queues.tooltip =
 	Permite definir a lista de filas nas quais esse ramal será listado como um agente dinâmico.
 extensions.dynamic_routing = Roteamento Dinâmico
 extensions.dynamic_routing.tooltip = 
-	Permite habilitar ou não o roteamento dinâmico para esta extensão. Se ativado, quando uma parte externa
+	Permite habilitar ou não o roteamento dinâmico para este ramal. Se ativado, quando uma parte externa
 	(que anteriormente foi chamado por este ramal) retorna a chamada, sua chamada será encaminhada diretamente para este ramal
 extensions.emergency_cid = CID de emergêcia
 extensions.emergency_cid.tooltip = 
@@ -240,13 +240,13 @@ extensions.emergency_cid_number = {extensions.external_cid_number}
 extensions.max_reached = Você atingiu o número máximo de ramais
 extensions.pinless = Sem PIN
 extensions.pinless.tooltip = 
-	Se ativado, o usuário desta extensão não será solicitado a inserir o PIN em rotas de saída que tenham
+	Se ativado, o usuário deste ramal não será solicitado a inserir o PIN em rotas de saída que tenham
 	atribuiu um conjunto de PIN`s
 extensions.queue_listed_as_dynamic_and_static = 
-	Esta extensão não pode ser listada como agente dinâmico e estático da fila <b>"{0}"</b> ao mesmo tempo
+	Este ramal não pode ser listada como agente dinâmico e estático da fila <b>"{0}"</b> ao mesmo tempo
 extensions.static_queues = Filas Estáticas
 extensions.static_queues.tooltip = 
-	Ele permite que você defina a lista de filas nas quais esta extensão será listada como um agente estático.
+	Ele permite que você defina a lista de filas nas quais este ramal será listada como um agente estático.
 module.vm_busy = Correio de voz ocupado
 module.vm_direct = Correio de voz direto
 module.vm_unavailable = Correio de voz indisponível
@@ -258,13 +258,13 @@ extensions.cid_on_diversions.tooltip =
 	<b>{parking.caller}: </b> Será enviado o identificador de chamadas de quem está ligando. <br>
 	<b>{parking.callee}: </b> Será enviado o identificador de chamadas de quem recebeu a chamada.
 extensions.followme.enabled = Ativado
-extensions.followme.enabled.tooltip = Ele permite que você habilite/desabilite o recurso siga-me nesta extensão
+extensions.followme.enabled.tooltip = Ele permite que você habilite/desabilite o recurso siga-me neste ramal
 extensions.initial_ringtime = Tempo de toque inicial
 extensions.initial_ringtime.not_ring = Não tocar
 extensions.initial_ringtime.tooltip = Tempo em segundos para ligar para o ramal principal antes de ligar para os membros da lista do siga-me
 extensions.outbound_profile = Perfil de saída
 extensions.outbound_profile.tooltip = 
-	Ele permite que você defina um perfil de saída para esta extensão. Esses perfis devem conter uma coleção de
+	Ele permite que você defina um perfil de saída para este ramal. Esses perfis devem conter uma coleção de
 	rotas de saída e seus respectivos padrões, portanto, dependendo do perfil de saída, o usuário deste ramal irá
 	ser capaz de ligar ou não para determinados números.
 extensions.validation.no_push = Você não pode habilitar as configurações de notificação push em mais de cinco dispositivos com seu plano atual.
@@ -276,11 +276,11 @@ extensions.qr.fqdn = FQDN
 extensions.qr.invalid_device = Não é possível mostrar QR para este dispositivo porque não existe ou é inválido.
 extensions.qr.private = IP Privado
 extensions.qr.public = IP Público
-extensions.send_welcome_email = Enviar Email de boas vindas.
+extensions.send_welcome_email = Enviar E-mail de boas vindas.
 extensions.show_qr = Ver QR Code
 extensions.welcome_email.invalid_device = Não é possível enviar o e-mail de boas-vindas, parece que você selecionou um dispositivo inválido
 extensions.welcome_email.no_template = Não é possível encontrar o modelo solicitado
-extensions.welcome_email.sent = O email de boas-vindas foi enviado
+extensions.welcome_email.sent = O e-mail de boas-vindas foi enviado
 extensions.push.max_reached = Você atingiu o número máximo de dispositivos com a opção "Push" ativada que sua licença atual permite.
 extensions.dynamic_external_cid = CID externo dinâmico
 extensions.dynamic_external_cid.tooltip = Quando ativado, será considerado como CID externo o identificador de chamadas enviado pelos dispositivos conectados a este ramal. Isto é útil quando os dispositivos do ramal são usados como troncos.

@@ -47,7 +47,7 @@ pjsip_settings.max_initial_qualify_time.tooltip =
 pjsip_settings.mwi_disable_initial_unsolicited = Desativar MWI inicial
 pjsip_settings.mwi_disable_initial_unsolicited.tooltip = 
 	Quando a notificação MWI não solicitada inicial é habilitada na inicialização, as notificações iniciais são enviadas em
-	comece. Se você tiver muitos endpoints (milhares) que usam MWI não solicitados, você pode querer considerar
+	comece. Se você tiver muitos Dispositivos (milhares) que usam MWI não solicitados, você pode querer considerar
 	desabilitando as notificações de inicialização inicial. Quando as notificações iniciais de MWI não solicitadas são desativadas na inicialização
 	então, as notificações começarão na próxima atualização de contato do endpoint.
 pjsip_settings.mwi_settings = Configurações MWI

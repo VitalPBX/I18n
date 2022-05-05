@@ -15,13 +15,14 @@ menu.class_of_service = Classe de serviço
 module.class_of_service = Classe de serviço
 class_of_service.private = Privado
 class_of_service.private.tooltip =
-	Define se as extensões com este CoS podem ser chamadas por outras pessoas com diferentes CoS.
+	Define se os Ramais com este CoS podem ser chamadas por outras pessoas com diferentes CoS.
 	Se estiver marcado apenas as chamadas com o mesmo CoS ou chamadas provenientes de CoS selecionadas "Chamadas Permitidas Por" campo
 	será permitido. <b>Note: Aplica-se apenas a chamadas locais</b>
 class_of_service.allowed_calls_by = Chamadas Permitidas Por
 class_of_service.allowed_calls_by.tooltip = Define a lista de CoS a ser permitida a chamada para esta CoS quando o campo "Privado" estiver marcado.
 class_of_service.billing_app = Faturamento Pré-pago
-class_of_service.billing_app.tooltip = Ele permite que você selecione um aplicativo de faturamento para avaliar as chamadas feitas por extensões com este CoS.class_of_service.validate.default = You cannot delete this class of service because is marked as default
+class_of_service.billing_app.tooltip = Ele permite que você selecione um aplicativo de faturamento para avaliar as chamadas feitas por ramais com este CoS.
+class_of_service.validate.default = Você não pode excluir esta classe de serviço porque está marcada como padrão
 class_of_service.validation.cos_duplicated = A classe de serviço "<b>{0}</b>" já está definida.
 class_of_service.validation.in_use = Esta classe de serviço está sendo usada pelo módulo "<b>{0}</b>"
 class_of_service.validate.default = Você não pode excluir esta classe de serviço porque está marcada como padrão

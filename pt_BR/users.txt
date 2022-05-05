@@ -40,7 +40,7 @@ users.change_language = Mudar idioma
 users.deleting_default = Você não pode excluir este usuário porque está marcado como usuário padrão
 users.email = E-mail
 users.email.duplicate = O endereço de e-mail fornecido já está em uso
-users.email.duplicated = O email fornecido já está em uso
+users.email.duplicated = O e-mail fornecido já está em uso
 users.email.tooltip = Endereço de e-mail do usuário a ser usado para login
 users.username.duplicated = O nome de usuário fornecido já está em uso
 users.tenants = Tenants
@@ -51,4 +51,4 @@ users.dark_mode.tooltip = Ativar / desativar o modo escuro para o tema GUI
 users.visible_by_others = Visível por outros
 users.visible_by_others.tooltip = 
 	Ele permite que você defina se este usuário estará visível para ser atualizado por outras pessoas. No entanto, os usuários administradores sempre
-	ser capaz de ver todos os usuários, mesmo se esta opção estiver desativada.
+	serão capazes de ver todos os usuários, mesmo se esta opção estiver desativada.

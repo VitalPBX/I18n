@@ -43,7 +43,7 @@ tenants.path.tooltip =
 tenants.prefix = Prefixo
 tenants.prefix.placeholder = Gerar automaticamente
 tenants.prefix.tooltip = 
-	Permite definir um prefixo a ser usado para dispositivos de extensão e outros. Se deixado em branco, um prefixo automático será
+	Permite definir um prefixo a ser usado para dispositivos de ramais e outros. Se deixado em branco, um prefixo automático será
 	ser usado
 tenants.queues = Filas
 tenants.queues.tooltip = Permite definir o número máximo de filas para este Tenant
@@ -77,7 +77,7 @@ tenants.inbound_numbers.tooltip =
 	para essas rotas de entrada do Tenant. A configuração desses números tem precedência sobre as definições de rotas de entrada
 	no inquilino principal.
 tenants.scom_devices = Dispositivos de softphone
-tenants.scom_devices.tooltip = Ele permite que você defina quantos Sonata Communicator Devices podem ser ativados neste Tenant
+tenants.scom_devices.tooltip = Ele permite que você defina quantos Dispositivos Comunicator podem ser ativados neste Tenant
 tenants.did_pattern = Padrão DID
 tenants.did_pattern.placeholder = 1NXXNXXXXXX
 tenants.outbound_profiles = Perfis de saída

@@ -10,9 +10,9 @@ ring_group.extension.tooltip = Número para discar para alcançar este serviço.
 ring_group.general = Geral
 ring_group.invalid.already_exists = Número de Grupo de Chamada Inválido {0}. O número está em uso pelo módulo {1}.
 ring_group.last_destination = Último destino
-ring_group.last_destination.tooltip = Destino a ser executado se nenhuma das extensões foi atingida
+ring_group.last_destination.tooltip = Destino a ser executado se nenhuma dos ramais foi atingida
 ring_group.list = Ramais
-ring_group.list.tooltip = Lista de extensão para este grupo de toques.
+ring_group.list.tooltip = Lista de ramais para este grupo de toques.
 ring_group.mod_dest = Módulo de Destino
 ring_group.music_group_id = Música em espera
 ring_group.music_group_id.tooltip = Esta opção especifica qual música em espera da classe para sugerir ao canal de mesmo nível quando este canal coloca o peer em espera.
@@ -49,10 +49,10 @@ ring_group.answerchannel.tooltip =
     Se definido como "sim", as chamadas recebidas para esta aplicação serão atendidas antes de começar a tocar a lista
     de números definida aqui. Configurar isto para "não" pode fazer com que alguns áudios ou a música em espera não
     sejam tocados.
-ring_group.skip_busy = Saltar extensões ocupadas
-ring_group.skip_busy.tooltip = Se a resposta for sim, qualquer extensão listada com um estado de ocupado será ignorada.
+ring_group.skip_busy = Pular ramais ocupados
+ring_group.skip_busy.tooltip = Se a resposta for sim, qualquer ramal listada com um estado de ocupado será ignorada.
 ring_group.no_release = Sem liberação
 ring_group.no_release.tooltip =
-    Ele adiciona a bandeira de não liberação (\n) aos membros do grupo do anel; isto evita a criação de múltiplos itens
+    Ele adiciona a bandeira de não liberação aos membros do grupo do anel; isto evita a criação de múltiplos itens
     no CDR; no entanto, alguns telefones podem apresentar problemas na transferência quando esta opção é ativada;
     portanto, você pode desativar esta opção quando necessário.

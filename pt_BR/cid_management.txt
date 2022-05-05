@@ -16,11 +16,11 @@ cid_management.prepend_to_cid_number = Prefixo
 cid_management.prepend_to_cid_number.help = Prefixo a ser adicionado no início do número de identificação do chamador original
 cid_management.append_to_cid_number = Acrescentar
 cid_management.append_to_cid_number.help = Sufixo a ser adicionado após o número de identificação do chamador original
-cid_management.strip_off = pular / Comprimento
+cid_management.strip_off = Pular / Comprimento
 cid_management.strip_off.help = Modifique o número CID de entrada iniciando a manipulação de um número de dígitos do início ou do final do número CID, mantendo qualquer número dos dígitos originais.
 cid_management.skip = Pular
 cid_management.skip.help = especifique onde começar a modificar o número CID. Um valor de salto positivo de x ignorará os primeiros x dígitos. Um valor negativo de x irá iniciar x dígitos antes do final do número CID de entrada.
-cid_management.length = Pular
+cid_management.length = Comprimento
 cid_management.length.help = determina o comprimento do número CID modificado. Se o comprimento for zero, todos os dígitos após a posição inicial serão usados. Defina um comprimento negativo de x para descartar os dígitos finais x.
 cid_management.v.cid.in_use = Não é possível remover o modificador CID. Está atualmente em uso pelo módulo {0} ({1}).
 cid_management.v.prepend_to_cid_name = "Preceder" campo em configurações de nome CID
@@ -62,10 +62,10 @@ cid_management.query.tooltip =
 	A <b>[CIDNUM]</b> variável será substituída pelo número do chamador, e o <b>[CIDNAME]</b> variável será substituída pelo nome do chamador. <br><br>
 	A consulta deve retornar o <b>cidname</b> & <b>cidnumber</b> colunas para realizar as modificações CID, em
 	outro caso, a informação CID não será modificada.
-cid_management.type = Source {0}
+cid_management.type = Origem {0}
 cid_management.type.option.api = HTTP/HTTPS Request
 cid_management.type.option.mysql = MySQL
-cid_management.type.option.static = Static
+cid_management.type.option.static = Estático
 cid_management.type.tooltip = Permite definir de onde obter as informações para modificar o nome / número CID do chamador
 cid_management.url = URL {0}
 cid_management.url.tooltip = 

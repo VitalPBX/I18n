@@ -1,5 +1,5 @@
 dynamic_routing = Roteamento Dinâmico
-dynamic_routing.actions = Actions
+dynamic_routing.actions = Ações
 dynamic_routing.calldate = Data e hora da chamada
 dynamic_routing.called = Número Chamado
 dynamic_routing.completed = Concluído
@@ -19,7 +19,7 @@ dynamic_routing.expiration_time = Data de validade
 dynamic_routing.expiration_time.tooltip = 
 	Permite definir por quanto tempo os registros da lista de roteamento dinâmico serão conservados, antes de serem
 	excluído automaticamente
-dynamic_routing.extension = Numero do Ramal
+dynamic_routing.extension = Número do Ramal
 dynamic_routing.general = {vitalpbx.general}
 dynamic_routing.list = Lista
 dynamic_routing.only_missed_calls = Manter apenas chamadas perdidas

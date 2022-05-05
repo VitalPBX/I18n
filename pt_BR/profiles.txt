@@ -15,7 +15,7 @@ profiles_general_section = Geral
 profiles_iax_description = Descrição
 profiles_iax_description_tooltip = Descrição para este perfil.
 profiles_iax_general_section = Geral
-profiles_iax_host = Hospedeiro
+profiles_iax_host = Enderço do servidor
 profiles_iax_host_invalid = Nenhum host especificado.
 profiles_iax_host_tooltip = Nome do host ou endereço do dispositivo.
 profiles_iax_name = Nome
@@ -69,7 +69,7 @@ profiles_sip_directmedia_yes = sim
 profiles_sip_encryption = Criptografia RTP
 profiles_sip_encryption_tooltip = Permite a criptografia de voz sRTP.
 profiles_sip_general_section = Geral
-profiles_sip_host = Hospedeiro
+profiles_sip_host = Enderço do servidor
 profiles_sip_host_invalid = Nenhum host especificado.
 profiles_sip_host_tooltip = Nome do host ou endereço do dispositivo.
 profiles_sip_icesupport = GELO
@@ -156,7 +156,7 @@ profiles_pjsip_rtcp_mux = RTCP Mux
 profiles_pjsip_rtcp_mux_tooltip =
 	Com esta opção ativada, o Asterisk tentará negociar o uso do atributo "rtcp-mux" em todos os fluxos de mídia.
 	Isso resultará em RTP e RTCP sendo enviados e recebidos na mesma porta. Isso muda a lógica de desmultiplexação para
-	o aplicativo em vez da camada de transporte. Essa opção é útil ao interoperar com os terminais WebRTC
+	o aplicativo em vez da camada de transporte. Essa opção é útil ao interoperar com os Dispositivos WebRTC
 	desde que eles determinem o uso desta opção.
 profiles_pjsip_media_use_received_transport = Transporte de mídia recebido
 profiles_pjsip_media_use_received_transport_tooltip = Determina se res_pjsip usará o transporte de mídia recebido na oferta SDP na resposta correspondente SDP.
@@ -176,7 +176,7 @@ profiles_pjsip_dtls_setup_active = Ativo
 profiles_pjsip_dtls_setup_passive = Passiva
 profiles_pjsip_dtls_setup_actpass = Passagem
 profiles_pjsip_network_section = Rede
-profiles_pjsip_media_section = meios de comunicação
+profiles_pjsip_media_section = Meios de comunicação
 profiles_pjsip_dtls_section = DTLS
 profiles_pjsip_name_invalid = Nenhum nome de perfil especificado.
 profiles_pjsip_none = -- Nenhum --
@@ -250,11 +250,10 @@ profiles_pjsip_max_audio_streams_tooltip =
 profiles_pjsip_max_video_streams = Max Video Streams
 profiles_pjsip_max_video_streams_tooltip = 
 	Esta opção impõe um limite no máximo de streams de vídeo negociados simultâneos permitidos para o terminal.
-profiles_pjsip_support_path = Support Path
+profiles_pjsip_support_path = Suporte a Cabeçalhos
 profiles_pjsip_support_path_tooltip = 
-	Quando esta opção está habilitada, os cabeçalhos de caminho nas solicitações de registro serão salvos e seu conteúdo será usado em
-	Cabeçalhos de rota para solicitações de saída fora do diálogo e cabeçalhos de caminho para respostas 200 de saída. Suporte de caminho irá
-	também ser indicado no cabeçalho Suportado.
+	Quando essa opção estiver habilitada, as solicitações REGISTER de saída anunciarão suporte para cabeçalhos de caminho para que os proxies 
+	intervenientes possam adicionar ao cabeçalho de caminho conforme necessário.
 profiles_pjsip_outbound_proxy = Outbound Proxy
 profiles_pjsip_outbound_proxy_tooltip = URI SIP completo do proxy de saída usado para enviar solicitações. por exemplo.: <b>sip:192.168.0.1\;lr</b>
 profiles_pjsip_transport_auto = Auto
