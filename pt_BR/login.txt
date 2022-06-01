@@ -14,3 +14,4 @@ login.no_db = Espere, ainda instalando banco de dados
 login.tenant = Tenant
 login.tenant_name = Nome do Tenant
 login.username.required = Por favor insira seu nome de usuário
+login.title = Acesse a sua conta

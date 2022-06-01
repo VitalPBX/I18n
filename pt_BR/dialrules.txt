@@ -26,3 +26,5 @@ dialrules.no_rules = Nenhum padrão de regra de discagem válido foi fornecido
 dialrules.used_by_cos = Este item não pode ser excluído porque está sendo usado para uma ou mais <b> Classes de serviços </b>
 dialrules.custom_rules_context = Contexto de regras personalizadas
 dialrules.custom_rules_context.tooltip = Ele permite que você inclua um contexto personalizado com suas próprias regras avançadas
+dialrules.internal_rules = Regras de Restrição Interna
+dialrules.pattern.placeholder = {dialrules.number.placeholder}
