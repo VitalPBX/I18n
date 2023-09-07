@@ -1,6 +1,7 @@
-menu.speed_dialing = Speed Dialing
-module.speeddial = Speed Dialing
 speeddial = Speed Dialing
+menu.speed_dialing = {speeddial}
+module.speeddial = {speeddial}
+menu.speeddial = {speeddial}
 speeddial.class_of_service_id = Class of Service
 speeddial.class_of_service_id.tooltip = Class of Service to use for dial this speed dial
 speeddial.description = Description

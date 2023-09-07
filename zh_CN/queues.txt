@@ -176,9 +176,3 @@ queues.queue_callback.tooltip =
 	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
 	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
 	the selected queue callback's item, also, the IVR feature gets disabled for this queue.
-queues.alertinfo = {inbound_route.alertinfo}
-queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
-queues.answerchannel = Answer Channel
-queues.answerchannel.tooltip = 
-	It defines if the calls must be answered before executing the Queue application. If set to "no", the music on hold,
-	and other audios might no be played.

@@ -56,3 +56,4 @@ network_settings.nmcli_not_installed =
 	The network cannot be configured because the command <b>"nmcli"</b> is not present on your current installation.
 	This could be happening because your VPS provider prohibits this command by default or because of your server
 	doesn't have the package <b>"NetworkManager"</b> installed.
+network_settings.disable = The Network Management from the PBX GUI is deliberately disabled.

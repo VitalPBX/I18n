@@ -1,2 +1,2 @@
-un = n==1
-autre = n!=1
+one = n==1
+other = n!=1

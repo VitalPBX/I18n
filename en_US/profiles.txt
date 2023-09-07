@@ -265,3 +265,25 @@ profiles_pjsip_minimum_expiration = Minimum Expiration
 profiles_pjsip_minimum_expiration_tooltip = Minimum time to keep a peer with an explicit expiration. Time in seconds.
 profiles_pjsip_transport_id = {profiles_pjsip_transport}
 profiles_pjsip_transport_id_tooltip = {profiles_pjsip_transport_tooltip}
+profiles_in_use_by = Cannot delete this profile because is being used by some extensions' devices.
+profiles_pjsip_direct_media_glare_mitigation = Direct Media Glare Mitigation
+profiles_pjsip_direct_media_glare_mitigation_tooltip =
+    Allows for direct media only to be sent on certain call directions in order to prevent glare situations.
+profiles_pjsip_direct_media_glare_mitigation_none = {none}
+profiles_pjsip_direct_media_glare_mitigation_outgoing = Outgoing
+profiles_pjsip_direct_media_glare_mitigation_incoming = Incoming
+profiles_pjsip_rtp_keepalive = RTP Keepalive
+profiles_pjsip_rtp_keepalive_tooltip =
+    At the specified interval(in seconds), Asterisk will send an RTP comfort noise frame. This may be useful for
+    situations where Asterisk is behind a NAT or firewall and must keep a hole open in order to allow for media to
+    arrive at Asterisk.
+profiles_pjsip_rtp_timeout = RTP Timeout
+profiles_pjsip_rtp_timeout_tooltip =
+    This option configures the number of seconds without RTP (while off hold) before considering a channel as dead.
+    When the number of seconds is reached the underlying channel is hung up.
+profiles_pjsip_rtp_timeout_hold = RTP Timeout Hold
+profiles_pjsip_rtp_timeout_hold_tooltip =
+    This option configures the number of seconds without RTP (while on hold) before considering a channel as dead.
+    When the number of seconds is reached the underlying channel is hung up.
+profiles_pjsip_send_connected_line = Send Connected Line
+profiles_pjsip_send_connected_line_tooltip = When set to "Yes," Asterisk will send connected line updates to the endpoints associated with this profile.

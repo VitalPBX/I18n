@@ -57,3 +57,4 @@ select_country = -- Selecione o País --
 select_state = -- Selecione o Estado --
 continue = Continuar
 tenant = Tenant
+page = Página

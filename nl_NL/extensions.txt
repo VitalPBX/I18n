@@ -284,12 +284,3 @@ extensions.show_qr = Show QR Code
 extensions.welcome_email.invalid_device = Cannot send the welcome email, looks like you've selected an invalid device
 extensions.welcome_email.no_template = Cannot find the requested template
 extensions.welcome_email.sent = The welcome email has been sent
-extensions.dynamic_external_cid = Dynamic External CID
-extensions.dynamic_external_cid.tooltip = 
-	When enabled, it will take as external CID the caller id sent by the devices connected to this extension. This is
-	useful when the extension' devices are used as trunks.
-extensions.internal_numbers_confirmation = Prompt Internal Callees
-extensions.internal_numbers_confirmation.tooltip = 
-	It allows you to define if the internal' called parties will be asked whether they wish to accept or not the incoming
-	call when the "Prompt Callee" option is enabled.
-extensions.push.max_reached = You've reached the maximum number of devices with the "Push" option enabled that your current license allows.

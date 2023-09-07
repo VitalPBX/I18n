@@ -52,7 +52,7 @@ voicemail_general.operator_destination.tooltip = Destination to execute on press
 voicemail_general.no_operator_destination = The operator feature has been enabled but no destination has been selected
 voicemail_general.fromstring = From Name
 voicemail_general.fromstring.tooltip = Name that will appear in emails from your PBX
-voicemail_general.fromstring.placeholder = Asterisk PBX
+voicemail_general.fromstring.placeholder = PBX
 voicemail_general.mp3_attachment = MP3 Attachments
 voicemail_general.mp3_attachment.tooltip = If set to yes, voicemail attachment will be sent in mp3 format
 voicemail_general.locale = Locale
@@ -60,3 +60,18 @@ voicemail_general.locale.tooltip =
 	Set the locale for generation of the date/time strings (make sure the locales are installed in your operating system).
 	If you mix different locales for different users you should avoid words in the email date format specification, e.g.:
 	<b>%A, %d %B %Y, %H:%M:%S</b>
+voicemail_general.emaildateformat = Email date format
+voicemail_general.emaildateformat.tooltip = It sets the date format on outgoing mails.
+voicemail_general.emaildateformat.day_of_week = Day of week (Saturday, Sunday, ...)
+voicemail_general.emaildateformat.month_name = Month name (January, February, ...)
+voicemail_general.emaildateformat.numeric_day_of_month = The day of the month (01, 02, ...)
+voicemail_general.emaildateformat.year = Year
+voicemail_general.emaildateformat.12-hour = Hour, 12-hour clock
+voicemail_general.emaildateformat.24-hour = Hour, 24-hour clock
+voicemail_general.emaildateformat.minutes = Minutes
+voicemail_general.emaildateformat.seconds = Seconds
+voicemail_general.emaildateformat.am_pm = AM or PM
+voicemail_general.emaildateformat.full_time_24-hour = The time in 24-hour notation
+voicemail_general.emaildateformat.full_time_12-hour = The time in 12-hour notation
+voicemail_general.emaildateformat.timezone = The timezone name or abbreviation
+voicemail_general.emaildateformat.numeric_month = The numeric representation of a month with leading zeros.

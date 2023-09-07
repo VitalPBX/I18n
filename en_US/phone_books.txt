@@ -15,6 +15,7 @@ phone_books.url.tooltip = URL to load this phonebook in any supported phone
 phone_books.source_type = Type
 phone_books.source_type.internal = Internal
 phone_books.source_type.external = External
+phone_books.source_type.external_crm = External (CRM)
 phone_books.source_type.tooltip =
     It allows you to define if you will use internal numbers (Queues, Conferences, Extensions, etc) or import external
     numbers to your PBX
@@ -59,3 +60,7 @@ phone_books.home_number = Home Number
 phone_books.mobile_number.tooltip = The mobile phone number that belongs to this contact
 phone_books.home_number.tooltip = The home number that belongs to this contact
 phone_books.export = Export Contacts
+phone_books.url_copied = The URL has been copied to the clipboard
+phone_books.fax = Fax
+phone_books.fax.tooltip = The fax number that belongs to this contact
+phone_books.validation.delete_with_crm = You cannot delete a Phonebook associated with a CRM!

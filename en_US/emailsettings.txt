@@ -52,3 +52,6 @@ emailsettings.validation.invalid_port = Port is invalid
 menu.email_settings = Email Settings
 module.emailsettings = Email Settings
 emailsettings.from_address = From Address
+emailsettings.tls.yes = {vitalpbx.yes}
+emailsettings.tls.no = {vitalpbx.no}
+emailsettings.tls.starttls = STARTTLS

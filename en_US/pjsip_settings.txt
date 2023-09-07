@@ -92,3 +92,9 @@ pjsip_settings.endpoint_identifier_order.header = Header
 pjsip_settings.ms_signaling_address = MS Teams Domain
 pjsip_settings.ms_signaling_address.tooltip = The domain to sent when calling through a trunk with the transport "TLS+MSTeams." e.g.: <b>sip.mypbx.com</b>
 pjsip_settings.ms_signaling_address.invalid.msg = The provided MS domain is invalid. Please provide a valid FQDN.
+pjsip_settings.allow_wildcard_certs = Allow Wildcard Certs
+pjsip_settings.allow_wildcard_certs.tooltip =
+    In combination with "Verify Server", when enabled allow use of wildcards, i.e. '.' in certs for common,and subject
+    alt names of type DNS for TLS transport types. Names must start with the wildcard. Partial wildcards, e.g. 'f.example.com'
+    and 'foo..com' are not allowed. As well, names only match against a single level meaning '.example.com' matches 'foo.example.com',
+    but not 'foo.bar.example.com'.

@@ -102,9 +102,12 @@ extensions.job_title.tooltip = Specifies a job title for a contact.
 extensions.location = Location
 extensions.location.tooltip = Sets a location for a contact, e.g. "Las Vegas".
 extensions.mohsuggest = Music on Hold Class
-extensions.mohsuggest.tooltip = This option specifies which music on hold class to suggest to the peer channel when this channel places the peer on hold.
+extensions.mohsuggest.tooltip =
+    This option specifies which music on hold class to suggest to the peer channel when placing an outbound call on hold.
+    This setting will not override the MOH setting specified in trunk settings. For this setting to apply to outbound
+    external calls, the Music on Hold dropdown in the trunks module must be set to "None"; otherwise, it will only apply to internal calls.
 extensions.music_group_id = Music on Hold Class
-extensions.music_group_id.tooltip = This option specifies which music on hold class to suggest to the peer channel when this channel places the peer on hold.
+extensions.music_group_id.tooltip = {extensions.mohsuggest.tooltip}
 extensions.name = Name
 extensions.name.tooltip = Name to identify this extension. This is generally the end user's name.
 extensions.new_device = ---New---
@@ -177,8 +180,8 @@ extensions.voicemail = Voicemail
 extensions.voicemail.busy = %s - %s (Busy)
 extensions.voicemail.direct = %s - %s (Direct)
 extensions.voicemail.unavailable = %s - %s (Unavailable)
-extensions.deny.invalid = Deny is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
-extensions.permit.invalid = Permit is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
+extensions.deny.invalid = The IP "{0}" in the field "Deny" is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
+extensions.permit.invalid = The IP "{0}" in the field "Permit" is invalid. Please type IP address with Subnet mask. You may use CIDR notation. (Example: 192.168.40.38/16)
 extensions.name.invalid = Extension Name %s cannot contain the "," character
 module.extensions = Extensions
 extensions.dial_profile_id = Dial Profile
@@ -260,7 +263,7 @@ extensions.followme.enabled.tooltip = It allows you to enable/disable the follow
 extensions.email_multiple = Email Addresses
 extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
 extensions.vitxi_clients.max_reached = You've reached the maximum number of Mobile/WebRTC clients allowed for your current license.
-extensions.push.max_reached = You've reached the maximum number of devices with the "Push" option enabled that your current license allows.
+extensions.push.max_devices_with_qr = You've reached the maximum number of devices with the "QR" option enabled that your current license allows.
 extensions.show_qr = Show QR Code
 extensions.qr.invalid_device = Cannot show QR for this device because doesn't exist or is invalid.
 extensions.send_welcome_email = Send Welcome Email
@@ -293,3 +296,26 @@ extensions.remove_device = Remove Device
 extensions.invalid.remove_new_device = No device is selected.
 extensions.device_removed = The device has been removed successfully.
 extensions.trunk_duplicated = The provided user device "{0}" is being used by the trunk "{1}."
+extensions.qr.vpbx_connect = VitalPBX Connect
+extensions.busy_greeting_id = Busy Prompt
+extensions.busy_greeting_id.tooltip =
+    It allows you to define the busy message that will be played when reaching voicemail on busy mode. When set to "None,"
+    the busy message will be picked from the system.
+extensions.unav_greeting_id = Unavailable Prompt
+extensions.unav_greeting_id.tooltip =
+    It allows you to define the unavailable message that will be played when reaching voicemail on unavailable mode. When set to "None,"
+    the unavailable message will be picked from the system.
+extensions.notification.external = External
+extensions.notification.internal = Internal
+extensions.notification.queues = Queues
+extensions.notification.ring_groups = Ring Groups
+extensions.notify_missed_calls = Notify Missed Calls
+extensions.notify_missed_calls.tooltip =
+    Select one or multiple options to send an email when the owner of this extension misses a call.<br><br>
+    <b>{extensions.notification.external}: </b> It will send an email notification if an external call is missed. Nonetheless, no email will be sent if the call reaches the Voicemail. <br>
+    <b>{extensions.notification.internal}: </b> It will send an email notification if an internal call is missed. Nonetheless, no email will be sent if the call reaches the Voicemail. <br>
+    <b>{extensions.notification.queues}: </b> It will send an email notification when a call from a Queue is missed. <br>
+    <b>{extensions.notification.ring_groups}: </b> It will send an email notification when a call from a Ring Group is missed. The extension's owner will receive a missed call notification email, even if the call was answered elsewhere. <br>
+extensions.sms_number = SMS Number
+extensions.sms_number.tooltip =
+    A number from an SMS provider for sending and receiving SMS on the attached devices of this extension.

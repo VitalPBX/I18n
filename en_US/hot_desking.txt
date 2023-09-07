@@ -59,8 +59,8 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Profile
 hot_desking.profile_id.tooltip = Profile with common parameters for the technology selected.
-hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
+hot_desking.generate_qr = Generate Mobile QR
+hot_desking.generate_qr.tooltip = If enabled, you will be able to scan the QR code with the <b>{0}</b> application
 hot_desking.dispatchable_location = Dispatchable Location
 hot_desking.dispatchable_location.tooltip =
 	It allows you to select or define the dispatchable location for this device. This information will be used
@@ -68,5 +68,7 @@ hot_desking.dispatchable_location.tooltip =
 hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
 hot_desking.vitxi_client = WebRTC Client
 hot_desking.vitxi_client.tooltip =
-	If enabled, this device could be used for the Vitxi WebRTC application.
+	If enabled, this device could be used for the WebRTC application.
 hot_desking.dtmfmode.auto_info.tooltip = DTMF is sent as RFC 4733 if the other side supports it or as SIP INFO if not. (PJSIP Only)
+hot_desking.mobile_client = Mobile Client
+hot_desking.mobile_client.tooltip = If set to yes, it will allow you to generate a QR code to configure this endpoint with the Connect app.

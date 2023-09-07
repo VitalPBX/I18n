@@ -75,5 +75,3 @@ backup_and_restore.validations.no_backup_data = No se recibió suficiente inform
 backup_and_restore.old_backup = 
 	Las copias de seguridad de la versión {0} no se pueden restaurar en {1} con versiones superiores a {2}.
 	Su copia de seguridad debe ser al menos de una versión superior a {3}
-backup_and_restore.addons = Add-ons
-backup_and_restore.addons.tooltip = Le permite seleccionar los Add-ons en los que se realizará una copia de seguridad de la base de datos.

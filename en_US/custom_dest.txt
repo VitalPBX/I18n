@@ -9,3 +9,7 @@ custom_dest.destination.tooltip = Internal or External Number to Dial
 custom_dest.general = General
 menu.custom_destinations = Custom Destinations
 module.custom_dest = Custom Destinations
+custom_dest.cid = {disa.cid}
+custom_dest.cid.tooltip = Custom Caller ID to set up when using this custom destination.
+custom_dest.cid_name = {disa.cid_name}
+custom_dest.cid_number = {disa.cid_number}

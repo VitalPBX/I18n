@@ -1,4 +1,4 @@
-dashboard.asterisk = Asterisk
+dashboard.asterisk = PBX Engine
 dashboard.asterisk_uptime = Tempo de atividade do asterisk
 dashboard.available = acessível
 dashboard.current_time = Hora atual
@@ -24,7 +24,7 @@ dashboard.free_space = Espaço livre
 dashboard.last_minute = Último minuto
 dashboard.last_five_minutes = Últimos cinco minutos
 dashboard.last_fifteen_minutes = Últimos quinze minutos
-dashboard.asterisk_version = Asterisk
+dashboard.asterisk_version = {dashboard.asterisk }
 dashboard.conferences = Conferencias
 dashboard.cpu = CPU
 dashboard.cpu_cores = CPU Cores

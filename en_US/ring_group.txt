@@ -54,3 +54,6 @@ ring_group.no_release = No Release
 ring_group.no_release.tooltip =
 	It adds the no release flag (\n) to the ring group members; this avoids creating multiple items on CDR; nevertheless,
 	some phones can present issues on the transfer when this option is enabled; therefore, you can disable this option when required.
+ring_group.announ_id = Announcement
+ring_group.announ_id.tooltip = Optional audio to play before ringing the members of this ring group.
+ring_group.validation.loop_detected = To avoid loops, you cannot use as the last destination the same ring group.

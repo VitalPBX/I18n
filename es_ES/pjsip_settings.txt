@@ -73,20 +73,8 @@ pjsip_settings.unidentified_request_period.tooltip =
 pjsip_settings.unidentified_request_prune_interval = Intervalo de Eliminación de Solicitudes no Identificadas
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
 		El intervalo en el que las solicitudes no identificadas son anteriores al doble del período de solicitud no identificado se eliminan.
-pjsip_settings.allow_reload = Permitir la Recarga de Transportes
+pjsip_settings.allow_reload = Allow Transports Reload
 pjsip_settings.allow_reload.tooltip = 
-	Define si los transportes PJSIP se recargarán cuando se recargue res_pjsip. Se recomienda establecer esta opción en "no"
-	porque la recarga de un transporte puede interrumpir las llamadas en curso..
-pjsip_settings.language.tooltip = Idioma predeterminado que se utilizará para los canales creados por los puntos finales PJSIP.
-pjsip_settings.endpoint_identifier_order = Orden de identificador de punto final.
-pjsip_settings.endpoint_identifier_order.anonymous = Anónimo
-pjsip_settings.endpoint_identifier_order.auth_username = Nombre de Usuario de Autenticación
-pjsip_settings.endpoint_identifier_order.header = Encabezamiento
-pjsip_settings.endpoint_identifier_order.ip = IP
-pjsip_settings.endpoint_identifier_order.tooltip = 
-	Esta opción permite definir una lista de nombres de identificadores de puntos finales. El orden de la lista es el orden especificado
-	en el que los identificadores nombrados verifican la solicitud. Predeterminado: <b>"IP,Username,Anonymous"</b>
-pjsip_settings.endpoint_identifier_order.username = Nombre de Usuario
-pjsip_settings.ms_signaling_address = Dominio de MS Teams
-pjsip_settings.ms_signaling_address.invalid.msg = El dominio de MS proporcionado no es válido. Proporcione un FQDN válido.
-pjsip_settings.ms_signaling_address.tooltip = El dominio a enviar al llamar a través de un tronco con el transporte "TLS+MSTeams". por ejemplo: <b>sip.mypbx.com</b>
+	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
+	because reloading a transport may disrupt in-progress calls.
+pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints

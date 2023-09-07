@@ -45,5 +45,3 @@ branding.addon.url_prefix.tooltip =
 	Por ejemplo: si establece el prefijo en <b> "{1}" </b>, significa que debe acceder a la aplicación de la siguiente manera <b>http(s)://YOUR_IP/{1}</b>
 branding.addons = Complementos
 branding.url_prefix = Prefijo de URL
-branding.desktop_logo_dark = Desktop Logo (Dark Mode)
-branding.mobile_logo_dark = Mobile Logo (Dark Mode)

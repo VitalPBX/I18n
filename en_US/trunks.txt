@@ -49,7 +49,9 @@ trunks.insecure.port_invite = Port, Invite
 trunks.insecure.port_invite.tooltip = The combination is the minimum security since no checking or port check or authentication to the INVITE message type.
 trunks.insecure.tooltip = Allows relaxing authentication of incoming SIP requests.
 trunks.music_group_id = Music on Hold
-trunks.music_group_id.tooltip = This option specifies which music on hold class to suggest to the peer channel when this channel places the peer on hold.
+trunks.music_group_id.tooltip =
+    This option specifies which music on hold class to suggest to the peer channel when placing an outbound call on hold.
+    Enabling this will override the MOH setting specified in the advanced extension settings for external outbound calls.
 trunks.outgoing_defaultuser = Remote Username
 trunks.outgoing_defaultuser.tooltip = Authentication username for remote server
 trunks.outgoing_fromdomain = From Domain
@@ -271,3 +273,14 @@ profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
 trunks.record = {vitalpbx.record}
 trunks.record.tooltip = If set to yes, all the calls using this trunk will be recorded. It applies to outgoing calls only.
 trunks.validation.ext_device_duplicated = The provided trunk username "{0}" is already used by the extension device "{1}."
+trunks.contact_header = Contact Header
+trunks.contact_header.tooltip = On outgoing requests, force the user portion of the Contact header to this value.
+trunks.trust_id_inbound = Trust ID Inbound
+trunks.trust_id_inbound.tooltip =
+    This option determines whether Asterisk will accept identification from the endpoint from headers such as P-Asserted-Identity or Remote-Party-ID header.
+    This option applies both to calls originating from the endpoint and calls originating from Asterisk. If no, the configured Caller-ID will always be used as
+    the identity for the endpoint.
+trunks.trust_id_outbound = Trust ID Outbound
+trunks.trust_id_outbound.tooltip = When set to "Yes," the private identification information (PAI & RPI) will get sent to the provider when sending/making anonymous calls.
+trunks.inband_progress = Inband Progress
+trunks.inband_progress.tooltip = When set to "Yes," the system  will indicate ringing using inband progress.

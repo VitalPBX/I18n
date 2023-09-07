@@ -105,9 +105,11 @@ queues.position_annoucements = Position Announcements
 queues.prefix = CID Name Prefix
 queues.prefix.invalid = Please write a valid CID Name Prefix. underscore, dash and alphanumeric values are allowed
 queues.prefix.tooltip = Prefix to append to this queue, typically indicate to the agents from which queue the call comes.
-queues.queue_timeout = Queue Timeout
+queues.queue_timeout = Queue Ring Time
 queues.queue_timeout.placeholder = Value in seconds
-queues.queue_timeout.tooltip = Will cause the queue to fail out after a specified number of seconds.
+queues.queue_timeout.tooltip =
+    It represents the absolute amount of time to allow a caller to stay in the queue before the caller is removed from the queue.
+    When the ringing time is set to zero, the callers will remain in the queue indefinitely until some agent answers the call or the callers hang up.
 queues.queue_vip_list_id = VIP Customers
 queues.queue_vip_list_id.tooltip = List of VIP Customers, these customers have more priority in this queue.
 queues.relative_periodic_announce = Relative Periodic Announcement
@@ -141,13 +143,9 @@ queues.strategy.rrordered.tooltip = Same as rrmemory, except the queue member or
 queues.strategy.tooltip = Define the strategy to ring this queue.
 queues.strategy.wrandom = Weight Random
 queues.strategy.wrandom.tooltip = Rings random interface, but uses the member's penalty as a weight when calculating their metric.
-queues.timeoutpriority = Timeout Priority
-queues.timeoutpriority.app = App
-queues.timeoutpriority.conf = Conf
-queues.timeoutpriority.tooltip = Used to control the priority of the two possible timeout options specified for a queue. The Queue() application has a timeout value that can be specified to control the absolute time a caller can be in the queue. The timeout value in queues.conf controls the amount of time (along with retry) to ring a member for. Sometime these values conflict, so you can control which value takes precedence.
 queues.timeoutrestart = Timeout Restart
 queues.timeoutrestart.tooltip = If set to yes, resets the timeout for an agent to answer if either a BUSY or CONGESTION status is received from the channel. This can be useful if the agent is allowed to reject or cancel a call.
-queues.timeout = Member Timeout
+queues.timeout = Member Ring Time
 queues.timeout.placeholder = Value in seconds
 queues.timeout.tooltip = Specifies the number of seconds to ring a member's device.
 queues.type = Member Type
@@ -185,3 +183,11 @@ queues.ring_unavailable = Ring Unavailable Agents
 queues.ring_unavailable.tooltip =
 	When set to yes, the queue will deliver calls to agents even if they are unregistered from the PBX. Enabling this
 	feature could be helpful when your agents have their extensions diverted to their mobile, for instance.
+queues.force_moh = Force Music on Hold
+queues.force_moh.tooltip =
+    When set to yes, it will override the music on hold for agents and any destination that agent uses to transfer the caller.
+queues.force_longest_waiting_caller = Force Longes Waiting Caller
+queues.force_longest_waiting_caller.tooltip =
+    When set to yes, the queue app will make sure callers are offered in order (longest waiting first), even for callers
+    across multiple queues. Before a call is offered to an agent, an additional check is made to see if the agent
+    is a member of another queue with a call that's been waiting longer. If so, the current call is not offered to the agent.

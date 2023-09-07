@@ -1,3 +1,4 @@
+menu.multi_tenant = Multi-Tenant
 module.tenants = Tenants
 menu.tenants = {module.tenants}
 tenants.general = General
@@ -121,3 +122,14 @@ tenants.calls_limit.placeholder = No Limit
 tenants.calls_limit.invalid = You have provided an invalid calls limit value
 tenants.main = (Main)
 tenants.duplicated_did = The DID "{0}" is already in use by tenant "{1}."
+tenants.vpbx_devices = VitalPBX Connect Devices
+tenants.vpbx_devices.tooltip = It allows you to define the number of VitalPBX Connect devices that the users of this tenant can add.
+tenants.calls_sms_routing = Calls & SMS Routing
+tenants.sms_numbers = SMS Numbers
+tenants.sms_numbers.tooltip = It allows you to share the SMS numbers configured in Messaging Providers with tenants.
+tenants.disable_trunks_prefix = Disable Trunks Prefix
+tenants.disable_trunks_prefix.tooltip =
+    Setting this parameter to "Yes" will disable the append of the Tenant's prefix to the trunk devices; this can be
+    useful if you need to create more than one trunk(on different tenants) from the same provider using the "Username Auth" method.<br><br>
+    <b>Warning:</b> disabling the trunk prefix for multiple tenants might lead to device name duplicity(trunks with the
+    same Local Username); eventually, this might cause the collapse of the Asterisk service.

@@ -29,3 +29,5 @@ notification_templates.invalid_email = You have provided an invalid email addres
 notifications_templates.no_subject = You have not provided a valid subject.
 notifications_templates.no_email_body = You have not provided a valid email body.
 notifications_templates.return = Return
+notification_templates.mobile_account = Mobile Account
+notification_templates.missed_call = Missed Call

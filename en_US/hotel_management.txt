@@ -1,0 +1,44 @@
+rooms_statuses = Room Status Codes
+minibar_items = Minibar Items
+pms_settings = General Settings
+menu.hotel = Hotel Management
+menu.rooms_statuses = {rooms_statuses}
+module.rooms_statuses = {rooms_statuses}
+menu.minibar_items = {minibar_items}
+module.minibar_items = {minibar_items}
+feature_code.hotel_services = Hotel Services
+feature_code.mini_bar = Minibar
+rooms_statuses.general = {vitalpbx.general}
+rooms_statuses.extension = {extension}
+rooms_statuses.extension.tooltip = The number to dial for updating the room status.
+rooms_statuses.description = {description}
+rooms_statuses.description.tooltip = A Short description to identify this item.
+rooms_statuses.status = Status Code
+rooms_statuses.status.tooltip = The code to be sent to the PMS.
+minibar_items.general = {vitalpbx.general}
+minibar_items.description = {description}
+minibar_items.description.tooltip = {rooms_statuses.description.tooltip}
+minibar_items.extension = Extension
+minibar_items.extension.tooltip = Extension to dial for adding a minibar item to the room consumption.
+minibar_items.code = Code
+minibar_items.code.tooltip = The code to be sent to the PMS.
+minibar_items.extension.validation.duplicated = Already exists another item with the same extension number.
+minibar_items.code.validation.duplicated = Already exists another item with the same code.
+minibar_items.announ = Announcement
+minibar_items.announ.tooltip = Audio to play after adding the minibar items to the room consumption. By default, it plays a beep sound.
+rooms_statuses.announ = {minibar_items.announ}
+rooms_statuses.announ.tooltip = Audio to play after updating the room status. By default, it plays a beep sound.
+hotel_management.max_numbers_of_items_reached =
+    You cannot add more than two items to this module with the free version of the Hotel Management add-on.
+menu.pms_settings = {pms_settings}
+module.pms_settings = Hotel {pms_settings}
+pms_settings.general = {vitalpbx.general}
+pms_settings.cos = {class_of_service}
+pms_settings.cos.tooltip =
+    Class of Service to configure in an extension after a successful room checkout action. If you select the value
+    "Default," the system will use the default class of service that comes with the PBX.
+pms_settings.mwc = Multiple Wakeup Calls
+pms_settings.mwc.tooltip = If set to "Yes," a room would be able to have more than one wake-up call service.
+pms_settings.show_language = Show Language on Screen
+pms_settings.show_language.tooltip =
+    If set to "Yes," the language configured for the extension will get prepended as part of the Caller ID name.

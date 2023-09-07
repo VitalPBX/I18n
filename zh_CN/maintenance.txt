@@ -35,15 +35,3 @@ maintenance.tenant.tooltip = Allows you to select the tenant on which the mainte
 maintenance.validation.enabled_without_cron = The maintenance has been enabled but no cron profile has been selected
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
-maintenance.best = Best ({0}k)
-maintenance.conversion_quality = Audio Quality
-maintenance.conversion_quality.tooltip = 
-	The audio quality to be applied when converting from WAV to MP3. Higher qualities produce better audios, but uses more space
-	in the hard drive; Lower qualities produce smaller audio files, but the quality is dropped.
-maintenance.good = Good ({0}k)
-maintenance.high = High ({0}k)
-maintenance.medium = Medium ({0}k)
-maintenance.voicemail_preservation = Clear Oldest Voicemails
-maintenance.voicemail_preservation.tooltip = 
-	Allows you to defined the maximum number of days that voicemail recordings should be retained. The voicemail
-	recordings with more age than the days defined here will be deleted

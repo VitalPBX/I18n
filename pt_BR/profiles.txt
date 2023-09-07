@@ -267,3 +267,4 @@ profiles_pjsip_minimum_expiration = Expiração mínima
 profiles_pjsip_minimum_expiration_tooltip = Tempo mínimo para manter um par com uma expiração explícita. Tempo em segundos.
 profiles_pjsip_transport_id = {profiles_pjsip_transport}
 profiles_pjsip_transport_id_tooltip = {profiles_pjsip_transport_tooltip}
+profiles_in_use_by = Não é possível apagar este perfil porque está sendo usado por alguns dispositivos de extensões.

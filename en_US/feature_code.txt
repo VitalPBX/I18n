@@ -179,3 +179,8 @@ feature_code.anonymous_calling = Anonymous Calling
 feature_code.anonymous_calling.tooltip =
 	This feature code allows sending anonymous outbound calls on demand. To use this feature, you must use the following
 	format <b>{0}100</b>, where <b>{0}</b> is the feature code, and <b>100</b> is the external number you want to call.
+feature_code.auto_recording_switch_in = Pause/Resume Incoming Call Recordings
+feature_code.auto_recording_switch_in.tooltip =
+    It allows you to pause/resume a call recording to avoid recording sensitive information such as credit card details.
+feature_code.auto_recording_switch_out = Pause/Resume Outbound Call Recordings
+feature_code.auto_recording_switch_out.tooltip = {feature_code.auto_recording_switch_in.tooltip}

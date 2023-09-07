@@ -58,8 +58,3 @@ ivr.cos.warning.cancel = {vitalpbx.cancel}
 ivr.cos.warning.confirm = {vitalpbx.accept}
 ivr.cos.warning.title = {warning}
 ivr.max_reached = Has alcanzado el número máximo de IVRs permitidos
-ivr.asr_enabled = ASR habilitado
-ivr.asr_enabled.tooltip = 
-	Cuando está habilitado, los clientes que acceden a este IVR seleccionarán opciones mediante comandos de voz en lugar de usar las opciones numéricas.
-ivr.entries.asr_command = Comando de Voz
-ivr.entries.asr_command.placeholder = Comando

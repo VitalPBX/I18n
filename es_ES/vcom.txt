@@ -33,8 +33,8 @@ vc.result_type.rescheduled = Programado
 vc.schedule_date = Fecha de Programacion
 vc.scheduled = Horario
 vc.seconds = 
-	[one] Un Segundo
-	[other] {0} Segundos
+	[uno] Un Segundo
+	[otro] {0} Segundos
 vc.status = Estado
 vc.validation.no_description = No ha proporcionado una descripción válida.
 vc.wrapup_time = Tiempo entre Llamada

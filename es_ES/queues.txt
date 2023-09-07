@@ -178,9 +178,7 @@ queues.queue_callback.tooltip =
 	el elemento de retorno de llamada de la cola seleccionada, también, la función IVR se desactiva para esta cola.
 queues.alertinfo = {inbound_route.alertinfo}
 queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
-queues.answerchannel = Canal de Respuesta
+queues.answerchannel = Answer Channel
 queues.answerchannel.tooltip = 
-	Define si las llamadas deben ser respondidas antes de ejecutar la aplicación Queue. Si se establece en "no",
-	es posible que la música en espera y otros audios no se reproduzcan.
-queues.joinempty.no_inuse = No + InUse
-queues.leavewhenempty.yes_inuse = Yes + InUse
+	It defines if the calls must be answered before executing the Queue application. If set to "no", the music on hold,
+	and other audios might no be played.

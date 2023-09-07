@@ -1,6 +1,7 @@
 menu.user_profiles = User Profiles
 module.users_profiles = User Profiles
 users_profiles = Users Profiles
+menu.users_profiles = {module.users_profiles}
 users_profiles.collapse_all = Collapse All
 users_profiles.confirm_delete = Are you sure, that you want delete this profile?
 users_profiles.delete = Delete

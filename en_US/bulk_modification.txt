@@ -36,4 +36,6 @@ bulk_modification.validations.no_extensions = You have not selected any extensio
 bulk_modification.validations.no_field = You have not selected any field to be modified
 bulk_modification.validations.invalid_field = You have selected an invalid field
 bulk_modification.field.generate_hints = {extensions.diversion_hints}
+bulk_modification.field.vm_busy_prompt = Voicemail Busy Prompt
+bulk_modification.field.vm_unav_prompt = Voicemail Unavailable Prompt
 
