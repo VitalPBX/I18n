@@ -1,5 +1,5 @@
-dashboard.asterisk = Asterisk
-dashboard.asterisk_uptime = Actividad Asterisk
+dashboard.asterisk = PBX Engine
+dashboard.asterisk_uptime = Actividad PBX Engine
 dashboard.available = Disponible
 dashboard.current_time = Hora Actual
 dashboard.dahdi = DAHDi
