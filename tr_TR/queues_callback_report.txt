@@ -1,0 +1,22 @@
+queues_callback_report = Kuyruk Geri Arama Raporu
+menu.queues_callback_report = {queues_callback_report}
+module.queues_callback_report = {queues_callback_report}
+queues_callback_report.report = {report}
+queues_callback_report.queue_callback = Kuyruk Geri Arama
+queues_callback_report.queue_callback.tooltip =
+	Rapor sonuçlarını belirli bir kuyruk geri arama öğesine göre filtrelemenize olanak tanır. Varsayılan olarak rapor, yapılandırılmış
+	tüm geri arama öğelerinin sonuçlarını gösterir.
+queues_callback_report.status = Durum
+queues_callback_report.status.tooltip = Rapor sonuçlarını kuyruk geri arama durumuna göre filtrelemenizi sağlar
+queues_callback_report.status.option.queued = Kuyruğa Alındı
+queues_callback_report.status.option.in_progress = Devam etmekte
+queues_callback_report.status.option.successful = Başarılı
+queues_callback_report.status.option.failed = Başarısız
+queues_callback_report.scheduled_queue_callbacks = Planlanmış Kuyruk Geri Aramaları
+queues_callback_report.date = Tarih & Saat
+queues_callback_report.queue = Geri Arama Kuyruğu
+queues_callback_report.callback_name = Geri Arama İsteği Sahibi Adı
+queues_callback_report.callback_number = Geri Arama Numarası
+queues_callback_report.tries = Deneme
+queues_callback_report.actions = {actions}
+queues_callback_report.sqc.not_found = İstenen geri arama bulunamadı

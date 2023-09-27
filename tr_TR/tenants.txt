@@ -1,0 +1,103 @@
+module.tenants = Kiracılar
+menu.tenants = {module.tenants}
+tenants.general = Genel
+tenants.name = Ad
+tenants.description = Açıklama
+tenants.description.required = Açıklama {0}
+tenants.description.tooltip = Bu kiracıyı tanımlayan kısa açıklama
+tenants.name.required = Ad {0}
+tenants.name.tooltip = Bu kiracı için benzersiz bir ad. Bu ad, klasörler oluşturmak, cdr bilgilerini bağlamak vb. İçin kullanılacaktır.
+tenants.validation.enter_valid_tenant = Geçerli bir kiracı adı girin: harflere, sayılara, kısa çizgiye, alt çizgiye izin verilir
+tenants.user_name.required = Yönetici E-postası {0}
+tenants.user_name = Yönetici E-postası
+tenants.user_name.tooltip = Bu Kiracıyı yönetecek kullanıcının e-posta adresi.
+tenants.user_password.required = Yönetici Şifresi {0}
+tenants.user_password = Yönetici Şifresi
+tenants.user_password.tooltip = Bu Kiracıyı yönetecek kullanıcının kimliğini doğrulayacak şifre.
+tenants.limitations = Ayrıcalıklar
+tenants.unlimited = Sınırsız
+tenants.extensions = Dahililer
+tenants.extensions.tooltip = IBu kiracı için maksimum dahili sayısını tanımlamanıza olanak tanır
+tenants.trunks = Bağlantı Noktaları
+tenants.trunks.tooltip = Bu kiracı için maksimum bağlantı noktası sayısını tanımlamanıza izin verir
+tenants.queues = Kuyruklar
+tenants.queues.tooltip = Bu kiracı için maksimum kuyruk sayısını tanımlamanıza izin verir
+tenants.ivrs = IVR'lar
+tenants.ivrs.tooltip = Bu kiracı için maksimum IVR sayısını tanımlamanıza olanak tanır
+tenants.conferences = Konferanslar
+tenants.conferences.tooltip = Bu kiracı için maksimum konferans sayısını tanımlamanıza olanak tanır
+tenants.parking_lots = Park Yerleri
+tenants.parking_lots.tooltip = Bu kiracı için maksimum park yeri sayısını tanımlamanıza olanak tanır
+tenants.duplicated_name = Sağlanan isim zaten kullanılıyor
+tenants.user_settings = Kiracı Yöneticisi
+tenants.role = {users.role}
+tenants.role.tooltip =
+	Bu kiracının yöneticisinin rol profili. <b>Diğer kiracıları etkileyebilecek, çok serbest
+	bir rol atamamaya dikkat edin</b>
+tenants.startup = {users.startup}
+tenants.startup.tooltip = {users.startup.tooltip}
+tenants.no_role = Bu kiracının Yöneticisi için geçerli bir rol seçmediniz
+tenants.allowed_tenant_trunks = İzin Verilen Kiracı Bağlantı Noktaları
+tenants.allowed_tenant_trunks.tooltip = Hangi kiracıların kiracı bağlantı noktaları olarak kullanılabileceğini tanımlamanıza olanak tanır
+tenants.path = Yol
+tenants.path.tooltip =
+	Bu kiracının depolama klasöründe asterisk veritabanı ağacı olarak kullanılan yol adı
+tenants.no_license = Maksimum ücretsiz kiracı sayısına ulaştınız. Sınırsız kiracı oluşturmak için bu eklentiyi geçerli bir lisansla etkinleştirin
+tenants.confirm_delete =
+	Bu kiracıyı silmek istediğinizden emin misiniz? <br> Bu işlem geri alınamaz ve bu kiracı ile 
+	ilgili tüm veriler kalıcı olarak silinir.
+tenants.prefix = Ön Ek
+tenants.prefix.tooltip =
+	Dahili cihazlar ve diğerleri için kullanılacak bir ön ek tanımlamanıza izin verir. Boş bırakılırsa, otomatik
+	bir ön ek kullanılacaktır.
+tenants.prefix.placeholder = Otomatik Oluştur
+tenants.enabled = Etkin
+tenants.enabled.tooltip =
+	Bir kiracıyı etkinleştirmenize/devre dışı bırakmanıza olanak tanır. Kiracı devre dışı bırakılırsa, ona ait kullanıcılar giriş
+	ya da herhangi bir işlem yapamaz.
+tenants.allow_recordings = Kayıtlara İzin Ver
+tenants.allow_recordings.tooltip = Bu kiracının aramaları kaydedip kaydedemeyeceğini belirlemenize olanak tanır
+tenants.recordings_maintenance = Kayıt Bakım Ayarları
+tenants.disabled = Bu kiracıya erişim devre dışı bırakıldı, lütfen PBX sağlayıcınızla iletişime geçin.
+tenants.assign_to_existing_user = Mevcut Kullanıcıya Ata
+tenants.assign_to_existing_user.tooltip = İşaretliyse, kiracı için yeni bir kullanıcı oluşturmak yerine, ona mevcut bir kullanıcı atayabilirsiniz.
+tenants.user = Kullanıcı
+tenants.user.tooltip = Bu kiracıyı idare etmek ve yönetmekle sorumlu olacak kullanıcı.
+tenants.duplicated_prefix = Sağlanan ön ek zaten başka bir Kiracı için kullanılıyor
+tenants.no_user = Kiracı herhangi bir kullanıcıya atanmamış
+tenants.full_name = Tam Ad
+tenants.full_name.tooltip = Yöneticinin tam adı, tanımlanmamışsa bunun yerine kiracı açıklaması kullanılacaktır.
+tenants.allowed_outbound_routes = İzinli Giden Rotalar
+tenants.allowed_outbound_routes.tooltip =
+	Bu kiracı, ana kiracıya işaret eden bir kiracı bağlantı noktası aracılığıyla arama yaptığında kullanılacak rotalar.
+	Ana kiracı dışındaki herhangi bir kiracıya yapılan çağrılar Gelen Yolları tanımları aracılığıyla gönderilecektir.
+tenants.inbound_numbers = Gelen DID'ler
+tenants.inbound_numbers.tooltip =
+	Bu kiracıya ait numara/şablon listesi. Bu numaralarla eşleşen çağrılar otomatik olarak kiracı gelen rotalarına 
+	yönlendirilecektir. Bu numaraların yapılandırılması, ana kiracı üzerindeki gelen rota tanımlarına göre
+	önceliklidir.
+tenants.scom_devices = Yazılım Telefonu Cihazları
+tenants.scom_devices.tooltip = Bu kiracıda kaç Sonata Communicator Cihazının etkinleştirilebileceğini tanımlamanıza olanak tanır
+tenants.routing = Çağrı Yönlendirme
+tenants.did_pattern = DID Şablonu
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Giden Profiller
+tenants.outbound_profiles.tooltip =
+	Bu kiracıda giden profil olarak hangi rota seçimi öğelerinin kullanılabileceğini tanımlamanıza olanak tanır.
+tenants.emergency_trunks = Acil Ana Hatları
+tenants.emergency_trunks.tooltip =
+	Acil numara modülünde acil durum ana hatları (bağlantı noktaları) olarak kullanılmak üzere ana kiracıdan bu kiracı ile ana hatları (bağlantı noktalarını) paylaşmanıza olanak tanır
+tenants.name.validation.alphanumeric = Kiracı adı, geçerli bir alfanümerik değer olmalıdır
+tenants.send_welcome_email = Hoş Geldin E-postası Gönder
+tenants.send_welcome_email.tooltip =
+	Etkinleştirilirse, kiracı yöneticisine hesap bilgilerini içeren bir e-posta gönderilecektir. Bu e-posta şablonunu
+	Yönetici> Sistem Ayarları> E-posta Şablonları altında bulabilirsiniz.
+tenants.settings = Ayarlar
+tenants.timezone = Saat Dilimi
+tenants.timezone.tooltip =
+	Bu kiracı için varsayılan saat dilimini tanımlar. Eğer "Sistem" seçeneği seçilirse, sunucu saat dilimi
+	kullanılacaktır.
+tenants.addons = Harici Eklentiler
+tenants.addons.tooltip =
+	Kullanıcı menüsünde bu kiracıya hangi harici eklentilerin gösterileceğini seçmeye izin verir.
+

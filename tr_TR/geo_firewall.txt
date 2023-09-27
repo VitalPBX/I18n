@@ -1,0 +1,15 @@
+geo_firewall = GEO Güvenlik Duvarı
+menu.geo_firewall = {geo_firewall}
+module.geo_firewall = {geo_firewall}
+geo_firewall.general = {vitalpbx.general}
+geo_firewall.license.max_items = Bu eklentinin ücretsiz versiyonunda sadece bir ülke engelleyebilirsiniz.
+geo_firewall.select_all = Tüm Ülkeleri Seç
+geo_firewall.unselect_all = Tüm Ülkelerde Seçimi Kaldır
+geo_firewall.countries_list = Ülke Listesi
+geo_firewall.disable = Devre Dışı
+geo_firewall.enable = Etkin
+geo_firewall.successfully_enabled = GEO güvenlik duvarı kısıtlamaları başarıyla etkinleştirildi
+geo_firewall.disable.confirm =
+	GEO güvenlik duvarı kısıtlamalarını devre dışı bırakacağınızdan emin misiniz? Bu eylemi gerçekleştirmek tüm ülkelerin engelini otomatik olarak kaldıracaktır,
+	ancak, GEO güvenlik duvarı haritasındaki konfigürasyonlarınız korunacaktır, böylece onları daha sonraki bir tarihte tekrar uygulayabilirsiniz.
+geo_firewall.successfully_disabled = GEO güvenlik duvarı kısıtlamaları başarıyla devre dışı bırakıldı.

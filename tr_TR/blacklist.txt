@@ -1,0 +1,17 @@
+blacklist = Kara Liste
+blacklist.description = Açıklama
+blacklist.description.tooltip = Kara listedeki numaraların serbest metinli tanımı
+blacklist.general = Genel
+blacklist.not_found = Kara liste bulunamadı
+blacklist.number = CID Numarası
+blacklist.number.tooltip = Kara listeye eklenecek CID (Arayan Kimliği) numarası.
+blacklist.numebr.invalid = Kara listeye alınacak numara geçersiz.
+blacklist.search = Arama
+menu.blacklist = Kara Liste
+module.blacklist = Kara Liste
+blacklist.destination = Hedef
+blacklist.destination.tooltip =
+	İsteğe bağlı hedef. Ayarlanırsa, yukarıda yapılandırılanla eşleşen CID numarasına sahip arayan, yapılandırılmış
+	hedefe yönlendirilecek. Eğer ayarlanmazsa, bunun yerine bir mesaj dinletilecek.
+blacklist.enabled = Etkin
+blacklist.enabled.tooltip = Kara listedeki bu CID numarasını Etkinleştir/Devre Dışı Bırak

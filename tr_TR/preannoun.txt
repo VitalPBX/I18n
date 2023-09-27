@@ -1,0 +1,10 @@
+menu.announcements = Duyurular
+module.preannoun = Duyurular
+preannoun = Duyurular
+preannoun.description = Açıklama
+preannoun.description.tooltip = Bu Duyuruyu tanımlayan kısa açıklama.
+preannoun.destination = %s Duyurunu Oynattıktan Sonraki Hedef
+preannoun.general = Genel
+preannoun.mod_dest = Modül Hedefi
+preannoun.recording_id = Özel Kayıt
+preannoun.recording_id.tooltip = Bu Duyuruda oynatılacak kayıt.

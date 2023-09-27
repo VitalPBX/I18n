@@ -1,0 +1,5 @@
+domotic_scenes = Domotik Ekranlar
+module.domotic_scenes = {domotic_scenes}
+
+domotic_scenes.general.tab = {vitalpbx.general}
+domotic_scenes.show_menu = Ekranda menüyü göster.

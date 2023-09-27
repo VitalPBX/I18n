@@ -1,0 +1,48 @@
+branding = Markalaşma
+module.branding = {branding}
+menu.branding = {branding}
+branding.general = {vitalpbx.general}
+branding.base_color = Ana Renk
+branding.base_color.tooltip = Aktif menü öğeleri, aktif form sekmeleri ve seçilen metin için kullanılan ana renk
+branding.page_title = Uygulama Başlığı
+branding.page_title.tooltip = Tarayıcı sekmesindeki üst başlığı özelleştirmenize izin verir.
+branding.slogan = Slogan
+branding.slogan.tooltip = Giriş ekranında görünen Slogan'ı özelleştirmenize izin verir.
+branding.facebook_page = Facebook Sayfası
+branding.twitter_page = Twitter Sayfası
+branding.youtube_channel = YouTube Kanalı
+branding.social.tooltip = Giriş sayfası alt bilgide (footer) görünen <b>{0}</b> linkini özelleştirmenize izin verir.
+branding.login_footer = Giriş Ekranı Alt Bilgisi
+branding.login_footer.tooltip = Giriş ekranındaki alt bilgi (footer) içeriğini özelleştirmenize izin verir.
+branding.desktop_logo = Masaüstü Logosu
+branding.mobile_logo = Cep Telefonu Logosu
+branding.instagram_page = Instagram Sayfası
+branding.app_name = Uygulama Adı
+branding.app_name.tooltip = Ana operatör adınızı değiştirmenize izin verir
+branding.meet_url = Toplantı URL'si
+branding.meet_url.tooltip = Video konferans modülü aracılığıyla oluşturulan konferanslar için varsayılan olarak kullanılacak URL
+branding.login = Giriş Sayfası Tasarımı
+branding.login_bg = Arka Plan
+branding.login_bg.tooltip = Giriş sayfası için arka plan rengi. Boş bırakılırsa varsayılan arka plan kullanılacaktır.
+branding.login_fc = Yazı Tipi Rengi
+branding.login_fc.tooltip = Giriş formunda kullanıcak yazı tipi rengi
+branding.login_frm_bg = Form Arka Planı
+branding.login_frm_bg.tooltip = Giriş formu sol paneli için arka plan rengi
+branding.login_btn = Gönder Butonu Rengi
+branding.login_btn.tooltip = Giriş butonu için arka plan rengi
+branding.login_addons_menu = Eklentiler Menüsü
+branding.login_addons_menu.tooltip = Eklentiler menü butonu için arka plan rengi
+branding.reset = Sıfırla
+branding.reset.confirm =
+	Markalaşma ayarlarını sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz ve tüm yapılandırmalarınız 
+	kaybolacaktır.
+branding.reset_applied = Tüm ayarlar başarıyla sıfırlanmıştır.
+branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
+branding.addons = Eklentiler
+branding.url_prefix = URL Ön Eki
+branding.addon.url_prefix.tooltip =
+	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
+	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
+branding.app_name = Uygulama Adı
+branding.addon.app_name.tooltip =
+	It allows you to define the application name/title to be shown in the browsers' tab.

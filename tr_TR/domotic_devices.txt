@@ -1,0 +1,5 @@
+domotic_devices = Domotik Cihazlar
+module.domotic_devices = {domotic_devices}
+
+domotic_devices.general.tab = {vitalpbx.general}
+domotic_devices.show_menu = Cihazların bulunduğu menüyü göster

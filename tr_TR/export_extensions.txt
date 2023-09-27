@@ -1,0 +1,10 @@
+menu.export_extensions = Dahilileri Dışa Aktar
+module.export_extensions = Dahilileri Dışa Aktar
+export_extensions = Dahilileri Dışa Aktar
+export_extensions.add_extension = Dahilileri Ekle
+export_extensions.extensions = Dahililer
+export_extensions.export_extensions.tooltip = Dışa Aktarılacak Dahililer
+export_extensions.export_extensions = Dahilileri Dışa Aktar
+export_extensions.general = Genel
+export_extensions.no_extensions_selected = Dahili seçilmedi
+export_extensions.select_extensions = Dışa Aktarılacak Dahilileri Seçin

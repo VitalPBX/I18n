@@ -1,0 +1,13 @@
+menu.queue_vips = Kuyruktaki VIP'ler
+module.queues_vip = Kuyruktaki VIP'ler
+queues_vip = VIP Kuyrukları
+queues_vip.confirm_delete = Bu VIP kuyruk listesi silmek istediğinize emin misiniz?
+queues_vip.delete = Sil
+queues_vip.description = Açıklama
+queues_vip.description.tooltip = Bu VIP kuyruğunu tanımlayan kısa açıklama.
+queues_vip.general = Genel
+queues_vip.list = VIP Listesi
+queues_vip.list.invalid = Geçersiz numara girdiniz. Sadece numara kullan. Her numarayı yeni bir satırla ayırın.
+queues_vip.list.tooltip = Sayıların listesini ekle. Her numara ayrı bir satırda olmalıdır.
+queues_vip.none = Yok
+queues_vip.not_found = İstenen VIP listesi kuyruğu mevcut değil.

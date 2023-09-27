@@ -1,0 +1,56 @@
+queues_callback = Kuyruk Geri Arama
+menu.queues_callback = {queues_callback}
+module.queues_callback = {queues_callback}
+queues_callback.general = {vitalpbx.general}
+queues_callback.description = Açıklama
+queues_callback.description.tooltip = Kısa açıklama
+queues_callback.queue = Geri Arama Kuyruğu
+queues_callback.queue.tooltip = Geri arama isteyen arayanların gönderileceği kuyruğu tanımlamanıza olanak tanır.
+queues_callback.cos = Hizmet Sınıfı
+queues_callback.cos.tooltip =
+	Geri aramayı gerçekleştirmek için hangi Hizmet Sınıfının kullanılacağını tanımlamanıza olanak tanır. Hizmet sınıfının, belirli
+	bağlantı noktaları (dış hat) ya da giden rotalar aracılığıyla giden aramalara erişim izni içerdiğini unutmayın.
+queues_callback.dial_prefix = Arama Öneki
+queues_callback.dial_prefix.tooltip = Tanımlanırsa, talep edilen geri arama numarasının başına eklenecektir.
+queues_callback.time_group = Zaman Grubu
+queues_callback.time_group.tooltip =
+	Geri aramayı gerçekleştirmek için izin verilen süreleri tanımlamak için bir zaman grubu yapılandırmanıza olanak tanır.
+queues_callback.periodic_announcement = Talimatlar Mesajı
+queues_callback.periodic_announcement.tooltip =
+	Geri arama talepleri için talimatlarla birlikte çalınacak mesaj.<br><br>Varsayılan Mesaj: "Tüm temsilcilerimiz şu anda
+	meşgul. Lütfen hatta kalıp çağrınızın bir sonraki uygun temsilci tarafından cevaplanmasını bekleyin,
+	ya da temsilci uygun olduğunda geri aranmak için bire tuşuna basın."
+queues_callback.number_prompt = Numara Talep Mesajı
+queues_callback.number_prompt.tooltip =
+	Geri arama numarasını girmenizi isteyen talimatlar mesajı.<br><br>Varsayılan Mesaj: "Lütfen telefon numaranızı giriniz"
+queues_callback.cid = Arayan Kimliği
+queues_callback.cid.tooltip =
+	Geri arama sırasında kullanılacak Arayan Kimliği bilgisi. Bu bilgi, çağrı işlemi sırasında bağlantı noktaları ya da giden rota 
+	ayarları tarafından değiştirilebilir.
+queues_callback.allowed_tries = Maksimum Deneme
+queues_callback.allowed_tries.tooltip = Geri aramayı başarısız olarak işaretlemeden önce gerçekleştirilmesine izin verilen deneme miktarı
+queues_callback.ask_callback_number = Geri Arama Numarasını Sor
+queues_callback.ask_callback_number.tooltip =
+	Etkinleştirilirse, arayan kişiden geri arama numarasını girmesi istenir. Hayır olarak ayarlanırsa, numara izin verilen numara kuralları ile
+	eşleştiği sürece arayan kimliği numarası geri arama numarası olarak kullanılacaktır.
+queues_callback.same_queue = Aynı Kuyruk
+queues_callback.none = {none}
+queues_callback.cid_name = Arayan Kimliği Adı
+queues_callback.cid_number = Arayan Kimliği Numarası
+queues_callback.allowed_patterns = İzin Verilen Numara Kuralları
+queues_callback.pattern = Şablon
+queues_callback.pattern.tooltip = Geri arama talep ederken hangi tür numaraların kullanılabileceğine dair kuralları tanımlamaya izin verir
+queues_callback.enabled = Etkin
+queues_callback.enabled.tooltip = Şablon kurallarını etkinleştirmenize/devre dışı bırakmanıza olanak tanır
+queues_callback.invalid_message = Geçersiz Mesaj
+queues_callback.invalid_message.tooltip =
+	Arayan tarafından sağlanan numara, tanımlanan numara kuralları ile eşleşmediğinde çalınacak mesaj.<br><br> Varsayılan Mesaj:
+	"Üzgünüm, bu onaylanmış bir telefon numarası değil"
+queues_callback.ringtime = {extensions.ringtime}
+queues_callback.ringtime.tooltip = Aramayı, yanıtlanmadı olarak işaretlemeden önce geri arama numaralarının çalacağı zamanı tanımlamanıza olanak tanır.
+queues_callback.thank_you_prompt = Teşekkürler Cavabı
+queues_callback.thank_you_prompt.tooltip =
+	Geri arama planlaması tamamlandıktan sonra arayana çalınacak mesaj. Varsayılan Mesaj: "Teşekkürler, en kısa zamanda geri arayacağız."
+queues_callback.dial_agents_first = Önce Temsilcileri Ara
+queues_callback.dial_agents_first.tooltip =
+	Evet olarak ayarlanırsa, planlanan geri aramalar önce temsilcilere ve sonra müşteriye gönderilecektir.

@@ -1,0 +1,25 @@
+ha_monitor = HA Monitörü
+menu.ha_monitor = {ha_monitor}
+module.ha_monitor = HA Monitörü
+ha_monitor.master = Master
+ha_monitor.standby = Beklemede
+ha_monitor.unstandby = Sunucuyu Başlat
+ha_monitor.started = Başlatıldı
+ha_monitor.stopped = Durduruldu
+ha_monitor.hdd = HDD Senkronizasyonu
+ha_monitor.database = Veritabanı
+ha_monitor.dahdi = DAHDI
+ha_monitor.asterisk = Asterisk
+ha_monitor.vitalpbx = VitalPBX
+ha_monitor.bascul = Bascul
+ha_monitor.confirm_bascul.title = Yüksek Erişilebilirlikte sunucuların rollerini değiştirin
+ha_monitor.confirm_bascul =
+    <strong>¡UYARI!</strong>, Devam eden tüm aramalar kaybolacak ve sistem birkaç saniye kullanılamayacak durumda olacaktır.<br>
+    <strong>{0}'dan {1}'e geçtiğinizden emin misiniz?</ strong>
+ha_monitor.success = Bascul başarıyla yürütüldü
+ha_monitor.executed = Bascul arka planda yürütülüyor
+ha_monitor.confirm_unstandby.title = Onayı Başlat
+ha_monitor.confirm_unstandby =
+   Şimdi, Başlat'ı yürütmek istediğinizden emin misiniz?
+ha_monitor.executed_unstandby = Bekleme modu başarıyla yürütüldü
+ha_monitor.off = Sunucu Çökmesi

@@ -1,0 +1,75 @@
+menu.pjsip_settings = PJSIP Ayarları
+module.pjsip_settings = PJSIP Ayarları
+pjsip_settings.general = Genel
+pjsip_settings.debug = Hata ayıklama
+pjsip_settings.debug.tooltip = SIP hata ayıklama günlüğünü etkinleştir/dışı bırak.
+pjsip_settings.timer_t1 = Zamanlayıcı T1
+pjsip_settings.timer_t1.tooltip = Zamanlayıcı T1, güvenilmez bir aktarım (örneğin UDP) kullanırken yanıt almayan istekleri yeniden iletmeden önce ne kadar bekleneceğini belirlemek için temel oluşturur.
+pjsip_settings.timer_b = Zamanlayıcı B
+pjsip_settings.timer_b.tooltip = Zamanlayıcı B bir INVITE (DAVET) isteği gönderdikten sonra işlemi sonlandırmadan önce beklenecek maksimum süreyi belirler.
+pjsip_settings.disable_tcp_switch = TCP Anahtarını Devre Dışı Bırak
+pjsip_settings.disable_tcp_switch.tooltip = Giden istek çok büyükse UDP'den TCP aktarımlarına otomatik geçişi devre dışı bırakın.
+pjsip_settings.bind = Bağla
+pjsip_settings.bindaddr = Adres
+pjsip_settings.bindport = Port
+pjsip_settings.bind.tooltip = Bu aktarım için bağlanılacak IP adresi ve isteğe bağlı port.
+pjsip_settings.tlsbind = TLS Bağla
+pjsip_settings.tlsbind.tooltip = Bu aktarım için TLS protokolü üzerinden bağlanılacak IP adresi ve isteğe bağlı port.
+pjsip_settings.certificate = Sertifika
+pjsip_settings.certificate.tooltip = TLS Bağlantıları için kullanılacak sertifika
+pjsip_settings.verify_client = İstemciyi Doğrula
+pjsip_settings.verify_client.tooltip = İstemci sertifikasının doğrulanması gerekir (YALNIZCA TLS)
+pjsip_settings.ssl_method = SSL Metodu
+pjsip_settings.ssl_method.tooltip = SSL taşıma yöntemi (YALNIZCA TLS)
+pjsip_settings.verify_server = Sunucuyu Doğrula
+pjsip_settings.verify_server.tooltip = Sunucu sertifikasının doğrulanması gerekir (YALNIZCA TLS)
+pjsip_settings.local_net = Yerel Ağ
+pjsip_settings.local_net.tooltip = Yerel olarak değerlendirilecek ağ (NAT amaçları için kullanılır).
+pjsip_settings.external_media_address = Harici Ortam Adresi
+pjsip_settings.external_media_address.tooltip = RTP işlemede kullanılacak harici IP adresi.
+pjsip_settings.external_signaling_address = Harici Sinyal Adresi
+pjsip_settings.external_signaling_address.tooltip = SIP sinyali için harici adres.
+pjsip_settings.nat_settings = Nat Ayarları
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = PJSIP Cihazları ve Bağlantı Noktaları (Trunk'lar) için oluşturulan kanallarda hangi ülkenin göstergelerinin kullanılacağını ayarlar.
+pjsip_settings.codecs = Kodekler
+pjsip_settings.codecs.tooltip =
+	PJSIP Cihazları ve Bağlantı Noktaları (Trunks) için oluşturulan kanallarda hangi kodek bileşenlerinin kullanılacağını ayarlar. Bu parametre yalnızca trunkların ve cihazların
+	tanımlanmış kendi kodekleri yoksa geçerlidir.
+pjsip_settings.mwi_settings = MWI Ayarları
+pjsip_settings.mwi_tps_queue_high = Görevişlemci Sırası Yüksek
+pjsip_settings.mwi_tps_queue_high.tooltip =
+	Çok dolu bir sistemde, görevişlemcisi sıra (kuyruk) sınırlarını ayarlamanız gerekebilir. Herhangi bir görevişlemci 
+	sırası çoğalırsa, pjsip uyarı silinene kadar yeni istekleri işlemeyi durdurur. Uyarı, tüm uyarı veren görevişlemci
+	sıraları düşük seviyeye geldiğinde silinir.
+pjsip_settings.mwi_tps_queue_low = Görevişlemci Sırası Düşük
+pjsip_settings.mwi_tps_queue_low.tooltip =
+	Çok dolu bir sistemde, görevişlemcisi sıra (kuyruk) sınırlarını ayarlamanız gerekebilir. Herhangi bir görevişlemci 
+	sırası çoğalırsa, pjsip uyarı silinene kadar yeni istekleri işlemeyi durdurur. Uyarı, tüm uyarı veren görevişlemci
+	sıraları düşük seviyeye geldiğinde silinir. Düşük seviyenin yüksek
+	seviyenin %90'ı olması için -1'e ayarlayın.
+pjsip_settings.mwi_disable_initial_unsolicited = İlk MWI'yı Devre Dışı Bırakın
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip =
+	Başlangıçta istenmeyen ilk MWI bildirimi etkinleştirildiğinde, başlangıçta ilk bildirimler gönderilir.
+	İstenmeyen MWI kullanan çok sayıda bitişnoktanız (binlerce) varsa, ilk başlangıç bildirimlerini 
+	devre dışı bırakmayı düşünebilirsiniz. İstenmeyen ilk MWI bildirimleri başlangıçta devre dışı bırakılırsa,
+	daha sonra bildirimler, bitişnoktasının bir sonraki kişi güncellemesinde başlayacaktır.
+pjsip_settings.keep_alive_interval = Faal Tutma Süresi
+pjsip_settings.keep_alive_interval.tooltip =
+	Etkin bağlantı odaklı aktarımlara canlı yayın gönderme aralığı (saniye cinsinden).
+pjsip_settings.contact_expiration_check_interval = Sona Erme Kontrol Aralığı
+pjsip_settings.contact_expiration_check_interval.tooltip =
+	Süresi dolan kişileri kontrol etme aralığı (saniye cinsinden).
+pjsip_settings.max_initial_qualify_time =  Max Initial Qualify Time
+pjsip_settings.max_initial_qualify_time.tooltip =
+	The maximum amount of time from startup that qualifies should be attempted on all contacts. If greater than the
+	Qualify Frequency for an AOR, Qualify Frequency will be used instead.
+pjsip_settings.unidentified_request_period = Tanımlanamayan İstek Periyodu
+pjsip_settings.unidentified_request_period.tooltip =
+	Tanımlanamayan isteklerin toplanacağı saniye sayısı. Tanımlanamayan istek periyodu içinde 
+	tanımlanamayan istek(ler) alınırsa, bir güvenlik olayı oluşur.
+pjsip_settings.unidentified_request_count = Tanımlanamayan İstek Sayısı
+pjsip_settings.unidentified_request_count.tooltip = Tek bir IP'den izin verilecek tanımlanmamış isteklerin sayısı.
+pjsip_settings.unidentified_request_prune_interval = Tanımlanamayan İstek Kısaltma Aralığı
+pjsip_settings.unidentified_request_prune_interval.tooltip =
+		Tanımlanamayan isteklerin, tanımlanamayan istek periyodunun iki katından daha eski olan aralığı kısaltılır.
