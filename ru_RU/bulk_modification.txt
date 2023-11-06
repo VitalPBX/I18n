@@ -25,8 +25,9 @@ bulk_modification.field.ringtime = Время звонка
 bulk_modification.field.tooltip = Параметр, который необходимо изменить во всех выбранных номерах
 bulk_modification.general = Общие
 bulk_modification.select_extensions = Выберите номера
-menu.bulk_modification = <span style="margin-left: -5px;">Массовое изменение</span>
+menu.bulk_modification = Массовое изменение
 module.bulk_modification = Массовое изменение
+bulk_modification.field.emergency_cid = {extensions.emergency_cid}
 bulk_modification.field_to_change = Поле для изменения
 bulk_modification.field_to_change.tooltip = Установите параметр, который нужно изменить во всех выбранных номерах
 bulk_modification.recording_types = Тип вызовов
@@ -34,5 +35,4 @@ bulk_modification.recording_types.tooltip = Позволяет выбрать, �
 bulk_modification.validations.no_extensions = Вы не выбрали номера, которое необходимо изменить
 bulk_modification.validations.no_field = Вы не выбрали какое-либо поле для изменения
 bulk_modification.validations.invalid_field = Вы выбрали неверное поле
-bulk_modification.field.emergency_cid = {extensions.emergency_cid}
 bulk_modification.field.generate_hints = {extensions.diversion_hints}

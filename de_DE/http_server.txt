@@ -1,0 +1,15 @@
+menu.http_server = HTTP-Server
+module.http_server =  {menu.http_server}
+http_server.general =  {vitalpbx.general}
+http_server.http_port =  HTTP-Port
+http_server.http_port.help =  Es definiert, von welchem Port aus über das HTTP-Protokoll auf die GUI zugegriffen werden kann.
+http_server.https_port =  HTTPS-Port
+http_server.https_port.help =  Es definiert, von welchem Port aus auf die GUI über das HTTPS-Protokoll zugegriffen werden kann.
+http_server.certificate =  Zertifikat
+http_server.certificate.help =  Es definiert das zu verwendende Zertifikat, wenn auf die GUI über HTTPS zugegriffen wird. Standardmäßig wird das vorgefertigte Zertifikat verwendet, wenn Sie ein anderes Zertifikat verwenden möchten, um eines zu generieren.
+http_server.https_enable =  HTTPS-Aktivierung
+http_server.https_enable.title =  Wenn diese Option aktiviert ist, ist die GUI über HTTPS zugänglich. Standardmäßig aktivieren.
+http_server.permanent_redirect =  HTTPS erzwingen
+http_server.permanent_redirect.title =  Wenn der gesamte Verkehr zum HTTP-Protokoll aktiviert ist, wird er zum HTTPS-Protokoll umgeleitet.
+http_server.native_cert =  Vorgefertigtes Zertifikat (nativ)
+http_server.saved_but_not_configured =  Die Änderungen wurden gespeichert, aber die Konfiguration wurde nicht übernommen.

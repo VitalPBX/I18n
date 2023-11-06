@@ -1,0 +1,10 @@
+did_management = DID Management
+menu.did_management = {did_management}
+module.did_management = {did_management}
+did_management.general = {vitalpbx.general}
+did_management.did = DID
+did_management.tenant = Tenant
+did_management.actions = {actions}
+did_management.add = Add DID
+did_management.did.tooltip = The DID number to assign.
+did_management.tenant.tooltip = The tenant to which the DID will belong.

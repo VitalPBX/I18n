@@ -5,8 +5,8 @@ menu.callcenter = Call Center
 menu.cdr = CDR
 menu.configure = Configure
 menu.extensions = Extensions
-menu.external = External
-menu.incoming_calls = Incoming Calls
+menu.external = Calls Routing
+menu.incoming_calls = Incoming Call Tools
 menu.licenses = Licenses
 menu.pbx = PBX
 menu.pbx_settings = PBX Settings
@@ -212,3 +212,28 @@ menu.firewall_settings = Settings
 menu.firewall_services = Services
 menu.firewall_rules = Rules
 vitalpbx.custom_numbers = Custom Number
+copy = Copy
+vitalpbx.record = Calls Recording
+no_mt_capable = This module is not Multi-Tenant capable, so you cannot edit, delete or create new items from a tenant.
+only_by_license = You have to get a license to access this module from tenants.
+vitalpbx.reinstall = Reinstall
+vitalpbx.cannot_install_package =
+    The package {0} cannot be installed. You can try installing the package manually using the command
+    "sudo apt-get install {1} -y"
+vitalpbx.cannot_update_package =
+    The package {0} cannot be updated. You can try updating the package manually using the command
+    "sudo apt-get --only-upgrade -y install {1}"
+vitalpbx.cannot_remove_package =
+    The package {0} cannot be removed. You can try removing the package manually using the command
+    "sudo apt-get --purge remove {1} -y"
+vitalpbx.cannot_reinstall_package =
+    The package {0} cannot be reinstalled. You can try to reinstall the package manually using the command
+    "sudo apt-get --reinstall install {1} -y"
+vitalpbx.saving = Saving...
+vitalpbx.edit.invalid_id = The item you are trying to edit is invalid or doesn't exists. Please, refresh the module and try again.
+vitalpbx.insufficient_data = The provided data is insufficient to execute the requested action.
+vitalpbx.unknown = unknown
+vitalpbx.setup.no_password = You haven't provide a valid password
+vitalpbx.setup.unmatched_passwords = The passwords don't match
+vitalpbx.setup.no_user = You haven't provide a valid username
+menu.apps = Apps

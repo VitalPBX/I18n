@@ -51,12 +51,12 @@ voicemail_general.operator_destination = Направление, при вкл. 
 voicemail_general.operator_destination.tooltip = Направление вызова после нажатия 0 (ноль), для доступа к оператору.
 voicemail_general.no_operator_destination = Функция "Оператор" включена, но Направление не выбрано
 voicemail_general.fromstring = От имени
-voicemail_general.fromstring.placeholder = Asterisk PBX
-voicemail_general.fromstring.tooltip = Имя, которое будет отображаться в письмах с вашей АТСvoicemail_general.mp3_attachment = MP3 Attachments
-voicemail_general.mp3_attachment.tooltip = If set to yes, voicemail attachment will be sent in mp3 format
-voicemail_general.mp3_attachment = MP3 Attachments
-voicemail_general.locale = Locale
+voicemail_general.fromstring.tooltip = Имя, которое будет отображаться в письмах с вашей АТС
+voicemail_general.fromstring.placeholder = АТС Asterisk
+voicemail_general.mp3_attachment = MP3 вложение
+voicemail_general.mp3_attachment.tooltip = Если установлено <b>«Да»</b>, вложение голосовой почты будет отправлено в формате mp3.
+voicemail_general.locale = Регион
 voicemail_general.locale.tooltip = 
-	Set the locale for generation of the date/time strings (make sure the locales are installed in your operating system).
-	If you mix different locales for different users you should avoid words in the email date format specification, e.g.:
+	Установите регион для генерации даты и времени (убедитесь, что регион установлен в вашей операционной системе).
+	Если вы используете разные регионы для разных пользователей, вам следует избегать слов в шаблоне даты электронной почты, например:
 	<b>%A, %d %B %Y, %H:%M:%S</b>

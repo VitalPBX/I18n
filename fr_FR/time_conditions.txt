@@ -5,41 +5,41 @@ time_conditions.cancel = Annuler
 time_conditions.delete = Supprimer
 time_conditions.description = Description
 time_conditions.description.tooltip = Courte description pour identifier cette condition horaires.
-time_conditions.falsegoto = Destination si l'horaire ne correspond pas %s
+time_conditions.falsegoto = Destination si l'horaire ne correspond pas à %s
 time_conditions.general = Conditions horaires
 time_conditions.modfalse = Module Faux
 time_conditions.modtrue = Module Vrai
 time_conditions.save = Sauvegarder
-time_conditions.time_group_id = Groupe horaires
-time_conditions.time_group_id.tooltip = Selectionner un groupe horaires créé dans Groupes horaires. Les horaires correspondant seront envoyés à la destination correspondante.
+time_conditions.time_group_id = Groupes horaires
+time_conditions.time_group_id.tooltip = Selectionner un groupe horaires créés dans Groupes horaires. Les horaires correspondants seront envoyés à la destination correspondante.
 time_conditions.update = Mettre à jour
-time_conditions.truegoto = Destination if time matches %s
-time_conditions.blf_inverted = BLF Inverted
-time_conditions.blf_inverted.tooltip = 
-	By default the BLF light color is green when the time condition is matching and red when is not matching. Setting up
-	this to "yes" will make that the behavior be the inverse of what is described above.
+time_conditions.truegoto = Destination si l'heure correspond à %s
+time_conditions.blf_inverted = BLF inversé
+time_conditions.blf_inverted.tooltip =
+	Par défaut, la couleur de la lumière BLF est verte lorsque la condition temporelle correspond et rouge lorsqu'elle ne correspond pas. 
+	Mettre ceci à "oui" fera en sorte que le comportement soit l'inverse de ce qui est décrit ci-dessus.
 time_conditions.code = {nightmode.code}
-time_conditions.code.tooltip = Dial code to toggle the time condition state through the phone.
+time_conditions.code.tooltip = Composez le code pour basculer l'état de condition de temps via le téléphone.
 time_conditions.hint = {nightmode.phone_hint}
 time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
-time_conditions.pin = Authorization Pin
-time_conditions.pin.tooltip = Optional password to protect from unauthorized people of modifying this time condition.
-time_conditions.status = Status
-time_conditions.status.default = Default
-time_conditions.status.default.desc = Default behavior
-time_conditions.status.permanently_matched = Permanently Matched
-time_conditions.status.permanently_matched_unmatched = Permanently Matched / Unmatched
-time_conditions.status.permanently_matched_unmatched.desc = 
-	Overrides permanently the time condition and sends the calls to the matched/unmatched destination until the override is removed.
-time_conditions.status.permanently_unmatched = Permanently Unmatched
-time_conditions.status.temporary_matched = Temporary Matched
-time_conditions.status.temporary_matched_unmatched = Temporary Matched / Unmatched
-time_conditions.status.temporary_matched_unmatched.desc = 
-	Overrides temporary the time condition and sends the calls to the matched/unmatched destination until the current time span
-	has elapsed. After that, the behavior will return to default
-time_conditions.status.temporary_unmatched = Temporary Unmatched
-time_conditions.status.tooltip = Allows you to override the default behavior of a time condition
-time_conditions.timezone = Time Zone
-time_conditions.timezone.tooltip = 
-	It allows defining the timezone to use for matching the time group associated with this time condition. If set to System,
-	it will take the timezone from server.
+time_conditions.pin = PIN d'autorisation
+time_conditions.pin.tooltip = Mot de passe facultatif pour protéger des personnes non autorisées de la modification de cette condition de temps.
+time_conditions.status = Statut
+time_conditions.status.default = Par défaut
+time_conditions.status.default.desc = Comportement par défaut
+time_conditions.status.permanently_matched = Correspondance permanente
+time_conditions.status.permanently_matched_unmatched = Correspondance permanente / Sans correspondance
+time_conditions.status.permanently_matched_unmatched.desc =
+	Remplace définitivement la condition de temps et envoie les appels à la destination correspondante/non correspondante jusqu'à ce que la dérogation soit supprimée.
+time_conditions.status.permanently_unmatched = Sans correspondance permanente
+time_conditions.status.temporary_matched = Correspondance temporaire
+time_conditions.status.temporary_matched_unmatched = Temporairement Correspondance / non correspondance
+time_conditions.status.temporary_matched_unmatched.desc =
+	Remplace temporairement la condition de temps et envoie les appels à la destination correspondante/non correspondante jusqu'à ce que la période actuelle se soit écoulée. 
+	Après cela, le comportement reviendra à sa valeur par défaut
+time_conditions.status.temporary_unmatched = Temporairement sans correspondance
+time_conditions.status.tooltip = Vous permet de remplacer le comportement par défaut d'une condition de temps
+time_conditions.timezone = Fuseau horaire
+time_conditions.timezone.tooltip =
+	Il permet de définir le fuseau horaire à utiliser pour faire correspondre le groupe horaire associé à cette condition horaire. 
+	S'il est défini sur Système, il prendra le fuseau horaire du serveur.

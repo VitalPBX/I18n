@@ -79,7 +79,7 @@ extensions.followme_options = Параметры
 extensions.followme_self.invalid = Список "Cледуй за мной" не может содержать номер (%s), к которому он привязан.
 extensions.fw_ringtime = Время вызова
 extensions.fw_ringtime.tooltip = Время, в течении которого будут вызываться номера из списка, прежде чем перейти к альтернативному пункту назначения, например, к голосовой почте.
-extensions.fax_channel.invalid = Канал FXS не может быть пустым
+extensions.fxs_channel.invalid = Канал FXS не может быть пустым
 extensions.general = Общие
 extensions.hidefromdir = Спрятать
 extensions.hidefromdir.tooltip = Если установлено <b>«Да»</b>, то имя этого пользователя не будет отображаться в телефонной книге, созданной системой, и вы не сможете набрать этому пользователю с помощью Сервисного кода «Телефонная книга - Набрать по имени».
@@ -201,9 +201,9 @@ extensions.route_description.tooltip = Краткое описание для и
 extensions.routing = Входящие маршруты
 extensions.actions = Действия
 extensions.routes.no_desc = Необходимо заполнить поле <b>Описание</b> для добавления нового входящего маршрута.
-module.fax = Факс
 module.follow_me = Следуй за мной
 module.voicemail = Голосовая почта
+module.fax = Факс
 extensions.extension.tab = Номер {0}
 extensions.callcenter = Настройки Call-центра
 extensions.dynamic_queues = Динамические очереди
@@ -261,23 +261,30 @@ extensions.initial_ringtime.tooltip = Время в секундах для вы
 extensions.initial_ringtime.not_ring = Не вызывать
 extensions.followme.enabled = Включено
 extensions.followme.enabled.tooltip = Позволяет включить/отключить функцию «Следуй за мной» на этом номере.
-extensions.outbound_profile = Исходящий профиль
-extensions.outbound_profile.tooltip =
-	Позволяет вам определить исходящий профиль для этого номера. Эти профили должны содержать коллекцию исходящих маршрутов и
-	соответствующие им шаблоны, поэтому в зависимости от исходящего профиля пользователь этого номера сможет вызывать 
-	или не вызывать определенные номера.
-extensions.fxs_channel.invalid = FXS канал не может быть пустым
-extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
-extensions.email_multiple = Email Addresses
-extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
-extensions.vitxi_clients.max_reached = You've reached the maximum number of Vitxi clients allowed for your current license.
-extensions.qr = QR Viewer
+extensions.email_multiple = Email адреса
+extensions.email_multiple.tooltip = Список адресов электронной почты, разделенных запятой, на которые будут отправляться служебные сообщения.
+extensions.vitxi_clients.max_reached = Вы достигли максимального количества Мобильных/WebRTC клиентов, разрешенных для вашей текущей лицензии.
+extensions.push.max_reached = Вы достигли максимального количества устройств с включенной опцией «Push», которое позволяет ваша текущая лицензия.
+extensions.show_qr = Показать QR-код
+extensions.qr.invalid_device = Невозможно показать QR-код для этого устройства, потому что оно не существует или недействительно.
+extensions.send_welcome_email = Отправить приветственное письмо
+extensions.qr.private = Внутренний IP
+extensions.qr.public = Внешний IP
 extensions.qr.fqdn = FQDN
-extensions.qr.invalid_device = Cannot show QR for this device because doesn't exist or is invalid.
-extensions.qr.private = Private IP
-extensions.qr.public = Public IP
-extensions.send_welcome_email = Send Welcome Email
-extensions.show_qr = Show QR Code
-extensions.welcome_email.invalid_device = Cannot send the welcome email, looks like you've selected an invalid device
-extensions.welcome_email.no_template = Cannot find the requested template
-extensions.welcome_email.sent = The welcome email has been sent
+extensions.qr = QR Просмоторщик
+extensions.welcome_email.invalid_device = Не удается отправить приветственное письмо, похоже, вы выбрали недопустимое устройство
+extensions.welcome_email.sent = Приветственное письмо отправлено
+extensions.welcome_email.no_template = Не могу найти запрошенный шаблон
+extensions.dynamic_external_cid = Динамический внешний CID
+extensions.dynamic_external_cid.tooltip =
+	Если этот параметр включен, в качестве внешнего CID будет использоваться идентификатор вызывающего абонента, отправленный устройствами, подключенными к этому номеру. 
+	Это полезно, когда эти устройства используются в качестве внешней линии.	
+extensions.internal_numbers_confirmation = Сообщение о вызове
+extensions.internal_numbers_confirmation.tooltip =
+	Позволяет вам определить, будут ли задаваться вопрос вызываемой стороне о том, хочет ли она принять входящий вызов, 
+	когда включена опция «Запрос о вызове».	
+extensions.contact = Контактная информация
+extensions.mobile_number.tooltip = Мобильный телефон сотрудника, использующего этот внутренний номер
+extensions.home_number.tooltip = Домашний телефон сотрудника, использующего этот внутренний номер
+extensions.organization.tooltip = Организация, которой принадлежит этот внутренний номер
+extensions.job_title.tooltip = Должность сотрудника, использующего этот внутренний номер

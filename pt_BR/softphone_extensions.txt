@@ -1,8 +1,8 @@
 menu.softphone_extensions = {module.softphone_extensions}
-module.softphone_extensions = Softphone Extensions
+module.softphone_extensions = Ramais Softphone 
 softphone_extensions.general = {vitalpbx.general}
 softphone_extensions.no_license = 
-	You are using the free version of Softphones Licensing Server. Activate this add-on to get more than two extensions
-	for {0} Softphones
+	Você está usando a versão gratuita do Softphones Licensing Server. Ative este complemento para obter mais de dois ramais.
+	para {0} Softphones
 softphone_extensions.max_reached = 
-	You are not allowed to add more than {0} devices
+	Você não tem permissão para adicionar mais de {0} dispositivos

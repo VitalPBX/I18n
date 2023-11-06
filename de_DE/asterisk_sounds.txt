@@ -1,0 +1,14 @@
+menu.asterisk_sounds = Asterisk-Sounds
+module.asterisk_sounds = {menu.asterisk_sounds}
+asterisk_sounds.general = {vitalpbx.general}
+asterisk_sounds.sound = Soundpaket
+asterisk_sounds.installed_version = Installierte Version
+asterisk_sounds.available_version = Verfügbare Version
+asterisk_sounds.actions = Aktionen
+asterisk_sounds.invalid_data = Ungültige Daten angegeben
+asterisk_sounds.successfully_installed = Das Paket der Asterisk-Sounds wurde erfolgreich installiert
+asterisk_sounds.not_installed = Das Paket der Asterisk-Sounds wurde noch nicht installiert
+asterisk_sounds.successfully_updated = Das Paket der Asterisk-Sounds wurde erfolgreich aktualisiert
+asterisk_sounds.cannot_update = Das Paket der Asterisk-Sounds kann nicht aktualisiert werden, da es noch nicht installiert ist
+asterisk_sounds.cannot_remove = Das Paket der Asterisk-Sounds kann nicht entfernt werden, da es noch nicht installiert ist
+asterisk_sounds.successfully_removed = Das Paket der Asterisk-Sounds wurde erfolgreich entfernt

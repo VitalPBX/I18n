@@ -48,3 +48,5 @@ dynamic_destinations.mysql_username = Username {0}
 dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
 dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
 dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
+dynamic_destinations.timeout = {cid_lookup.timeout}
+dynamic_destinations.timeout.tooltip = {cid_lookup.timeout.tooltip}

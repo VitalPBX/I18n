@@ -14,12 +14,12 @@ hot_desking.digit_map = Digit Mapping
 hot_desking.digit_map.tooltip = The digit mapping to use for this line.
 hot_desking.digium_phone_settings = Digium Phone Settings
 hot_desking.max_contacts = Max Contacts
-hot_desking.max_contacts.tooltip = Maximum number of contacts that can bind to an AoR
+hot_desking.max_contacts.tooltip = Maximum number of contacts/phones' devices that can be associated with a PJSIP device
 hot_desking.dtmfmode = DTMF Mode
 hot_desking.dtmfmode.auto.tooltip = Use rfc2833|rfc4733 if offered, in-band otherwise
 hot_desking.dtmfmode.inband.tooltip = Inband audio (requires 64 kbit codec -alaw, ulaw)
 hot_desking.dtmfmode.info.tooltip = SIP INFO messages (application/dtmf-relay)
-hot_desking.dtmfmode.shortinfo.tooltip = SIP INFO messages (application/dtmf)
+hot_desking.dtmfmode.shortinfo.tooltip = SIP INFO messages (application/dtmf). (SIP Only)
 hot_desking.dtmfmode.tooltip = Set default dtmf-mode for sending DTMF. Default rfc2833|rfc4733
 hot_desking.general = General
 hot_desking.language = Language
@@ -59,15 +59,16 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Profile
 hot_desking.profile_id.tooltip = Profile with common parameters for the technology selected.
-hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
+hot_desking.generate_qr = Generate Mobile QR
+hot_desking.generate_qr.tooltip = If enabled, you will be able to scan the QR code with the <b>{0}</b> application
 hot_desking.dispatchable_location = Dispatchable Location
 hot_desking.dispatchable_location.tooltip =
 	It allows you to select or define the dispatchable location for this device. This information will be used
 	to be included on notifications that would be sent when an emergency call be performed from this device.
 hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
-hot_desking.vitxi_client = Vitxi Client
+hot_desking.vitxi_client = WebRTC Client
 hot_desking.vitxi_client.tooltip =
-	If enabled, this device could be used for the Vitxi WebRTC app or the Vitxi Softphones (Android or IOS). When
-	the devices flagged with this option are used on mobile devices with the Vitxi Softphone, all the premium features
-	will be enabled on the softphone.
+	If enabled, this device could be used for the WebRTC application.
+hot_desking.dtmfmode.auto_info.tooltip = DTMF is sent as RFC 4733 if the other side supports it or as SIP INFO if not. (PJSIP Only)
+hot_desking.mobile_client = Mobile Client
+hot_desking.mobile_client.tooltip = If set to yes, it will allow you to generate a QR code to configure this endpoint with the Connect app.

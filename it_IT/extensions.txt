@@ -5,7 +5,7 @@ extensions.accountcode.tooltip = Questo campo, se definito, viene utilizzato per
 extensions.advanced = Avanzato
 extensions.alias = Alias
 extensions.alias.tooltip = Un nome alternativo che puo' essere utilizzato nella rubrica creata dal sistema o per la composizione utilizzando il codice funzione Elenco Rubrica.
-extensions.answermode = Internal Auto Answer
+extensions.answermode = Risposta Automatica Interna
 extensions.answermode.disable = Disabilita
 extensions.answermode.intercom = Intercom
 extensions.answermode.tooltip = Quando e' consentita la risposta automatica alle chiamate sul telefono, e' possibile richiedere la risposta automatica alle chiamate dall'interno dell'intestazione SIP Alert-Info.
@@ -14,13 +14,13 @@ extensions.attach.tooltip = Allega voicemail alla email.
 extensions.call-limit = Limite Chiamata
 extensions.call-limit.no_limit = Nessun Limite
 extensions.call-limit.tooltip = Numero di chiamate simultanee attraverso questo utente / peer.
-extensions.call_from_prompt_id = Call-from prompt
+extensions.call_from_prompt_id = Prompt "Chiamata da"
 extensions.call_from_prompt_id.tooltip = La richiesta di messaggio "Chiamata in arrivo da". E' possibile selezionare l'opzione predefinita per utilizzare la richiesta di messaggio "Chiamata in arrivo da" oppure utilizzare il proprio prompt personalizzato.
-extensions.call_screen = Call Screening
+extensions.call_screen = Selezione Chiamata
 extensions.call_screen.disable = Disabilita
-extensions.call_screen.memory = Screen Caller: Memory
-extensions.call_screen.no_memory = Screen Caller: No Memory
-extensions.call_screen.tooltip = Prima di chiamare l'interno, al chiamante viene richiesto di fornire un'introduzione. L'applicazione chiede loro: "Dopo il tono, pronuncia il tuo nome". Sono ammessi 4 secondi di introduzione.
+extensions.call_screen.memory = Screen Caller: Memorizza
+extensions.call_screen.no_memory = Screen Caller: Non Memorizza
+extensions.call_screen.tooltip = Prima di chiamare l'interno, al chiamante viene richiesto di fornire un'introduzione. L'applicazione chiede: "Dopo il tono, pronuncia il tuo nome". Sono ammessi 4 secondi di introduzione.
 extensions.cancel = Annulla
 extensions.channel.invalid = Il canale FXS selezionato e' gia' in uso.
 extensions.class_of_service_id = Permessi di Chiamata
@@ -37,7 +37,7 @@ extensions.device_id = Dispositivo
 extensions.device_id.tooltip = Lista Dispositivi
 extensions.device_unlinked = Il dispositivo e' stato scollegato correttamente.
 extensions.dev_description = Descrizione Dispositivo
-extensions.dictate_auto_send = Auto-Send Email
+extensions.dictate_auto_send = Invio Automatico E-mail
 extensions.dictate_auto_send.tooltip = La registrazione verra' inviata una volta completata.
 extensions.dictate_enable = Abilita
 extensions.dictate_enable.tooltip = Attiva Dettatura
@@ -46,11 +46,11 @@ extensions.dictate_format.tooltip = Formato di Registrazione.
 extensions.dictation = Dettatura
 extensions.did_number = Numero DID
 extensions.did_number.tooltip = Il numero DID per le chiamate in arrivo, ovvero la rotta in entrata che dovrebbe essere associata a questo interno.
-extensions.diversion_hints = Diversion Hints
+extensions.diversion_hints = Suggerimenti Diviazioni
 extensions.diversion_hints.tooltip = Generare suggerimenti per le deviazioni (DND, Trasferimento di chiamata, Assistente personale ed Esecutivo / Segretario).
 extensions.email = Indirizzo Email
 extensions.email.tooltip = Indirizzo email a cui verranno inviati i messaggi di servizio.
-extensions.enable_callee_prompt = Prompt Callee
+extensions.enable_callee_prompt = Prompt Chiamato
 extensions.enable_callee_prompt.tooltip = Alla parte chiamata verra' chiesto se desiderano accettare la chiamata in arrivo.
 extensions.enable_portal = Abilita Portale
 extensions.enable_portal.tooltip = Consenti agli utenti di accedere al Portale per configurare il proprio Interno.
@@ -58,13 +58,13 @@ extensions.envelope = Busta
 extensions.envelope.tooltip = Attiva / Disattiva la riproduzione della busta prima della riproduzione del messaggio.
 extensions.extension = Interno
 extensions.extension.tooltip = Numero da comporre per raggiungere questo interno.
-extensions.external_cid = External CID
+extensions.external_cid = CID Esterno
 extensions.external_cid.tooltip = ID Chiamante Esterno per l'interno, composto da due parti: il nome CID e il numero CID. Definisce il testo dell'ID chiamante che viene visualizzato quando questo interno effettua chiamate al di fuori del PBX.
 extensions.external_cid_name = Nome
 extensions.external_cid_number = Numero
-extensions.external_cid_number.invalid = Si prega di inserire un ID Chiamante Esterno valido. Sono consentiti solo *, #, + e numeri.
+extensions.external_cid_number.invalid = Inserire un ID Chiamante Esterno valido. Sono consentiti solo *, #, + e numeri.
 extensions.ext_language = Lingua
-extensions.ext_language.tooltip = Specifica l'impostazione della lingua da utilizzare per questo interno. Cio' imporra' che tutti i prompt specifici dell'utente vengano riprodotti nella lingua selezionata, a condizione che la lingua sia installata e che sul server siano presenti messaggi vocali per la lingua specificata.
+extensions.ext_language.tooltip = Specificare l'impostazione della lingua da utilizzare per questo interno. Cio' imporra' che tutti i prompt specifici dell'utente vengano riprodotti nella lingua selezionata, a condizione che la lingua sia installata e che sul server siano presenti messaggi vocali per la lingua specificata.
 extensions.fax_auto_send = Fax to Email
 extensions.fax_auto_send.tooltip = Il Fax verra' inviato per e-mail quando ricevuto.
 extensions.fax_enabled = Fax Abilitato
@@ -81,7 +81,7 @@ extensions.fw_ringtime = Tempo di Squillo
 extensions.fw_ringtime.tooltip = L'ora in cui il telefono potra' chiamare i numeri definiti nell'elenco Seguimi senza ricevere risposta, prima di continuare verso una destinazione alternativa, ad esempio Voicemail.
 extensions.fxs_channel.invalid = Il canale FXS non puo' essere vuoto.
 extensions.general = Generale
-extensions.hidefromdir = Hide From Directory
+extensions.hidefromdir = Nascondere dalla Rubrica
 extensions.hidefromdir.tooltip = Se impostato su Si, questo nome di questo utente non sara' visibile alla rubrica creata dal sistema e non e' possibile chiamare questo utente utilizzando il codice funzione Elenco rubrica..
 extensions.incoming_rec = Chiamata in Ingresso
 extensions.incoming_rec.tooltip = Registra le chiamate in arrivo.
@@ -97,16 +97,16 @@ extensions.invalid.cos = La classe di servizio non e' valida. Assicurati che la 
 extensions.invalid.email =L'e-mail "%s" non e' valida. Assicurati che l'indirizzo email sia corretto.
 extensions.invalid.extension = Il numero di interno <b>%s</ b> non e' valido. Deve contenere solo cifre.
 extensions.invalid.extension_missing = Numero di interno mancante.
-extensions.invalid.features_password = Feature Password <b>%s</b> e' invalido. Deve contenere solo cifre e il segno "*".
+extensions.invalid.features_password = Feature Password <b>%s</b> non e' valido. Deve contenere solo cifre e il segno "*".
 extensions.invalid.language = La lingua dell'interno %s non e' valida. Assicurati che la lingua esista.
 extensions.invalid.unlink_new_device = Impossibile scollegare il dispositivo "Nuovo".
-extensions.job_title = Job Title
+extensions.job_title = Titolo Lavoro
 extensions.job_title.tooltip = Specifica un titolo di lavoro per un contatto.
-extensions.location = Location
+extensions.location = Posizione
 extensions.location.tooltip = Imposta una posizione per un contatto, ad es. "Las Vegas".
 extensions.mohsuggest = Musica di Attesa
 extensions.mohsuggest.tooltip = Questa opzione specifica quale Musica della classe di Attesa deve suggerire al canale peer quando questo canale mette in attesa il peer.
-extensions.music_group_id = Music on Hold Class
+extensions.music_group_id = Musica di Attesa
 extensions.music_group_id.tooltip = Questa opzione specifica quale musica della classe di attesa deve suggerire al canale peer quando questo canale mette in attesa il peer.
 extensions.name = Nome
 extensions.name.tooltip = Nome per identificare questo interno. Questo e' generalmente il nome dell'utente finale.
@@ -137,7 +137,7 @@ extensions.recname.tooltip = Registra il nome del chiamante in modo che possa es
 extensions.recording = Registrazione
 extensions.rec_on_demand = Registrazione su Richiesta
 extensions.rec_on_demand.tooltip = Registra le chiamate su richiesta.
-extensions.ringtime = Ring Time
+extensions.ringtime = Tempo Squilli
 extensions.ringtime.tooltip = Il numero di secondi per consentire ai dispositivi di squillare prima di rinunciare e passare alla priorita' successiva nell'interno.
 extensions.ring_strategy = Modalita' di Squillo
 extensions.ring_strategy.one_by_one = Uno per Uno
@@ -146,18 +146,18 @@ extensions.ring_strategy.tooltip = Modalita' di squillo
 extensions.save = Salva
 extensions.saycid = Say CID
 extensions.saycid.tooltip = Pronunciare le informazioni sull' chiamante prima del messaggio.
-extensions.sayduration = Say Duration
+extensions.sayduration = Avviso Durata
 extensions.sayduration.tooltip = Attiva / Disattiva le informazioni sulla durata prima del messaggio.
-extensions.secretary = Secretary Extension
+extensions.secretary = Interno Segretaria
 extensions.secretary.tooltip = Funzionalita' Boss / Segreteria e' utilizzata per reindirizzare prima tutte le chiamate in arrivo per il telefono principale al telefono segretario. Solo il segretario e' autorizzato a effettuare chiamate dirette a questa estensione.
 extensions.secret = Password Dispositivo
-extensions.sendcid = Invia CallerID
+extensions.sendcid = Invia ID Chiamante
 extensions.sendcid.tooltip = Invia o nascondi l'ID chiamante per questo interno. Questa impostazione si applica solo alle chiamate esterne in uscita.
 extensions.skip_instructions = Salta le Istruzioni
 extensions.skip_instructions.tooltip = Se impostato su Si, saltera' la riproduzione delle istruzioni per lasciare un messaggio alla parte chiamante.
-extensions.sorry_prompt_id = Mi dispiace Prompt
+extensions.sorry_prompt_id = Prompt "Mi dispiace"
 extensions.sorry_prompt_id.tooltip = Puoi scegliere di utilizzare il prompt predefinito "Mi dispiace, ma non siamo stati in grado di individuare il destinatario" o utilizzare il tuo prompt personalizzato.
-extensions.status_prompt_id = Status Prompt
+extensions.status_prompt_id = Prompt Stato
 extensions.status_prompt_id.tooltip = E' possibile scegliere di utilizzare il messaggio di richiesta predefinito "La persona chiamata non e' alla propria scrivania" o utilizzare il proprio prompt personalizzato.
 extensions.suffix = Suffisso
 extensions.suffix.tooltip = Imposta un suffisso per un contatto, ad es. "Jr.".
@@ -182,7 +182,7 @@ extensions.voicemail.busy = %s - %s (Occupato)
 extensions.voicemail.direct = %s - %s (Direct)
 extensions.voicemail.unavailable = %s - %s (Non Disponibile)
 extensions.deny.invalid = Nega non e' valida. Si prega di digitare l'indirizzo IP con la maschera di sottorete. Puoi usare la notazione CIDR. (Esempio: 192.168.40.38/16)
-extensions.permit.invalid = Il permesso non e' valido Si prega di digitare l'indirizzo IP con la maschera di sottorete. Puoi usare la notazione CIDR. (Esempio: 192.168.40.38/16)
+extensions.permit.invalid = Il permesso non e' valido, Si prega di digitare l'indirizzo IP con la maschera di sottorete. Puoi usare la notazione CIDR. (Esempio: 192.168.40.38/16)
 extensions.name.invalid = Nome estensione %s non puo' contenere il carattere ","
 module.extensions = Interni
 extensions.dial_profile_id = Profilo Chiamata
@@ -194,13 +194,13 @@ extensions.notification.updated = L'estensione {0} e' stata Aggiornata.
 extensions.notification.deleted = L'estensione {0} e' stata Eliminata.
 extensions.notification.confirm.delete = Sei sicuro di quello che vuoi eliminare l'interno <b>"{0}"</b>
 extensions.portal_user.duplicated = Il nome utente del portale e' in conflitto con un altro utente con lo stesso nome utente, si prega di controllare e riprovare.
-extensions.number.duplicated = L'estensione {0} e' gia' in uso, controlla e riprova.
-extensions.cid_number.tooltip = Numero cid opzionale per rendere il percorso piu' specifico.
+extensions.number.duplicated = L'estensione {0} e' gia' in uso, controllare e riprovare.
+extensions.cid_number.tooltip = Numero CID opzionale per rendere il percorso piu' specifico.
 extensions.route_description = Descrizione
 extensions.route_description.tooltip = Una breve descrizione per identificare il percorso.
 extensions.routing = Rotte Ingresso
 extensions.actions = Azioni
-extensions.routes.no_desc = Per aggiungere una nuova Rotta in Ingresso, fornire una descrizione valida.
+extensions.routes.no_desc = Per aggiungere una nuova Rotta in Ingresso, inserire una descrizione valida.
 module.follow_me = Seguimi
 module.voicemail = Voicemail
 module.fax = Fax
@@ -242,9 +242,9 @@ extensions.pinless.tooltip =
 	assegnato un set di pin.
 extensions.ask_password = Richiedi Password
 extensions.ask_password.tooltip = 
-	It allows to define if the users who dials <b>{0}</b> to access to their own voicemail will be prompted to enter
-	its voicemail password or not. This doesn't apply for the "{1} ({2})" feature.
-extensions.dynamic_routing = Dynamic Routing
+	Consente di definire se agli utenti che compongono <b> {0} </b> per accedere alla propria casella vocale verra' richiesto di entrare
+        la sua password di posta vocale o meno. Questo non si applica alla funzione "{1} ({2})".
+extensions.dynamic_routing = Instradamento Dinamico
 extensions.dynamic_routing.tooltip = 
 	Consente di abilitare o meno il routing dinamico per questa estensione. Se abilitato, quando una parte esterna
         (che in precedenza era stato chiamato da questo interno) richiama, la sua chiamata verra' instradata direttamente a questo interno.
@@ -253,30 +253,39 @@ extensions.cid_on_diversions = CallerID On Diversions
 extensions.cid_on_diversions.callee = {parking.callee}
 extensions.cid_on_diversions.caller = {parking.caller}
 extensions.cid_on_diversions.tooltip = 
-	It allows you to define what caller id will be sent when a diversion is performed.<br><br>
-	<b>{parking.caller}: </b> It will be sent the caller id of who is calling. <br>
-	<b>{parking.callee}: </b> It will be sent the caller id of who received the call.
-extensions.followme.enabled = Enabled
-extensions.followme.enabled.tooltip = It allows you to enable/disable the follow-me feature on this extension
-extensions.initial_ringtime = Initial Ring Time
-extensions.initial_ringtime.not_ring = Not Ring
-extensions.initial_ringtime.tooltip = Time in seconds to ring the primary extension before calling to the members on the follow-me list
-extensions.outbound_profile = Outbound Profile
+	Consente di definire quale ID chiamante verrà inviato quando viene eseguita una deviazione. <br> <br>
+        <b> {parking.caller}: </b> verrà inviato l'ID chiamante di chi sta chiamando. <br>
+        <b> {parking.callee}: </b> verrà inviato l'id del chiamante di chi ha ricevuto la chiamata.
+extensions.followme.enabled = Abilitato
+extensions.followme.enabled.tooltip = Consente di abilitare / disabilitare la funzione Seguimi su questa estensione.
+extensions.initial_ringtime = Tempo Squillo Iniziale
+extensions.initial_ringtime.not_ring = No Squillo
+extensions.initial_ringtime.tooltip = Tempo in secondi per chiamare l'interno principale prima di chiamare i membri nell'elenco Seguimi.
+extensions.outbound_profile = Profilo in Uscita
 extensions.outbound_profile.tooltip = 
-	It allows you to define an outbound profile for this extension. These profiles should contain a collection of
-	outbound routes and its respective patterns, so, depending on the outbound profile this extension's user will
-	be able to call or not to certain numbers.
-extensions.validation.no_push = You cannot enable the push notification settings in more than five devices with your current plan.
-extensions.email_multiple = Email Addresses
-extensions.email_multiple.tooltip = List of email addresses separated by a comma to where the service messages will be sent.
-extensions.vitxi_clients.max_reached = You've reached the maximum number of Vitxi clients allowed for your current license.
-extensions.qr = QR Viewer
+	Consente di definire un profilo in uscita per questa estensione. Questi profili dovrebbero contenere una raccolta di
+        rotte in uscita e i rispettivi modelli, quindi, a seconda del profilo in uscita, l'utente di questa estensione
+        essere in grado di chiamare o meno a determinati numeri.
+extensions.validation.no_push = Non è possibile abilitare le impostazioni di notifica push in più di cinque dispositivi con il piano corrente.
+extensions.email_multiple = Indirizzi Email
+extensions.email_multiple.tooltip = Elenco di indirizzi e-mail separati da una virgola a cui verranno inviati i messaggi di servizio.
+extensions.vitxi_clients.max_reached = Raggiunto il numero massimo di client Vitxi consentito per la licenza attuale.
+extensions.qr = Visualizzatore QR
 extensions.qr.fqdn = FQDN
-extensions.qr.invalid_device = Cannot show QR for this device because doesn't exist or is invalid.
-extensions.qr.private = Private IP
-extensions.qr.public = Public IP
-extensions.send_welcome_email = Send Welcome Email
-extensions.show_qr = Show QR Code
-extensions.welcome_email.invalid_device = Cannot send the welcome email, looks like you've selected an invalid device
-extensions.welcome_email.no_template = Cannot find the requested template
-extensions.welcome_email.sent = The welcome email has been sent
+extensions.qr.invalid_device = Impossibile mostrare QR per questo dispositivo perché non esiste o non è valido.
+extensions.qr.private = IP Privato
+extensions.qr.public = IP Pubblico
+extensions.send_welcome_email = Invio Email Benvenuto
+extensions.show_qr = Mostra Codice QR
+extensions.welcome_email.invalid_device = Impossibile inviare l'email di benvenuto, è stato selezionato un dispositivo non valido.
+extensions.welcome_email.no_template = Impossibile trovare il modello richiesto.
+extensions.welcome_email.sent = L'email di Benvenuto è stata inviata.
+extensions.dynamic_external_cid = Dynamic External CID
+extensions.dynamic_external_cid.tooltip = 
+	Quando abilitato, utilizzerà come CID esterno l'ID chiamante inviato dai dispositivi collegati a questo interno. Questo è
+        utile quando i dispositivi dell'estensione vengono utilizzati come trunk.
+extensions.internal_numbers_confirmation = Prompt Internal Callees
+extensions.internal_numbers_confirmation.tooltip = 
+	Permette di definire se agli interlocutori interni verrà chiesto se desiderano accettare o meno l'arrivo
+        chiamare quando l'opzione "Chiedi al destinatario della chiamata" è abilitata.
+extensions.push.max_reached = Hai raggiunto il numero massimo di dispositivi con l'opzione "Push" abilitata consentito dalla tua licenza corrente.

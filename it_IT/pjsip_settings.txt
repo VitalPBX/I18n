@@ -1,5 +1,5 @@
-menu.pjsip_settings = Impostatzioni PJSIP
-module.pjsip_settings = Impostatzioni PJSIP
+menu.pjsip_settings = Settaggi PJSIP
+module.pjsip_settings = Settaggi PJSIP
 pjsip_settings.general = Generale
 pjsip_settings.debug = Debug
 pjsip_settings.debug.tooltip = Abilita/disabilita la registrazione del debug SIP.
@@ -73,3 +73,8 @@ pjsip_settings.unidentified_request_prune_interval = Intervallo di Sfoltimento R
 pjsip_settings.unidentified_request_prune_interval.tooltip = 
 		L'intervallo in cui le richieste non identificate sono più vecchie del doppio del periodo di richiesta non identificato vengono eliminate.
 pjsip_settings.codecs = Codec
+pjsip_settings.allow_reload = Consenti Ricaricamento Trasporti
+pjsip_settings.allow_reload.tooltip = 
+	Definisce se i trasporti PJSIP verranno ricaricati quando res_pjsip viene ricaricato. Si consiglia di impostare questa opzione su "no"
+        perché ricaricare un trasporto può interrompere le chiamate in corso.
+pjsip_settings.language.tooltip = Lingua predefinita da utilizzare per i canali creati dagli endpoint PJSIP

@@ -1,0 +1,40 @@
+menu.bulk_extensions =Bulk-Nebenstellen
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {vitalpbx.general}
+bulk_extensions.range = Nebenstellenbereich
+bulk_extensions.range.tooltip =
+	Definiert den Bereich der Nebenstellen, die Sie erstellen möchten, z. B.: von 1000 bis 1400.
+	<b>Wenn eine der Nebenstellen im Bereich bereits vorhanden ist, wird sie übersprungen</b>.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Gerätetechnologie
+bulk_extensions.dev_technology.tooltip  = Definiert die Technologie des Geräts, das der Nebenstelle zugewiesen wird
+bulk_extensions.vm_enabled = Anrufbeantworter aktiviert
+bulk_extensions.recording_types = Anrufe aufzeichnen
+bulk_extensions.recording_types.tooltip = Ermöglicht Ihnen auszuwählen, welche Art von Anrufen aufgezeichnet werden sollen
+bulk_extensions.vm_password.tooltip =
+	Ermöglicht Ihnen, das Anrufbeantworter-Passwort für jede Nebenstelle zu definieren. Wenn es leer gelassen wird, ist das Passwort die Nebenstelle
+	Nummer. Sie können das reservierte Wort <b>&#123;RANDOM&#125;</b> verwenden, um ein zufälliges Passwort zu generieren.
+bulk_extensions.accountcode.tooltip =
+	Ermöglicht Ihnen, den Kontocode für jede Nebenstelle zu definieren. Sie können das reservierte Wort <b>&#123;EXTENSION&#125;</b> use verwenden
+	um die Nebenstelle als Kontocode zu verwenden.
+bulk_extensions.features_password.tooltip =
+	Ermöglicht Ihnen, das Funktionskennwort für jede Nebenstelle zu definieren. Wenn es leer gelassen wird, wird ein zufälliges Kennwort generiert.
+	Sie können das reservierte Wort <b>&#123;EXTENSION&#125;</b> verwenden, um die Erweiterung als Funktionskennwort zu verwenden.
+bulk_extensions.validation.invalid_range = Es wurde ein ungültiger Nebenstellenbereich bereitgestellt
+bulk_extensions.validation.invalid_vm_password =
+	Das Anrufbeantworter-Passwort enthält ungültige Zeichen. Es sind nur Zahlen, Sternchen oder reservierte Wörter erlaubt
+bulk_extensions.validation.invalid_f_password =
+	Das Funktionskennwort enthält ungültige Zeichen. Es sind nur Zahlen, Sternchen oder reservierte Wörter erlaubt
+bulk_extensions.success =
+	Die Erweiterungen wurden erfolgreich verarbeitet. <b>Erstellte Nebenstellen</b>: {0} | <b>Übersprungene Nebenstellen</b>: {1}
+bulk_extensions.name_prefix = Namenspräfix
+bulk_extensions.name_prefix.tooltip =
+	Ermöglicht Ihnen, ein Präfix zu definieren, das als Teil des Nebenstellennamens verwendet werden soll, z. B.: wenn Sie den Präfixwert auf Agent setzen und
+	die Nebenstelle 200 ist, lautet der Nebenstellenname <b>Agent 200</b>. Wenn es leer ist, wird das Wort <b>Nebenstelle</b> als Präfix verwendet
+bulk_extensions.device_password = Gerätekennwort
+bulk_extensions.device_password.tooltip =
+	Es ermöglicht Ihnen, ein dynamisches oder festes Passwort für die generierten Geräte zu definieren. Wenn es leer ist, wird ein zufälliges Passwort festgelegt.
+	Sie können das reservierte Wort <b>&#123;EXTENSION&#125;</b> verwenden, um die Nebenstellennummer in das Passwort aufzunehmen.
+	Beispiel: Wenn die Durchwahl 100 ist und Sie den folgenden Wert in dieses Feld <b>securepwd&#123;EXTENSION&#125;</b> setzen, lautet das Passwort:
+	<b>securepwd100</b>

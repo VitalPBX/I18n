@@ -56,11 +56,11 @@ extensions_status.device_info.status = Статус
 extensions_status.device_info.host = Хост
 extensions_status.device_info.useragent = Клиент
 extensions_status.no_devices = Нет устройств
-menu.extensions_status = <span style="margin-left: -5px;">Дополнительные настройки</span>
+menu.extensions_status = Дополнительные настройки
 module.extensions_status = Доп. настройки
 extensions_status.device_info.username_channel = Технология / Номер
 extensions_status.device_info.port = Порт
 extensions_status.unspecified = (Не назначен)
-extensions_status.device_info.user_agent = User Agent
-extensions_status.destination = Destination
-extensions_status.destination.tooltip = Destination, where the caller will be sent in case the callee, doesn't answer
+extensions_status.device_info.user_agent = Клиентское приложение
+extensions_status.destination = Направление
+extensions_status.destination.tooltip = Направление, куда надо отправить звонящего в случае, если ему никто не ответил

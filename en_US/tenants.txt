@@ -1,3 +1,4 @@
+menu.multi_tenant = Multi-Tenant
 module.tenants = Tenants
 menu.tenants = {module.tenants}
 tenants.general = General
@@ -100,4 +101,35 @@ tenants.timezone.tooltip =
 tenants.addons = External Add-ons
 tenants.addons.tooltip =
 	It allows selecting what external add-ons will be shown to this tenant on the user's menu.
-
+tenants.cid = Default External CID
+tenants.cid_name = CID Name
+tenants.cid_number = CID Number
+tenants.cid.tooltip =
+	It allows you to define the default external CID Name and Number to be used in outbound calls.
+tenants.restricted_cid = Restricted CID
+tenants.restricted_cid.tooltip  = It allows you to defined if the Caller ID numbers for external calls will be restricted or not.
+tenants.restricted_cid.disabled = Disabled
+tenants.restricted_cid.disabled.tooltip = No restrictions will be applied. The tenant will be able to use any external CID number.
+tenants.restricted_cid.default = Default
+tenants.restricted_cid.default.tooltip = All the external calls for this tenant will be forced to use the CID info defined in the "Default External CID" field.
+tenants.restricted_cid.dids = DIDs
+tenants.restricted_cid.dids.tooltip = The external CID number must match with the DIDs patterns/numbers defined for this tenant.
+tenants.no_default_cid = The "Restricted CID" field is set to "Default" but the default external CID number has not been defined
+tenants.no_dids = The "Restricted CID" field is set to "DIDs" but no DIDs has been defined
+tenants.calls_limit = Concurrent Calls Limit
+tenants.calls_limit.tooltip = It allows you to define the number of concurrent outgoing calls allowed for this tenant.
+tenants.calls_limit.placeholder = No Limit
+tenants.calls_limit.invalid = You have provided an invalid calls limit value
+tenants.main = (Main)
+tenants.duplicated_did = The DID "{0}" is already in use by tenant "{1}."
+tenants.vpbx_devices = VitalPBX Connect Devices
+tenants.vpbx_devices.tooltip = It allows you to define the number of VitalPBX Connect devices that the users of this tenant can add.
+tenants.calls_sms_routing = Calls & SMS Routing
+tenants.sms_numbers = SMS Numbers
+tenants.sms_numbers.tooltip = It allows you to share the SMS numbers configured in Messaging Providers with tenants.
+tenants.disable_trunks_prefix = Disable Trunks Prefix
+tenants.disable_trunks_prefix.tooltip =
+    Setting this parameter to "Yes" will disable the append of the Tenant's prefix to the trunk devices; this can be
+    useful if you need to create more than one trunk(on different tenants) from the same provider using the "Username Auth" method.<br><br>
+    <b>Warning:</b> disabling the trunk prefix for multiple tenants might lead to device name duplicity(trunks with the
+    same Local Username); eventually, this might cause the collapse of the Asterisk service.

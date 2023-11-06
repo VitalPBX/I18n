@@ -1,0 +1,43 @@
+domotic_extensions.dial =Zu wählende Nummer
+domotic_extensions.dial.tooltip = Definiert die zu wählende Nummer, um mit dem ausgewählten {0} zu interagieren.
+domotic_extensions.description = Beschreibung
+domotic_extensions.description.help = Kurze Beschreibung, um dieses {0} zu identifizieren.
+domotic_extensions.unit_id = Einheit
+domotic_extensions.unit_id.help = Abhängig von der ausgewählten Einheit wird das {0} zum Konfigurieren angezeigt.
+domotic_extensions.device_id = Gerät
+domotic_extensions.device_id.help = Gerät zur Interaktion.
+domotic_extensions.class_of_service_id = Dienstleistungsklasse
+domotic_extensions.class_of_service_id.help = Definiert, von welcher Serviceklasse aus auf dieses {0} zugegriffen werden kann.
+domotic_extensions.pin_list_id = PIN-Liste
+domotic_extensions.pin_list_id.help = Ermöglicht die Definition einer Pin-Liste zum Schutz der Interaktion mit dem {0}.
+domotic_extensions.white_list = Weiße Liste
+domotic_extensions.white_list.help = Ermöglicht zu definieren, welche Zahlen keinen Pin eingeben müssen, um mit dem ausgewählten {0} zu interagieren.
+domotic_extensions.scene_id = Szene
+domotic_extensions.scene_id.help = Szene zu interagieren.
+domotic_extensions.toggle_mode = Modus umschalten
+domotic_extensions.toggle_mode2 = Anweisungen überspringen
+domotic_extensions.toggle_mode.help = Wenn auf Ja gesetzt, wird der Gerätestatus ohne Aufforderung umgeschaltet.
+domotic_extensions.toggle_mode.help2 = Wenn auf yes gesetzt, wird die Szene ohne Aufforderung ausgeführt.
+domotic_extensions.recording_id = Willkommensnachricht
+domotic_extensions.recording_id.help = Nachricht, die zu Beginn abgespielt werden soll, normalerweise um anzugeben, was {0} Sie interagieren werden
+domotic_extensions.hint = Hinweis generieren
+domotic_extensions.hint.help = Hinweis für dieses Gerät generieren
+domotic_extensions.blf = BLF-Hinweis
+domotic_extensions.blf.help = Dies ist die Zeichenfolge, die Sie den BLF-Leitungen Ihres Telefons hinzufügen müssen.
+
+domotic_extensions.validation.empty_device = Das Gerät ist erforderlich.
+domotic_extensions.validation.empty_scene = Die Szene ist erforderlich.
+domotic_extensions.validation.empty_cos = Die Dienstklasse ist erforderlich.
+domotic_extensions.validation.empty_dial = Die zu wählende Nummer ist erforderlich.
+domotic_extensions.validation.invalid_dial = Die zu wählende Nummer hat ein ungültiges Format. Zahlen, *, # und + sind erlaubt.
+domotic_extensions.validation.empty_description = Die Beschreibung ist erforderlich.
+domotic_extensions.validation.invalid_description = Die Beschreibung hat ein ungültiges Format. Zahlen, Buchstaben, Leerzeichen, Bindestriche und Unterstriche sind erlaubt.
+
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
+domotic_extensions.device =
+	[eins] device
+	[mehr] devices
+domotic_extensions.scene =
+	[eins] scene
+	[mehr] scenes

@@ -3,48 +3,50 @@ dynamic_destinations.auth_password = {cid_lookup.password}
 dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
 dynamic_destinations.auth_user = {cid_lookup.user}
 dynamic_destinations.auth_user.tooltip = {cid_lookup.user.tooltip}
-dynamic_destinations.condition = Response
-dynamic_destinations.conditions.empty = No valid destinations defined
-dynamic_destinations.database = Database {0}
+dynamic_destinations.condition = Réponse
+dynamic_destinations.conditions.empty = Aucune destination valide définie
+dynamic_destinations.database = Base de données {0}
 dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
-dynamic_destinations.default_destination = Default Destination {0}
-dynamic_destinations.default_destination.tooltip = Destination to be executed in case of receiving an undefined response
+dynamic_destinations.default_destination = Destination par défaut {0}
+dynamic_destinations.default_destination.tooltip = Destination à exécuter en cas de réception d'une réponse non définie
 dynamic_destinations.description = Description {0}
-dynamic_destinations.description.tooltip = Brief description for this item
+dynamic_destinations.description.tooltip = Brève description de cet article
 dynamic_destinations.destination = Destination
 dynamic_destinations.destinations = Destinations
-dynamic_destinations.destinations.title = Destinations to be executed depending of response received after script execution
-dynamic_destinations.enabled = Enabled
+dynamic_destinations.destinations.title = Destinations à exécuter en fonction de la réponse reçue après l'exécution du script
+dynamic_destinations.enabled = Activé
 dynamic_destinations.general = {vitalpbx.general}
-dynamic_destinations.host = Host {0}
-dynamic_destinations.host.tooltip = It allows you to define the host or IP address where is located the script
-dynamic_destinations.mod_dest = Default Destination Module
-dynamic_destinations.mysql_host = Host {0}
+dynamic_destinations.host = Hôte {0}
+dynamic_destinations.host.tooltip = Permet de définir l'hôte ou l'adresse IP où se trouve le script
+dynamic_destinations.mod_dest = Module de destination par défaut
+dynamic_destinations.mysql_host = Hôte {0}
 dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
-dynamic_destinations.mysql_password = Password
+dynamic_destinations.mysql_password = Mot de passe
 dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
-dynamic_destinations.mysql_username = Username {0}
+dynamic_destinations.mysql_username = Nom d'utilisateur {0}
 dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
-dynamic_destinations.path = Path {0}
-dynamic_destinations.path.tooltip = Scripting name to be executed
+dynamic_destinations.path = Chemin {0}
+dynamic_destinations.path.tooltip = Nom du script à exécuter
 dynamic_destinations.port = {cid_lookup.port}
 dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
-dynamic_destinations.query = Query {0}
-dynamic_destinations.query.tooltip = 
-	Query to execute. The special token <b>[CIDNUM]</b> will be replaced with the callers number. e.g.:
+dynamic_destinations.query = Requête {0}
+dynamic_destinations.query.tooltip =
+	Requête à exécuter. Le jeton spécial <b>[CIDNUM]</b> sera remplacé par le numéro de l'appelant. par exemple.:
 	<b> SELECT 'VIP_CUSTOMER' as `response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
-dynamic_destinations.query_string = Query String
-dynamic_destinations.query_string.tooltip = 
-	Series of parameters to be sent as part of the script.
-	The special argument value <b>[CIDNUM]</b> it will be replaced by caller cid number.
-	<br><br> Example: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+dynamic_destinations.query_string = Chaîne de requête
+dynamic_destinations.query_string.tooltip =
+	Série de paramètres à envoyer dans le cadre du script.
+	La valeur de l'argument spécial <b>[CIDNUM]</b> sera remplacée par le numéro cid de l'appelant.
+	<br><br> Exemple : <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
 dynamic_destinations.secure = {cid_lookup.secure}
 dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
-dynamic_destinations.type = Source Type
+dynamic_destinations.type = Type de source
 dynamic_destinations.type.option.api = URL
 dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
-dynamic_destinations.type.tooltip = Type of source to use
+dynamic_destinations.type.tooltip = Type de source à utiliser
 dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
 dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
-menu.dynamic_destinations = Dynamic Destinations
+menu.dynamic_destinations = Destinations dynamiques
 module.dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.timeout = {cid_lookup.timeout}
+dynamic_destinations.timeout.tooltip = {cid_lookup.timeout.tooltip}

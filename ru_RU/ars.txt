@@ -7,7 +7,7 @@ ars.general = Общие
 ars.members = Маршруты
 ars.outbound_route_id = Исходящий маршрут
 ars.time_group_id = Время использования
-menu.route_selections = <span style="margin-left: -5px;">Выбор маршрута</span>
+menu.route_selections = Выбор маршрута
 module.ars = Выбор маршрута
 ars.used_by_cos = Этот элемент невозможно удалить, поскольку он используется одним или несколькими <b>Классами обслуживания</b>
 ars.none = {none}

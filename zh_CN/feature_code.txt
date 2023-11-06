@@ -141,9 +141,3 @@ feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip = 
 	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
 	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.
-feature_code.hot_desking_cc = Hot Desking CC
-feature_code.hot_desking_cc.tooltip = 
-	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
-	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
-	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
-	indicates to the system to login extension 100 using the password 1234.

@@ -56,3 +56,6 @@ csv.invalid_file = You have not selected a CSV file
 select_country = -- Select Country --
 select_state = -- Select State --
 continue = Continue
+tenant = Tenant
+invalid_extension = The provided extension/number is invalid. Only *,#,+ and numbers are allowed.
+page = Page

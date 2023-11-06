@@ -170,3 +170,17 @@ feature_code.hot_desking_cc.tooltip =
 	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
 	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
 	indicates to the system to login extension 100 using the password 1234.
+feature_code.paging_duplex = Paging Duplex
+feature_code.paging_duplex.tooltip =
+	This feature code works just like the paging feature code but with duplex audio, which means that the device that
+	receives the call can transmit audio back at the same time as it is receiving it. To use this feature, you must use
+	the following format <b>{0}100</b>, where <b>{0}</b> is the feature code, and <b>100</b> the extension you want to page.
+feature_code.anonymous_calling = Anonymous Calling
+feature_code.anonymous_calling.tooltip =
+	This feature code allows sending anonymous outbound calls on demand. To use this feature, you must use the following
+	format <b>{0}100</b>, where <b>{0}</b> is the feature code, and <b>100</b> is the external number you want to call.
+feature_code.auto_recording_switch_in = Pause/Resume Incoming Call Recordings
+feature_code.auto_recording_switch_in.tooltip =
+    It allows you to pause/resume a call recording to avoid recording sensitive information such as credit card details.
+feature_code.auto_recording_switch_out = Pause/Resume Outbound Call Recordings
+feature_code.auto_recording_switch_out.tooltip = {feature_code.auto_recording_switch_in.tooltip}

@@ -35,3 +35,15 @@ maintenance.tenant.tooltip = Consente di selezionare l'utente su cui verranno ap
 maintenance.validation.enabled_without_cron = La manutenzione e' stata abilitata ma nessun profilo cron e' stato selezionato.
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
+maintenance.best = Best ({0}k)
+maintenance.conversion_quality = Qualità Audio
+maintenance.conversion_quality.tooltip = 
+	La qualità audio da applicare durante la conversione da WAV a MP3. Qualità più elevate producono audio migliori, ma utilizzano più spazio
+        nel disco rigido; Qualità inferiori producono file audio più piccoli, ma la qualità viene ridotta.
+maintenance.good = Good ({0}k)
+maintenance.high = High ({0}k)
+maintenance.medium = Medium ({0}k)
+maintenance.voicemail_preservation = Cancella Messaggi Vocali meno recenti
+maintenance.voicemail_preservation.tooltip = 
+	Consente di definire il numero massimo di giorni in cui conservare le registrazioni della posta vocale.
+        Le registrazioni con un'età superiore ai giorni qui definiti verranno eliminate.

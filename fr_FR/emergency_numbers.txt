@@ -1,26 +1,27 @@
 emergency_numbers.cat_description = Description
-emergency_numbers.cat_description.tooltip = A short description to easy recognize this list of emergency numbers
-emergency_numbers.description = Service Name
-emergency_numbers.description.placeholder = eg.: Police, Firefighters, Ambulance, Etc.
-emergency_numbers.description.tooltip = Name of the service that represents this telephone number. eg.: Police, Firefighters, Ambulance, etc
+emergency_numbers.cat_description.tooltip = Une courte description pour reconnaître facilement cette liste de numéros d'urgence
+emergency_numbers.description = Nom du service
+emergency_numbers.description.placeholder = ex. : Police, pompiers, ambulance, etc.
+emergency_numbers.description.tooltip = Nom du service qui représente ce numéro de téléphone. Ex. : Police, Pompiers, Ambulance, etc.
 emergency_numbers.general = {vitalpbx.general}
-emergency_numbers.legend = List of Emergency Numbers
-emergency_numbers.number = Number
-emergency_numbers.number.placeholder = eg.: 911
-emergency_numbers.number.tooltip = Telephone number to contact local emergency services for assistance
+emergency_numbers.legend = Liste des numéros d'urgence
+emergency_numbers.number = Numéro
+emergency_numbers.number.placeholder = ex. : 15
+emergency_numbers.number.tooltip = Numéro de téléphone pour contacter les services d'urgence locaux pour obtenir de l'aide
 emergency_numbers.trunks = Trunks
-emergency_numbers.trunks.tooltip = List of trunks than can be used in case of a emergency call
-emergency_numbers.validation.invalid_number =
-	The following number <b>"{0}"</b> has an invalid format, please write a valid phone number.
-	It should contain the following characters: *,#,+
+emergency_numbers.trunks.tooltip = Liste des lignes réseau pouvant être utilisées en cas d'appel d'urgence
+numéros_urgence.validation.numéro_invalide =
+	Le numéro suivant <b>"{0}"</b> a un format invalide, veuillez écrire un numéro de téléphone valide.
+	Il doit contenir les caractères suivants : *,#,+
 emergency_numbers.validation.n_duplicated =
-	The emergency number {0} is already in use by the following emergency number category: <b>{1}</b>.
-emergency_numbers.validation.no_desc = No description has been provided. Please provide a valid description
-emergency_numbers.validation.no_numbers = No numbers has been provided. Please add at least one number.
-emergency_numbers.validation.no_trunks = No trunks has been selected. Please select at least one trunk.
-menu.emergency_numbers = Emergency Numbers
+	Le numéro d'urgence {0} est déjà utilisé par la catégorie de numéros d'urgence suivante : <b>{1}</b>.
+emergency_numbers.validation.no_desc = Aucune description n'a été fournie. Veuillez fournir une description valide
+emergency_numbers.validation.no_numbers = Aucun numéro n'a été fourni. Veuillez ajouter au moins un numéro.
+emergency_numbers.validation.no_trunks = Aucune ligne réseau n'a été sélectionnée. Veuillez sélectionner au moins un tronc.
+menu.emergency_numbers = Numéros d'urgence
 module.emergency_numbers = {menu.emergency_numbers}
-emergency_numbers.email_addresses = Email Addresses
-emergency_numbers.email_addresses.tooltip = 
-	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
-emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.
+emergency_numbers.email_addresses = Adresses e-mail
+emergency_numbers.email_addresses.tooltip =
+	Adresses e-mail qui recevront une notification lorsque l'un des numéros d'urgence définis ici sera composé
+emergency_numbers.validation.invalid_email = L'adresse e-mail <b>{0}</b> n'est pas valide.
+emergency_numbers.validation.invalid_number = The following number <b>"{0}"</b> has an invalid format, please write a valid phone number. It should contain the following characters: *,#,+

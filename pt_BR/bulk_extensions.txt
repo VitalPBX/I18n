@@ -14,13 +14,13 @@ bulk_extensions.recording_types = Gravar Chamadas
 bulk_extensions.recording_types.tooltip = Permite que você selecione que tipo de chamadas serão gravadas
 bulk_extensions.vm_password.tooltip =
 	Permite que você defina a senha do correio de voz para cada ramal, se for deixado em branco, a senha será o ramal
-	número. Você pode usar a palavra reservada <b>&#123;ALEATÓRIO&#125;</b> para gerar uma senha aleatória.
+	número. Você pode usar a palavra reservada <b>&#123;RANDOM&#125;</b> para gerar uma senha aleatória.
 bulk_extensions.accountcode.tooltip =
-	Permite que você defina o código da conta para cado ramal. Você pode usar a palavra reservada <b>&#123;EXTENSÃO&#125;</b>
+	Permite que você defina o código da conta para cado ramal. Você pode usar a palavra reservada <b>&#123;EXTENSION&#125;</b>
 	para usar o ramal como código de conta.
 bulk_extensions.features_password.tooltip =
 	Permite que você defina a senha dos recursos para cado ramal, se deixada em branco, uma senha aleatória será gerada.
-	Você pode usar a palavra reservada <b>&#123;EXTENSÃO&#125;</b> para usar o ramal como senha de recursos.
+	Você pode usar a palavra reservada <b>&#123;EXTENSION&#125;</b> para usar o ramal como senha de recursos.
 bulk_extensions.validation.invalid_range = Um intervalo de ramal inválido foi fornecido
 bulk_extensions.validation.invalid_vm_password =
 	A senha do correio de voz contém caracteres inválidos. Apenas números, símbolo de asterisco ou palavras reservadas são permitidos
@@ -35,6 +35,6 @@ bulk_extensions.name_prefix.tooltip =
 bulk_extensions.device_password = Senha de dispositivos
 bulk_extensions.device_password.tooltip =
 	Ele permite que você defina uma senha dinâmica ou fixa para os dispositivos gerados. Se em branco, uma senha aleatória será definida.
-	Você pode usar a palavra reservada <b>&#123;RAMAL&#125;</b> para tornar o número de ramal parte da senha,
-	por exemplo. : se o ramal for 100 e você definir o seguinte valor para este campo <b>securepwd&#123;RAMAL&#125;</b>, então, a senha será:
+	Você pode usar a palavra reservada <b>&#123;EXTENSION&#125;</b> para tornar o número de ramal parte da senha,
+	por exemplo. : se o ramal for 100 e você definir o seguinte valor para este campo <b>securepwd&#123;EXTENSION&#125;</b>, então, a senha será:
 	<b>securepwd100</b>

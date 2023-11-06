@@ -10,44 +10,45 @@ trunk_group.select_outbound_route = -- Selectionner la route sortante --
 trunk_group.trklist = Lignes (trunks)
 trunk_group.trklist.empty = Aucune ligne n'est selectionnée pour ce groupe de ligne.
 trunk_group.trklist.tooltip = Liste des trunks disponibles
-trunk_group.trkpattern = Motifs (schémas) de numéros %s
+trunk_group.trkpattern = Plan de numérotation %s
 trunk_group.trkpattern.pattern = Motif (schéma)
 trunk_group.trkpattern.pattern.invalid = Motif invalide {0}
-trunk_group.trkpattern.pattern.placeholder = Motif correspondant
-trunk_group.trkpattern.pattern.tooltip = Le motif correspondant nous permet de créer une route dans notre plan de numérotation qui correspondra au mieux au numéro composé
-trunk_group.trkpattern.prefix = Prefixe
-trunk_group.trkpattern.prefix.placeholder = Prefixe
-trunk_group.trkpattern.prefix.tooltip = Prefixe à enlever quand cela correspond
-trunk_group.trkpattern.prepend = Prepend
-trunk_group.trkpattern.prepend.placeholder = Prepend
+trunk_group.trkpattern.pattern.placeholder = Correspondant Motif
+trunk_group.trkpattern.pattern.tooltip = Le motif correspondant nous permet de créer un itinéraire dans notre plan de numérotation qui correspondra au mieux au numéro composé
+trunk_group.trkpattern.prefix = Préfixe
+trunk_group.trkpattern.prefix.placeholder = Préfixe
+trunk_group.trkpattern.prefix.tooltip = Préfixe à supprimer quand cela correspond
+trunk_group.trkpattern.prepend = Préfixer
+trunk_group.trkpattern.prepend.placeholder = Préfixer
 trunk_group.trkpattern.prepend.tooltip = Chiffres à rajouter quand cela correspond
-trunk_group.virttrk = Tenant Trunks
-trunk_group.virttrk.tooltip = List of tenants that this tenant can call as trunk
-menu.outbound_routes = Outbound Routes
-trunk_group.intra_company = Intra-Company
+trunk_group.virttrk = Trunks locataires
+trunk_group.virttrk.tooltip = Liste des locataires que ce locataire peut appeler en tant que trunk
+menu.outbound_routes = Routes sortantes
+trunk_group.intra_company = Intra-entreprise
 trunk_group.intra_company.tooltip =
-	If checked, the internal caller id will be sent through this outbound route, instead of the external caller id
-	of the calling extension
-trunk_group.no_description = No description has been provided
-trunk_group.no_patterns = No patterns configured for this outbound route
-trunk_group.failover_destination = Failover Destination
-trunk_group.failover_destination.tooltip = 
-	Optional destination to execute in case that the call fails after try with all the listed trunks.
-trunk_group.trkpattern.cid_pattern = CID Pattern
-trunk_group.trkpattern.cid_pattern.placeholder = Match CID Pattern
-trunk_group.trkpattern.cid_pattern.tooltip = 
-	If defined, calls that match the defined pattern must also match this call identification pattern in order to
-	take this route. The caller id to match will be the internal CID and not the External CID.
-trunk_group.cid = Outbound CID
-trunk_group.cid.tooltip = It allows you to define a specific Caller ID Number/Name that will be using on this outbound route when the "Overwrite CID" setting is enabled
-trunk_group.cid_name = CID Name
-trunk_group.cid_number = CID Number
-trunk_group.no_cid = The "Overwrite CID" setting is enabled, but you didn't define the Outbound CID parameters.
-trunk_group.overwrite_cid = Overwrite CID
-trunk_group.overwrite_cid.tooltip = If enable, the extension's outbound CID will be overwritten with the CID parameters defined on this Outbound Route
-trunk_group.overwrite_cid.if_not_provided = If not provided
-trunk_group.overwrite_cid.if_not_provided.tooltip = It will overwrite the CID information only if no External CID is provided during the call
+	Si coché, l'identifiant de l'appelant interne sera envoyé via cette route sortante, au lieu de l'identifiant de l'appelant externe du poste appelant
+trunk_group.no_description = Aucune description n'a été fournie
+trunk_group.no_patterns = Aucun modèle configuré pour cette route sortante
+trunk_group.failover_destination = Destination de basculement
+trunk_group.failover_destination.tooltip =
+	Destination facultative à exécuter en cas d'échec de l'appel après un essai avec toutes les lignes de réseau répertoriées.
+trunk_group.trkpattern.cid_pattern = Modèle CID
+trunk_group.trkpattern.cid_pattern.placeholder = Correspondre au modèle CID
+trunk_group.trkpattern.cid_pattern.tooltip =
+	S'ils sont définis, les appels qui correspondent au modèle défini doivent également correspondre à ce modèle d'identification d'appel afin de prendre cette route. 
+	L'identifiant de l'appelant à faire correspondre sera le CID interne et non le CID externe.
+trunk_group.cid = CID sortant
+trunk_group.cid.tooltip = Il vous permet de définir un numéro/nom d'identification de l'appelant spécifique qui sera utilisé sur cette route sortante lorsque le paramètre "Ecraser le CID" est activé
+trunk_group.cid_name = Nom CID
+trunk_group.cid_number = Numéro CID
+trunk_group.no_cid = Le paramètre "Écraser le CID" est activé, mais vous n'avez pas défini les paramètres CID sortant.
+trunk_group.overwrite_cid = Écraser le CID
+trunk_group.overwrite_cid.tooltip = Si activé, le CID sortant de l'extension sera écrasé par les paramètres CID définis sur cette route sortante
+trunk_group.overwrite_cid.if_not_provided = Si non fourni
+trunk_group.overwrite_cid.if_not_provided.tooltip = Il écrasera les informations CID uniquement si aucun CID externe n'est fourni pendant l'appel
 trunk_group.overwrite_cid.no = {vitalpbx.no}
-trunk_group.overwrite_cid.no.tooltip = It will preserve any CID provided during the call. It will not perform any overwriting
+trunk_group.overwrite_cid.no.tooltip = Il conservera tout CID fourni lors de l'appel. Il n'effectuera aucun écrasement
 trunk_group.overwrite_cid.yes = {vitalpbx.yes}
-trunk_group.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this outbound route
+trunk_group.overwrite_cid.yes.tooltip = Il force à écraser le CID avec les paramètres CID définis sur cette route sortante
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = If set to yes, all the calls using this outbound route will be recorded.

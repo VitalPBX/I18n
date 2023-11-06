@@ -1,0 +1,34 @@
+menu.dial_profiles = Wählprofile
+module.dial_profiles = Wählprofile
+dial_profiles.name = Name
+dial_profiles.name.help = Name zur Identifizierung dieses Profils
+dial_profiles.music_group_id = Wartemusikgruppe
+dial_profiles.music_group_id.help = Geben Sie dem Anrufer Wartemusik, bis ein angeforderter Kanal antwortet.
+dial_profiles.allow_parking = Parken zulassen
+dial_profiles.allow_parking.help = Ermöglichen Sie dem angerufenen/anrufenden Teilnehmer, das Parken des Anrufs zu aktivieren, indem Sie die DTMF-Sequenz senden, die für "Anruf parken" in den Funktionscodes definiert ist.
+dial_profiles.allow_transfer = Vermittlung zulassen
+dial_profiles.allow_transfer.help = Ermöglichen Sie dem angerufenen/anrufenden Teilnehmer, den Anrufer durch Senden der in den Funktionscodes definierten DTMF-Sequenz zu vermitteln.
+dial_profiles.call_screening = Anrufüberwachung
+dial_profiles.call_screening.help = Bevor Sie Ihre Nebenstelle anrufen, wird der Anrufer um eine Einführung gebeten. Die Anwendung fragt sie: "Nach dem Ton, sagen Sie Ihren Namen". Ihnen werden 4 Sekunden zur Eingabe gewährt.
+dial_profiles.invalid.default_delete = Dieses Wählprofil kann nicht gelöscht werden, da es als Standard markiert ist
+dial_profiles.invalid.profile_assigned = {0} Wählprofil kann nicht gelöscht werden. Es wird von mindestens einer Nebenstelle verwendet. Verwenden Sie {1}, um zu sehen, welche Nebenstellen diesem Profil zugewiesen sind.
+dial_profiles.invalid.profile_in_use = {0} Wählprofil kann nicht gelöscht werden. Es wird von den folgenden Trunk(s) verwendet: {1}.
+dial_profiles.ringing_tone = Klingelton
+dial_profiles.ringing_tone.help = Signalisieren Sie dem Anrufer, dass es klingelt, auch wenn es beim Angerufenen nicht klingelt. Übergeben Sie kein Audio an den Anrufer, bis der angerufene Kanal geantwortet hat.
+dial_profiles.none = Kein
+dial_profiles.called = Empfänger
+dial_profiles.calling = Anrufer
+dial_profiles.both = Beide
+dial_profiles.disabled = Deaktiviert
+dial_profiles.memory = Einmal fragen
+dial_profiles.no_memory = Immer fragen
+dial_profiles.none = Kein
+dial_profiles.custom_options = Benutzerdefinierte Optionen
+dial_profiles.custom_options.help = Ermöglicht es Ihnen, benutzerdefinierte Wählparameter zu definieren, die nicht enthalten sind
+dial_profiles.name.required = Namensfeld ist erforderlich
+dial_profiles.name.invalid = Namensfeld darf keine Leerzeichen enthalten
+dial_profiles.name.unique = Der Name des Wählprofils muss eindeutig sein
+dial_profiles.warning_note =
+	<b>Warnung!</b> Das Aktivieren der Weiterleitung durch Anrufer kann es einem externen Anrufer ermöglichen, die PBX auszunutzen, indem er seine
+	Anrufe an ein anderes externes Ziel, wenn für die Amtsleitung eine zu freizügige Dienstklasse definiert ist.
+dial_profiles.general = {vitalpbx.general}

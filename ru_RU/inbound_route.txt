@@ -59,4 +59,6 @@ inbound_route.append = {cid_management.append_to_cid_number}
 inbound_route.append.tooltip = Суффикс, добавляемый к полученному номеру после получения нужного количества цифр из исходного DID 
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
 inbound_route.prepend.tooltip = Префикс, добавляемый к полученному номеру после получения нужного количества цифр из исходного DID
-inbound_route.verify_did = Verify DID
+inbound_route.verify_did = Проверять DID
+inbound_route.drop_anon_calls = Сбрасывать анонимные вызовы
+inbound_route.drop_anon_calls.tooltip = Если установлено <b>«Да»</b>, любой анонимный вызов будет немедленно прерван. Если вы предпочитаете использовать «Менеджер конфиденциальности», отключите эту опцию.

@@ -1,0 +1,21 @@
+ms_teams = Microsoft Teams
+menu.ms_teams = {ms_teams}
+module.ms_teams = {ms_teams}
+ms_teams.allowed_numbers = Numéros autorisés
+ms_teams.csv = CSV
+ms_teams.csv.tooltip = CSV avec la liste des numéros permettant de recevoir/envoyer des appels de/vers MS team.
+ms_teams.general = {vitalpbx.general}
+ms_teams.description = Description
+ms_teams.description.tooltip = Nom ou description du numéro de MS team.
+ms_teams.number = Numéro
+ms_teams.number.tooltip = Numéro dans le même format qui est envoyé ou reçu de/vers MS team.
+ms_teams.import = Import
+ms_teams.add_number = Ajouter un numéro
+ms_teams.edit_number = Modifier le numéro
+ms_teams.csv.missing_columns = Vous n'avez pas fourni la colonne de numéro.
+ms_teams.validation.no_number = Vous n'avez pas fourni de numéro valide.
+ms_teams.validation.duplicated_number = Le numéro que vous essayez d'ajouter existe déjà.
+ms_teams.numbers_imported =
+	[one] Un élément a été importé.
+    [other] {0} éléments ont été importés.
+ms_teams.validation.max_numbers_reached = Votre licence actuelle vous permet d'ajouter {0} éléments uniquement, vous ne pouvez donc pas ajouter d'autres éléments.

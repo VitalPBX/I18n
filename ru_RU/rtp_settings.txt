@@ -21,3 +21,13 @@ rtp_settings.turnusername = TURN логин
 rtp_settings.turnusername.tooltip = Имя пользователя, используемое для аутентификации с сервером ретрансляции TURN.
 rtp_settings.turnpassword = TURN пароль
 rtp_settings.turnpassword.tooltip = Пароль, используемый для аутентификации с сервером ретрансляции TURN.
+rtp_settings.ice_host_candidates = Настройки ICE хоста
+rtp_settings.local_address = Локальный адрес
+rtp_settings.advertised_address = Предложенный адрес
+rtp_settings.include_local_address = Содержит локальный адрес
+rtp_settings.ice_host_candidates.tooltip =
+  Когда Asterisk находится за статическим NAT и используется ICE, ICE будет выставлять внутренний IP-адрес сервера в 
+  качестве одного из кандидатов на хост. Хотя при использовании STUN (см. параметр конфигурации stunaddr) предоставляется 
+  внешний IP-адрес, все равно внутренний IP-адрес будет отправлен удаленному узлу. Чтобы скрыть топологию вашей внутренней 
+  сети, вы можете переопределить хосты, которые Asterisk отправит удаленному узлу. Если вы укажете 
+  здесь что-либо, вы почти наверняка НЕ захотите указывать адреса «Stun сервера» или «Turn сервера».

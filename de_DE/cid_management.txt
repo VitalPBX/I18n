@@ -1,0 +1,78 @@
+menu.cid_management =CID-Modifikatoren
+module.cid_management = CID-Modifikatoren
+cid_management.description = Beschreibung
+cid_management.description.help = Freitextbeschreibung zur eindeutigen Identifizierung dieses Modifikators
+cid_management.default_cid_numebr =123456789012345
+cid_management.default_cid_name = John Smith
+cid_management.cid_name_settings = CID-Namenseinstellungen
+cid_management.cid_number_settings = CID-Nummer Einstellungen
+cid_management.prepend_to_cid_name = Voranstellen
+cid_management.prepend_to_cid_name.help = Text, der vor dem ursprünglichen Anrufer-ID-Namen hinzugefügt werden kann
+cid_management.append_to_cid_name = Anhängen
+cid_management.append_to_cid_name.help = Text, der am Ende des ursprünglichen Anrufer-ID-Namens hinzugefügt werden kann
+cid_management.replace_cid_name_with = Ersetzen mit
+cid_management.replace_cid_name_with.help = Ersetzen Sie den CID-Namen vollständig durch diesen Text. Lassen Sie dieses Feld leer, um den ursprünglichen CID-Namen beizubehalten.
+cid_management.prepend_to_cid_number = Voranstellen
+cid_management.prepend_to_cid_number.help = Präfix, das am Anfang der ursprünglichen Anrufer-ID-Nummer hinzugefügt wird
+cid_management.append_to_cid_number = Anhängen
+cid_management.append_to_cid_number.help = Suffix, das nach der ursprünglichen Anrufer-ID-Nummer hinzugefügt werden soll
+cid_management.strip_off = Überspringen / Länge
+cid_management.strip_off.help = Ändern Sie die eingehende CID-Nummer, indem Sie die Manipulation mit einer Anzahl von Ziffern entweder am Anfang oder am Ende der CID-Nummer beginnen, während Sie eine beliebige Anzahl der ursprünglichen Ziffern beibehalten.
+cid_management.skip = Überspringen
+cid_management.skip.help = Geben Sie an, wo mit der Änderung der CID-Nummer begonnen werden soll. Ein positiver Skip-Wert von x ignoriert die führenden x-Ziffern. Ein negativer Wert von x beginnt x Stellen vor dem Ende der eingehenden CID-Nummer.
+cid_management.length = Länge
+cid_management.length.help = bestimmt die Länge der geänderten CID-Nummer. Wenn length null ist, werden alle Ziffern nach der Startposition verwendet. Definieren Sie eine negative Länge von x, um die x nachgestellten Ziffern zu verwerfen.
+cid_management.v.cid.in_use = Der CID-Modifikator kann nicht entfernt werden. Es wird derzeit vom {0}-Modul ({1}) verwendet.
+cid_management.v.prepend_to_cid_name = Feld "Voranstellen" in den CID-Namenseinstellungen
+cid_management.v.append_to_cid_name = Feld "Anhängen" in den CID-Namenseinstellungen
+cid_management.v.replace_cid_name_with = Feld "Ersetzen durch" in den CID-Namenseinstellungen
+cid_management.v.prepend_to_cid_number = Feld "Voranstellen" bei CID-Nummerneinstellungen
+cid_management.v.prepend_to_cid_number.invalid = %s ist ungültig. Es sind nur Zahlen und *,#,+ erlaubt.
+cid_management.v.append_to_cid_number = Feld "Anhängen" in den CID-Nummerneinstellungen
+cid_management.v.append_to_cid_number.invalid = %s ist ungültig. Es sind nur Zahlen und *,#,+ erlaubt.
+cid_management.v.skip_on_cid_number = Feld "Strip Off (Skip)" in den CID-Nummerneinstellungen
+cid_management.v.cid_number_length = Feld "Abziehen (Länge)" in den CID-Nummerneinstellungen
+cid_management.v.description.unique = Beschreibung muss eindeutig sein
+cid_management.none = Keine
+cid_management.realtime_test = Simulation
+cid_management.phone_number = Ursprüngliche CID-Nummer
+cid_management.phone_number_result = Geänderte CID-Nummer
+cid_management.phone_number_result.title = Zeigt das Ergebnis an, nachdem die Einstellungen auf die obige Zahl angewendet wurden.
+cid_management.cid_name = Ursprünglicher CID-Name
+cid_management.cid_name_result = Geänderter CID-Name
+cid_management.cid_name_result.title = Zeigt das Ergebnis an, nachdem die Einstellungen auf den obigen Namen angewendet wurden.
+cid_management.general = {vitalpbx.general}
+cid_management.type = Quelle {0}
+cid_management.type.option.static = Statisch
+cid_management.type.option.mysql = MySQL
+cid_management.type.option.api = HTTP/HTTPS-Anfrage
+cid_management.type.tooltip = Ermöglicht Ihnen zu definieren, woher die Informationen zum Ändern des CID-Namens/-Nummer des Anrufers stammen
+cid_management.mysql_settings = MySQL-Einstellungen
+cid_management.database = Datenbank {0}
+cid_management.database.tooltip = Name der Datenbank
+cid_management.query = Abfrage {0}
+cid_management.query.tooltip =
+	Abfrage, die ausgeführt werden soll. z.B.: <b>Wählen Sie cidname, cidnumber des Kunden mit Telefon
+	Die Variable <b>[CIDNUM]</b> wird durch die Anrufernummer ersetzt und die Variable <b>[CIDNAME]</b> wird durch den Anrufernamen ersetzt. <br><br>
+	Die Abfrage muss die Spalten <b>cidname</b> & <b>cidnumber</b> zurückgeben, um die CID-Änderungen durchzuführen, in
+	In anderen Fällen werden die CID-Informationen nicht geändert.
+cid_management.mysql_host = Server {0}
+cid_management.mysql_host.tooltip = Hostname oder IP-Adresse, auf der die Datenbank gehostet wird
+cid_management.mysql_username = Benutzername {0}
+cid_management.mysql_username.tooltip = Der Benutzername zur Authentifizierung der Datenbankabfragen
+cid_management.mysql_password = Passwort
+cid_management.mysql_password.tooltip = Das Passwort zur Authentifizierung der Datenbankabfragen
+cid_management.api_settings = HTTP/HTTPS-Anforderungseinstellungen
+cid_management.url = URL {0}
+cid_management.url.tooltip =
+	URL, die aufgerufen oder ausgeführt wird. Sie können nach Bedarf viele Argumente übergeben, das spezielle Argument
+	<b>[CIDNUM]</b> wird durch die Anrufernummer ersetzt und das Argument <b>[CIDNAME]</b> wird durch den Anrufernamen ersetzt.<br><br>
+	z.B.: <b>https://mycrm.com/cid.php?caller</b><br><br>
+	Die URL-Ausführung muss ein Ergebnis im JSON-Format zurückgeben, das die Attribute <b>"cidname"</b> & <b>"cidnumber"</b> enthält, um die CID-Änderung durchzuführen
+cid_management.auth_user = Auth-Benutzer
+cid_management.auth_user.tooltip = Der Benutzername zur Authentifizierung der HTTP/HTTPS-Anfrage
+cid_management.auth_password = Authentifizierungspasswort
+cid_management.auth_password.tooltip = Das Passwort zur Authentifizierung der HTTP/HTTPS-Anfrage
+cid_management.validation.no_url = Es wurde keine gültige URL angegeben
+cid_management.timeout = {cid_lookup.timeout}
+cid_management.timeout.tooltip = {cid_lookup.timeout.tooltip}

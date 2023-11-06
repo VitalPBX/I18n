@@ -37,5 +37,5 @@ cdr_filters.general = Général
 cdr_filters.none = Aucun
 menu.cdr_filters = Filtres CDR
 module.cdr_filters = Filtres CDR
-cdr_filters.no_conditions = No search conditions has been defined
+cdr_filters.no_conditions = Aucune condition de recherche n'a été définie
 cdr_filters.conditions.search_by.did = {repcdr.did}

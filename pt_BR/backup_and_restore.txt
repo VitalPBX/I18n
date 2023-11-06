@@ -53,8 +53,8 @@ backup_and_restore.execute = Executar backup agora!
 backup_and_restore.general = {vitalpbx.general}
 backup_and_restore.automatic_backup = Executar automaticamente
 backup_and_restore.automatic_backup.tooltip =
-	Ele permite que você use um Cron criado anteriormente em <b>"PBX >> ferramentas >> Cron Profiles"</b> para automaticamente
-	crie um backup com as configurações selecionadas.
+	Ele permite que você use um Cron criado anteriormente em <b>"PBX >> ferramentas >> Cron Profiles"</b> para criar automaticamente
+	um backup com as configurações selecionadas.
 backup_and_restore.limit = Limite
 backup_and_restore.limit.tooltip =
 	Ele permite que você defina o número de cópias de backup que serão armazenadas. Quando o limite é atingido,
@@ -75,8 +75,9 @@ backup_and_restore.cannot_create_backup_group = Não é possível criar o grupo 
 backup_and_restore.confirm_group_delete =
 	Tem certeza de que deseja excluir este grupo de backup e todos os backups gerados por ele?
 	backup_and_restore.cannot_delete_group = O grupo de backup não pode ser excluído
-
 backup_and_restore.cannot_delete_group = O grupo de backup não pode ser deletado
 backup_and_restore.old_backup = 
-	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
-	from a version grater than {3}
+	Backups da versão {0} não pode ser restaurado em {1} com versões maiores que {2}. Seu backup deve ser de pelo menos
+	de uma versão maior do que {3}
+backup_and_restore.addons = Complementos
+backup_and_restore.addons.tooltip = Permite selecionar os complementos aos quais será feito o backup do banco de dados

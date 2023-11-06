@@ -16,11 +16,11 @@ cid_management.prepend_to_cid_number = Prefixo
 cid_management.prepend_to_cid_number.help = Prefixo a ser adicionado no início do número de identificação do chamador original
 cid_management.append_to_cid_number = Acrescentar
 cid_management.append_to_cid_number.help = Sufixo a ser adicionado após o número de identificação do chamador original
-cid_management.strip_off = pular / Comprimento
+cid_management.strip_off = Pular / Comprimento
 cid_management.strip_off.help = Modifique o número CID de entrada iniciando a manipulação de um número de dígitos do início ou do final do número CID, mantendo qualquer número dos dígitos originais.
 cid_management.skip = Pular
 cid_management.skip.help = especifique onde começar a modificar o número CID. Um valor de salto positivo de x ignorará os primeiros x dígitos. Um valor negativo de x irá iniciar x dígitos antes do final do número CID de entrada.
-cid_management.length = Pular
+cid_management.length = Comprimento
 cid_management.length.help = determina o comprimento do número CID modificado. Se o comprimento for zero, todos os dígitos após a posição inicial serão usados. Defina um comprimento negativo de x para descartar os dígitos finais x.
 cid_management.v.cid.in_use = Não é possível remover o modificador CID. Está atualmente em uso pelo módulo {0} ({1}).
 cid_management.v.prepend_to_cid_name = "Preceder" campo em configurações de nome CID
@@ -42,37 +42,37 @@ cid_management.cid_name = Nome original do CID
 cid_management.cid_name_result = Nome do CID modificado
 cid_management.cid_name_result.title = Mostra o resultado depois de aplicar as configurações ao nome acima.
 cid_management.general = {vitalpbx.general}
-cid_management.api_settings = HTTP/HTTPS Request Settings
-cid_management.auth_password = Auth Password
-cid_management.auth_password.tooltip = The password to authenticate the HTTP/HTTPS request
-cid_management.auth_user = Auth User
-cid_management.auth_user.tooltip = The username to authenticate the HTTP/HTTPS request
+cid_management.api_settings = Configurações de solicitação HTTP/HTTPS
+cid_management.auth_password = Senha de autenticação
+cid_management.auth_password.tooltip = A senha para autenticar a solicitação HTTP/HTTPS
+cid_management.auth_user = Usuário de autenticação
+cid_management.auth_user.tooltip = O nome de usuário para autenticar a solicitação HTTP/HTTPS
 cid_management.database = Database {0}
 cid_management.database.tooltip = Database name
 cid_management.mysql_host = Host {0}
-cid_management.mysql_host.tooltip = Hostname or IP address where the database is hosted
-cid_management.mysql_password = Password
-cid_management.mysql_password.tooltip = The password to authenticate the database queries
+cid_management.mysql_host.tooltip = Nome do host ou endereço IP onde o banco de dados está hospedado
+cid_management.mysql_password = Senha
+cid_management.mysql_password.tooltip = A senha para autenticar as consultas do banco de dados
 cid_management.mysql_settings = MySQL Settings
-cid_management.mysql_username = Username {0}
-cid_management.mysql_username.tooltip = The username to authenticate the database queries
+cid_management.mysql_username = Nome de usuário {0}
+cid_management.mysql_username.tooltip = O nome de usuário para autenticar as consultas do banco de dados
 cid_management.query = Query {0}
 cid_management.query.tooltip = 
-	Query to be executed. e.g.: <b>select cidname, cidnumber from customer where phone = '[CIDNUM]'</b> <br><br>
-	The <b>[CIDNUM]</b> variable will be replaced by the caller number, and the <b>[CIDNAME]</b> variable will be replaced by the caller name. <br><br>
-	The query must return the <b>cidname</b> & <b>cidnumber</b> columns to perform the CID modifications, in
-	other case, the CID info will not modified.
-cid_management.type = Source {0}
+	Consulta a ser executada. ex.: <b>selecione cidname, cidnumber do cliente onde telefone = '[CIDNUM]'</b> <br><br>
+	A <b>[CIDNUM]</b> variável será substituída pelo número do chamador, e o <b>[CIDNAME]</b> variável será substituída pelo nome do chamador. <br><br>
+	A consulta deve retornar o <b>cidname</b> & <b>cidnumber</b> colunas para realizar as modificações CID, em
+	outro caso, a informação CID não será modificada.
+cid_management.type = Origem {0}
 cid_management.type.option.api = HTTP/HTTPS Request
 cid_management.type.option.mysql = MySQL
-cid_management.type.option.static = Static
-cid_management.type.tooltip = It allows you to define from where get the information to modify the CID Name/Number of the caller
+cid_management.type.option.static = Estático
+cid_management.type.tooltip = Permite definir de onde obter as informações para modificar o nome / número CID do chamador
 cid_management.url = URL {0}
 cid_management.url.tooltip = 
-	URL that will be called or executed. You may pass many arguments as you need, the special argument
-	<b>[CIDNUM]</b> will be replaced by the caller number and the argument <b>[CIDNAME]</b> will be replaced by the caller name.<br><br>
-	e.g.: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
-	The URL execution must return a result in json format containing <b>"cidname"</b> & <b>"cidnumber"</b> attributes in order to perform the CID modification
-cid_management.validation.no_url = No valid URL has been provided
+	URL que será chamado ou executado. Você pode passar muitos argumentos conforme necessário, o argumento especial
+	<b>[CIDNUM]</b> será substituído pelo número do chamador e o argumento <b>[CIDNAME]</b> será substituído pelo nome do chamador.<br><br>
+	ex.: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
+	A execução do URL deve retornar um resultado em formato json contendo <b>"cidname"</b> & <b>"cidnumber"</b> atributos para realizar a modificação CID
+cid_management.validation.no_url = Nenhum URL válido foi fornecido
 cid_management.timeout = {cid_lookup.timeout}
 cid_management.timeout.tooltip = {cid_lookup.timeout.tooltip}

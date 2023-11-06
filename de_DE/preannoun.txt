@@ -1,0 +1,10 @@
+menu.announcements = Ankündigungen
+module.preannoun =  Ankündigungen
+preannoun =  Ankündigungen
+preannoun.description =  Beschreibung
+preannoun.description.tooltip =  Kurze Beschreibung zur Identifizierung dieser Ankündigung.
+preannoun.destination =  Ziel nach Abspielen der Ansage %s
+preannoun.general =  Allgemein
+preannoun.mod_dest =  Modulziel
+preannoun.recording_id =  Benutzerdefinierte Aufnahme
+preannoun.recording_id.tooltip =  Aufnahme zum Abspielen dieser Ansage.

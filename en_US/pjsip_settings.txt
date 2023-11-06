@@ -24,7 +24,9 @@ pjsip_settings.ssl_method.tooltip = Method of SSL transport (TLS ONLY)
 pjsip_settings.verify_server = Verify Server
 pjsip_settings.verify_server.tooltip = Require verification of server certificate (TLS ONLY)
 pjsip_settings.local_net = Local Net
-pjsip_settings.local_net.tooltip = Network to consider local (used for NAT purposes).
+pjsip_settings.local_net.tooltip =
+	Networks to consider local (used for NAT purposes); this must be in CIDR or dotted decimal format with the IP and mask separated
+    with a slash ('/'). e.g.: 10.8.0.0/24. You can insert multiple networks separated by a comma.
 pjsip_settings.external_media_address = External Media Address
 pjsip_settings.external_media_address.tooltip = External IP address to use in RTP handling.
 pjsip_settings.external_signaling_address = External Signal Address
@@ -73,3 +75,26 @@ pjsip_settings.unidentified_request_count.tooltip = The number of unidentified r
 pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
 pjsip_settings.unidentified_request_prune_interval.tooltip =
 		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
+pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints
+pjsip_settings.allow_reload = Allow Transports Reload
+pjsip_settings.allow_reload.tooltip =
+	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
+	because reloading a transport may disrupt in-progress calls.
+pjsip_settings.endpoint_identifier_order = Endpoint Identifier Order
+pjsip_settings.endpoint_identifier_order.tooltip =
+	This option allows to define a list of endpoint identifier names. The order of the list is the specified order the
+	named identifiers check the request. Default: <b>"IP,Username,Anonymous"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Username
+pjsip_settings.endpoint_identifier_order.anonymous = Anonymous
+pjsip_settings.endpoint_identifier_order.auth_username = Auth Username
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams Domain
+pjsip_settings.ms_signaling_address.tooltip = The domain to sent when calling through a trunk with the transport "TLS+MSTeams." e.g.: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = The provided MS domain is invalid. Please provide a valid FQDN.
+pjsip_settings.allow_wildcard_certs = Allow Wildcard Certs
+pjsip_settings.allow_wildcard_certs.tooltip =
+    In combination with "Verify Server", when enabled allow use of wildcards, i.e. '.' in certs for common,and subject
+    alt names of type DNS for TLS transport types. Names must start with the wildcard. Partial wildcards, e.g. 'f.example.com'
+    and 'foo..com' are not allowed. As well, names only match against a single level meaning '.example.com' matches 'foo.example.com',
+    but not 'foo.bar.example.com'.

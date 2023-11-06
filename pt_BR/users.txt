@@ -8,7 +8,7 @@ users.deleting_self = Não é possível excluir você mesmo.
 users.dept = Departamento
 users.dept.tooltip = Departamento de usuários (exemplo: desenvolvimento)
 users.general = Geral
-users.locale = Língua
+users.locale = Idioma
 users.locale.tooltip = Interface de linguagem.
 users.multitab = Multitab
 users.multitab.tooltip = Verifique se você deseja várias abas na interface!
@@ -37,18 +37,18 @@ users.validate.profile = O perfil do usuário é inválido
 users.validate.displayname = Nome completo não pode estar vazio
 users.change_language = Mudar idioma
 
-users.deleting_default = You cannot delete this user because is marked as default user
+users.deleting_default = Você não pode excluir este usuário porque está marcado como usuário padrão
 users.email = E-mail
-users.email.duplicate = The provided e-mail address is already in use
-users.email.duplicated = The provided email is already taken
-users.email.tooltip = User email address to use for login
-users.username.duplicated = The provided username is already taken
+users.email.duplicate = O endereço de e-mail fornecido já está em uso
+users.email.duplicated = O e-mail fornecido já está em uso
+users.email.tooltip = Endereço de e-mail do usuário a ser usado para login
+users.username.duplicated = O nome de usuário fornecido já está em uso
 users.tenants = Tenants
-users.tenants.tooltip = It allows you to define to which tenants this user will have access
-users.validations.no_tenants = No tenants has been assigned to this user. Please assign at least one tenant.
-users.dark_mode = Dark Mode
-users.dark_mode.tooltip = Enable/Disable Dark Mode for the GUI theme
-users.visible_by_others = Visible By Others
+users.tenants.tooltip = Ele permite que você defina a quais locatários este usuário terá acesso
+users.validations.no_tenants = Nenhum tenant foi atribuído a este usuário. Atribua pelo menos um tenant.
+users.dark_mode = Modo escuro
+users.dark_mode.tooltip = Ativar / desativar o modo escuro para o tema GUI
+users.visible_by_others = Visível por outros
 users.visible_by_others.tooltip = 
-	It allows you to define if this user will be visible by others to be updated. However, administrator users will always
-	be able to see all users, even if this option is disabled.
+	Ele permite que você defina se este usuário estará visível para ser atualizado por outras pessoas. No entanto, os usuários administradores sempre
+	serão capazes de ver todos os usuários, mesmo se esta opção estiver desativada.

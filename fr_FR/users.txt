@@ -34,20 +34,20 @@ users.validate.blank_password = Le mot de passe ne peut-être vide !
 users.validate.profile = Profil d'utilisateur invalide
 users.validate.displayname = Le Nom de l'utilisateur ne peut-être vide !
 users.change_language = Changer la langue
-users.portalexten = Assigned Extension
-users.portalexten.tooltip = Extension assigned to access to portal.
-users.deleting_default = You cannot delete this user because is marked as default user
+users.portalexten = Extension assignée
+users.portalexten.tooltip = Extension affectée à l'accès au portail.
+users.deleting_default = Vous ne pouvez pas supprimer cet utilisateur car il est marqué comme utilisateur par défaut
 users.email = E-mail
-users.email.duplicate = The provided e-mail address is already in use
-users.email.duplicated = The provided email is already taken
-users.email.tooltip = User email address to use for login
-users.username.duplicated = The provided username is already taken
-users.tenants = Tenants
-users.tenants.tooltip = It allows you to define to which tenants this user will have access
-users.validations.no_tenants = No tenants has been assigned to this user. Please assign at least one tenant.
-users.dark_mode = Dark Mode
-users.dark_mode.tooltip = Enable/Disable Dark Mode for the GUI theme
-users.visible_by_others = Visible By Others
-users.visible_by_others.tooltip = 
-	It allows you to define if this user will be visible by others to be updated. However, administrator users will always
-	be able to see all users, even if this option is disabled.
+users.email.duplicate = L'adresse e-mail fournie est déjà utilisée
+users.email.duplicated = L'e-mail fourni est déjà utilisé
+users.email.tooltip = Adresse e-mail de l'utilisateur à utiliser pour la connexion
+users.username.duplicated = Le nom d'utilisateur fourni est déjà utilisé
+users.tenants = Locataires
+users.tenants.tooltip = Il vous permet de définir à quels locataires cet utilisateur aura accès
+users.validations.no_tenants = Aucun locataire n'a été affecté à cet utilisateur. Veuillez attribuer au moins un locataire.
+users.dark_mode = Mode sombre
+users.dark_mode.tooltip = Activer/Désactiver le mode sombre pour le thème de l'interface graphique
+users.visible_by_others = Visible par les autres
+users.visible_by_others.tooltip =
+	Il permet de définir si cet utilisateur sera visible par les autres pour être mis à jour. 
+	Cependant, les utilisateurs administrateurs pourront toujours voir tous les utilisateurs, même si cette option est désactivée.

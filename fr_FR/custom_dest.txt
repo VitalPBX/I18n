@@ -8,4 +8,4 @@ custom_dest.destination.tooltip = Numéro interne ou externe à composer
 custom_dest.general = Général
 menu.custom_destinations = Destinations personnalisées
 module.custom_dest = Destinations personnalisées
-custom_dest.destination.invalid = Number to Dial is invalid. Only *,#,+ and numbers are allowed.
+custom_dest.destination.invalid = Le numéro à composer n'est pas valide. Seuls *,#,+ et les chiffres sont autorisés.

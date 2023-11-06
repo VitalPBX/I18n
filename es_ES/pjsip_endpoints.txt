@@ -13,3 +13,4 @@ pjsip_endpoints.server_uri = URI del Servidor
 pjsip_endpoints.status = Estado
 pjsip_endpoints.trunk_name = Nombre del Troncal
 pjsip_endpoints.trunks = Troncales
+pjsip_endpoints.tenant = Tenant

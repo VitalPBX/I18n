@@ -1,37 +1,50 @@
-maintenance = Maintenance
-maintenance.cdr_preservation = Clear Oldest CDR
-maintenance.cdr_preservation.tooltip = 
-	Allows you to defined the maximum number of days that CDR should be retained. The CDR with more age
-    than the days defined here will be deleted
-maintenance.confirm_mcp = 
-	Are you sure that you want to execute the maintenance now? <br> This may take several minutes, especially if you have
-	many recordings to convert
-maintenance.confirm_mcp.title = Confirm Maintenance
-maintenance.convert_recordings = Convert Recordings
-maintenance.convert_recordings.tooltip = Enabled / Disable call recordings conversion to MP3
-maintenance.enabled = Enabled
-maintenance.enabled.tooltip = 
-	It allows you to enable or disable the PBX maintenance.
-maintenance.execute = Execute Now
-maintenance.executed = The maintenance is being executed in background
+entretien = Entretien
+maintenance.cdr_preservation = Effacer le plus ancien CDR
+maintenance.cdr_preservation.tooltip =
+	Vous permet de définir le nombre maximum de jours pendant lesquels le CDR doit être conservé. Le CDR plus ancien
+    que les jours définis ici seront supprimés
+maintenance.confirm_mcp =
+	Êtes-vous sûr de vouloir exécuter la maintenance maintenant ? <br> Cela peut prendre plusieurs minutes, surtout si vous avez
+	de nombreux enregistrements à convertir
+maintenance.confirm_mcp.title = Confirmer la maintenance
+maintenance.convert_recordings = Convertir les enregistrements
+maintenance.convert_recordings.tooltip = Activé / Désactiver la conversion des enregistrements d'appels en MP3
+maintenance.enabled = Activé
+maintenance.enabled.tooltip =
+	Vous permet d'activer ou de désactiver la maintenance du PBX.
+maintenance.execute = Exécuter maintenant
+maintenance.executed = La maintenance est exécutée en arrière-plan
 maintenance.general = {vitalpbx.general}
-maintenance.mcp.invalid_tenant = The maintenance cannot be executed due you have provided invalid info
-maintenance.no_license_notification = 
-	The following features: "Clear Oldest Recordings" & "Convert Recordings", will not work until you activate this add-on
-	with a valid license.
-maintenance.recordings_min_duration = Clear Short Recordings
-maintenance.recordings_min_duration.tooltip = 
-	Allows you to define the minimum duration in seconds for a recording to be considered as too short,  and delete it
-maintenance.recordings_preservation = Clear Oldest Recordings
-maintenance.recordings_preservation.tooltip = 
-	Allows you to defined the maximum number of days that recordings should be retained. The recordings with more age
-	than the days defined here will be deleted
-maintenance.schedule = Schedule
-maintenance.schedule.tooltip = 
-	It allows you to define the schedule in which the maintenance of the PBX will be executed (Conversion of Recordings,
-	Cleaning of Recordings and CDR, etc). If no schedule is selected, all the maintenance options will be disabled
-maintenance.tenant = Tenant
-maintenance.tenant.tooltip = Allows you to select the tenant on which the maintenance configurations will be applied
-maintenance.validation.enabled_without_cron = The maintenance has been enabled but no cron profile has been selected
+maintenance.mcp.invalid_tenant = La maintenance ne peut pas être exécutée car vous avez fourni des informations invalides
+maintenance.no_license_notification =
+	Les fonctionnalités suivantes : « Effacer les enregistrements les plus anciens » et « Convertir les enregistrements » 
+	ne fonctionneront pas tant que vous n'aurez pas activé ce module complémentaire	avec une licence valide.
+maintenance.recordings_min_duration = Effacer les enregistrements courts
+maintenance.recordings_min_duration.tooltip =
+	Permet de définir la durée minimale en secondes pour qu'un enregistrement soit considéré comme trop court, et de le supprimer
+maintenance.recordings_preservation = Effacer les enregistrements les plus anciens
+maintenance.recordings_preservation.tooltip =
+	Permet de définir le nombre maximum de jours pendant lesquels les enregistrements doivent être conservés. 
+	Les enregistrements plus anciens que les jours définis ici seront supprimés
+maintenance.schedule = Planification
+maintenance.schedule.tooltip =
+	Permet de définir le planning dans lequel la maintenance du PBX sera exécutée (Conversion des Enregistrements,
+	Nettoyage des Enregistrements et CDR, etc.). Si aucun programme n'est sélectionné, toutes les options de maintenance seront désactivées
+maintenance.tenant = Locataire
+maintenance.tenant.tooltip = Permet de sélectionner le locataire sur lequel les configurations de maintenance seront appliquées
+maintenance.validation.enabled_without_cron = La maintenance a été activée mais aucun profil cron n'a été sélectionné
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
+maintenance.best = Meilleur ({0}k)
+maintenance.conversion_quality = Qualité audio
+maintenance.conversion_quality.tooltip =
+	La qualité audio à appliquer lors de la conversion de WAV en MP3. Des qualités supérieures produisent de meilleurs sons, mais utilisent plus d'espace
+	de disque dur ; Des qualités inférieures produisent des fichiers audio plus petits, mais la qualité est réduite.
+maintenance.good = Bon ({0}k)
+maintenance.high = Élevé ({0}k)
+maintenance.medium = Moyen ({0}k)
+maintenance.voicemail_preservation = Effacer les messages vocaux les plus anciens
+maintenance.voicemail_preservation.tooltip =
+	Vous permet de définir le nombre maximum de jours pendant lesquels les enregistrements de messagerie vocale doivent être conservés. 
+	Les enregistrements de messagerie vocale plus anciens que les jours définis ici seront supprimés
+maintenance = Maintenance

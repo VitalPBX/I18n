@@ -3,26 +3,26 @@ module.system_general = Sistema Geral
 system_general.ast_agi_dir = Diretório Asterisk AGI
 system_general.ast_dir = Diretório Asterisk
 system_general.ast_libs_dir = Diretório de Bibliotecas do Asterisk
-system_general.ast_log_dir = Diretório de registro do asterisco
-system_general.ast_module_dir = Diretório dos módulos do asterisco
-system_general.ast_sound_dir = Diretório de Som Asterisco
-system_general.ast_spool_dir = Diretório de spool do asterisco
+system_general.ast_log_dir = Diretório de registro do Asterisk
+system_general.ast_module_dir = Diretório dos módulos do Asterisk
+system_general.ast_sound_dir = Diretório de Som Asterisk
+system_general.ast_spool_dir = Diretório de spool do Asterisk
 system_general.auto_hints = Criar dicas
 system_general.auto_hints.tooltip = Se ativado, as dicas serão ativadas automaticamente sempre que você criar um ramal.
 system_general.auto_portal = Ativar Portal
 system_general.auto_portal.tooltip = Se ativado, o portal será ativado automaticamente toda vez que você criar um ramal.
 system_general.auto_voicemail = Ativar correio de voz
 system_general.auto_voicemail.tooltip = Se ativado, o correio de voz será ativado automaticamente toda vez que você criar um ramal.
-system_general.dialoptions = Opções de discagem de extensões
-system_general.dialoptions.tooltip = Opções padrão a serem usadas para ramais internos de discagem quando as opções de discagem não são definidas (no módulo de extensões).
+system_general.dialoptions = Opções de discagem de ramais
+system_general.dialoptions.tooltip = Opções padrão a serem usadas para ramais internos de discagem quando as opções de discagem não são definidas (no módulo de ramais).
 system_general.dialplan_settings = Configurações do plano de discagem
-system_general.extension_settings = Configurações de extensão
+system_general.extension_settings = Configurações de ramal
 system_general.general = Geral
 system_general.recording_format = Formato de gravação
 system_general.recording_format.tooltip = Formato de áudio padrão para chamadas de gravação.
 system_general.ringtime = Tempo de toque padrão
 system_general.ringtime.placeholder = Valor em segundos
-system_general.ringtime.tooltip = Hora padrão para tocar chamadas de saída quando a hora da campainha não está definida ou definida (no módulo de extensões) como padrão.
+system_general.ringtime.tooltip = Hora padrão para tocar chamadas de saída quando a hora da campainha não está definida ou definida (no módulo de ramais) como padrão.
 system_general.save = Salve 
 system_general.system_directories = Diretórios do sistema
 system_general.table.description = Descrição
@@ -36,36 +36,57 @@ system_general.default_ast_lang = Idioma padrão
 system_general.default_ast_lang.tooltip = Idioma para selecionar por padrão quando uma novo ramal está sendo criada
 system_general.devices_prefix = Prefixo de dispositivos
 system_general.devices_prefix.tooltip = Prefixo para anexar por padrão ao nome dos dispositivos
-system_general.blacklisted = Blacklisted
+system_general.blacklisted = Na lista negra
 system_general.blacklisted.tooltip = 
-	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted
+	Permite que você defina um prompt personalizado que será reproduzido para os chamadores que estão na lista negra
 system_general.dnd = DND
 system_general.dnd.tooltip = 
-	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
-system_general.sounds = System Prompts
-system_general.featuredigittimeout = Features Digit Timeout
-system_general.featuredigittimeout.placeholder = Value in milliseconds
-system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
-system_general.transferdigittimeout = Transfer Digit Timout
+	Permite definir um prompt personalizado que será reproduzido quando um ramal tiver o DND ativo
+system_general.sounds = Prompts do sistema
+system_general.featuredigittimeout = Tempo limite de dígitos de recursos
+system_general.featuredigittimeout.placeholder = Valor em milissegundos
+system_general.featuredigittimeout.tooltip = Tempo máximo (ms) entre os dígitos para ativação do recurso (o padrão é 1000 ms)
+system_general.transferdigittimeout = Tempo limite de transferência de dígitos
 system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
-system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
-system_general.gui_settings = GUI Settings
-system_general.show_login_panel = Show Login Panel
-system_general.show_login_panel.tooltip = If set to yes, it shows a panel with the sonata add-ons when these are installed.
-system_general.queues_callback = Queues CallBack
-system_general.search_frequency = Search Frequency
+system_general.transferdigittimeout.tooltip = Número de segundos de espera entre os dígitos ao transferir uma chamada (o padrão é 3 segundos)
+system_general.gui_settings = Configurações da GUI
+system_general.show_login_panel = Mostrar painel de login
+system_general.show_login_panel.tooltip = Se definido como sim, ele mostra um painel com os complementos do sonata quando eles são instalados.
+system_general.queues_callback = CallBack de filas
+system_general.search_frequency = Frequência de pesquisa
 system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
-system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
-system_general.email_credentials = Email Credentials
+system_general.search_frequency.tooltip = Define com que freqüência o serviço de retorno de chamada das filas pesquisará retornos de chamada programados.
+system_general.email_credentials = Credenciais de e-mail
 system_general.email_credentials.tooltip = 
-	Enable this feature to send an email to the newly created extension user with their extension and account information.
-	You can find the template for this email under Admin > System Settings > Email Templates.
-system_general.show_addons_menu = Show Add-ons Menu
+	Habilite este recurso para enviar um e-mail ao usuário de ramal recém-criado com seu ramal e informações de conta.
+	Você pode encontrar o modelo para este e-mail em Admin> Configurações do sistema> Modelos de e-mail.
+system_general.show_addons_menu = Mostrar menu de complementos
 system_general.show_addons_menu.tooltip = 
-	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
-system_general.fqdn = Public Domain
-system_general.fqdn.invalid = The provided domain domain is not valid
-system_general.fqdn.tooltip = 
-	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
-	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
-	Also, it will be used for generating the VitXi QR codes.
+	Se definido como sim, um botão de menu será mostrado na tela de login para acessar add-ons externos como o Sonata ou VitXi
+system_general.fqdn = Domínio público
+system_general.fqdn.tooltip =
+    Ele permite definir o domínio público do PBX. Estas informações serão usadas nas notificações por e-mail para traduzir
+    ou substituir a variável de domínio público dos modelos; em vez de tentar autodetectar o domínio público pelo sistema.
+    Além disso, ela será usada para gerar os códigos {0} QR.
+system_general.fqdn.invalid = O domínio fornecido não é válido
+system_general.atxfernoanswertimeout = Tempo limite de transferência atendida
+system_general.atxfernoanswertimeout.tooltip =
+    Ele permite definir o tempo de espera para as transferências assistidas. É a quantidade de tempo (em segundos) que o
+    Asterisk tentará tocar o alvo antes de desistir.
+system_general.atxfernoanswertimeout.placeholder = Valor em segundos
+system_general.atxferdropcall = Descartar as ligações de retorno de transferência atendidas
+system_general.atxferdropcall.tooltip =
+     Ele permite alterar o comportamento padrão de retorno de chamada. O padrão é 'não', o que resulta em Asterisk
+     chamando de volta o iniciador de uma transferência quando eles desligam mais cedo e os horários de transferência
+     atendida são excluídos. Se definido como 'sim', então o canal alvo da transferência será imediatamente transferido
+     para o canal que está sendo transferido, assim que o iniciador desligar.
+system_general.auto_generated_pwd_length = Comprimento para as senhas geradas automaticamente
+system_general.auto_generated_pwd_length.tooltip = Permite definir o comprimento padrão para senhas de dispositivos gerados automaticamente
+system_general.route_internally_tenant_dids = Rotear internamente as ligações para os DIDs dos inquilinos
+system_general.route_internally_tenant_dids.tooltip =
+    Quando definido para sim, as chamadas para DIDs definidas nos locatários do PBX são encaminhadas localmente em vez
+    de enviá-las através do provedor VoIP.
+system_general.send_diversion_headers = Enviar Cabeçalhos de Desvio
+system_general.send_diversion_headers.tooltip =
+    Se ativado, o PBX enviará cabeçalhos adicionais com as informações de desvio durante uma chamada como follow-me,
+    C.F imediatamente, e outros. Quando esses cabeçalhos estiverem presentes, alguns dispositivos SBC poderão reclamar.

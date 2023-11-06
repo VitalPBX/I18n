@@ -1,0 +1,16 @@
+menu.pin_lists = PIN-Listen
+module.pin =  PIN-Listen
+pin =  PIN-Liste
+pin.general =  Allgemein
+pin.confirm_delete =  Möchten Sie diese PIN-Liste wirklich löschen?
+pin.delete =  Löschen
+pin.description =  Beschreibung
+pin.description.invalid =  Beschreibung ist erforderlich
+pin.description.tooltip =  Eine kurze Beschreibung für diese PIN-Liste.
+pin.none =  Keiner
+pin.passwords =  PIN-Liste
+pin.passwords.duplicate =  Doppelte PINs
+pin.passwords.empty =  Mindestens eine PIN in der PIN-Liste ist erforderlich
+pin.passwords.invalid =  Ungültige PIN in der PIN-Liste. Verwenden Sie nur Zahlen und das Symbol "*" (Sternchen). Trennen Sie jede PIN durch eine neue Zeile
+pin.passwords.tooltip =  Liste der verwendbaren PINs. Eine PIN kann aus einer beliebigen Kombination von Zahlen und dem ÔÇ£*ÔÇØ-Symbol (Sternchen) bestehen. Wenn Sie mehrere PINs hinzufügen möchten, können Sie dies tun, indem Sie diese mit einer neuen Zeile beginnen.
+pin.pin_list_not_found =  Keine PIN-Liste zum Löschen

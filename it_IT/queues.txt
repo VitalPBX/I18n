@@ -174,3 +174,9 @@ queues.queue_callback.tooltip =
 	Consente di definire se i chiamanti che raggiungono questa coda saranno in grado di richiedere una richiamata della coda nel caso in cui tutti gli agenti siano occupati. <br> <br>
     Quando viene selezionata una richiamata in coda, l'"Annuncio Periodico" viene sostituito dal "Messaggio di Istruzioni" configurato per
     l'elemento di richiamata della coda selezionata, inoltre, la funzione IVR viene disabilitata per questa coda.
+queues.alertinfo = {inbound_route.alertinfo}
+queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
+queues.answerchannel = Answer Channel
+queues.answerchannel.tooltip = 
+	It defines if the calls must be answered before executing the Queue application. If set to "no", the music on hold,
+	and other audios might no be played.

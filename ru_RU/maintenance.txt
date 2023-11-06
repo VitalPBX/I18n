@@ -2,10 +2,10 @@ maintenance = Обслуживание
 menu.maintenance = {maintenance}
 module.maintenance = {maintenance}
 maintenance.general = {vitalpbx.general}
-maintenance.max_cdr = Макс. кол-во записей детализации
-maintenance.max_cdr.tooltip =
-	Позволяет вам определить максимальное количество записей детализации, которые должны быть сохранены. 
-	Самые старые записи детализации будут удалены при достижении порога.
+maintenance.cdr_preservation = Удалять старую детализацию
+maintenance.cdr_preservation.tooltip =
+	Позволяет вам определить максимальное количество дней, в течение которых должна храниться детализация звонков. 
+	Информация, превышающая указанное кол-во дней, будет удалена из детализации
 maintenance.recordings_preservation = Удалять старые записи
 maintenance.recordings_preservation.tooltip =
 	Позволяет вам определить максимальное количество дней, в течение которых должны храниться записи звонков. 
@@ -13,31 +13,37 @@ maintenance.recordings_preservation.tooltip =
 maintenance.recordings_min_duration = Удалять короткие записи
 maintenance.recordings_min_duration.tooltip =
 	Позволяет определить минимальную продолжительность в секундах для записей. Все файлы записей короче заданной продолжительности будут удалены	
-maintenance.covert_recordings = Конвертировать записи
-maintenance.covert_recordings.tooltip = Включить / отключить преобразование записей звонков в MP3
+maintenance.convert_recordings = Конвертировать записи
+maintenance.convert_recordings.tooltip = Включить / отключить преобразование записей звонков в MP3
 maintenance.schedule = Расписание
 maintenance.schedule.tooltip =
 	Позволяет определить график, во время которого будет выполняться обслуживание АТС (конвертирование записей,
 	удаление записей и детализии и т.д.). Если расписание не выбрано, все параметры обслуживания будут отключены	
 maintenance.execute = Выполнить сейчас
-maintenance.cdr_preservation = Удалять старую детализацию
-maintenance.cdr_preservation.tooltip =
-	Позволяет вам определить максимальное количество дней, в течение которых должна храниться детализация звонков. 
-	Информация, превышающая указанное кол-во дней, будет удалена из детализации	
+maintenance.confirm_mcp.title = Подтвердите обслуживание
 maintenance.confirm_mcp =
 	Вы уверены, что хотите выполнить обслуживание сейчас? <br> Это может занять несколько минут, особенно если у вас есть
 	много записей для конвертации
-maintenance.confirm_mcp.title = Подтвердите обслуживание
-maintenance.convert_recordings = Конвертировать записи
-maintenance.convert_recordings.tooltip = Включить / отключить преобразование записей звонков в MP3
-maintenance.enabled = Включено
-maintenance.enabled.tooltip =
-	Позволяет включать или отключать обслуживание АТС.
 maintenance.executed = Обслуживание выполняется в фоновом режиме
-maintenance.mcp.invalid_tenant = Обслуживание не может быть выполнено, потому что вы предоставили неверную информацию
 maintenance.no_license_notification =
 	Следующие функции: «Удалять старые записи» и «Конвертировать записи» не будут работать, пока вы не активируете лицензию для
 	этого дополнения
+maintenance.enabled = Включено
+maintenance.enabled.tooltip =
+	Позволяет включать или отключать обслуживание АТС.
+maintenance.validation.enabled_without_cron = Обслуживание было включено, но график расписания не был выбран
 maintenance.tenant = Арендатор
 maintenance.tenant.tooltip = Позволяет выбрать арендатора, к которому будут применяться конфигурации обслуживания
-maintenance.validation.enabled_without_cron = Обслуживание было включено, но график расписания не был выбран
+maintenance.mcp.invalid_tenant = Обслуживание не может быть выполнено, потому что вы предоставили неверную информацию
+maintenance.voicemail_preservation = Удалять старую голосовую почту
+maintenance.voicemail_preservation.tooltip =
+	Позволяет определить максимальное количество дней, в течение которых должны храниться записи голосовой почты. 
+	Все записи голосовой почты старше указанного кол-ва дней, будут удалены	
+maintenance.conversion_quality = Качество звука
+maintenance.conversion_quality.tooltip =
+	Качество звука, применяемое при преобразовании из WAV в MP3. Более высокое качество обеспечивает лучшее качество звука, но занимает больше места на жестком диске; 
+	Более низкое качество приводит к уменьшению размера аудиофайлов, но качество падает.
+maintenance.good = Хорошее ({0}k)
+maintenance.medium = Среднее ({0}k)
+maintenance.best = Лучшее ({0}k)
+maintenance.high = Высокое ({0}k)

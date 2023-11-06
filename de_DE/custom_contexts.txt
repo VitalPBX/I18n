@@ -1,0 +1,13 @@
+menu.custom_contexts = Benutzerdefinierte Kontexte
+module.custom_contexts =  Benutzerdefinierte Kontexte
+custom_contexts.description =  Beschreibung
+custom_contexts.description.help =  Eine kurze Beschreibung zur Identifizierung dieses benutzerdefinierten Kontexts
+custom_contexts.context =  Kontext
+custom_contexts.context.help =  Name des von Ihnen erstellten benutzerdefinierten Kontexts.
+custom_contexts.extension =  Nebenstellen
+custom_contexts.extension.help =  Die in Ihrem benutzerdefinierten Kontext definierte Priorität.
+custom_contexts.priority =  Priorität
+custom_contexts.priority.priority =  Die Priorität, bei der der Anruf beginnt.
+custom_contexts.dest =  Ziel
+custom_contexts.max_custom_contexts =  Sie können nicht mehr als einen benutzerdefinierten Kontext erstellen. Bitte kaufen Sie eine Lizenz für erstellte unbegrenzte benutzerdefinierte Kontexte.
+custom_contexts.general =  {vitalpbx.general}

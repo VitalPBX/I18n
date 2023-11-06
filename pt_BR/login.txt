@@ -1,6 +1,6 @@
 login.signing_in = Entrar
 login.panel = Painel
-login.pbx.desc = Gerenciamento de PBX de asterisco
+login.pbx.desc = Gerenciamento de PBX de Asterisk
 login.billing.desc = Software para aplicar custos às suas chamadas
 login.monitoring.desc = Software para monitoramento de chamadas
 login.recordings.desc = Software para gerenciamento de gravações
@@ -12,5 +12,6 @@ login.reset_password_title = Configurar a senha do administrador
 login.reset_password_title.tooltip = Isso permite que você configure a senha para efetuar login com o usuário admin
 login.no_db = Espere, ainda instalando banco de dados
 login.tenant = Tenant
-login.tenant_name = Tenant Name
-login.username.required = Please enter your user name
+login.tenant_name = Nome do Tenant
+login.username.required = Por favor insira seu nome de usuário
+login.title = Acesse a sua conta

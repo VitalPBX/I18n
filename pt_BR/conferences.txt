@@ -1,6 +1,6 @@
 conferences = Conferências
 conferences.adminpin = PIN do Líder
-conferences.adminpin.invalid = PIN de Líder Inválido. Use apenas números e o "*" (asterisk) símbolo.
+conferences.adminpin.invalid = PIN de Líder Inválido. Use apenas números e o "*" (asterisco) símbolo.
 conferences.adminpin.tooltip = Número PIN para identificar o líder
 conferences.announcement_id = Junte-se ao anúncio
 conferences.announcement_id.tooltip = Reproduzir um arquivo de som para os chamadores quando eles participarem da conferência
@@ -14,7 +14,7 @@ conferences.announce_user_count_all = Anunciar contagem de usuários
 conferences.announce_user_count_all.tooltip = Anuncia o número de participantes que se juntaram à conferência para todos os membros da conferência. Se definido para um número, o anúncio só será reproduzido quando o número de participantes estiver acima do número definido. As opções disponíveis são Sim, Não (valor padrão) ou um número positivo.
 conferences.description = Descrição
 conferences.description.tooltip = Descrição de texto livre para identificar esta conferência
-conferences.dsp_drop_silence = Soltar silêncio
+conferences.dsp_drop_silence = Descartar silêncio
 conferences.dsp_drop_silence.tooltip = Esta opção descarta o que é detectado como silêncio da chamada. A ativação dessa opção melhora drasticamente o desempenho e ajuda a remover o acúmulo de ruído de fundo da conferência. Altamente recomendado para grandes conferências devido aos seus aprimoramentos de desempenho.
 conferences.end_marked = Expulsar usuário
 conferences.end_marked.tooltip = Expulsa todos os participantes restantes da conferência após o último Líder ter saído
@@ -23,7 +23,7 @@ conferences.extension.invalid = O código da conferência é inválido. Apenas n
 conferences.extension.tooltip = Número interno para discar para chegar a esta conferência
 conferences.general = Geral
 conferences.invalid.already_exists = Número de conferência inválido {0}. O número está em uso pelo módulo {1}.
-conferences.language = Língua
+conferences.language = Idioma
 conferences.language.tooltip = Definir o idioma usado para todos os itens desta conferência
 conferences.max_members = Maximos de membros
 conferences.max_members.no_limit = Sem Limites
@@ -42,7 +42,7 @@ conferences.startmuted.tooltip = Silencia todos os usuários quando eles ingress
 conferences.talk_detection_events = Detecção de conversas
 conferences.talk_detection_events.tooltip = Determina se deve enviar notificações de eventos quando um usuário inicia e termina a conversa com o Asterisk Management Interface (AMI)
 conferences.userpin = PIN do usuário
-conferences.userpin.invalid = PIN de usuário inválido. Use apenas números e o"*" (asterisk) Símbolo.
+conferences.userpin.invalid = PIN de usuário inválido. Use apenas números e o"*" (asterisco) Símbolo.
 conferences.userpin.tooltip = Determina se os chamadores devem digitar um número PIN antes de entrar na conferência
 conferences.video_mode = Modo de vídeo
 conferences.video_mode.first_marked = Admin
@@ -55,17 +55,18 @@ conferences.wait_marked = Espere pelo Líder
 conferences.wait_marked.tooltip = Determina se os chamadores devem aguardar a entrada de um Líder antes que possam participar da conferência.
 menu.conferences = Conferências
 module.conferences = Conferências
-conferences.allow_to_invite = Allow to Invite
+conferences.allow_to_invite = Permitir convidar
 conferences.allow_to_invite.tooltip = 
-	If enabled, all the participants could press "<b>**</b>" or "<b>0</b>" to invite other people to this conference
+	Se ativado, todos os participantes podem pressionar "<b>**</b>" ou "<b>0</b>" para convidar outras pessoas para esta conferência
 conferences.class_of_service = {class_of_service}
 conferences.class_of_service.tooltip = 
-	It allows you to define which class of service that will be used to invite other people to this conference
-conferences.max_reached = You have reached the maximum number of conferences allowed
-conferences.video_mode.last_marked = Last Admin
+	Permite que você defina qual classe de serviço será usada para convidar outras pessoas para esta conferência
+conferences.max_reached = Você atingiu o número máximo de conferências permitidas
+conferences.video_mode.last_marked = Último Admin
 conferences.video_mode.last_marked.tooltip = 
-	The last leader to join the conference with video capabilities will be the single source of video distributed to all participants.
-	If multiple marked users are capable of video, the last one to join is always the source, when that user leaves it goes to the one who
-	joined before them.
-conferences.video_mode.sfu = Selective Forwarding Unit
-conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.
+	O último líder a ingressar na conferência com recursos de vídeo será a única fonte de vídeo distribuída a todos os participantes.
+	Se vários usuários marcados são capazes de vídeo, o último a entrar é sempre a fonte, quando esse usuário sai, vai para aquele que
+	juntou-se antes deles.
+conferences.video_mode.sfu = Unidade de encaminhamento seletivo
+conferences.video_mode.sfu.tooltip = Define a operação multi-stream para uma videoconferência com vários participantes.
+conferences.same_pins = O PIN do Usuário e do Líder não pode ser o mesmo.

@@ -1,0 +1,21 @@
+task_manager = Taskmanager 
+menu.task_manager =  {Taskmanager}
+module.task_manager =  {Taskmanager}
+task_manager.general =  {vitalpbx.general}
+task_manager.description =  Beschreibung
+task_manager.description.tooltip =  Eine kurze Beschreibung, um diese Aufgabe zu identifizieren
+task_manager.cron_profile =  Cron-Profil
+task_manager.cron_profile.tooltip =  Stellt das Profil des Crons dar, um diese Aufgabe zu planen
+task_manager.script =  Skript
+task_manager.script.tooltip =
+	Ermöglicht Ihnen die Auswahl eines Skripts, das regelmäßig ausgeführt wird, je nach ausgewähltem Cron-Profil.
+	Das Skript muss sich unter <b>/var/lib/vitalpbx/scripts</b> befinden
+task_manager.validations.no_description =  Es wurde keine Beschreibung definiert. Bitte geben Sie eine gültige Beschreibung ein
+task_manager.validations.duplicated_description =  Eine andere Aufgabe verwendet dieselbe Beschreibung. Bitte überprüfen
+task_manager.validations.duplicated_script =  Mit dem gleichen Skript wurde eine weitere Aufgabe definiert. Bitte überprüfen
+task_manager.validations.no_script =  Für diesen Task-Manager wurde kein Skript ausgewählt
+task_manager.silent_mode =  Lautlos-Modus
+task_manager.silent_mode.tooltip =
+	Wenn aktiviert, wird jede Ausgabe des ausgewählten Skripts unterdrückt, wodurch vermieden wird, dass jedes Mal, wenn der Cron ausgeführt wird, E-Mails erhalten werden.
+task_manager.enabled =  Ermöglicht
+task_manager.enabled.tooltip =  Ermöglicht Ihnen das Aktivieren/Deaktivieren dieser Aufgabe

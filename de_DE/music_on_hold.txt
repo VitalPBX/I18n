@@ -1,0 +1,49 @@
+menu.music_on_hold = Warteschleifenmusik
+module.music_on_hold = Warteschleifenmusik
+music_on_hold = Warteschleifenmusik
+music_on_hold.actions = Aktionen
+music_on_hold.close = Nah dran
+music_on_hold.confirm_delete = Möchten Sie diese Gruppe wirklich löschen?
+music_on_hold.default = Standard
+music_on_hold.default.tooltip =
+	Wenn diese Option aktiviert ist, werden die Töne dieser Musikgruppe für die Standard-Warteschleifenmusik verwendet. Es kann nur eine Musikgruppe sein
+	standardmäßig aktiviert
+music_on_hold.delete = Löschen
+music_on_hold.delete.tooltip = Diese Datei endgültig löschen
+music_on_hold.download = Herunterladen
+music_on_hold.duration = Dauer
+music_on_hold.error = Fehler
+music_on_hold.file = Audiodatei
+music_on_hold.file.invalid = Die bereitgestellte Datei scheint keine Audiodatei zu sein
+music_on_hold.file.tooltip = Laden Sie eine wav- oder mp3-Datei hoch
+music_on_hold.file_not_found = Die angeforderte Datei scheint nicht zu existieren
+music_on_hold.general = Allgemein
+music_on_hold.listen = Hören
+music_on_hold.listen.tooltip = Diese Sounddatei anhören
+music_on_hold.name = Name
+music_on_hold.name.invalid = Name darf nicht leer sein und muss eindeutig sein
+music_on_hold.name.tooltip = Name für diese Musikklasse.
+music_on_hold.none = Keine (Rückruf)
+music_on_hold.order = Sortieren
+music_on_hold.order.invalid = Die Sortierreihenfolge muss Linear oder Shuffle sein
+music_on_hold.order.linear = Linear
+music_on_hold.order.linear.tooltip = Audiodateien in linearer Reihenfolge abspielen
+music_on_hold.order.shuffle = Mischen
+music_on_hold.order.shuffle.tooltip = Audiodateien in zufälliger Reihenfolge abspielen
+music_on_hold.order.tooltip = Wiedergabereihenfolge der Audiodateien
+music_on_hold.sound_player = Sound-Player
+music_on_hold.mode = Modus
+music_on_hold.mode.tooltip = Es definiert den Modus zum Abspielen oder Abrufen der gehaltenen Musik.
+music_on_hold.mode.files = Dateien
+music_on_hold.mode.files.tooltip = Lesen Sie Dateien aus einem Verzeichnis in einem von Asterisk unterstützten Medienformat
+music_on_hold.mode.custom = Benutzerdefiniert
+music_on_hold.mode.custom.tooltip = Führen Sie eine benutzerdefinierte Anwendung aus.
+music_on_hold.application = Anwendung
+music_on_hold.application.tooltip =
+	Anwendung zum Abspielen eines Streamings. Wenn keine Anwendung bereitgestellt wird, wird die mpg123-Anwendung verwendet
+	im folgenden Format: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
+music_on_hold.streaming_url = Streaming-URL
+music_on_hold.streaming_url.tooltip = URL, die von der definierten Anwendung gestreamt werden soll
+music_on_hold.streaming_format = Format
+music_on_hold.streaming_format.tooltip = Die Option 'format' gibt das Audioformat an, das die 'Anwendung' für Asterisk bereitstellt.
+music_on_hold.insufficient_arguments = Sie haben weder das Anwendungsskript noch die Streaming-URL angegeben. Mindestens eines dieser Felder muss angegeben werden

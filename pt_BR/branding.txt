@@ -1,47 +1,50 @@
 branding = Branding
 branding.base_color = Cor Base
 branding.base_color.tooltip = Cor Principal usado para ativar itens no Menu, tabs de formunários e texto selecionado
-branding.desktop_logo = Desktop Logo
-branding.facebook_page = Facebook Page
+branding.desktop_logo = Logotipo Desktop
+branding.facebook_page = Página do Facebook
 branding.general = {vitalpbx.general}
-branding.login_footer = Login Footer
-branding.login_footer.tooltip = It allows you to customize the footer content in the login screen
-branding.mobile_logo = Mobile Logo
-branding.page_title = APP Title
-branding.page_title.tooltip = Allows you to customize the header title that appears in the browser tab
+branding.login_footer = Rodapé de Login
+branding.login_footer.tooltip = Ele permite personalizar o conteúdo do rodapé na tela de login
+branding.mobile_logo = Logotipo móvel
+branding.page_title = Título do APP
+branding.page_title.tooltip = Permite personalizar o título do cabeçalho que aparece na guia do navegador
 branding.slogan = Slogan
-branding.slogan.tooltip = It allows you to customize the Slogan that appears in the login screen
-branding.social.tooltip = It allows you to customize the <b>{0}</b> link that appears in the login footer
-branding.twitter_page = Twitter Page
-branding.youtube_channel = YouTube Channel
+branding.slogan.tooltip = Ele permite personalizar o Slogan que aparece na tela de login
+branding.social.tooltip = Ele permite personalizar o link <b>{0}</b> que aparece no rodapé do login
+branding.twitter_page = Página do Twitter
+branding.youtube_channel = Canal YouTube
 menu.branding = {branding}
 module.branding = {branding}
-branding.instagram_page = Instagram Page
-branding.app_name = APP Name
-branding.app_name.tooltip = It allows you to modify the main tenant name
-branding.meet_url = Meet URL
-branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module
-branding.login = Login Design
-branding.login_addons_menu = Add-ons Menu
-branding.login_addons_menu.tooltip = Background color for the add-ons menu button
-branding.login_bg = Login Background
-branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
-branding.login_btn = Submit Button Color
-branding.login_btn.tooltip = Background color for the login button
-branding.login_fc = Font Color
+branding.instagram_page = Página do Instagram
+branding.app_name = Nome do APP
+branding.app_name.tooltip = Ele permite modificar o nome do locatário principal
+branding.meet_url = Conheça o URL
+branding.meet_url.tooltip = URL a ser usado por padrão para conferências geradas através do módulo de videoconferências
+branding.login = Desenho de Login
+branding.login_addons_menu = Menu de complementos
+branding.login_addons_menu.tooltip = Cor de fundo para o botão de menu de complementos
+branding.login_bg = Cor de fundo do Login
+branding.login_bg.tooltip = Cor de fundo para a página de login. Se for deixado em branco, será usado o fundo padrão.
+branding.login_btn = Cor do botão de submissão
+branding.login_btn.tooltip = Cor de fundo para o botão de login
+branding.login_fc = Cor da fonte
 branding.login_fc.tooltip = Font color to be used in the login form
-branding.login_frm_bg = Form Background
-branding.login_frm_bg.tooltip = Background color for left panel in the login form
-branding.reset = Reset
+branding.login_frm_bg = Cor da fonte a ser usada no formulário de login
+branding.login_frm_bg.tooltip = Cor de fundo para o painel esquerdo no formulário de login
+branding.reset = Restabelecer
 branding.reset.confirm = 
-	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
-	will be lost.
-branding.reset_applied = All the settings have been reset successfully.
-branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
-branding.addon.app_name.tooltip = 
-	It allows you to define the application name/title to be shown in the browsers' tab.
-branding.addon.url_prefix.tooltip = 
-	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
-	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
-branding.addons = Addons
-branding.url_prefix = URL Prefix
+	Você tem certeza de que quer restabelecer as configurações da marca? Este processo é irreversível e toda a
+	configuração que você fez será perdido.
+branding.reset_applied = Todas as configurações foram restabelecidas com sucesso.
+branding.warning_note =
+    Estas configurações serão aplicadas até que um <a href="{0}" target="_blank">licença</a> seja aplicado ao suplemento
+    de marca ou seja ativado para qualquer um dos <a href="{1}" target="_blank">planos disponíveis</a>
+branding.addons = Complementos
+branding.url_prefix = Prefixo URL
+branding.addon.url_prefix.tooltip =
+    Permite definir o prefixo a ser usado para acesso na aplicação "<b>{0}</b>". por exemplo: se você definir o prefixo como
+    "<b>{1}</b>", significa que você deve acessar o aplicativo da seguinte forma <b>http(s)://YOUR_IP/{1}</b>
+branding.addon.app_name.tooltip = Ele permite definir o nome/título do aplicativo a ser mostrado na guia dos navegadores.
+branding.desktop_logo_dark = Logotipo Desktop (Modo Escuro)
+branding.mobile_logo_dark = Logotipo Móvel (Modo Escuro)

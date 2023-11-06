@@ -16,7 +16,7 @@ queues.announce_position.more.tooltip = O chamador ouvirá sua posição se esti
 queues.announce_position.no = Não
 queues.announce_position.no.tooltip = A posição nunca será anunciada
 queues.announce_position.tooltip = Define se a posição do chamador na fila deve ser anunciada para ela. Se você tiver alguma lógica em seu sistema que possa promover os chamadores na classificação (ou seja, as chamadas de alta prioridade são movidas para a frente da fila), é melhor não usar essa opção. Pouquíssimas coisas incomodam quem ligou mais do que ouvir que foram movidas para o final da fila.
-queues.announce_position.yes = sim
+queues.announce_position.yes = Sim
 queues.announce_position.yes.tooltip = A posição do interlocutor será sempre anunciada
 queues.announce_position_limit = Anunciar limite de posição
 queues.announce_position_limit.placeholder = Número de zero ou maior
@@ -32,7 +32,7 @@ queues.autopause = Autopause
 queues.autopause.all = Todos
 queues.autopause.no = Não
 queues.autopause.tooltip = Ativa / desativa a pausa automática de membros que não atendem uma chamada. Selecione "Todos" para marcar esse membro como pausado em todas as filas. Esse parâmetro pode ser complicado em um ambiente ativo, porque se o agente não souber que foi pausado, você poderá acabar com agentes aguardando chamadas, sem saber que eles foram pausados. Nunca use isso, a menos que você tenha uma maneira de indicar aos membros que eles foram pausados ou um supervisor que esteja observando o status da fila em tempo real.
-queues.autopause.yes = sim
+queues.autopause.yes = Sim
 queues.description = Descrição
 queues.description.tooltip = Descrição resumida para identificar essa fila.
 queues.destination = Destino
@@ -49,7 +49,7 @@ queues.general = Geral
 queues.invalid.already_exists = Número da fila inválido {0}. O número está em uso pelo módulo {1}.
 queues.invalid.announcement = Anúncio inválido. Certifique-se de que o anúncio existe
 queues.invalid.ivr = Invalid IVR. Certifique-se de que a IVR existe
-queues.invalid.music_group = Música inválida em espera. Certifique-se de que a Music on Hold existe
+queues.invalid.music_group = Música inválida em espera. Certifique-se de que a Música de espera existe
 queues.invalid.periodic_announcemnt = Anúncio Periódico Inválido. Certifique-se de que o Anúncio Periódico existe
 queues.invalid.queue_member = Membro inválido da fila. Certifique-se de que o membro da fila existe
 queues.invalid.vip_customers = Clientes VIP inválidos. Certifique-se de que os clientes VIP existem
@@ -158,18 +158,31 @@ queues.reset_stats = Redefinir estatísticas
 queues.reset_stats.tooltip = Ele permite que você selecione um perfil cron para redefinir as estatísticas da fila periodicamente
 queues.reset_stats.disabled = Desativado
 queues.hangup_dest = Após o destino do agente Hangup
-queues.join_announcement = Join Announcement
-queues.join_announcement.tooltip = An announcement may be specified which is played to the caller as soon as they reach this queue
+queues.join_announcement = Anúncio inicial
+queues.join_announcement.tooltip = Pode ser especificado um anúncio que será reproduzido para o chamador assim que ele chegar a esta fila
 queues.leavewhenempty.loose = {queues.joinempty.loose}
 queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
 queues.max_reached = Você atinguiu o número máximo de filas permitido
 queues.no_agents = Não há agentes associados a esta fila. Por favor, adicione pelo menos um agente
-queues.answered_elsewhere = Mark Cancelled Calls as Answered
-queues.answered_elsewhere.tooltip = Mark all calls as "answered elsewhere" when cancelled. This avoids a missed call on the phone if it supports it.
-queues.queue_callback = Queue Callback
+queues.answered_elsewhere = Marcar chamadas canceladas como atendidas
+queues.answered_elsewhere.tooltip = Marque todas as chamadas como "atendidas em outro lugar" quando canceladas. Isso evita uma chamada perdida no telefone, se for compatível.
+queues.queue_callback = Callback de Filas(Rechamada de fila)
 queues.queue_callback.tooltip = 
-	It allows you to define if callers who reach this queue will be able to request a queue callback in case of all agents are busy.<br><br>
-	When a queue callback is selected the "Periodic Announcement" is replaced by the "Instructions Message" configured for
-	the selected queue callback's item, also, the IVR feature gets disabled for this queue.
+	Permite definir se os chamadores que alcançam esta fila poderão solicitar um retorno de chamada da fila caso todos os agentes estejam ocupados.<br><br>
+	Quando um retorno de chamada da fila é selecionado, o "Anúncio Periódico" é substituído pela "Mensagem de Instruções" configurada para
+	o item do retorno de chamada da fila selecionado, também, o recurso IVR fica desabilitado para esta fila.
+queues.joinempty.no_inuse = Não + EmUso
+queues.leavewhenempty.yes_inuse = Sim + EmUso
+queues.alertinfo = {inbound_route.alertinfo}
+queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
+queues.answerchannel = Responder ao canal
+queues.answerchannel.tooltip =
+    Define se as chamadas devem ser atendidas antes de executar a aplicação Fila de espera. Se definido como "não",
+    a música em espera e outros áudios podem não ser tocados.
+queues.ring_unavailable = Anel agentes indisponíveis
+queues.ring_unavailable.tooltip =
+    Quando definido para sim, a fila entregará chamadas aos agentes mesmo que eles não estejam registrados no PBX.
+    A habilitação deste recurso pode ser útil quando seus agentes tiverem seus ramais desviados para seu celular,
+    por exemplo.

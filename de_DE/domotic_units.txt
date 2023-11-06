@@ -1,0 +1,36 @@
+module.domotic_units =Einheiten
+domotic_units.menu =  {module.domotic_units}
+domotic_units.show_menu =  Menü Einheiten anzeigen
+
+domotic_units.general.tab =  {vitalpbx.general}
+
+domotic_units.model_id =  Modell
+domotic_units.model_id.help =  Ermöglicht Ihnen die Auswahl der Art der intelligenten Einheit.
+domotic_units.description =  Beschreibung
+domotic_units.description.help =  Kurze Beschreibung für dieses Gerät erkennen.
+domotic_units.ip_address =  IP Adresse
+domotic_units.ip_address.help =  Die IP-Adresse zum Abrufen/Senden der Anfrage.
+domotic_units.port = Port
+domotic_units.port.help =  Teil der Adresse. definieren Sie dies bei Bedarf.
+
+domotic_units.validation.empty_model =  Das Gerätemodell ist erforderlich
+domotic_units.validation.empty_desc =  Die Beschreibung ist erforderlich
+domotic_units.validation.empty_ip =  Die IP-Adresse wird benötigt
+domotic_units.validation.invalid_ip =  Es wurde eine ungültige IP definiert
+domotic_units.validation.invalid_port =  Es wurde ein ungültiger Port definiert
+domotic_units.validation.invalid_model =  Es wurde ein ungültiges Einheitenmodell bereitgestellt
+
+domotic_units.delete =  {vitalpbx.delete}
+domotic_units.delete.message =  Möchten Sie diese Einheit wirklich löschen?
+
+domotic_units.save.btn =  {vitalpbx.save}
+domotic_units.sync.btn =  Synchronisieren
+domotic_units.update.btn =  {vitalpbx.update}
+domotic_units.delete.btn =  {vitalpbx.delete}
+domotic_units.cancel.btn =  {vitalpbx.cancel}
+
+domotic_units.sync_error =  Fehlgeschlagene Synchronisierung
+domotic_units.sync_error.msg =  Die Synchronisierung ist fehlgeschlagen
+
+domotic_units.sync_success =  Erfolgreiche Synchronisation
+domotic_units.sync_success.msg =  Die Synchronisation war erfolgreich

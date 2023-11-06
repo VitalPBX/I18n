@@ -1,0 +1,15 @@
+geo_firewall = GEO-Firewall
+menu.geo_firewall =  {geo_firewall}
+module.geo_firewall =  {geo_firewall}
+geo_firewall.general =  {vitalpbx.general}
+geo_firewall.license.max_items =  Sie können in der kostenlosen Version dieses Add-ons nur ein Land blockieren
+geo_firewall.select_all =  Alle Länder auswählen
+geo_firewall.unselect_all =  Alle Länder abwählen
+geo_firewall.countries_list =  Länderliste
+geo_firewall.disable =  Deaktivieren
+geo_firewall.enable =  Aktivieren
+geo_firewall.successfully_enabled =  Die GEO-Firewall-Einschränkungen wurden erfolgreich aktiviert
+geo_firewall.disable.confirm =
+	Sind Sie sicher, dass Sie die GEO-Firewall-Einschränkungen deaktivieren möchten? Wenn Sie diese Aktion ausführen, werden alle Länder automatisch entsperrt,
+	Ihre Konfigurationen auf der GEO-Firewall-Karte bleiben jedoch erhalten, sodass Sie sie zu einem späteren Zeitpunkt wieder anwenden können.
+geo_firewall.successfully_disabled =  Die GEO-Firewall-Einschränkungen wurden erfolgreich deaktiviert

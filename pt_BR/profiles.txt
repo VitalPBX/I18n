@@ -15,7 +15,7 @@ profiles_general_section = Geral
 profiles_iax_description = Descrição
 profiles_iax_description_tooltip = Descrição para este perfil.
 profiles_iax_general_section = Geral
-profiles_iax_host = Hospedeiro
+profiles_iax_host = Enderço do servidor
 profiles_iax_host_invalid = Nenhum host especificado.
 profiles_iax_host_tooltip = Nome do host ou endereço do dispositivo.
 profiles_iax_name = Nome
@@ -69,7 +69,7 @@ profiles_sip_directmedia_yes = sim
 profiles_sip_encryption = Criptografia RTP
 profiles_sip_encryption_tooltip = Permite a criptografia de voz sRTP.
 profiles_sip_general_section = Geral
-profiles_sip_host = Hospedeiro
+profiles_sip_host = Enderço do servidor
 profiles_sip_host_invalid = Nenhum host especificado.
 profiles_sip_host_tooltip = Nome do host ou endereço do dispositivo.
 profiles_sip_icesupport = GELO
@@ -156,7 +156,7 @@ profiles_pjsip_rtcp_mux = RTCP Mux
 profiles_pjsip_rtcp_mux_tooltip =
 	Com esta opção ativada, o Asterisk tentará negociar o uso do atributo "rtcp-mux" em todos os fluxos de mídia.
 	Isso resultará em RTP e RTCP sendo enviados e recebidos na mesma porta. Isso muda a lógica de desmultiplexação para
-	o aplicativo em vez da camada de transporte. Essa opção é útil ao interoperar com os terminais WebRTC
+	o aplicativo em vez da camada de transporte. Essa opção é útil ao interoperar com os Dispositivos WebRTC
 	desde que eles determinem o uso desta opção.
 profiles_pjsip_media_use_received_transport = Transporte de mídia recebido
 profiles_pjsip_media_use_received_transport_tooltip = Determina se res_pjsip usará o transporte de mídia recebido na oferta SDP na resposta correspondente SDP.
@@ -176,7 +176,7 @@ profiles_pjsip_dtls_setup_active = Ativo
 profiles_pjsip_dtls_setup_passive = Passiva
 profiles_pjsip_dtls_setup_actpass = Passagem
 profiles_pjsip_network_section = Rede
-profiles_pjsip_media_section = meios de comunicação
+profiles_pjsip_media_section = Meios de comunicação
 profiles_pjsip_dtls_section = DTLS
 profiles_pjsip_name_invalid = Nenhum nome de perfil especificado.
 profiles_pjsip_none = -- Nenhum --
@@ -197,8 +197,8 @@ profiles_pjsip_dtls_rekey_tooltip =
 profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
 profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
 profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
-profiles_sip_dtlsenable = Enable
-profiles_sip_dtlsenable_tooltip = Enable or disable DTLS-SRTP support
+profiles_sip_dtlsenable = Ativo
+profiles_sip_dtlsenable_tooltip = Ative ou desative o suporte DTLS-SRTP
 profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
 profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
 profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
@@ -216,45 +216,55 @@ profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
 profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
 profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
 profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
-profiles_sip_force_avp = Force AVP
+profiles_sip_force_avp = Forçar AVP
 profiles_sip_force_avp_tooltip = 
-	Force 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP', and 'RTP/SAVPF' to be used for media streams when appropriate, even if a
-	DTLS stream is present.
+	Força 'RTP / AVP', 'RTP / AVPF', 'RTP / SAVP' e 'RTP / SAVPF' a serem usados ​​para fluxos de mídia quando apropriado, mesmo se um
+	Stream DTLS está presente.
 profiles_sip_none = {profiles_pjsip_none}
 profiles_sip_rtcp_mux = RTCP MUX
-profiles_sip_rtcp_mux_tooltip = Enable support for RFC 5761 RTCP multiplexing which is required for WebRTC support
-profiles_pjsip_force_rport = Force rport
-profiles_pjsip_qualify_frequency = Qualify Frequency
-profiles_pjsip_qualify_frequency_tooltip = Interval between attempts to qualify the contact for reachability. If 0 never qualify. Time in seconds.
-profiles_pjsip_qualify_timeout = Qualify Timeout
-profiles_pjsip_qualify_timeout_tooltip = If the contact doesn't respond to the OPTIONS request before the timeout, the contact is marked unavailable. If 0 no timeout.
-profiles_pjsip_send_diversion = Send Diversion Header
-profiles_pjsip_send_diversion_tooltip = Send the Diversion header, conveying the diversion information to the called user agent
-profiles_pjsip_send_pai = Send P-Asserted-Identity
-profiles_pjsip_send_pai_tooltip = Send the P-Asserted-Identity header
-profiles_pjsip_send_rpid = Send Remote-Party-ID
-profiles_pjsip_send_rpid_tooltip = Send the Remote-Party-ID header
+profiles_sip_rtcp_mux_tooltip = Ativar suporte para multiplexação RFC 5761 RTCP, que é necessário para suporte WebRTC
+profiles_pjsip_force_rport = Forçar rport
+profiles_pjsip_qualify_frequency = Frequência de qualificação
+profiles_pjsip_qualify_frequency_tooltip = Intervalo entre as tentativas de qualificar o contato para acessibilidade. Se 0, nunca se qualifica. Tempo em segundos.
+profiles_pjsip_qualify_timeout = Tempo Limite de Qualificação
+profiles_pjsip_qualify_timeout_tooltip = Se o contato não responder à solicitação OPTIONS antes do tempo limite, o contato será marcado como indisponível. Se 0, sem tempo limite.
+profiles_pjsip_send_diversion = Enviar cabeçalho de desvio
+profiles_pjsip_send_diversion_tooltip = Envie o cabeçalho de desvio, transmitindo as informações de desvio para o agente de usuário chamado
+profiles_pjsip_send_pai = Enviar P-Asserted-Identity
+profiles_pjsip_send_pai_tooltip = Envie o cabeçalho P-Asserted-Identity
+profiles_pjsip_send_rpid = Enviar Remote-Party-ID
+profiles_pjsip_send_rpid_tooltip = Envie o cabeçalho Remote-Party-ID
 profiles_pjsip_webrtc = WebRTC
 profiles_pjsip_webrtc_tooltip = 
-	When set to "yes" this also enables the following values that are needed in order for basic WebRTC support to work:
-	rtcp_mux, use_avpf, ice_support, and use_received_transport.
-profiles_pjsip_remove_existing = Remove Existing
+	Quando definido como "sim", isso também ativa os seguintes valores que são necessários para que o suporte WebRTC básico funcione:
+	rtcp_mux, use_avpf, ice_support e use_received_transport.
+profiles_pjsip_remove_existing = Remover Existentes
 profiles_pjsip_remove_existing_tooltip = 
-	Allow a registration to succeed by displacing any existing contacts that now exceed the "{hot_desking.max_contacts}" count.  Any
-	removed contacts are the next to expire.  The behaviour is beneficial when "{profiles_pjsip_rewrite_contact}" is enabled and "{hot_desking.max_contacts}"
-	is greater than one.  The removed contact is likely the old contact created by "{profiles_pjsip_rewrite_contact}" that the device is
-	refreshing.
+	Permita que um registro seja bem-sucedido, deslocando todos os contatos existentes que agora excedem a "{hot_desking.max_contacts}" contagem.  Algum
+	dos contatos removidos são os próximos a expirar. O comportamento é benéfico quando "{profiles_pjsip_rewrite_contact}" está habilitado e "{hot_desking.max_contacts}"
+	é maior que um. O contato removido é provavelmente o contato antigo criado por "{profiles_pjsip_rewrite_contact}" que o dispositivo é
+	atualizado.
 profiles_pjsip_max_audio_streams = Max Audio Streams
 profiles_pjsip_max_audio_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated audio streams allowed for the endpoint.
+	Esta opção impõe um limite no máximo de streams de áudio negociados simultâneos permitidos para o terminal.
 profiles_pjsip_max_video_streams = Max Video Streams
 profiles_pjsip_max_video_streams_tooltip = 
-	This option enforces a limit on the maximum simultaneous negotiated video streams allowed for the endpoint.
-profiles_pjsip_support_path = Support Path
+	Esta opção impõe um limite no máximo de streams de vídeo negociados simultâneos permitidos para o terminal.
+profiles_pjsip_support_path = Suporte a Cabeçalhos
 profiles_pjsip_support_path_tooltip = 
-	When this option is enabled, the Path headers in register requests will be saved and its contents will be used in
-	Route headers for outbound out-of-dialog requests and in Path headers for outbound 200 responses. Path support will
-	also be indicated in the Supported header.
+	Quando essa opção estiver habilitada, as solicitações REGISTER de saída anunciarão suporte para cabeçalhos de caminho para que os proxies 
+	intervenientes possam adicionar ao cabeçalho de caminho conforme necessário.
 profiles_pjsip_outbound_proxy = Outbound Proxy
-profiles_pjsip_outbound_proxy_tooltip = Full SIP URI of the outbound proxy used to send requests. e.g.: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_outbound_proxy_tooltip = URI SIP completo do proxy de saída usado para enviar solicitações. por exemplo.: <b>sip:192.168.0.1\;lr</b>
 profiles_pjsip_transport_auto = Auto
+profiles.general = {vitalpbx.general}
+profiles.advanced = {profiles_advanced}
+profiles_pjsip_default_expiration = Expiração por defeito
+profiles_pjsip_default_expiration_tooltip = Tempo de expiração por defeito em segundos para contatos que estão dinamicamente vinculados a uma AoR.
+profiles_pjsip_maximum_expiration = Expiração máxima
+profiles_pjsip_maximum_expiration_tooltip = Tempo máximo para manter um par com expiração explícita. Tempo em segundos.
+profiles_pjsip_minimum_expiration = Expiração mínima
+profiles_pjsip_minimum_expiration_tooltip = Tempo mínimo para manter um par com uma expiração explícita. Tempo em segundos.
+profiles_pjsip_transport_id = {profiles_pjsip_transport}
+profiles_pjsip_transport_id_tooltip = {profiles_pjsip_transport_tooltip}
+profiles_in_use_by = Não é possível apagar este perfil porque está sendo usado por alguns dispositivos de extensões.

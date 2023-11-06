@@ -1,0 +1,15 @@
+sip_report = SIP-Geräte
+menu.sip_report =  {sip_report}
+module.sip_report =  {sip_report}
+sip_report.devices =  Geräte
+sip_report.trunks =  Stämme
+sip_report.registrations =  Anmeldungen
+sip_report.extension =  Nebenstelle
+sip_report.device =  Gerät
+sip_report.host =  Gastgeber
+sip_report.port =  Port
+sip_report.status =  Status
+sip_report.user_agent =  User-Agent
+sip_report.trunk_name =  Leitungs-Beschreibung
+sip_report.refresh =  Aktualisierung
+sip_report.state =  Bundesland

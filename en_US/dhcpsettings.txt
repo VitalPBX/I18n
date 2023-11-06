@@ -24,15 +24,16 @@ dhcpsettings.mac = MAC Address
 dhcpsettings.minutes = Minutes
 dhcpsettings.ntp = NTP Server
 dhcpsettings.ntp.tooltip = Network Time Protocol (NTP) is a networking protocol to synchronize clocks between computer systems over the Internet.
-dhcpsettings.opt66_epm = Use for Endpoint Manager
-dhcpsettings.opt66_epm.tooltip = Automatically format the Option 66 address for Endpoint Manager based on the address provided for Option 66 above.  This will be done by prefixing http:// to the Option 66 address above and appending /xepm-provision/. In order for this to work correctly, the IP address provided above for Option 66 should only consist of the IP address or hostname of the server.
-dhcpsettings.range_end = End Address
+\dhcpsettings.range_end = End Address
 dhcpsettings.range_end.tooltip = The last address on your network that can be allocated as a dynamic IP address.
 dhcpsettings.range_start = Start Address
 dhcpsettings.range_start.tooltip = The first address on your network that can be allocated as a dynamic IP address.
 dhcpsettings.seconds = Seconds
 dhcpsettings.tftp = Option 66
-dhcpsettings.tftp.tooltip = Option 66 provides IP phones with an URL for configuration provisioning.Endpoint Manager provides the IP phones with configuration information in response to a HTTP request. The format of the request URL in this case looks like http://[pbx-ip-address]/xepm-provision/. If you define the PBX IP address or host name in the Option 66 field and check the 'Use for Endpoint Manager' check-box then the correct format of the URL will be built automatically. If you have already-prepared IP phone configuration files located in the /tftpboot directory then you should put the PBX IP address or host name in the Option 66 field and uncheck the 'Use for Endpoint Manager' check-box.
+dhcpsettings.tftp.tooltip =
+    Option 66 provides IP phones with a URL for configuration provisioning. The Provisioning module provides the IP phones with
+    configuration information in response to an HTTP request. The format of the request URL in this case looks like
+    http://[pbx-ip-address]/phoneprov/[tenant-hash]/.
 dhcpsettings.validation.dns_primary = Invalid Primary DNS
 dhcpsettings.validation.dns_secondary = Invalid Secondary DNS
 dhcpsettings.validation.empty_ip = IP address is empty

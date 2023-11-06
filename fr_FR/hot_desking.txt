@@ -56,22 +56,24 @@ hot_desking.voicemail_uri = URI boite vocale
 hot_desking.voicemail_uri.tooltip = Si le bouton de boite vocale du téléphone ouvre une URI au lieu de la messagerie vocale visuelle, cette option défini l'URI à ouvrir. Configurer cette option sur un téléphone désactivera la messagerie vocale visuelle.
 menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
-hot_desking.max_contacts = Max Contacts
-hot_desking.max_contacts.tooltip = Maximum number of contacts that can bind to an AoR
-hot_desking.profile_id = Profile
-hot_desking.profile_id.tooltip = Profile with common parameters for the technology selected.
-hot_desking.profile_id-pjsip = Profile
-hot_desking.profile_id-pjsip.tooltip = Settings Profile for PJSIP devices
-hot_desking.user.invalid.spaces = User Device must not contain spaces
-hot_desking.dispatchable_location = Dispatchable Location
-hot_desking.dispatchable_location.tooltip = 
-	It allows you to select or define the dispatchable location for this device. This information will be used
-	to be included on notifications that would be sent when an emergency call be performed from this device.
-hot_desking.send_push = Send Push
-hot_desking.send_push.tooltip = If enabled, the PBX will try to send push notifications to mobile devices running the <b>{0}</b> Softphone
-hot_desking.nat.default.tooltip = It takes the NAT configurations from global SIP Settings  (Settings >> Technology Settings >> SIP Settings)
-hot_desking.vitxi_client = Vitxi Client
-hot_desking.vitxi_client.tooltip = 
-	If enabled, this device could be used for the Vitxi WebRTC app or the Vitxi Softphones (Android or IOS). When
-	the devices flagged with this option are used on mobile devices with the Vitxi Softphone, all the premium features
-	will be enabled on the softphone.
+hot_desking.max_contacts = Nombre maximum de contacts
+hot_desking.max_contacts.tooltip = Nombre maximum de contacts pouvant se lier à une AoR
+hot_desking.profile_id = Profil
+hot_desking.profile_id.tooltip = Profil avec des paramètres communs pour la technologie sélectionnée.
+hot_desking.profile_id-pjsip = Profil
+hot_desking.profile_id-pjsip.tooltip = Profil de paramètres pour les périphériques PJSIP
+hot_desking.user.invalid.spaces = Le périphérique utilisateur ne doit pas contenir d'espaces
+hot_desking.dispatchable_location = Emplacement Location
+hot_desking.dispatchable_location.tooltip =
+	Il vous permet de sélectionner ou de définir l'emplacement de Location pour cet appareil. Ces informations seront utilisées
+	à inclure dans les notifications qui seraient envoyées lorsqu'un appel d'urgence serait effectué à partir de cet appareil.
+hot_desking.send_push = Envoyer un push
+hot_desking.send_push.tooltip = Si activé, le PBX essaiera d'envoyer des notifications push aux appareils mobiles exécutant le <b>{0}</b> Softphone
+hot_desking.nat.default.tooltip = Il prend les configurations NAT des paramètres SIP globaux (Paramètres >> Paramètres technologiques >> Paramètres SIP)
+hot_desking.vitxi_client = Client Vitxi
+hot_desking.vitxi_client.tooltip =
+	S'il est activé, cet appareil peut être utilisé pour l'application Vitxi WebRTC ou les téléphones logiciels Vitxi (Android ou IOS). Lorsque
+	les appareils marqués avec cette option sont utilisés sur les appareils mobiles avec le Vitxi Softphone, toutes les fonctionnalités premium
+	seront activées sur le softphone.
+
+hot_desking.dtmfmode.auto_info.tooltip = DTMF is sent as RFC 4733 if the other side supports it or as SIP INFO if not. (PJSIP Only)

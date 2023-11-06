@@ -1,0 +1,30 @@
+dynamic_routing =Dynamisches Routing
+menu.dynamic_routing =  {dynamisches_Routing}
+module.dynamic_routing =  {dynamisches_Routing}
+dynamic_routing.general =  {vitalpbx.general}
+dynamic_routing.list =  Aufführen
+dynamic_routing.et.hours =
+	[eins] {0} Stunde
+	[mehr] {0} Stunden
+dynamic_routing.et.never =  Niemals
+dynamic_routing.expiration_time =  Ablaufzeit
+dynamic_routing.expiration_time.tooltip =
+	Es erlaubt zu definieren, wie lange die Datensätze der dynamischen Routingliste aufbewahrt werden, bevor sie
+	automatisch gelöscht
+dynamic_routing.digits_match =  Ziffernübereinstimmung
+dynamic_routing.digits_match.tooltip =
+	Ermöglicht die Definition der Anzahl der Ziffern, die aus der Nummer des Anrufers extrahiert werden sollen (von rechts nach links), bis später
+	Suche nach Übereinstimmungen in der dynamischen Routingliste. Wenn es leer gelassen wird, wird die gesamte Nummer des Anrufers für die Suche verwendet
+	für Spiele
+dynamic_routing.delete_used_records =  Benutzte Datensätze löschen
+dynamic_routing.delete_used_records.tooltip =
+	Wenn aktiviert, wird der Eintrag aus der dynamischen Routingliste gelöscht, wenn der Rückruf beantwortet wird
+dynamic_routing.only_missed_calls =  Nur verpasste Anrufe behalten
+dynamic_routing.only_missed_calls.tooltip =
+	Wenn aktiviert, werden nur Anrufe (ausgehend), die vom Angerufenen verpasst wurden, in der dynamischen Routingliste gespeichert
+dynamic_routing.calldate =  Datum und Uhrzeit des Anrufs
+dynamic_routing.extension =  Nebenstellennummer
+dynamic_routing.called =  Angerufene Nummer
+dynamic_routing.trunk =  Stamm
+dynamic_routing.actions =  Aktionen
+dynamic_routing.completed =  Vollendet

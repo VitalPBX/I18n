@@ -37,3 +37,15 @@ maintenance.mcp.invalid_tenant = El mantenimiento no se puede ejecutar debido a 
 maintenance.tenant = Tenant
 maintenance.tenant.tooltip = Le permite seleccionar el Tenant al que se aplicarán las configuraciones de mantenimiento
 maintenance.validation.enabled_without_cron = El mantenimiento se ha habilitado pero no se ha seleccionado ningún perfil cron
+maintenance.best = Best ({0}k)
+maintenance.conversion_quality = Audio Quality
+maintenance.conversion_quality.tooltip = 
+	The audio quality to be applied when converting from WAV to MP3. Higher qualities produce better audios, but uses more space
+	in the hard drive; Lower qualities produce smaller audio files, but the quality is dropped.
+maintenance.good = Good ({0}k)
+maintenance.high = High ({0}k)
+maintenance.medium = Medium ({0}k)
+maintenance.voicemail_preservation = Clear Oldest Voicemails
+maintenance.voicemail_preservation.tooltip = 
+	Allows you to defined the maximum number of days that voicemail recordings should be retained. The voicemail
+	recordings with more age than the days defined here will be deleted

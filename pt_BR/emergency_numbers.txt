@@ -4,10 +4,10 @@ emergency_numbers.general = {vitalpbx.general}
 emergency_numbers.trunks = Troncos
 emergency_numbers.trunks.tooltip = Lista de troncos que podem ser usados em caso de uma chamada de emergência
 emergency_numbers.legend = Lista de números de emergência
-emergency_numbers.number = Numero
+emergency_numbers.number = Número
 emergency_numbers.number.tooltip = Número de telefone para entrar em contato com os serviços de emergência locais para obter assistência
 emergency_numbers.number.placeholder = por exemplo.: 911
-emergency_numbers.description = Service Nome
+emergency_numbers.description = Nome do Serviço
 emergency_numbers.description.tooltip = Nome do serviço que representa este número de telefone. Ex .: Polícia, Bombeiros, Ambulância, etc
 emergency_numbers.description.placeholder = por exemplo: Polícia, Bombeiros, Ambulância, Etc.
 emergency_numbers.validation.invalid_number =
@@ -19,8 +19,9 @@ emergency_numbers.validation.no_desc = Nenhuma descrição foi fornecida. Por fa
 emergency_numbers.validation.no_trunks = Nenhum troncos foi selecionado. Por favor, selecione pelo menos um tronco.
 emergency_numbers.validation.no_numbers = Nenhum número foi fornecido. Por favor, adicione pelo menos um número.
 emergency_numbers.validation.n_duplicated =
-	O número de emergência {0} já está em uso pela seguinte categoria de número de emergência: <b> {1} </b>.emergency_numbers.email_addresses = Email Addresses
+	O número de emergência {0} já está em uso pela seguinte categoria de número de emergência: <b> {1} </b>.
+emergency_numbers.email_addresses = E-mail Addresses
 emergency_numbers.email_addresses.tooltip = 
-	Email addresses who will receive a notification when any of the emergency numbers defined here be dialed
-emergency_numbers.validation.invalid_email = The email address <b>{0}</b> is not valid.
-emergency_numbers.email_addresses = Email Addresses
+	Endereços de e-mail que receberão uma notificação quando qualquer um dos números de emergência definidos aqui for discado
+emergency_numbers.validation.invalid_email = O endereço de e-mail <b>{0}</b> não é válido.
+emergency_numbers.email_addresses = Endereço de e-mail

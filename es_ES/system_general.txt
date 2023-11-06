@@ -67,3 +67,13 @@ system_general.fqdn.tooltip =
 	Le permite definir el dominio público de la PBX. Esta información se utilizará en las notificaciones por correo electrónico para traducir
 	o reemplazar la variable de dominio público de las plantillas. En lugar de intentar detectar automáticamente el dominio público por parte del sistema.
 	Además, se utilizará para generar los códigos QR de VitXi.
+system_general.atxferdropcall = Eliminar Devoluciones de Llamada de Transferencia Atendida
+system_general.atxferdropcall.tooltip = 
+	Le permite cambiar el comportamiento de devolución de llamada predeterminado. El valor predeterminado es 'no',
+	lo que hace que Asterisk vuelva a llamar al iniciador de una transferencia cuando cuelga temprano y la transferencia atendida se agota.
+	Si se establece en 'sí', el canal de destino de la transferencia se transferirá inmediatamente al canal que se está transfiriendo tan pronto como el iniciador cuelgue.
+system_general.atxfernoanswertimeout = Tiempo de Espera de Transferencia Atendido
+system_general.atxfernoanswertimeout.placeholder = Valor en Segundos
+system_general.atxfernoanswertimeout.tooltip = Le permite definir el tiempo de espera para transferencias atendidas. Esta es la cantidad de tiempo (en segundos) que Asterisk intentará llamar al objetivo antes de darse por vencido.
+system_general.auto_generated_pwd_length = Longitud de las Contraseñas Generadas Automáticamente
+system_general.auto_generated_pwd_length.tooltip = Le permite definir la longitud predeterminada para las contraseñas de dispositivos generadas automáticamente

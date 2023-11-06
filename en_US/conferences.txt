@@ -69,3 +69,4 @@ conferences.video_mode.last_marked.tooltip =
 	joined before them.
 conferences.video_mode.sfu = Selective Forwarding Unit
 conferences.video_mode.sfu.tooltip = Sets multi-stream operation for a multi-party video conference.
+conferences.same_pins = The User and Leader PIN cannot be the same.

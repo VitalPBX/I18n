@@ -1,5 +1,5 @@
-menu.rtp_settings = Imostazioni RTP
-module.rtp_settings = Imostazioni RTP
+menu.rtp_settings = Settaggi RTP
+module.rtp_settings = Settaggi RTP
 rtp_settings.general = Generale
 rtp_settings.certificate_id = Certificato
 rtp_settings.certificate_id.tooltip = File del certificato del Server.
@@ -19,5 +19,15 @@ rtp_settings.turnaddr = Server TURN
 rtp_settings.turnaddr.tooltip = Nome host o indirizzo per il server TURN da utilizzare come inoltro. Il numero di porta e' opzionale.
 rtp_settings.turnusername = Nome Server TURN
 rtp_settings.turnusername.tooltip = Nome utente utilizzato per l'autenticazione con il server di inoltro TURN.
-rtp_settings.turnpassword = PAssword Server TURN
+rtp_settings.turnpassword = Password Server TURN
 rtp_settings.turnpassword.tooltip = Password utilizzata per l'autenticazione con il server di inoltro TURN.
+rtp_settings.advertised_address = Indirizzo Pubblicizzato
+rtp_settings.ice_host_candidates = Impostazioni Host ICE
+rtp_settings.ice_host_candidates.tooltip = 
+	Quando Asterisk si trova dietro un NAT statico uno-a-uno e ICE è in uso, ICE esporrà l'indirizzo IP interno del server
+        come uno dei candidati ospitanti. Sebbene l'utilizzo di STUN (vedi l'opzione di configurazione 'stunaddr') fornirà un file
+        IP pubblicamente accessibile, l'IP interno verrà comunque inviato al peer remoto. Per aiutare a nascondere la topologia del tuo file
+        rete, è possibile sovrascrivere i candidati host che Asterisk invierà al peer remoto. Se definisci qualcosa
+        qui, quasi certamente NON vorrai specificare gli indirizzi "Stun Server" o "Turn Server"..
+rtp_settings.include_local_address = Include Indirizzo Locale
+rtp_settings.local_address = Indirizzo Locale

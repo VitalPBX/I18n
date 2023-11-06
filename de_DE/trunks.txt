@@ -1,0 +1,272 @@
+menu.trunks = Amtsleitungen
+module.trunks = Amtsleitungen
+trunks = Amtsleitungen
+trunks.advanced = Fortschrittlich
+trunks.class_of_service_id = Dienstleistungsklasse
+trunks.class_of_service_id.tooltip = Dienstklasse für den Zugriff auf Amtswahlpläne.
+trunks.codecs = Codecs
+trunks.codecs.tooltip = Liste der erlaubten Codecs. Die Reihenfolge, in der die Codecs aufgelistet sind, bestimmt ihre Präferenzreihenfolge. Wenn Sie mindestens einen Codec auswählen, wird das
+trunks.custom_settings = Benutzerdefinierte Einstellungen
+trunks.dahdi_trunk_parameters = DAHDi-Trunk-Parameter
+trunks.description = Beschreibung
+trunks.description.tooltip = Kurze Beschreibung um diese Amtsleitung zu identifizieren
+trunks.device_for_incoming_calls = Gerät für eingehende Anrufe (Benutzer)
+trunks.device_for_outgoing_calls = Gerät für ausgehende Anrufe (Peer)
+trunks.dialoptions = Wähloptionen
+trunks.dialoptions.tooltip = Parameter für Wahloptionen
+trunks.dialstring = Ziffernfolge
+trunks.disable = Amtsleitung deaktivieren
+trunks.disable.tooltip = Auf diese Weise können Sie diesen Trunk deaktivieren, damit er nicht zugänglich ist.
+trunks.general = Allgemein
+trunks.group_id = Kanalgruppe
+trunks.group_id.tooltip = Die von dieser Amtsleitung verwendete Kanalgruppe.
+trunks.group_mode = Modus
+trunks.group_mode.tooltip = Auswahlmodus für verfügbare Kanäle.
+trunks.incoming_defaultuser = Remote-Benutzername
+trunks.incoming_defaultuser.tooltip = Authentifizierungs-Benutzername für Remote-Server
+trunks.incoming_host = Gastgeber
+trunks.incoming_host.tooltip = Adresse des anrufenden SIP-Servers
+trunks.incoming_qualify = Qualifizieren
+trunks.incoming_qualify.tooltip = Stellt sicher, dass das lebt
+trunks.incoming_remotesecret = Remote-Geheimnis
+trunks.incoming_remotesecret.tooltip = Authentifizierungsgeheimnis für Remote-Server
+trunks.incoming_secret = Lokales Geheimnis
+trunks.incoming_secret.tooltip = Secret, das für Authentifizierungsanfragen vom Remote-Server verwendet werden soll.
+trunks.incoming_trunk = IAX-Trunking
+trunks.incoming_trunk.tooltip = Ermöglicht das Senden von Sprache mehrerer Anrufe in einem IAX-Paket. Es kann die erforderliche Netzwerkbandbreite erheblich reduzieren.
+trunks.incoming_type = IP-Authentifizierung
+trunks.incoming_type.tooltip = Wenn diese Option aktiviert ist, wird die Authentifizierung eingehender Anfragen über die IP-Adresse zusätzlich zur Authentifizierung des Benutzernamens zugelassen.
+trunks.incoming_username = Nutzername
+trunks.incoming_username.duplicate = Eingehender Benutzername ist bereits vorhanden (muss eindeutig sein)
+trunks.incoming_username.tooltip = Benutzername, den der Remote-Server verwenden soll, um diese PBX zu kontaktieren. Es ist auch der Gerätename, der erstellt wird.
+trunks.insecure = Unsicher
+trunks.insecure.invite = Einladen
+trunks.insecure.invite.tooltip = Keine Authentifizierung eingehender EINLADUNGEN erforderlich'
+trunks.insecure.not_used = Nicht benutzt
+trunks.insecure.port = Hafen
+trunks.insecure.port.tooltip = Abgleich von Peer nach IP-Adresse ohne übereinstimmende Portnummer zulassen
+trunks.insecure.port_invite = Portieren, einladen
+trunks.insecure.port_invite.tooltip = Die Kombination ist die minimale Sicherheit, da keine Überprüfung oder Portprüfung oder Authentifizierung für den INVITE-Nachrichtentyp erfolgt.
+trunks.insecure.tooltip = Ermöglicht eine entspannte Authentifizierung eingehender SIP-Anfragen.
+trunks.music_group_id = Musik in der Warteschleife
+trunks.music_group_id.tooltip = Diese Option gibt an, welche Wartemusikklasse dem Peer-Kanal vorgeschlagen werden soll, wenn dieser Kanal den Peer in die Warteschleife setzt.
+trunks.outgoing_defaultuser = Remote-Benutzername
+trunks.outgoing_defaultuser.tooltip = Authentifizierungs-Benutzername für Remote-Server
+trunks.outgoing_fromdomain = Von Domain
+trunks.outgoing_fromdomain.tooltip = Ersetzt den Domänenteil im Header-Feld "Von". Manchmal für eine ordnungsgemäße Authentifizierung auf dem Remote-Server erforderlich. Andernfalls wird die lokale IP-Adresse verwendet.
+trunks.outgoing_fromuser = Vom Benutzer
+trunks.outgoing_fromuser.tooltip = Ersetzt den SIP-Benutzernamen im Header-Feld "Von". Manchmal für eine ordnungsgemäße Authentifizierung auf dem Remote-Server erforderlich.
+trunks.outgoing_host = Remote-Host
+trunks.outgoing_host.duplicate = Der Remote-Host ist erforderlich
+trunks.outgoing_host.tooltip = Adresse des Remote-Servers
+trunks.outgoing_port = Remote-Port
+trunks.outgoing_port.tooltip = Die Portnummer, mit der wir uns auf der Remote-Seite verbinden möchten
+trunks.outgoing_qualify = Qualifizieren
+trunks.outgoing_qualify.tooltip = Stellt sicher, dass das lebt
+trunks.outgoing_remotesecret = Remote-Geheimnis
+trunks.outgoing_remotesecret.tooltip = Authentifizierungsgeheimnis für Remote-Server
+trunks.outgoing_secret = Lokales Geheimnis
+trunks.outgoing_secret.tooltip = Secret, das für Authentifizierungsanfragen vom Remote-Server verwendet werden soll.
+trunks.outgoing_trunk = IAX-Trunking
+trunks.outgoing_trunk.tooltip = Ermöglicht das Senden von Sprache mehrerer Anrufe in einem IAX-Paket. Es kann die erforderliche Netzwerkbandbreite erheblich reduzieren.
+trunks.outgoing_type = Eingehende Anrufe zulassen
+trunks.outgoing_type.tooltip = Wenn diese Option aktiviert ist, kann dieses Gerät auch Anrufe annehmen.
+trunks.outgoing_username = Lokaler Benutzername
+trunks.outgoing_username.duplicate = Der angegebene lokale Benutzername existiert bereits (muss eindeutig sein)
+trunks.outgoing_username.tooltip = Benutzername, den der Remote-Server verwenden soll, um diese PBX zu kontaktieren. Es ist auch der Gerätename, der erstellt wird.
+trunks.overwrite_cid = CID überschreiben
+trunks.overwrite_cid.tooltip = Anrufer-ID überschreiben.
+trunks.register_flag = Verwende den Standard
+trunks.register_flag.tooltip = Standard-Registrierungszeichenfolge verwenden
+trunks.register_string = Zeichenkette registrieren
+trunks.restricted = Amtsleitungsstandard
+trunks.ringtimer = Klingelzeit
+trunks.ringtimer.tooltip = Zeit, den Kofferraum zu läuten
+trunks.technology = Technologie
+trunks.technology.iax2 = IAX2
+trunks.technology.sip = SCHLUCK
+trunks.technology.telephony = Telefonie
+trunks.technology.tooltip = Trunk-Technologie
+trunks.trkcustom.enabled = Ermöglicht
+trunks.trkcustom.param = Parameter
+trunks.trkcustom.type = Typ
+trunks.trkcustom.type.friend = Freund
+trunks.trkcustom.type.peer = Peer
+trunks.trkcustom.type.user = Benutzer
+trunks.trkcustom.value = Wert
+trunks.trunk_cid = Leitungs-CID+B39
+trunks.trunk_cid_number.invalid = Die Amtsleitungs-CID ist ungültig. Nur *,#,+ und Zahlen sind erlaubt.
+trunks.trunk_cid.tooltip = Anrufer-ID für diese Amtsleitung.
+trunks.trunk_cid_name = CID-Name der Amtsleitung
+trunks.trunk_cid_number = Amts-CID-Nummer
+trunks.cos.warning = Die Aktion, die Sie ausführen möchten, kann zu Sicherheitslücken führen. <b>Fahren Sie nicht fort, wenn Sie nicht sicher sind, dass Sie die Logik der Dienstklasse für Amtsleitungen verstanden haben.</b>
+trunks.cos.warning.title = Warnung
+trunks.cos.warning.confirm = Ich verstehe und bestätige
+trunks.cos.warning.cancel = Stornieren Sie meine Änderung
+trunks.dial_profile_id = Wählprofil
+trunks.dial_profile_id.tooltip = Profil mit den Wähloptionen, die verwendet werden sollen, wenn diese Amtsleitung gewählt wird.
+trunks.outgoing_username.invalid = Bitte geben Sie einen gültigen Gerätenamen ein. Alphanumerische Werte mit Bindestrich, Unterstrich und Pluszeichen sind zulässig
+trunks.nat = Nat
+trunks.continue_on_busy = Weiter auf Besetzt
+trunks.continue_on_busy.tooltip =
+	Es erzwingt, den Anruf zur nächsten konfigurierten Amtsleitung fortzusetzen, wenn diese Amtsleitung besetzt ist. <br><br> <b>Hinweis: </b> Der Anruf wird
+	Fahren Sie auch mit dem nächsten Trunk fort, wenn ein Fehler auftritt, auch wenn dieses Kontrollkästchen nicht aktiviert ist.
+trunks.validation.duplicated_outgoing_username = Der angegebene ausgehende Benutzername wird von einem anderen Trunk verwendet
+trunks.validation.duplicated_description = Die angegebene Beschreibung wird von einem anderen Trunk verwendet
+trunks.validation.same_username = Der Benutzername für ausgehende und eingehende Anrufe ist gleich. Bitte verwenden Sie für beide Felder einen anderen Benutzernamen
+trunks.validation.duplicated_incoming_username = Der im Abschnitt für eingehende Anrufe angegebene Benutzername wird von einer anderen Amtsleitung verwendet
+trunks.validation.no_outgoing_username = Der ausgehende Benutzername wurde nicht angegeben
+trunks.validation.no_outgoing_host = Der ausgehende Host wurde nicht angegeben
+trunks.simultaneous_calls = Gleichzeitige Anrufe
+trunks.simultaneous_calls.tooltip = Hier können Sie die Anzahl gleichzeitiger ausgehender Anrufe festlegen, die für diese Amtsleitung zulässig sind.
+trunks.plain_mode = Wechseln Sie in den Textmodus
+trunks.visual_mode = Wechseln Sie in den visuellen Modus
+trunks.outgoing_settings = Peer-Parameter
+trunks.outgoing_settings.tooltip = Von Ihrem VoIP-Provider bereitgestellte Peer-Parameter
+trunks.incoming_settings = Benutzerparameter
+trunks.incoming_settings.tooltip = Benutzerparameter Ihres VoIP-Providers
+trunks.no_outgoing_settings = Für diese Amtsleitung sind keine ausgehenden Einstellungen definiert
+trunks.rules = Wählmanipulationsregeln
+trunks.rules.prepend = Voranstellen
+trunks.rules.prefix = Präfix
+trunks.rules.pattern = Muster
+trunks.rules.enabled = {trunks.trkcustom.enabled}
+trunks.get_did_from = Holen Sie sich DID von
+trunks.get_did_from.to = Zu
+trunks.get_did_from.tooltip = Es ermöglicht Ihnen zu definieren, aus welchem ​​SIP-Header die DID-Nummer extrahiert wird
+trunks.get_cid_from = CID erhalten von
+trunks.get_cid_from.tooltip = Es ermöglicht Ihnen zu definieren, aus welchem ​​SIP-Header die Anrufer-ID-Info extrahiert wird
+trunks.get_cid_from.from = Von
+trunks.get_cid_from.contact = Kontakt
+trunks.outbound_registration_settings = Einstellungen für die ausgehende Registrierung
+trunks.outbound_registration = Registrierung erforderlich
+trunks.outbound_registration.tooltip = Es definiert, ob eine Registrierung beim Remote-Server oder VoIP-Provider erforderlich ist
+trunks.auth_rejection_permanent = Dauerhafte Ablehnung der Authentifizierung
+trunks.auth_rejection_permanent.tooltip =
+	Wenn diese Option aktiviert ist und eine Authentifizierungsherausforderung fehlschlägt, wird die Registrierung nicht erneut versucht, bis
+	die Konfiguration wird neu geladen
+trunks.max_retries = Max. Wiederholungen
+trunks.max_retries.tooltip = Maximale Anzahl von Registrierungsversuchen
+trunks.expiration = Ablauf
+trunks.expiration.tooltip = Ablaufzeit für Registrierungen in Sekunden
+trunks.retry_interval = Wiederholungsintervall
+trunks.retry_interval.tooltip = Intervall in Sekunden zwischen Wiederholungsversuchen, wenn die ausgehende Registrierung nicht erfolgreich ist
+trunks.forbidden_retry_interval = Verbotenes Wiederholungsintervall
+trunks.forbidden_retry_interval.tooltip =
+	Es definiert die Wartezeit bis zum erneuten Registrierungsversuch nach Erhalt einer 403 Forbidden-Antwort.
+	Wenn 0 angegeben ist, wird nach Erhalt einer 403-Forbidden-Antwort kein erneuter Versuch unternommen
+trunks.match = Spiel
+trunks.match.tooltip =
+	Der Wert ist eine durch Kommas getrennte Liste von IP-Adressen oder Hostnamen. An IP-Adressen kann eine Subnetzmaske angehängt werden.
+	Die Subnetzmaske kann entweder in CIDR- oder in punktierter Dezimalschreibweise geschrieben werden. Trennen Sie die IP-Adresse und die Subnetzmaske
+	mit einem Schrägstrich ('/').
+trunks.general_conf  = Allgemeine Konfigurationen
+trunks.transport = {profiles_pjsip_transport}
+trunks.transport.tooltip = Zu verwendende explizite Transportkonfiguration
+trunks.validation.pjsip.no_remote_credentials = Die ausgehende Registrierung wurde als erforderlich markiert, aber der Remote-Benutzername oder das Remote-Geheimnis wurde nicht definiert
+trunks.custom_dial_string = Wählzeichenfolge %s
+trunks.custom_dial_string.tooltip =
+	Benutzerdefinierter Wählstring, der beim Wählen dieser Amtsleitung verwendet wird. Verwenden Sie die Variable $[EXTEN] überall dort, wo die zu wählende Nummer sein soll.
+	Beispiel: OH323/$[EXTEN]@10.0.1.200:10060
+trunks.validation.no_dial_string = Sie haben keine gültige Wählzeichenfolge angegeben
+trunks.tenant_trunk = Mieter
+trunks.tenant_trunk.tooltip = Hiermit können Sie festlegen, an welchen Mandanten die über diese Amtsleitung getätigten Anrufe weitergeleitet werden.
+trunks.validation.no_tenant = Sie haben keinen gültigen Mandanten für diesen Trunk ausgewählt
+trunks.max_reached = Sie haben die maximal zulässige Anzahl von Amtsleitungen erreicht
+trunks.custom_headers = Benutzerdefinierte Kopfzeilen
+trunks.trkcustom.header = Header
+trunks.profile_id = {hot_desking.profile_id}
+trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
+trunks.dtmfmode = {hot_desking.dtmfmode}
+trunks.contacts = Kontakte
+trunks.contacts.tooltip =
+	Permanente Kontakte, die einem AoR zugewiesen sind. Sie können mehrere Kontaktadressen im SIP-URI-Format definieren. <br>
+	z.B.: sip:198.51.100.1:5060
+trunks.validation.pjsip.no_outgoing_host = Der Registrierungsparameter ist aktiviert, aber der Remote-Host-Parameter wurde nicht bereitgestellt
+trunks.client_uri = Client-URI
+trunks.client_uri.tooltip =
+	Dies ist die Datensatzadresse für die ausgehende Registrierung (d. h. die URI im To-Header des REGISTERs).
+	Für die Registrierung bei einem ITSP muss die SIP-URI des Clients möglicherweise aus einem Kontonamen oder einer Kontonummer und dem des Anbieters bestehen
+	Hostname für ihren Registrar, z.B. <b>1234567890@example.com</b>. Dies kann je nach Anbieter unterschiedlich sein.<br><br>
+	Für die Registrierung bei generischen Registraren hängt der SIP-URI des Clients von den Netzwerkspezifika und der Konfiguration ab
+	des Registrators.
+trunks.server_uri = Server-URI
+trunks.server_uri.tooltip =
+	Dies ist die URI, unter der der Registrar zu finden ist, um das ausgehende REGISTER zu senden. Diese URI wird als Anforderungs-URI verwendet
+	der ausgehenden REGISTER-Anfrage von Asterisk. <br><br>Für die Registrierung bei einem ITSP kann die Einstellung oft nur die
+	Domain des Registrars, z.B. <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts =
+	Es wurden keine Kontakte und kein Host definiert. Wenn keine Kontakte definiert sind, müssen Sie den Remote-Host angeben, um die Standard-Kontakt-URI zu erstellen
+trunks.contact_user = Benutzer kontaktieren
+trunks.contact_user.tooltip =
+	setzt den Benutzerteil des SIP-Kontakt-Headers der SIP-URI, dies wirkt sich auf die im Wählplan erreichte Durchwahl aus, wenn
+	die Gegenseite ruft Sie bei dieser Registrierung an.
+trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.yes.tooltip = Es erzwingt das Überschreiben der CID mit den CID-Parametern, die auf diesem Trunk definiert sind
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.none = -- Keiner --
+trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
+trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
+trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
+trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
+trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
+trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
+trunks.fax_settings = Faxeinstellungen
+trunks.t38_udptl_ec = Fehler Verbindungsmethode
+trunks.t38_udptl_ec.tooltip = T.38 UDPTL-Fehlerkorrekturmethode
+trunks.t38_udptl_ec.none = {keiner}
+trunks.t38_udptl_ec.none.info = Es sollte keine Fehlerkorrektur verwendet werden.
+trunks.t38_udptl_ec.fec = FEC
+trunks.t38_udptl_ec.fec.info =Vorwärtsfehlerkorrektur sollte verwendet werden.
+trunks.t38_udptl_ec.redundancy = Redundanz
+trunks.t38_udptl_ec.redundancy.info = Es sollte eine Redundanzfehlerkorrektur verwendet werden.
+trunks.t38_udptl_maxdatagram = MAX-Datagramm
+trunks.t38_udptl_maxdatagram.tooltip =
+	T.38 UDPTL maximale Datagrammgröße. Diese Option kann so eingestellt werden, dass das maximale Datagramm eines Remote-Endpunkts für
+	gebrochene Endpunkte.
+trunks.fax_detect_timeout = Zeitüberschreitung bei Erkennung
+trunks.fax_detect_timeout.tooltip =
+	Die Option bestimmt, wie viele Sekunden nach einem Anruf die Option fax_detect für den Anruf deaktiviert wird. Einstellung
+	der Wert Null deaktiviert die Zeitüberschreitung.
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip =
+	Wenn auf Ja gesetzt, wird die T.38-UDPTL-Unterstützung aktiviert, und T.38-Aushandlungsanfragen werden akzeptiert und weitergeleitet.
+trunks.fax_detect = Faxerkennung
+trunks.fax_detect.tooltip = Ob die CNG-Tonerkennung aktiviert ist
+trunks.t38_udptl_nat = T.38 UDPTL-NAT
+trunks.t38_udptl_nat.tooltip = Ob die NAT-Unterstützung für UDPTL-Sitzungen aktiviert ist
+trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
+trunks.t38_udptl_ipv6.tooltip = Ob IPv6 für UDPTL-Sitzungen verwendet wird
+trunks.max_contacts.tooltip =
+	Maximale Anzahl von Kontakten, die diesem AoR zugeordnet werden können. Dieser Wert hat keinen Einfluss auf die Anzahl der Kontakte, die
+	kann mit der Option "Kontakt" hinzugefügt werden. Es schränkt nur Kontakte ein, die durch externe Interaktion, wie z. B. Registrierung, hinzugefügt werden.
+trunks.disable_hangup_audios = Hangup-Audio deaktivieren
+trunks.disable_hangup_audios.tooltip =
+	Wenn auf yes gesetzt, werden die Audios, die je nach Aufhängungsursache abgespielt werden, deaktiviert. Das Aktivieren dieser Option ist praktisch
+	für Umgebungen, in denen die PBX für Transitgespräche vorgesehen ist.
+trunks.dial_prefix = Vorwahlnummer
+trunks.dial_prefix.tooltip = Falls definiert, wird das Präfix jeder über diese Amtsleitung gewählten Nummer vorangestellt.
+trunks.identify_by = Identifizieren von
+trunks.identify_by.tooltip =
+	Endpunkte und AORs können auf verschiedene Weise identifiziert werden. Diese Option ist eine Liste von Methoden, mit denen der Endpunkt identifiziert werden kann.
+	Wenn keine Optionen ausgewählt sind, werden standardmäßig "Benutzername" und "IP" verwendet.
+trunks.identify_by.username = Nutzername
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Auth-Benutzername
+trunks.identify_by.header = Header
+trunks.identify_by.username.tooltip = Identifizieren Sie durch den Von- oder Bis-Benutzernamen und die Domäne.
+trunks.identify_by.ip.tooltip = Identifizieren Sie durch die Quell-IP-Adresse.
+trunks.identify_by.auth_username.tooltip = Identifizieren Sie dies anhand des Autorisierungsbenutzernamens und des Bereichs.
+trunks.identify_by.header.tooltip = Identifizieren Sie durch einen konfigurierten SIP-Header-Wert.
+trunks.match_header = Match-Header
+trunks.match_header.tooltip =
+	Ein SIP-Header, dessen Wert zum Abgleich verwendet wird. SIP-Anfragen, die den Header zusammen mit dem angegebenen Wert enthalten,
+	wird dem angegebenen Endpunkt zugeordnet. Der Header muss mit einem <b>:</b> angegeben werden, wie in <b>match_header
+	Der angegebene SIP-Header-Wert kann ein regulärer Ausdruck sein, wenn der Wert die Form <b>/regex/</b> hat.
+	Beachten Sie, dass die Verwendung einer Regex teuer ist. Stellen Sie daher sicher, dass Sie eine Regex verwenden müssen, die zu Ihrem Endpunkt passt.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS-Teams
+trunks.record = {vitalpbx.record}
+trunks.record.tooltip = Wenn auf Ja gesetzt, werden alle Anrufe, die diese Amtsleitung verwenden, aufgezeichnet. Gilt nur für ausgehende Anrufe.

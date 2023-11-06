@@ -26,7 +26,7 @@ cid_lookup.arguments.tooltip =
 	Define os argumentos necessários para executar o script.
 	o valor do argumento especial <b>[CIDNUM]</b> será substituído pelo número cid do chamador.
 	<br><br> Exemplo: <br> <b>chamador_num=[CIDNUM]&ctype=vip</b>
-cid_lookup.secure = fonte
+cid_lookup.secure = Fonte
 cid_lookup.secure.tooltip = Se estiver marcado, o pedido será através de HTTPS, de outra forma será através de HTTP
 cid_lookup.validation.no_description = Nenhuma descrição foi fornecida.
 cid_lookup.validation.invalid_source = Um tipo de fonte inválido foi fornecido.
@@ -36,22 +36,22 @@ cid_lookup.validation.no_sid = O SID não foi fornecido.
 cid_lookup.validation.no_token = O Token não foi fornecido.cid_lookup.database = Database {0}
 cid_lookup.database.tooltip = MySQL Database
 cid_lookup.mysql_host.tooltip = MySQL Host
-cid_lookup.mysql_password = Password
-cid_lookup.mysql_password.tooltip = Password to use for MySQL authentication
+cid_lookup.mysql_password = Senha
+cid_lookup.mysql_password.tooltip = Senha para usar para na autenticação do MySQL
 cid_lookup.query = Query {0}
 cid_lookup.query.tooltip = 
-	Query to execute. The special token <b>[CIDNUM]</b> will be replaced with the callers number. e.g.:
+	Consulta a ser executada. O token especial<b>[CIDNUM]</b> será substituído pelo número do chamador. e.g.:
 	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
 cid_lookup.source.option.mysql = MySQL
-cid_lookup.username = Username {0}
-cid_lookup.username.tooltip = Username to use for MySQL authentication
-cid_lookup.validation.no_database = No database name has been provided
-cid_lookup.validation.no_mysql_username = No username has been provided
-cid_lookup.validation.no_query = No query has been provided
+cid_lookup.username = Nome de usuário {0}
+cid_lookup.username.tooltip = Nome de usuário a ser usado para autenticação MySQL
+cid_lookup.validation.no_database = Nenhum nome de banco de dados foi fornecido
+cid_lookup.validation.no_mysql_username = Nenhum nome de usuário foi fornecido
+cid_lookup.validation.no_query = Nenhuma consulta foi fornecida
 cid_lookup.database = Database {0}
-cid_lookup.phonebook = PhoneBook {0}
-cid_lookup.phonebook.tooltip = PhoneBook to use as CID Lookup source. Only the external phone books are listed here
-cid_lookup.source.option.phonebook = PhoneBook
-cid_lookup.validation.no_phonebook = You have not selected any phonebook
-cid_lookup.timeout = Timeout
-cid_lookup.timeout.tooltip = Maximum time in seconds that you allow the connection phase to the server to take. The default values is 5 seconds
+cid_lookup.phonebook = Lista telefônica {0}
+cid_lookup.phonebook.tooltip = Agenda para usar como fonte de pesquisa CID. Apenas as listas telefônicas externas são listadas aqui
+cid_lookup.source.option.phonebook = Lista telefônica
+cid_lookup.validation.no_phonebook = Você não selecionou nenhuma lista telefônica
+cid_lookup.timeout = Tempo esgotado
+cid_lookup.timeout.tooltip = Tempo máximo em segundos que você permite que a fase de conexão ao servidor demore. Os valores padrão são 5 segundos

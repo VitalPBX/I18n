@@ -1,0 +1,13 @@
+menu.queue_vips = Warteschlangen-VIPs
+module.queues_vip =  Warteschlangen-VIPs
+queues_vip =  Warteschlangen VIP
+queues_vip.confirm_delete =  Möchten Sie diese Warteschlangen-VIP-Liste wirklich löschen?
+queues_vip.delete =  Löschen
+queues_vip.description =  Beschreibung
+queues_vip.description.tooltip =  Kurze Beschreibung zur Identifizierung dieser Warteschlangen-VIP.
+queues_vip.general =  Allgemein
+queues_vip.list =  VIP-Liste
+queues_vip.list.invalid =  Sie haben ungültige Nummern angegeben. Verwenden Sie nur Zahlen. Trennen Sie jede Zahl durch eine neue Zeile.
+queues_vip.list.tooltip =  Nummernliste einfügen. Jede Zahl sollte in einer separaten Zeile stehen.
+queues_vip.none =  Keiner
+queues_vip.not_found =  Die Liste der angeforderten Warteschlangen-VIPs existiert nicht.

@@ -257,3 +257,5 @@ profiles_pjsip_support_path_tooltip =
 profiles_pjsip_outbound_proxy = Proxy Saliente
 profiles_pjsip_outbound_proxy_tooltip = URI SIP completo del proxy saliente utilizado para enviar solicitudes. por ejemplo: <b>sip:192.168.0.1\;lr</b>
 profiles_pjsip_transport_auto = Auto
+profiles.advanced = {profiles_advanced}
+profiles.general = {vitalpbx.general}

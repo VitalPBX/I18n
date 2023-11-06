@@ -1,18 +1,18 @@
 feature_code.account_code = Código do Consumidor
-feature_code.account_code.tooltip = Creates a customer code to be used by the CDR system - very useful for call accounting. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.account_code.tooltip = Cria um código de cliente a ser usado pelo sistema CDR - muito útil para contabilização de chamadas. O recurso deve ser habilitado na categoria de recurso associada ao ramal.
 feature_code.add_last_caller_blacklist = Lista negra Último chamador
-feature_code.add_last_caller_blacklist.tooltip = Adiciona o último número que chamou seu ramal à lista negra de extensões. Digite o número a ser colocado na lista negra, seguido de #. Certifique-se de digitar o número exatamente como aparece no sistema, ou seja, incluir códigos de área apropriados, etc. Digite 1 para aceitar a entrada ou desligue-a para descartá-la. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.add_last_caller_blacklist.tooltip = Adiciona o último número que chamou seu ramal à lista negra de ramais. Digite o número a ser colocado na lista negra, seguido de #. Certifique-se de digitar o número exatamente como aparece no sistema, ou seja, incluir códigos de área apropriados, etc. Digite 1 para aceitar a entrada ou desligue-a para descartá-la. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.add_num_blacklist = Lista negra de um número
-feature_code.add_num_blacklist.tooltip = Digite um número de telefone, que é então adicionado à lista negra do ramal. Chamadas de entrada não tocarão em um ramal se estiverem na lista negra do ramal. Chamadores na lista negra serão informados de que o número discado não está mais em serviço. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.add_num_blacklist.tooltip = Digite um número de telefone, que é então adicionado à lista negra do ramal. Chamadas de entrada não tocarão em um ramal se estiverem na lista negra do ramal. Chamadores na lista negra serão informados de que o número discado não está mais em serviço. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.add_remove_queue_agent = Adicionar / Remover Agente de Fila
-feature_code.add_remove_queue_agent.tooltip = Alterne para adicionar um agente a uma fila específica ou remova o agente da fila. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido por * (asterisk) e o número da fila. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.add_remove_queue_agent.tooltip = Alterne para adicionar um agente a uma fila específica ou remova o agente da fila. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido por * (asterisk) e o número da fila. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.attended_transfer = Transferência Assistida
-feature_code.attended_transfer.tooltip = Quando você estiver em uma ligação, transfira a ligação atual para o operador. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.attended_transfer.tooltip = Quando você estiver em uma ligação, transfira a ligação atual para o operador. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.auth_code = Código de autorização
-feature_code.auth_code.tooltip = Permite que você faça uma chamada de qualquer telefone usando um código de autorização associado a um plano de discagem irrestrito. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.auth_code.tooltip = Permite que você faça uma chamada de qualquer telefone usando um código de autorização associado a um plano de discagem irrestrito. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.black_list = Lista negra
 feature_code.blind_transfer = Transferência cega
-feature_code.blind_transfer.tooltip = Quando você estiver em uma chamada, transfira a chamada atual sem notificar o ramal para o qual a chamada é transferida. Esse recurso deve ser permitido pela categoria de recurso e pelo perfil de discagem associado à extensão.
+feature_code.blind_transfer.tooltip = Quando você estiver em uma chamada, transfira a chamada atual sem notificar o ramal para o qual a chamada é transferida. Esse recurso deve ser permitido pela categoria de recurso e pelo perfil de discagem associado ao ramal.
 feature_code.boss_secretary = Chefe / Secretária - Alternar
 feature_code.boss_secretary.tooltip = Alternar para ativar ou desativar o roteamento de todas as chamadas recebidas para o ramal atual para o ramal que é definido como o telefone “secretário”. Uma vez que esta função tenha sido ativada, somente o telefone “secretário” poderá fazer chamadas diretas para o telefone “chefe” - todas as outras chamadas serão encaminhadas diretamente para o telefone “secretário”. O recurso deve estar ativado na Categoria de recurso associada ao ramal e só está disponível depois que um ramal de "secretário" tiver sido definido para o ramal "chefe". O ramal "secretária" pode discar esse código de recurso para parar de receber chamadas.
 feature_code.business_services = Serviços prestados às empresas
@@ -23,19 +23,19 @@ feature_code.call_forward = Reencaminhamento de chamadas (CF)
 feature_code.cancel_cc = Cancelar a conclusão da chamada
 feature_code.cancel_cc.tooltip = Ele permite que você cancele qualquer solicitação de conclusão de chamada feita a partir do seu ramal.
 feature_code.change_ext_pwd = Alterar senha de recursos
-feature_code.change_ext_pwd.tooltip = Altere a senha do ramal atual para acessar recursos de telefone com proteção por senha. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.change_ext_pwd.tooltip = Altere a senha do ramal atual para acessar recursos de telefone com proteção por senha. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.clear_all_diversions = Limpar todos os Desvios
-feature_code.clear_all_diversions.tooltip = Desativa todos os desvios de chamadas, incluindo o recurso Não perturbe. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.clear_all_diversions.tooltip = Desativa todos os desvios de chamadas, incluindo o recurso Não perturbe. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.custom = Personalizadas
 feature_code.cust_recording = Gravação Personalizada
-feature_code.cust_recording.tooltip = Usado para gravar uma mensagem. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.cust_recording.tooltip = Usado para gravar uma mensagem. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.default = Padrão
 feature_code.dial_by_name_dir = Discagem por diretório de nomes
-feature_code.dial_by_name_dir.tooltip = Use o teclado numérico para discar um nome de usuário. Por exemplo, o ramal para suporte interno pode ser chamada de AJUDA, portanto, disque 411 (para ativar esse recurso) e, em seguida, 4357 para obter suporte. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.dial_by_name_dir.tooltip = Use o teclado numérico para discar um nome de usuário. Por exemplo, o ramal para suporte interno pode ser chamada de AJUDA, portanto, disque 411 (para ativar esse recurso) e, em seguida, 4357 para obter suporte. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.dictation_services = Ditado
-feature_code.dictation_services.tooltip = Usado para gravar uma mensagem com a opção de enviá-la por email. Disponível apenas para extensões em que o Ditado foi ativado na guia Gravação.
+feature_code.dictation_services.tooltip = Usado para gravar uma mensagem com a opção de enviá-la por e-mail. Disponível apenas para ramais em que o Ditado foi ativado na guia Gravação.
 feature_code.direct_pickup = Captador Direto
-feature_code.direct_pickup.tooltip = Quando você estiver em uma chamada, capture uma chamada que esteja tocando em outro ramal no seu grupo de captura. Você precisará discar o código de recurso seguido pelo número do ramal que você deseja responder. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.direct_pickup.tooltip = Quando você estiver em uma chamada, capture uma chamada que esteja tocando em outro ramal no seu grupo de captura. Você precisará discar o código de recurso seguido pelo número do ramal que você deseja responder. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.direct_toggle_cfi = Encaminhamento Direto de Chamada Imediatamente
 feature_code.direct_toggle_cfi.tooltip = Encaminhamento Direto de Chamada Imediatamente
 feature_code.direct_pause_unpause_queue_agent = Agente de fila de pausa direta / não pausada
@@ -46,106 +46,118 @@ feature_code.direct_vm = Correio de voz direto
 feature_code.direct_vm.tooltip = A entrada direta no sistema de correio de voz para ouvir o correio de voz para o ramal atual - requer apenas que o usuário insira a senha do correio de voz. Esta opção está disponível apenas para extensões em que o correio de voz foi ativado na guia Correio de voz.
 feature_code.disabled = Desativado
 feature_code.disconnect_call = Desconectar Chamada
-feature_code.disconnect_call.tooltip = Quando você estiver em uma chamada, desconecte a chamada atual. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.disconnect_call.tooltip = Quando você estiver em uma chamada, desconecte a chamada atual. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.dnd = Não perturbe - Alternar
-feature_code.dnd.tooltip = Alternar para ativar ou desativar o recurso Não perturbe. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.dnd.tooltip = Alternar para ativar ou desativar o recurso Não perturbe. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.echo_test = Teste de eco
-feature_code.echo_test.tooltip = Teste de eco para medir o tempo de resposta. O recurso deve estar ativado na categoria de recurso associada à extensão
+feature_code.echo_test.tooltip = Teste de eco para medir o tempo de resposta. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.enabled = Ativado
 feature_code.features.duplicate = Os códigos de recurso devem ser exclusivos e não podem ser reutilizados.
 feature_code.features.invalid = Os códigos de recurso não podem estar vazios e podem conter apenas os seguintes caracteres: 0 a 9, #, * e +.
 feature_code.follow_me = Siga-me - alternar
-feature_code.follow_me.tooltip = Alternar para ativar ou desativar o recurso Siga-me. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.follow_me.tooltip = Alternar para ativar ou desativar o recurso Siga-me. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.general = Geral
 feature_code.hot_desking = Hot Desking
-feature_code.hot_desking.tooltip = Alterne para ativar ou desativar o Hot Desking. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.hot_desking.tooltip = Alterne para ativar ou desativar o Hot Desking. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.lock_unlock_phone = Bloquear / Desbloquear Telefone
-feature_code.lock_unlock_phone.tooltip = Alternar para bloquear ou desbloquear o ramal atual. Nenhuma chamada de saída pode ser feita de um telefone que tenha sido bloqueado. Para desbloquear o telefone, você será solicitado a inserir a senha de recursos do ramal. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.lock_unlock_phone.tooltip = Alternar para bloquear ou desbloquear o ramal atual. Nenhuma chamada de saída pode ser feita de um telefone que tenha sido bloqueado. Para desbloquear o telefone, você será solicitado a inserir a senha de recursos do ramal. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.nm_all = Modo Noturno Todos
-feature_code.nm_all.tooltip = Alternar para ativar / desativar todos os modos noturnos definidos. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.nm_all.tooltip = Alternar para ativar / desativar todos os modos noturnos definidos. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.one_touch_rec = Gravação de um toque
-feature_code.one_touch_rec.tooltip = Quando você estiver em uma chamada, force a chamada atual a ser gravada. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.one_touch_rec.tooltip = Quando você estiver em uma chamada, force a chamada atual a ser gravada. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.on_call_features = Recursos de chamada
 feature_code.park_call = Chamada de Estacionamento.
-feature_code.park_call.tooltip = Quando você estiver em uma chamada, coloque a chamada atual no estacionamento de chamadas. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.park_call.tooltip = Quando você estiver em uma chamada, coloque a chamada atual no estacionamento de chamadas. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.pause_unpause_queue_agent = Pausar / cancelar fila agente
-feature_code.pause_unpause_queue_agent.tooltip = Alternar para pausar ou cancelar a pausa de um agente para uma fila específica. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido por * (asterisk) e o número da fila. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.pause_unpause_queue_agent.tooltip = Alternar para pausar ou cancelar a pausa de um agente para uma fila específica. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido por * (asterisk) e o número da fila. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.personal_assistant = Assistente pessoal - alternar
 feature_code.personal_assistant.tooltip = Alternar para ativar / desativar o assistente pessoal de suo ramal.
 feature_code.phone_book = Lista telefônica
 feature_code.pickup_group = Grupo de retirada
-feature_code.pickup_group.tooltip = Quando você estiver em uma chamada, capture uma chamada que esteja tocando em qualquer outro ramal no seu grupo de captura. Para usar este recurso é necessário criar o grupo de chamadas e o grupo de captura na caixa de diálogo de extensões. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.pickup_group.tooltip = Quando você estiver em uma chamada, capture uma chamada que esteja tocando em qualquer outro ramal no seu grupo de captura. Para usar este recurso é necessário criar o grupo de chamadas e o grupo de captura na caixa de diálogo de extensões. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.queues-pause-unpause = Filas Pausar / Retardar
 feature_code.queues-pause-unpause.tooltip = Permite pausar (ou cancelar a pausa) todas as filas.
 feature_code.queues_login_logout = Logon / Logout de filas
 feature_code.queues_login_logout.tooltip = Permite que você faça o login (ou faça logout) de todas as filas.
 feature_code.rec_msg_pa = Gravar Msg Para o Assistente Pessoal
-feature_code.rec_msg_pa.tooltip = Grave uma mensagem que os chamadores ouvirão quando forem atendidos pelo seu assistente pessoal. Disponível apenas para extensões em que o Assistente Pessoal tenha sido ativado na guia Avançado.
+feature_code.rec_msg_pa.tooltip = Grave uma mensagem que os chamadores ouvirão quando forem atendidos pelo seu assistente pessoal. Disponível apenas para ramais em que o Assistente Pessoal tenha sido ativado na guia Avançado.
 feature_code.reminder = Lembrete
-feature_code.reminder.tooltip = Grava uma mensagem. Você pode configurar quantos minutos deseja ouvir a gravação. Quando o tempo definido expirar, você receberá uma chamada no ramal atual e a gravação será reproduzida. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.reminder.tooltip = Grava uma mensagem. Você pode configurar quantos minutos deseja ouvir a gravação. Quando o tempo definido expirar, você receberá uma chamada no ramal atual e a gravação será reproduzida. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.remote_substitution = Substituição Remota
-feature_code.remote_substitution.tooltip = Torna possível que o telefone atual faça chamadas como se você estivesse ligando de um ramal telefônica diferente. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.remote_substitution.tooltip = Torna possível que o telefone atual faça chamadas como se você estivesse ligando de um ramal telefônica diferente. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.remote_vm = Correio de voz remoto
-feature_code.remote_vm.tooltip = Entrada remota no sistema de correio de voz para ouvir o correio de voz de qualquer ramal - exige que o usuário insira um número de ramal e a senha do correio de voz para esse ramal. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.remote_vm.tooltip = Entrada remota no sistema de correio de voz para ouvir o correio de voz de qualquer ramal - exige que o usuário insira um número de ramal e a senha do correio de voz para esse ramal. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.remote_wakeup_call = Chamada de Despertar Remoto
-feature_code.remote_wakeup_call.tooltip = Definir um lembrete ou chamada de ativação para outro ramal. Digite o número do ramal para a qual o lembrete é destinado. Pressione 1 para um lembrete único ou pressione 2 para um lembrete diário recorrente. O horário deve ser inserido no formato de 24 horas usando 4 dígitos. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.remote_wakeup_call.tooltip = Definir um lembrete ou chamada de ativação para outro ramal. Digite o número do ramal para a qual o lembrete é destinado. Pressione 1 para um lembrete único ou pressione 2 para um lembrete diário recorrente. O horário deve ser inserido no formato de 24 horas usando 4 dígitos. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.remove_number_blacklist = Remover o número da lista negra
-feature_code.remove_number_blacklist.tooltip = Digite um número de telefone na lista negra - o número na lista negra será removido da lista negra do ramal. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.remove_number_blacklist.tooltip = Digite um número de telefone na lista negra - o número na lista negra será removido da lista negra do ramal. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.request_cc = Conclusão de Chamadas - Alternar
 feature_code.request_cc.tooltip =
 	Quando ativado, os chamadores poderão solicitar uma conclusão de chamada para o seu ramal. Isso significa que, quando você
-	terminar de falar asterisco automaticamente irá gerar uma chamada de quem solicitou a conclusão da chamada para o seu ramal
+	terminar de falar o Asterisk automaticamente irá gerar uma chamada de quem solicitou a conclusão da chamada para o seu ramal
 feature_code.request_wakeup_call = Chamada de despertar
-feature_code.request_wakeup_call.tooltip = Definir um lembrete ou chamada de ativação para o ramal atual. Pressione 1 para um lembrete único ou pressione 2 para um lembrete diário recorrente. O horário deve ser inserido no formato de 24 horas usando 4 dígitos. Se você já configurou uma chamada de lembrete, pode pressionar 1 para cancelar. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.request_wakeup_call.tooltip = Definir um lembrete ou chamada de ativação para o ramal atual. Pressione 1 para um lembrete único ou pressione 2 para um lembrete diário recorrente. O horário deve ser inserido no formato de 24 horas usando 4 dígitos. Se você já configurou uma chamada de lembrete, pode pressionar 1 para cancelar. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.save = Salvar
 feature_code.say_date_time = Fale a data e a hora
-feature_code.say_date_time.tooltip = Fale a data e a hora atuais do sistema. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.say_date_time.tooltip = Fale a data e a hora atuais do sistema. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.set_cfb_number = Conjunto Número Ocupado CF
-feature_code.set_cfb_number.tooltip = Define o número para o qual as chamadas devem ser enviadas quando o redirecionamento de chamadas ocupado estiver ativado e o seu ramal estiver ocupado. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.set_cfb_number.tooltip = Define o número para o qual as chamadas devem ser enviadas quando o redirecionamento de chamadas ocupado estiver ativado e o seu ramal estiver ocupado. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.set_cfi_number = Definir o número de CF imediatamente
-feature_code.set_cfi_number.tooltip = Define o número para o qual as chamadas devem ser enviadas quando o encaminhamento de chamadas imediato é ativado. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido de * (asterisk) e o número para o qual as chamadas devem ser encaminhadas. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.set_cfi_number.tooltip = Define o número para o qual as chamadas devem ser enviadas quando o encaminhamento de chamadas imediato é ativado. Você pode seguir os prompts ou (no modo avançado) inserir o código de recurso imediatamente seguido de * (asterisk) e o número para o qual as chamadas devem ser encaminhadas. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.set_cfn_number = Definir o número de CF sem resposta
-feature_code.set_cfn_number.tooltip = Define o número para o qual as chamadas devem ser encaminhadas quando o ramal não puder responder. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.set_cfn_number.tooltip = Define o número para o qual as chamadas devem ser encaminhadas quando o ramal não puder responder. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.set_cfu_number = Definir número indisponível do CF
-feature_code.set_cfu_number.tooltip = Defina o número para o qual as chamadas devem ser enviadas quando o encaminhamento de chamadas incondicional estiver ativado. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.set_cfu_number.tooltip = Defina o número para o qual as chamadas devem ser enviadas quando o encaminhamento de chamadas incondicional estiver ativado. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.simulate_incoming_call = Simular chamada recebida
-feature_code.simulate_incoming_call.tooltip = Simule uma chamada recebida para testar o toque do telefone. O recurso deve estar ativado na categoria de recurso associada à extensão.
-feature_code.speak_ext_number = Fale seu número de extensão
-feature_code.speak_ext_number.tooltip = Fale o número do ramal do qual você está chamando. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.simulate_incoming_call.tooltip = Simule uma chamada recebida para testar o toque do telefone. O recurso deve estar ativado na categoria de recurso associada ao ramal.
+feature_code.speak_ext_number = Fale seu número de ramal
+feature_code.speak_ext_number.tooltip = Fale o número do ramal do qual você está chamando. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.speak_last_number = Fale o último número
-feature_code.speak_last_number.tooltip = Fala o último número que chamou o ramal atual. Você pode pressionar 1 para chamar o chamador original. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.speak_last_number.tooltip = Fala o último número que chamou o ramal atual. Você pode pressionar 1 para chamar o chamador original. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.special_features = Características especiais
 feature_code.spy_extension = Espião no ramal
-feature_code.spy_extension.tooltip = Espie em um ramal específica. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.spy_extension.tooltip = Espie em um ramal específica. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.spy_ext_whisper = Expionar extens em modo sussurro.
-feature_code.spy_ext_whisper.tooltip = Sespionar um ramal específica no modo sussurro. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.spy_ext_whisper.tooltip = Sespionar um ramal específica no modo sussurro. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.spy_random_chn = Canais aleatórios de espionagem
-feature_code.spy_random_chn.tooltip = Espie em canais aleatórios. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.spy_random_chn.tooltip = Espie em canais aleatórios. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.test_services = Serviços de teste
 feature_code.toggle_cfb = Encaminhamento de chamadas ocupado - alternar
-feature_code.toggle_cfb.tooltip = Alternar para ativar ou desativar o encaminhamento de chamadas quando o seu ramal estiver ocupado. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *63. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.toggle_cfb.tooltip = Alternar para ativar ou desativar o encaminhamento de chamadas quando o seu ramal estiver ocupado. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *63. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.toggle_cfi = Encaminhar Imediatamente - Alternar
-feature_code.toggle_cfi.tooltip = Alterna o encaminhamento imediato de chamadas. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.toggle_cfi.tooltip = Alterna o encaminhamento imediato de chamadas. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.toggle_cfn = Desvio de chamadas sem resposta - alternar
-feature_code.toggle_cfn.tooltip = Alterne para ativar ou desativar o encaminhamento de chamadas quando o ramal não puder atender as chamadas recebidas. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *65. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.toggle_cfn.tooltip = Alterne para ativar ou desativar o encaminhamento de chamadas quando o ramal não puder atender as chamadas recebidas. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *65. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.toggle_cfu = Encaminhamento de chamadas indisponível - alternar
-feature_code.toggle_cfu.tooltip = Alternar para ativar ou desativar o encaminhamento de chamadas. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *61. O recurso deve estar ativado na categoria de recurso associada à extensão.
+feature_code.toggle_cfu.tooltip = Alternar para ativar ou desativar o encaminhamento de chamadas. As chamadas serão encaminhadas para o ramal definido pelo código de recurso padrão *61. O recurso deve estar ativado na categoria de recurso associada ao ramal.
 feature_code.voice-mail = Correio de voz
 feature_code.recordings_announcements = Gravações e Comunicados
 menu.feature_codes = Códigos de Recurso
 module.feature_code = Códigos de Recurso
 feature_code.send_vm_msg = Enviar mensagem de correio de voz
-feature_code.send_vm_msg.tooltip = Permite discar qualquer ramal e deixar uma mensagem de correio de voz. Por exemplo, a discagem *95 *2492 permitirá que você deixe uma mensagem de correio de voz para o ramal 2492. O recurso deve estar ativado na Categoria de recurso associada à extensão.
+feature_code.send_vm_msg.tooltip = Permite discar qualquer ramal e deixar uma mensagem de correio de voz. Por exemplo, a discagem *95 *2492 permitirá que você deixe uma mensagem de correio de voz para o ramal 2492. O recurso deve estar ativado na Categoria de recurso associada ao ramal.
 feature_code.spy_ext_barge = Espionagem no ramal no modo barge
 feature_code.spy_ext_barge.tooltip = Em vez de sussurrar em um único canal em ambos os canais envolvidos na chamada.
-feature_code.direct_remote_voicemail = Direct Remote Voicemail
+feature_code.direct_remote_voicemail = Correio de voz remoto direto
 feature_code.paging_and_intercom = Paging
 feature_code.paging_and_intercom.tooltip = 
-	Places an outbound call to the given extension and dumps them into a conference bridge as muted participant
-	(e.g.: *827000). Feature must be enabled in the Feature Category associated with the extension.
+	Faz uma chamada de saída para o ramal fornecido e os despeja em uma ponte de conferência como um participante sem som
+	(ex.: *827000). O recurso deve ser habilitado na categoria de recurso associada ao ramal.
 feature_code.hot_desking_cc = Hot Desking CC
-feature_code.hot_desking_cc.tooltip = 
-	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
-	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
-	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
-	indicates to the system to login extension 100 using the password 1234.
+feature_code.hot_desking_cc.tooltip =
+    Funciona exatamente como o recurso de hot desking, a única diferença é que, ao usar este código de recurso, o
+    usuário que faz a chamada ou o usuário do hot desking será logado automaticamente em suas filas atribuídas.
+    Além disso, é possível usar códigos curtos para fazer login em um ramal específico, por exemplo <b>*90#100</b> indica ao
+    sistema para logar a ramal <b>100</b>, e <b>*90#100#1234</b> indica ao sistema para logar a ramal <b>100</b> usando
+    a senha <b>1234</b>.
+feature_code.paging_duplex = Paging Duplex
+feature_code.paging_duplex.tooltip =
+    Este código de recurso funciona exatamente como o código de recurso de paging, mas com áudio duplex, o que
+    significa que o dispositivo que recebe a chamada pode transmitir áudio de volta ao mesmo tempo em que o está
+    recebendo. Para usar este recurso, você deve usar o seguinte formato <b>{0}100</b>, onde <b>{0}</b> é o código
+    de recurso, e <b>100</b> o ramal que você deseja paginar.
+feature_code.anonymous_calling = Chamada anônima
+feature_code.anonymous_calling.tooltip =
+    Este código de recurso permite o envio de chamadas anônimas de saída sob demanda. Para usar este recurso, você deve
+    usar o seguinte formato <b>{0}100</b>, onde <b>{0}</b> é o código do recurso, e <b>100</b> é o número externo
+    que você deseja chamar.

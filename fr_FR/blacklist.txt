@@ -11,7 +11,7 @@ menu.blacklist = Liste noire
 module.blacklist = Liste noire
 blacklist.destination = Destination
 blacklist.destination.tooltip = 
-	Optional destination. If set, the caller with a CID Number that match with the configured above, will be redirected
-	to the configured destination. If not set, a message will be played instead
-blacklist.enabled = Enabled
-blacklist.enabled.tooltip = Enable/Disable this CID number from the blacklist
+	Destination facultative. Si défini, l'appelant avec un numéro CID qui correspond à celui configuré ci-dessus, sera redirigé
+	vers la destination configurée. S'il n'est pas défini, un message sera diffusé à la place
+blacklist.enabled = Activé
+blacklist.enabled.tooltip = Activer/Désactiver ce numéro appelant (CID) de la liste noire

@@ -1,0 +1,13 @@
+ars = Routenauswahl
+ars.all_outbound_routes =  -- Alle ausgehenden Routen --
+ars.description =  Beschreibung
+ars.description.tooltip =  Eine Freitextbeschreibung zur Identifizierung dieser Routenauswahl
+ars.enabled =  Ermöglicht
+ars.general =  Allgemein
+ars.members =  Mitglieder der Routenauswahl
+ars.outbound_route_id =  Ausgehende Route
+ars.time_group_id =  Zeitgruppe
+menu.route_selections =  Routenauswahl
+module.ars =  Routenauswahl
+ars.used_by_cos =  Dieses Element kann nicht gelöscht werden, da es für eine oder mehrere <b>Dienstleistungsklassen</b> verwendet wird
+ars.none =  {none}

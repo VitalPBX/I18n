@@ -1,4 +1,4 @@
-menu.bulk_extensions = <span style="margin-left: -5px;">Быстрое создание номеров</span>
+menu.bulk_extensions = Быстрое создание номеров
 module.bulk_extensions = {menu.bulk_extensions}
 bulk_extensions.general = {vitalpbx.general}
 bulk_extensions.range = Диапазон номеров

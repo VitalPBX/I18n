@@ -1,4 +1,5 @@
 menu.outbound_routes = Outbound Routes
+menu.trunk_group = {menu.outbound_routes}
 module.trunk_group = Outbound Routes
 trunk_group = Outbound Routes
 trunk_group.description = Description
@@ -50,3 +51,9 @@ trunk_group.overwrite_cid.if_not_provided = If not provided
 trunk_group.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this outbound route
 trunk_group.overwrite_cid.no.tooltip = It will preserve any CID provided during the call. It will not perform any overwriting
 trunk_group.overwrite_cid.if_not_provided.tooltip = It will overwrite the CID information only if no External CID is provided during the call
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = If set to yes, all the calls using this outbound route will be recorded.
+trunk_group.csv = CSV
+trunk_group.csv.tooltip = It allows you to upload a CSV with the dial patterns for this outbound route.
+trunk_group.csv.missing_columns = The CSV file doesn't contain the "pattern" column, which is required.
+trunk_group.export = Export Patterns

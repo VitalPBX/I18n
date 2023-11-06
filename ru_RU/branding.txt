@@ -1,47 +1,50 @@
-branding = Брендинг
+branding = Брендирование
+menu.branding = {branding}
+module.branding = {branding}
+branding.general = {vitalpbx.general}
 branding.base_color = Базовый цвет
 branding.base_color.tooltip = Основной цвет, используемый для активных пунктов меню, вкладок и выделенного текста
-branding.desktop_logo = Логотип для десктопов
-branding.facebook_page = Страница в Facebook
-branding.general = {vitalpbx.general}
-branding.login_footer = Экран входа
-branding.login_footer.tooltip = Позволяет настроить содержимое нижнего части на экране входа
-branding.mobile_logo = Логотип для мобильных
 branding.page_title = Заголовок
 branding.page_title.tooltip = Позволяет настроить заголовок, который отображается на вкладке браузера
 branding.slogan = Слоган
 branding.slogan.tooltip = Позволяет настроить слоган, который появляется на экране входа
-branding.social.tooltip = Позволяет вам настроить ссылку на <b>{0}</b>, которая появится в нижней части экрана входа
+branding.facebook_page = Страница в Facebook
 branding.twitter_page = Страница в Twitter
 branding.youtube_channel = YouTube канал
-menu.branding = {branding}
-module.branding = {branding}
+branding.social.tooltip = Позволяет вам настроить ссылку на <b>{0}</b>, которая появится в нижней части экрана входа
+branding.login_footer = Экран входа
+branding.login_footer.tooltip = Позволяет настроить содержимое нижнего части на экране входа
+branding.desktop_logo = Логотип для десктопов
+branding.mobile_logo = Логотип для мобильных
 branding.instagram_page = Страница в Instagram
 branding.app_name = Имя арендатора
 branding.app_name.tooltip = Позволяет изменить имя основного арендатора
 branding.meet_url = URL встречи
 branding.meet_url.tooltip = URL для конференций, созданных через модуль видео конференций
-branding.login = Login Design
-branding.login_addons_menu = Add-ons Menu
-branding.login_addons_menu.tooltip = Background color for the add-ons menu button
-branding.login_bg = Login Background
-branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
-branding.login_btn = Submit Button Color
-branding.login_btn.tooltip = Background color for the login button
-branding.login_fc = Font Color
-branding.login_fc.tooltip = Font color to be used in the login form
-branding.login_frm_bg = Form Background
-branding.login_frm_bg.tooltip = Background color for left panel in the login form
-branding.reset = Reset
+branding.login = Дизайн входа
+branding.login_bg = Фон входа
+branding.login_bg.tooltip = Цвет фона на странице входа в систему. Если оставить поле пустым, будет использоваться фон по умолчанию.
+branding.login_fc = Цвет шрифта
+branding.login_fc.tooltip = Цвет шрифта, который будет использоваться в форме входа в систему
+branding.login_frm_bg = Фон формы
+branding.login_frm_bg.tooltip = Цвет фона левой панели в форме входа в систему
+branding.login_btn = Цвет кнопки "Войти"
+branding.login_btn.tooltip = Цвет фона кнопки входа в систему
+branding.login_addons_menu = Меню дополнений
+branding.login_addons_menu.tooltip = Цвет фона для кнопки меню дополнений
+branding.reset = Сброс
 branding.reset.confirm =
-	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
-	will be lost.
-branding.reset_applied = All the settings have been reset successfully.
-branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
-branding.addon.app_name.tooltip = 
-	It allows you to define the application name/title to be shown in the browsers' tab.
-branding.addon.url_prefix.tooltip = 
-	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
-	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
-branding.addons = Addons
-branding.url_prefix = URL Prefix
+	Вы действительно хотите сбросить настройки брендирования? Этот процесс необратим, и все сделанные вами настройки 
+	будут потеряны.
+branding.reset_applied = Все настройки были успешно сброшены.
+branding.warning_note = Эти настройки не будут применяться до тех пор, пока не будет активирована <a href="{0}" target="_blank">лицензия</a> для дополнения "Брендирование" или  для любого из <a href="{1}" target="_blank">доступных планов</a>.
+branding.addons = Дополнения
+branding.url_prefix = Префикс URL
+branding.addon.url_prefix.tooltip =
+	Позволяет вам определить префикс, который будет использоваться для доступа к приложению "<b>{0}</b>". Например: Если вы установите префикс <b>"{1}"</b>, 
+	это будет означать, что вы можете получить доступ к приложению следующим образом: <b>http(s)://ВАШ_IP/{1}</b>	
+branding.app_name = Название приложения
+branding.addon.app_name.tooltip =
+	Позволяет вам определить название/заголовок приложения, которое будет отображаться во вкладке браузера.
+branding.desktop_logo_dark = Логотип для десктопов (темный режим)
+branding.mobile_logo_dark = Логотип для мобильных (темный режим)

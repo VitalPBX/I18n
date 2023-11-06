@@ -1,4 +1,4 @@
-astmanager_users = Asterisk Manager Users
+astmanager_users = AMI Users
 astmanager_users.agent = Agent
 astmanager_users.call = Call
 astmanager_users.cdr = CDR
@@ -27,8 +27,8 @@ astmanager_users.user_name.tooltip = Unique user name used to access the Asteris
 astmanager_users.verbose = Verbose
 astmanager_users.write = Write Permissions
 astmanager_users.write.tooltip = Select one (or more) options from the list of available write permissions
-menu.asterisk_manager_users = Asterisk Manager Users
-module.astmanager_users = Asterisk Manager Users
+menu.asterisk_manager_users = AMI Users
+module.astmanager_users = AMI Users
 astmanager_users.message = Message
 astmanager_users.security = Security
 astmanager_users.duplicated_user = The provided AMI user is already in use, please check and try again.

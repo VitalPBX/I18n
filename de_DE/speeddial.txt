@@ -1,0 +1,14 @@
+menu.speed_dialing = Kurzwahl
+module.speeddial =  Kurzwahl
+speeddial =  Kurzwahl
+speeddial.class_of_service_id =  Dienstleistungsklasse
+speeddial.class_of_service_id.tooltip =  Dienstklasse, die zum Wählen dieser Kurzwahl verwendet werden soll
+speeddial.description =  Beschreibung
+speeddial.description.tooltip =  Name, der diese Kurzwahl identifiziert
+speeddial.dnumber =  Zielnummer
+speeddial.dnumber.tooltip =  Nummer zu wählen.
+speeddial.extension =  Kurzwahlcode
+speeddial.extension.invalid =  Kurzwahlcode ist ungültig. Verwenden Sie nur Zahlen und das Symbol "*" (Sternchen).
+speeddial.extension.tooltip =  Code zum Aktivieren dieser Kurzwahl. Code sollte systemspezifisch sein, d. h. er darf nirgendwo anders im System verwendet werden.
+speeddial.general =  Allgemein
+speeddial.invalid.already_exists =  Ungültige Kurzwahlnummer {0}. Die Nummer wird vom Modul {1} verwendet.
