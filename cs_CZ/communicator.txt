@@ -1,0 +1,15 @@
+communicator_pause_profiles = Pause Profiles
+menu.communicator = Communicator
+menu.communicator_pause_profiles = {communicator_pause_profiles}
+module.communicator_pause_profiles = Communicator Pause Profiles
+communicator_pause_profiles.general = {vitalpbx.general}
+communicator.pp.description = {description}
+communicator.pp.description.tooltip = A short description to easily identify this pause profile.
+communicator.pp.reasons = Pause Reasons
+communicator.pp.reasons.tooltip =
+    The pause reasons to use when pausing from queues using the Communicator app. You can enter multiple
+    pause reasons separated by a comma.
+communicator.pp.validation.no_reasons = You have not provided a valid list of pause reasons.
+communicator.pp.url = Pause Profile URL
+communicator.pp.url.tooltip = The URL to use for loading the pause reasons into the Communicator app.
+communicator.pp.url_copied = The URL has been copied to the clipboard.

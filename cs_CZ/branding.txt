@@ -1,0 +1,73 @@
+branding = Branding
+module.branding = {branding}
+menu.branding = {branding}
+branding.general = {vitalpbx.general}
+branding.base_color = Base Color
+branding.bg_color = Background Color
+branding.f_color = Font Color
+branding.base_color.tooltip = Main color used for active menu items, active form tabs and selected text
+branding.page_title = APP Title
+branding.page_title.tooltip = Allows you to customize the header title that appears in the browser tab
+branding.slogan = Slogan
+branding.slogan.tooltip = It allows you to customize the Slogan that appears in the login screen
+branding.facebook_page = Facebook Page
+branding.twitter_page = Twitter Page
+branding.youtube_channel = YouTube Channel
+branding.social.tooltip = It allows you to customize the <b>{0}</b> link that appears in the login footer
+branding.login_footer = Login Footer
+branding.login_footer.tooltip = It allows you to customize the footer content in the login screen
+branding.desktop_logo = Desktop Logo
+branding.mobile_logo = Mobile Logo
+branding.instagram_page = Instagram Page
+branding.app_name = APP Name
+branding.app_name.tooltip = It allows you to modify the main tenant name
+branding.meet_url = Meet URL
+branding.meet_url.tooltip = URL to be used by default for conferences generated through the video conferences module
+branding.login = Login Design
+branding.login_bg = {branding.bg_color}
+branding.login_bg.tooltip = Background color for the login page. If left in blank, the default background will be used.
+branding.login_fc = {branding.f_color}
+branding.login_fc.tooltip = Font color to be used in the login form
+branding.login_frm_bg = Form Background
+branding.login_frm_bg.tooltip = Background color for left panel in the login form
+branding.login_btn = Submit Button Color
+branding.login_btn.tooltip = Background color for the login button
+branding.login_addons_menu = Add-ons Menu
+branding.login_addons_menu.tooltip = Background color for the add-ons menu button
+branding.reset = Reset
+branding.reset.confirm =
+	Are you sure you want to reset branding settings? This process is irreversible and all the configuration you have made
+	will be lost.
+branding.reset_applied = All the settings have been reset successfully.
+branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
+branding.addons = Addons
+branding.url_prefix = URL Prefix
+branding.addon.url_prefix.tooltip =
+	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
+	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
+branding.app_name = Application Name
+branding.addon.app_name.tooltip =
+	It allows you to define the application name/title to be shown in the browsers' tab.
+branding.desktop_logo_dark = Desktop Logo (Dark Mode)
+branding.mobile_logo_dark = Mobile Logo (Dark Mode)
+branding.disable_login_bg = Disable Background Image
+branding.login_background = Background Image
+branding.login_logo = Logo
+branding.gui = GUI
+branding.gui.top_navbar = Top Navigation Bar
+branding.gui_top_navbar_bg = {branding.bg_color}
+branding.gui_top_navbar_bg.tooltip = The background color to apply to the top bar.
+branding.gui_top_navbar_fc = {branding.f_color}
+branding.gui_top_navbar_fc.tooltip = The font color to apply to the top bar.
+branding.gui.menu = Main Menu Styles
+branding.gui_menu_bg_color_1 = Left Background Color
+branding.gui_menu_bg_color_1.tooltip = The background color to apply to the left side of the main menu.
+branding.gui_menu_bg_color_2 = Right Background Color
+branding.gui_menu_bg_color_2.tooltip = The background color to apply to the right side of the main menu.
+branding.gui_menu_fc = Default Font Color
+branding.gui_menu_fc.tooltip = The default text color to use for the menu items
+branding.gui_menu_fc_active = Active Font Color
+branding.gui_menu_fc_active.tooltip = The text color to use when a menu item is in an active state
+branding.disable_branding = Disable Branding
+branding.disable_branding.tooltip =
+    It allows you to disable the branding customizations. When set to yes, the default PBX styles will get applied.

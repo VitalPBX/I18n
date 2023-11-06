@@ -1,0 +1,91 @@
+menu.system_general = System General
+module.system_general = System General
+system_general.ast_agi_dir = AGI Directory
+system_general.ast_dir = Directory
+system_general.ast_libs_dir = Libraries Directory
+system_general.ast_log_dir = Log Directory
+system_general.ast_module_dir = Modules Directory
+system_general.ast_sound_dir = Sound Directory
+system_general.ast_spool_dir = Spool Directory
+system_general.auto_hints = Create Hints
+system_general.auto_hints.tooltip = If enabled, the hints will be enabled automatically each time you create an extension.
+system_general.auto_portal = Enable Portal
+system_general.auto_portal.tooltip = If enabled, the portal will be enabled automatically each time you create an extension.
+system_general.auto_voicemail = Enable Voicemail
+system_general.auto_voicemail.tooltip = If enabled, the voicemail will be enabled automatically each time you create an extension.
+system_general.dialoptions = Extensions Dial Options
+system_general.dialoptions.tooltip = Default options to use for dial internal extensions when dial options are not defined(on extensions module).
+system_general.dialplan_settings = Dial-Plan Settings
+system_general.extension_settings = Extension Settings
+system_general.general = General
+system_general.recording_format = Recording Format
+system_general.recording_format.tooltip = Default audio format for record calls.
+system_general.ringtime = Default Ring Time
+system_general.ringtime.placeholder = Value in seconds
+system_general.ringtime.tooltip = Default time to ring outgoing calls when ring time is not defined or set(on extensions module) as default.
+system_general.save = Save
+system_general.system_directories = System Directories
+system_general.table.description = Description
+system_general.table.path = Path
+system_general.trunk_dialoptions = Trunk Dial Options
+system_general.trunk_dialoptions.tooltip = Default options to use for dial external numbers when trunk dial options are not defined(on trunks module).
+system_general.recording_script = Recording Script
+system_general.recording_script.tooltip = Script to be executed when the recording is over. The script parameters can be defined as space separated sequence of strings like ^{{<i><b>name</b></i>}}, where <i><b>name</b></i> can be any channel or MixMonitor variable. For example, <br> ^{{UNIQUEID}} - channel ID<br> ^{{MIXMONITOR_FILENAME}} - recording file name.
+system_general.recording_script.invalid = Recording script is not found
+system_general.default_ast_lang = Default Language
+system_general.default_ast_lang.tooltip = Language to select by default when a new extension is being created
+system_general.devices_prefix = Devices Prefix
+system_general.devices_prefix.tooltip = Prefix to append by default to devices name
+system_general.sounds = System Prompts
+system_general.dnd = DND
+system_general.dnd.tooltip =
+	Allows you to define a custom prompt that will be reproduced when an extension has active the DND
+system_general.blacklisted = Blacklisted
+system_general.blacklisted.tooltip =
+	Allows you to define a custom prompt that will be reproduced to callers who are blacklisted
+system_general.transferdigittimeout = Transfer Digit Timout
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Number of seconds to wait between digits when transferring a call (default is 3 seconds)
+system_general.featuredigittimeout = Features Digit Timeout
+system_general.featuredigittimeout.tooltip = Max time (ms) between digits for feature activation  (default is 1000 ms)
+system_general.featuredigittimeout.placeholder = Value in milliseconds
+system_general.gui_settings = GUI Settings
+system_general.queues_callback = Queues CallBack
+system_general.search_frequency = Search Frequency
+system_general.search_frequency.tooltip = Defines how often the queues callback service will search for scheduled callbacks.
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.email_credentials = Email Credentials
+system_general.email_credentials.tooltip =
+	Enable this feature to send an email to the newly created extension user with their extension and account information.
+	You can find the template for this email under Admin > System Settings > Email Templates.
+system_general.show_addons_menu = Show Add-ons Menu
+system_general.show_addons_menu.tooltip =
+	If set to yes, a menu button will be shown on the login screen to access to external add-ons like the Sonata or VitXi
+system_general.fqdn = Public Domain
+system_general.fqdn.tooltip =
+	It allows you to define the PBX's public domain. This information will be used on the email notifications to translate
+	or replace the public domain variable from templates; Instead of trying to autodetect the public domain by the system.
+system_general.fqdn.invalid = The provided domain domain is not valid
+system_general.atxfernoanswertimeout = Attended Transfer Timeout
+system_general.atxfernoanswertimeout.tooltip = It allows you to define the timeout for attended transfers. This is the amount of time (in seconds) Asterisk will attempt to ring the target before giving up.
+system_general.atxfernoanswertimeout.placeholder = Value in seconds
+system_general.atxferdropcall = Drop Attended Transfer Callbacks
+system_general.atxferdropcall.tooltip =
+	It allows you to change the default callback behavior. The default is 'no' which results in Asterisk calling back the
+	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
+	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
+system_general.auto_generated_pwd_length = Auto-Generated Passwords Length
+system_general.auto_generated_pwd_length.tooltip =
+	It allows you to define the default length for auto-generated devices passwords
+system_general.route_internally_tenant_dids = Route Calls to Tenant DIDs Internally
+system_general.route_internally_tenant_dids.tooltip =
+	When set to yes, calls to DIDs defined on the PBX' Tenants are routed locally instead of sending them out through
+	the VoIP provider.
+system_general.send_diversion_headers = Send Diversion Headers
+system_general.send_diversion_headers.tooltip =
+    If enabled, the PBX will send additional headers with the diversion info during a call forward like follow-me,
+    C.F immediately, and others. When these headers are present, some SBC devices might complain.
+system_general.play_cw_tone = Play Call Waiting Tone
+system_general.play_cw_tone.tooltip =
+    When set to "Yes," the caller will hear a call waiting tone when the extension dialed is in another call.
+    The tone it will sound according to the tone zone configured in the PJSIP Settings.
