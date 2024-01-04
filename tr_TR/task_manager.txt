@@ -1,0 +1,21 @@
+task_manager = Görev Yöneticisi
+menu.task_manager = {task_manager}
+module.task_manager = {task_manager}
+task_manager.general = {vitalpbx.general}
+task_manager.description = Description
+task_manager.description.tooltip = Bu görevi tanımlayan kısa bir açıklama
+task_manager.cron_profile = Cron Profili
+task_manager.cron_profile.tooltip = Bu görevi planlayacak cron profilini temsil eder
+task_manager.script = Komut Dosyası
+task_manager.script.tooltip =
+	Seçilen cron profiline göre periyodik olarak yürütülecek bir komut dosyası seçmenize izin verir.
+	Komut dosyası <b>/var/lib/vitalpbx/scripts</b> konumunda bulunmalıdır.
+task_manager.validations.no_description = Açıklama tanımlanmadı. Lütfen geçerli bir açıklama yazın.
+task_manager.validations.duplicated_description = Başka bir görev aynı açıklamayı kullanmaktır. Lütfen doğrulayın.
+task_manager.validations.duplicated_script = Aynı komut dosyası ile başka bir görev tanımlandı. Lütfen doğrulayın.
+task_manager.validations.no_script = Bu görev yöneticisi için hiçbir komut dosyası seçilmedi
+task_manager.silent_mode = Sessiz Mod
+task_manager.silent_mode.tooltip =
+	Etkinleştirilirse, seçilen komut dosyasından hiçbir çıktı alınmaz, böylece cron her çalıştırıldığında e-posta almaktan kaçınır.
+task_manager.enabled = Etkin
+task_manager.enabled.tooltip = Bu görevi etkinleştirmenize/devre dışı bırakmanıza izin verir

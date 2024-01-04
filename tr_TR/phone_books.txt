@@ -1,0 +1,56 @@
+menu.phone_books = Rehberler
+module.phone_books = {menu.phone_books}
+phone_books.general = {vitalpbx.general}
+phone_books.description = Açıklama
+phone_books.extensions = Dahililer
+phone_books.ring_groups = Zil Grupları
+phone_books.feature_codes = Özellik Kodları
+phone_books.conferences = Konferanslar
+phone_books.queues = Sıralar (Kuyruklar)
+phone_books.contacts.tooltip = Bu Telefon Rehberinde hangi {0} nın kullanılabileceğini seçmenize olanak tanır.
+phone_books.validations.no_contacts = Bu telefon rehberi için herhangi bir kişi seçmediniz. Lütfen en az bir kişi seçin.
+phone_books.validations.no_desc = Geçersiz bir açıklama yapıldı. Lütfen alfanümerik bir açıklama girin.
+phone_books.url = Rehber URL'si
+phone_books.url.tooltip = Bu telefon rehberini desteklenen herhangi bir telefona yüklemek için URL
+phone_books.source_type = Tür
+phone_books.source_type.internal = Dahili 
+phone_books.source_type.external = Harici 
+phone_books.source_type.tooltip =
+    Dahili numaraları (Sıralar (Kuyruklar), Konferanslar, Dahililer, vb.) Kullanıp kullanmayacağınızı veya harici numaraları PBX'inize aktarıp
+    aktarmayacağınızı tanımlamanıza olanak tanır.
+phone_books.csv = CSV Dosyası
+phone_books.csv.tooltip = Bu telefon defterine aktarılacak kişi listesinin bulunduğu dosya
+phone_books.contacts = Kişiler
+phone_books.first_name = Adı
+phone_books.first_name.tooltip = {phone_books.first_name}
+phone_books.last_name = Soyadı
+phone_books.last_name.tooltip = {phone_books.last_name}
+phone_books.phone = Telefon
+phone_books.phone.tooltip = {phone_books.phone}
+phone_books.organization = Organizasyon
+phone_books.organization.tooltip ={phone_books.organization}
+phone_books.job_title = Ünvanı
+phone_books.job_title.tooltip = {phone_books.job_title}
+phone_books.email = E-posta
+phone_books.prefix = Ön Ek
+phone_books.prefix.tooltip =
+	Telefon rehberi oluşturulurken telefon numaralarına eklenecek isteğe bağlı ön ek. Tuşlama için ön ekler kullanıyorsanız
+	kullanışlıdır.
+phone_books.csv.missing_columns = {import_extensions.missing_columns}
+phone_books.add_contact = Kişi Ekle
+phone_books.invalid_phone = Geçersiz bir telefon numarası girdiniz
+phone_books.no_first_name = Kişi adını girmediniz
+phone_books.duplicated_phone = Aynı telefon numarasına sahip başka bir kişi zaten var
+phone_books.actions = {actions}
+phone_books.edit_contact = Kişiyi Düzenle
+phone_books.speed_dials = Hızlı Aramalar
+phone_books.speed_dials.tooltip = Bu Telefon Rehberinde hangi {0} nın kullanılabileceğini seçmenize olanak tanır
+phone_books.send_by_email = E-posta ile Gönder
+notification_templates.phonebooks = Rehberler QR E-posta
+phone_books.qr = E-posta ile QR Gönder
+phone_books.send_email = E-posta Gönder
+phone_books.qr.pb_not_found = Talep edilen telefon rehberi mevcut değil
+phone_books.email.tooltip = Telefon rehberi QR kodunun gönderileceği, virgülle ayrılmış e-postaların listesi.
+phone_books.qr_email.no_template = QR göndermek için e-posta şablonu mevcut değil
+phone_books.qr.no_email = Bu QR kodunu göndermek için hiçbir e-posta adresi girilmedi
+phone_books.qr.sent = E-posta başarıyla gönderildi

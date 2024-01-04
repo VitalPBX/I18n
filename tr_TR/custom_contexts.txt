@@ -1,0 +1,13 @@
+menu.custom_contexts = Özel İçerikler
+module.custom_contexts = Özel İçerikler
+custom_contexts.description = Açıklama
+custom_contexts.description.help = Bu Özel İçeriği tanımlamak için kısa açıklama
+custom_contexts.context = İçerik
+custom_contexts.context.help = Oluşturduğunuz özel içeriğin adı.
+custom_contexts.extension = Dahili
+custom_contexts.extension.help = Özel içeriğinizde tanımlanan öncelik.
+custom_contexts.priority = Öncelik
+custom_contexts.priority.priority = Aramanın başlayacağı öncelik
+custom_contexts.dest = Hedef
+custom_contexts.max_custom_contexts = Birden daha fazla özel içerik oluşturamazsınız. Sınırsız özel içerik oluşturmak için lütfen bir lisans satın alınız.
+custom_contexts.general = {vitalpbx.general}

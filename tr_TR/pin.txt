@@ -1,0 +1,16 @@
+menu.pin_lists = PIN Listeleri
+module.pin = PIN Listeleri
+pin = PIN Listesi
+pin.general = Genel
+pin.confirm_delete = Bu PIN Listesini silmek istediğinize emin misiniz?
+pin.delete = Sil
+pin.description = Açıklama
+pin.description.invalid = Açıklama Gerekli
+pin.description.tooltip = Bu PIN Listesi için kısa bir açıklama.
+pin.none = Yok
+pin.passwords = PIN Listesi
+pin.passwords.duplicate = Yinelenen PIN'ler
+pin.passwords.empty = PIN Listesinde en az bir PIN gerekli
+pin.passwords.invalid = PIN Listesinde geçersiz PIN. Sadece sayıları ve "*" (asteriks) sembolünü kullanın. Her PIN'i yeni bir satırla ayırın.
+pin.passwords.tooltip = Kullanılabilecek PINlerin listesi. PIN, herhangi bir sayı kombinasyonundan ve “*” (asteriks) sembolünden oluşabilir. Birden fazla PIN eklemek istiyorsanız, bunu yeni bir satıra başlayarak yapabilirsiniz.
+pin.pin_list_not_found = Silinecek PIN Listesi yok

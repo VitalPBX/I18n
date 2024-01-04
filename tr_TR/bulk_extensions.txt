@@ -1,0 +1,40 @@
+menu.bulk_extensions = Toplu Dahililer
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {vitalpbx.general}
+bulk_extensions.range = Dahili Aralığı
+bulk_extensions.range.tooltip =
+	Oluşturmak istediğiniz dahili aralığını tanımlar. ör.: 1000 ile 1400
+	<b>Aralıktaki dahililerin herhangi biri mevcutsa, işlem yapılmadan atlanır.</b>.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Cihaz Teknolojisi
+bulk_extensions.dev_technology.tooltip  = Her dahiliye atanacak cihazın teknolojisini tanımlar.
+bulk_extensions.vm_enabled = Sesli Posta Etkinleştirildi
+bulk_extensions.recording_types = Aramaları Kaydetme
+bulk_extensions.recording_types.tooltip = Hangi tür aramaların kaydedileceğini seçmenizi sağlar.
+bulk_extensions.vm_password.tooltip =
+	Her dahili için sesli posta şifresini tanımlamanıza izin verir, boş bırakılırsa, şifre dahili numara olacaktır.
+	Rastgele bir şifre oluşturmak için <b>&#123;RANDOM&#125;</b> alanını kullanabilirsiniz.
+bulk_extensions.accountcode.tooltip =
+	Her dahili için bir hesap kodu tanımlamınıza izin verir. Dahiliyi hesap kodu olarak kullanmak için <b>&#123;EXTENSION&#125;</b>
+	alanını kullanabilirsiniz.
+bulk_extensions.features_password.tooltip =
+	Her dahilinin özellikler şifresini tanımlamanıza izin verir, eğer boş bırakılırsa rastgele bir şifre atar.
+	Rastgele bir şifre oluşturmak için <b>&#123;EXTENSION&#125;</b> alanını kullanabilirsiniz.
+bulk_extensions.validation.invalid_range = Geçersiz bir dahili aralığı girilmiştir.
+bulk_extensions.validation.invalid_vm_password =
+	Sesli mesaj şifresi geçersiz karakter içermektedir. Sadece numaralar, yıldız sembolü ya da özel amaçlı kelimelere izin vardır.  
+bulk_extensions.validation.invalid_f_password =
+	Özellikler şifresi geçersiz karakterler içeriyor. Sadece rakamlara, yıldız işaretine veya özel amaçlı kelimelere izin verilir.
+bulk_extensions.success =
+	Dahililerin aralığı başarıyla işlendi. <b>Oluşturulan Dahililer</b>: {0} | <b>Atlanan Dahililer</b>: {1}
+bulk_extensions.name_prefix = İsim Ön Eki
+bulk_extensions.name_prefix.tooltip =
+	Dahili adının bir parçası olarak kullanılacak bir önek tanımlamanızı sağlar, örn: Ön ek değerini Temsilci olarak ayarladıysanız ve
+	dahili 200 ise,dahili adı <b>Temsilci 200</b> olacaktır. Eğer boşsa, <b>Dahili</b> kelimesi ön ek olarak kullanılır.
+bulk_extensions.device_password = Cihazların Şifresi
+bulk_extensions.device_password.tooltip =
+	Oluşturulan cihazlar için dinamik veya sabit bir şifre tanımlamanıza izin verir. Eğer boşsa, rastgele bir şifre ayarlanır.
+	Dahili numarasını şifrenin bir parçası yapmak için özel amaçlı <b>&#123;EXTENSION&#125;</b> kelimesini kullanabilirsiniz.
+	örn: eğer dahili 100 ise ve bu alana yandaki değeri koymuşsanız <b>securepwd&#123;EXTENSION&#125;</b>, o zaman şifreniz:
+	<b>securepwd100</b> olacaktır.

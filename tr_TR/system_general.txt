@@ -1,0 +1,77 @@
+menu.system_general = Sistem Genel
+module.system_general = Sistem Genel
+system_general.ast_agi_dir = Asterisk AGI Dizi
+system_general.ast_dir = Asterisk Dizin
+system_general.ast_libs_dir = Asterisk Kütüphaneler Dizini
+system_general.ast_log_dir = Asterisk Log Dizini
+system_general.ast_module_dir = Asterisk Modüller Dizini
+system_general.ast_sound_dir = Asterisk Ses Dizini
+system_general.ast_spool_dir = Asterisk Biriktirme Dizini
+system_general.auto_hints = İpuçları Oluşturun
+system_general.auto_hints.tooltip = Etkinleştirilirse, her dahili oluşturduğunuzda ipuçları otomatik olarak etkinleştirilecektir.
+system_general.auto_portal = Portalı Etkinleştir
+system_general.auto_portal.tooltip = Etkinleştirilirse, her dahili oluşturduğunuzda portal otomatik olarak etkinleştirilecektir.
+system_general.auto_voicemail = Sesli Mesajı Etkinleştir
+system_general.auto_voicemail.tooltip = Etkinleştirilirse, her dahili oluşturduğunuzda sesli posta otomatik olarak etkinleştirilecektir.
+system_general.dialoptions = Dahili Arama Seçenekleri
+system_general.dialoptions.tooltip = Arama seçenekleri tanımlanmadığında dahili numaralar için kullanılacak varsayılan seçenekler (dahili hat modülünde).
+system_general.dialplan_settings = Arama Planı Ayarları
+system_general.extension_settings = Dahili Ayarları
+system_general.general = Genel
+system_general.recording_format = Kayıt Formatı
+system_general.recording_format.tooltip = Çağrıların kaydedileceği varsayılan ses formatı
+system_general.ringtime = Varsayılan Çalma Süresi
+system_general.ringtime.placeholder = Saniye cinsinden değer
+system_general.ringtime.tooltip = Çalma süresi tanımlanmadığında ya da varsayılan olarak ayarlanmadığında (dahili hat modülünde) giden aramaların çalması için varsayılan süre.
+system_general.save = Kaydet
+system_general.system_directories = Sistem Dizinleri
+system_general.table.description = Açıklama
+system_general.table.path = Yol
+system_general.trunk_dialoptions = Ana Hat Arama Seçenekleri
+system_general.trunk_dialoptions.tooltip = Ana hat arama seçenekleri tanımlanmadığında harici numaraları çevirmek için kullanılacak varsayılan seçenekler (ana hat modülünde).
+system_general.recording_script = Komut Dosyası Kaydı
+system_general.recording_script.tooltip = Kayıt bittiğinde çalıştırılacak komut dosyası. Komut dosyası parametreleri ^{{<i><b>name</b></i>}} gibi boşlukla ayrılmış sıra dizileri olarak tanımlanabilir, burada <i><b>name</b></i> herhangi bir kanal ya da MixMonitor değişkeni olabilir. Örneğin, <br> ^{{UNIQUEID}} - kanal kimliği<br> ^{{MIXMONITOR_FILENAME}} - kayıt dosyası adı.
+system_general.recording_script.invalid = Komut dosyası kaydı bulunamadı.
+system_general.default_ast_lang = Varsayılan Dil
+system_general.default_ast_lang.tooltip = Yeni bir dahili oluşturulurken varsayılan olarak seçilecek dil
+system_general.devices_prefix = Cihaz Öneki
+system_general.devices_prefix.tooltip = Cihaz adına varsayılan olarak eklenecek önek
+system_general.sounds = Sistem Bilgi İstemi
+system_general.dnd = DND
+system_general.dnd.tooltip =
+	Bir dahili DND'yi (rahatsız etmeyin) etkinleştirdiğinde yeniden oluşturulacak özel bir bilgi istemi tanımlamanıza olanak tanır
+system_general.blacklisted = Kara Listeye Alındı
+system_general.blacklisted.tooltip =
+	Kara listeye alınan arayanlara, yeniden oluşturulacak özel bir bilgi istemi tanımlamanıza olanak tanır
+system_general.transferdigittimeout = Transfer Basamak Zaman Aşımı
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Bir çağrıyı aktarırken rakamlar arasında beklenecek saniye sayısı (varsayılan 3 saniyedir)
+system_general.featuredigittimeout = Özellikler Basamak Zaman Aşımı 
+system_general.featuredigittimeout.tooltip = Özellik etkinleştirme için rakamlar arasındaki maksimum süre (ms) (varsayılan 1000 ms'dir)
+system_general.featuredigittimeout.placeholder = milisaniye cinsinden değer
+system_general.gui_settings = GUI Ayarları
+system_general.queues_callback = Geri Arama Kuyrukları
+system_general.search_frequency = Arama Sıklığı
+system_general.search_frequency.tooltip = Geri arama kuyrukları hizmetinin zamanlanmış geri aramaları ne sıklıkla arayacağını tanımlar.
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.email_credentials = E-posta Kimlik Bilgileri
+system_general.email_credentials.tooltip =
+	Yeni oluşturulan dahili kullanıcısına dahili ve hesap bilgileriyle bir e-posta göndermek için bu özelliği etkinleştirin.
+	Bu e-postanın şablonunu Yönetici> Sistem Ayarları> E-posta Şablonları altında bulabilirsiniz.
+system_general.show_addons_menu = Eklentiler Menüsünü Göster
+system_general.show_addons_menu.tooltip =
+	Evet olarak ayarlanırsa, Sonata ya da VitXi gibi harici eklentilere erişmek için giriş ekranında bir menü düğmesi gösterilecektir.
+system_general.fqdn = Genel Alan Adı
+system_general.fqdn.tooltip =
+	PBX'in genel alan adını tanımlamanıza olanak tanır.  Bu bilgi, genel alan adını sistem tarafından otomatik algılatmaya çalışmak
+	yerine, şablondan çevirmek ya da yerine koymak için e-posta bildirimlerinde kullanılacaktır.
+	Ayrıca VitXi QR kodlarını oluşturmak için de kullanılacaktır.
+system_general.fqdn.invalid = Sağlanan alan adı geçerli değil
+system_general.atxfernoanswertimeout = Katılımlı Transfer Zaman Aşımı
+system_general.atxfernoanswertimeout.tooltip = Katılımlı transferler için zaman aşımını tanımlamanıza olanak tanır. Bu Asterisk'in pes etmeden önce hedefi çaldırmaya çalışacağı süredir (saniye cinsinden).
+system_general.atxfernoanswertimeout.placeholder = Saniye cinsinden değer
+system_general.atxferdropcall = Katılımlı Transfer Geri Aramalarını Bırak
+system_general.atxferdropcall.tooltip =
+	Varsayılan geri arama davranışını değiştirmenize olanak tanır. The default is 'no' which results in Asterisk calling back the
+	initiator of a transfer when they hang up early and the attended transfer times out. If set to 'yes' then the transfer
+	target channel will be immediately transferred to the channel being transferred as soon as the initiator hangs up.
