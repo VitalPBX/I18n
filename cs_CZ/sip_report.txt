@@ -1,0 +1,15 @@
+sip_report = SIP Devices
+menu.sip_report = {sip_report}
+module.sip_report = {sip_report}
+sip_report.devices = Devices
+sip_report.trunks = Trunks
+sip_report.registrations = Registrations
+sip_report.extension = Extension
+sip_report.device = Device
+sip_report.host = Host
+sip_report.port = Port
+sip_report.status = Status
+sip_report.user_agent = User Agent
+sip_report.trunk_name = Trunk Description
+sip_report.refresh = Refresh
+sip_report.state = State

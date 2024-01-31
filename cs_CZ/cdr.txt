@@ -1,0 +1,18 @@
+cdr_settings = CDR Settings
+module.cdr_settings = {cdr_settings}
+menu.cdr_settings = {cdr_settings}
+cdr_settings.general = {vitalpbx.general}
+cdr_settings.size = Max Batch Size
+cdr_settings.size.tooltip =
+    It defines the maximum number of CDRs to accumulate in the buffer before posting them to the database engine.
+cdr_settings.time = Max Batch Time
+cdr_settings.time.tooltip =
+    The maximum time in seconds to accumulate CDRs in the buffer before posting them to the database engine.
+    If this time limit is reached, then it will post the records, regardless of the value defined for '{cdr_settings.size}'.
+cdr_settings.batch = Batch Mode
+cdr_settings.batch.tooltip =
+    Setting this parameter to "Yes" will enable the batch mode for the CDR. When this parameter is enabled, instead of
+    posting the CDR at the end of every call, the data will be stored in a buffer to help alleviate the load on the
+    asterisk server.<br><br>
+    <b>WARNING:</b> The use of the batch mode may result in data loss after unsafe asterisk termination
+    (i.e. software crash, power failure, kill -9, etc.)

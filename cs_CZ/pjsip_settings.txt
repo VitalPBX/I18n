@@ -1,0 +1,100 @@
+menu.pjsip_settings = PJSIP Settings
+module.pjsip_settings = PJSIP Settings
+pjsip_settings.general = General
+pjsip_settings.debug = Debug
+pjsip_settings.debug.tooltip = Enable/Disable SIP debug logging.
+pjsip_settings.timer_t1 = Timer T1
+pjsip_settings.timer_t1.tooltip = Timer T1 is the base for determining how long to wait before retransmitting requests that receive no response when using an unreliable transport (e.g. UDP).
+pjsip_settings.timer_b = Timer B
+pjsip_settings.timer_b.tooltip = Timer B determines the maximum amount of time to wait after sending an INVITE request before terminating the transaction.
+pjsip_settings.disable_tcp_switch = Disable TCP Switch
+pjsip_settings.disable_tcp_switch.tooltip = Disable automatic switching from UDP to TCP transports if outgoing request is too large.
+pjsip_settings.bind = Bind
+pjsip_settings.bindaddr = Address
+pjsip_settings.bindport = Port
+pjsip_settings.bind.tooltip = IP Address and optional port to bind to for this transport.
+pjsip_settings.tlsbind = TLS Bind
+pjsip_settings.tlsbind.tooltip = IP Address and optional port over TLS protocol to bind to for this transport.
+pjsip_settings.certificate = Certificate
+pjsip_settings.certificate.tooltip = Certificate to use for TLS Connections
+pjsip_settings.verify_client = Verify Client
+pjsip_settings.verify_client.tooltip = Require verification of client certificate (TLS ONLY)
+pjsip_settings.ssl_method = SSL Method
+pjsip_settings.ssl_method.tooltip = Method of SSL transport (TLS ONLY)
+pjsip_settings.verify_server = Verify Server
+pjsip_settings.verify_server.tooltip = Require verification of server certificate (TLS ONLY)
+pjsip_settings.local_net = Local Net
+pjsip_settings.local_net.tooltip =
+	Networks to consider local (used for NAT purposes); this must be in CIDR or dotted decimal format with the IP and mask separated
+    with a slash ('/'). e.g.: 10.8.0.0/24. You can insert multiple networks separated by a comma.
+pjsip_settings.external_media_address = External Media Address
+pjsip_settings.external_media_address.tooltip = External IP address to use in RTP handling.
+pjsip_settings.external_signaling_address = External Signal Address
+pjsip_settings.external_signaling_address.tooltip = External address for SIP signaling.
+pjsip_settings.nat_settings = Nat Settings
+pjsip_settings.tonezone = {sip_settings.tonezone}
+pjsip_settings.tonezone.tooltip = Sets which country's indications to use for channels created for PJSIP Devices and Trunks.
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip =
+	Sets which codecs to use for channels created for PJSIP Devices and Trunks. This parameter only applies if the trunks or the devices
+	doesn't have its own codecs defined.
+pjsip_settings.mwi_settings = MWI Settings
+pjsip_settings.mwi_tps_queue_high = Taskprocessor Queue High
+pjsip_settings.mwi_tps_queue_high.tooltip =
+	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
+	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
+	clears when all alerting taskprocessor queues have dropped to their low water clear level.
+pjsip_settings.mwi_tps_queue_low = Taskprocessor Queue Low
+pjsip_settings.mwi_tps_queue_low.tooltip =
+	On a heavily loaded system you may need to adjust the taskprocessor queue limits. If any taskprocessor queue size
+	reaches its high water level then pjsip will stop processing new requests until the alert is cleared. The alert
+	clears when all alerting taskprocessor queues have dropped to their low water clear level. Set to -1 for the low
+	water level to be 90% of the high water level.
+pjsip_settings.mwi_disable_initial_unsolicited = Disable Initial MWI
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip =
+	When the initial unsolicited MWI notification are enabled on startup then the initial notifications get sent at
+	startup. If you have a lot of endpoints (thousands) that use unsolicited MWI then you may want to consider
+	disabling the initial startup notifications. When the initial unsolicited MWI notifications are disabled on startup
+	then the notifications will start on the endpoint's next contact update.
+pjsip_settings.keep_alive_interval = Keep Alive Interval
+pjsip_settings.keep_alive_interval.tooltip =
+	The interval (in seconds) to send keepalives to active connection-oriented transports.
+pjsip_settings.contact_expiration_check_interval = Expiration Check Interval
+pjsip_settings.contact_expiration_check_interval.tooltip =
+	The interval (in seconds) to check for expired contacts.
+pjsip_settings.max_initial_qualify_time =  Max Initial Qualify Time
+pjsip_settings.max_initial_qualify_time.tooltip =
+	The maximum amount of time from startup that qualifies should be attempted on all contacts. If greater than the
+	Qualify Frequency for an AOR, Qualify Frequency will be used instead.
+pjsip_settings.unidentified_request_period = Unidentified Request Period
+pjsip_settings.unidentified_request_period.tooltip =
+	The number of seconds over which to accumulate unidentified requests. If unidentified requests are received during
+	unidentified request period, a security event will be generated.
+pjsip_settings.unidentified_request_count = Unidentified Request Count
+pjsip_settings.unidentified_request_count.tooltip = The number of unidentified requests from a single IP to allow.
+pjsip_settings.unidentified_request_prune_interval = Unidentified Request Prune Interval
+pjsip_settings.unidentified_request_prune_interval.tooltip =
+		The interval at which unidentified requests are older than twice the unidentified request period are pruned.
+pjsip_settings.language.tooltip = Default language to be used for channels created by PJSIP endpoints
+pjsip_settings.allow_reload = Allow Transports Reload
+pjsip_settings.allow_reload.tooltip =
+	It defines if PJSIP transports will be reloaded when res_pjsip is reloaded. It is recommended to set this option to "no"
+	because reloading a transport may disrupt in-progress calls.
+pjsip_settings.endpoint_identifier_order = Endpoint Identifier Order
+pjsip_settings.endpoint_identifier_order.tooltip =
+	This option allows to define a list of endpoint identifier names. The order of the list is the specified order the
+	named identifiers check the request. Default: <b>"IP,Username,Anonymous"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Username
+pjsip_settings.endpoint_identifier_order.anonymous = Anonymous
+pjsip_settings.endpoint_identifier_order.auth_username = Auth Username
+pjsip_settings.endpoint_identifier_order.header = Header
+pjsip_settings.ms_signaling_address = MS Teams Domain
+pjsip_settings.ms_signaling_address.tooltip = The domain to sent when calling through a trunk with the transport "TLS+MSTeams." e.g.: <b>sip.mypbx.com</b>
+pjsip_settings.ms_signaling_address.invalid.msg = The provided MS domain is invalid. Please provide a valid FQDN.
+pjsip_settings.allow_wildcard_certs = Allow Wildcard Certs
+pjsip_settings.allow_wildcard_certs.tooltip =
+    In combination with "Verify Server", when enabled allow use of wildcards, i.e. '.' in certs for common,and subject
+    alt names of type DNS for TLS transport types. Names must start with the wildcard. Partial wildcards, e.g. 'f.example.com'
+    and 'foo..com' are not allowed. As well, names only match against a single level meaning '.example.com' matches 'foo.example.com',
+    but not 'foo.bar.example.com'.

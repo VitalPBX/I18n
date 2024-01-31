@@ -1,0 +1,45 @@
+domotic_extensions.dial = Number to Dial
+domotic_extensions.dial.tooltip = Defines the number to dial to interact with the selected {0}.
+domotic_extensions.description = Description
+domotic_extensions.description.help = Short description to identify this {0}.
+domotic_extensions.unit_id = Unit
+domotic_extensions.unit_id.help = Depending of the selected unit will show the {0} to configure.
+domotic_extensions.device_id = Device
+domotic_extensions.device_id.help = Device to interact.
+domotic_extensions.class_of_service_id = Class of Service
+domotic_extensions.class_of_service_id.help = Defines from which class of service will be accessible this {0}.
+domotic_extensions.pin_list_id = PIN List
+domotic_extensions.pin_list_id.help = Allows to define a pin list for protect the interaction with the {0}.
+domotic_extensions.white_list = White List
+domotic_extensions.white_list.help = Allows to define which numbers doesn't need enter a pin for interact with the selected {0}.
+domotic_extensions.scene_id = Scene
+domotic_extensions.scene_id.help = Scene to interact.
+domotic_extensions.toggle_mode = Toggle Mode
+domotic_extensions.toggle_mode2 = Skip Instructions
+domotic_extensions.toggle_mode.help = If set to yes the device status will be toggle without prompt anything.
+domotic_extensions.toggle_mode.help2 = If set to yes the scene will be executed without prompt instructions.
+domotic_extensions.recording_id = Welcome Message
+domotic_extensions.recording_id.help = Message to be played at the begin, usually to indicate what {0} you're going to interact
+domotic_extensions.hint = Generate Hint
+domotic_extensions.hint.help = Generate Hint for This Device
+domotic_extensions.blf = BLF Hint
+domotic_extensions.blf.help = This is the string to add on the BLF Lines of your phone.
+
+domotic_extensions.validation.empty_device = The device is required.
+domotic_extensions.validation.empty_scene = The scene is required.
+domotic_extensions.validation.empty_cos = The class of service is required.
+domotic_extensions.validation.empty_dial = The number to dial is required.
+domotic_extensions.validation.invalid_dial = The number to dial has an invalid format. numbers, *, # and + are allowed.
+domotic_extensions.validation.empty_description = The description is required.
+domotic_extensions.validation.invalid_description = The description has an invalid format. numbers, letters, spaces, dashes and underscores are allowed.
+
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
+
+domotic_extensions.device =
+    [one] device
+    *[other] devices
+
+domotic_extensions.scene =
+     [one] scene
+     *[other] scenes

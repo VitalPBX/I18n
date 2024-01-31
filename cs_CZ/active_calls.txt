@@ -1,0 +1,10 @@
+active_calls = Active Calls
+menu.active_calls = {active_calls}
+module.active_calls = {active_calls}
+active_calls.calls = Calls
+active_calls.channel = Channel
+active_calls.caller_id = Caller ID
+active_calls.called_number = Called Number
+active_calls.state = State
+active_calls.duration = Duration
+active_calls.linkedid = LinkedID

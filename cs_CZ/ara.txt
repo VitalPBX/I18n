@@ -1,0 +1,39 @@
+module.ara = Asterisk RealTime
+menu.ara = {module.ara}
+ara.general = {vitalpbx.general}
+ara.enabled = Enabled
+ara.enabled.tooltip = It enables the realtime feature for PJSIP devices and trunks.
+ara.external_auth = External Auth
+ara.external_auth.tooltip =
+	When set to yes, the "auth" parameter is unset for PJSIP devices. This is useful when the authentication is made
+	from external software like "Kamailio."
+ara.enabled_realtime = Enabling Realtime
+ara.enabled_realtime.p =
+	Are you sure that you want to enable the Realtime feature? Enabling this feature might take several minutes.
+	Besides, Asterisk will be restarted during the process.
+ara.continue = Continue
+ara.disable_realtime = Disabling Realtime
+ara.disable_realtime.p =
+	Are you sure that you want to disable the Realtime feature? Bear in mind that Asterisk will be restarted
+	during the process.
+ara.attached_servers = Remote Asterisk Servers
+ara.add_server = Add Server
+ara.server_name = Server Name
+ara.server_name.tooltip = A short description for this server
+ara.server = IP/Domain
+ara.server.tooltip = IP Address/Domain of the server
+ara.status = Connectivity
+ara.actions = Actions
+ara.root_password = Root Password
+ara.root_password.password =
+    The root password for connecting to the server and do the required configurations. This password is no stored in
+    the database and is required only when the server is created or the server IP/Domain is changed.
+ara.invalid_ip_domain = You have provided an invalid IP/Domain.
+ara.duplicated_ip_domain = The provided IP/Domain already exists.
+ara.cannot_connect_to_server =
+	It is not possible establishing connection with the server for configuring it.
+ara.cannot_configure_server =
+	It was not possible configuring the server.
+ara.connected = Connected
+ara.disconnected = Disconnected
+ara.edit_server = Edit Server

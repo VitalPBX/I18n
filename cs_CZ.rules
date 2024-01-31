@@ -1,0 +1,2 @@
+jeden = n==1
+vice = n!=1

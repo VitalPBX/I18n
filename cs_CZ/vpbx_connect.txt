@@ -1,0 +1,40 @@
+menu.vpbx_connect = VitalPBX Connect
+menu.mobile_settings = Settings
+menu.mobile_devices = Devices
+module.mobile_settings = VPBX Connect Settings
+module.mobile_devices = VPBX Connect Devices
+mobile_settings.general = {vitalpbx.general}
+mobile_settings.host = Domain / IP
+mobile_settings.provisioning_host = Provisioning Domain / IP
+mobile_settings.host.tooltip =
+    It allows you to define the public Domain / IP to connect with when retrieving the provisioning information from
+    the VitalPBX Connect mobile app.
+mobile_settings.licensing = Licensing Usage
+mobile_settings.licensing.tooltip = It shows the number of created items versus the number of allowed items.
+mobile_settings.host.invalid = Please provide a valid IP or domain.
+mobile_devices.general = {vitalpbx.general}
+mobile_devices.device = Device
+mobile_devices.device.tooltip = The device to get configured on the VitalPBX Connect app.
+mobile_devices.description = {description}
+mobile_devices.tenant = Tenant
+mobile_devices.tenant.tooltip = The tenant to which the devices belong.
+mobile_devices.enabled = Enabled
+mobile_devices.enabled.tooltip = If set to No, the user associated with this Device won't be able to use the VitalPBX Connect app.
+mobile_devices.actions = Actions
+mobile_devices.add = Add New Device
+mobile_devices.add_device = {mobile_devices.add}
+mobile_devices.validation.no_host = It cannot add a mobile device if the Host isn't defined in the VitalPBX Connect Settings.
+mobile_devices.validation.invalid_device = It seems that the selected device is invalid.
+mobile_devices.confirm_delete =
+    Deleting this item will make your user lose connection to the PBX from the VitalPBX Connect app. Do you want to continue?
+mobile_devices.edit_device = Edit Device
+mobile_devices.protocol = Protocol
+mobile_devices.duplicated_device = The selected device is already added.
+mobile_devices.validation.license_limit = You've reached the maximum number of allowed VitalPBX Connect devices.
+mobile_devices.validation.tenant_limit = You are not allowed to add more than {0} mobile devices. Please, get in contact with your PBX provider.
+mobile_settings.reg_host = Registration Domain / IP
+mobile_settings.reg_host.tooltip =
+    The Domain / IP the mobile application will use for the SIP registration. Leave this field empty if the value is
+    the same as the "Provisioning Domain / IP" field.
+mobile_devices.qr = QR Code
+mobile_devices.validation.cannot_show_qr = Cannot show QR because the provided data is invalid.
