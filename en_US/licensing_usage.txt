@@ -1,0 +1,12 @@
+licensing_usage = Licensing Usage
+menu.licensing_usage = {licensing_usage}
+module.licensing_usage = {licensing_usage}
+licensing_usage.general = {vitalpbx.general}
+licensing_usage.module = Module
+licensing_usage.used_items = Used Items
+licensing_usage.allowed_items = Allowed Items
+licensing_usage.extensions = {extensions}
+licensing_usage.tenants = {module.tenants}
+licensing_usage.connect = Connect App
+licensing_usage.refresh = {sms.refresh}
+licensing_usage.teams = MS Teams

@@ -1,0 +1,78 @@
+ai_assistants = AI Assistants
+ai_api_keys = API Keys
+menu.ai_assistants = {ai_assistants}
+menu.ai_api_keys  = {ai_api_keys}
+ai_assistants.unlicensed = {sms.unlicensed}
+module.ai_api_keys = AI API Keys
+module.ai_assistants = {ai_assistants}
+ai_assistants.description = {description}
+ai_assistants.description.tooltip = A short description to identify this item
+ai_assistants.api_key = {voice_hub.api_key}
+ai_assistants.api_key.tooltip = The API key provided by OpenAI.
+ai_api_keys.general = {vitalpbx.general}
+ai_assistants.validation.no_description = The field "Description" is required.
+ai_assistants.validation.duplicated_api_key = The "API Key" must be unique.
+ai_assistants.validation.no_api_key = The field "API Key" is required.
+ai_assistants.validation.api_key_in_use = This API Key item cannot be deleted because of being used by the following AI Assistants: "{0}".
+ai_assistants.general = {vitalpbx.general}
+ai_assistants.voice_profile = {recmanagement.voice_profile}
+ai_assistants.voice_profile.tooltip = The voice to use for answering callers' questions.
+ai_assistants.model = GPT Model
+ai_assistants.model.tooltip = The GPT Model that the assistant uses.
+ai_assistants.name = Assistant Name
+ai_assistants.name.tooltip = The name of the virtual assistant.
+ai_assistants.instructions = Assistant Instructions
+ai_assistants.instructions.tooltip = The system instructions that the assistant uses.
+ai_assistants.max_interactions = Max Interactions
+ai_assistants.max_interactions.tooltip =
+    The maximum number of questions that the assistant might answer before sending the caller to the "Final Destination."
+    Leave empty for no limit.
+ai_assistants.welcome_msg = Welcome Message
+ai_assistants.welcome_msg.tooltip =
+    The first audio the caller will hear before starting to interact with the AI assistant. It might contain a general
+    welcome message as well as directions on how to engage with the AI assistant.
+ai_assistants.wait_msg = Wait Message
+ai_assistants.wait_msg.tooltip = The audio that the caller will hear while the AI assistant is processing the information.
+ai_assistants.inaudible_msg = Inaudible Message
+ai_assistants.inaudible_msg.tooltip =
+    The audio to inform the caller that the AI assistant did not grasp what they said. If the assistant doesn't comprehend
+    what the caller says two times in a row, the call is sent to "Final Destination."
+ai_assistants.listening_msg = Listening Tone
+ai_assistants.listening_msg.tooltip = An audio or tone that indicates to the caller that the Virtual Assistant is listening to.
+ai_assistants.final_destination = Final Destination
+ai_assistants.max_silence = Max Silence
+ai_assistants.max_silence.tooltip = The maximum time in seconds of silence before processing the question made by the caller.
+ai_assistants.validation.field_required = The field "{0}" is required.
+ai_assistants.validation.duplicated_name = There's already an Assistant with the same name.
+ai_assistants.validation.invalid_api_key = The selected API Key is invalid.
+ai_assistants.validation.invalid_model = The selected GPT model is invalid.
+ai_assistants.validation.invalid_voice_profile = The selected Voice Profile is invalid.
+ai_assistants.validation.min = The min value for the "{0}" field is "{1}."
+ai_assistants.validation.no_numeric = The field "{0}" requires a valid number.
+ai_assistants.add_file = Add File
+ai_assistants.files = Attached Files
+ai_assistants.created_at = Date / Time
+ai_assistants.file = File
+ai_assistants.file.tooltip =
+    File that the AI assistant will use to answer questions outside its model. The valid file formats are docx, pdf, json, md, and txt.
+ai_assistants.upload = Upload
+ai_assistants.no_file = You haven't selected a file to upload!
+ai_assistants.invalid_file = The file "{0}" with the mimetype "{1}" isn't valid!
+ai_assistants.file_successfully_added = The file has been successfully added to this agent.
+ai_assistants.file_successfully_removed = The file has been successfully removed from this agent.
+ai_assistants.ask_a_question = Ask a Question
+ai_assistants.question = Question
+ai_assistants.question.tooltip = A question to ask for testing the AI agent.
+ai_assistants.ask = Ask
+ai_assistants.ask_another_question = Ask Another Question
+ai_assistants.internal_directory = Internal Directory
+ai_assistants.internal_directory.tooltip =
+    Depending on the selected values, the callers might ask being transfer to a specific user extension, queue, or ring group. The search is done by name
+    or description.
+ai_assistants.id.extensions = {menu.extensions}
+ai_assistants.id.queues = {menu.queues}
+ai_assistants.id.ring_groups = {menu.ring_groups}
+ai_assistants.notifications_email = Notifications E-mail Addresses
+ai_assistants.notifications_email.tooltip =
+    E-mail addresses to send the conversation summary or any requested data. Keep in mind that you must instruct the
+    AI to send an e-mail after finishing the conversation.

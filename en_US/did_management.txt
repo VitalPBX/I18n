@@ -8,3 +8,5 @@ did_management.actions = {actions}
 did_management.add = Add DID
 did_management.did.tooltip = The DID number to assign.
 did_management.tenant.tooltip = The tenant to which the DID will belong.
+did_management.description = {description}
+did_management.description.tooltip = A short description for reference.
