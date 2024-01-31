@@ -5,7 +5,7 @@ maintenance.general = {vitalpbx.general}
 maintenance.cdr_preservation = En Eski CDR'yi Temizle
 maintenance.cdr_preservation.tooltip =
 	CDR'nin tutulması gereken maksimum gün sayısını belirlemenizi sağlar. Burada tanımlanan günden
-    daha fazla zamandır tutulan CDR silinecektir.
+	daha fazla zamandır tutulan CDR silinecektir.
 maintenance.recordings_preservation = En Eski Kayıtları Temizle
 maintenance.recordings_preservation.tooltip =
 	Kayıtların tutulması gereken maksimum gün sayısını belirlemenizi sağlar. Burada tanımlanan günden

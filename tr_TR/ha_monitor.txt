@@ -15,7 +15,7 @@ ha_monitor.bascul = Bascul
 ha_monitor.confirm_bascul.title = Yüksek Erişilebilirlikte sunucuların rollerini değiştirin
 ha_monitor.confirm_bascul =
     <strong>¡UYARI!</strong>, Devam eden tüm aramalar kaybolacak ve sistem birkaç saniye kullanılamayacak durumda olacaktır.<br>
-    <strong>{0}'dan {1}'e geçtiğinizden emin misiniz?</ strong>
+    <strong>{0}'dan {1}'e geçtiğinizden emin misiniz?</ strong>
 ha_monitor.success = Bascul başarıyla yürütüldü
 ha_monitor.executed = Bascul arka planda yürütülüyor
 ha_monitor.confirm_unstandby.title = Onayı Başlat
