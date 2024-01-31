@@ -117,7 +117,7 @@ queues.ringinuse = Meşgul Temsilcileri Çaldır
 queues.ringinuse.tooltip = Evet olarak ayarlanırsa, meşgul olsa bile temsilcilere çağrı gönderir.
 queues.seconds =
 	[bir] Bir Saniye
-	[Diğer] {0} Saniye
+	[diğer] {0} Saniye
 queues.servicelevel = Hizmet Seviyesi
 queues.servicelevel.placeholder = Saniye cinsinden değer
 queues.servicelevel.tooltip = Kuyruğun hizmet düzeyini belirlemek için istatistiklerde kullanılır (hizmet seviyesi zaman çerçevesi içinde yanıtlanan çağrılar).
