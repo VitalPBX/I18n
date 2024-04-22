@@ -463,3 +463,6 @@ provisioning.no_template = You haven't selected a valid template for this device
 provisioning.type.gds_opendoor = GDS Open Door
 provisioning.type.eventlist_presence = Event List Presence
 provisioning.type.multicast_paging_address = MultiCast Paging Address
+provisioning.type.share_line = {provisioning.type.shared_line}
+provisioning.type.application = Application
+

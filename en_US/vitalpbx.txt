@@ -237,3 +237,5 @@ vitalpbx.setup.no_password = You haven't provide a valid password
 vitalpbx.setup.unmatched_passwords = The passwords don't match
 vitalpbx.setup.no_user = You haven't provide a valid username
 menu.apps = Apps
+vitalpbx.core = Core
+vitalpbx.unknown = Unknown

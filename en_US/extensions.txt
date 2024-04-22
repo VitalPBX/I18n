@@ -319,3 +319,5 @@ extensions.notify_missed_calls.tooltip =
 extensions.sms_number = SMS Number
 extensions.sms_number.tooltip =
     A number from an SMS provider for sending and receiving SMS on the attached devices of this extension.
+extensions.global_max_reached = The current server license has surpassed the allowable limit for extensions.
+extensions.device_duplicated_on_tenant = The username of the device "{0}" is already taken or reserved, please choose another name.
