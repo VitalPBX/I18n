@@ -1,0 +1,49 @@
+maintenance = Bakım
+menu.maintenance = {maintenance}
+module.maintenance = {maintenance}
+maintenance.general = {vitalpbx.general}
+maintenance.cdr_preservation = En Eski CDR'yi Temizle
+maintenance.cdr_preservation.tooltip =
+	CDR'nin tutulması gereken maksimum gün sayısını belirlemenizi sağlar. Burada tanımlanan günden
+	daha fazla zamandır tutulan CDR silinecektir.
+maintenance.recordings_preservation = En Eski Kayıtları Temizle
+maintenance.recordings_preservation.tooltip =
+	Kayıtların tutulması gereken maksimum gün sayısını belirlemenizi sağlar. Burada tanımlanan günden
+	daha fazla zamandır tutulan kayıtlar silinecektir.
+maintenance.recordings_min_duration = Kısa Kayıtları Temizle
+maintenance.recordings_min_duration.tooltip =
+	Bir kaydın çok kısa olarak kabul edilmesi için minimum süreyi saniye cinsinden tanımlamanıza ve silmenize olanak tanır
+maintenance.convert_recordings = Kayıtları Dönüştür
+maintenance.convert_recordings.tooltip = Arama Kayıtlarını MP3'e dönüştürmeyi etkinleştir/devre dışı bırak.
+maintenance.schedule = Planlama
+maintenance.schedule.tooltip =
+	PBX'in bakımının yürütüleceği programı tanımlamanıza olanak tanır (Kayıtların Dönüştürülmesi, Kayıtların Temizlenmesi
+	ve CDR vb.). Herhangi bir program seçilmezse, tüm bakım seçenekleri devre dışı bırakılır.
+maintenance.execute = Şimdi Yürüt
+maintenance.confirm_mcp.title = Bakımı Onayla
+maintenance.confirm_mcp =
+	Bakımı şimdi yapmak istediğinizden emin misiniz? <br> Bu, birkaç dakika sürebilir, 
+	özellikle dönüştürülecek çok kaydınız varsa.
+maintenance.executed = Bakım arka planda yürütülüyor
+maintenance.no_license_notification =
+	Aşağıdaki özellikler: "Eski Kayıtları Temizle" & "Kayıtları Dönüştür", siz bu eklentiyi geçerli bir lisansla 
+	etkinleştirene kadar çalışmaz.
+maintenance.enabled = Etkin
+maintenance.enabled.tooltip =
+	PBX bakımını etkinleştirmenizi veya devre dışı bırakmanızı sağlar.
+maintenance.validation.enabled_without_cron = Bakım etkinleştirildi, ancak hiçbir cron profili seçilmedi.
+maintenance.tenant = Operatör
+maintenance.tenant.tooltip = Bakım yapılandırmalarının uygulanacağı operatörü seçmenizi sağlar.
+maintenance.mcp.invalid_tenant = Geçersiz bilgi verdiğiniz için bakım yapılamıyor.
+maintenance.voicemail_preservation = En Eski Sesli Mesajları Temizle
+maintenance.voicemail_preservation.tooltip =
+	Sesli posta kayıtlarının saklanması gereken maksimum gün sayısını tanımlamanıza olanak tanır. Buradaki
+	gün sayısından daha eski sesli mesaj kayıtları silinecektir.
+maintenance.conversion_quality = Ses Kalitesi
+maintenance.conversion_quality.tooltip =
+	WAV'dan MP3'e dönüştürürken uygulanacak ses kalitesi. Daha yüksek kaliteler daha iyi sesler üretir, ancak sabit sürücüde daha
+	fazla alan kullanır; daha düşük kaliteler daha küçük ses dosyaları üretir ancak kalite düşer.
+maintenance.good = İyi ({0}k)
+maintenance.medium = Orta ({0}k)
+maintenance.best = En İyi ({0}k)
+maintenance.high = Yüksek ({0}k)

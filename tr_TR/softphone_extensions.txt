@@ -1,0 +1,5 @@
+module.softphone_extensions = Yazılım Telefonu Cihazları
+menu.softphone_extensions = {module.softphone_extensions}
+softphone_extensions.max_reached =
+	{0} cihazdan fazlasını eklemenize izin verilmiyor
+softphone_extensions.general = {vitalpbx.general}

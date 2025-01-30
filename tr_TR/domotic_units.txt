@@ -1,0 +1,36 @@
+module.domotic_units = Birimler
+domotic_units.menu = {module.domotic_units}
+domotic_units.show_menu = Birimler Menüsünü Göster
+
+domotic_units.general.tab = {vitalpbx.general}
+
+domotic_units.model_id = Model
+domotic_units.model_id.help = Akıllı birim türünü seçmenize izin verir.
+domotic_units.description = Açıklama
+domotic_units.description.help = Bu birimi tanımlayan kısa açıklama.
+domotic_units.ip_address = IP Adresi
+domotic_units.ip_address.help = İstek almak/göndermek için IP Adresi.
+domotic_units.port = Port
+domotic_units.port.help = Adresin bir parçası. Gerekirse bunu tanımlayın.
+
+domotic_units.validation.empty_model = Birim modeli gereklidir
+domotic_units.validation.empty_desc = Açıklama gereklidir
+domotic_units.validation.empty_ip = IP adresi gereklidir
+domotic_units.validation.invalid_ip = Geçersiz bir IP adresi tanımlandı
+domotic_units.validation.invalid_port = Geçersiz bir Port tanımlandı
+domotic_units.validation.invalid_model = Geçersiz bir birim modeli girildi
+
+domotic_units.delete = {vitalpbx.delete}
+domotic_units.delete.message = Bu birimi silmek istediğinize emin misiniz? 
+
+domotic_units.save.btn = {vitalpbx.save}
+domotic_units.sync.btn = Senkronize Et
+domotic_units.update.btn = {vitalpbx.update}
+domotic_units.delete.btn = {vitalpbx.delete}
+domotic_units.cancel.btn = {vitalpbx.cancel}
+
+domotic_units.sync_error = Senkronizasyon Başarısız
+domotic_units.sync_error.msg = Senkronizasyon başarısız oldu
+
+domotic_units.sync_success = Senkronizasyon Başarılı
+domotic_units.sync_success.msg = Senkronizasyon başarılı oldu

@@ -1,0 +1,45 @@
+menu.time_conditions = Zaman Koşulları
+module.time_conditions = Zaman Koşulları
+time_conditions = Zaman Koşulları
+time_conditions.cancel = İptal Et
+time_conditions.delete = Sil
+time_conditions.description = Açıklama
+time_conditions.description.tooltip = Bu Zaman Koşulunu tanımlayan kısa açıklama
+time_conditions.falsegoto = Zaman %s ile eşleşmezse hedef
+time_conditions.general = Zaman Koşulları
+time_conditions.modfalse = Modül Yanlış
+time_conditions.modtrue = Modül Doğru
+time_conditions.save = Kaydet
+time_conditions.time_group_id = Zaman Grubu
+time_conditions.time_group_id.tooltip = Zaman Grupları altında oluşturulmuş bir Zaman Grubu seçin. Eşleşen zamanlar, eşleşen hedefe gönderilecektir.
+time_conditions.truegoto = Zaman %s ile eşleşirse hedef
+time_conditions.update = Güncelleme
+time_conditions.status = Durum
+time_conditions.status.tooltip = Bir zaman koşulunun varsayılan davranışını geçersiz kılmanıza izin verir
+time_conditions.status.default = Varsayılan
+time_conditions.status.temporary_matched = Geçici Eşleşen
+time_conditions.status.temporary_unmatched = Geçici Eşleşmeyen
+time_conditions.status.permanently_matched = Kalıcı Eşleşen
+time_conditions.status.permanently_unmatched = Kalıcı Eşleşmeyen
+time_conditions.status.default.desc = Varsayılan davranış
+time_conditions.status.temporary_matched_unmatched = Geçici Eşleşen/Eşleşmeyen
+time_conditions.status.temporary_matched_unmatched.desc =
+	Zaman koşulunu geçici olarak geçersiz kılar ve çağrıları mevcut zaman aralığı geçene kadar eşleşen/eşleşmeyen 
+	hedefe gönderir. Bundan sonra, davranış varsayılana dönecektir
+time_conditions.status.permanently_matched_unmatched = Kalıcı Eşleşen/Eşleşmeyen
+time_conditions.status.permanently_matched_unmatched.desc =
+	Zaman koşulunu kalıcı olarak geçersiz kılar ve geçersiz kılma kaldırılana kadar çağrıları eşleşen/eşleşmeyen hedefe gönderir.
+time_conditions.blf_inverted = Ters Çevrilmiş BLF 
+time_conditions.blf_inverted.tooltip =
+	Varsayılan olarak, zaman koşulu eşleştiğinde BLF ışık rengi yeşil, eşleşmediğinde kırmızıdır. Bunu "evet"
+	olarak ayarlamak, davranışın yukarıda açıklananın tersi olmasını sağlayacaktır.
+time_conditions.hint = {nightmode.phone_hint}
+time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
+time_conditions.code = {nightmode.code}
+time_conditions.code.tooltip = Telefon üzerinden zaman koşulu durumunu değiştirmek için tuşlanacak kod.
+time_conditions.pin = Yetkilendirme Pini
+time_conditions.pin.tooltip = Yetkisiz kişilerin bu saat koşulunu değiştirmesini önlemek için isteğe bağlı şifre.
+time_conditions.timezone = Saat Dilimi
+time_conditions.timezone.tooltip =
+	Bu zaman koşuluyla ilişkili zaman grubunu eşleştirmek için kullanılacak saat diliminin tanımlanmasına izin verir. Sistem olarak ayarlanırsa,
+	saat dilimini sunucudan alır.

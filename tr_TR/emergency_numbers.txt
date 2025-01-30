@@ -1,0 +1,26 @@
+menu.emergency_numbers = Acil Durum Numaraları
+module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.general = {vitalpbx.general}
+emergency_numbers.trunks = Bağlantılar
+emergency_numbers.trunks.tooltip = Acil durum aramalarında kullanılabilecek bağlantıların listesi.
+emergency_numbers.legend = Acil Durum Numaraları Listesi
+emergency_numbers.number = Numara
+emergency_numbers.number.tooltip = Yardım amacıyla yerel acil servislerle iletişim kurulacak telefon numarası
+emergency_numbers.number.placeholder = örn: 911
+emergency_numbers.description = Hizmet Adı
+emergency_numbers.description.tooltip = Bu telefon numarasını temsil eden servisin adı. örn.: Polis, İtfaiye, Ambulans, vb.
+emergency_numbers.description.placeholder = örn: Polis, İtfaiye, Ambulans, vb.
+emergency_numbers.validation.invalid_number =
+	Bu numara <b>"{0}"</b> geçersiz formattadır, lütfen geçerli bir telefon numarası giriniz.
+	Yandaki karakterleri içermelidir: *,#,+
+emergency_numbers.cat_description = Açıklama
+emergency_numbers.cat_description.tooltip = Acil Durum Numaraları listesinin kolayca tanınması için kısa bir açıklama.
+emergency_numbers.validation.no_desc = Açıklama girilmedi. Lütfen geçerli bir açıklama giriniz. 
+emergency_numbers.validation.no_trunks = Hiçbir bağlantı seçilmedi. Lütfen en az bir bağlantı seçiniz.
+emergency_numbers.validation.no_numbers = Hiçbir numara girilmedi. Lütfen an az bir numara ekleyiniz.
+emergency_numbers.validation.n_duplicated =
+	{0} acil durum numarası <b>{1}</b> acil durum numarası kategorisi altında zaten kullanılıyor.
+emergency_numbers.email_addresses = E-posta Adresleri
+emergency_numbers.email_addresses.tooltip =
+	Burada tanımlanan acil durum numaralarından herhangi biri arandığında bildirim alacak olan e-posta adresleri
+emergency_numbers.validation.invalid_email = <b>{0}</b> e-posta adresi geçerli değil.

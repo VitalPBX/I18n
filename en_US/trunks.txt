@@ -189,7 +189,7 @@ trunks.client_uri = Client URI
 trunks.client_uri.tooltip =
 	This is the address-of-record for the outbound registration (i.e. the URI in the To header of the REGISTER).
 	For registration with an ITSP, the client SIP URI may need to consist of an account name or number and the provider's
-	hostname for their registrar, e.g. <b>1234567890@example.com</b>. This may differ between providers.<br><br>
+	hostname for their registrar, e.g. <b>sip:1234567890@sip.example.com</b>. This may differ between providers.<br><br>
 	For registration to generic registrars, the client SIP URI will depend on networking specifics and configuration
 	of the registrar.
 trunks.server_uri = Server URI
@@ -283,4 +283,8 @@ trunks.trust_id_inbound.tooltip =
 trunks.trust_id_outbound = Trust ID Outbound
 trunks.trust_id_outbound.tooltip = When set to "Yes," the private identification information (PAI & RPI) will get sent to the provider when sending/making anonymous calls.
 trunks.inband_progress = Inband Progress
-trunks.inband_progress.tooltip = When set to "Yes," the system  will indicate ringing using inband progress.
+trunks.inband_progress.tooltip = When set to "Yes," the system will indicate ringing using inband progress.
+trunks.validation.pjsip.invalid_client_uri = The given "Client URI" is invalid. The format must be "sip:1234567890@sip.example.com."
+trunks.validation.pjsip.invalid_server_uri = The given "Server URI" is invalid. The format must be "sip:sip.example.com."
+trunks.validation.pjsip.invalid_contact = The contact "{0}" has an invalid format. The format must be "sip:sip.example.com."
+trunks.validation.pjsip.invalid_match = The value "{0}" from the "Match" field is invalid. You must provide a valid IP/Domain.

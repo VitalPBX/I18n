@@ -1,0 +1,76 @@
+vpn_server = OpenVPN Sunucusu
+menu.vpn_server = {vpn_server}
+module.vpn_server = {vpn_server}
+vpn_server.server = Sunucu
+vpn_server.clients = İstemciler
+vpn_server.enabled = Etkin
+vpn_server.enabled.tooltip = OpenVPN Sunucusu servisinin mevcut durumunu gösterir
+vpn_server.port = Port
+vpn_server.port.tooltip = OpenVPN'in dinlemesi gereken port
+vpn_server.subnet = Sunucu Aralığı
+vpn_server.subnet.tooltip =
+	VPN tünel ağında kullanılacak sanal IP aralığını tanımlar. örn.: Aralık olarak 10.8.0.0 IP adresini kullanırsanız,
+	sunucu IP'si 10.8.0.1 olacak ve ilk isemiciye 10.8.0.2 IP'si atanacaktır.
+vpn_server.subnet.ip = IPv4 Adresi
+vpn_server.subnet.mask = Maske
+vpn_server.keepalive = Faal-Tut
+vpn_server.keepalive.tooltip =
+	Faal tutma (keep-alive) direktifi, ping benzeri mesajların bağlantı üzerinden ileri geri gönderilmesini sağlar böylece
+	iki tarafta diğer tarafın ne zaman düştüğünü bilir. Tüm değerler saniye cinsinden
+vpn_server.keepalive.ping = Frekans
+vpn_server.keepalive.time_period = Zaman Aşımı
+vpn_server.redirect-gateway = Ağ Geçidini Yeniden Yönlendir
+vpn_server.redirect-gateway.tooltip =
+	Etkinleştirilirse, bu direktif tüm istemcileri, varsayılan ağ geçidini VPN üzerinden yeniden yönlendirecek şekilde yapılandırarak
+	internette gezinme, DNS aramaları gibi tüm IP trafiğinin VPN üzerinden geçmesini sağlar. (OpenVPN sunucu makinesinin
+	düzgün çalışması için TUN/TAP arayüzünü internete NAT laması ya da köprülemesi gerekebilir)
+vpn_server.primary_dns = Birincil DNS
+vpn_server.secondary_dns = İkincil DNS
+vpn_server.dns.tooltip = "Ağ Geçidini Yeniden Yönlendir" seçeneği etkinleştirildiğinde kullanılacak DNS
+vpn_server.max-clients = Maks. İstemci
+vpn_server.max-clients.tooltip = İzin vermek istediğimiz maksimum eşzamanlı bağlı istemci sayısı
+vpn_server.service_restarted = Yapılandırmalar güncellendi ve servis başlatıldı
+vpn_server.service_stopped = Yapılandırmalar güncellendi ve servis durduruldu
+vpn_server.configuration_updated = Yapılandırmalar güncellendi
+vpn_server.add_client = İstemci Ekle
+vpn_server.client.description = Açıklama
+vpn_server.client.description.tooltip = Bu OpenVPN istemcisini tanımlayan kısa bir açıklama
+vpn_server.client.assigned_address = Sabit IP
+vpn_server.client.assigned_address.tooltip = Bu istemciye belirli bir IP adresi atamanıza izin verir
+vpn_server.client.enabled = Etkin
+vpn_server.client.enabled.tooltip = Bu kullanıcıyı etkinleştirmenize veya devre dışı bırakmanıza olanak tanır
+vpn_server.configuring_client = İstemci Yapılandırılıyor...
+vpn_server.client_saved = İstemci kaydedildi ve yapılandırıldı.
+vpn_server.client.duplicated_address = Sağlanan IP adresi zaten kullanılıyor
+vpn_server.client.no_description = Bu istemci için hiçbir açıklama sağlanmadı
+vpn_server.client.invalid_ip = Bu istemci için geçersiz bir IP adresi sağlandı
+vpn_server.actions = Eylemler
+vpn_server.client.duplicated_description = Sağlanan açıklama zaten kullanılıyor
+vpn_server.edit_client = İstemciyi Düzenle
+vpn_server.client.cannot_download_cert = İstemci yapılandırmaları indirilemiyor
+vpn_server.invalid_data = Geçersiz veri sağlandı
+vpn_server.client.confirm_delete = Bu istemciyi silmek istediğinize emin misiniz?
+vpn_server.client.deleted = İstemci başarıyla silindi
+vpn_server.public_host = Genel Sunucu
+vpn_server.public_host.tooltip = İstemcideki OpenVPN sunucusunu belirten uzak sunucu ya da IP adresi.
+vpn_server.client.private_ip = Atanan IP
+vpn_server.client.real_address = Gerçek Adres
+vpn_server.client.connected = Bağlandı
+vpn_server.client.received_transmitted = Rx/Tx Paketleri
+vpn_server.client.connected_since = -den/-dan Beri Bağlı
+vpn_server.no_license =
+	Maksimum ücretsiz VPN istemcisi sayısına ulaştınız. İkiden fazla istemci oluşturmak için eklentiyi etkinleştirin
+vpn_server.compression = Sıkıştırma
+vpn_server.compression.tooltip = Sunucu ve istemci trafiği arasında kullanılacak sıkıştırma tipini tanımlamanıza olanak tanır
+vpn_server.type = Tip
+vpn_server.type.tooltip = İstemci tipini tanımlamaya izin verir, ona bağlı olarak indirilen konfigürasyon değişecektir.
+vpn_server.type.generic = Generic
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.type.fanvil = Fanvil
+vpn_server.cipher = Şifreleme Yöntemi
+vpn_server.cipher.tooltip = Veri kanalı paketlerini alg şifreleme algoritması ile şifreleyin.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128
+vpn_server.cipher.aes-256-cbc = AES-256
+vpn_server.cipher.des-ede3-cbc = Triple-DES

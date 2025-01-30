@@ -1,0 +1,2 @@
+vm_bodytext =  ${VM_DATE} tarihinde ${VM_CALLERID} adresinden ${VM_DUR} uzunluğunda sesli bir mesaj aldınız. \nMesajın kaydı bu e-postaya eklenmiştir, kendi dahilinizden *97 çevirerek ya da başka bir dahili numaradan *98 tuşlayarak bu mesajı dinleyebilirsiniz.
+vm_subject = ${VM_DATE} tarihinde, ${VM_CALLERID} adresinden, ${VM_MAILBOX} posta kutusu için ${VM_MSGNUM} sesli mesaj numarası alındı.

@@ -1,0 +1,14 @@
+module.jmeet = Video Konferans
+menu.jmeet = {module.jmeet}
+jmeet.general = {vitalpbx.general}
+jmeet.vitalpbx = {app.name}
+jmeet.jitsi = Jitsi
+jmeet.custom = Özel
+jmeet.server = Sunucu
+jmeet.server.tooltip = Konferansa ev sahipliği yapacak sunucuyu seçin
+jmeet.custom_server = Özel Sunucu
+jmeet.custom_server.tooltip = Burada konferansın yapılacağı kendi sunucunuzu tanımlayabilirsiniz.
+jmeet.room = Oda Adı
+jmeet.room.tooltip = Bir konferansa katılmak ya da konferans başlatmak için bir oda adı.
+jmeet.join_create = Katıl/Yarat
+jmeet.url = URL

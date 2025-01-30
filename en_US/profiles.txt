@@ -287,3 +287,31 @@ profiles_pjsip_rtp_timeout_hold_tooltip =
     When the number of seconds is reached the underlying channel is hung up.
 profiles_pjsip_send_connected_line = Send Connected Line
 profiles_pjsip_send_connected_line_tooltip = When set to "Yes," Asterisk will send connected line updates to the endpoints associated with this profile.
+profiles_pjsip_incoming_call_offer_pref = Codecs Preference on Incoming Calls
+profiles_pjsip_outgoing_call_offer_pref = Codecs Preference on Outgoing Calls
+profiles_pjsip_incoming_call_offer_pref_local = Local
+profiles_pjsip_incoming_call_offer_pref_local_first = Local First
+profiles_pjsip_incoming_call_offer_pref_remote = Remote
+profiles_pjsip_incoming_call_offer_pref_remote_first = Remote First
+profiles_pjsip_outgoing_call_offer_pref_local = {profiles_pjsip_incoming_call_offer_pref_local}
+profiles_pjsip_outgoing_call_offer_pref_local_merge = Local Merge
+profiles_pjsip_outgoing_call_offer_pref_local_first = {profiles_pjsip_incoming_call_offer_pref_local_first}
+profiles_pjsip_outgoing_call_offer_pref_remote = {profiles_pjsip_incoming_call_offer_pref_remote}
+profiles_pjsip_outgoing_call_offer_pref_remote_merge = Remote Merge
+profiles_pjsip_outgoing_call_offer_pref_remote_first = {profiles_pjsip_incoming_call_offer_pref_remote_first}
+profiles_pjsip_incoming_call_offer_pref_tooltip =
+     Based on this setting, a joint list of preferred codecs between those received in an incoming SDP offer (remote), and those specified
+     in the endpoint's "allow" parameter (local) is created and is passed to the PBX core.
+profiles_pjsip_outgoing_call_offer_pref_tooltip =
+    Based on this setting, a joint list of preferred codecs between those received from the PBX core (remote), and those specified in
+     the endpoint's "allow" parameter (local) is created and is used to create the outgoing SDP offer.
+profiles_pjsip_incoming_call_offer_pref_local_desc = Include all codecs in the local list that are also in the remote list preserving the local order. (default).
+profiles_pjsip_incoming_call_offer_pref_local_first_desc = Include only the first codec in the local list that is also in the remote list.
+profiles_pjsip_incoming_call_offer_pref_remote_desc = Include all codecs in the remote list that are also in the local list preserving remote list order.
+profiles_pjsip_incoming_call_offer_pref_remote_first_desc = Include only the first codec in the remote list that is also in the local list.
+profiles_pjsip_outgoing_call_offer_pref_local_desc = Include all codecs in the local list that are also in the remote list preserving the local order.
+profiles_pjsip_outgoing_call_offer_pref_local_merge_desc = Include all codecs in the local list preserving the local order.
+profiles_pjsip_outgoing_call_offer_pref_local_first_desc = Include only the first codec in the local list.
+profiles_pjsip_outgoing_call_offer_pref_remote_desc = {profiles_pjsip_incoming_call_offer_pref_remote_desc}
+profiles_pjsip_outgoing_call_offer_pref_remote_merge_desc = Include all codecs in the local list preserving the remote list order. (default)
+profiles_pjsip_outgoing_call_offer_pref_remote_first_desc = {profiles_pjsip_incoming_call_offer_pref_remote_first_desc}

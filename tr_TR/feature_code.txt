@@ -1,0 +1,172 @@
+feature_code.account_code = Müşteri Kodu
+feature_code.account_code.tooltip = CDR sistemi tarafından kullanılacak bir müşteri kodu oluşturur - arama muhasebesi için çok yararlıdır. Dahiliyle ilişkili Özellik Kategorisinde özellik etkinleştirilmelidir.
+feature_code.add_last_caller_blacklist = Kara Liste Son Arayan
+feature_code.add_last_caller_blacklist.tooltip = Dahilinizi arayan son numarayı dahili kara listenize ekler. Kara listeye alınacak numarayı girin ve ardından # tuşuna basın. Numarayı tam olarak sistemde göründüğü gibi tuşladığınızdan emin olun, yani uygun alan kodlarını ekleyin, vb. Girişi kabul etmek için 1'e basın ya da iptal etmek için telefonu kapatın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir. 
+feature_code.add_num_blacklist = Bir Numarayı Kara Listeye Al
+feature_code.add_num_blacklist.tooltip = Dahili hat için kara listeye eklenecek bir telefon numarası girin. Gelen aramalar, dahili hattın kara listesindeyse dahili telefon çalmaz. Kara listeye alınan arayanlara, aradıkları numaranın artık hizmette olmadığı söylenecektir. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir. 
+feature_code.add_remove_queue_agent = Sıra Temsilcisi Ekle/Kaldır
+feature_code.add_remove_queue_agent.tooltip = Belirli bir kuyruğa (sıraya) bir temsilci eklemek için geçiş yap veya temsilciyi kuyruktan kaldır. Komutları takip edebilir ya da (uzman modunda) özellik kodunu girip hemen ardından * (asterisk) ve kuyruk numarasını girebilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.attended_transfer = Meşgulde Transfer
+feature_code.attended_transfer.tooltip = Bir görüşme yaparken, mevcut aramayı operatöre aktarın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.auth_code = Yetki Kodu
+feature_code.auth_code.tooltip = Sınırsız arama planıyla ilişkili yetki kodu kullanarak herhangi bir telefondan arama yapmanızı sağlar. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.black_list = Kara Liste
+feature_code.blind_transfer = Kör Transfer
+feature_code.blind_transfer.tooltip = Bir görüşme sırasında, mevcut aramayı, aramanın aktarıldığı dahili numaraya bildirmeden aktarın. Bu özelliğe hem Özellik Kategorisi hem de dahili ile ilişkili Arama Profili tarafından izin verilmelidir.
+feature_code.boss_secretary = Patron/Sekreter - Geçiş Yap
+feature_code.boss_secretary.tooltip = Geçerli dahili için gelen tüm aramaların “sekreter” telefonu olarak tanımlanan dahiliye yönlendirilmesini sağlayan ya da devre dışı bırakan geçiş. Bu fonksiyon etkinleştirildiğinde, sadece “sekreter” telefon “patron” telefona doğrudan arama yapabilir - diğer tüm aramalar doğrudan “sekreter” telefona yönlendirilir. Özelliğin, dahiliyle ilişkilendirilen Özellik Kategorisinde etkinleştirilmesi gerekir ve yalnızca “patron” dahilisi için bir “sekreter” dahilisi tanımlandıktan sonra kullanılabilir. “Sekreter” dahilisi, aramaları durdurmak için bu özellik kodunu tuşlayabilir.
+feature_code.business_services = İş Hizmetleri
+feature_code.call_center = Çağrı Merkezi
+feature_code.call_completion = Çağrı Tamamlama (CCSS)
+feature_code.call_flow_ctrl = Çağrı Akışı Kontrolü
+feature_code.call_forward = Çağrı Yönlendirme (CF)
+feature_code.cancel_cc = Çağrı Tamamlamayı İptal Et
+feature_code.cancel_cc.tooltip = Dahili numaranızdan yapılan herhangi bir arama tamamlama talebini iptal etmenize olanak sağlar.
+feature_code.change_ext_pwd = Özellikler Şifresini Değiştir
+feature_code.change_ext_pwd.tooltip = Şifre korumalı telefon özelliklerine erişmek için geçerli dahilinin şifresini değiştirin. Özelliğin, dahiliyle ilişkili Özellik Kategorisinde etkinleştirilmesi gerekir.
+feature_code.clear_all_diversions = Tüm Yönlendirmeleri Temizle
+feature_code.clear_all_diversions.tooltip = Rahatsız Etmeyin özelliği de dahil olmak üzere tüm çağrı yönlendirmelerini devre dışı bırakır. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.custom = Özel
+feature_code.cust_recording = Özel Kayıt
+feature_code.cust_recording.tooltip = Mesaj kaydetmek için kullanılır. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir. 
+feature_code.default = Varsayılan
+feature_code.dial_by_name_dir = İsim Dizinine Göre Tuşla
+feature_code.dial_by_name_dir.tooltip = Bir kullanıcı adı tuşlamak için sayısal tuş takımınızı kullanın. Örneğin, dahili desteğe HELP adı verilebilir, bu nedenle 411'i (bu özelliği etkinleştirmek için)ve ardından desteğe ulaşmak için 4357'yi tuşlayabilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.dictation_services = Dikte
+feature_code.dictation_services.tooltip = Bir mesajı e-posta aracılığıyla gönderme seçeneği ile kaydetmek için kullanılır. Yalnızca Kayıt sekmesinde Dikte'nin etkinleştirildiği dahililer için kullanılabilir.
+feature_code.direct_pickup = Doğrudan Pickup
+feature_code.direct_pickup.tooltip = When you are on a call, capture a call that is ringing at another extension in your pickup group. You will need to dial the feature code followed by the extension number that you want to answer. Feature must be enabled in the Feature Category associated with the extension.
+feature_code.direct_toggle_cfi = Hemen Doğrudan Çağrı Yönlendirme
+feature_code.direct_toggle_cfi.tooltip = Hemen Doğrudan Çağrı Yönlendirme
+feature_code.direct_pause_unpause_queue_agent = Sıra Temsilcisini Doğrudan Duraklat/Devam Ettir
+feature_code.direct_pause_unpause_queue_agent.tooltip = Sıra Temsilcisini Doğrudan Duraklat/Devam Ettir
+feature_code.direct_add_remove_queue_agent = Sıra Temsilcisini Doğrudan Ekle/Kaldır
+feature_code.direct_add_remove_queue_agent.tooltip = Sıra Temsilcisini Doğrudan Ekle/Kaldır
+feature_code.direct_vm = Doğrudan Sesli Mesaj
+feature_code.direct_vm.tooltip = Geçerli dahili için sesli postayı dinlemek üzere doğrudan sesli mesaj sistemine giriş-yalnızca kullanıcının sesli posta şifresini girmesini gerektirir. Bu seçenek yalnızca Sesli Mesaj sekmesinde sesli postanın etkinleştirildiği dahililer için kullanılabilir.
+feature_code.disabled = Devre Dışı
+feature_code.disconnect_call = Çağrıyı Kes
+feature_code.disconnect_call.tooltip = Bir görüşme yaparken, gelen çağrıyı kesin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.dnd = Rahatsız Etmeyin-Geçiş Yap
+feature_code.dnd.tooltip =
+	Rahatsız Etmeyin (DND) özelliğini etkinleştirmek veya devre dışı bırakmak için geçiş yapın. Komutları takip edebilir ya da (uzman modunda) özellik kodunu 
+	hemen ardından * (asterisk) ve DND'yi etkinleştirmek için numara biri ya da DND'yi devre dışı bırakmak için ikiyi girebilirsiniz. Özellik, dahiliyle
+	ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.echo_test = Yankı Testi
+feature_code.echo_test.tooltip = Tepki süresini ölçmek için yankı testi. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.enabled = Etkin
+feature_code.features.duplicate = Özellik kodları benzersiz olmalıdır ve tekrar kullanılamaz.
+feature_code.features.invalid = Özellik kodları boş olamaz ve yalnızca şu karakterleri içerebilir: 0-9, #, * ve +.
+feature_code.follow_me = Beni Takip Et-Geçiş Yap
+feature_code.follow_me.tooltip = Beni Takip Et özelliğini etkinleştirmek veya devre dışı bırakmak için geçiş yapın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.general = Genel
+feature_code.hot_desking = Hot Desking
+feature_code.hot_desking.tooltip =
+	Hot Desking özelliğini etkinleştirmek ya da devre dışı bırakmak için geçiş yapın. Komutları takip edin ya da (uzman modda) özellik 
+	kodunu hemen ardından * (asterisk) ve login için numara bir ya da logout için numara ikiyi girin.
+	Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.lock_unlock_phone = Telefonu Kilitle/Aç
+feature_code.lock_unlock_phone.tooltip = Geçerli dahiliyi kilitlemek veya kilidini açmak için geçiş yapın. Kilitli bir telefondan giden arama yapılamaz. Dahili telefonunuzun kilidini açmak için, Özellikler Şifresi'ni girmeniz istenir. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.nm_all = Gece Modu Tüm
+feature_code.nm_all.tooltip = Tanımlanan tüm gece modlarını etkinleştirmek/devre dışı bırakmak için geçiş yapın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.one_touch_rec = Tek Dokunuşla Kayıt
+feature_code.one_touch_rec.tooltip = Bir arama esnasında mevcut aramayı kaydedilmeye zorlayın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.on_call_features = Çağrı Özellikleri
+feature_code.park_call = Çağrı Park Et
+feature_code.park_call.tooltip = Bir arama esnasında mevcut aramayı park edin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.pause_unpause_queue_agent = Sıra Temsilcisini Duraklat/Devam Ettir
+feature_code.pause_unpause_queue_agent.tooltip = Belirli bir sıra için bir temsilciyi duraklatmak ya da devam ettirmek için geçiş yap. Komutları takip edebilir ya da (uzman modunda) özellik kodunu girip hemen ardından * (asterisk) ve sıra(kuyruk) numarasını girebilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.personal_assistant = Kişisel Asistan-Geçiş Yap
+feature_code.personal_assistant.tooltip = Dahilinizde  kişisel asistanı etkinleştirmek/devre dışı bırakmak için geçiş yapın.
+feature_code.phone_book = Telefon Rehberi Dizini
+feature_code.pickup_group = Pickup Grubu
+feature_code.pickup_group.tooltip = Bir görüşme yaparken pickup (çağrı alma) grubunuzdaki başka bir dahili hattan telefonu çekin. Bu özelliği kullanmak için, dahililer iletişim kutusunda çağrı grubu ve alıcı grubu oluşturmak gerekir. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.queues-pause-unpause = Sıra Duraklat/Devam Ettir
+feature_code.queues-pause-unpause.tooltip =
+	Tüm sıraları (kuyruk) duraklatmanıza (ya da devam ettirmenize) izin verir. Komutları takip edebilir ya da (uzman modda) özellik
+	kodunu girdikten hemen sonra *(asterisk) ve duraklatmak için numara biri ya da devam ettirmek için numara ikiyi girin.
+feature_code.queues_login_logout = Sıralar Giriş/Çıkış
+feature_code.queues_login_logout.tooltip =
+	Tüm sıralarda (kuyruk) oturum açmanıza (ya da kapatmanıza) izin verir. Komutları takip edebilir ya da (uzman modda) özellik
+	kodunu girdikten hemen sonra *(asterisk) ve oturum açmak için numara biri ya da oturumu kapatmak için numara ikiyi girin.
+feature_code.rec_msg_pa = Kişisel Asistan için Mesaj Kaydet
+feature_code.rec_msg_pa.tooltip = Arayanların kişisel asistanınız tarafından kendilerine hizmet edildiğinde duyacakları bir mesaj kaydedin. Yalnızca Kişisel Asistanın Gelişmiş sekmesinde etkinleştirildiği dahililer için kullanılabilir.
+feature_code.reminder = Hatırlatma
+feature_code.reminder.tooltip = Bir mesaj kaydeder. Kaydı kaç dakika içinde duymak istediğinizi yapılandırabilirsiniz. Ayarlanan süre sona erdiğinde, mevcut dahili numarada bir arama alacaksınız ve kayıt oynatılacaktır. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.remote_substitution = Uzaktan Değiştirme
+feature_code.remote_substitution.tooltip = Mevcut telefonun, farklı dahiliden arıyormuşsunuz gibi arama yapmasını sağlar. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.remote_vm = Uzak Sesli Posta
+feature_code.remote_vm.tooltip =
+	Herhangi bir dahili telefonda sesli postayı dinlemek için uzaktan sesli posta sistemine giriş. Komutları takip edebilir ya da  
+	(uzman modda) özellik kodunu hemen ardından * (asterisk) ve posta kutusu dahilisini girebilirsiniz. Özellik,
+	dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.remote_wakeup_call = Uzaktan Uyandırma Çağrısı
+feature_code.remote_wakeup_call.tooltip = Başka bir dahili hat için hatırlatıcı ya da uyandırma çağrısı ayarlayın. Hatırlatmanın yapılacağı dahili numarayı girin. Tek seferlik hatırlatma için 1'e, tekrarlayan günlük hatırlatıcı için 2'ye basın. Zamanı, 4 hane kullanarak 24 saat formatında girin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.remove_number_blacklist = Kara Listeden Numara Kaldır
+feature_code.remove_number_blacklist.tooltip = Kara listeye alınmış bir telefon numarası girin-kara listeye alınmış numara dahilinin kara listesinden silinecektir. Özellik, dahiliyle ilişkili Özellik Kategorisi'de etkinleştirilmelidir.
+feature_code.request_cc = Çağrı Tamamlama-Geçiş Yap
+feature_code.request_cc.tooltip =
+	Etkinleştirildiğinde, arayanların dahili numaranız için bir arama tamamlama isteğinde bulunmasına izin verilir, bunun 
+    anlamı asterisk’le konuşmayı bitirdiğinizde, dahilinize otomatik olarak arama tamamlama isteyen bir çağrı gelmesidir.
+feature_code.request_wakeup_call = Uyandırma Çağrısı
+feature_code.request_wakeup_call.tooltip = Geçerli dahili için bir hatırlatıcı ya da uyandırma çağrısı ayarlayın. Bir kerelik hatırlatma için 1 tuşuna veya tekrar eden günlük hatırlatma için 2 tuşuna basın. Zamanı, 4 hane kullanarak 24 saat formatında girin. Zaten bir hatırlatıcı arama ayarladıysanız, iptal etmek için 1 tuşuna basabilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.save = Kaydet
+feature_code.say_date_time = Tarih ve Saati Söyle
+feature_code.say_date_time.tooltip = Güncel sistem tarihini ve saatini söyleyin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.set_cfb_number = CF Meşgul Numarasını Ayarla
+feature_code.set_cfb_number.tooltip = Çağrı yönlendirme meşgul aktif edildiğinde ve dahiliniz meşgul olduğunda çağrıların gönderileceği numarayı ayarlar. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir. 
+feature_code.set_cfi_number = CF Numarasını Hemen Ayarla
+feature_code.set_cfi_number.tooltip = Anında çağrı yönlendirme etkinleştirildiğinde çağrıların gönderilmesi gereken numarayı ayarlar. Komutları takip edebilir ya da (uzman modunda) özellik kodunu girdikten hemen sonra *(asterisk) ve aramaların yönlendirileceği numarayı girebilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir. 
+feature_code.set_cfn_number = CF'yi Cevap Yok Numarasına Ayarla
+feature_code.set_cfn_number.tooltip = Dahili numaranız cevap veremediğinde çağrıların yönlendirileceği numarayı ayarlar. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.set_cfu_number = CF'yi Kullanılamayan Numarayı Ayarla
+feature_code.set_cfu_number.tooltip = Koşulsuz çağrı yönlendirme etkinleştirildiğinde çağrıların gönderileceği numarayı ayarlayın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.simulate_incoming_call = Gelen Çağrıyı Simüle Et
+feature_code.simulate_incoming_call.tooltip = Telefonun çaldığını test etmek için gelen bir aramayı simüle (taklit) edin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.speak_ext_number = Dahili Numaranı Söyle
+feature_code.speak_ext_number.tooltip = Hangi numaradan aradığınızı söyleyin. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.speak_last_number = Son Numarayı Söyle
+feature_code.speak_last_number.tooltip = Mevcut dahili numarayı arayan son numarayı söyler. Asıl arayanı aramak için 1'e basabilirsiniz. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.special_features = Özel Özellikler
+feature_code.spy_extension = Dahilide Casusluk
+feature_code.spy_extension.tooltip = Belirli bir dahili için casusluk yapın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.spy_ext_whisper = Fısıltı Modunda Dahilide Casusluk
+feature_code.spy_ext_whisper.tooltip = Fısıltı modunda belirli bir dahili üzerinde casusluk yapın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.spy_random_chn = Rastgele Kanallarda Casusluk
+feature_code.spy_random_chn.tooltip = Rastgele kanallarda casusluk yapın. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.test_services = Test Hizmetleri
+feature_code.toggle_cfb = Arama Yönlendirme Meşgul-Geçiş Yap
+feature_code.toggle_cfb.tooltip =
+	Dahili numaranız meşgul olduğunda çağrı yönlendirmeyi etkinleştirmek veya devre dışı bırakmak için geçiş yapın. Bu yönlendirmeyi etkinleştirmek ve 
+	aynı zamanda çağrı yönlendirme numarasını girmek istiyorsanız şu formatı kullanın: <b>{0}*100</b>.
+feature_code.toggle_cfi = Hemen Çağrı Yönlendirme-Geçiş Yap
+feature_code.toggle_cfi.tooltip =
+	Anında çağrı yönlendirmeyi değiştirir. Bu yönlendirmeyi etkinleştirmek ve aynı zamanda çağrı yönlendirme numarasını
+	girmek için şu formatı kullanın: <b>{0}*100</b>.
+feature_code.toggle_cfn = Cevapsız Aramada Çağrı Yönlendirme-Geçiş Yap
+feature_code.toggle_cfn.tooltip =
+	Dahili numaranız gelen aramaları cevaplayamadığında arama yönlendirmeyi etkinleştirmek ya da devre dışı bırakmak için geçiş yapın. Bu yönlendirmeyi
+	etkinleştirmek ve aynı zamanda çağrı yönlendirme numarasını	girmek için şu formatı kullanın:  <b>{0}*100</b>.
+feature_code.toggle_cfu = Kullanılamayan Numarayı Yönlendirme-Geçiş Yap
+feature_code.toggle_cfu.tooltip =
+	Çağrı yönlendirmeyi etkinleştirmek ya da devre dışı bırakmak için geçiş yapın. Bu yönlendirmeyi etkinleştirmek ve aynı zamanda
+	çağrı yönlendirme numarasını girmek için şu formatı kullanın: <b>{0}*100</b>.
+feature_code.voice-mail = Sesli Mesaj
+feature_code.recordings_announcements = Kayıtlar & Duyurular
+menu.feature_codes = Özellik Kodları
+module.feature_code = Özellik Kodları
+feature_code.send_vm_msg = Sesli Mesaj Gönder
+feature_code.send_vm_msg.tooltip = Herhangi bir dahiliyi tuşlayıp sesli mesaj bırakmanıza olanak sağlar. Örneğin, *95*2492'yi çevirmek, 2492 numaralı dahili hat için bir sesli mesaj bırakmanıza olanak tanır. Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.spy_ext_barge = Barge Modunda Dahilide Casusluk
+feature_code.spy_ext_barge.tooltip = Tek kanal üzerinde fısıldamak yerine çağrıya dahil olan iki kanalda da söz alın.
+feature_code.direct_remote_voicemail = Doğrudan Uzak Sesli Posta
+feature_code.paging_and_intercom = Çağrı
+feature_code.paging_and_intercom.tooltip =
+	Belirtilen dahiliye giden bir arama yapar ve bunları, sesi kapatılmış katılımcı olarak bir konferans köprüsüne aktarır
+	(örn: *827000). Özellik, dahiliyle ilişkili Özellik Kategorisi'nde etkinleştirilmelidir.
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip =
+	Aynı hot desking özelliği gibi çalışır, tek fark özellik kodunu kullandığınızda arayan ya da hot desking
+	kullanıcısı atanmış kuyruklara otomatik olarak giriş yapmış olacaktır. Ayrıca, belirli bir dahiliye
+	giriş yapmak için kısa kodlar kullanmak mümkündür, örn: <b>*90#100</b> sistem dahili 100'e giriş yapmasını belirtir, ve <b>*90#100#1234</b>
+	sisteme 1234 şifresini kullanarak dahili 100'de giriş yapılacağını belirtir.

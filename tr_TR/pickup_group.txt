@@ -1,0 +1,14 @@
+menu.pickup_groups = Pickup Grupları
+module.pickup_group = Pickup Grupları
+pickup_group = Pickup Grupları
+pickup_group.allow_pickup = Pickup'a İzin Ver
+pickup_group.allow_pickup.tooltip = Bu pickup grubunun pickup üyesine izin ver.
+pickup_group.description = Açıklama
+pickup_group.description.tooltip = Bu pickup grubu için kısa açıklama.
+pickup_group.extension = Dahili
+pickup_group.extension.tooltip = Bu pickup grubunun bir üyesinin telefonunu çekme iznine sahip olma ya da grubun bir üyesi olmak için dahili hat numarasına sahip olma, ya da her ikisi.
+pickup_group.members.empty = Bu pickup grubuna hiçbir geçerli üye eklenmedi.
+pickup_group.general = Genel
+pickup_group.member = Üye
+pickup_group.member.tooltip = Bu dahilinin, pickup grubunun bir üyesi olup olmadığını belirtin.
+pickup_group.members = Üyeler

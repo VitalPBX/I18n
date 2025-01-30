@@ -38,3 +38,4 @@ mobile_settings.reg_host.tooltip =
     the same as the "Provisioning Domain / IP" field.
 mobile_devices.qr = QR Code
 mobile_devices.validation.cannot_show_qr = Cannot show QR because the provided data is invalid.
+mobile_devices.app_link = Mobile App Link

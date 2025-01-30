@@ -44,3 +44,7 @@ recmanagement.auth_pin = Authorization PIN
 recmanagement.auth_pin.tooltip = It allows you to define an optional password for protecting this audio from being re-recorded by unauthorized users.
 recmanagement.invalid_recording_code = You have provided an invalid code.
 recmanagement.invalid_auth_pin = The authorization PIN contains invalid characters. Only numbers and the asterisk symbols are allowed.
+recmanagement.create_from_tts = Audio From Text
+recmanagement.voice_profile = Voice Profile
+recmanagement.action.tts = {recmanagement.create_from_tts}
+recmanagement.action.tts.tooltip = Edit audio using TTS.

@@ -247,7 +247,7 @@ extensions.dynamic_routing = Dynamic Routing
 extensions.dynamic_routing.tooltip =
 	Allows you to enable or not the dynamic routing for this extension. If enabled, when an outside party
 	(who previously was called by this extension) calls back, his call will be routed directly to this extension
-extensions.max_reached = You have reached the maximum number of allowed extensions
+extensions.max_reached = You have reached the maximum number of allowed extensions.
 extensions.cid_on_diversions = CallerID On Diversions
 extensions.cid_on_diversions.tooltip =
 	It allows you to define what caller id will be sent when a diversion is performed.<br><br>
@@ -319,3 +319,5 @@ extensions.notify_missed_calls.tooltip =
 extensions.sms_number = SMS Number
 extensions.sms_number.tooltip =
     A number from an SMS provider for sending and receiving SMS on the attached devices of this extension.
+extensions.global_max_reached = The current server license has surpassed the allowable limit for extensions.
+extensions.device_duplicated_on_tenant = The username of the device "{0}" is already taken or reserved, please choose another name.

@@ -48,3 +48,5 @@ music_on_hold.streaming_format = Format
 music_on_hold.streaming_format.tooltip = The 'format' option specifies the audio format that the 'application' will provide to Asterisk.
 music_on_hold.insufficient_arguments = You've not provided the application script nor streaming URL. At least one of these fields must be provided
 music_on_hold.empty = -- None --
+music_on_hold.order.randstart = Random Start
+music_on_hold.order.randstart.tooltip = Same as "Linear," but the first file is chosen at random.

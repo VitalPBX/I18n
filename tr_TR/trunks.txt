@@ -1,0 +1,245 @@
+menu.trunks = Bağlantı Noktaları
+module.trunks = Bağlantı Noktaları
+trunks = Bağlantı Noktaları
+trunks.advanced = Gelişmiş
+trunks.class_of_service_id = Hizmet Sınıfı
+trunks.class_of_service_id.tooltip = Bağlantı noktası (ana hat) arama planı erişimi için hizmet sınıfı.
+trunks.codecs = Kodekler
+trunks.codecs.tooltip = İzin verilen kodek listesi. Kodek bileşenlerinin listelendiği sıra, tercih sırasını belirler. En az bir kodek seçerseniz, "disallow = all" (reddet=tümü) parametresi de oluşturulur.
+trunks.custom_settings = Özel Ayarlar
+trunks.dahdi_trunk_parameters = DAHDi Bağlantı Noktası Parametreleri
+trunks.description = Açıklama
+trunks.description.tooltip = Bu bağlantı noktasını tanımlayan kısa açıklama
+trunks.device_for_incoming_calls = Gelen Çağrılar için Cihaz (Kullanıcı)
+trunks.device_for_outgoing_calls = Giden Çağrılar için Cihaz (Eş)
+trunks.dialoptions = Arama Seçenekleri
+trunks.dialoptions.tooltip = Arama Seçeneği Parametreleri
+trunks.dialstring = Dialstring
+trunks.disable = Bağlantı Noktasını Etkisizleştir
+trunks.disable.tooltip = Bu, erişilmez olması için bağlantı noktasını (trunk) devre dışı bırakmanıza izin verir.
+trunks.general = Genel
+trunks.group_id = Kanal Grubu
+trunks.group_id.tooltip = Bu bağlantı noktası tarafından kullanılan kanal grubu.
+trunks.group_mode = Mod
+trunks.group_mode.tooltip = Uygun kanallar için seçim modu.
+trunks.incoming_defaultuser = Uzak Kullanıcı Adı
+trunks.incoming_defaultuser.tooltip = Uzak sunucu için kimlik doğrulama kullanıcı adı
+trunks.incoming_host = Sunucu
+trunks.incoming_host.tooltip = SIP sunucusu çağrı adresi
+trunks.incoming_qualify = Belirle
+trunks.incoming_qualify.tooltip = Faal olduğundan emin olun
+trunks.incoming_remotesecret = Uzak Parola
+trunks.incoming_remotesecret.tooltip = Uzak sunucu için kimlik doğrulama parolası
+trunks.incoming_secret = Yerel Parola
+trunks.incoming_secret.tooltip = Uzak sunucudan gelen kimlik doğrulama talepleri için kullanılacak parola
+trunks.incoming_trunk = IAX Birleştirme
+trunks.incoming_trunk.tooltip = Tek bir IAX paketinde birkaç aramanın sesini göndermeye izin verir. Gerekli ağ bant genişliğini önemli ölçüde azaltabilir.
+trunks.incoming_type = IP Doğrulama
+trunks.incoming_type.tooltip = İşaretliyse, kullanıcı adı kimlik doğrulamasına ek olarak gelen taleplerin IP adresine göre kimlik doğrulamasına izin verir.
+trunks.incoming_username = Kullanıcı Adı
+trunks.incoming_username.duplicate = Gelen Kullanıcı Adı zaten mevcut (benzersiz olmalıdır)
+trunks.incoming_username.tooltip = Uzak sunucunun bu PBX ile iletişim kurmak için kullanması gereken kullanıcı adı. Aynı zamanda oluşturulacak cihaz adıdır.
+trunks.insecure = Güvenilmez
+trunks.insecure.invite = Davet Et
+trunks.insecure.invite.tooltip = Gelen DAVETLER(INVITES) için kimlik doğrulaması gerektirmez. 
+trunks.insecure.not_used = Kullanılmamış
+trunks.insecure.port = Port
+trunks.insecure.port.tooltip = Port numarasıyla eşleşmeden, eşin IP adresine göre eşleşmesine izin verir
+trunks.insecure.port_invite = Port, Davet Et
+trunks.insecure.port_invite.tooltip = DAVET (INVITE) mesaj türünde kontrol, port kontrol ya da kimlik doğrulama olmadığı için bu kombinasyon minimum güvenliktedir.
+trunks.insecure.tooltip = Gelen SIP isteklerinin kimlik doğrulamasının gevşemesine yol açar.
+trunks.music_group_id = Bekleme Müziği
+trunks.music_group_id.tooltip = İlgili seçenek, bu kanal eşi (peer) beklemeye aldığında eş (peer) kanala hangi bekleme sınıfı müziğinin önerileceğini belirtir.
+trunks.outgoing_defaultuser = Uzak Kullanıcı Adı
+trunks.outgoing_defaultuser.tooltip = Uzak sunucu için gereken kimlik doğrulama kullanıcı adı
+trunks.outgoing_fromdomain = Kimden Alanı
+trunks.outgoing_fromdomain.tooltip = "Kimden" başlık alanınındaki alan adı (domain) bölümünü değiştirir. Bazen uzak sunucuda uygun kimlik doğrulama için gereklidir. Aksi takdirde yerel IP adresi kullanılır.
+trunks.outgoing_fromuser = Kullanıcıdan
+trunks.outgoing_fromuser.tooltip = "Kimden" başlık alanındaki SIP kullanıcı adını değiştirir. Bazen uzak sunucuda uygun kimlik doğrulama için gereklidir.
+trunks.outgoing_host = Uzak Ana Bilgisayar
+trunks.outgoing_host.duplicate = Uzak ana bilgisayar gereklidir.
+trunks.outgoing_host.tooltip = Uzak sunucu adresi
+trunks.outgoing_port = Uzak Port
+trunks.outgoing_port.tooltip = Uzak tarafta bağlanmak istediğimiz port numarası
+trunks.outgoing_qualify = Belirle
+trunks.outgoing_qualify.tooltip = Faal olduğundan emin olur
+trunks.outgoing_remotesecret = Uzak Parola
+trunks.outgoing_remotesecret.tooltip = Uzak sunucu için doğrulama parolası
+trunks.outgoing_secret = Yerel Parola
+trunks.outgoing_secret.tooltip = Uzak sunucudan gelen kimlik doğrulama talepleri için kullanılacak parola
+trunks.outgoing_trunk = IAX Birleştirme
+trunks.outgoing_trunk.tooltip = Tek bir IAX paketinde birkaç aramanın sesini göndermeye izin verir. Gerekli ağ bant genişliğini önemli ölçüde azaltabilir.
+trunks.outgoing_type = Gelen Aramalara İzin Ver
+trunks.outgoing_type.tooltip = İşaretlenirse, bu cihazın aramaları kabul etmesine de izin verilecektir.
+trunks.outgoing_username = Yerel Kullanıcı Adı
+trunks.outgoing_username.duplicate = Sağlanan yerel kullanıcı adı zaten mevcut (benzersiz olmalıdır)
+trunks.outgoing_username.tooltip = Uzak sunucunun bu PBX ile iletişim kurmak için kullanması gereken kullanıcı adı. Aynı zamanda oluşturulacak cihaz adıdır.
+trunks.overwrite_cid = CID Üzerine Yaz
+trunks.overwrite_cid.tooltip = Arayan Kimliğinin (CID) üzerine yaz.
+trunks.register_flag = Varsayılanı Kullan
+trunks.register_flag.tooltip = Varsayılan Kayıt Dizisini kullan.
+trunks.register_string = Kayıt Dizisi
+trunks.restricted = Varsayılan Bağlantı Noktası
+trunks.ringtimer = Çalma Süresi
+trunks.ringtimer.tooltip = Bağlantı noktasını çaldırma süresi
+trunks.technology = Teknoloji
+trunks.technology.iax2 = IAX2
+trunks.technology.sip = SIP
+trunks.technology.telephony = Telefon
+trunks.technology.tooltip = Bağlantı Noktası Teknolojisi
+trunks.trkcustom.enabled = Etkin
+trunks.trkcustom.param = Parametre
+trunks.trkcustom.type = Tip
+trunks.trkcustom.type.friend = Arkadaş
+trunks.trkcustom.type.peer = Eş
+trunks.trkcustom.type.user = Kullanıcı
+trunks.trkcustom.value = Değer
+trunks.trunk_cid = Bağlantı Noktası Arayan Kimliği
+trunks.trunk_cid_number.invalid = Bağlantı Noktası Arayan Kimliği geçersiz. Yalnızca *, #, + ve sayılara izin verilir.
+trunks.trunk_cid.tooltip = Bu bağlantı noktası için Arayan Kimliği
+trunks.trunk_cid_name = Bağlantı Noktası Arayan Kimliği Adı
+trunks.trunk_cid_number = Bağlantı Noktası Arayan Kimliği Numarası
+trunks.cos.warning = Gerçekleştirmek üzere olduğunuz eylem, güvenlik açıkları oluşturabilir. <b>Bağlantı Noktaları için Hizmet Sınıfı mantığını anladığınızdan emin olmadığınız sürece devam etmeyin.</b>
+trunks.cos.warning.title = Uyarı
+trunks.cos.warning.confirm = Anlıyorum ve onaylıyorum
+trunks.cos.warning.cancel = Değişikliğimi iptal et
+trunks.dial_profile_id = Arama Profili
+trunks.dial_profile_id.tooltip = Bu bağlantı noktası arandığında kullanılacak tuşlama (çevirme) seçeneklerine sahip profil.
+trunks.outgoing_username.invalid = Lütfen geçerli bir cihaz adı girin. Kısa çizgi, alt çizgi ve artı işaretli alfanümerik değere izin verilir.
+trunks.nat = Nat
+trunks.continue_on_busy = Meşgulde Devam Et
+trunks.continue_on_busy.tooltip =
+	Bu bağlantı noktası meşgul olduğunda çağrıyı yapılandırılmış bir sonraki bağlantı nok. ile sürdürmeye zorlar. <br><br> <b>Not: </b> Bu onay kutusu
+	işaretlenmemiş olsa bile herhangi bir hata olursa arama bir sonraki bağlantı nok. ile devam edecektir.
+trunks.validation.duplicated_outgoing_username = Sağlanan giden kullanıcı adı başka bir bağlantı noktası tarafından kullanılıyor
+trunks.validation.duplicated_description = Sağlanan açıklama başka bir bağlantı noktası tarafından kullanılıyor
+trunks.validation.same_username = Giden ve gelen aramalar için kullanıcı adı aynıdır. Lütfen her iki alan için farklı kullanıcı adı kullanın
+trunks.validation.duplicated_incoming_username = Gelen aramalar bölümünde sağlanan kullanıcı adı başka bir bağlantı nok. tarafından kullanılıyor
+trunks.validation.no_outgoing_username = Giden kullanıcı adı sağlanmadı
+trunks.validation.no_outgoing_host = Giden sunucusu sağlanmadı.
+trunks.simultaneous_calls = Eşzamanlı Çağrılar
+trunks.simultaneous_calls.tooltip = Bu bağlantı noktası için izin verilen eşzamanlı giden çağrı miktarını tanımlamanıza olanak tanır.
+trunks.plain_mode = Metin Moduna Geç
+trunks.visual_mode = Görsel Moda Geç
+trunks.outgoing_settings = Eş Parametreleri
+trunks.outgoing_settings.tooltip = VoIP sağlayıcınız tarafından sağlanan eş parametreler
+trunks.incoming_settings = Kullanıcı Parametreleri
+trunks.incoming_settings.tooltip = VoIP sağlayıcınız tarafından sağlanan kullanıcı parametreleri
+trunks.no_outgoing_settings = Bu bağlantı noktasında tanımlanmış giden ayarlar yok
+trunks.rules = Arama Manipülasyon Kuralları
+trunks.rules.prepend = Başa Ekle
+trunks.rules.prefix = Ön Ek
+trunks.rules.pattern = Şablon
+trunks.rules.enabled = {trunks.trkcustom.enabled}
+trunks.get_did_from = DID'i -dan Al 
+trunks.get_did_from.to = Alıcı
+trunks.get_did_from.tooltip = DID numarasının hangi SIP başlığından çıkarılacağını tanımlamanıza izin verir
+trunks.get_cid_from = CID'i -dan Al
+trunks.get_cid_from.tooltip = Arayan kimliği bilgisinin hangi SIP başlığından çıkarılacağını tanımlamanıza izin verir
+trunks.get_cid_from.from = -den/-dan
+trunks.get_cid_from.contact = Kişi
+trunks.outbound_registration_settings = Giden Kayıt Ayarları
+trunks.outbound_registration = Kayıt Gerekli
+trunks.outbound_registration.tooltip = Uzak sunucu ya da VoIP sağlayıcısına kaydolmak gerekip gerekmediğini tanımlar
+trunks.auth_rejection_permanent = Kalıcı Yetki Reddi
+trunks.auth_rejection_permanent.tooltip =
+	Bu seçenek etkinleştirilirse ve bir kimlik doğrulama başarısız olursa, kurulum yeniden yüklenene kadar kayıt
+	tekrar denenmeyecektir.
+trunks.max_retries = Maks. Yeniden Deneme
+trunks.max_retries.tooltip = Maksimum kayıt denemesi sayısı
+trunks.expiration = Son
+trunks.expiration.tooltip = Kayıtlar için saniye cinsinden sona erme süresi
+trunks.retry_interval = Yeniden Deneme Aralığı
+trunks.retry_interval.tooltip = Giden kayıt başarısız olursa, yeniden denemeler arasındaki saniye cinsinden aralık
+trunks.forbidden_retry_interval = Yasaklanmış Yeniden Deneme Aralığı
+trunks.forbidden_retry_interval.tooltip =
+	403 Yasak yanıtı aldıktan sonra kaydı tekrar denemeden önce beklenecek süreyi tanımlar.
+	0 verilirse, 403 Yasak yanıtı alındıktan sonra yeniden deneme yapılmaz.
+trunks.match = Eşleşme
+trunks.match.tooltip =
+	Bu değer, IP adreslerinin ya da sunucu adlarının virgülle ayrılmış bir listesidir. IP adreslerine eklenmiş bir alt ağ maskesi olabilir.
+	Alt ağ maskesi, CIDR ya da ondalık gösterimle yazılabilir. IP adresini ve alt ağ maskesini eğik çizgiyle 
+	('/') ayırın.
+trunks.general_conf  = Genel Yapılandırmalar
+trunks.transport = {profiles_pjsip_transport}
+trunks.transport.tooltip = Kullanılacak açık aktarım yapılandırması
+trunks.validation.pjsip.no_remote_credentials = Giden kayıt gerekli olarak işaretlenmiş fakat uzak kullanıcı adı ya da uzak parola tanımlanmamış.
+trunks.custom_dial_string = Arama Dizisi %s
+trunks.custom_dial_string.tooltip =
+	Bu bağlantı noktasının aranması sırasında kullanılacak özel arama dizisi. Aranacak numranın gitmesi gereken her yerde $[EXTEN] değişkenini kullanın.
+	örn.: OH323/$[EXTEN]@10.0.1.200:10060
+trunks.validation.no_dial_string = Geçerli bir arama dizisi sağlamadınız
+trunks.tenant_trunk = Operatör
+trunks.tenant_trunk.tooltip = Bu bağlantı noktası üzerinden yapılan aramaların hangi kiracıya yönlendirileceğini tanımlamanıza olanak tanır.
+trunks.validation.no_tenant = Bu bağlantı noktası için geçerli bir kiracı seçmediniz
+trunks.max_reached = İzin verilen maksimum bağlantı sayısı sayısına ulaştınız
+trunks.custom_headers = Özel Başlıklar
+trunks.trkcustom.header = Başlık
+trunks.profile_id = {hot_desking.profile_id}
+trunks.profile_id.tooltip = {hot_desking.profile_id.tooltip}
+trunks.dtmfmode = {hot_desking.dtmfmode}
+trunks.contacts = Kişiler
+trunks.contacts.tooltip =
+	Bir AoR'ye atanan kalıcı kişiler. SIP URI formatında birden fazla iletişim adresi tanımlayabilirsiniz. <br>
+	örn.: sip:198.51.100.1:5060
+trunks.validation.pjsip.no_outgoing_host = Kayıt parametresi etkinleştirildi, ancak uzak sunucu parametresi sağlanmadı
+trunks.client_uri = İstemci URI
+trunks.client_uri.tooltip =
+	Bu, giden kayıt için kaydetme adresidir. (yani REGISTER (Kayıt) içindeki Kime bağlığında bulunan URI).
+	Bir ITSP'ye kaydolmak için, istemci SIP URI'sinin bir hesap adı ya da numara ve kayıt şirketi için sağlayıcının
+	sunucu adını oluşturması gerekebilir. örn. <b>1234567890@example.com</b>. Bu, sağlayıcılar arasında farklılık gösterebilir.<br><br>
+	Genel kayıt şirketlerine kayıt için, istemci SIP URI'si, kayıt operatörünün ağ oluşturma özelliklerine ve yapılandırmasına  
+	bağlı olacaktır.
+trunks.server_uri = URI Sunucusu
+trunks.server_uri.tooltip =
+	Bu, giden KAYIT'ı (REGISTER)göndermek için kayıt operatörünün bulunacağı URI'dir. Bu URI, Asterisk'ten giden
+	KAYIT (REGISTER)isteğinin istek URI'si olarak kullanılır. <br><br>Bir ITSP'ye kayıt olmak için, yapılacak ayar genellikle yalnızca
+	kayıt şirketinin domain'idir, örn. <b>sip:sip.example.com</b>.
+trunks.validation.pjsip.no_contacts =
+	Kişiler ve sunucu tanımlanmadı. Kişiler tanımlanmadığında, varsayılan kişi URI'si oluşturmak için uzak sunucu girmelisiniz.
+trunks.contact_user = Contact User
+trunks.contact_user.tooltip =
+	SIP iletişim başlığında SIP URI'sinin kullanıcı bölümünü ayarlar, uzak uç sizi bu kayıttan aradığında arama
+	planındaki dahiliye ulaşılmasını etkiler.
+trunks.overwrite_cid.yes = {trunk_group.overwrite_cid.yes}
+trunks.overwrite_cid.no = {trunk_group.overwrite_cid.no}
+trunks.overwrite_cid.if_not_provided = {trunk_group.overwrite_cid.if_not_provided}
+trunks.overwrite_cid.yes.tooltip = It forces to overwrite the CID with the CID parameters defined on this trunk
+trunks.overwrite_cid.no.tooltip = {trunk_group.overwrite_cid.no.tooltip}
+trunks.overwrite_cid.if_not_provided.tooltip = {trunk_group.overwrite_cid.if_not_provided.tooltip}
+trunks.none = -- Yok --
+trunks.qualify_frequency = {profiles_pjsip_qualify_frequency}
+trunks.qualify_frequency.tooltip = {profiles_pjsip_qualify_frequency_tooltip}
+trunks.qualify_timeout = {profiles_pjsip_qualify_timeout}
+trunks.qualify_timeout.tooltip = {profiles_pjsip_qualify_timeout_tooltip}
+trunks.outbound_proxy = {profiles_pjsip_outbound_proxy}
+trunks.outbound_proxy.tooltip = {profiles_pjsip_outbound_proxy_tooltip}
+trunks.fax_settings = Faks Ayarları
+trunks.t38_udptl_ec = Hata Bağlantı Yöntemi
+trunks.t38_udptl_ec.tooltip = T.38 UDPTL hata düzeltme yöntemi
+trunks.t38_udptl_ec.none = {none}
+trunks.t38_udptl_ec.none.info = Hiçbir hata düzeltmesi kullanılmamalıdır.
+trunks.t38_udptl_ec.fec = FEC
+trunks.t38_udptl_ec.fec.info = İleri hata düzeltme (forward error correctin, FEC) kullanılmalıdır.
+trunks.t38_udptl_ec.redundancy = Yedeklilik
+trunks.t38_udptl_ec.redundancy.info = Yedeklilik hata düzeltmesi kullanılmalıdır.
+trunks.t38_udptl_maxdatagram = MAKS Datagram
+trunks.t38_udptl_maxdatagram.tooltip =
+	T.38 UDPTL maksimum veri iletisi (datagram) boyutu. Bu seçenek, kırık bitişnoktası için uzak bitişnoktası maksimum
+	veri iletisini geçersiz kılacak şekilde ayarlanabilir.
+trunks.fax_detect_timeout = Algılama Zaman Aşımı
+trunks.fax_detect_timeout.tooltip =
+	Bu seçenek, fax_detect (faks algılama) seçeneği arama için devre dışı bırakılmadan önce bir aramada kaç saniye olduğunu belirler. 
+	Değeri sıfır olarak ayarlamak, zaman aşımını devre dışı bırakır.
+trunks.t38_udptl = T.38 UDPTL
+trunks.t38_udptl.tooltip =
+	Evet olarak ayarlanırsa, T.38 UDPTL desteği etkinleştirilir ve T.38 görüşme istekleri kabul edilir ve aktarılır.
+trunks.fax_detect = Faks Algılama
+trunks.fax_detect.tooltip = CNG ton algılamasının etkin olup olmadığı
+trunks.t38_udptl_nat = T.38 UDPTL NAT
+trunks.t38_udptl_nat.tooltip = UDPTL oturumlarında NAT desteğinin etkin olup olmadığı
+trunks.t38_udptl_ipv6 = T.38 UDPTL IVP6
+trunks.t38_udptl_ipv6.tooltip = IPv6'nın UDPTL Oturumları için kullanılıp kullanılmadığı
+trunks.max_contacts.tooltip =
+	Bu AoR ile ilişkilendirilebilecek maksimum kişi sayısı. Bu değer "kişi" seçeneği ile eklenebilecek kişi sayısını etkilemez.
+	Yalnızca kayıt gibi harici etkileşim yoluyla eklenen kişileri sınırlar.
