@@ -1,0 +1,7 @@
+menu.user_profile = Profil
+module.user_profile = Min profil
+user_profile = Användarprofil
+user_profile.general = {users.general}
+user_profile.settings = {users.settings}
+users_profiles.select_all = Välj alla
+users_profiles.unselect_all = Avmarkera alla

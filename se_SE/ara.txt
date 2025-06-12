@@ -1,0 +1,39 @@
+module.ara = Asterisk Realtid
+menu.ara = {module.ara}
+ara.general = {vitalpbx.general}
+ara.enabled = Aktiverad
+ara.enabled.tooltip = Den aktiverar realtidsfunktionen för PJSIP-enheter och trunkar.
+ara.external_auth = Extern autentisering
+ara.external_auth.tooltip =
+	När den är inställd på yes är parametern ”auth” avaktiverad för PJSIP-enheter. Detta är användbart när autentiseringen görs
+	från extern programvara som ”Kamailio”.
+ara.enabled_realtime = Aktivering av realtid
+ara.enabled_realtime.p =
+	Är du säker på att du vill aktivera Realtidsfunktionen? Att aktivera den här funktionen kan ta flera minuter.
+	Dessutom kommer Asterisk att startas om under processen.
+ara.continue = Fortsätt
+ara.disable_realtime = Avaktivering av realtid
+ara.disable_realtime.p =
+	Är du säker på att du vill inaktivera realtidsfunktionen? Tänk på att Asterisk kommer att startas om
+	under processen.
+ara.attached_servers = Asterisk-fjärrservrar
+ara.add_server = Lägg till server
+ara.server_name = Servernamn
+ara.server_name.tooltip = En kort beskrivning av denna server
+ara.server = IP/Domän
+ara.server.tooltip = IP-adress/domän för servern
+ara.status = Anslutningsmöjligheter
+ara.actions = Åtgärder
+ara.root_password = Rotlösenord
+ara.root_password.password =
+    Rotlösenordet för att ansluta till servern och göra de konfigurationer som krävs. Det här lösenordet lagras inte i
+    databasen och krävs endast när servern skapas eller om serverns IP/Domän ändras.
+ara.invalid_ip_domain = Du har angett en ogiltig IP/Domän.
+ara.duplicated_ip_domain = Den angivna IP/Domänen finns redan.
+ara.cannot_connect_to_server =
+	Det är inte möjligt att upprätta en anslutning till servern för att konfigurera den.
+ara.cannot_configure_server =
+	Det var inte möjligt att konfigurera servern.
+ara.connected = Ansluten
+ara.disconnected = Frånkopplad
+ara.edit_server = Redigera server

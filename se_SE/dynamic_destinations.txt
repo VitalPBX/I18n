@@ -1,0 +1,52 @@
+menu.dynamic_destinations = Dynamiska destinationer
+dynamic_destinations = {menu.dynamic_destinations}
+module.dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.general = {vitalpbx.general}
+dynamic_destinations.condition = Svar
+dynamic_destinations.destination = Destination
+dynamic_destinations.enabled = Aktiverad
+dynamic_destinations.description = Beskrivning {0}
+dynamic_destinations.description.tooltip = Kort beskrivning för detta objekt
+dynamic_destinations.host = Värd {0}
+dynamic_destinations.host.tooltip = Det gör att du kan definiera den värd eller IP-adress där skriptet finns
+dynamic_destinations.path = Rutt {0}
+dynamic_destinations.path.tooltip = Skriptnamn som ska exekveras
+dynamic_destinations.query_string = Frågesträng
+dynamic_destinations.query_string.tooltip =
+	En serie parametrar som ska skickas som en del av skriptet.
+	Det speciella argumentvärdet <b>[CID-NUMMER]</b> kommer det att ersättas av uppringarens cid-nummer.
+	<br><br> Exempel: <br> <b>caller_num=[CID-NUMMER]&ctype=vip</b>
+dynamic_destinations.port = {cid_lookup.port}
+dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
+dynamic_destinations.auth_user = {cid_lookup.user}
+dynamic_destinations.auth_user.tooltip = {cid_lookup.user.tooltip}
+dynamic_destinations.auth_password = {cid_lookup.password}
+dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
+dynamic_destinations.secure = {cid_lookup.secure}
+dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
+dynamic_destinations.default_destination = Standarddestinationer {0}
+dynamic_destinations.default_destination.tooltip = Destinationer som ska utföras vid mottagande av ett odefinierat svar
+dynamic_destinations.destinations = Destinationer
+dynamic_destinations.destinations.title = Destinationer som ska köras beroende på svar som mottagits efter skriptexekvering
+dynamic_destinations.mod_dest = Modul för standarddestinationer 
+dynamic_destinations.conditions.empty = Inga giltiga destinationer definierade
+dynamic_destinations.type  = Källtyp
+dynamic_destinations.type.tooltip = Typ av källa som ska användas
+dynamic_destinations.type.option.api = URL
+dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
+dynamic_destinations.database = Database {0}
+dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
+dynamic_destinations.query = Fråga {0}
+dynamic_destinations.query.tooltip =
+	Fråga att utföra. Den speciella token <b>[CID-NUMMER]</b> kommer att ersättas med numret till den som ringer. t.ex:
+	<b> VÄLJ 'VIP_CUSTOMER' som `svar` FRÅN `kunder` DÄR `nummer` = '[CID-NUMMER]' </b>
+dynamic_destinations.mysql_password = Lösenord
+dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
+dynamic_destinations.mysql_host = Värd {0}
+dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
+dynamic_destinations.mysql_username = Användarnamn {0}
+dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
+dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
+dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}
+dynamic_destinations.timeout = {cid_lookup.timeout}
+dynamic_destinations.timeout.tooltip = {cid_lookup.timeout.tooltip}

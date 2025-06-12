@@ -1,0 +1,12 @@
+languages = Språk
+languages.description = Beskrivning
+languages.description.tooltip = Kort beskrivning för att identifiera detta språk.
+languages.destination = Destinationer
+languages.general = Allmänt
+languages.langcode = Språk
+languages.langcode.tooltip = Kanalspråk för att ställa in.
+languages.mod_dest = Moduldestinationer
+languages.name = Namn
+languages.name.tooltip = Kortnamn (måste vara unikt).
+menu.languages = Språk
+module.languages = Språk

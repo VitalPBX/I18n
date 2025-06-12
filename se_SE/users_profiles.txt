@@ -1,0 +1,32 @@
+menu.user_profiles = Användarprofiler
+module.users_profiles = Användarprofiler
+users_profiles = Användarprofiler
+menu.users_profiles = {module.users_profiles}
+users_profiles.collapse_all = Kollapsa alla
+users_profiles.confirm_delete = Är du säker på att du vill radera den här profilen?
+users_profiles.delete = Radera
+users_profiles.description = Profilens namn
+users_profiles.description.tooltip = Namn för denna profil.
+users_profiles.expand_all = Expandera alla
+users_profiles.general = Allmänt
+users_profiles.module_access = Modulåtkomst
+users_profiles.priv.add = Lägg till
+users_profiles.priv.delete = Radera
+users_profiles.priv.edit = Redigera
+users_profiles.priv.view = Visa
+users_profiles.superadmin = Bevilja privilegier
+users_profiles.superadmin.tooltip = Tillåt åtkomst till alla moduler.
+users_profiles.deleting_default_user_profile = Det går inte att ta bort standardanvändarprofilen
+users_profiles.permissions = Behörigheter
+users_profiles.change_language = Ändra språk
+users_profiles.change_language.tooltip =
+	Den definierar om en användare med denna profil tilldelad ska kunna ändra GUI-språket
+users_profiles.get_updates = Få uppdateringar
+users_profiles.get_updates.tooltip =
+	Den definierar om en användare med denna profil tilldelad ska kunna uppdatera <b>{0}</b> från GUI
+users_profiles.update_profile = Uppdatera profil
+users_profiles.update_profile.tooltip =
+	Den definierar om en användare med denna profil tilldelad ska kunna uppdatera sina profilinställningar
+users_profiles.role_is_being_used =  Denna roll används av {0}
+users_profiles.single_user = <b>{0}</b> användare
+users_profiles.multiple_users = flera användare

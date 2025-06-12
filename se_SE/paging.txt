@@ -1,0 +1,56 @@
+menu.paging_and_intercom = Personsökning & Intercom
+module.paging = Personsökning & Intercom
+paging = Personsökning & Intercom
+paging.description = Beskrivning
+paging.description.tooltip = Kort beskrivning för att identifiera denna personsökning
+paging.duplex = Duplex Audio
+paging.duplex.tooltip = Det här alternativet kallas ibland ”talkback paging” och innebär att den utrustning som tar emot personsökningen har möjlighet att sända ljud tillbaka samtidigt som den tar emot ljud. I allmänhet vill du inte använda detta om du inte har ett specifikt behov av det.
+paging.extensions = Anslutningar
+paging.extensions.tooltip = Lista över de anslutningar som ska ringas.
+paging.extension = Kod
+paging.extension.invalid = Personsökningskoden är ogiltig. Endast *,#,+ och siffror är tillåtna.
+paging.extension.tooltip = Nummer för att nå denna tjänst
+paging.general = Allmänt
+paging.ignore = Ignorera vidarekoppla samtal
+paging.ignore.tooltip = Ignorera försök att vidarekoppla samtalet
+paging.invalid.already_exists = Ogiltigt personsökningsnummer {0}. Numret används av {1} modul.
+paging.quiet = Tyst läge
+paging.quiet.tooltip = Tyst, spelar inte upp något pip för den som ringer
+paging.record = Skivans personsökning
+paging.record.tooltip = Spela in sidan i en fil
+paging.seconds =
+	[one] En sekund
+	[other] {0} Sekunder
+paging.skip_busy = Hoppa över upptagen
+paging.skip_busy.tooltip = Ringer upp en kanal endast om enhetens tillstånd är NOT_INUSE. Det här alternativet är troligen bara användbart (och tillförlitligt) för SIP-bundna kanaler, och kanske inte ens fungerar om en enda linje tillåts flera samtal på den. Förlita dig därför inte på detta alternativ i alla fall.
+paging.timeout = Tidsgräns
+paging.timeout.tooltip = Ange hur lång tid som systemet ska försöka koppla ett samtal. Efter denna tid kommer alla intercom-samtal som inte har besvarats att läggas på av systemet.
+paging.multicastrtp = MulticastRTP
+paging.ip_address = IP-adress
+paging.port = Port
+paging.no_members = Inga anslutningar eller giltiga multicast-medlemmar har angetts
+paging.announcement = Tillkännagivande
+paging.announcement.tooltip = Tillkännagivande som ska spelas upp för alla deltagare som sökts
+paging.mode = Läge
+paging.mode.tooltip = Det gör att du kan definiera personsökningsbeteendet
+paging.mode.default = Standard
+paging.mode.annon_only = Tillkännagivande endast
+paging.mode.default.tooltip = Standardbeteende. Spelar upp meddelandet om det har definierats och låter sedan uppringaren fortsätta att tala
+paging.mode.annon_only.tooltip = Spelar upp meddelandet och lägger sedan på luren
+paging.schedule = Schema
+paging.schedule_enabled = Aktiverad
+paging.schedule_enabled.tooltip = Om den är inställd på yes automatiseras personsökningen enligt de angivna schemana.
+paging.schedules.time = Tid
+paging.schedules.start_day = Startdag
+paging.schedules.end_day = Slutdag
+paging.schedules.excluded_dates = Exkluderade datum
+paging.schedules.description = Beskrivning
+paging.validation.mode.no_announcement = Du har ställt in läget på ”Endast meddelande”, men har inte valt något meddelande
+paging.schedules.month = Månad
+paging.schedules.dom = Dag i månaden
+paging.validation.schedule.no_announcement =
+	Du har aktiverat schemat för personsökning, men har inte valt något meddelande som ska spelas upp när du matchar ett schema
+paging.validation.no_schedules = Du har aktiverat personsökningsschemat, men har inte definierat något schema
+paging.no_license =
+ Du har nått maximalt antal lediga Paging-objekt med schemafunktionen aktiverad. Aktivera tillägget för att ha
+ obegränsat antal personsökningsobjekt med denna funktion

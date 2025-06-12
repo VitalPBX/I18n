@@ -1,0 +1,14 @@
+module.jmeet = Videokonferens
+menu.jmeet = {module.jmeet}
+jmeet.general = {vitalpbx.general}
+jmeet.vitalpbx = {app.name}
+jmeet.jitsi = Jitsi
+jmeet.custom = Anpassad
+jmeet.server = Server
+jmeet.server.tooltip = Välj den server där konferensen kommer att äga rum
+jmeet.custom_server = Anpassad server
+jmeet.custom_server.tooltip = Här kan du definiera din egen server där konferensen kommer att genomföras
+jmeet.room = Rumsnamn
+jmeet.room.tooltip = Ett rumsnamn för att ansluta till eller starta en ny konferens
+jmeet.join_create = Gå med / Skapa
+jmeet.url = URL

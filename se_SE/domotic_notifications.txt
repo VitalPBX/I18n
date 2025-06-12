@@ -1,0 +1,23 @@
+module.domotic_notifications = Domotiska meddelanden
+
+domotic_notifications.general.tab = {vitalpbx.general}
+
+domotic_notifications.unit_id = Terminal
+domotic_notifications.unit_id.help = Beroende på vilken terminal som valts visas den enhet som ska konfigureras.
+domotic_notifications.device_id = Enhet
+domotic_notifications.device_id.help = Enhet för att konfigurera aviseringen.
+domotic_notifications.device_id.select_one = -- Välj en --
+domotic_notifications.recording_id = Välkomstmeddelande
+domotic_notifications.recording_id.help = Ljud som ska spelas upp när enheten utlöses
+domotic_notifications.enabled = Aktiverad
+domotic_notifications.enabled.help = Aktivera aviseringar för den här enheten
+domotic_notifications.destination = Destination
+
+domotic_notifications.validation.device_id = Enheten är obligatorisk.
+domotic_notifications.validation.recording_id = Meddelandeljudet är obligatoriskt.
+domotic_notifications.validation.mod_destination = Destinationsmodulen är obligatorisk.
+domotic_notifications.validation.destination = Destinationen är obligatorisk.
+
+domotic_notifications.delete = {vitalpbx.delete}
+domotic_notifications.delete.message = Är du säker på att du vill ta bort detta meddelande?
+

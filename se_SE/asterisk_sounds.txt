@@ -1,0 +1,16 @@
+menu.asterisk_sounds = PBX-ljud
+module.asterisk_sounds = {menu.asterisk_sounds}
+asterisk_sounds.general = {vitalpbx.general}
+asterisk_sounds.sound = Ljudpaket
+asterisk_sounds.installed_version = Installerad version
+asterisk_sounds.available_version = Tillgänglig version
+asterisk_sounds.actions = Åtgärder
+asterisk_sounds.invalid_data = Ogiltiga uppgifter har lämnats
+asterisk_sounds.successfully_installed = Asterisk ljudpaket har installerats framgångsrikt
+asterisk_sounds.not_installed = Asterisk ljudpaket har inte installerats ännu
+asterisk_sounds.successfully_updated = Asterisks ljudpaket har uppdaterats framgångsrikt
+asterisk_sounds.cannot_update = Asterisks ljudpaket kan inte uppdateras eftersom det inte är installerat ännu
+asterisk_sounds.cannot_remove = Asterisks ljudpaketet kan inte tas bort eftersom det inte är installerat ännu
+asterisk_sounds.cannot_reinstall = Asterisks ljudpaketet kan inte installeras om eftersom det inte är installerat ännu
+asterisk_sounds.successfully_removed  = Asterisk ljudpaket har tagits bort framgångsrikt
+asterisk_sounds.successfully_reinstalled = Asterisk ljudpaket har framgångsrikt installerats på nytt.

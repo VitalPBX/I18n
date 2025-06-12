@@ -1,0 +1,66 @@
+menu.users = Användare
+module.users = Användare
+users = Användare
+users.confirm_delete = Är du säker att du vill ta bort den här användaren?
+users.delete = Radera
+users.deleting_last_privileged_user = Det är inte möjligt att ta bort den sista användaren som kan ändra användarrättigheter.
+users.deleting_self = Det är inte möjligt att radera sig själv.
+users.dept = Avdelning
+users.dept.tooltip = Användaravdelning (Exempel: Utveckling)
+users.general = Allmänt
+users.locale = Språk
+users.locale.tooltip = Gränssnittspråk.
+users.multitab = Multitab
+users.multitab.tooltip = Kontrollera om du vill ha flera flikar i gränssnittet!
+users.name = Fullständigt namn
+users.name.tooltip = Fullständigt namn på användaren.
+users.password = Lösenord
+users.password.tooltip.add = Ditt säkra lösenord för inloggning.
+users.password.tooltip.edit = Användarens lösenord (Lämna tomt om du vill behålla samma lösenord).
+users.role = Profil
+users.role.tooltip = Profil som används av den här användaren.
+users.settings = Inställningar
+users.startup = Dialog för uppstart
+users.startup.tooltip = Vilken dialog som ska visas när du loggar in i systemet.
+users.theme = GUI-tema
+users.theme.tooltip = Tema för GUI-stil.
+users.timezone = Tidszon
+users.timezone.tooltip =
+	User Timezone. Denna tidszon används för att visa rapporter och andra data som är relaterade till tid och datum. Tidszonen <b>System</b>
+	alternativet kan du ta tidszonen för den här användaren direkt från PBX-systemet.
+users.username.duplicate = Inloggningsnamnet %s är redan upptaget.
+users.user = Användarnamn
+users.user.tooltip = Namn att använda för att logga in (smeknamn).
+users.portalexten = Tilldelad anslutning
+users.portalexten.tooltip = Anslutning som tilldelats för åtkomst till portalen.
+users.validate.blank_username = Användarnamnet får inte vara tomt och måste vara minst 4 tecken långt
+users.validate.blank_password = Lösenordet kan inte vara tomt
+users.validate.profile = Användarprofilen är ogiltig
+users.validate.displayname = Fullständigt namn kan inte vara tomt
+users.change_language = Ändra språk
+users.deleting_default = Du kan inte ta bort den här användaren eftersom den är markerad som standardanvändare
+users.username.duplicated = Det angivna användarnamnet är redan upptaget
+users.email.duplicated = Den angivna e-postadressen är redan upptagen
+users.email = E-post
+users.email.tooltip = E-postadress för användare som ska användas för inloggning
+users.email.duplicate = Den angivna e-postadressen är redan i bruk
+users.tenants = Abonnenter
+users.tenants.tooltip = Här kan du definiera vilka hyresgäster den här användaren ska ha tillgång till
+users.validations.no_tenants = Inga abonnenter har tilldelats den här användaren. Vänligen tilldela minst en abonnent.
+users.dark_mode = Mörkt läge
+users.dark_mode.tooltip = Aktivera/inaktivera mörkt läge för GUI-temat
+users.visible_by_others = Synlig för andra
+users.visible_by_others.tooltip =
+	Det gör att du kan definiera om den här användaren ska vara synlig för andra som ska uppdateras. Administratörsanvändare kommer dock alltid att
+	alltid kunna se alla användare, även om det här alternativet är inaktiverat.
+users.mfa_enabled = Aktivera 2FA
+users.mfa_enabled.tooltip =
+    När den är aktiverad måste användaren ange en sexsiffrig kod (som genereras av <b>Google Authenticator</b>-appen) efter att
+    validering av inloggningsuppgifterna.
+users.auth_app_credentials = Lägg till autentiseringsapp
+users.not_found = Den kan inte hitta den begärda användaren.
+users.ga.qr = Skanna QR
+users.ga.code = Installationskoden
+users.ga.qr_help = Ladda ner gratisappen {0}, lägg till ett nytt konto och skanna sedan den här QR-koden för att konfigurera ditt konto.
+users.ga.code_help = Ladda ner gratisappen {0}, lägg till ett nytt konto och ange sedan den här koden för att konfigurera ditt konto.
+users.ga.code_copied = Installationskoden har kopierats till ditt klippbord.

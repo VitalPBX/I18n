@@ -1,0 +1,15 @@
+geo_firewall = GEO Brandvägg
+menu.geo_firewall = {geo_firewall}
+module.geo_firewall = {geo_firewall}
+geo_firewall.general = {vitalpbx.general}
+geo_firewall.license.max_items = Du kan bara blockera ett land i gratisversionen av detta tillägg
+geo_firewall.select_all = Välj alla länder
+geo_firewall.unselect_all = Välj bort alla länder
+geo_firewall.countries_list = Lista över länder
+geo_firewall.disable = Avaktivera
+geo_firewall.enable = Aktivera
+geo_firewall.successfully_enabled = Begränsningarna för GEO-brandväggen har aktiverats framgångsrikt
+geo_firewall.disable.confirm =
+	Är du säker på att du vill inaktivera begränsningarna för GEO-brandväggen? Om du utför den här åtgärden avblockeras automatiskt alla länder,
+	dina konfigurationer på GEO-brandväggskartan kommer dock att bevaras, så att du kan använda dem igen vid ett senare tillfälle date.
+geo_firewall.successfully_disabled = Begränsningarna för GEO-brandväggen har inaktiverats framgångsrikt

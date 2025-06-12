@@ -1,0 +1,15 @@
+communicator_pause_profiles = Pausa profiler
+menu.communicator = Kommunikatör
+menu.communicator_pause_profiles = {communicator_pause_profiles}
+module.communicator_pause_profiles = Communicator Pause Profiles
+communicator_pause_profiles.general = {vitalpbx.general}
+communicator.pp.description = {description}
+communicator.pp.description.tooltip = En kort beskrivning för att enkelt identifiera denna pausprofil.
+communicator.pp.reasons = Orsaker till paus
+communicator.pp.reasons.tooltip =
+    De pausorsaker som ska användas när du pausar från köer med Communicator-appen. Du kan ange flera
+    pausskäl åtskilda med ett kommatecken.
+communicator.pp.validation.no_reasons = Du har inte angett någon giltig lista över skäl till paus.
+communicator.pp.url = Pausprofil URL
+communicator.pp.url.tooltip = Den URL som ska användas för att ladda pausorsaker i Kommunikatör-appen.
+communicator.pp.url_copied = URL:en har kopierats till urklippet.

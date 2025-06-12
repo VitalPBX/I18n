@@ -1,0 +1,100 @@
+menu.pjsip_settings = PJSIP-inställningar  
+module.pjsip_settings = PJSIP-inställningar  
+pjsip_settings.general = Allmänt  
+pjsip_settings.debug = Felsökning  
+pjsip_settings.debug.tooltip = Aktivera/inaktivera SIP-felsökningsloggning.  
+pjsip_settings.timer_t1 = Timer T1  
+pjsip_settings.timer_t1.tooltip = Timer T1 är grunden för att avgöra hur länge man ska vänta innan en begäran sänds igen om inget svar tas emot vid användning av en opålitlig transport (t.ex. UDP).  
+pjsip_settings.timer_b = Timer B  
+pjsip_settings.timer_b.tooltip = Timer B bestämmer den maximala väntetiden efter att en INVITE-begäran har skickats innan transaktionen avbryts.  
+pjsip_settings.disable_tcp_switch = Inaktivera TCP-växling  
+pjsip_settings.disable_tcp_switch.tooltip = Inaktivera automatisk växling från UDP till TCP-transport om den utgående begäran är för stor.  
+pjsip_settings.bind = Bindning  
+pjsip_settings.bindaddr = Adress  
+pjsip_settings.bindport = Port  
+pjsip_settings.bind.tooltip = IP-adress och valfri port att binda till för denna transport.  
+pjsip_settings.tlsbind = TLS-bindning  
+pjsip_settings.tlsbind.tooltip = IP-adress och valfri port att binda till via TLS-protokollet för denna transport.  
+pjsip_settings.certificate = Certifikat  
+pjsip_settings.certificate.tooltip = Certifikat att använda för TLS-anslutningar  
+pjsip_settings.verify_client = Verifiera klient  
+pjsip_settings.verify_client.tooltip = Kräver verifiering av klientcertifikat (endast TLS)  
+pjsip_settings.ssl_method = SSL-metod  
+pjsip_settings.ssl_method.tooltip = Metod för SSL-transport (endast TLS)  
+pjsip_settings.verify_server = Verifiera server  
+pjsip_settings.verify_server.tooltip = Kräver verifiering av servercertifikat (endast TLS)  
+pjsip_settings.local_net = Lokalt nätverk  
+pjsip_settings.local_net.tooltip =
+	Nätverk som ska betraktas som lokala (används för NAT-ändamål); detta måste vara i CIDR- eller punktdecimalformat med IP och mask åtskilda
+    med ett snedstreck ('/'). t.ex: 10.8.0.0/24. Du kan infoga flera nätverk åtskilda med ett kommatecken.
+pjsip_settings.external_media_address = Extern mediaadress  
+pjsip_settings.external_media_address.tooltip = Extern IP-adress att använda vid RTP-hantering.  
+pjsip_settings.external_signaling_address = Extern signaladress  
+pjsip_settings.external_signaling_address.tooltip = Extern adress för SIP-signalering.  
+pjsip_settings.nat_settings = NAT-inställningar  
+pjsip_settings.tonezone = {sip_settings.tonezone}  
+pjsip_settings.tonezone.tooltip = Anger vilket lands tonindikationer som ska användas för kanaler som skapas för PJSIP-enheter och trunkar.  
+pjsip_settings.codecs = Codecs
+pjsip_settings.codecs.tooltip =
+	Ställer in vilka codecs som ska användas för kanaler som skapats för PJSIP-enheter och trunkar. Denna parameter gäller endast om trunkarna eller enheterna
+	inte har sina egna codecs definierade.
+pjsip_settings.mwi_settings = MWI-inställningar  
+pjsip_settings.mwi_tps_queue_high = Taskprocessor kö hög  
+pjsip_settings.mwi_tps_queue_high.tooltip =  
+    På ett hårt belastat system kan det vara nödvändigt att justera taskprocessor-kögränserna. Om någon taskprocessor-kö  
+    når sin höga gräns kommer PJSIP att sluta behandla nya förfrågningar tills varningen har rensats. Varningen rensas  
+    när alla varnade taskprocessor-köer har sjunkit till sin låga gränsnivå.  
+pjsip_settings.mwi_tps_queue_low = Taskprocessor kö låg  
+pjsip_settings.mwi_tps_queue_low.tooltip =  
+    På ett hårt belastat system kan det vara nödvändigt att justera taskprocessor-kögränserna. Om någon taskprocessor-kö  
+    når sin höga gräns kommer PJSIP att sluta behandla nya förfrågningar tills varningen har rensats. Varningen rensas  
+    när alla varnade taskprocessor-köer har sjunkit till sin låga gränsnivå. Ställ in på -1 för att den låga gränsnivån  
+    ska vara 90 % av den höga gränsnivån.
+pjsip_settings.mwi_disable_initial_unsolicited = Inaktivera initial MWI  
+pjsip_settings.mwi_disable_initial_unsolicited.tooltip =  
+	När den initiala oönskade MWI-notifieringen är aktiverad vid start skickas de initiala notifieringarna vid uppstart.  
+    Om du har många slutpunkter (tusentals) som använder oönskad MWI kan det vara värt att överväga att inaktivera de  
+    initiala uppstartsnotifieringarna. När de initiala oönskade MWI-notifieringarna är inaktiverade vid start kommer  
+    notifieringarna att börja vid slutpunktens nästa anslutningsuppdatering.  .
+pjsip_settings.keep_alive_interval = Keep-alive-intervall  
+pjsip_settings.keep_alive_interval.tooltip =  
+	Intervallet (i sekunder) för att skicka keepalive-meddelanden till aktiva anslutningsorienterade transporter.
+pjsip_settings.contact_expiration_check_interval = Utgångskontrollintervall  
+pjsip_settings.contact_expiration_check_interval.tooltip =  
+	Intervallet (i sekunder) för att kontrollera utgångna kontakter.
+pjsip_settings.max_initial_qualify_time = Maximal initial kvalificeringstid  
+pjsip_settings.max_initial_qualify_time.tooltip =  
+	Den maximala tiden från uppstart då kvalificering bör försöka utföras på alla anslutningar. Om värdet är större än  
+    kvalificeringsfrekvensen för en AOR, används kvalificeringsfrekvensen istället.  
+pjsip_settings.unidentified_request_period = Period för icke-identifierad begäran  
+pjsip_settings.unidentified_request_period.tooltip =
+	Antal sekunder under vilka oidentifierade förfrågningar ska ackumuleras. Om oidentifierade förfrågningar tas emot under
+	perioden för oidentifierade förfrågningar genereras en säkerhetshändelse.
+pjsip_settings.unidentified_request_count = Antal icke-identifierade begärningar  
+pjsip_settings.unidentified_request_count.tooltip = Antalet icke-identifierade begärningar från en enskild IP som tillåts.  
+pjsip_settings.unidentified_request_prune_interval = Interval för rensning av icke-identifierade begärningar  
+pjsip_settings.unidentified_request_prune_interval.tooltip =
+		Det intervall då oidentifierade förfrågningar som är äldre än två gånger perioden för oidentifierade förfrågningar rensas bort.
+pjsip_settings.language.tooltip = Standard språk som ska användas för kanaler skapade av PJSIP-slutpunkter  
+pjsip_settings.allow_reload = Tillåt omladdning av transporter  
+pjsip_settings.allow_reload.tooltip =
+	Det definierar om PJSIP-transporter ska laddas om när res_pjsip laddas om. Vi rekommenderar att du ställer in detta alternativ på ”no”
+	eftersom omlastning av en transport kan störa pågående samtal.
+pjsip_settings.endpoint_identifier_order = Slutpunktens identifieringsordning  
+pjsip_settings.endpoint_identifier_order.tooltip =
+	Detta alternativ gör det möjligt att definiera en lista med namn på endpoint-identifierare. Ordningen på listan är den angivna ordningen som de
+	namngivna identifierarna kontrollerar begäran. Standardinställning: <b>"IP,Användarnamn,Anonym"</b>
+pjsip_settings.endpoint_identifier_order.ip = IP
+pjsip_settings.endpoint_identifier_order.username = Användarnamn  
+pjsip_settings.endpoint_identifier_order.anonymous = Anonym  
+pjsip_settings.endpoint_identifier_order.auth_username = Auth-användarnamn  
+pjsip_settings.endpoint_identifier_order.header = Header  
+pjsip_settings.ms_signaling_address = MS Teams-domän  
+pjsip_settings.ms_signaling_address.tooltip = Den domän som ska skickas vid samtal via en trunk med transporten "TLS+MSTeams." t.ex.: <b>sip.mypbx.com</b>  
+pjsip_settings.ms_signaling_address.invalid.msg = Den angivna MS-domänen är ogiltig. Vänligen ange ett giltigt FQDN.  
+pjsip_settings.allow_wildcard_certs = Tillåt wildcard-certifikat  
+pjsip_settings.allow_wildcard_certs.tooltip =
+    I kombination med ”Verifiera server”, när den är aktiverad, tillåt användning av jokertecken, t.ex. '.' i certifikat för vanliga,och ämnes
+    alt-namn av typ DNS för TLS-transporttyper. Namnen måste börja med jokertecknet. Partiella jokertecken, t.ex. 'f.example.com'
+    och ”foo..com” är inte tillåtna. Dessutom matchar namnen endast mot en enda nivå, vilket innebär att '.example.com' matchar 'foo.example.com',
+    men inte ”foo.bar.example.com”.

@@ -1,0 +1,1 @@
+domotic.connection_fail = Det går inte att ansluta till enheten med följande adress: %s

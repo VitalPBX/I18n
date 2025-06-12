@@ -1,0 +1,45 @@
+menu.time_conditions = Tidsvillkor
+module.time_conditions = Tidsvillkor
+time_conditions = Tidsvillkor
+time_conditions.cancel = Avbryt
+time_conditions.delete = Ta bort
+time_conditions.description = Beskrivning
+time_conditions.description.tooltip = Kort beskrivning för att identifiera detta Tidsvillkor.
+time_conditions.falsegoto = Destination om tiden inte matchar %s
+time_conditions.general = Tidsvillkor
+time_conditions.modfalse = Modul Falsk
+time_conditions.modtrue = Modul Sann
+time_conditions.save = Spara
+time_conditions.time_group_id = Tidsgrupp
+time_conditions.time_group_id.tooltip = Välj en Tidsgrupp skapad under Tidsgrupper. Matchande tider kommer att skickas till motsvarande destination.
+time_conditions.truegoto = Destination om tiden matchar %s
+time_conditions.update = Uppdatera
+time_conditions.status = Status
+time_conditions.status.tooltip = Gör att du kan åsidosätta det förvalda beteendet för ett tidsvillkor
+time_conditions.status.default = Standard
+time_conditions.status.temporary_matched = Tillfälligt matchad
+time_conditions.status.temporary_unmatched = Tillfälligt ej matchad
+time_conditions.status.permanently_matched = Permanent matchad
+time_conditions.status.permanently_unmatched = Permanent ej matchad
+time_conditions.status.default.desc = Standardbeteende
+time_conditions.status.temporary_matched_unmatched = Tillfälligt matchad / Ej matchad
+time_conditions.status.temporary_matched_unmatched.desc =
+	Åsidosätter tillfälligt tidsvillkoret och skickar samtalen till den matchade/omatchade destinationen tills det aktuella tidsintervallet
+	har förflutit. Efter det återgår beteendet till standard
+time_conditions.status.permanently_matched_unmatched = Permanently Matched / Unmatched
+time_conditions.status.permanently_matched_unmatched.desc =
+	Åsidosätter tidsvillkoret permanent och skickar samtalen till den matchade/omatchade destinationen tills åsidosättandet tas bort.
+time_conditions.blf_inverted = BLF Inverted
+time_conditions.blf_inverted.tooltip =
+	Som standard är BLF-lampans färg grön när tidsförhållandet stämmer och röd när det inte stämmer. Om du ställer in
+	detta till ”ja” kommer att göra att beteendet blir det omvända av vad som beskrivs ovan.
+time_conditions.hint = {nightmode.phone_hint}
+time_conditions.hint.tooltip = {nightmode.phone_hint.tooltip}
+time_conditions.code = {nightmode.code}
+time_conditions.code.tooltip = Uppringningskod för att växla tidsvillkorets tillstånd via telefonen.
+time_conditions.pin = Auktoriserings-PIN
+time_conditions.pin.tooltip = Valfritt lösenord för att skydda mot obehörig ändring av detta tidsvillkor.
+time_conditions.timezone = Tidszon
+time_conditions.timezone.tooltip =
+	Här kan du definiera vilken tidszon som ska användas för att matcha den tidsgrupp som är kopplad till detta tidsvillkor. Om den är inställd på System,
+	kommer tidszonen att hämtas från servern.

@@ -1,0 +1,41 @@
+menu.vpbx_connect = VitalPBX Connect
+menu.mobile_settings = Inställningar
+menu.mobile_devices = Enheter
+module.mobile_settings = VPBX Connect-inställningar
+module.mobile_devices = VPBX Connect-enheter
+mobile_settings.general = {vitalpbx.general}
+mobile_settings.host = Domän / IP
+mobile_settings.provisioning_host = Tillhandahållande domän / IP
+mobile_settings.host.tooltip =
+    Här kan du definiera den offentliga domän/IP som du ska ansluta till när du hämtar provisioneringsinformationen från
+    mobilappen VitalPBX Connect.
+mobile_settings.licensing = Licensanvändning
+mobile_settings.licensing.tooltip = Den visar antalet skapade objekt jämfört med antalet tillåtna objekt.
+mobile_settings.host.invalid = Ange en giltig IP-adress eller domän.
+mobile_devices.general = {vitalpbx.general}
+mobile_devices.device = Enhet
+mobile_devices.device.tooltip = Den enhet som ska konfigureras i VitalPBX Connect-appen.
+mobile_devices.description = {description}
+mobile_devices.tenant = Abonnent
+mobile_devices.tenant.tooltip = Den abonnentsom enheterna tillhör.
+mobile_devices.enabled = Aktiverad
+mobile_devices.enabled.tooltip = Om inställningen är "Nej" kan användaren som är kopplad till den här enheten inte använda VitalPBX Connect-appen.
+mobile_devices.actions = Åtgärder
+mobile_devices.add = Lägg till ny enhet
+mobile_devices.add_device = {mobile_devices.add}
+mobile_devices.validation.no_host = Det går inte att lägga till en mobil enhet om värden inte är definierad i VitalPBX Connect-inställningarna.
+mobile_devices.validation.invalid_device = Det verkar som om den valda enheten är ogiltig.
+mobile_devices.confirm_delete =
+    Om du tar bort det här objektet kommer din användare att förlora anslutningen till växeln från VitalPBX Connect-appen. Vill du fortsätta med detta?
+mobile_devices.edit_device = Redigera enhet
+mobile_devices.protocol = Protokoll
+mobile_devices.duplicated_device = Den valda enheten är redan tillagd.
+mobile_devices.validation.license_limit = Du har nått det maximala antalet tillåtna VitalPBX Connect-enheter.
+mobile_devices.validation.tenant_limit = Du kan inte lägga till fler än {0} mobila enheter. Vänligen kontakta din PBX-leverantör.
+mobile_settings.reg_host = Registrering Domän / IP
+mobile_settings.reg_host.tooltip =
+    Den domän/IP som mobilapplikationen ska använda för SIP-registreringen. Lämna det här fältet tomt om värdet är
+    samma som i fältet ”Tillhandahållande domän / IP”.
+mobile_devices.qr = QR-kod
+mobile_devices.validation.cannot_show_qr = Det går inte att visa QR eftersom de angivna uppgifterna är ogiltiga.
+mobile_devices.app_link = Länk till mobilapp

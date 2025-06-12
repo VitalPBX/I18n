@@ -1,0 +1,15 @@
+menu.pickup_groups = Hämtningsgrupper  
+module.pickup_group = Hämtningsgrupper  
+pickup_group = Hämtningsgrupper  
+pickup_group.allow_pickup = Tillåt hämtning  
+pickup_group.allow_pickup.tooltip = Tillåt hämtning av medlem i denna hämtningsgrupp  
+pickup_group.description = Beskrivning  
+pickup_group.description.tooltip = Kort beskrivning av denna hämtningsgrupp.  
+pickup_group.extension = Anslutning  
+pickup_group.extension.tooltip = Anslutning som är medlem eller har rätt att hämta en medlem i denna hämtningsgrupp, eller båda.  
+pickup_group.members.empty = Inga giltiga medlemmar har lagts till i denna hämtningsgrupp.  
+pickup_group.general = Allmänt  
+pickup_group.member = Medlem  
+pickup_group.member.tooltip = Indikerar om denna anslutning är medlem i denna hämtningsgrupp  
+pickup_group.members = Medlemmar 
+ 

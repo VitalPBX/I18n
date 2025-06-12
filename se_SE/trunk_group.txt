@@ -1,0 +1,59 @@
+menu.outbound_routes = Utgående rutter
+menu.trunk_group = {menu.outbound_routes}
+module.trunk_group = Utgående rutter
+trunk_group = Utgående rutter
+trunk_group.description = Beskrivning
+trunk_group.description.tooltip = Kort beskrivning för att identifiera denna utgående rutt
+trunk_group.general = Allmänt
+trunk_group.pin_list_id = PIN
+trunk_group.pin_list_id.tooltip = Välj en grupp-PIN.
+trunk_group.select_outbound_route = -- Välj utgående rutt --
+trunk_group.trklist = Trunkar
+trunk_group.trklist.empty = Inga trunkar valda för denna utgående rutt.
+trunk_group.trklist.tooltip = Lista över trunkar som ska ringas
+trunk_group.trkpattern = Uppringningsmönster %s
+trunk_group.trkpattern.pattern = Mönster
+trunk_group.trkpattern.pattern.invalid = Mönster i rad {0}
+trunk_group.trkpattern.pattern.placeholder = Mönstermatchning
+trunk_group.trkpattern.pattern.tooltip = Mönstermatchning gör att vi kan skapa mönster för anslutning i vår uppringningsplan som matchar mer än ett möjligt uppringt nummer
+trunk_group.trkpattern.prefix = Prefix
+trunk_group.trkpattern.prefix.placeholder = Prefix
+trunk_group.trkpattern.prefix.tooltip = Prefix att ta bort vid matchning.
+trunk_group.trkpattern.prepend = Prepend
+trunk_group.trkpattern.prepend.placeholder = Prepend
+trunk_group.trkpattern.prepend.tooltip = Siffror som ska läggas till vid matchning.
+trunk_group.virttrk = Trunkar för abonnenter
+trunk_group.virttrk.tooltip = Lista över abonnenter som den här abonnenten kan ringa som trunk
+trunk_group.intra_company = Intra-Company
+trunk_group.intra_company.tooltip =
+	Om den är markerad skickas det interna numret via denna utgående rutt, i stället för det externa numret
+	för den uppringande anslutningen
+trunk_group.no_patterns = Inga mönster konfigurerade för den här utgående rutten
+trunk_group.no_description = Ingen beskrivning har lämnats
+trunk_group.failover_destination = Destinationer för felöverlämning
+trunk_group.failover_destination.tooltip =
+	Valfri destination som ska köras om samtalet misslyckas efter försök med alla listade trunkar.
+trunk_group.trkpattern.cid_pattern = CID-mönster
+trunk_group.trkpattern.cid_pattern.placeholder = Matcha CID-mönster
+trunk_group.trkpattern.cid_pattern.tooltip =
+	Om det är definierat måste samtal som matchar det definierade mönstret också matcha detta identifieringsmönster för samtal för att kunna
+	ta denna väg. Den nummerpresentation som ska matchas är den interna CID:n och inte den externa CID:n.
+trunk_group.cid = Utgående CID
+trunk_group.cid.tooltip = Här kan du definiera ett specifikt nummer/namn för nummerpresentation som ska användas på den här utgående rutten när inställningen ”Skriv över CID” är aktiverad
+trunk_group.cid_name = CID-namn
+trunk_group.cid_number = CID-nummer
+trunk_group.overwrite_cid = Skriv över CID
+trunk_group.overwrite_cid.tooltip = Om aktiverad kommer anslutningens utgående CID att skrivas över med de CID-parametrar som definieras på denna Utgående rutt
+trunk_group.no_cid = Inställningen "Skriv över CID" är aktiverad, men du har inte definierat parametrarna för Utgående CID.
+trunk_group.overwrite_cid.yes = {vitalpbx.yes}
+trunk_group.overwrite_cid.no = {vitalpbx.no}
+trunk_group.overwrite_cid.if_not_provided = Om den inte tillhandahålls
+trunk_group.overwrite_cid.yes.tooltip = Det tvingar fram att CID skrivs över med de CID-parametrar som definierats för denna utgående rutt
+trunk_group.overwrite_cid.no.tooltip = Det kommer att bevara alla CID som tillhandahålls under samtalet. Det kommer inte att utföra någon överskrivning
+trunk_group.overwrite_cid.if_not_provided.tooltip = Den kommer endast att skriva över CID-informationen om ingen extern CID anges under samtalet
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = Om inställningen är Ja kommer alla samtal som använder den här utgående rutten att spelas in.
+trunk_group.csv = CSV
+trunk_group.csv.tooltip = Här kan du ladda upp en CSV-fil med uppringningsmönstren för den här utgående rutten.
+trunk_group.csv.missing_columns = CSV-filen innehåller inte kolumnen ”mönster”, vilket är obligatoriskt.
+trunk_group.export = Exportera mönster

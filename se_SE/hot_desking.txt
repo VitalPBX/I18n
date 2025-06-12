@@ -1,0 +1,74 @@
+hot_desking = Hot Desking
+hot_desking.channel_id = Kanal
+hot_desking.channel_id.tooltip = FXS-kanal för denna enhet.
+hot_desking.codecs = Codecs
+hot_desking.codecs.tooltip = Lista över tillåtna codecs. Den ordning i vilken codecs listas avgör deras prioriteringsordning. Om du väljer minst en codec, kommer parametern "disallow=all" också att genereras.
+hot_desking.delete = Ta bort
+hot_desking.delete.tooltip = Är du säker på att du vill ta bort denna post %s?
+hot_desking.deny = Nekar
+hot_desking.deny.invalid = Neka är ogiltigt. Vänligen skriv IP-adressen med subnätmask. Du kan använda CIDR-notation. (Exempel: 192.168.40.38/16)
+hot_desking.deny.tooltip = I en användare/peer-definition kan du begränsa trafiken till och från denna peer till en viss IP eller nätverk. (Exempel: deny=192.168.40.38/255.255.255.255 nekar trafik från denna IP-adress).
+hot_desking.dev_description = Enhetsbeskrivning
+hot_desking.dev_description.tooltip = En kort beskrivning för att identifiera denna enhet.
+hot_desking.digit_map = Siffermappning
+hot_desking.digit_map.tooltip = Siffermappning som ska användas för denna linje.
+hot_desking.digium_phone_settings = Digium Telefoninställningar
+hot_desking.max_contacts = Maximal antal kontakter
+hot_desking.max_contacts.tooltip = Maximalt antal kontakter/telefoner som kan associeras med en PJSIP-enhet.
+hot_desking.dtmfmode = DTMF-läge
+hot_desking.dtmfmode.auto.tooltip = Använd rfc2833|rfc4733 om det erbjuds, in-band annars.
+hot_desking.dtmfmode.inband.tooltip = Inband-ljud (kräver 64 kbit codec -alaw, ulaw)
+hot_desking.dtmfmode.info.tooltip = SIP INFO-meddelanden (application/dtmf-relay)
+hot_desking.dtmfmode.shortinfo.tooltip = SIP INFO-meddelanden (application/dtmf). (Endast SIP)
+hot_desking.dtmfmode.tooltip = Ställ in standard dtmf-läge för att skicka DTMF. Standard är rfc2833|rfc4733
+hot_desking.general = Allmänt
+hot_desking.language = Språk
+hot_desking.language.tooltip = Anger språkinställningen som ska användas för denna enhet. Detta kommer att tvinga alla användarspecifika meddelanden att spelas upp på det valda språket, förutsatt att språket är installerat och röstmeddelanden för det angivna språket finns på din server.
+hot_desking.nat = NAT
+hot_desking.nat.auto_comedia.tooltip = Ställ in comedia-alternativet om Asterisk upptäcker NAT.
+hot_desking.nat.auto_force.tooltip = Ställ in force_rport-alternativet om Asterisk upptäcker NAT.
+hot_desking.nat.comedia.tooltip = Skicka media till den port som Asterisk tog emot den från, oavsett var SDP säger att den ska skickas.
+hot_desking.nat.force.tooltip = Låtsas att det fanns en rport-parameter även om det inte fanns någon.
+hot_desking.nat.no.tooltip = Gör ingen speciell NAT-hantering utöver RFC3581.
+hot_desking.nat.tooltip = NAT (Network Address Translation) är en teknologi som oftast används av brandväggar och routrar för att tillåta flera enheter på ett LAN med "privata" IP-adresser att dela en offentlig IP-adress. En privat IP-adress är en adress som endast kan adresseras från inom LAN, men inte från Internet utanför LAN.
+hot_desking.permit = Tillåt
+hot_desking.permit.invalid = Tillåt är ogiltigt. Vänligen skriv IP-adressen med subnätmask. Du kan använda CIDR-notation. (Exempel: 192.168.40.38/16)
+hot_desking.permit.tooltip = I en användare/peer-definition kan du begränsa trafiken till och från denna peer till en viss IP eller nätverk. (Exempel: permit=192.168.40.0/255.255.255.0 tillåter trafik från detta nätverk).
+hot_desking.profile_id-fxs = Profil
+hot_desking.profile_id-fxs.tooltip = Inställningsprofil för FXS-enheter
+hot_desking.profile_id-iax = Profil
+hot_desking.profile_id-iax.tooltip = Inställningsprofil för IAX2-enheter
+hot_desking.profile_id-sip = Profil
+hot_desking.profile_id-sip.tooltip = Inställningsprofil för SIP-enheter
+hot_desking.profile_id-pjsip = Profil
+hot_desking.profile_id-pjsip.tooltip = Inställningsprofil för PJSIP-enheter
+hot_desking.ring_device = Ring Enhet
+hot_desking.ring_device.tooltip = Bestämmer om inkommande samtal ska få enheten att ringa.
+hot_desking.secret = Lösenord
+hot_desking.secret.tooltip = Lösenord associerat med denna enhet
+hot_desking.technology = Teknologi
+hot_desking.technology.tooltip = Typ av teknologi för denna enhet
+hot_desking.user = Användarenhet
+hot_desking.user_unique.invalid = Användarenhet finns redan
+hot_desking.user.invalid = Vänligen ange en giltig användarenhet
+hot_desking.user.invalid.spaces = Användarenhet får inte innehålla mellanslag
+hot_desking.user.tooltip = Användare för denna enhet.
+hot_desking.voicemail_uri = Röstbrevlåda URI
+hot_desking.voicemail_uri.tooltip = Om telefonens "Msgs"-knapp ska ringa ett SIP URI snarare än att öppna den visuella röstbrevlåda-applikationen, anger detta alternativ vilket URI "Msgs"-knappen ska ringa. Genom att ställa in detta alternativ på telefonens primära linje inaktiveras visuell röstbrevlåda.
+menu.hot_desking = Hot Desking
+module.hot_desking = Hot Desking
+hot_desking.profile_id = Profil
+hot_desking.profile_id.tooltip = Profil med gemensamma parametrar för den valda teknologin.
+hot_desking.generate_qr = Generera mobil QR
+hot_desking.generate_qr.tooltip = Om aktiverat kan du skanna QR-koden med <b>{0}</b> applikationen
+hot_desking.dispatchable_location = Sändningsplats
+hot_desking.dispatchable_location.tooltip =
+	Här kan du välja eller definiera den sändningsbara platsen för den här enheten. Denna information kommer att användas
+	för att inkluderas i meddelanden som skickas när ett nödanrop utförs från den här enheten.
+hot_desking.nat.default.tooltip = NAT-konfigurationerna hämtas från de globala SIP-inställningarna (Inställningar >> Teknikinställningar >> SIP-inställningar)
+hot_desking.vitxi_client = WebRTC-klient
+hot_desking.vitxi_client.tooltip =
+	Om den är aktiverad kan den här enheten användas för WebRTC-applikationen.
+hot_desking.dtmfmode.auto_info.tooltip = DTMF skickas som RFC 4733 om den andra sidan stöder det eller som SIP INFO om så inte är fallet. (Endast PJSIP)
+hot_desking.mobile_client = Mobilklient
+hot_desking.mobile_client.tooltip = Om den är inställd på "ja" kan du generera en QR-kod för att konfigurera den här slutpunkten med Connect-appen.

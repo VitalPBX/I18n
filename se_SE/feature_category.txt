@@ -1,0 +1,10 @@
+feature_category = Funktionskategori
+feature_category.all_features = Alla funktioner
+feature_category.available_features = Tillgängliga funktioner
+feature_category.description = Beskrivning
+feature_category.description.tooltip = Namn som identifierar denna funktionskategori (måste vara unikt).
+feature_category.enabled_features = Aktiverade funktioner
+feature_category.general = Allmänt
+menu.feature_categories = Kategorier av funktioner
+module.feature_category = Kategorier av funktioner
+menu.feature_category = {menu.feature_categories}

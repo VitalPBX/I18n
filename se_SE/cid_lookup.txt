@@ -1,0 +1,57 @@
+module.cid_lookup = CID-sökning
+menu.cid_lookup = {module.cid_lookup}
+cid_lookup.general = {vitalpbx.general}
+cid_lookup.description = Beskrivning {0}
+cid_lookup.description.tooltip = En kort beskrivning för att identifiera denna CID-sökning
+cid_lookup.source = Källa {0}
+cid_lookup.source.tooltip = Den definierar metoden för att få cid-namnet på en inkommande uppringare
+cid_lookup.source.option.opencnam = OpenCNAM
+cid_lookup.source.option.api = HTTP/HTTPS
+cid_lookup.source.option.phonebook = PhoneBook
+cid_lookup.opencnam.sid = SID {0}
+cid_lookup.opencnam.sid.tooltip = OpenCNAM SID
+cid_lookup.opencnam.token = Token {0}
+cid_lookup.opencnam.token.tooltip = OpenCNAM Token
+cid_lookup.host = Host {0}
+cid_lookup.host.tooltip = Den definierar den API-värd som ska göra begäran
+cid_lookup.port = Port
+cid_lookup.port.tooltip = Den definierar porten för att göra förfrågan. Som standard 80 för HTTP-begäran och 443 för HTTPS-begäran
+cid_lookup.user = Auth-användare
+cid_lookup.user.tooltip = Här definieras den användare som ska autentisera HTTP/HTTPS-begäran
+cid_lookup.password = Auth-lösenord
+cid_lookup.password.tooltip = Här definieras lösenordet för att autentisera HTTP/HTTPS-begäran
+cid_lookup.path = Sökväg
+cid_lookup.path.tooltip = Här anges namnet på den skriptfil som ska köras på begäran. Exempel på detta: <b>cid_lookup.php</b>
+cid_lookup.arguments = Frågesträng
+cid_lookup.arguments.tooltip =
+	Den definierar de argument som behövs för att köra skriptet.
+	det speciella argumentvärdet <b>[CIDNUM]</b> kommer det att ersättas av uppringarens cid-nummer.
+	<br><br> Example: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+cid_lookup.secure = Säker
+cid_lookup.secure.tooltip = Om den är markerad kommer begäran att ske via HTTPS, i annat fall kommer den att ske via HTTP
+cid_lookup.validation.no_description = Ingen beskrivning har lämnats.
+cid_lookup.validation.invalid_source = En ogiltig källtyp har angetts.
+cid_lookup.validation.no_valid_host = Ett ogiltigt värdnamn eller en ogiltig IP-adress har angetts.
+cid_lookup.validation.no_valid_port = Ett ogiltigt portnummer har angetts.
+cid_lookup.validation.no_sid = SID har inte angetts.
+cid_lookup.validation.no_token = Token har inte tillhandahållits.
+cid_lookup.source.option.mysql = MySQL
+cid_lookup.mysql_host.tooltip = MySQL-värd
+cid_lookup.database = Database {0}
+cid_lookup.database.tooltip = MySQL-databas
+cid_lookup.username = Username {0}
+cid_lookup.username.tooltip = Användarnamn att använda för MySQL-autentisering
+cid_lookup.mysql_password = Lösenord
+cid_lookup.mysql_password.tooltip = Lösenord att använda för MySQL-autentisering
+cid_lookup.query = Fråga {0}
+cid_lookup.query.tooltip =
+	Fråga att utföra. Den speciella token <b>[CIDNUM]</b> kommer att ersättas med numret till den som ringer. t.ex:
+	<b> VÄLJ ”namn” från ”kunder” där ”antal` = '[CIDNUM]' </b>
+cid_lookup.validation.no_database = Inget databasnamn har angetts
+cid_lookup.validation.no_query = Ingen fråga har ställts
+cid_lookup.validation.no_mysql_username = Inget användarnamn har angivits
+cid_lookup.phonebook = Telefonbok {0}
+cid_lookup.phonebook.tooltip = Telefonbok som ska användas som källa för CID-uppslagning. Endast de externa telefonböckerna listas här
+cid_lookup.validation.no_phonebook = Du har inte valt någon telefonbok
+cid_lookup.timeout = Tidsgräns
+cid_lookup.timeout.tooltip = Maximal tid i sekunder som du tillåter att anslutningsfasen till servern tar. Standardvärdet är 5 sekunder.

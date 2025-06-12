@@ -1,0 +1,78 @@
+ai_assistants = AI-assistenter
+ai_api_keys = API-nycklar
+menu.ai_assistants = {ai_assistants}
+menu.ai_api_keys  = {ai_api_keys}
+ai_assistants.unlicensed = {sms.unlicensed}
+module.ai_api_keys = AI API-nycklar
+module.ai_assistants = {ai_assistants}
+ai_assistants.description = {description}
+ai_assistants.description.tooltip = En kort beskrivning för att identifiera denna artikel
+ai_assistants.api_key = {voice_hub.api_key}
+ai_assistants.api_key.tooltip = Den API-nyckel som tillhandahålls av OpenAI.
+ai_api_keys.general = {vitalpbx.general}
+ai_assistants.validation.no_description = Fältet ”Beskrivning” är obligatoriskt.
+ai_assistants.validation.duplicated_api_key = ”API-nyckeln” måste vara unik.
+ai_assistants.validation.no_api_key = Fältet ”API-nyckel” är obligatoriskt.
+ai_assistants.validation.api_key_in_use = Denna API-nyckel kan inte tas bort eftersom den används av följande AI-assistenter: "{0}".
+ai_assistants.general = {vitalpbx.general}
+ai_assistants.voice_profile = {recmanagement.voice_profile}
+ai_assistants.voice_profile.tooltip = Den röst som ska användas för att svara på frågor från uppringare.
+ai_assistants.model = GPT-modell
+ai_assistants.model.tooltip = Den GPT-modell som assistenten använder.
+ai_assistants.name = Assistentens namn
+ai_assistants.name.tooltip = Namnet på den virtuella assistenten.
+ai_assistants.instructions = Assistent Instruktioner
+ai_assistants.instructions.tooltip = De systeminstruktioner som assistenten använder.
+ai_assistants.max_interactions = Max Interaktioner
+ai_assistants.max_interactions.tooltip =
+    Det maximala antalet frågor som assistenten kan besvara innan den som ringer skickas till ”Slutdestinationen”.
+    Lämna tomt för ingen gräns.
+ai_assistants.welcome_msg = Välkomstmeddelande
+ai_assistants.welcome_msg.tooltip =
+    Det första ljudet som den som ringer får höra innan han eller hon börjar interagera med AI-assistenten. Det kan innehålla ett allmänt
+    välkomstmeddelande samt anvisningar om hur man interagerar med AI-assistenten.
+ai_assistants.wait_msg = Väntetidsmeddelande
+ai_assistants.wait_msg.tooltip = Det ljud som den som ringer kommer att höra medan AI-assistenten bearbetar informationen.
+ai_assistants.inaudible_msg = Ohörbart meddelande
+ai_assistants.inaudible_msg.tooltip =
+    Ljudet för att informera den som ringer om att AI-assistenten inte förstod vad de sa. Om assistenten inte förstår vad
+    vad den som ringer säger två gånger i rad skickas samtalet till ”Slutdestination”.
+ai_assistants.listening_msg = Lyssningston
+ai_assistants.listening_msg.tooltip = Ett ljud eller en ton som indikerar för den som ringer att den virtuella assistenten lyssnar.
+ai_assistants.final_destination = Slutdestination
+ai_assistants.max_silence = Max tystnad
+ai_assistants.max_silence.tooltip = Den maximala tiden i sekunder av tystnad innan frågan från den som ringer behandlas.
+ai_assistants.validation.field_required = Fältet ”{0}” är obligatoriskt.
+ai_assistants.validation.duplicated_name = Det finns redan en assistent med samma namn.
+ai_assistants.validation.invalid_api_key = Den valda API-nyckeln är ogiltig.
+ai_assistants.validation.invalid_model = Den valda GPT-modellen är ogiltig.
+ai_assistants.validation.invalid_voice_profile = Den valda röstprofilen är ogiltig.
+ai_assistants.validation.min = Minvärdet för fältet ”{0}” är ”{1}”.
+ai_assistants.validation.no_numeric = Fältet ”{0}” kräver ett giltigt nummer.
+ai_assistants.add_file = Lägg till fil
+ai_assistants.files = Bifogade filer
+ai_assistants.created_at = Datum/tid
+ai_assistants.file = Fil
+ai_assistants.file.tooltip =
+    Fil som AI-assistenten kommer att använda för att svara på frågor utanför sin modell. De giltiga filformaten är docx, pdf, json, md och txt.
+ai_assistants.upload = Ladda upp
+ai_assistants.no_file = Du har inte valt någon fil att ladda upp!
+ai_assistants.invalid_file = Filen ”{0}” med mimetypen ”{1}” är inte giltig!
+ai_assistants.file_successfully_added = Filen har framgångsrikt lagts till denna agent.
+ai_assistants.file_successfully_removed = Filen har framgångsrikt tagits bort från den här agenten.
+ai_assistants.ask_a_question = Ställ en fråga
+ai_assistants.question = Fråga
+ai_assistants.question.tooltip = En fråga att ställa för att testa AI-agenten.
+ai_assistants.ask = Fråga
+ai_assistants.ask_another_question = Ställ en annan fråga
+ai_assistants.internal_directory = Intern katalog
+ai_assistants.internal_directory.tooltip =
+    Beroende på de valda värdena kan den som ringer be att få bli överförd till en viss anknytning, kö eller ringgrupp. Sökningen görs efter namn
+    eller beskrivning.
+ai_assistants.id.extensions = {menu.extensions}
+ai_assistants.id.queues = {menu.queues}
+ai_assistants.id.ring_groups = {menu.ring_groups}
+ai_assistants.notifications_email = E-postadresser för aviseringar
+ai_assistants.notifications_email.tooltip =
+    E-postadresser för att skicka samtalssammanfattningen eller annan begärd information. Tänk på att du måste instruera
+    AI att skicka ett e-postmeddelande efter avslutad konversation.

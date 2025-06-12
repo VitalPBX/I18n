@@ -1,0 +1,323 @@
+extensions = Anslutningar
+extensions.accountcode = Kontokod
+extensions.accountcode.invalid = Vänligen ange en giltig kontokod
+extensions.accountcode.tooltip = Detta fält, om det är definierat, används för att fylla i fältet ”Kontokod” i CDR.
+extensions.advanced = Avancerad
+extensions.alias = Alias
+extensions.alias.tooltip = Ett alternativt namn som kan användas i den systemskapade telefonboken eller för uppringning med hjälp av funktionskoden Telefonbokskatalog.
+extensions.answermode = Internt autosvar
+extensions.answermode.disable = Avaktivera
+extensions.answermode.intercom = Intercom
+extensions.answermode.tooltip = När automatisk samtalssvarare är tillåten i telefonen kan automatisk samtalssvarare begäras från det inkommande samtalet via SIP Alert-Info-headern.
+extensions.attach = Bifoga röstbrevlåda
+extensions.attach.tooltip = Bifoga röstmeddelanden till e-post.
+extensions.call-limit = Samtalsgräns
+extensions.call-limit.no_limit = Ingen gräns
+extensions.call-limit.tooltip = Antal samtidiga samtal via denna användare/peer.
+extensions.call_from_prompt_id = Uppringning från prompt
+extensions.call_from_prompt_id.tooltip = Meddelandeprompten ”Inkommande samtal från”. Du kan välja standardalternativet att använda meddelandeprompten ”Inkommande samtal från” eller använda en egen anpassad prompt.
+extensions.call_screen = Screening av samtal
+extensions.call_screen.disable = Avaktivera
+extensions.call_screen.memory = Skärmuppringning: Minne
+extensions.call_screen.no_memory = Skärmuppringning: Inget minne
+extensions.call_screen.tooltip = Innan du ringer upp din anslutning ombeds den som ringer att ge en introduktion. Applikationen frågar dem: ”Efter tonen, säg ditt namn”. De har 4 sekunder på sig att introducera sig.
+extensions.cancel = Avbryt
+extensions.channel.invalid = Den valda fxs-kanalen är redan i bruk
+extensions.class_of_service_id = Serviceklass
+extensions.class_of_service_id.tooltip = Uppringningsplanen kan delas in i sektioner som kallas serviceklasser (CoS). CoS är den grundläggande organisatoriska terminalen i uppringningsplanen, och som sådan håller de olika delar av uppringningsplanen oberoende av varandra. {0} använder CoS för att upprätthålla säkerhetsgränser mellan de olika delarna av uppringningsplanen, samt för att tillhandahålla olika serviceklasser till olika användargrupper.
+extensions.confirm = Bekräfta
+extensions.contacts = Kontaktuppgifter
+extensions.default = Standard ({0})
+extensions.delete = Radera
+extensions.delete.tooltip = Röstmeddelandet raderas från servern efter att det har levererats.
+extensions.devices = Enheter
+extensions.device = Enheter
+extensions.device_id = Enhet
+extensions.device_id.tooltip = Lista över enheter
+extensions.dev_description = Beskrivning av enhet
+extensions.dictate_auto_send = Skicka e-post automatiskt
+extensions.dictate_auto_send.tooltip = Inspelning kommer att skickas när den är klar.
+extensions.dictate_enable = Aktiverad
+extensions.dictate_enable.tooltip = Aktivera diktering
+extensions.dictate_format = Format
+extensions.dictate_format.tooltip = Inspelningsformat
+extensions.dictation = Diktering
+extensions.did_number = DID-nummer
+extensions.did_number.tooltip = DID-numret för inkommande samtal, dvs. den inkommande rutt som ska kopplas till denna anslutning.
+extensions.diversion_hints = Tips om avledning
+extensions.diversion_hints.tooltip = Generera tips för omdirigeringar (DND, vidarekoppling, personlig assistent och chef/sekreterare)
+extensions.email = E-postadress
+extensions.email.tooltip = E-postadress till vilken servicemeddelanden kommer att skickas.
+extensions.enable_callee_prompt = Prompt Samtal
+extensions.enable_callee_prompt.tooltip = Den uppringda parten får frågan om de vill ta emot det inkommande samtalet.
+extensions.enable_portal = Aktivera portalen
+extensions.enable_portal.tooltip = Tillåt användare att logga in på Portal för att konfigurera sin egen anslutning.
+extensions.envelope = Kuvert
+extensions.envelope.tooltip = Aktivera/avaktivera uppspelning av kuvert före uppspelning av meddelande.
+extensions.extension = Anslutningar
+extensions.extension.tooltip = Nummer som ska ringas för att nå denna anslutning.
+extensions.external_cid = Externt CID
+extensions.external_cid.tooltip = Externt nummerpresentation för anslutningen, som består av två delar: CID-namn och CID-nummer. Detta definierar den text för nummerpresentation som visas när denna anslutning ringer samtal utanför växeln.
+extensions.external_cid_name = Namn
+extensions.external_cid_number = Number
+extensions.external_cid_number.invalid = Ange ett giltigt externt uppringar-ID. Endast *,#,+ och siffror är tillåtna
+extensions.ext_language = Språk
+extensions.ext_language.tooltip = Anger den språkinställning som ska användas för den här anslutningen. Detta tvingar alla uppmaningar som är specifika för användaren att spelas upp på det valda språket, förutsatt att språket är installerat och röstmeddelanden för det angivna språket finns på din server.
+extensions.fax_auto_send = Fax till e-post
+extensions.fax_auto_send.tooltip = Fax kommer att skickas till e-post när det mottagits.
+extensions.fax_enabled = Fax aktiverad
+extensions.fax_enabled.tooltip = Aktivera/avaktivera fax
+extensions.features_password = Funktioner Lösenord
+extensions.features_password.invalid = Lösenordet för funktionen är ogiltigt. Använd endast siffror och symbolen ”*” (asterisk).
+extensions.features_password.tooltip = Lösenord för åtkomst till vissa PBX-funktioner.
+extensions.followme = Followme
+extensions.followme_numbers = Följ mig-listan
+extensions.followme_numbers.tooltip = De nummer som du ska ringa för att följa mig
+extensions.followme_options = Alternativ för FollowMe
+extensions.followme_self.invalid = Follow me-listan kan inte innehålla anslutning till sig själv (%s)
+extensions.fw_ringtime = Ringtid
+extensions.fw_ringtime.tooltip = Den tid som telefonen tillåts ringa de nummer som definierats i Follow Me-listan utan att bli besvarad, innan den fortsätter till en alternativ destination, t.ex. röstbrevlåda.
+extensions.fxs_channel.invalid = FXS-kanalen får inte vara tom
+extensions.general = Allmänt
+extensions.hidefromdir = Dölj från katalogen
+extensions.hidefromdir.tooltip = Om inställningen är Ja kommer namnet på den här användaren inte att visas i den systemskapade telefonboken och du kan inte ringa till den här användaren med hjälp av funktionskoden Telefonbokskatalog.
+extensions.incoming_rec = Inkommande
+extensions.incoming_rec.tooltip = Spela in inkommande samtal.
+extensions.internal_cid = Internt CID
+extensions.internal_cid.tooltip = Internt nummerpresentation för anslutningen, som består av två delar: CID-namn och CID-nummer. Detta definierar den text för nummerpresentation som visas när denna anslutning ringer till andra anslutningar i växeln.
+extensions.internal_cid_name = Namn
+extensions.internal_cid_number = Nummer
+extensions.internal_cid_number.invalid = Ange ett giltigt internt uppringnings-ID. Endast *,#,+ och siffror är tillåtna
+extensions.internal_rec = Internt
+extensions.internal_rec.tooltip = Spela in interna samtal.
+extensions.invalid.already_exists = Ogiltigt nummer för anslutning {0}. Numret används redan av {1} modul.
+extensions.invalid.cos = Serviceklassen är ogiltig. Kontrollera att serviceklassen finns.
+extensions.invalid.email = E-postadressen ”%s” är ogiltig. Kontrollera att e-postadressen är korrekt.
+extensions.invalid.extension = Anslutningsnummer <b>%s</b> är ogiltigt. Får endast innehålla siffror
+extensions.invalid.extension_missing = Nummer för anslutning saknas
+extensions.invalid.features_password = Lösenordet för funktionen <b>%s</b> är ogiltigt. Får endast innehålla siffror och tecknet ”*”.
+extensions.invalid.language = Anslutningen språk %s är ogiltig. Kontrollera att språket finns
+extensions.job_title = Jobbtitel
+extensions.job_title.tooltip = Anger en jobbtitel för en kontakt.
+extensions.location = Plats
+extensions.location.tooltip = Anger en plats för en kontakt, t.ex. ”Las Vegas”.
+extensions.mohsuggest = Klass för musik i vänteläge
+extensions.mohsuggest.tooltip =
+    Det här alternativet anger vilken klass för musik i vänteläge som ska föreslås för peer-kanalen när ett utgående samtal placeras i vänteläge.
+    Den här inställningen åsidosätter inte den MOH-inställning som anges i trunkinställningarna. För att den här inställningen ska gälla för utgående
+    externa samtal måste rullgardinsmenyn Music on Hold i modulen Trunks anges till ”None”, annars gäller den bara för interna samtal.
+extensions.music_group_id = Klass för musik i vänteläge
+extensions.music_group_id.tooltip = {extensions.mohsuggest.tooltip}
+extensions.name = Namn
+extensions.name.tooltip = Namn för att identifiera denna anslutning. Detta är vanligtvis slutanvändarens namn.
+extensions.new_device = ---Ny--
+extensions.none = Ingen
+extensions.norecording_prompt_id = Ingen inspelningsprompt
+extensions.norecording_prompt_id.tooltip = Du kan välja standardalternativet att använda meddelandet ”Du har ett inkommande samtal” när den som ringer väljer att inte lämna sitt namn eller om alternativet inte är inställt för att de ska göra det, eller använda din egen anpassade prompt.
+extensions.nospy = Blockera Spy Me
+extensions.nospy.tooltip = Låt inte andra anslutningar spionera på den här anslutningen.
+extensions.notes = Anteckningar
+extensions.notes.tooltip = Eventuella anteckningar som du vill associera med den här kontakten. Detta är ett fritextfält.
+extensions.no_limit = Ingen gräns
+extensions.organization = Organisation
+extensions.organization.tooltip = Anger en organisation för en kontakt.
+extensions.outgoing_rec = Utgående
+extensions.outgoing_rec.tooltip = Spela in utgående samtal.
+extensions.pager = Telefonsvarare Personsökare E-postadress
+extensions.pls_hold_prompt_id = Vänligen vänta Prompt
+extensions.pls_hold_prompt_id.tooltip = Meddelandet ”Var god dröj medan vi försöker koppla ditt samtal” visas.
+extensions.portal_password = Lösenord för portalen
+extensions.portal_password.tooltip = Lösenord för åtkomst till portalområdet.
+extensions.portal_user = Portalanvändare
+extensions.portal_user.tooltip = Användare för inloggning som portalanvändare.
+extensions.prefix = Prefix
+extensions.prefix.tooltip = Ställer in prefixtiteln för en kontakt, t.ex. ”Mr.”.
+extensions.recname = Spela in den uppringande personens namn
+extensions.recname.tooltip = Spela in namnet på den som ringer så att det kan meddelas till den uppringde vid varje steg.
+extensions.recording = Inspelning
+extensions.rec_on_demand = Inspelning på begäran
+extensions.rec_on_demand.tooltip = Spela in samtal på begäran.
+extensions.ringtime = Ringtid
+extensions.ringtime.tooltip = Antal sekunder som enheten/erna får ringa innan den/dem ger upp och går vidare till nästa prioritet i anslutningen.
+extensions.ring_strategy = Ringstrategi
+extensions.ring_strategy.one_by_one = En efter en
+extensions.ring_strategy.ring_all = Ring alla
+extensions.ring_strategy.tooltip = Ringstrategi
+extensions.save = Spara
+extensions.saycid = Säg CID
+extensions.saycid.tooltip = Säg upp nummerpresentation före meddelandet.
+extensions.sayduration = Säg varaktighet
+extensions.sayduration.tooltip = Aktivera/avaktivera information om varaktighet före meddelandet.
+extensions.secretary = Sekreterarens anslutning
+extensions.secretary.tooltip = Funktionen Chef/Sekreterare används för att omdirigera alla inkommande samtal till chefstelefonen till sekreterartelefonen först. Endast sekreteraren kan ringa direkt till denna anslutning.
+extensions.secret = Lösenord för enhet
+extensions.sendcid = Skicka nummerpresentation
+extensions.sendcid.tooltip = Skicka eller dölj nummerpresentation för den här anslutningen. Denna inställning gäller endast för externa utgående samtal.
+extensions.skip_instructions = Hoppa över instruktioner
+extensions.skip_instructions.tooltip = Om den är inställd på ja, hoppar den över uppspelningen av instruktioner för att lämna ett meddelande till den uppringande parten.
+extensions.sorry_prompt_id = Ursäktsprompt
+extensions.sorry_prompt_id.tooltip = Du kan välja att använda standardmeddelandet ”Jag är ledsen, men vi kunde inte hitta ditt parti”, eller använda ditt eget meddelande.
+extensions.status_prompt_id = Statusprompt
+extensions.status_prompt_id.tooltip = Du kan välja att använda standardmeddelandet ”Den du ringer är inte vid sitt skrivbord” eller använda ditt eget meddelande.
+extensions.suffix = Suffix
+extensions.suffix.tooltip = Anger ett suffix för en kontakt, t.ex. ”Jr.”.
+extensions.technology = Teknik
+extensions.technology.invalid = Tekniken måste vara ett av följande alternativ: SIP, IAX, FXS, INGET
+extensions.technology.tooltip = Typ av teknik för den här enheten
+extensions.update = Uppdatera
+extensions.user = Enhet Användare
+extensions.user.invalid = Namnet på användarenheten är redan upptaget
+extensions.user.invalid.spaces = Användarens enhet får inte innehålla mellanslag
+extensions.user_image = Användarbild
+extensions.user_portal = Användarportal
+extensions.vm_email = E-postadress för röstbrevlåda
+extensions.vm_enabled = Aktiverad
+extensions.vm_enabled.tooltip = Aktivera eller inaktivera röstbrevlåda.
+extensions.vm_password = Lösenord för röstbrevlåda
+extensions.vm_password.tooltip = Numeriskt lösenord som används för att komma åt användarens röstbrevlåda.  Kan lämnas tomt (dvs. inget lösenord) eller bestå av valfritt antal siffror som kan innehålla (men inte börja med) tecknet asterisk (*). Om lösenordet matchar numret på anslutningen uppmanas användaren att skapa ett nytt lösenord.
+extensions.vm_password.invalid = Ogiltigt lösenord för röstbrevlådan %s. Lösenordet för röstbrevlådan kan lämnas tomt eller bestå av ett valfritt antal siffror som kan innehålla (men inte börja med) tecknet asterisk (*). Alla andra tecken är inte giltiga.
+extensions.voicemail = Röstbrevlåda
+extensions.voicemail.busy = %s - %s (Upptagen)
+extensions.voicemail.direct = %s - %s (Direkt)
+extensions.voicemail.unavailable = %s - %s (Ej tillgänglig)
+extensions.deny.invalid = IP-adressen "{0}" i fältet ”Neka” är ogiltig. Ange IP-adress med nätmask. Du kan använda CIDR-notation. (Example: 192.168.40.38/16)
+extensions.permit.invalid = IP-adressen "{0}" i fältet ”Permit” är ogiltig. Skriv in IP-adress med nätmask. Du kan använda CIDR-notation. (Example: 192.168.40.38/16)
+extensions.name.invalid = Namnet %s får inte innehålla tecknet ”,”
+module.extensions = Anslutningar
+extensions.dial_profile_id = Uppringningsprofil
+extensions.dial_profile_id.tooltip = Här kan du välja den profil som ska användas med de uppringningsalternativ som ska gälla för dina inkommande samtal.
+extensions.call_waiting = Väntande samtal
+extensions.call_waiting.tooltip = Om du avmarkerar detta alternativ kommer endast ett inkommande samtal att tillåtas till denna anslutning.
+extensions.notification.added = Anslutningen {0} har lagts till
+extensions.notification.updated = Anslutningen {0} har uppdaterats
+extensions.notification.deleted = Anslutningen {0} har tagits bort
+extensions.notification.confirm.delete = Är du säker än du vill ta bort anslutningen <b>”{0}”</b>
+extensions.portal_user.duplicated = Portalens användarnamn är i konflikt med en annan användare med samma användarnamn, kontrollera och försök igen.
+extensions.number.duplicated = Anslutningen {0} är redan i bruk, kontrollera och försök igen.
+extensions.cid_number.tooltip = Valfritt cid-nummer för att göra rutten mer specifik.
+extensions.route_description = Beskrivning
+extensions.route_description.tooltip = En kort beskrivning för att identifiera rutten.
+extensions.routing = Inkommande rutter
+extensions.actions = Åtgärder
+extensions.routes.no_desc = För att lägga till en ny inkommande rutt, ange en giltig beskrivning.
+module.follow_me = Follow Me
+module.voicemail = Röstbrevlåda
+module.fax = Fax
+extensions.extension.tab = Anslutningar {0}
+extensions.callcenter = Inställningar för teletjänstcentral
+extensions.dynamic_queues = Dynamiska köer
+extensions.dynamic_queues.tooltip =
+	Här kan du definiera listan över köer där denna anslutning kommer att listas som en dynamisk agent.
+extensions.static_queues = Statiska köer
+extensions.static_queues.tooltip =
+	Här kan du definiera listan över köer där denna anslutning kommer att listas som en statisk agent.
+extensions.queue_listed_as_dynamic_and_static =
+	Denna anslutning kan inte listas som dynamisk och statisk agent för kö <b>”{0}”</b> samtidigt
+extensions.emergency_cid_name = {extensions.external_cid_name}
+extensions.emergency_cid_number = {extensions.external_cid_number}
+extensions.emergency_cid = CID för nödsituationer
+extensions.emergency_cid.tooltip =
+	Det gör det möjligt att definiera den nummerpresentation som ska användas om du ringer ett nödnummer
+extensions.dialout = Tillåt att ringa ut
+extensions.dialout.tooltip =
+	Om det är tillåtet kan användare ringa ut från sina brevlådor (alternativ 4 i brevlådans avancerade meny). <b>Detta anses vara en mycket farlig funktion i ett telefonsystem
+	(främst eftersom många användare av röstbrevlådor gärna använder 1234 som lösenord) och rekommenderas därför inte</b>.
+extensions.callback = Tillåt uppringning
+extensions.callback.tooltip =
+	Om markerad kommer användare att vara tillgängliga för att ringa tillbaka till avsändaren av ett meddelande. Den angivna serviceklassen måste
+	kunna hantera uppringning av nummer i det format som de tas emot (till exempel kanske landskoden
+	inte tas emot med nummerpresentationen, men kan vara obligatorisk för det utgående samtalet).
+extensions.create_hint = Generate Hint
+extensions.create_hint.tooltip =
+	Om detta är aktiverat går det att fjärrövervaka statusen för röstbrevlådan för denna anslutning via en BLF-tangent. För att
+	konfigurera BLF måste du använda följande format: vm_1234, där 1234 är den anslutning som ska
+	övervakas
+module.vm_busy = Röstbrevlåda upptagen
+module.vm_direct = Röstbrevlåda direkt
+module.vm_unavailable = Röstbrevlådan är inte tillgänglig
+extensions.pinless = Pin-lös
+extensions.pinless.tooltip =
+	Om aktiverat kommer användaren av denna anslutning inte att uppmanas att ange pin på utgående rutter som har
+	tilldelats en pin-uppsättning
+extensions.ask_password = Ask Password
+extensions.ask_password.tooltip =
+	Det gör det möjligt att definiera om de användare som ringer <b>{0}</b> för att få tillgång till sin egen röstbrevlåda kommer att uppmanas att ange
+	lösenord för röstbrevlådan eller inte. Detta gäller inte för "{1} ({2})" funktionen.
+extensions.dynamic_routing = Dynamisk rutt
+extensions.dynamic_routing.tooltip =
+	Gör det möjligt att aktivera eller avaktivera dynamisk routning för den här anslutningen. Om den är aktiverad, när en extern part
+	(som tidigare blivit uppringd av denna anknytning) ringer tillbaka, kommer samtalet att dirigeras direkt till denna anknytning
+extensions.max_reached = Du har nått det maximala antalet tillåtna anslutningar.
+extensions.cid_on_diversions = Nummerpresentation på avledningsmanövrar
+extensions.cid_on_diversions.tooltip =
+	Här kan du definiera vilket nummer som ska skickas när en vidarekoppling utförs.<br><br>
+	<b>{parking.caller}: </b> Den kommer att skickas med nummerpresentation för den som ringer. <br>
+	<b>{parking.callee}: </b> Det kommer att skickas uppringarens ID för den som tog emot samtalet.
+extensions.cid_on_diversions.caller = {parking.caller}
+extensions.cid_on_diversions.callee = {parking.callee}
+extensions.initial_ringtime = Initial ringtid
+extensions.initial_ringtime.tooltip = Tid i sekunder för att ringa den primära anslutningen innan du ringer till medlemmarna i follow-me-listan
+extensions.initial_ringtime.not_ring = Ring ej
+extensions.followme.enabled = Aktiverad
+extensions.followme.enabled.tooltip = Det gör att du kan aktivera/inaktivera follow-me-funktionen i den här anslutningen
+extensions.email_multiple = E-postadresser
+extensions.email_multiple.tooltip = Lista med e-postadresser åtskilda med kommatecken dit servicemeddelanden ska skickas.
+extensions.vitxi_clients.max_reached = Du har nått det maximala antalet Mobile/WebRTC-klienter som tillåts för din nuvarande licens.
+extensions.push.max_devices_with_qr = Du har nått det maximala antalet enheter med alternativet ”QR” aktiverat som din nuvarande licens tillåter.
+extensions.show_qr = Visa QR-kod
+extensions.qr.invalid_device = Det går inte att visa QR för den här enheten eftersom den inte finns eller är ogiltig.
+extensions.send_welcome_email = Skicka välkomstmejl
+extensions.qr.private = Privat IP
+extensions.qr.public = Offentlig IP
+extensions.qr.fqdn = FQDN
+extensions.qr = QR-visningsprogram
+extensions.welcome_email.invalid_device = Det går inte att skicka välkomstmeddelandet, det ser ut som om du har valt en ogiltig enhet
+extensions.welcome_email.sent = Välkomstmeddelandet har skickats
+extensions.welcome_email.no_template = Kan inte hitta den begärda mallen
+extensions.dynamic_external_cid = Dynamisk extern CID
+extensions.dynamic_external_cid.tooltip =
+	När den är aktiverad används som externt CID det nummer som skickas av de enheter som är anslutna till denna anslutning. Detta är
+	användbart när anslutningens enheter används som trunkar.
+extensions.internal_numbers_confirmation = Snabba interna samtal
+extensions.internal_numbers_confirmation.tooltip =
+	Här kan du ange om de interna samtalsdeltagarna ska tillfrågas om de vill acceptera eller avvisa det inkommande
+	samtal när alternativet ”Prompt Callee” är aktiverat.
+extensions.contact = Kontaktuppgifter
+extensions.mobile_number.tooltip = Det mobiltelefonnummer som hör till denna anslutning
+extensions.home_number.tooltip = Det fasta telefonnumret som hör till denna anslutning
+extensions.organization.tooltip = Den organisation som denna anslutning tillhör
+extensions.job_title.tooltip = Jobbtiteln för den användare som denna anslutning tillhör
+extension.number = Nummer att ringa
+extension.number.tooltip =
+	Externt/internt nummer som ska slås när någon ringer till denna anslutning. Om du ställer in ett externt nummer måste det
+	matcha de definitioner av utgående rutter som tilldelats den serviceklass som är kopplad till den här anslutningen.
+extensions.confirm_remove_device = Är du säker att du vill ta bort enheten ”%s”? Denna åtgärd är oåterkallelig.
+extensions.remove_device = Ta bort enhet
+extensions.invalid.remove_new_device = Ingen enhet är vald.
+extensions.device_removed = Enheten har tagits bort framgångsrikt.
+extensions.trunk_duplicated = Den tillhandahållna enheten "{0}" används av trunkar "{1}."
+extensions.qr.vpbx_connect = VitalPBX Connect
+extensions.busy_greeting_id = Upptagen-prompt
+extensions.busy_greeting_id.tooltip =
+    Här kan du ange vilket upptaget-meddelande som ska spelas upp när du når röstbrevlådan i upptaget läge. När den är inställd på ”Ingen”
+    kommer upptagningsmeddelandet att hämtas från systemet.
+extensions.unav_greeting_id = Ej tillgänglig-prompt
+extensions.unav_greeting_id.tooltip =
+    Här kan du ange vilket meddelande som ska spelas upp när du når röstbrevlådan i otillgängligt läge. När det är inställt på ”Ingen”
+    kommer det otillgängliga meddelandet att plockas från systemet.
+extensions.notification.external = Extern
+extensions.notification.internal = Intern
+extensions.notification.queues = Köer
+extensions.notification.ring_groups = Ringgrupper
+extensions.notify_missed_calls = Meddela om missade samtal
+extensions.notify_missed_calls.tooltip =
+    Välj ett eller flera alternativ för att skicka ett e-postmeddelande när ägaren till den här anslutningen missar ett samtal.<br><br>
+    <b>{extensions.notification.external}: </b> Den skickar ett e-postmeddelande om ett externt samtal missas. Inget e-postmeddelande skickas dock om samtalet går till röstbrevlådan. <br>
+    <b>{extensions.notification.internal}: </b> Den skickar ett e-postmeddelande om ett internt samtal missas. Inget e-postmeddelande skickas dock om samtalet går till röstbrevlådan. <br>
+    <b>{extensions.notification.queues}: </b> Den skickar ett e-postmeddelande när ett samtal från en kö missas. <br>
+    <b>{extensions.notification.ring_groups}: </b> Den skickar ett e-postmeddelande när ett samtal från en ringgrupp missas. Ägaren till anslutningen får ett e-postmeddelande om missat samtal, även om samtalet besvarades någon annanstans. <br>
+extensions.sms_number = SMS-nummer
+extensions.sms_number.tooltip =
+    Ett nummer från en SMS-leverantör för att skicka och ta emot SMS på de enheter som är anslutna till denna anslutning.
+extensions.global_max_reached = Den aktuella serverlicensen har överskridit den tillåtna gränsen för anslutningar.
+extensions.device_duplicated_on_tenant = Användarnamnet för enheten ”{0}” är redan upptaget eller reserverat, vänligen välj ett annat namn.

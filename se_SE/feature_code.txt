@@ -1,0 +1,186 @@
+feature_code.account_code = Kundkod
+feature_code.account_code.tooltip = Skapar en kundkod som ska användas av CDR-systemet – mycket användbar för samtalsredovisning. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.add_last_caller_blacklist = Blockera sista samtal
+feature_code.add_last_caller_blacklist.tooltip = Lägger till det senaste numret som ringde din anslutning till din anslutnings svartlista. Skriv in numret som ska blockeras, följt av #. Se till att skriva in numret exakt som det visas i systemet, dvs. inkludera lämpliga riktnummer, osv. Skriv in 1 för att acceptera posten, eller lägg på för att avvisa den. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.add_num_blacklist = Blockera ett nummer
+feature_code.add_num_blacklist.tooltip = Ange ett telefonnummer, som sedan läggs till svartlistan för anslutningen. Inkommande samtal kommer inte att ringa anslutningen om de finns på anslutningens svartlista. Blockerade samtalare kommer att informeras om att numret de ringde inte längre är i bruk. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.add_remove_queue_agent = Lägg till/ta bort köagent
+feature_code.add_remove_queue_agent.tooltip = Växla för att lägga till en agent till en specifik kö eller ta bort agenten från kön. Du kan antingen följa instruktionerna, eller (i expertläge) skriva in funktionskoden omedelbart följt av * (asterisk) och numret på kön. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.attended_transfer = Tjänstetransfer
+feature_code.attended_transfer.tooltip = När du är på ett samtal, överför det aktuella samtalet till operatören. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.auth_code = Auktoriseringskod
+feature_code.auth_code.tooltip = Gör det möjligt att ringa från vilken telefon som helst genom att använda en auktoriseringskod som är kopplad till en obegränsad uppringningsplan. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.black_list = Svartlista
+feature_code.blind_transfer = Blindtransfer
+feature_code.blind_transfer.tooltip = När du är på ett samtal, överför det aktuella samtalet utan att meddela den anslutning till vilken samtalet överförs. Denna funktion måste tillåtas både av funktionskategorin och uppringningsprofilen som är kopplad till anslutningen.
+feature_code.boss_secretary = Chef/Sekreterare - Växla
+feature_code.boss_secretary.tooltip = Växla som aktiverar eller avaktiverar vidarekopplingen av alla inkommande samtal för den aktuella anslutningen till den anslutning som definieras som "sekreterare"-telefonen. När denna funktion har aktiverats kommer endast "sekreterare"-telefonen att kunna ringa direkt till "chef"-telefonen – alla andra samtal kommer att vidarekopplas direkt till "sekreterare"-telefonen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen, och är endast tillgänglig efter att en "sekreterare"-anslutning har definierats för "chef"-anslutningen. "Sekreterare"-anslutningen kan ringa denna funktionskod för att sluta ta emot samtal.
+feature_code.business_services = Företagstjänster
+feature_code.call_center = Callcenter
+feature_code.call_completion = Samtalsavslutning (CCSS)
+feature_code.call_flow_ctrl = Samtalsflödeskontroll
+feature_code.call_forward = Vidarekoppling (CF)
+feature_code.cancel_cc = Avbryt samtalsavslutning
+feature_code.cancel_cc.tooltip = Gör det möjligt att avbryta en samtalsavslutning som begärts från din anslutning.
+feature_code.change_ext_pwd = Ändra funktionens lösenord
+feature_code.change_ext_pwd.tooltip = Ändra lösenordet för den aktuella anslutningen för att få åtkomst till lösenordsskyddade telefonfunktioner. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.clear_all_diversions = Ta bort alla vidarekopplingar
+feature_code.clear_all_diversions.tooltip = Inaktiverar alla samtalsvidarekopplingar, inklusive funktionen Stör ej. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.custom = Anpassad
+feature_code.cust_recording = Anpassad inspelning
+feature_code.cust_recording.tooltip = Används för att spela in ett meddelande. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.default = Standard
+feature_code.dial_by_name_dir = Slå upp namn i telefonkatalog
+feature_code.dial_by_name_dir.tooltip = Använd din numeriska knappsats för att slå ett användarnamn. Till exempel kan förlängningen för intern support kallas HELP, så du slår 411 (för att aktivera denna funktion) och sedan 4357 för att nå supporten. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.dictation_services = Diktering
+feature_code.dictation_services.tooltip = Används för att spela in ett meddelande med möjlighet att skicka det via e-post. Endast tillgänglig för anslutningar där diktering har aktiverats i inspelningsfliken.
+feature_code.direct_pickup = Direkt upphämtning
+feature_code.direct_pickup.tooltip = När du är på ett samtal, fånga ett samtal som ringer på en annan anslutning i din upphämtningsgrupp. Du behöver slå funktionskoden följt av förlängningsnumret som du vill svara på. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.direct_toggle_cfi = Direkt vidarekoppling omedelbart
+feature_code.direct_toggle_cfi.tooltip = Direkt vidarekoppling omedelbart
+feature_code.direct_pause_unpause_queue_agent = Direkt paus/upphäv paus för köagent
+feature_code.direct_pause_unpause_queue_agent.tooltip = Direkt paus/upphäv paus för köagent
+feature_code.direct_add_remove_queue_agent = Direkt lägg till/ta bort köagent
+feature_code.direct_add_remove_queue_agent.tooltip = Direkt lägg till/ta bort köagent
+feature_code.direct_vm = Vidarekoppla till röstbrevlåda
+feature_code.direct_vm.tooltip = Vidarekoppling till röstbrevlådan för att lyssna på röstbrevlådan för den aktuella anslutningen - kräver endast att användaren anger lösenordet för röstbrevlådan. Det här alternativet är endast tillgängligt för anslutningar där röstbrevlådan har aktiverats på fliken Röstbrevlåda.
+feature_code.disabled = Inaktiverad
+feature_code.disconnect_call = Koppla bort samtal
+feature_code.disconnect_call.tooltip = När du är i ett samtal, koppla bort det pågående samtalet. Funktionen måste vara aktiverad i den funktionskategori som är kopplad till anslutningen.
+feature_code.dnd = Stör ej - Växling
+feature_code.dnd.tooltip =
+	Växla för att aktivera eller inaktivera funktionen Stör ej. Du kan antingen följa anvisningarna eller (i expertläge) ange funktionskoden
+	koden omedelbart följt av * (asterisk) och siffran ett för att aktivera DND, eller siffran två för att inaktivera DND. Funktionen måste vara
+	aktiveras i den funktionskategori som är kopplad till anslutningen.
+feature_code.echo_test = Eko-test
+feature_code.echo_test.tooltip = Eko-test för att mäta responstiden. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.enabled = Aktiverad
+feature_code.features.duplicate = Funktionskoder måste vara unika och kan inte återanvändas.
+feature_code.features.invalid = Funktionskoder kan inte vara tomma och får endast innehålla följande tecken: 0-9, #, * och +.
+feature_code.follow_me = Följ mig - Växla
+feature_code.follow_me.tooltip = Växla för att aktivera eller inaktivera Följ mig-funktionen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.general = Allmänt
+feature_code.hot_desking = Hot Desking
+feature_code.hot_desking.tooltip =
+	Växla för att aktivera eller inaktivera Hot Desking. Du kan antingen följa anvisningarna eller (i expertläge) ange funktionskoden
+	koden omedelbart följt av * (asterisk) och siffran ett för inloggning eller siffran två för utloggning.
+	Funktionen måste vara aktiverad i den funktionskategori som är kopplad till anslutningen.
+feature_code.lock_unlock_phone = Lås/Utlås Telefon
+feature_code.lock_unlock_phone.tooltip = Växla för att låsa eller låsa upp den aktuella anslutningen. Inga utgående samtal kan göras från en telefon som har blivit låst. För att låsa upp telefonen, ombeds du att ange funktionslösenordet för anslutningen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.nm_all = Nattläge Alla
+feature_code.nm_all.tooltip = Växla för att aktivera/inaktivera alla definierade nattlägen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.one_touch_rec = Entryckning Förinspelning
+feature_code.one_touch_rec.tooltip = När du är på ett samtal, tvinga det aktuella samtalet att spelas in. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.on_call_features = Funktioner Under Samtal
+feature_code.park_call = Parkera Samtal
+feature_code.park_call.tooltip = När du är på ett samtal, parkera det aktuella samtalet i samtalsparkeringen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.pause_unpause_queue_agent = Pausa/Återuppta Köagent
+feature_code.pause_unpause_queue_agent.tooltip = Växla för att pausa eller återuppta en agent för en specifik kö. Du kan följa instruktionerna eller (i expertläge) ange funktionskoden direkt följt av * (asterisk) och numret på kön. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.personal_assistant = Personlig Assistent - Växla
+feature_code.personal_assistant.tooltip = Växla för att aktivera/inaktivera den personliga assistenten för din anslutning.
+feature_code.phone_book = Telefonbok
+feature_code.pickup_group = Upphämtningsgrupp
+feature_code.pickup_group.tooltip = När du är i ett samtal kan du fånga upp ett samtal som ringer på en annan anslutning i din pickup-grupp. För att kunna använda denna funktion måste du skapa en samtalsgrupp och en pickup-grupp i dialogen för anslutningar. Funktionen måste vara aktiverad i den funktionskategori som är kopplad till anslutningen.
+feature_code.queues-pause-unpause = Köer Pausa/avpausa
+feature_code.queues-pause-unpause.tooltip =
+	Gör att du kan pausa (eller avpausa) alla köer. Du kan antingen följa anvisningarna eller (i expertläge) ange funktionskoden
+	koden omedelbart följt av * (asterisk) och siffran ett för paus eller siffran två för avpaus.
+feature_code.queues_login_logout = Köar Inloggning/Loggout
+feature_code.queues_login_logout.tooltip =
+	Gör det möjligt att logga in på (eller logga ut från) alla köer. Du kan antingen följa anvisningarna eller (i expertläge) ange funktionskoden
+	koden omedelbart följt av * (asterisk) och siffran ett för inloggning, eller siffran två för utloggning.
+feature_code.rec_msg_pa = Spela in meddelande för personlig assistent
+feature_code.rec_msg_pa.tooltip = Spela in ett meddelande som samtalsinriktade personer hör när de betjänas av din personliga assistent. Finns endast tillgänglig för anslutningar där "Personlig Assistent" har aktiverats i fliken Avancerat.
+feature_code.reminder = Påminnelse
+feature_code.reminder.tooltip = Spelar in ett meddelande. Du kan konfigurera efter hur många minuter du vill höra inspelningen. När den inställda tiden har löpt ut, får du ett samtal på den aktuella anslutningen och inspelningen kommer att spelas upp. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.remote_substitution = Fjärrsubstitution
+feature_code.remote_substitution.tooltip = Möjliggör för den aktuella telefonen att ringa samtal som om du ringer från en annan telefonanslutning. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.remote_vm = Fjärrstyrd röstbrevlåda
+feature_code.remote_vm.tooltip =
+	Fjärråtkomst till röstbrevlådesystemet för att lyssna på röstbrevlådan för valfri anslutning. Du kan antingen följa anvisningarna eller
+	(i expertläge) ange funktionskoden omedelbart följt av * (asterisk) och brevlådans anslutning. Funktionen måste
+	vara aktiverad i den funktionskategori som är kopplad till anslutningen.
+feature_code.remote_wakeup_call = Fjärrväckningssamtal
+feature_code.remote_wakeup_call.tooltip = Ställ in en påminnelse eller väckningssamtal för en annan anslutning. Ange numret på den anslutning för vilken påminnelsen är avsedd. Tryck 1 för en engångspåminnelse, eller tryck 2 för en återkommande daglig påminnelse. Tiden ska anges i 24-timmarsformat med 4 siffror. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.remove_number_blacklist = Ta bort nummer från svartlistan
+feature_code.remove_number_blacklist.tooltip = Ange ett svartlistat telefonnummer - det svartlistade numret tas bort från anslutningens svartlista. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.request_cc = Samtalsavslutning - Växla
+feature_code.request_cc.tooltip =
+	När funktionen är aktiverad kan den som ringer begära att samtalet ska avslutas för din anslutning, vilket innebär att när du
+	asterisken automatiskt kommer att generera ett samtal från den som begärde samtalsavslutningen till din anslutning
+feature_code.request_wakeup_call = Väckningssamtal
+feature_code.request_wakeup_call.tooltip = Ställ in en påminnelse eller väckningssamtal för den aktuella anslutningen. Tryck 1 för en engångspåminnelse, eller tryck 2 för en återkommande daglig påminnelse. Tiden ska anges i 24-timmarsformat med 4 siffror. Om du redan har ställt in en påminnelse kan du trycka 1 för att avbryta den. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.save = Spara
+feature_code.say_date_time = Säg datum och tid
+feature_code.say_date_time.tooltip = Säg det aktuella systemdatumet och -tiden. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.set_cfb_number = Ställ in CF Vid Upptagen Nummer
+feature_code.set_cfb_number.tooltip = Anger numret dit samtal ska skickas när samtals vidarekoppling vid upptagen är aktiverad och din anslutning är upptagen. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.set_cfi_number = Ställ in CF Omedelbart Nummer
+feature_code.set_cfi_number.tooltip = Anger numret dit samtal ska skickas när omedelbar samtals vidarekoppling är aktiverad. Du kan antingen följa anvisningarna, eller (i expertläge) ange funktionskoden omedelbart följt av * (stjärna) och numret till vilket samtal ska vidarekopplas. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.set_cfn_number = Ställ in CF Vid Svarslös Nummer
+feature_code.set_cfn_number.tooltip = Anger numret dit samtal ska vidarekopplas när din anslutning inte kan svara. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.set_cfu_number = Ställ in CF Också Nummer
+feature_code.set_cfu_number.tooltip = Anger numret dit samtal ska skickas när ovillkorlig samtals vidarekoppling är aktiverad. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.simulate_incoming_call = Simulera inkommande samtal
+feature_code.simulate_incoming_call.tooltip = Simulera ett inkommande samtal för att testa telefonens ringsignal. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.speak_ext_number = Säg din anslutningsnummer
+feature_code.speak_ext_number.tooltip = Säg anslutningens nummer som du ringer ifrån. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.speak_last_number = Säg senaste nummer
+feature_code.speak_last_number.tooltip = Säger det senaste numret som ringde den aktuella anslutningen. Du kan trycka 1 för att ringa det ursprungliga numret. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.special_features = Specialfunktioner
+feature_code.spy_extension = Spionera på anslutning
+feature_code.spy_extension.tooltip = Spionera på en specifik anslutning. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.spy_ext_whisper = Spionera på anslutning i viskarläge
+feature_code.spy_ext_whisper.tooltip = Spionera på en specifik anslutning i viskarläge. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.spy_random_chn = Spionera på slumpmässiga kanaler
+feature_code.spy_random_chn.tooltip = Spionera på slumpmässiga kanaler. Funktionen måste vara aktiverad i funktionskategorin som är kopplad till anslutningen.
+feature_code.test_services = Testtjänster
+feature_code.toggle_cfb = Vidarekoppling upptagen - Växla
+feature_code.toggle_cfb.tooltip =
+	Växla för att aktivera eller inaktivera vidarekoppling när din anslutning är upptagen.  Om du vill aktivera denna vidarekoppling och samtidigt ange
+	vidarekopplingsnumret samtidigt, kan du använda följande format <b>{0}*100</b>.
+feature_code.toggle_cfi = Vidarekoppla samtal omedelbart - Växla
+feature_code.toggle_cfi.tooltip =
+	Kopplar till omedelbar vidarekoppling. Om du vill aktivera funktionen och samtidigt ange vidarekopplingsnumret kan du
+	kan du använda följande format <b>{0}*100</b>.
+feature_code.toggle_cfn = Vidarekoppling vid ej svar - Växla
+feature_code.toggle_cfn.tooltip =
+	Växla för att aktivera eller inaktivera vidarekoppling när din anslutning inte kan svara på inkommande samtal. Om du vill aktivera
+	aktivera denna vidarekoppling och samtidigt ange vidarekopplingsnumret kan du använda följande format <b>{0}*100</b>.
+feature_code.toggle_cfu = Vidarekoppling ej tillgänglig - Växla
+feature_code.toggle_cfu.tooltip =
+	Växla för att aktivera eller inaktivera vidarekoppling. Om du vill aktivera denna vidarekoppling och samtidigt ange vidarekopplingsnumret
+	samtidigt, kan du använda följande format <b>{0}*100</b>.
+feature_code.voice-mail = Röstmeddelande
+feature_code.recordings_announcements = Inspelningar & Meddelanden
+menu.feature_codes = Funktionskoder
+module.feature_code = Funktionskoder
+feature_code.send_vm_msg = Skicka röstmeddelande
+feature_code.send_vm_msg.tooltip = Gör att du kan slå ett nummer till valfri anknytning och lämna ett röstmeddelande. Till exempel, genom att slå *95*2492 kan du lämna ett röstmeddelande för anknytning 2492. Funktionen måste vara aktiverad i den funktionkategori som är kopplad till anknytningen.
+feature_code.spy_ext_barge = Spionera på anknytning i Barge-läge
+feature_code.spy_ext_barge.tooltip = Istället för att viska på en kanal, så gör en "barge" på båda kanalerna som är involverade i samtalet.
+feature_code.direct_remote_voicemail = Direkt fjärr-röstmeddelande
+feature_code.paging_and_intercom = Personsökning
+feature_code.paging_and_intercom.tooltip =
+	Kopplar ett utgående samtal till den angivna anslutningen och lägger in dem i en konferensbrygga som deltagare med ljuddämpare
+	(t.ex.: *827000). Funktionen måste vara aktiverad i den funktionskategori som är kopplad till anslutningen.
+feature_code.hot_desking_cc = Hot Desking CC
+feature_code.hot_desking_cc.tooltip =
+	It works just like the hot desking feature, the only difference is when using this feature code, the caller or hot
+	desking user will be logged in automatically into its assigned queues. Also, it is possible to use shortcodes to login
+	to a specific extension, e.g.: <b>*90#100</b> indicates to the system to login extension 100, and <b>*90#100#1234</b>
+	indicates to the system to login extension 100 using the password 1234.
+feature_code.paging_duplex = Duplex för personsökning
+feature_code.paging_duplex.tooltip =
+	TDenna funktionskod fungerar precis som funktionskoden för personsökning men med duplexljud, vilket innebär att enheten som
+	som tar emot samtalet kan sända ljud tillbaka samtidigt som den tar emot det. För att använda den här funktionen måste du använda
+	följande format <b>{0}100</b>, där <b>{0}</b> är funktionskoden och <b>100</b> den anslutning som du vill ringa upp.
+feature_code.anonymous_calling = Anonymt samtal
+feature_code.anonymous_calling.tooltip =
+	Denna funktionskod gör det möjligt att skicka anonyma utgående samtal på begäran. Om du vill använda den här funktionen måste du använda följande
+	format <b>{0}100</b>, där <b>{0}</b> är funktionskoden, och <b>100</b> är det externa nummer som du vill ringa.
+feature_code.auto_recording_switch_in = Pausa/återuppta inspelningar av inkommande samtal
+feature_code.auto_recording_switch_in.tooltip =
+    Det gör att du kan pausa/återuppta en samtalsinspelning för att undvika att spela in känslig information som t.ex. kreditkortsuppgifter.
+feature_code.auto_recording_switch_out = Pausa/återuppta inspelningar av utgående samtal
+feature_code.auto_recording_switch_out.tooltip = {feature_code.auto_recording_switch_in.tooltip}

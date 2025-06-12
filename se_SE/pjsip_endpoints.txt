@@ -1,0 +1,16 @@
+pjsip_endpoints = PJSIP-slutpunkter  
+menu.pjsip_endpoints = {pjsip_endpoints}  
+module.pjsip_endpoints = {pjsip_endpoints}  
+pjsip_endpoints.endpoints = Slutpunkter  
+pjsip_endpoints.max_contacts = Max kontakter  
+pjsip_endpoints.contacts = Kontakter  
+pjsip_endpoints.endpoint = Slutpunkt  
+pjsip_endpoints.extension = Anslutning  
+pjsip_endpoints.trunk_name = Trunknamn  
+pjsip_endpoints.match = Matchning  
+pjsip_endpoints.trunks = Trunkar  
+pjsip_endpoints.registrations = Utgående registreringar  
+pjsip_endpoints.client_uri = Klient-URI  
+pjsip_endpoints.server_uri = Server-URI  
+pjsip_endpoints.status = Status  
+pjsip_endpoints.tenant = Abonnent

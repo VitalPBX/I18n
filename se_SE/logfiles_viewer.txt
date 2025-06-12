@@ -1,0 +1,17 @@
+logfiles_viewer.error = Fel
+logfiles_viewer.general = Allmänt
+logfiles_viewer.invalid_request = Ogiltig begäran
+logfiles_viewer.lines = Rader
+logfiles_viewer.lines.tooltip = Antal rader som ska visas
+logfiles_viewer.logfile = Loggfil
+logfiles_viewer.logfile.tooltip = Välj den loggfil du vill se
+logfiles_viewer.no_file_selected = Ingen fil vald
+logfiles_viewer.select_logfile = --- Välj en loggfil ---
+logfiles_viewer.invalid_filename = Den begärda loggfilen kan inte hittas
+menu.log_file_viewer = Loggfilsgranskare
+module.logfiles_viewer = Loggfilsgranskare
+logfiles_viewer.refresh = Uppdatera
+logfiles_viewer.filter = Filter
+logfiles_viewer.filter.tooltip =
+	Det gör att du enkelt kan filtrera loggfilernas innehåll efter givna strängar eller ord. Om du t.ex. vill filtrera
+	filtrera endast asteriskfel-loggar kan du skriva ”FEL” och endast felmeddelanden visas.

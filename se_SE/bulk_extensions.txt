@@ -1,0 +1,40 @@
+menu.bulk_extensions = Bulktelefonanslutningar
+module.bulk_extensions = {menu.bulk_extensions}
+bulk_extensions.general = {vitalpbx.general}
+bulk_extensions.range = Anslutningssområde
+bulk_extensions.range.tooltip =
+	Definierar det intervall av anslutning som du vill skapa, t.ex.: från 1000 till 1400.
+	<b>Om någon av anslutningarna i intervallet redan finns kommer den att hoppas över</b>.
+bulk_extensions.cos = {extensions.class_of_service_id}
+bulk_extensions.cos.tooltip = {extensions.class_of_service_id.tooltip}
+bulk_extensions.dev_technology = Enhetens teknologi
+bulk_extensions.dev_technology.tooltip  = Definierar tekniken för den enhet som ska tilldelas varje anslutning
+bulk_extensions.vm_enabled = Röstbrevlåda aktiverad
+bulk_extensions.recording_types = Inspelning av samtal
+bulk_extensions.recording_types.tooltip = Gör att du kan välja vilken typ av samtal som ska spelas in
+bulk_extensions.vm_password.tooltip =
+	Låter dig definiera lösenordet för röstbrevlådan för varje anslutning som det lämnas tomt kommer lösenordet att vara anslutningsnumret.
+	nummer. Du kan använda det reserverade ordet <b>&#123;RANDOM&#125;</b> för att generera ett slumpmässigt lösenord.
+bulk_extensions.accountcode.tooltip =
+	Här kan du definiera kontokoden för varje anslutning. Du kan använda det reserverade ordet <b>&#123;EXTENSION&#125;</b>
+	för att använda anslutningen som kontokod.
+bulk_extensions.features_password.tooltip =
+	Låter dig definiera funktionslösenordet för varje anslutning, om det lämnas tomt kommer ett slumpmässigt lösenord att genereras.
+	Du kan använda det reserverade ordet <b>&#123;EXTENSION&#125;</b> för att använda anslutningen som lösenord för funktioner.
+bulk_extensions.validation.invalid_range = Ett ogiltigt tilläggsintervall har angetts
+bulk_extensions.validation.invalid_vm_password =
+	Lösenordet för röstbrevlådan innehåller ogiltiga tecken. Endast siffror, asterisk-symbol eller reserverade ord är tillåtna
+bulk_extensions.validation.invalid_f_password =
+	Funktionens lösenord innehåller ogiltiga tecken. Endast siffror, asterisk-symbol eller reserverade ord är tillåtna
+bulk_extensions.success =
+	Förlängningsintervallet har bearbetats framgångsrikt. <b>Skapade tillägg</b>: {0} | <b>Skippade tillägg</b>: {1}
+bulk_extensions.name_prefix = Namnprefix
+bulk_extensions.name_prefix.tooltip =
+	Låter dig definiera ett prefix som ska användas som en del av anslutningsnamnet, t.ex.: om du ställer in prefixvärdet till Agent och
+	anslutningen är 200, kommer anslutningsnamnet att vara <b>Agent 200</b>. Om den är tom används ordet <b>Tillägg</b> som prefix
+bulk_extensions.device_password = Enheters lösenord
+bulk_extensions.device_password.tooltip =
+	Här kan du definiera ett dynamiskt eller fast lösenord för de genererade enheterna. Om det är tomt kommer ett slumpmässigt lösenord att anges.
+	Du kan använda det reserverade ordet <b>&#123;EXTENSION&#125;</b> för att göra anslutningsnumret till en del av lösenordet,
+	t.ex.: om anslutningen är 100 och du anger följande värde i detta fält <b>securepwd&#123;EXTENSION&#125;</b>, då kommer lösenordet att vara:
+	<b>securepwd100</b>

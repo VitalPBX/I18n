@@ -1,0 +1,25 @@
+ha_monitor = HA-monitor
+menu.ha_monitor = {ha_monitor}
+module.ha_monitor = Ha-monitor
+ha_monitor.master = Master
+ha_monitor.standby = Standby
+ha_monitor.unstandby = Starta server
+ha_monitor.started = Startade
+ha_monitor.stopped = Stoppade
+ha_monitor.hdd = HDD-sync
+ha_monitor.database = Databas
+ha_monitor.dahdi = DAHDI
+ha_monitor.asterisk = Asterisk
+ha_monitor.vitalpbx = VitalPBX
+ha_monitor.bascul = Bascul
+ha_monitor.confirm_bascul.title = Ändra rollerna för servrar i High Availability
+ha_monitor.confirm_bascul =
+    <strong>¡VARNING!</strong>, Alla pågående samtal bryts och systemet blir otillgängligt under några sekunder.<br>
+    <strong>Är du säker på att du ska byta från {0} till {1} ? </strong>
+ha_monitor.success = Basculen genomfördes framgångsrikt
+ha_monitor.executed = Bascul körs i bakgrunden
+ha_monitor.confirm_unstandby.title = Startbekräftelse
+ha_monitor.confirm_unstandby =
+    Är du säker att du vill utföra Start nu?
+ha_monitor.executed_unstandby = Standby-läget har aktiverats framgångsrikt
+ha_monitor.off = Server nere

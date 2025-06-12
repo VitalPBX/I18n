@@ -1,0 +1,73 @@
+branding = Branding
+module.branding = {branding}
+menu.branding = {branding}
+branding.general = {vitalpbx.general}
+branding.base_color = Basfärg
+branding.bg_color = Bakgrundsfärg
+branding.f_color = Teckensnittfärg
+branding.base_color.tooltip = Huvudfärg som används för aktiva menyalternativ, aktiva formulärflikar och markerad text
+branding.page_title = APP-titel
+branding.page_title.tooltip = Gör att du kan anpassa rubriken som visas i webbläsarfliken
+branding.slogan = Slogan
+branding.slogan.tooltip = Det gör att du kan anpassa den slogan som visas på inloggningsskärmen
+branding.facebook_page = Facebook-sida
+branding.twitter_page = Twitter-sida
+branding.youtube_channel = YouTube-kanal
+branding.social.tooltip = Det gör att du kan anpassa <b>{0}</b>-länken som visas i inloggningsfoten
+branding.login_footer = Inloggnings-sidfot
+branding.login_footer.tooltip = Det gör att du kan anpassa innehållet i sidfoten på inloggningsskärmen
+branding.desktop_logo = Stationärlogotyp
+branding.mobile_logo = Mobillogotyp
+branding.instagram_page = Instagram-sida
+branding.app_name = APP-namn
+branding.app_name.tooltip = Det gör att du kan ändra det huvudsakliga abonnentnamnet
+branding.meet_url = Mötes-URL
+branding.meet_url.tooltip = URL som ska användas som standard för konferenser som genereras via modulen för videokonferenser
+branding.login = Inloggningsdesign
+branding.login_bg = {branding.bg_color}
+branding.login_bg.tooltip = Bakgrundsfärg för inloggningssidan. Om fältet lämnas tomt används standardbakgrunden.
+branding.login_fc = {branding.f_color}
+branding.login_fc.tooltip = Fontfärg som ska användas i inloggningsformuläret
+branding.login_frm_bg = Formulärets bakgrund
+branding.login_frm_bg.tooltip = Bakgrundsfärg för vänster panel i inloggningsformuläret
+branding.login_btn = Färg på Skicka-knappen
+branding.login_btn.tooltip = Bakgrundsfärg för inloggningsknappen
+branding.login_addons_menu = Meny för tillägg
+branding.login_addons_menu.tooltip = Bakgrundsfärg för menyknappen för tilläggsprogram
+branding.reset = Återställning
+branding.reset.confirm =
+	Är du säker på att du vill återställa branding-inställningarna? Denna process är oåterkallelig och all konfiguration som du har gjort
+	kommer att gå förlorad.
+branding.reset_applied = Alla inställningar har återställts på ett framgångsrikt sätt.
+branding.warning_note = Dessa inställningar kommer att tillämpas tills en <a href=”{0}” target=”_blank”>licens</a> tillämpas på branding-tillägget eller aktiveras för någon av de <a href=”{1}” target=”_blank”>tillgängliga planerna</a>
+branding.addons = Tillägg
+branding.url_prefix = URL-prefix
+branding.addon.url_prefix.tooltip =
+	Här kan du definiera det prefix som ska användas för åtkomst på "<b>{0}</b>"-applikation. t.ex.: om du ställer in
+	prefixet till <b>"{1}"</b>, innebär att du måste få tillgång till appen på följande sätt <b>http(s)://YOUR_IP/{1}</b>
+branding.app_name = Applikationens namn
+branding.addon.app_name.tooltip =
+	Här kan du definiera applikationens namn/titel som ska visas i webbläsarens flik.
+branding.desktop_logo_dark = Logotyp för stationär (mörkt läge)
+branding.mobile_logo_dark = Logotyp för mobil (mörkt läge)
+branding.disable_login_bg = Inaktivera bakgrundsbild
+branding.login_background = Bakgrundsbild
+branding.login_logo = Logo
+branding.gui = GUI
+branding.gui.top_navbar = Översta navigeringsfältet
+branding.gui_top_navbar_bg = {branding.bg_color}
+branding.gui_top_navbar_bg.tooltip = Den bakgrundsfärg som ska gälla för det övre fältet.
+branding.gui_top_navbar_fc = {branding.f_color}
+branding.gui_top_navbar_fc.tooltip = Den teckensnittsfärg som ska gälla för det övre fältet.
+branding.gui.menu = Stilar för huvudmenyn
+branding.gui_menu_bg_color_1 = Vänster bakgrundsfärg
+branding.gui_menu_bg_color_1.tooltip = Den bakgrundsfärg som ska användas på vänster sida av huvudmenyn.
+branding.gui_menu_bg_color_2 = Höger bakgrundsfärg
+branding.gui_menu_bg_color_2.tooltip = Den bakgrundsfärg som ska användas på höger sida av huvudmenyn.
+branding.gui_menu_fc = Standardfärg för teckensnitt
+branding.gui_menu_fc.tooltip = Standardtextfärgen som ska användas för menyalternativen
+branding.gui_menu_fc_active = Aktiv teckensnittsfärg
+branding.gui_menu_fc_active.tooltip = Den textfärg som ska användas när ett menyalternativ är aktivt
+branding.disable_branding = Avaktivera branding
+branding.disable_branding.tooltip =
+    Med den här funktionen kan du inaktivera varumärkesanpassningarna. När den är inställd på yes tillämpas standardstilarna för PBX.

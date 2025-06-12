@@ -1,0 +1,147 @@
+sip_settings.accept_outofcall_message = Tillåt meddelandeförfrågningar
+sip_settings.accept_outofcall_message.tooltip = Inaktivera det här alternativet för att avvisa alla MESSAGE-förfrågningar utanför ett samtal. Som standard är detta alternativ aktiverat. När det är aktiverat, vidarebefordras MESSAGE-förfrågningar till samtalsplanen.
+sip_settings.allowguest = Tillåt gäst
+sip_settings.allowguest.tooltip = Om gästanrop tillåts.
+sip_settings.allowtransfer = Tillåt överföring
+sip_settings.allowtransfer.tooltip = Inaktivera alla överföringar (om det inte är aktiverat i peers eller användare). Standard är aktiverat. Dial()-alternativen 't' och 'T' är inte relaterade till om SIP-överföringar är tillåtna eller inte.
+sip_settings.alwaysauthreject = Alltid avvisa
+sip_settings.alwaysauthreject.tooltip = När en inkommande INVITE eller REGISTER ska avvisas, avvisa alltid med ett identiskt svar. Detta minskar möjligheten för en angripare att söka efter giltiga SIP-användarnamn.
+sip_settings.authfailureevents = Felhändelser
+sip_settings.authfailureevents.tooltip = Generera peer-statushändelser när en peer inte kan autentisera sig med Asterisk. Peer-status kommer att avvisas.
+sip_settings.autoframing = Automatisk inramning
+sip_settings.autoframing.tooltip = Sätt paketisering baserat på den fjärrslutpunktens (ptime) preferenser.
+sip_settings.available_codecs = Tillgängliga codecs
+sip_settings.bindaddr = Bindadress
+sip_settings.bindaddr.tooltip = IP-adress och valfri port att binda för denna transport (0.0.0.0 binder till alla).
+sip_settings.bindport = Bindport
+sip_settings.codecs = Codecs
+sip_settings.custom = Anpassad
+sip_settings.custom_options = Anpassade alternativ
+sip_settings.defaultexpiry = Standard utgångstid
+sip_settings.defaultexpiry.tooltip = Standardlängd för inkommande/utgående registrering.
+sip_settings.dumphistory = Dumpa historik
+sip_settings.dumphistory.tooltip = Dumpa SIP-historik vid slutet av SIP-dialogen. SIP-historiken skrivs ut i DEBUG-loggkanalen.
+sip_settings.dynamic_exclude_static = Förhindra dynamiska värdar
+sip_settings.dynamic_exclude_static.tooltip = Förhindra alla dynamiska värdar från att registrera sig som någon IP-adress som används för statiskt definierade värdar. Detta hjälper till att undvika konfigurationsfel där användare kan registrera sig på samma adress som en SIP-leverantör.
+sip_settings.externaddr = Extern adress
+sip_settings.externaddr.tooltip = Specificera en statisk adress[:port] att användas i SIP- och SDP-meddelanden.
+sip_settings.externhost = Extern värd
+sip_settings.externhost.tooltip = Alternativt kan du specificera en extern värd, och Asterisk kommer att utföra DNS-frågor periodiskt. Rekommenderas inte för produktionsmiljöer, använd %s istället.
+sip_settings.externrefresh = Extern uppdatering
+sip_settings.externrefresh.tooltip = Hur ofta %s ska uppdateras (värde i sekunder).
+sip_settings.faxdetect = Faksimulering
+sip_settings.faxdetect.tooltip = Kontrollera för att aktivera både CNG och T.38-detektering. Standard är 'nej'.
+sip_settings.fax_settings = Faksinställningar
+sip_settings.g726nonstandard = G726-32 ljud
+sip_settings.g726nonstandard.tooltip = Om peer förhandlar G726-32 ljud, använd AAL2-paketeringsordning istället för RFC3551-paketeringsordning (detta krävs för Sipura och Grandstream ATA:er, bland andra).
+sip_settings.general = Allmänt
+sip_settings.ip = IP-adress
+sip_settings.ip.invalid = Lokala nätverk måste ha en giltig IP-adress.
+sip_settings.jbenabled = Aktiverad
+sip_settings.jbenabled.tooltip = Aktivera/inaktivera användningen av en jitter-buffer på mottagarsidan av en SIP-kanal.
+sip_settings.jbforce = Tvinga
+sip_settings.jbforce.tooltip = Tvinga användningen av en jitter-buffer på mottagarsidan av en SIP-kanal.
+sip_settings.jbimpl = Jitterbufferimplementation
+sip_settings.jbimpl.adaptive = Adaptiv
+sip_settings.jbimpl.adaptive.tooltip = Med variabel storlek, faktiskt den nya jb för IAX2.
+sip_settings.jbimpl.fixed = Fast
+sip_settings.jbimpl.fixed.tooltip = Med storlek som alltid är lika med jb-max-storlek.
+sip_settings.jbimpl.tooltip = Används på mottagarsidan av en SIP-kanal. Två implementationer finns tillgängliga = Adaptiv och Fast.
+sip_settings.jbmaxsize = Maxstorlek
+sip_settings.jbmaxsize.tooltip = Maxlängd på jitter-bufferten i millisekunder.
+sip_settings.jbresyncthreshold = Resynkroniserad
+sip_settings.jbresyncthreshold.tooltip = Hoppa över tidsstämpelsramarna där jitter-bufferten resynkroniseras.
+sip_settings.jbtargetextra = Mål Extra
+sip_settings.jbtargetextra.tooltip = Detta alternativ påverkar endast jb när 'jbimpl = adaptiv' är inställt. Alternativet representerar antalet millisekunder som den nya jitter-buffern kommer att fylla sin storlek med.
+sip_settings.jitter_buffer = Jitter-buffert
+sip_settings.language = Språk
+sip_settings.language.tooltip = Standard språkinställning för alla användare/peers. Detta kan också ställas in för individuella användare/peers.
+sip_settings.localNetwork = Lokala nätverk
+sip_settings.maxcallbitrate = Max samtalsbitrate
+sip_settings.maxcallbitrate.tooltip = Maximal bitrate för videosamtal (standard 384 kb/s).
+sip_settings.maxexpiry = Max utgångstid
+sip_settings.maxexpiry.tooltip = Maximal tillåten tid för inkommande registreringar (sekunder).
+sip_settings.minexpiry = Min utgångstid
+sip_settings.minexpiry.tooltip = Minsta längd på registreringar (standard 60).
+sip_settings.mwiexpiry = MWI utgångstid
+sip_settings.mwiexpiry.tooltip = Utgångstid för utgående MWI-prenumerationer.
+sip_settings.network = Nätverk
+sip_settings.tcp_enable = Aktivera TCP
+sip_settings.tcp_enable.tooltip = Använd TCP
+sip_settings.tcp_bindaddr = TCP Bindadress
+sip_settings.tcp_bindaddr.tooltip = IP-adress och valfri port att binda för denna transport.
+sip_settings.addr = Adress
+sip_settings.port = Port
+sip_settings.tls_enable = Aktivera TLS
+sip_settings.tls_enable.tooltip = Använd TLS
+sip_settings.tls_bindaddr = TLS Bindadress
+sip_settings.tls_bindaddr.tooltip = IP-adress och valfri port att binda för denna transport.
+sip_settings.tls_dont_verify = TLS verifiera inte
+sip_settings.tls_dont_verify.tooltip = Om detta är inställt på ja, verifiera inte serverns certifikat när den fungerar som klient.
+sip_settings.tls_certificate_id = TLS-certifikat
+sip_settings.tls_certificate_id.tooltip = Serverns certifikatfil.
+sip_settings.nat = NAT
+sip_settings.netmask = Nätmask
+sip_settings.netmask.empty = Lokala nätverk kräver både en IP-adress och en nätmask.
+sip_settings.netmask.invalid = Lokala nätverk måste ha en giltig nätmask.
+sip_settings.notification_settings = Notifieringsinställningar
+sip_settings.notifycid = Notifiera CID
+sip_settings.notifycid.tooltip = Kontrollera om information om uppringar-ID skickas tillsammans med dialog-info+xml-notifikationer (stöds av snom-telefoner).
+sip_settings.notifyhold = Notifiera hold
+sip_settings.notifyhold.tooltip = Notifiera prenumerationer om hållstatus (standard: nej).
+sip_settings.notifyringing = Notifiera ringning
+sip_settings.notifyringing.tooltip = Kontrollera om prenumerationer som redan är INUSE skickas RINGING när ett annat samtal skickas (standard: ja).
+sip_settings.others = Andra
+sip_settings.param = Parameter
+sip_settings.preferred_codec_only = Endast föredragen codec
+sip_settings.preferred_codec_only.tooltip = Svara på en SIP-inbjudan med den enda mest föredragna codec istället för att annonsera alla gemensamma codec-funktioner. Detta begränsar den andra sidans codec-val till exakt vad vi föredrar.
+sip_settings.qualifyfreq = Kvalificeringsfrekvens
+sip_settings.qualifyfreq.tooltip = Hur ofta värden ska kontrolleras för att vara uppe i sekunder och rapporteras i millisekunder med sip show settings.
+sip_settings.recordhistory = Spela in historik
+sip_settings.recordhistory.tooltip = Slå på/av spela in SIP-historik.
+sip_settings.registration_settings = Registreringsinställningar
+sip_settings.rtpholdtimeout = RTP-hålltimout
+sip_settings.rtpholdtimeout.tooltip = Avsluta samtal om %d sekunder utan RTP eller RTCP-aktivitet på ljudkanalen.
+sip_settings.rtptimeout = RTP-tidsgräns
+sip_settings.rtptimeout.tooltip = Avsluta samtal om %d sekunder utan RTP eller RTCP-aktivitet på ljudkanalen.
+sip_settings.rtp_timers = RTP-timers
+sip_settings.security = Säkerhet
+sip_settings.selected_codecs = Valda codecs
+sip_settings.sipdebug = SIP-debuggning
+sip_settings.sipdebug.tooltip = Slå på/av SIP-debuggning, från det ögonblick kanalen laddar den här konfigurationen.
+sip_settings.sip_debugging = SIP-debuggning
+sip_settings.sip_qos = SIP QoS
+sip_settings.srvlookup = SRV-uppslag
+sip_settings.srvlookup.tooltip = Aktivera/Inaktivera DNS SRV-uppslag vid utgående samtal.
+sip_settings.t38pt_udptl = T.38 Fax Pass-Through
+sip_settings.t38pt_udptl.tooltip = Aktiverar T.38 med FEC-felkorrigering och åsidosätter det andra slutpunktens angivna värde för att anta att vi kan skicka 400-byte T.38 FAX-paket till den.
+sip_settings.tonezone = Tonområde
+sip_settings.tonezone.tooltip = Standard tonområde för alla användare/peers.
+sip_settings.tos_audio = Audio TOS
+sip_settings.tos_audio.tooltip = Ställer in TOS för RTP ljudpaket.
+sip_settings.tos_sip = SIP TOS
+sip_settings.tos_sip.tooltip = Ställer in TOS för SIP-paket.
+sip_settings.tos_video = Video TOS
+sip_settings.tos_video.tooltip = Ställer in TOS för RTP videopaket.
+sip_settings.value = Värde
+sip_settings.video_settings = Video-inställningar
+sip_settings.video_support = Video-stöd
+sip_settings.websocket_enabled.tooltip =
+	Ställ in till ”Nej” för att förhindra SIP-kanaler från att lyssna på websockets. Detta behövs när man använder SIP- och PJSIP-webbsockets på
+	samma system.
+sip_settings.autodomain = Auto-domän
+sip_settings.autodomain.tooltip =
+	Detta är en viktig inställning när det gäller SIP-domäner. När den är inställd till ”nej” kommer Asterisk bara att känna igen
+	domäner som uttryckligen har definierats eller helt enkelt inte stödja SIP-domäner alls (om det inte finns några uttryckligen definierade domäner).
+	Om du ställer in den på ”yes” bör du vara medveten om att Asterisk kommer att skapa en domän baserad på den externa IP-adressen för din
+	brandvägg som anges i parametern ”externip”. Detta kan innebära en kompromiss med din SIP-säkerhet.
+	Om du inte vill att en domän ska skapas baserat på ”externip”, ställ då in ”no” och lägg uttryckligen till domäner
+	för din lokala (interna) IP-adress och för alla andra domäner som är obligatoriska.
+sip_settings.allowexternaldomains = Tillåt externa domäner
+sip_settings.allowexternaldomains.tooltip = Anger om Asterisk ska tillåta SIP-till-SIP-samtal till icke-lokala domäner eller inte.
+sip_settings.sip_domains = SIP-domäner
+sip_settings.sip_domains.info =
+	När de används ger de ökad säkerhet eftersom registreringar endast accepteras när de kommer från en IP-telefon
+	(eller annan SIP-klient) som använder en av de erkända domänerna. När Asterisk känner till identiteten på alla sina lokala
+	SIP-domäner, möjliggör detta en högre säkerhetsnivå även vid routning av SIP-till-SIP-samtal
+sip_settings.domain = Domän

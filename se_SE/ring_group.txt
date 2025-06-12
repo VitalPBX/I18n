@@ -1,0 +1,59 @@
+menu.ring_groups = Ringgrupper
+module.ring_group = Ringgrupper
+ring_group = Ringgrupp
+ring_group.description = Beskrivning
+ring_group.description.tooltip = Kort beskrivning för att identifiera denna ringgrupp.
+ring_group.destination = Destination
+ring_group.extension = Kod
+ring_group.extension.invalid = Anslutningar krävs
+ring_group.extension.tooltip = Nummer att slå för att nå denna tjänst.
+ring_group.general = Allmänt
+ring_group.invalid.already_exists = Ogiltigt Ringgruppnummer {0}. Numret används av {1} modul.
+ring_group.last_destination = Sista destination
+ring_group.last_destination.tooltip = Destination att utföra om ingen av anslutningarna nås
+ring_group.list = Anslutningar
+ring_group.list.tooltip = Lista över anslutningar för denna ringgrupp.
+ring_group.mod_dest = Destinationsmodul
+ring_group.music_group_id = Ringmusik
+ring_group.music_group_id.tooltip = Ge väntemusik till den ringande parten tills en begärd kanal besvaras.
+ring_group.prefix = CID Namn Prefix
+ring_group.prefix.invalid = Vänligen skriv ett giltigt CID Namn Prefix. Understrykning, bindestreck och alfanumeriska värden är tillåtna.
+ring_group.prefix.tooltip = Prefix att lägga till denna ringgrupp
+ring_group.ringtime = Ringtid
+ring_group.ringtime.tooltip = Ringtid i sekunder, MAX 160 sekunder.
+ring_group.ringtime.values = Ringtidsvärde måste vara mellan 5 och 160 sekunder.
+ring_group.select_extensions = Välj anslutningar
+ring_group.strategy = Ringsstrategi
+ring_group.strategy.one_by_one = En efter en
+ring_group.strategy.ringall = Ring alla
+ring_group.strategy.tooltip = Ringsstrategi
+ring_group.validation.duplicated_description = Den angivna beskrivningen används av en annan ringgrupp. Vänligen verifiera
+ring_group.validation.no_extensions = Inga anslutningar eller externa nummer har lagts till denna ringgrupp
+ring_group.validation.duplicated_extension = Den angivna anslutningen används av en annan ringgrupp. Vänligen verifiera
+ring_group.external_numbers = Externa nummer
+ring_group.external_numbers.tooltip = Lista med de externa nummer som ska ringas när denna ringgrupp anropas
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Serviceklass som ska användas för att ringa upp de externa nummer som anges i denna ringgrupp
+ring_group.validation.no_valid_number =
+	Det externa numret <b>{0}</b> innehåller ogiltiga tecken. Endast siffror,
+	och följande tecken är tillåtna: *, # och +
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip =
+	Om detta alternativ är aktiverat förhindrar det att de andra telefonerna registrerar ett missat samtal när samtalet har besvarats på en telefon
+	som är listad i den här ringgruppen. Detta är en mycket användbar inställning när ringstrategin är inställd till ”Ring alla”
+ring_group.allow_diversions = Tillåt avledning
+ring_group.allow_diversions.tooltip =
+	Gör det möjligt att definiera om de omdirigeringar som definierats för de olika anslutningarna ska tillämpas eller inte.
+ring_group.answerchannel = Svarskanal
+ring_group.answerchannel.tooltip =
+	Om inställningen är ”ja” kommer inkommande samtal till denna applikation att besvaras innan de börjar ringa listan med nummer
+	som definieras här. Om du ställer in detta på ”nej” kan det hända att vissa ljud eller musik i vänteläge inte spelas upp.
+ring_group.skip_busy = Hoppa över upptagna anslutningar
+ring_group.skip_busy.tooltip = Om inställningen är "Ja" kommer alla anslutningar i listan som är upptagna att hoppas över.
+ring_group.no_release = Ingen frisläppning
+ring_group.no_release.tooltip =
+	Det lägger till flaggan no release (\n) till ringgruppsmedlemmarna; detta undviker att skapa flera poster på CDR; ändå,
+	vissa telefoner kan dock ge problem vid överföringen när detta alternativ är aktiverat; därför kan du inaktivera detta alternativ när det är obligatoriskt.
+ring_group.announ_id = Tillkännagivande
+ring_group.announ_id.tooltip = Valfritt ljud som ska spelas upp innan medlemmarna i denna ringgrupp rings upp.
+ring_group.validation.loop_detected = För att undvika en loop kan du inte använda samma ringgrupp som senaste destination.

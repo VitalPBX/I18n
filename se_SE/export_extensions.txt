@@ -1,0 +1,10 @@
+menu.export_extensions = Exportera anslutningar
+module.export_extensions = Exportera anslutningar
+export_extensions = Exportera anslutningar
+export_extensions.add_extension = Lägg till anslutningar
+export_extensions.extensions = Anslutningar
+export_extensions.export_extensions.tooltip = Anslutningar att exportera
+export_extensions.export_extensions = Exportera anslutningar
+export_extensions.general = Allmänt
+export_extensions.no_extensions_selected = Inga anslutningar valda
+export_extensions.select_extensions = Välj anslutningar som ska exporteras

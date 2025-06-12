@@ -1,0 +1,15 @@
+speeddial = Snabbuppringning
+menu.speed_dialing = {speeddial}
+module.speeddial = {speeddial}
+menu.speeddial = {speeddial}
+speeddial.class_of_service_id = Serviceklass
+speeddial.class_of_service_id.tooltip = Serviceklass att använda för att ringa denna snabbuppringning
+speeddial.description = Beskrivning
+speeddial.description.tooltip = Namn som identifierar denna snabbuppringning
+speeddial.dnumber = Destinationsnummer
+speeddial.dnumber.tooltip = Nummer att ringa.
+speeddial.extension = Snabbuppringningskod
+speeddial.extension.invalid = Snabbuppringningskod är ogiltig. Använd endast siffror och symbolen "*" (asterisk).
+speeddial.extension.tooltip = Kod för att aktivera denna snabbuppringning. Koden ska vara unik för systemet, d.v.s. får inte användas någon annanstans i systemet.
+speeddial.general = Allmänt
+speeddial.invalid.already_exists = Ogiltigt snabbuppringningsnummer {0}. Numret används av {1} modul.

@@ -1,0 +1,34 @@
+menu.dial_profiles = Uppringningsprofiler
+module.dial_profiles = Uppringningsprofiler
+dial_profiles.name = Namn
+dial_profiles.name.help = Namn för att identifiera denna profil
+dial_profiles.music_group_id = Ton för återuppringning
+dial_profiles.music_group_id.help = Tillhandahålla väntmusik till den uppringande parten tills en begärd kanal svarar.
+dial_profiles.allow_parking = Tillåt Samtalsparkering
+dial_profiles.allow_parking.help = Gör det möjligt för den uppringda/uppringande parten att aktivera parkering av samtalet genom att skicka den DTMF-sekvens som definieras för ”Parkera samtal” i funktionskoderna.
+dial_profiles.allow_transfer = Tillåt samtalsöverföring
+dial_profiles.allow_transfer.help = Gör det möjligt för den uppringda/uppringande parten att överföra den uppringande parten genom att skicka den DTMF-sekvens som definieras i funktionskoderna.
+dial_profiles.call_screening = Screening av samtal
+dial_profiles.call_screening.help = Innan du ringer upp din anslutning ombeds den som ringer att ge en introduktion. Applikationen frågar dem: ”Uppge namn efter tonen”. De har 4 sekunder på sig att introducera sig.
+dial_profiles.invalid.default_delete = Det går inte att ta bort den här uppringningsprofilen eftersom den är markerad som standard
+dial_profiles.invalid.profile_assigned = Det går inte att ta bort {0} uppringningsprofil. Den används av minst en anslutning. Använd {1} för att se vilka anslutningar som har tilldelats denna profil.
+dial_profiles.invalid.profile_in_use = Det går inte att ta bort {0} uppringningsprofil. Den används av följande trunk(ar): {1}.
+dial_profiles.ringing_tone = Rington
+dial_profiles.ringing_tone.help = Indikerar ringning till den uppringande parten, även om den uppringda parten faktiskt inte ringer. Skicka inget ljud till den uppringande parten förrän den uppringda kanalen har svarat.
+dial_profiles.none = Ingen
+dial_profiles.called = Mottagare
+dial_profiles.calling = Uppringare
+dial_profiles.both = Båda
+dial_profiles.disabled = Inaktiverad
+dial_profiles.memory = Fråga alltid
+dial_profiles.no_memory = Fråga alltid
+dial_profiles.none = Ingen
+dial_profiles.custom_options = Anpassade alternativ
+dial_profiles.custom_options.help = Gör att du kan definiera anpassade uppringningsparametrar som inte har inkluderats
+dial_profiles.name.required = Namnfältet är obligatoriskt
+dial_profiles.name.invalid = Namnfältet får inte innehålla mellanslag
+dial_profiles.name.unique = Namnet på uppringningsprofilen måste vara unikt
+dial_profiles.warning_note =
+	<b>Warning!</b> Om du aktiverar överföring av uppringare kan en extern uppringare utnyttja PBX genom att överföra sina
+	samtal till en annan extern destination när en alltför tillåtande serviceklass har definierats för trunken.
+dial_profiles.general = {vitalpbx.general}

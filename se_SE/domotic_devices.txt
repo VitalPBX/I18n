@@ -1,0 +1,5 @@
+domotic_devices = Domotiska enheter
+module.domotic_devices = {domotic_devices}
+
+domotic_devices.general.tab = {vitalpbx.general}
+domotic_devices.show_menu = Visa meny med enheter

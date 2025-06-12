@@ -1,0 +1,5 @@
+dahdi_settings.general = Allmänt
+dahdi_settings.save = Spara
+dahdi_settings.tonezone = Tonzon
+dahdi_settings.tonezone.tooltip = Standardtonzon för alla användare/peers
+module.dahdi_settings = Inställningar för telefoni

@@ -1,0 +1,79 @@
+vpn_server = OpenVPN Server
+menu.vpn_server = {vpn_server}
+module.vpn_server = {vpn_server}
+vpn_server.server = Server
+vpn_server.clients = Kunder
+vpn_server.enabled = Aktiverad
+vpn_server.enabled.tooltip = Den visar den aktuella statusen för OpenVPN Server-tjänsten
+vpn_server.port = Port
+vpn_server.port.tooltip = Den port som OpenVPN ska lyssna på
+vpn_server.subnet = Serverintervall
+vpn_server.subnet.tooltip =
+	Definierar det virtuella IP-intervall som ska användas i VPN-tunnelnätverket. t.ex.: om du använder IP-adressen 10.8.0.0 som intervall,
+	kommer serverns IP att vara 10.8.0.1 och den första klienten kommer att tilldelas IP 10.8.0.2
+vpn_server.subnet.ip = IPv4 Address
+vpn_server.subnet.mask = Mask
+vpn_server.keepalive = Keep-Alive
+vpn_server.keepalive.tooltip =
+	Keepalive-direktivet gör att ping-liknande meddelanden skickas fram och tillbaka över länken så att varje sida
+	vet när den andra sidan har gått ner. Alla värden i sekunder
+vpn_server.keepalive.ping = Frekvens
+vpn_server.keepalive.time_period = Tidsgräns
+vpn_server.redirect-gateway = Gateway för omdirigering
+vpn_server.redirect-gateway.tooltip =
+	Om det här direktivet aktiveras kommer alla klienter att konfigurera att omdirigera sin standardgateway till nätverket via VPN,
+	vilket gör att all IP-trafik som webbsurfning och DNS-uppslagningar går genom VPN (OpenVPN-servermaskinen
+	kan behöva NAT eller brygga TUN/TAP-gränssnittet till internet för att detta ska fungera korrekt)
+vpn_server.primary_dns = Primär DNS
+vpn_server.secondary_dns = Sekundär DNS
+vpn_server.dns.tooltip = DNS som ska användas när alternativet ”Redirect Gateway” är aktiverat
+vpn_server.max-clients = Max antal kunder
+vpn_server.max-clients.tooltip = Det maximala antalet samtidigt anslutna klienter som vi vill tillåta
+vpn_server.service_restarted = Konfigurationerna har uppdaterats och tjänsten har startats
+vpn_server.service_stopped = Konfigurationerna har uppdaterats och tjänsten har stoppats
+vpn_server.configuration_updated = Konfigurationerna har uppdaterats
+vpn_server.add_client = Lägg till klient
+vpn_server.client.description = Beskrivning
+vpn_server.client.description.tooltip = En kort beskrivning för att identifiera denna OpenVPN-klient
+vpn_server.client.assigned_address = Fast IP
+vpn_server.client.assigned_address.tooltip = Tillåter dig att tilldela en specifik IP-adress till den här klienten
+vpn_server.client.enabled = Aktiverad
+vpn_server.client.enabled.tooltip = Det gör att du kan aktivera eller inaktivera den här användaren
+vpn_server.configuring_client = Konfigurera klient...
+vpn_server.client_saved = Klienten har sparats och konfigurerats.
+vpn_server.client.duplicated_address = Den angivna IP-adressen är redan i bruk
+vpn_server.client.no_description = Ingen beskrivning har lämnats för denna klient
+vpn_server.client.invalid_ip = En ogiltig IP-adress har angetts för den här klienten
+vpn_server.actions = Åtgärder
+vpn_server.client.duplicated_description = Den angivna beskrivningen används redan
+vpn_server.edit_client = Redigera klient
+vpn_server.client.cannot_download_cert = Det går inte att ladda ner klientkonfigurationerna
+vpn_server.invalid_data = Ogiltiga uppgifter har lämnats
+vpn_server.client.confirm_delete = Är du säker på att du vill ta bort den här klienten?
+vpn_server.client.deleted = Klienten har raderats framgångsrikt
+vpn_server.public_host = Offentlig värd
+vpn_server.public_host.tooltip = Fjärrvärd eller IP-adress på klienten, som anger OpenVPN-servern.
+vpn_server.client.private_ip = Tilldelad IP
+vpn_server.client.real_address = Verklig adress
+vpn_server.client.connected = Ansluten
+vpn_server.client.received_transmitted = Paket Rx / Tx
+vpn_server.client.connected_since = Uppkopplad sedan
+vpn_server.no_license =
+	Du har nått det maximala antalet gratis VPN-klienter. Aktivera tillägget för att skapa fler än två klienter
+vpn_server.compression = Kompression
+vpn_server.compression.tooltip = Gör det möjligt att definiera vilken typ av komprimering som ska användas mellan server- och klienttrafik
+vpn_server.type = Typ
+vpn_server.type.tooltip = Det gör det möjligt att definiera typen av klient, beroende på den kommer den konfiguration som laddas ner att variera
+vpn_server.type.generic = Generisk
+vpn_server.type.yealink = Yealink
+vpn_server.type.grandstream = Grandstream
+vpn_server.type.fanvil = Fanvil
+vpn_server.cipher = Cipher Method
+vpn_server.cipher.tooltip = Kryptera datakanals paket med chifferalgoritm alg.
+vpn_server.cipher.bf-cbc = Blowfish
+vpn_server.cipher.aes-128-cbc = AES-128-CBC
+vpn_server.cipher.aes-256-cbc = AES-256-CBC
+vpn_server.cipher.des-ede3-cbc = Triple-DES
+vpn_server.cipher.aes-256-gcm = AES-265-GCM
+vpn_server.cipher.aes-128-gcm = AES-128-GCM
+vpn_server.cipher.aes-192-cbc = AES-192-CBC
