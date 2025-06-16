@@ -1,0 +1,16 @@
+app_keys = Applikationsnycklar
+menu.app_keys = {app_keys}
+module.app_keys = {app_keys}
+app_keys.general = {vitalpbx.general}
+app_keys.description = Beskrivning
+app_keys.description.tooltip = En kort beskrivning av din ansökan
+app_keys.enabled = Aktiverad
+app_keys.enabled.tooltip = Den definierar om denna APP-nyckel är aktiverad eller inte
+app_keys.key = Nyckel
+app_keys.key.tooltip = Nyckel att använda för att autentisera appar från tredje part
+app_keys.tenant = Abonnent
+app_keys.tenant.tooltip =
+	Det gör att du kan definiera vilken abonnent som ska associeras med den här API-nyckeln, så när någon använder den här nyckeln kommer den
+	endast hämta data som är relaterade till den tilldelade abonnenten. Men om den är inställd på ” Alla abonnenter” kommer du att kunna hämta information
+	för vilken hyresgäst som helst genom att bara ange hyresgäst-ID eller sökväg vid varje begäran.
+app_keys.all = -- Alla abonnenter --

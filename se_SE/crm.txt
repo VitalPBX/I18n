@@ -1,0 +1,91 @@
+crm = CRM
+menu.crm = {crm}
+menu.crm_integration = Integrationer
+crm.integrate = Integrera
+crm.vendor.salesforce = Försäljningsstyrkan
+crm.vendor.zohocrm = ZohoCRM
+crm.vendor.odoo = Odoo
+crm_integration.general = {vitalpbx.general}
+module.crm_integration = CRM-integration
+crm.consumer_key = Konsumentnyckel
+crm.consumer_key.tooltip = Konsumentnyckel
+crm.consumer_secret = Hemlig konsument
+crm.consumer_secret.tooltip = Hemlig konsument
+crm.callback_url = URL för återuppringning
+crm.callback_url.tooltip = Den URL som ska användas som callback för auktoriseringsförfrågningar
+crm.callback_url_copied = URL:en för återuppringningen finns nu i ditt urklipp!
+crm.authorize = Auktorisera
+crm.authorizing = Auktoriserar...
+crm.authorizing.text = Väntar på {0} auktorisation...
+crm.validation.invalid_consumer_key = Fältet för konsumentnyckel är obligatoriskt.
+crm.validation.invalid_consumer_secret = Fältet för konsumentens hemlighet är obligatoriskt.
+crm.auth_completed = CRM-auktorisationen har slutförts.
+crm.log_calls = Aktivera samtalsjournal
+crm.log_calls.tooltip =
+    När den är aktiverad skapas en samtalslogg/uppgift i CRM när de synkroniserade användarna tar emot, missar eller ringer ett samtal
+    till en befintlig CRM-kontakt.
+crm.enabled = Aktiverad
+crm.enabled.tooltip = Den aktiverar eller inaktiverar CRM-funktionerna globalt.
+crm.contacts_settings = Kontaktinställningar
+crm.sync_contacts_from = Synkronisera kontakter från
+crm.sync_contacts_from.tooltip =
+    Här kan du välja vilken typ av kontakter som ska synkroniseras när fältet "{crm.sync_contacts_automatically}" är inställd till "Ja."
+crm.new_contacts_from = Nya kontakter från
+crm.new_contacts_from.tooltip =
+    Här kan du välja vilken typ av samtal som de nya kontakterna ska skapas för.
+crm.new_contacts_type = Typ av nya kontakter
+crm.new_contacts_type.tooltip = Här kan du välja vilken typ av nya kontakter som ska skapas av växeln.
+crm.contact_type.contacts = Kontaktpersoner
+crm.contact_type.leads = Leads
+crm.contact_type.accounts = Konton
+crm.sync_contacts_automatically = Synka kontakter
+crm.sync_contacts_automatically.tooltip =
+    När den är aktiverad skapar den automatiskt en telefonbok och synkroniserar de CRM-kontakttyper som valts i
+    fältet "{crm.sync_contacts_from}."
+crm.create_contacts_automatically = Skapa kontakter
+crm.create_contacts_automatically.tooltip =
+    När denna funktion är aktiverad skapar växeln automatiskt nya CRM-kontakter beroende på värdena från "{crm.new_contacts_from}"
+    och "{crm.new_contacts_type}" fält
+crm.call_direction.inbound = Inkommande
+crm.call_direction.outbound = Utgående
+crm.users = Användare
+crm.user.name = Fullständigt namn
+crm.user.email = E-post
+crm.user.assigned_extension = Tilldelad anslutning
+crm.actions = {actions}
+crm.sync_users = Synkronisera användare
+crm.auto_assign = Automatisk tilldelning av anslutningar
+crm.validation.integration_not_found = Vi kan inte hitta den aktuella aktiva CRM-integrationen!
+crm.users.synced = CRM-användarna har synkroniserats framgångsrikt!
+crm.validation.empty_new_contacts_from_field =
+    Du måste välja minst ett värde i fältet ”Nya kontakter från” när du aktiverar parametern ”Skapa kontakter”.
+crm.validation.empty_sync_contacts_from_field =
+    Du måste välja minst ett värde i fältet ”Synkronisera kontakter från” när du aktiverar parametern ”Synkronisera kontakter”.
+crm.crm_settings_updated = CRM-inställningarna har uppdaterats framgångsrikt
+crm.users.extensions_assigned = Anslutningarna har tilldelats framgångsrikt
+crm.users.no_extensions_assigned = Inga anslutningar tilldelades
+crm.validation.user_not_found = Den användare som du försöker redigera finns inte.
+crm.edit_user = Redigera användare
+crm.user.extension = Anslutningar
+crm.user.extension.tooltip = Den anslutning som ska tilldelas CRM-användaren för loggning av samtal
+crm.disconnect = Koppla bort
+crm.validation.extension_is_being_used = Den valda anslutningen används av en annan CRM-användare.
+crm.user.extension_assigned = Anslutningen har tilldelats användaren.
+crm.user.extension_removed = Anslutningen har framgångsrikt tagits bort från användaren.
+crm.disconnect_confirmation = Är du säker på att du vill koppla bort och stoppa CRM-uppgifterna?
+crm.disconnected = CRM-systemet har kopplats bort!
+crm.data_center = Datacenter
+crm.data_center.tooltip = Det datacenter som tilldelats ditt konto när du registrerat dig i ZohoCRM-plattformen
+crm.country.us = Förenta staterna
+crm.country.eu = Europa
+crm.country.au = Australien
+crm.country.uk = Storbritannien
+crm.country.ca = Kanada
+crm.country.in = Indien
+crm.country.jp = Japan
+crm.client_id = Klient-ID
+crm.client_id.tooltip = {crm.client_id}
+crm.client_secret = Klienthemlighet
+crm.client_secret.tooltip = {crm.client_secret}
+crm.validation.invalid_client_id = Fältet för klient-ID är obligatoriskt.
+crm.validation.invalid_client_secret = Fältet för klienthemlighet är obligatoriskt.

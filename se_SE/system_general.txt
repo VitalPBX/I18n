@@ -1,0 +1,91 @@
+menu.system_general = Systemallmänt
+module.system_general = Systemallmänt
+system_general.ast_agi_dir = AGI-katalog
+system_general.ast_dir = Katalog
+system_general.ast_libs_dir = Bibliotekskatalog
+system_general.ast_log_dir = Loggkatalog
+system_general.ast_module_dir = Modul­katalog
+system_general.ast_sound_dir = Ljudkatalog
+system_general.ast_spool_dir = Spool-katalog
+system_general.auto_hints = Skapa hintar
+system_general.auto_hints.tooltip = Om aktiverat kommer hintar att skapas automatiskt varje gång du skapar en anslutning.
+system_general.auto_portal = Aktivera portal
+system_general.auto_portal.tooltip = Om aktiverat kommer portalen att aktiveras automatiskt varje gång du skapar en anslutning.
+system_general.auto_voicemail = Aktivera röstbrevlåda
+system_general.auto_voicemail.tooltip = Om aktiverat kommer röstbrevlådan att aktiveras automatiskt varje gång du skapar en anslutning.
+system_general.dialoptions = Inställningar för anknytnings­uppringning
+system_general.dialoptions.tooltip = Standardalternativ för att ringa interna anslutningar när inga alternativ är definierade (i anknytningsmodulen).
+system_general.dialplan_settings = Inställningar för nummerplan
+system_general.extension_settings = Inställningar för anslutning
+system_general.general = Allmänt
+system_general.recording_format = Inspelningsformat
+system_general.recording_format.tooltip = Standard­ljudformat för inspelning av samtal.
+system_general.ringtime = Standard ringsignalstid
+system_general.ringtime.placeholder = Värde i sekunder
+system_general.ringtime.tooltip = Standardtid för att ringa utgående samtal när ringsignalstid inte är definierad eller inställd (i anslutningsmodulen) som standard.
+system_general.save = Spara
+system_general.system_directories = Systemkataloger
+system_general.table.description = Beskrivning
+system_general.table.path = Sökväg
+system_general.trunk_dialoptions = Inställningar för trunkuppringning
+system_general.trunk_dialoptions.tooltip = Standardalternativ för att ringa externa nummer när trunkuppringnings­alternativ inte är definierade (i trunkmodulen).
+system_general.recording_script = Inspelningsskript
+system_general.recording_script.tooltip = Skript som ska köras när inspelningen är klar. Skriptparametrarna kan definieras som en sekvens av mellanskiljda strängar såsom ^{{<i><b>name</b></i>}}, där <i><b>name</b></i> kan vara en kanal- eller MixMonitor-variabel. Till exempel:<br> ^{{UNIQUEID}} - Kanal-ID<br> ^{{MIXMONITOR_FILENAME}} - Inspelningsfilens namn.
+system_general.recording_script.invalid = Inspelningsskriptet hittades inte.
+system_general.default_ast_lang = Standardspråk
+system_general.default_ast_lang.tooltip = Språk som väljs som standard när en ny anslutning skapas.
+system_general.devices_prefix = Enhetsprefix
+system_general.devices_prefix.tooltip = Prefix som läggs till som standard på enhetsnamn.
+system_general.sounds = Systemuppmaningar
+system_general.dnd = Stör ej
+system_general.dnd.tooltip =
+	Låter dig definiera en anpassad fråga som ska återges när en anslutning har aktiverat DND
+system_general.blacklisted = Svartlistad
+system_general.blacklisted.tooltip =
+	Gör det möjligt att definiera en anpassad fråga som ska återges till uppringare som är svartlistade
+system_general.transferdigittimeout = Timout för överföringssiffra
+system_general.transferdigittimeout.placeholder = {system_general.ringtime.placeholder}
+system_general.transferdigittimeout.tooltip = Antal sekunder att vänta mellan siffrorna vid överföring av samtal (standard är 3 sekunder)
+system_general.featuredigittimeout = Funktionstidsgräns för siffror
+system_general.featuredigittimeout.tooltip = Maximal tid (ms) mellan siffror för aktivering av funktion (standard är 1000 ms)
+system_general.featuredigittimeout.placeholder = Värde i millisekunder
+system_general.gui_settings = GUI-inställningar
+system_general.queues_callback = Köers återuppringning
+system_general.search_frequency = Sökfrekvens
+system_general.search_frequency.tooltip = Definierar hur ofta köernas återuppringningstjänst söker efter schemalagda återuppringningar.
+system_general.search_frequency.placeholder = {system_general.ringtime.placeholder}
+system_general.email_credentials = E-postreferenser
+system_general.email_credentials.tooltip =
+	Aktivera den här funktionen för att skicka ett e-postmeddelande till den nyskapade användaren av anknytningen med information om anknytningen och kontot.
+	Du hittar mallen för det här e-postmeddelandet under Admin > Systeminställningar > E-postmallar.
+system_general.show_addons_menu = Visa tilläggsmeny
+system_general.show_addons_menu.tooltip =
+	Om inställningen är Ja kommer en menyknapp att visas på inloggningsskärmen för att komma åt externa tillägg som Sonata eller VitXi
+system_general.fqdn = Allmän egendom
+system_general.fqdn.tooltip =
+	Här kan du definiera PBX-anläggningens offentliga domän. Denna information kommer att användas i e-postmeddelanden för att översätta
+	eller ersätta variabeln för den offentliga domänen från mallar; istället för att försöka autodetektera den offentliga domänen av systemet.
+system_general.fqdn.invalid = Den angivna domänen är inte giltig
+system_general.atxfernoanswertimeout = Timeout för assisterad överföring
+system_general.atxfernoanswertimeout.tooltip = Det låter dig definiera tidsgränsen för uppmärksammade överföringar. Detta är den tid (i sekunder) som Asterisk kommer att försöka ringa målet innan det ger upp.
+system_general.atxfernoanswertimeout.placeholder = Värde i sekunder
+system_general.atxferdropcall = Släpp uppmärksammade överföringssamtals­återuppringningar
+system_general.atxferdropcall.tooltip =
+	Det gör att du kan ändra standardbeteendet för återuppringning. Standardinställningen är ”nej” vilket resulterar i att Asterisk ringer tillbaka
+	initieraren av en överföring när de lägger på i förtid och den bevakade överföringen tar slut. Om inställningen är ”ja” kommer överföringens
+	målkanalen omedelbart överföras till den kanal som överförs så snart som initiativtagaren lägger på.
+system_general.auto_generated_pwd_length = Autogenererade lösenordlängd
+system_general.auto_generated_pwd_length.tooltip =
+	Här kan du definiera standardlängden för automatiskt genererade lösenord för enheter
+system_general.route_internally_tenant_dids = Styr samtal till abonnenternas DID:er internt
+system_general.route_internally_tenant_dids.tooltip =
+	När inställningen är "Ja", dirigeras samtal till DID som definierats för PBX-växelns abonnenter lokalt istället för att skickas ut via
+	VoIP-leverantören.
+system_general.send_diversion_headers = Skicka rubriker för omdirigering
+system_general.send_diversion_headers.tooltip =
+    Om den är aktiverad skickar växeln ytterligare rubriker med vidarekopplingsinformation under en vidarekoppling, t.ex. följ mig,
+    C.F. omedelbart och andra. När dessa rubriker är närvarande kan vissa SBC-enheter klaga.
+system_general.play_cw_tone = Spela upp ton för väntande samtal
+system_general.play_cw_tone.tooltip =
+    När inställningen är ”Ja” hör den som ringer en ton för väntande samtal när den anslutning som ringts upp är i ett annat samtal.
+    Tonen kommer att höras enligt den tonzon som har konfigurerats i PJSIP-inställningarna.

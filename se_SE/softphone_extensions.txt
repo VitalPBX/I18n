@@ -1,0 +1,5 @@
+module.softphone_extensions = Enheter för softphone
+menu.softphone_extensions = {module.softphone_extensions}
+softphone_extensions.max_reached =
+	Du får inte lägga till fler än {0} enheter
+softphone_extensions.general = {vitalpbx.general}

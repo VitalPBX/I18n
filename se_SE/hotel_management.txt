@@ -1,0 +1,44 @@
+rooms_statuses = Koder för rumsstatus
+minibar_items = Artiklar i minibaren
+pms_settings = Allmänna inställningar
+menu.hotel = Hotelladministration
+menu.rooms_statuses = {rooms_statuses}
+module.rooms_statuses = {rooms_statuses}
+menu.minibar_items = {minibar_items}
+module.minibar_items = {minibar_items}
+feature_code.hotel_services = Hotelltjänster
+feature_code.mini_bar = Minibar
+rooms_statuses.general = {vitalpbx.general}
+rooms_statuses.extension = {extension}
+rooms_statuses.extension.tooltip = Det nummer som ska ringas för uppdatering av rummets status.
+rooms_statuses.description = {description}
+rooms_statuses.description.tooltip = En kort beskrivning för att identifiera denna artikel.
+rooms_statuses.status = Statuskod
+rooms_statuses.status.tooltip = Den kod som ska skickas till PMS.
+minibar_items.general = {vitalpbx.general}
+minibar_items.description = {description}
+minibar_items.description.tooltip = {rooms_statuses.description.tooltip}
+minibar_items.extension = Anslutningar
+minibar_items.extension.tooltip = Anslutningar för att ringa för att lägga till en minibarartikel till rumsförbrukningen.
+minibar_items.code = Kod
+minibar_items.code.tooltip = Den kod som ska skickas till PMS.
+minibar_items.extension.validation.duplicated = Det finns redan ett annat objekt med samma anslutning.
+minibar_items.code.validation.duplicated = Det finns redan ett annat objekt med samma kod.
+minibar_items.announ = Tillkännagivande
+minibar_items.announ.tooltip = Ljud som spelas upp efter att minibarartiklarna har lagts till i rumsförbrukningen. Som standard spelas ett pip-ljud upp.
+rooms_statuses.announ = {minibar_items.announ}
+rooms_statuses.announ.tooltip = Ljud som ska spelas upp efter uppdatering av rummets status. Som standard spelas ett pipljud upp.
+hotel_management.max_numbers_of_items_reached =
+    Du kan inte lägga till mer än två objekt i den här modulen med gratisversionen av tillägget Hotelladministration.
+menu.pms_settings = {pms_settings}
+module.pms_settings = Hotell {pms_settings}
+pms_settings.general = {vitalpbx.general}
+pms_settings.cos = {class_of_service}
+pms_settings.cos.tooltip =
+    Serviceklass som ska konfigureras i en anslutning efter en lyckad utcheckning av rummet. Om du väljer värdet
+    ”Standard”, kommer systemet att använda den serviceklass som levereras med växeln.
+pms_settings.mwc = Flera väckarklockor
+pms_settings.mwc.tooltip = Om inställningen är ”Ja” kan ett rum ha mer än en väckningstjänst.
+pms_settings.show_language = Visa språk på skärmen
+pms_settings.show_language.tooltip =
+    Om inställningen är ”Ja” kommer det språk som har konfigurerats för anslutningen att läggas till som en del av namnet på nummerpresentatören.

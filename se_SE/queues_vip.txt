@@ -1,0 +1,13 @@
+menu.queue_vips = Kö VIP
+module.queues_vip = Kö VIP
+queues_vip = Kö VIP
+queues_vip.confirm_delete = Är du säker på att du vill ta bort denna lista med kö VIP?
+queues_vip.delete = Ta bort
+queues_vip.description = Beskrivning
+queues_vip.description.tooltip = Kort beskrivning för att identifiera denna kö VIP.
+queues_vip.general = Allmänt
+queues_vip.list = VIP-lista
+queues_vip.list.invalid = Du har angett ogiltiga nummer. Använd endast siffror. Separera varje nummer med en ny rad.
+queues_vip.list.tooltip = Infoga en lista med nummer. Varje nummer ska vara på en separat rad.
+queues_vip.none = Ingen
+queues_vip.not_found = Begärd lista med kö VIP finns inte.

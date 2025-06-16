@@ -1,0 +1,15 @@
+extension_time_group.default.description = Portal tidsgrupp %s
+extension_time_group.general = Allmänt
+extension_time_group.no_extension = Du har inte någon anslutning för portalanvändaren
+extension_time_group.schedules = Scheman
+extension_time_group.schedules.mday_end = Månad Dag Avslut
+extension_time_group.schedules.mday_start = Månad Dag Start
+extension_time_group.schedules.month_end = Månad Avslut
+extension_time_group.schedules.month_start = Månad Start
+extension_time_group.schedules.tend = Tid för slutföring
+extension_time_group.schedules.tstart = Tid för start
+extension_time_group.schedules.wday_end = Vecka Dag Avslut
+extension_time_group.schedules.wday_start = Veckodag Start
+extension_time_group.select_time = -- Välj en tid --
+menu.my_time_group = Mina tidsgrupper
+module.extension_timegroup = {menu.my_time_group}

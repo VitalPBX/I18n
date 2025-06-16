@@ -1,0 +1,5 @@
+asterisk_cli.commands_updated = Alla kommandon uppdaterades framgångsrikt
+asterisk_cli.general = Allmänt
+asterisk_cli.input-cmd.placeholder = Skriv kommandot här!
+menu.asterisk_cli = PBX CLI
+module.asterisk_cli = PBX CLI

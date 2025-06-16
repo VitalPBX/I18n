@@ -1,0 +1,32 @@
+class_of_service = Serviceklass
+class_of_service.ars_id = Val av rutt
+class_of_service.ars_id.tooltip = Rutter som ska användas för denna serviceklass
+class_of_service.configurations = Konfigurationer
+class_of_service.cos = Klass av tjänst
+class_of_service.cos.tooltip = Unikt namn för detta serviceklassnamn. Alfanumeriska värden med bindestreck och understreck är tillåtna.
+class_of_service.description = Beskrivning
+class_of_service.description.tooltip = Fritextbeskrivning av denna serviceklass
+class_of_service.dialrule_id = Begränsningar för uppringning
+class_of_service.dialrule_id.tooltip = Uppringningsbegränsningsregel som ska associeras med denna serviceklass
+class_of_service.feature_code_category_id = Funktionskategori
+class_of_service.feature_code_category_id.tooltip = Funktionskategori som ska associeras med denna serviceklass
+class_of_service.general = Allmänt
+menu.class_of_service = Serviceklass
+module.class_of_service = Serviceklass
+class_of_service.private = Privat
+class_of_service.private.tooltip =
+	Detta definierar om anslutningar med denna serviceklass kan bli uppringda av andra med annan serviceklass.
+	Om den är markerad tillåts endast samtal med samma serviceklass eller samtal som kommer från serviceklasser som valts i fältet "Tillåt samtal från"
+	kommer att tillåtas. <b>Obs: Det gäller endast för lokala samtal</b>
+class_of_service.allowed_calls_by = Tillåt samtal från
+class_of_service.allowed_calls_by.tooltip = Här definieras listan över serviceklasser som får ringa till denna serviceklasser när fältet ”Privat” är markerat.
+class_of_service.billing_app = Förbetald fakturering
+class_of_service.billing_app.tooltip = Här kan du välja en faktureringsapp för att prissätta samtal som görs av anknytningar med denna serviceklass.
+class_of_service.validation.cos_duplicated = Serviceklassen ”<b>{0}</b>” är redan definierad.
+class_of_service.validate.default = Du kan inte ta bort den här serviceklassen eftersom den är markerad som standard
+class_of_service.validation.in_use = Denna serviceklass används av modulen "<b>{0}</b>"
+class_of_service.outbound_profile = Utgående profil
+class_of_service.outbound_profile.tooltip =
+	Det gör att du kan definiera en utgående profil för den här serviceklassen. Dessa profiler innehåller en samling av
+	utgående rutter och deras respektive mönster, så beroende på den utgående profilen kommer anknytningsanvändarna med denna
+	kan eller inte kan utföra externa samtal till internationella och/eller nationella nummer, beroende på utgående profil.

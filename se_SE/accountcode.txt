@@ -1,0 +1,14 @@
+accountcode = Kundkoder
+accountcode.code = Kundkod
+accountcode.code.invalid = Kundkoden är ogiltig. Använd endast siffror och symbolen ”*” (asterisk).
+accountcode.code.tooltip = Kundens kodnummer.
+accountcode.description = Beskrivning
+accountcode.description.tooltip = Kort beskrivning för att identifiera denna kundkod.
+accountcode.enabled = Aktiverad
+accountcode.enabled.tooltip = Aktivera/Desaktivera denna kundkod.
+accountcode.general = Allmänt
+accountcode.not_found = Kundkoden hittades inte.
+accountcode.search = Sök
+module.accountcode = Kundkoder
+menu.account_codes = Kundkoder
+accountcode.duplicated_code = Den angivna koden är redan i bruk

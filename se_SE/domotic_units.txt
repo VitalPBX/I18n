@@ -1,0 +1,36 @@
+module.domotic_units = Terminaler
+domotic_units.menu = {module.domotic_units}
+domotic_units.show_menu = Visa terminalmeny
+
+domotic_units.general.tab = {vitalpbx.general}
+
+domotic_units.model_id = Modell
+domotic_units.model_id.help = Gör att du kan välja typ av smart terminal.
+domotic_units.description = Beskrivning
+domotic_units.description.help = Kort beskrivning för att känna igen denna terminal.
+domotic_units.ip_address = IP-adress
+domotic_units.ip_address.help = IP-adressen för att hämta/sända begäran.
+domotic_units.port = Port
+domotic_units.port.help = Del av adressen. definiera detta om det är obligatoriskt.
+
+domotic_units.validation.empty_model = Modellen för terminalen är obligatorisk
+domotic_units.validation.empty_desc = Beskrivningen är obligatorisk
+domotic_units.validation.empty_ip = IP-adressen är obligatorisk
+domotic_units.validation.invalid_ip = En ogiltig IP har definierats
+domotic_units.validation.invalid_port = En ogiltig port har definierats
+domotic_units.validation.invalid_model = En ogiltig modell för terminalen har angetts
+
+domotic_units.delete = {vitalpbx.delete}
+domotic_units.delete.message = Är du säker på att du vill ta bort den här terminalen?
+
+domotic_units.save.btn = {vitalpbx.save}
+domotic_units.sync.btn = Synkronisera
+domotic_units.update.btn = {vitalpbx.update}
+domotic_units.delete.btn = {vitalpbx.delete}
+domotic_units.cancel.btn = {vitalpbx.cancel}
+
+domotic_units.sync_error = Misslyckad synkronisering
+domotic_units.sync_error.msg = Synkroniseringen har misslyckats
+
+domotic_units.sync_success = Framgångsrik synkronisering
+domotic_units.sync_success.msg = Synkroniseringen har genomförts framgångsrikt

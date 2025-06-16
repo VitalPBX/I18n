@@ -1,0 +1,45 @@
+domotic_extensions.dial = Nummer att ringa
+domotic_extensions.dial.tooltip = Definierar det nummer som ska ringas för att interagera med den valda {0}.
+domotic_extensions.description = Beskrivning
+domotic_extensions.description.help = Kort beskrivning för att identifiera denna {0}.
+domotic_extensions.unit_id = Enhet
+domotic_extensions.unit_id.help = Beroende på vald enhet visas {0} för att konfigurera.
+domotic_extensions.device_id = Enhet
+domotic_extensions.device_id.help = Enhet för att interagera.
+domotic_extensions.class_of_service_id = Serviceklass
+domotic_extensions.class_of_service_id.help = Definierar från vilken serviceklass som kommer att vara tillgänglig denna {0}.
+domotic_extensions.pin_list_id = PIN-lista
+domotic_extensions.pin_list_id.help = Gör det möjligt att definiera en pin-lista för att skydda interaktionen med {0}.
+domotic_extensions.white_list = Vitlistan
+domotic_extensions.white_list.help = Gör det möjligt att definiera vilka nummer som inte behöver ange en PIN-kod för att interagera med den valda {0}.
+domotic_extensions.scene_id = Scen
+domotic_extensions.scene_id.help = Scen att interagera.
+domotic_extensions.toggle_mode = Växlingsläge
+domotic_extensions.toggle_mode2 = Hoppa över instruktioner
+domotic_extensions.toggle_mode.help = Om den är inställd på "ja" växlar enhetens status utan att någon fråga ställs.
+domotic_extensions.toggle_mode.help2 = Om inställningen är ”ja” kommer scenen att utföras utan instruktioner.
+domotic_extensions.recording_id = Välkomstmeddelande
+domotic_extensions.recording_id.help = Meddelande som spelas upp i början, vanligtvis för att ange vad {0} du ska interagera med
+domotic_extensions.hint = Generera ledtråd
+domotic_extensions.hint.help = Generera ledtråd för denna enhet
+domotic_extensions.blf = BLF-ledtråd
+domotic_extensions.blf.help = Detta är den sträng som ska läggas till på BLF-raderna i din telefon.
+
+domotic_extensions.validation.empty_device = Enheten är obligatorisk.
+domotic_extensions.validation.empty_scene = Scenen är obligatorisk.
+domotic_extensions.validation.empty_cos = Serviceklassen är obligatorisk.
+domotic_extensions.validation.empty_dial = Numret som ska ringas är obligatoriskt.
+domotic_extensions.validation.invalid_dial = Numret som ska ringas har ett ogiltigt format. siffror, *, # och + är tillåtna.
+domotic_extensions.validation.empty_description = Beskrivningen är obligatorisk.
+domotic_extensions.validation.invalid_description = Beskrivningen har ett ogiltigt format. siffror, bokstäver, mellanslag, bindestreck och understreck är tillåtna.
+
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
+
+domotic_extensions.device =
+    [one] enhet
+    *[other] enheter
+
+domotic_extensions.scene =
+     [one] scen
+     *[other] scener

@@ -1,0 +1,52 @@
+menu.music_on_hold = Musik i vänteläge
+module.music_on_hold = Musik i vänteläge
+music_on_hold = Musik i vänteläge
+music_on_hold.actions = Åtgärder
+music_on_hold.close = Stäng
+music_on_hold.confirm_delete = Är du säker på att du vill ta bort den här gruppen?
+music_on_hold.default = Standard
+music_on_hold.default.tooltip =
+	Om kryssrutan är markerad används ljuden i den här musikgruppen för standardklassen för musik i vänteläge. Endast en musikgrupp kan vara
+	markeras som standard
+music_on_hold.delete = Radera
+music_on_hold.delete.tooltip = Ta bort den här filen permanent
+music_on_hold.download = Ladda ner
+music_on_hold.duration = Varaktighet
+music_on_hold.error = Fel
+music_on_hold.file = Ljudfil
+music_on_hold.file.invalid = Den medföljande filen verkar inte vara en ljudfil
+music_on_hold.file.tooltip = Ladda upp en wav- eller mp3-fil
+music_on_hold.file_not_found = Den begärda filen verkar inte finnas
+music_on_hold.general = Allmänt
+music_on_hold.listen = Lyssna
+music_on_hold.listen.tooltip = Lyssna på denna ljudfil
+music_on_hold.name = Namn
+music_on_hold.name.invalid = Namnet får inte vara tomt och måste vara unikt
+music_on_hold.name.tooltip = Namn för den här musikklassen.
+music_on_hold.none = Ingen (Återuppringning)
+music_on_hold.order = Sortera
+music_on_hold.order.invalid = Sorteringsordningen måste vara Linear eller Shuffle
+music_on_hold.order.linear = Linjär
+music_on_hold.order.linear.tooltip = Spela upp ljudfiler i linjär ordning
+music_on_hold.order.shuffle = Shuffle
+music_on_hold.order.shuffle.tooltip = Spela upp ljudfiler i slumpmässig ordning
+music_on_hold.order.tooltip = Uppspelningsordning för ljudfilerna
+music_on_hold.sound_player = Ljudspelare
+music_on_hold.mode = Läge
+music_on_hold.mode.tooltip = Det definierar läget för att spela eller hämta musik i vänteläge.
+music_on_hold.mode.files = Filer
+music_on_hold.mode.files.tooltip = Läs filer från en katalog i alla medieformat som stöds av Asterisk
+music_on_hold.mode.custom = Anpassad
+music_on_hold.mode.custom.tooltip = Kör en anpassad applikation.
+music_on_hold.application = Applikation.
+music_on_hold.application.tooltip =
+	Applikation som ska användas för att spela upp en streaming. Om ingen applikation tillhandahålls kommer den att använda mpg123-applikationen
+	i följande format: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
+music_on_hold.streaming_url = URL för streaming
+music_on_hold.streaming_url.tooltip = URL som ska streamas av den definierade applikationen
+music_on_hold.streaming_format = Format
+music_on_hold.streaming_format.tooltip = Alternativet ”format” anger det ljudformat som ”programmet” ska tillhandahålla Asterisk.
+music_on_hold.insufficient_arguments = Du har inte angett applikationens skript eller URL för streaming. Åtminstone ett av dessa fält måste anges
+music_on_hold.empty = -- Ingen --
+music_on_hold.order.randstart = Slumpmässig start
+music_on_hold.order.randstart.tooltip = Samma som ”Linjär”, men den första filen väljs slumpmässigt.

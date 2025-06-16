@@ -1,0 +1,141 @@
+menu.multi_tenant = Multi-Tenant
+module.tenants = Abonnenter
+menu.tenants = {module.tenants}
+tenants.general = Allmänt
+tenants.name = Namn
+tenants.description = Beskrivning
+tenants.description.required = Beskrivning {0}
+tenants.description.tooltip = Kort beskrivning för att identifiera denna abonnent.
+tenants.name.required = Namn {0}
+tenants.name.tooltip = Ett unikt namn för denna abonnent. Detta namn används för att skapa mappar, koppla CDR-information, etc.
+tenants.validation.enter_valid_tenant = Ange ett giltigt abonnentnamn: bokstäver, siffror, bindestreck, understreck är tillåtna
+tenants.user_name.required = Admin E-post {0}
+tenants.user_name = Admin E-post
+tenants.user_name.tooltip = E-postadressen till användaren som ska hantera denna abonnent.
+tenants.user_password.required = Admin Lösenord {0}
+tenants.user_password = Admin Lösenord
+tenants.user_password.tooltip = Lösenord för att autentisera användaren som ska hantera denna abonnent.
+tenants.limitations = Behörigheter
+tenants.unlimited = Obegränsat
+tenants.extensions = Anslutningar
+tenants.extensions.tooltip = Det tillåter dig att definiera det maximala antalet anknytningar för denna abonnent
+tenants.trunks = Trunkar
+tenants.trunks.tooltip = Det tillåter dig att definiera det maximala antalet trunkar för denna abonnent
+tenants.queues = Kösystem
+tenants.queues.tooltip = Det tillåter dig att definiera det maximala antalet kösystem för denna abonnent
+tenants.ivrs = IVR
+tenants.ivrs.tooltip = Det tillåter dig att definiera det maximala antalet IVR för denna abonnent
+tenants.conferences = Konferenser
+tenants.conferences.tooltip = Det tillåter dig att definiera det maximala antalet konferenser för denna abonnent
+tenants.parking_lots = Parkeringsplatser
+tenants.parking_lots.tooltip = Det tillåter dig att definiera det maximala antalet parkeringsplatser för denna abonnent
+tenants.duplicated_name = Det angivna namnet är redan i bruk
+tenants.user_settings = Abonnentadministratör
+tenants.role = {users.role}
+tenants.role.tooltip =
+	Rollprofil för administratören för denna klient. <b>Var försiktig så att du inte tilldelar en alltför tillåtande roll, som
+	kan påverka andra abonnenter.</b>
+tenants.startup = {users.startup}
+tenants.startup.tooltip = {users.startup.tooltip}
+tenants.no_role = Du har inte valt en giltig roll för administratören av denna abonnent
+tenants.allowed_tenant_trunks = Tillåtna abonnent-trunkar
+tenants.allowed_tenant_trunks.tooltip = Det gör att du kan definiera vilka hyresgäster som kan användas som abonnent-trunkar
+tenants.path = Rutt
+tenants.path.tooltip =
+	Sökvägsnamn som används i lagringsmappen för denna klient och som träd för Asterisk-databasen
+tenants.no_license = Du har nått det maximala antalet gratis abonnenter. Aktivera detta tillägg med en giltig licens för att skapa obegränsat antal abonnenter.
+tenants.confirm_delete =
+	Är du säker att du vill ta bort den här abonnenten? <br> Denna åtgärd är oåterkallelig, och alla uppgifter
+	relaterade till denna abonnent kommer att raderas permanent
+tenants.prefix = Prefix
+tenants.prefix.tooltip =
+	Här kan du definiera ett prefix som ska användas för enheter med anslutning och andra. Om det lämnas tomt kommer ett automatiskt prefix
+	användas
+tenants.prefix.placeholder = Generera automatiskt
+tenants.enabled = Aktiverad
+tenants.enabled.tooltip =
+	Det gör att du kan aktivera/inaktivera en abonnent. Om abonnenten är inaktiverad kommer de användare som tillhör den inte att kunna
+	logga in på den eller utföra någon åtgärd
+tenants.allow_recordings = Tillåt inspelningar
+tenants.allow_recordings.tooltip = Här kan du ange om abonnenten ska kunna spela in samtal eller inte
+tenants.recordings_maintenance = Inspelningar Underhåll Inställningar
+tenants.disabled = Åtkomsten till denna abonnent har inaktiverats, kontakta din PBX-leverantör.
+tenants.assign_to_existing_user = Tilldela till befintlig användare
+tenants.assign_to_existing_user.tooltip = Om markerad kan du istället för att skapa en ny användare för abonnenten, tilldela den en befintlig.
+tenants.user = Användare
+tenants.user.tooltip = Användaren som kommer att ansvara för att administrera och hantera denna abonnent.
+tenants.duplicated_prefix = Det angivna prefixet används redan för en annan abonnent.
+tenants.no_user = Abonnenten har inte tilldelats någon användare.
+tenants.full_name = Fullständigt namn
+tenants.full_name.tooltip = Administratörens fullständiga namn. Om det inte är definierat används abonnentbeskrivningen istället.
+tenants.allowed_outbound_routes = Tillåtna utgående rutter
+tenants.allowed_outbound_routes.tooltip =
+	Ruttar som kommer att användas när denna abonnent ringer samtal via en abonnenttrunk som pekar mot huvudabonnenten.
+	Samtal till andra abonnenter än huvudabonnenten skickas via definitioner av inkommande routar
+tenants.inbound_numbers = Inkommande DID-nummer
+tenants.inbound_numbers.tooltip =
+	Lista över nummer/mönster som tillhör den här abonnenten. Samtal som matchar dessa nummer kommer automatiskt att vidarebefordras
+	till dessa inkommande rutter för abonnenter. Konfigurationen av dessa nummer har företräde framför definitionerna av inkommande rutter
+	på huvudabonnenten.
+tenants.scom_devices = Mjukvarutelefonenheter
+tenants.scom_devices.tooltip = Det låter dig definiera hur många Sonata Communicator-enheter som kan aktiveras på denna abonnent.
+tenants.routing = Samtalsdirigering
+tenants.did_pattern = DID-mönster
+tenants.did_pattern.placeholder = 1NXXNXXXXXX
+tenants.outbound_profiles = Utgående profiler
+tenants.outbound_profiles.tooltip =
+	Gör det möjligt att definiera vilka objekt för vägval som kan användas som utgående profil på den här abonnenten.
+tenants.emergency_trunks = Trunkar för nödsituationer
+tenants.emergency_trunks.tooltip =
+	Gör att du kan dela trunkar med den här abonnenten från huvudabonnenten för att användas som nödtrunkar på nödnummermodulen
+tenants.name.validation.alphanumeric = Namnet på abonnenten måste vara ett giltigt alfanumeriskt värde
+tenants.send_welcome_email = Skicka välkomstmejl
+tenants.send_welcome_email.tooltip =
+	Om detta är aktiverat skickas ett e-postmeddelande med kontoinformationen till abonnentens administratör. Du hittar mallen
+	för detta e-postmeddelande under Admin > Systeminställningar > E-postmallar.
+tenants.settings = Inställningar
+tenants.timezone = Tidszon
+tenants.timezone.tooltip =
+	Den definierar standardtidszonen för den här abonnenten. Om alternativet ”System” väljs kommer serverns tidszon att
+	användas.
+tenants.addons = Externa tillägg
+tenants.addons.tooltip =
+	Det gör det möjligt att välja vilka externa tillägg som ska visas för den här abonnenten på användarens meny.
+tenants.cid = Standard Extern CID
+tenants.cid_name = CID-namn
+tenants.cid_number = CID-nummer
+tenants.cid.tooltip =
+	Här kan du definiera standardnamn och standardnummer för extern CID som ska användas vid utgående samtal.
+tenants.restricted_cid = Begränsad CID
+tenants.restricted_cid.tooltip = Det låter dig definiera om Caller ID-nummer för externa samtal ska vara begränsade eller inte.
+tenants.restricted_cid.disabled = Inaktiverad
+tenants.restricted_cid.disabled.tooltip = Inga begränsningar kommer att tillämpas. Abonnenten kommer att kunna använda valfritt externt CID-nummer.
+tenants.restricted_cid.default = Standard
+tenants.restricted_cid.default.tooltip = Alla externa samtal för denna abonnent kommer att tvingas använda CID-informationen som definierats i fältet "Standard extern CID".
+tenants.restricted_cid.dids = DID:er
+tenants.restricted_cid.dids.tooltip = Det externa CID-numret måste matcha de DID-mönster/nummer som definierats för denna abonnent.
+tenants.no_default_cid = Fältet "Begränsad CID" är inställt på "Standard" men det standard externa CID-numret har inte definierats.
+tenants.no_dids = Fältet "Begränsad CID" är inställt på "DID:er" men inga DID:er har definierats.
+tenants.calls_limit = Gräns för utgående samtal
+tenants.calls_limit.tooltip = Det låter dig definiera antalet samtidiga utgående samtal som är tillåtna för denna abonnent.
+tenants.calls_limit.placeholder = Ingen gräns
+tenants.calls_limit.invalid = Du har angett ett ogiltigt värde för fältet för gräns för utgående samtal. Värdet måste vara ett giltigt heltal.
+tenants.main = (Huvud)
+tenants.duplicated_did = DID "{0}" används redan av abonnenten "{1}".
+tenants.vpbx_devices = VitalPBX Connect-enheter
+tenants.vpbx_devices.tooltip = Det låter dig definiera antalet VitalPBX Connect-enheter som användarna av denna abonnent kan lägga till.
+tenants.calls_sms_routing = Samtals- och SMS-dirigering
+tenants.sms_numbers = SMS-nummer
+tenants.sms_numbers.tooltip = Det låter dig dela SMS-nummer som konfigurerats i meddelandeleverantörer med abonnenter.
+tenants.disable_trunks_prefix = Inaktivera trunkprefix
+tenants.disable_trunks_prefix.tooltip =
+    Om du ställer in denna parameter på ”Ja” inaktiveras tillägget av abonnentens prefix till trunkenheterna; detta kan vara
+    användbart om du behöver skapa mer än en trunk (på olika abonnenter) från samma leverantör med hjälp av metoden ”Användarnamn-auth”.<br><br>
+    <b>Varning:</b> om man inaktiverar trunkprefixet för flera abonnenter kan det leda till duplicering av enhetsnamn (trunkar med
+    samma lokala användarnamn); i slutändan kan detta leda till att Asterisk-tjänsten kollapsar.
+tenants.did_description = {description}
+tenants.did_description.placeholder = Valfri beskrivning
+tenants.inbound_calls_limit = Gräns för inkommande samtal
+tenants.inbound_calls_limit.placeholder = {tenants.calls_limit.placeholder}
+tenants.inbound_calls_limit.tooltip = Här kan du definiera det antal samtidiga inkommande samtal som tillåts för den här abonnenten.
+tenants.inbound_calls_limit.invalid = Du har angett ett ogiltigt värde för fältet Gräns för inkommande samtal. Värdet måste vara ett giltigt heltalsvärde.

@@ -1,0 +1,14 @@
+menu.voicemail_timezones = Tidszoner för röstbrevlåda
+module.voicemail_timezones = Tidszoner för röstbrevlåda
+voicemail_timezones = Tidszoner för röstbrevlåda
+voicemail_timezones.confirm_delete = Är du säker på att du vill ta bort den här tidszonen?
+voicemail_timezones.delete = Radera
+voicemail_timezones.general = Allmänt
+voicemail_timezones.none = Ingen
+voicemail_timezones.timezone = Tidszon
+voicemail_timezones.timezone.tooltip = Tidszon som ska väljas.
+voicemail_timezones.tzdefinition = Definition av tid
+voicemail_timezones.tzname = Namn
+voicemail_timezones.tzname.tooltip = Kort namn för denna tidszon.
+voicemail_timezones.voicemail_timezone_id = Zonmeddelanden
+voicemail_timezones.voicemail_timezone_id.tooltip = Tidszon från Zonmeddelanden, om inställningen är ”nej” kommer den att tas med i avsnittet för allmänna inställningar. Irrelevant om Envelope är 'nej'.

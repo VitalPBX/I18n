@@ -1,0 +1,22 @@
+task_manager = Uppgiftshanterare
+menu.task_manager = {task_manager}
+module.task_manager = {task_manager}
+task_manager.general = {vitalpbx.general}
+task_manager.description = Beskrivning
+task_manager.description.tooltip = En kort beskrivning för att identifiera denna uppgift
+task_manager.cron_profile = Cron-profil
+task_manager.cron_profile.tooltip = Representerar cron-profilen för att schemalägga den här uppgiften
+task_manager.script = Skript
+task_manager.script.tooltip =
+	Gör det möjligt att välja ett skript som ska köras regelbundet, enligt den valda cron-profilen.
+	Skriptet måste vara placerat på <b>/var/lib/vitalpbx/scripts</b>
+task_manager.validations.no_description = Ingen beskrivning har definierats. Vänligen skriv en giltig beskrivning.
+task_manager.validations.duplicated_description = En annan uppgift använder samma beskrivning. Vänligen verifiera.
+task_manager.validations.duplicated_script = En annan uppgift har definierats med samma skript. Vänligen verifiera.
+task_manager.validations.no_script = Inget skript har valts för denna uppgiftshanterare.
+task_manager.silent_mode = Tyst läge
+task_manager.silent_mode.tooltip =
+	Om den är aktiverad kommer alla utdata från det valda skriptet att undertryckas, vilket gör att du slipper få e-postmeddelanden varje gång cron körs.
+task_manager.enabled = Aktiverad
+task_manager.enabled.tooltip = Gör att du kan aktivera/inaktivera den här uppgiften
+task_manager.validations.invalid_script = Den angivna skriptfilen är inte giltig.

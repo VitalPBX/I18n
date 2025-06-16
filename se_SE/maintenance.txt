@@ -1,0 +1,59 @@
+maintenance = Underhåll
+menu.maintenance = {maintenance}
+module.maintenance = {maintenance}
+maintenance.general = {vitalpbx.general}
+maintenance.cdr_preservation = Radera äldsta CDR
+maintenance.cdr_preservation.tooltip =
+	Gör det möjligt att definiera det maximala antalet dagar som CDR ska sparas. CDR med högre ålder
+    än de dagar som definieras här kommer att raderas
+maintenance.recordings_preservation = Radera äldsta inspelningar
+maintenance.recordings_preservation.tooltip =
+	Gör det möjligt att definiera det maximala antalet dagar som inspelningar ska sparas. Inspelningar med högre ålder
+	än de dagar som definieras här kommer att raderas
+maintenance.recordings_min_duration = Radera korta inspelningar
+maintenance.recordings_min_duration.tooltip =
+	Gör det möjligt att definiera minimitiden i sekunder för att en inspelning ska anses vara för kort och raderas
+maintenance.convert_recordings = Konvertera inspelningar
+maintenance.convert_recordings.tooltip = Aktivera / Avaktivera konvertering av samtalsinspelningar till MP3
+maintenance.schedule = Schema
+maintenance.schedule.tooltip =
+	Här kan du definiera det schema enligt vilket underhållet av växeln ska utföras (Konvertering av inspelningar,
+	Rengöring av inspelningar och CDR, etc). Om inget schema väljs kommer alla underhållsalternativ att inaktiveras
+maintenance.execute = Utför nu
+maintenance.confirm_mcp.title = Bekräfta underhåll
+maintenance.confirm_mcp =
+	Är du säker på att du vill utföra underhållet nu? <br> Detta kan ta flera minuter, särskilt om du har
+	många inspelningar att konvertera
+maintenance.executed = Underhållet utförs i bakgrunden
+maintenance.no_license_notification =
+	Följande funktioner: ”Ta bort äldsta inspelningar” & ’Konvertera inspelningar’ fungerar inte förrän du aktiverar detta tillägg
+	med en giltig licens.
+maintenance.enabled = Aktiverad
+maintenance.enabled.tooltip =
+	Här kan du aktivera eller avaktivera PBX-underhållet.
+maintenance.validation.enabled_without_cron = Underhållet har aktiverats men ingen cron-profil har valts
+maintenance.tenant = Abonnent
+maintenance.tenant.tooltip = Gör det möjligt att välja den klient som underhållskonfigurationerna ska tillämpas på
+maintenance.mcp.invalid_tenant = Underhållet kan inte utföras eftersom du har angett ogiltig information
+maintenance.voicemail_preservation = Ta bort äldsta röstmeddelanden
+maintenance.voicemail_preservation.tooltip =
+	Gör det möjligt att definiera det maximala antalet dagar som inspelningar av röstmeddelanden ska sparas. Röstmeddelanden
+	inspelningar med mer ålder än de dagar som definieras här kommer att raderas
+maintenance.conversion_quality = Ljudkvalitet
+maintenance.conversion_quality.tooltip =
+	Den ljudkvalitet som ska användas vid konvertering från WAV till MP3. Högre kvalitet ger bättre ljud, men tar mer plats på hårddisken
+	på hårddisken; Lägre kvalitet ger mindre ljudfiler, men kvaliteten försämras.
+maintenance.good = Good ({0}k)
+maintenance.medium = Medium ({0}k)
+maintenance.best = Best ({0}k)
+maintenance.high = High ({0}k)
+maintenance.sms_preservation = Ta bort äldsta SMS
+maintenance.sms_preservation.tooltip =
+    Om detta definieras raderas SMS som är äldre än det antal dagar som definieras här.
+    Om du vill avaktivera radering av SMS lämnar du fältet tomt eller anger noll.
+maintenance.logger_preservation = Ta bort de äldsta logghändelserna
+maintenance.logger_preservation.tooltip =
+    Gör det möjligt att definiera det maximala antalet dagar som logghändelser ska sparas. De händelser
+    som är äldre än de dagar som definieras här kommer att raderas.
+
+

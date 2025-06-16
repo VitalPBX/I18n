@@ -1,0 +1,13 @@
+ars = Val av rutter
+ars.all_outbound_routes = -- Alla utgående rutter --
+ars.description = Beskrivning
+ars.description.tooltip = En fritextbeskrivning för att identifiera denna rutt
+ars.enabled = Aktiverad
+ars.general = Allmänt
+ars.members = Medlemmar för val av rutt
+ars.outbound_route_id = Utgående rutt
+ars.time_group_id = Tidgrupp
+menu.route_selections = Val av rutt
+module.ars = Val av rutt
+ars.used_by_cos = Denna post kan inte raderas eftersom den används för en eller flera <b>Klasser av tjänster</b>
+ars.none = {none}

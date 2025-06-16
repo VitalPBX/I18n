@@ -1,0 +1,26 @@
+menu.emergency_numbers = Nödnummer
+module.emergency_numbers = {menu.emergency_numbers}
+emergency_numbers.general = {vitalpbx.general}
+emergency_numbers.trunks = Trunkar
+emergency_numbers.trunks.tooltip = Lista över trunkar som kan användas i händelse av ett nödsamtal
+emergency_numbers.legend = Lista över nödnummer
+emergency_numbers.number = Nummer
+emergency_numbers.number.tooltip = Telefonnummer för att kontakta lokal räddningstjänst för assistans
+emergency_numbers.number.placeholder = t.ex.: 112
+emergency_numbers.description = Tjänstens namn
+emergency_numbers.description.tooltip = Namn på den tjänst som representerar detta telefonnummer. t.ex: Polis, brandmän, ambulans, etc.
+emergency_numbers.description.placeholder = ...t.ex: Polis, brandmän, ambulans, etc.
+emergency_numbers.validation.invalid_number =
+	Följande nummer<b>"{0}"</b> har ett ogiltigt format, vänligen skriv ett giltigt telefonnummer.
+	Det ska innehålla följande tecken: *,#,+
+emergency_numbers.cat_description = Beskrivning
+emergency_numbers.cat_description.tooltip = En kort beskrivning för att lätt känna igen denna lista över nödnummer
+emergency_numbers.validation.no_desc = Ingen beskrivning har angetts. Vänligen ange en giltig beskrivning
+emergency_numbers.validation.no_trunks = Inga trunkar har valts. Vänligen välj minst en trunk.
+emergency_numbers.validation.no_numbers = Inga nummer har angetts. Vänligen lägg till minst ett nummer.
+emergency_numbers.validation.n_duplicated =
+	Nödnumret {0} används redan av följande kategori av nödnummer: <b>{1}</b>.
+emergency_numbers.email_addresses = E-postadresser
+emergency_numbers.email_addresses.tooltip =
+	E-postadresser som kommer att få ett meddelande när något av de nödnummer som definieras här rings upp
+emergency_numbers.validation.invalid_email = E-postadressen <b>{0}</b> är inte giltig.

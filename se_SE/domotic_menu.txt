@@ -1,0 +1,6 @@
+menu.domotic = Domotisk
+menu.domotic_conf = Konfiguration
+menu.domotic_units = Terminaler
+menu.domotic_devices = Enheter
+menu.domotic_scenes = Scener
+menu.domotic_notifications = Meddelanden

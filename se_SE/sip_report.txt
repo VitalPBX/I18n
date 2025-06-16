@@ -1,0 +1,15 @@
+sip_report = SIP-enheter
+menu.sip_report = {sip_report}
+module.sip_report = {sip_report}
+sip_report.devices = Enheter
+sip_report.trunks = Trunkar
+sip_report.registrations = Registreringar
+sip_report.extension = Anslutning
+sip_report.device = Enhet
+sip_report.host = Värd
+sip_report.port = Port
+sip_report.status = Status
+sip_report.user_agent = Användaragent
+sip_report.trunk_name = Trunkebeskrivning
+sip_report.refresh = Uppdatera
+sip_report.state = Skick

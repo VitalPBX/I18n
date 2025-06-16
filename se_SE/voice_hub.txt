@@ -1,0 +1,49 @@
+menu.voice_hub = Röstnav
+voice_connectors = Röstanslutningar
+voice_profiles = Röstprofiler
+menu.voice_connectors = {voice_connectors}
+menu.voice_profiles = {voice_profiles}
+voice_hub.provider = Leverantör
+voice_hub.provider.tooltip = Leverantör av TTS- och STT-tjänster
+voice_hub.providers.openai = OpenAI
+voice_hub.providers.microsoft = Microsoft
+voice_hub.unlicensed = {sms.unlicensed}
+module.voice_connectors = {voice_connectors}
+voice_connectors.general = {vitalpbx.general}
+voice_hub.api_key = API-nyckel
+voice_hub.api_key.tooltip = Nyckel/Token för att autentisera API-anrop.
+voice_hub.description = {description}
+voice_hub.description.tooltip = En kort beskrivning som gör det lätt att identifiera kontakten.
+voice_hub.validation.invalid_provider = Den valda leverantören är inte giltig.
+voice_hub.validation.no_api_key = Du har inte angett en giltig API-nyckel/token.
+voice_hub.validation.no_description = Du har inte gett någon giltig beskrivning.
+module.voice_profiles = {voice_profiles}
+voice_profiles.general = {vitalpbx.general}
+voice_hub.no_connectors = Det går inte att skapa röstprofiler utan att ha definierat kontakter.
+voice_hub.connector = Connector
+voice_hub.connector.tooltip = Voice Connector som innehåller API-autentiseringsuppgifterna.
+voice_hub.region = Region
+voice_hub.region.tooltip =
+    Den Microsoft/Azure-region som valdes när du skapade ditt konto. Inga språk kommer att laddas om du väljer en region
+    som inte stämmer överens med regionen i ditt Microsoft/Azure-konto.
+voice_hub.voice = Röst
+voice_hub.voice.tooltip =
+    Den röst som ska användas i de ljud som genereras av den här profilen. Tänk på att de aktuella rösterna är
+    rösterna är optimerade för engelska.
+voice_hub.language = Språk
+voice_hub.language.tooltip = Det språk och den röst som ska användas vid konvertering av text till tal.
+voice_hub.quality = Ljudkvalitet
+voice_hub.quality.tooltip =
+    Den ljudkvalitet som ska användas i den genererade ljudfilen. I vissa fall kanske ljudet inte har några märkbara skillnader beroende på
+    beroende på din enhet och den enskilda personen.
+voice_hub.quality.tts-1 = Standard
+voice_hub.quality.tts-1-hd = High Definition
+voice_hub.region.select = -- Välj en region --
+voice_hub.profile_description.tooltip = En kort beskrivning för att enkelt identifiera profilen.
+voice_hub.validation.vp.invalid_provider = Den valda anslutningen har inte tilldelats någon giltig provider.
+voice_hub.try_tts = TTS-demo
+voice_hub.text_to_convert = Text till konvertering
+voice_hub.text_to_convert.tooltip = Den text som ska konverteras till ljud. Du har maximalt 500 tecken.
+voice_hub.message.demo_text = I dagens symfoni kan du komponera ett mästerverk inom telekommunikation som genljuder av kärlek, berikat av telekommunikationsmagin {0}!
+voice_hub.convert = Konvertera
+voice_hub.converting = Converting...

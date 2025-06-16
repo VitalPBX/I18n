@@ -1,0 +1,21 @@
+ms_teams = Microsoft Teams
+menu.ms_teams = {ms_teams}
+module.ms_teams = {ms_teams}
+ms_teams.allowed_numbers = Tillåtna nummer
+ms_teams.csv = CSV
+ms_teams.csv.tooltip = CSV med listan över nummer för att kunna ta emot/skicka samtal från/till MS-teamet.
+ms_teams.general = {vitalpbx.general}
+ms_teams.description = Beskrivning
+ms_teams.description.tooltip = Namn eller beskrivning av MS-teamets nummer.
+ms_teams.number = Nummer
+ms_teams.number.tooltip = Nummer i samma format som skickas eller tas emot från/till MS-teamet.
+ms_teams.import = Importera
+ms_teams.add_number = Lägg till nummer
+ms_teams.edit_number = Redigera nummer
+ms_teams.csv.missing_columns = Du har inte angett någon nummerkolumn.
+ms_teams.validation.no_number = Du har inte angett ett giltigt nummer.
+ms_teams.validation.duplicated_number = Det nummer som du försöker lägga till finns redan.
+ms_teams.numbers_imported =
+	[one] Ett föremål har importerats.
+    [other] {0} objekt har importerats.
+ms_teams.validation.max_numbers_reached = Din nuvarande licens tillåter dig endast att lägga till {0} artiklar, därför kan du inte lägga till fler artiklar.

@@ -1,0 +1,17 @@
+blacklist = Svartlista
+blacklist.description = Beskrivning
+blacklist.description.tooltip = Fritextbeskrivning av det svartlistade numret
+blacklist.general = Allmänt
+blacklist.not_found = Svartlista hittades inte
+blacklist.number = CID-nummer
+blacklist.number.tooltip = CID-nummer som ska ingå i den svarta listan.
+blacklist.numebr.invalid = Numret till svartlistan är ogiltigt.
+blacklist.search = Sök
+menu.blacklist = Svartlista
+module.blacklist = Svartlista
+blacklist.destination = Destination
+blacklist.destination.tooltip =
+	Valfri destination. Om den är inställd kommer den som ringer med ett CID-nummer som matchar det som konfigurerats ovan att omdirigeras
+	till den konfigurerade destinationen. Om det inte anges spelas ett meddelande upp i stället.
+blacklist.enabled = Aktiverad
+blacklist.enabled.tooltip = Aktivera/avaktivera detta CID-nummer från svartlistan

@@ -1,0 +1,10 @@
+menu.announcements = Meddelanden  
+module.preannoun = Meddelanden  
+preannoun = Meddelanden  
+preannoun.description = Beskrivning  
+preannoun.description.tooltip = Kort beskrivning för att identifiera detta meddelande.  
+preannoun.destination = Destination efter att ha spelat meddelandet %s  
+preannoun.general = Allmänt  
+preannoun.mod_dest = Moduldestination  
+preannoun.recording_id = Anpassad inspelning  
+preannoun.recording_id.tooltip = Inspelning att spela upp för detta meddelande.  

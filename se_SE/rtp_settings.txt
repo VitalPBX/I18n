@@ -1,0 +1,33 @@
+menu.rtp_settings = RTP-inställningar
+module.rtp_settings = RTP-inställningar
+rtp_settings.general = Allmänt
+rtp_settings.certificate_id = Certifikat
+rtp_settings.certificate_id.tooltip = Serverns certifikatfil.
+rtp_settings.rtpstart = RTP Start
+rtp_settings.rtpstart.tooltip = Anger var porten börjar.
+rtp_settings.rtpend = RTP Slut
+rtp_settings.rtpend.tooltip = Anger slutet på porten.
+rtp_settings.strictrtp = Strikt RTP
+rtp_settings.strictrtp.tooltip = Aktivera strikt RTP-skydd. Detta kommer att släppa RTP-paket som inte kommer från källan för RTP-strömmen.
+rtp_settings.rtpchecksums = RTP Checksums
+rtp_settings.rtpchecksums.tooltip = Om UDP-checksums på RTP-trafik ska aktiveras eller inaktiveras.
+rtp_settings.icesupport = ICE Support
+rtp_settings.icesupport.tooltip = Om ICE-stöd ska aktiveras eller inaktiveras. Denna funktion är inaktiverad som standard.
+rtp_settings.stunaddr = Stun Server
+rtp_settings.stunaddr.tooltip = Värdnamn eller adress för STUN-servern som används för att bestämma den externa IP-adressen och porten som en RTP-session kan nås på. Portnummer är valfritt.
+rtp_settings.turnaddr = Turn Server
+rtp_settings.turnaddr.tooltip = Värdnamn eller adress för TURN-servern som ska användas som en relay. Portnummer är valfritt.
+rtp_settings.turnusername = Turn Server Användarnamn
+rtp_settings.turnusername.tooltip = Användarnamn som används för att autentisera mot TURN-relayservern.
+rtp_settings.turnpassword = Turn Server Lösenord
+rtp_settings.turnpassword.tooltip = Lösenord som används för att autentisera mot TURN-relayservern.
+rtp_settings.ice_host_candidates = ICE-värdinställningar
+rtp_settings.local_address = Lokal adress
+rtp_settings.advertised_address = Annonserad adress
+rtp_settings.include_local_address = Inkludera lokal adress
+rtp_settings.ice_host_candidates.tooltip =
+	När Asterisk befinner sig bakom en statisk en-till-en NAT och ICE används, kommer ICE att exponera serverns interna IP-adress
+	som en av värdkandidaterna. Även om användning av STUN (se konfigurationsalternativet 'stunaddr') kommer att ge en
+	offentligt tillgänglig IP, kommer den interna IP-adressen fortfarande att skickas till fjärrpeaken. För att dölja topologin i ditt interna nätverk
+	nätverk kan du åsidosätta de värdkandidater som Asterisk skickar till fjärrpeaken. Om du definierar något
+	här, är det nästan säkert att du INTE vill ange adresserna för ”Stun Server” eller ”Turn Server”.

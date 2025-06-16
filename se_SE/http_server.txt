@@ -1,0 +1,15 @@
+menu.http_server = HTTP Server
+module.http_server = {menu.http_server}
+http_server.general = {vitalpbx.general}
+http_server.http_port = HTTP-port
+http_server.http_port.help = Den definierar från vilken port GUI ska vara tillgängligt via HTTP-protokollet.
+http_server.https_port = HTTPS-port
+http_server.https_port.help = Den definierar från vilken port GUI ska vara tillgängligt via HTTPS-protokollet.
+http_server.certificate = Certifikat
+http_server.certificate.help = Här definieras det certifikat som ska användas när det grafiska gränssnittet nås via HTTPS. Som standard används det förbyggda certifikatet, men om du vill använda ett annat certifikat går du till modulen Certifikat för att generera ett.
+http_server.https_enable = HTTPS Aktivera
+http_server.https_enable.title = Om den är markerad kommer GUI att vara tillgängligt via HTTPS. Aktiverad som standard.
+http_server.permanent_redirect = Tvinga HTTPS
+http_server.permanent_redirect.title = Om du markerar all trafik till HTTP-protokollet kommer den att omdirigeras till HTTPS-protokollet.
+http_server.native_cert = Certifikat före byggnation (inhemskt)
+http_server.saved_but_not_configured = Ändringarna har sparats men konfigurationen har inte tillämpats.

@@ -1,0 +1,12 @@
+ did_management = DID-hantering
+menu.did_management = {did_management}
+module.did_management = {did_management}
+did_management.general = {vitalpbx.general}
+did_management.did = DID
+did_management.tenant = Abonnent
+did_management.actions = {actions}
+did_management.add = Lägg till DID
+did_management.did.tooltip = Det DID-nummer som ska tilldelas.
+did_management.tenant.tooltip = Den abonnent som DID kommer att tillhöra.
+did_management.description = {description}
+did_management.description.tooltip = En kort beskrivning för referens.

@@ -1,0 +1,16 @@
+menu.pin_lists = PIN-listor  
+module.pin = PIN-listor  
+pin = PIN-lista  
+pin.general = Allmänt  
+pin.confirm_delete = Är du säker på att du vill radera denna PIN-lista?  
+pin.delete = Radera  
+pin.description = Beskrivning  
+pin.description.invalid = Beskrivning krävs  
+pin.description.tooltip = En kort beskrivning av denna PIN-lista.  
+pin.none = Ingen  
+pin.passwords = PIN-lista  
+pin.passwords.duplicate = Duplicerade PIN-koder  
+pin.passwords.empty = Minst en PIN-kod i PIN-listan krävs  
+pin.passwords.invalid = Ogiltig PIN-kod i PIN-listan. Använd endast siffror och "*" (asterisk). Separera varje PIN-kod med en ny rad  
+pin.passwords.tooltip = Lista över PIN-koder som kan användas. En PIN-kod kan bestå av valfri kombination av siffror och "*" (asterisk). Om du vill lägga till flera PIN-koder, börja varje på en ny rad.  
+pin.pin_list_not_found = Ingen PIN-lista att radera  

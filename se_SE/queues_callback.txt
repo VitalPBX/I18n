@@ -1,0 +1,60 @@
+queues_callback = Återuppringning
+menu.queues_callback = {queues_callback}
+module.queues_callback = {queues_callback}
+queues_callback.general = {vitalpbx.general}
+queues_callback.description = Beskrivning
+queues_callback.description.tooltip = Kort beskrivning
+queues_callback.queue = Återuppringningskö
+queues_callback.queue.tooltip = Det gör att du kan definiera kön där uppringare som begär en återuppringning ska skickas.
+queues_callback.cos = Serviceklass
+queues_callback.cos.tooltip =
+	Det gör att du kan definiera vilken serviceklass som ska användas för att utföra återuppringningen. Kom ihåg att serviceklassen
+	innehåller behörigheterna för att tillåta utgående samtal via specifika trunkar eller utgående rutter.
+queues_callback.dial_prefix = Uppringningsprefix
+queues_callback.dial_prefix.tooltip = Om det definieras, kommer det att läggas före det begärda återuppringningsnumret
+queues_callback.time_group = Tidsgrupp
+queues_callback.time_group.tooltip =
+	Det gör att du kan konfigurera en tidsgrupp för att definiera de tillåtna tiderna för att utföra återuppringningar
+queues_callback.periodic_announcement = Instruktionsmeddelanden
+queues_callback.periodic_announcement.tooltip =
+	Meddelande som ska spelas upp med instruktioner för att begära återuppringning.<br><br>Standardmeddelande: ”Alla våra representanter
+	är för närvarande upptagna.  Stanna kvar på linjen så kommer ditt samtal att besvaras av nästa tillgängliga representant,
+	eller tryck ett för att bli uppringd när en representant är tillgänglig”
+queues_callback.number_prompt = Nummer-promptmeddelande
+queues_callback.number_prompt.tooltip =
+	Instruktionsmeddelande för att be om att få ange återuppringningsnummer.<br><br>Standardmeddelande: ”Vänligen ange ditt telefonnummer”
+queues_callback.cid = Nummerpresentation
+queues_callback.cid.tooltip =
+	Uppringarens ID-information som ska användas vid återuppringningen. Denna information kan ändras under samtalsprocessen genom inställningarna för trunkar
+	eller inställningar för utgående rutter.
+queues_callback.allowed_tries = Maximum Tries
+queues_callback.allowed_tries.tooltip = Antal tillåtna försök som ska utföras innan återkopplingen markeras som misslyckad
+queues_callback.ask_callback_number = Fråga om återuppringningsnummer
+queues_callback.ask_callback_number.tooltip =
+	Om den är aktiverad kommer den som ringer att uppmanas att ange sitt återuppringningsnummer. Om inställningen är nej används numret på nummerpresentatören som
+	som återuppringningsnummer, så länge som numret överensstämmer med reglerna för tillåtna nummer.
+queues_callback.same_queue = Samma kö
+queues_callback.none = {none}
+queues_callback.cid_name = Namn för nummerpresentatör
+queues_callback.cid_number = Nummer för nummerpresentation
+queues_callback.allowed_patterns = Regler för tillåtet antal
+queues_callback.pattern = Mönster
+queues_callback.pattern.tooltip = Det gör det möjligt att definiera regler för vilken typ av nummer som kan användas vid begäran om återuppringning
+queues_callback.enabled = Aktiverad
+queues_callback.enabled.tooltip = Det gör att du kan aktivera/inaktivera mönsterregler
+queues_callback.invalid_message = Ogiltigt meddelande
+queues_callback.invalid_message.tooltip =
+	Meddelande som ska spelas upp när numret som uppringaren anger inte överensstämmer med de definierade nummerreglerna.<br><br> Standardmeddelande:
+	”Jag är ledsen, men det är inte ett erkänt telefonnummer”
+queues_callback.ringtime = {extensions.ringtime}
+queues_callback.ringtime.tooltip = Här kan du definiera den tid (i sekunder) som återuppringningsnumren ska ringa innan samtalet markeras som ej besvarat
+queues_callback.thank_you_prompt = Tack-prompt
+queues_callback.thank_you_prompt.tooltip =
+	Meddelande som ska spelas upp för den som ringer efter att ha avslutat schemaläggningen av en återuppringning. Standardmeddelande: ”Tack, du kommer att bli uppringd snart”
+queues_callback.dial_agents_first = Dial Agents First
+queues_callback.dial_agents_first.tooltip =
+	Om inställningen är "Ja" skickas de schemalagda återuppringningarna först till agenterna och sedan till kunden.
+queues_callback.priority = Prioritet
+queues_callback.priority.tooltip = Det är den prioritet som ska tillämpas när ett schemalagt samtal kommer in i kön. Ett högre värde innebär högre prioritet.
+queues_callback.dtmf_digit = DTMF-siffra
+queues_callback.dtmf_digit.tooltip = Den DTMF-siffra som den som ringer måste trycka på för att begära återuppringning.

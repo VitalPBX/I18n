@@ -1,0 +1,82 @@
+backup_and_restore.backup = Säkerhetskopia
+backup_and_restore.intro = Om du vill återställa en befintlig säkerhetskopia väljer du önskad säkerhetskopia i menyn till höger.
+backup_and_restore.backup_invalid = Det går inte att läsa in begärd säkerhetskopia
+backup_and_restore.backup_created = Säkerhetskopian skapades framgångsrikt
+backup_and_restore.backup_restored = Säkerhetskopian återställdes framgångsrikt
+backup_and_restore.backup_error = Det går inte att skapa en säkerhetskopia enligt begäran
+backup_and_restore.restore_error = Det går inte att återställa begärd säkerhetskopia
+backup_and_restore.backups = Säkerhetskopior
+backup_and_restore.cancel = Avbryt
+backup_and_restore.list_content = {0} {1}
+backup_and_restore.list_description = {0,datetime}
+backup_and_restore.restore = Återställ
+backup_and_restore.title = {0} {1} - {2,longdatetime}
+menu.backup_and_restore = Säkerhetskopiering & återställning
+module.backup_and_restore = Säkerhetskopiering &återställning
+backup_and_restore.product = Produkt
+backup_and_restore.product.tooltip = Produktnamn för denna säkerhetskopia
+backup_and_restore.version = Version
+backup_and_restore.version.tooltip = Produktversion av denna säkerhetskopia
+backup_and_restore.created = Skapad
+backup_and_restore.created.tooltip = Datum och tid för skapande av denna säkerhetskopia
+backup_and_restore.created.format = {0,longdatetime}
+backup_and_restore.click_to_restore = Klicka på knappen ”Återställ” nedan för att använda den här säkerhetskopian och starta återställningsprocessen. Denna process kan ta flera minuter.
+backup_and_restore.download = Nedladdningar
+backup_and_restore.comment = Kommentar
+backup_and_restore.comment.tooltip = En användardefinierad kommentar som kommer att läggas till i säkerhetskopian
+backup_and_restore.include_cdr = Inkludera CDR-poster
+backup_and_restore.include_cdr.tooltip = Om du aktiverar detta kommer CDR-poster att läggas till i säkerhetskopian
+backup_and_restore.include_recordings = Inkludera inspelningar av samtal
+backup_and_restore.include_recordings.tooltip = Om du aktiverar detta kommer samtalsinspelningar att läggas till i säkerhetskopian
+backup_and_restore.include_voicemail = Inkludera röstbrevlåda
+backup_and_restore.include_voicemail.tooltip = Om du aktiverar detta kommer röstbrevlådor att läggas till i säkerhetskopian
+backup_and_restore.restore_cdr = Återställa CDR-poster
+backup_and_restore.restore_cdr.tooltip = Om du aktiverar detta kommer befintliga CDR-poster att ersättas med dem som finns i denna säkerhetskopia
+backup_and_restore.restore_recordings = Återställ inspelningar
+backup_and_restore.restore_recordings.tooltip = Om du aktiverar detta kommer befintliga samtalsinspelningar att ersättas med de som finns i denna säkerhetskopia
+backup_and_restore.restore_voicemail = Återställ röstbrevlåda
+backup_and_restore.restore_voicemail.tooltip = Om du aktiverar detta kommer befintliga röstbrevlådor att ersättas med de som finns i denna säkerhetskopia
+backup_and_restore.restore_file = Ladda upp säkerhetskopia
+backup_and_restore.restore_file.tooltip = Välj en tidigare nedladdad säkerhetskopia för att återställa
+backup_and_restore.restore_file.invalid = Ogiltig säkerhetskopia har tillhandahållits
+backup_and_restore.delete = Radera
+backup_and_restore.confirm_delete = Är du säker på att du vill radera den här säkerhetskopian?
+backup_and_restore.backup_deleted = Säkerhetskopian har raderats
+backup_and_restore.name = Namn
+backup_and_restore.name.tooltip = Beskrivande namn för denna säkerhetskopia
+backup_and_restore.include_faxes = Inkludera fax
+backup_and_restore.include_faxes.tooltip = Om du aktiverar detta läggs fax till i säkerhetskopian
+backup_and_restore.restore_faxes = Återställ faxmeddelanden
+backup_and_restore.restore_faxes.tooltip = Om du aktiverar detta kommer befintliga fax att ersättas med de som finns i denna säkerhetskopia
+backup_and_restore.import = Importera säkerhetskopia
+backup_and_restore.execute = Kör säkerhetskopiering nu!
+backup_and_restore.general = {general}
+backup_and_restore.automatic_backup = Körs automatiskt
+backup_and_restore.automatic_backup.tooltip =
+	Det gör att du kan använda en Cron som tidigare skapats på <b>”PBX >> Verktyg >> Cron-profiler”</b> för att automatiskt
+	skapa en säkerhetskopia med dina valda inställningar.
+backup_and_restore.limit = Gräns
+backup_and_restore.limit.tooltip =
+	Med den kan du definiera antalet säkerhetskopior som ska lagras. När gränsen är nådd,
+	kommer den äldsta kopian att raderas
+backup_and_restore.validations.name = Vänligen ange ett giltigt namn. Alfanumeriska värden, mellanslag, bindestreck, understreck och punkter är tillåtna.
+backup_and_restore.validations.duplicated_name = Det finns redan en säkerhetskopia med samma namn.
+backup_and_restore.backups_list = Lista över säkerhetskopior
+backup_and_restore.date_time = Datum & tid
+backup_and_restore.app_version = {0} Version
+backup_and_restore.actions = Åtgärder
+backup_and_restore.validations.no_backup_data = Inte tillräckligt med information för att göra en backup
+backup_and_restore.backup_not_deleted = Säkerhetskopian har inte raderats
+backup_and_restore.cannot_restore = Tyvärr, den valda säkerhetskopian kan inte återställas
+backup_and_restore.backup = Säkerhetskopia
+backup_and_restore.created = Skapad vid
+backup_and_restore.product_version = App-version
+backup_and_restore.cannot_create_backup_group = Det går inte att skapa en säkerhetskopieringsgrupp "{0}"
+backup_and_restore.confirm_group_delete =
+	Är du säker på att du vill ta bort den här säkerhetskopieringsgruppen och alla säkerhetskopior som genereras av den?
+backup_and_restore.cannot_delete_group = Säkerhetskopieringsgruppen kan inte raderas
+backup_and_restore.old_backup =
+	Säkerhetskopior från version {0} kan inte återställas på {1} med versioner som är större än {2}. Din säkerhetskopia måste vara minst
+	från en version som är större än {3}
+backup_and_restore.addons = Tilläggsprogram 
+backup_and_restore.addons.tooltip = Här kan du välja de tilläggsprogram som databasen ska säkerhetskopieras till

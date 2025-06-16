@@ -1,0 +1,11 @@
+menu.queue_priorities = Köprioriteringar
+module.queues_priority = Köprioriteringar
+queues_priority = Köprioritet
+queues_priority.description = Beskrivning
+queues_priority.description.tooltip = Kort beskrivning för att identifiera denna köprioritet.
+queues_priority.destination = Mål
+queues_priority.general = Allmänt
+queues_priority.mod_dest = Målmodul
+queues_priority.priority = Prioritet
+queues_priority.priority.tooltip = Den köprioritet som ska sättas. Högre värden innebär högre prioritet
+queues_priority.menu.priority = Prioritet {0}

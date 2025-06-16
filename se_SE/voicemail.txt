@@ -1,0 +1,2 @@
+vm_bodytext = Du har fått ett ${VM_DUR} långt röstmeddelande från ${VM_CALLERID} den ${VM_DATE}.\nA inspelning av detta meddelande bifogas detta e-postmeddelande, du kan också lyssna på det genom att ringa *97 från din egen anslutning eller genom att ringa *98 från någon annan anslutning
+vm_subject = Nummer till röstbrevlådan ${VM_MSGNUM} för brevlåda ${VM_MAILBOX} från ${VM_CALLERID} mottagen den ${VM_DATE}

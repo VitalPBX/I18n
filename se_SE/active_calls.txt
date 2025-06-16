@@ -1,0 +1,10 @@
+active_calls = Aktiva samtal
+menu.active_calls = {active_calls}
+module.active_calls = {active_calls}
+active_calls.calls = Samtal
+active_calls.channel = Kanal
+active_calls.caller_id = Nummerpresentation
+active_calls.called_number = Uppringt nummer
+active_calls.state = Status
+active_calls.duration = Varaktighet
+active_calls.linkedid = LinkedID

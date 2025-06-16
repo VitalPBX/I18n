@@ -1,0 +1,67 @@
+ivr = IVR
+ivr.class_of_service_id = Serviceklass
+ivr.class_of_service_id.tooltip = Välj en serviceklass för det här talsvaret. Om du väljer ”Endast anslutningar” kommer den som ringer endast att kunna ringa upp interna anknytningsnummer.
+ivr.description = Beskrivning
+ivr.description.tooltip = Kort beskrivning för att identifiera denna IVR.
+ivr.disabled = Inaktiverad
+ivr.entries = Ingångar
+ivr.entries.destination = Modul / Destinationer
+ivr.entries.dest.empty = Destination för IVR-inmatning är obligatorisk.
+ivr.entries.empty = Inga IVR-poster definierade
+ivr.entries.enabled = Aktiverad
+ivr.entries.mod_dest.empty = Destination för IVR-inmatningsmodul är obligatorisk.
+ivr.entries.option = Siffra
+ivr.entries.option.duplicate = Siffrorna för IVR-inmatning måste vara unika.
+ivr.entries.option.invalid = IVR-inmatningssiffrorna måste innehålla ett eller flera nummer.
+ivr.entries.option.placeholder = Siffra att trycka på
+ivr.entries.option.pound = Fyrkant (#) är reserverad för samtalsavslutning.
+ivr.entries.option.star = Stjärnan (*) är reserverad för uppspelning av välkomstmeddelandet.
+ivr.freedial = Direktuppringning
+ivr.freedial.tooltip = Aktivera direktsamtal till valfritt nummer som tillåts enligt den serviceklass som har konfigurerats för detta talsvar.
+ivr.general = Allmänt
+ivr.invalid_add_msg = Välkommen efter omprövning
+ivr.invalid_add_msg.tooltip = Efter att ha spelat upp meddelandet om ogiltigt nytt försök spelar systemet upp det huvudsakliga välkomstmeddelandet i talsvaret.
+ivr.invalid_dest = Ogiltig Destination
+ivr.invalid_msg_id = Ogiltigt meddelande
+ivr.invalid_msg_id.tooltip = Meddelande som spelas upp när du har uppnått maximalt antal försök.
+ivr.invalid_retry_msg_id = Ogiltigt meddelande om försök
+ivr.invalid_retry_msg_id.tooltip = Meddelande som ska spelas upp när ett ogiltigt alternativ tas emot.
+ivr.invalid_tries = Ogiltiga försök
+ivr.invalid_tries.tooltip = Antal ogiltiga försök som tillåts.
+ivr.mod_invalid = Ogiltig modul för destinationer
+ivr.mod_timeout = Modul för tidsgränsdestinationer 
+ivr.none = Ingen
+ivr.only_extensions = Endast anslutningar
+ivr.timeout = Tidsgräns
+ivr.timeout.tooltip = Den maximala tid som tillåts efter att ha fallit igenom en serie prioriteringar för en kanal där användaren kan börja skriva en anslutning.
+ivr.timeout_add_msg = Välkommen efter timeout
+ivr.timeout_add_msg.tooltip = När Timeout Retry-meddelandet har spelats upp kommer systemet att spela upp det huvudsakliga IVR-välkomstmeddelandet igen.
+ivr.timeout_dest = Tidsgränsdestination
+ivr.timeout_msg_id = Tidsgränsmeddelande
+ivr.timeout_msg_id.tooltip = Meddelande som ska spelas upp när tidsgränsen nås.
+ivr.timeout_retry_msg_id = Tidsgräns för meddelandet om nytt försök
+ivr.timeout_retry_msg_id.tooltip = Meddelande som ska spelas upp när tidsgränsen nås, därefter uppmanas användaren att försöka igen.
+ivr.timeout_tries = Tidsgränsförsök
+ivr.timeout_tries.tooltip = Antal försök när ingen DTMF tas emot.
+ivr.welcome_msg_id = Välkomstmeddelande
+ivr.welcome_msg_id.tooltip = Välkomstmeddelande som ska spelas upp.
+ivr.instructions_msg_id = Instruktionermeddelande
+ivr.instructions_msg_id.tooltip = Meddelande som ska spelas upp efter välkomstmeddelandet. Detta meddelande är användbart för att undvika att upprepa välkomstmeddelandet vid ogiltig/timeout-händelse.
+menu.ivr = IVR
+module.ivr = IVR
+ivr.generate_stats = Generera statistik
+ivr.generate_stats.tooltip =
+	Om det är inställt på ja sparas statistik för varje markerat alternativ. Denna statistik kan läsas i IVR
+	Statistik-modul
+ivr.cos.warning =
+	Åtgärden du är på väg att utföra kan skapa säkerhetsproblem. <b>Fortsätt inte om du inte är säker på att du förstår logiken i serviceklass för talsvar.</b>
+ivr.cos.warning.title = {warning}
+ivr.cos.warning.confirm =  {vitalpbx.accept}
+ivr.cos.warning.cancel = {vitalpbx.cancel}
+ivr.max_reached = Du har nått det maximala antalet IVR-svar som tillåts
+ivr.asr_enabled = ASR aktiverad
+ivr.asr_enabled.tooltip =
+	När den är aktiverad kommer de kunder som når detta talsvar att välja alternativ med röstkommandon i stället för att använda de numeriska alternativen.
+ivr.entries.asr_command = Röststyrning
+ivr.entries.asr_command.placeholder = Kommando
+

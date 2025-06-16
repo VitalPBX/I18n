@@ -1,0 +1,317 @@
+menu.profiles = Enhetsprofiler  
+module.profiles = Enhetsprofiler  
+profiles = Profiler  
+profiles_advanced = Avancerat  
+profiles_advanced_add = Lägg till  
+profiles_advanced_parameter = Parameter  
+profiles_advanced_value = Värde  
+profiles_confirm_delete = Är du säker på att du vill radera denna profil?  
+profiles_default_delete = Standardprofiler kan inte raderas.  
+profiles_delete = Radera  
+profiles_description = Beskrivning  
+profiles_description_tooltip = Beskrivning för denna profil.  
+profiles_general = Allmänt  
+profiles_general_section = Allmänt  
+profiles_iax_description = Beskrivning  
+profiles_iax_description_tooltip = Beskrivning för denna profil.  
+profiles_iax_general_section = Allmänt  
+profiles_iax_host = Värd  
+profiles_iax_host_invalid = Ingen värd angiven.  
+profiles_iax_host_tooltip = Värdnamn eller adress för enheten.  
+profiles_iax_name = Namn  
+profiles_iax_name_duplicate = Duplicerat profilnamn.  
+profiles_iax_name_invalid = Inget profilnamn angivet.  
+profiles_iax_name_tooltip = Namn för denna profil.  
+profiles_iax_network_section = Nätverk  
+profiles_iax_peertype = Typ  
+profiles_iax_peertype_friend = Vän  
+profiles_iax_peertype_invalid = Ogiltigt värde för nätverkstyp  
+profiles_iax_peertype_peer = Peer  
+profiles_iax_peertype_tooltip = Definierar enhetstypen. "Användare" är en enhet som ringer, kräver autentisering. "Peer" är en trunk-enhet, matchas via värd. "Vän" är en kombination av "Användare" och "Peer".  
+profiles_iax_peertype_user = Användare  
+profiles_iax_qualifyfreq = Kvalificeringsfrekvens  
+profiles_iax_qualifyfreq_invalid = Kvalificeringsfrekvensen måste vara ett nummer som börjar från 0.  
+profiles_iax_qualifyfreq_tooltip = Definiera kvalificeringsintervallet i sekunder. Ett värde på noll inaktiverar denna funktion.  
+profiles_iax_qualify = Kvalificeringstid  
+profiles_iax_qualify_invalid = Kvalificering måste vara ett nummer som börjar från 0.  
+profiles_iax_qualify_tooltip = Definiera den maximala svarstiden i millisekunder innan en enhet anses otillgänglig. Ett värde på noll inaktiverar denna funktion.  
+profiles_iax_requirecalltoken = Anrops-token  
+profiles_iax_requirecalltoken_auto = Automatisk  
+profiles_iax_requirecalltoken_invalid = Anrops-token måste vara en av: Ja, Nej, Automatisk.  
+profiles_iax_requirecalltoken_no = Nej  
+profiles_iax_requirecalltoken_tooltip = Använd ett anrops-token för autentisering.  
+profiles_iax_requirecalltoken_yes = Ja  
+profiles_iax_transfer = Överföring  
+profiles_iax_transfer_invalid = Överföring måste vara en av: Ja, Nej, Endast media.  
+profiles_iax_transfer_media = Endast media  
+profiles_iax_transfer_no = Nej  
+profiles_iax_transfer_tooltip = Tillåt överföringar från denna enhet.  
+profiles_iax_transfer_yes = Ja  
+profiles_iax_transfer_ =  
+profiles_name = Namn
+profiles_name_duplicate = Duplicerat profilnamn.  
+profiles_name_invalid = Inget profilnamn angivet.  
+profiles_name_tooltip = Namn för denna profil.  
+profiles_profile_deleted = Profilen har raderats framgångsrikt.  
+profiles_sip_avpf = AVPF  
+profiles_sip_avpf_tooltip = Aktiverar interoperabilitet med medieströmmar som använder AVPF RTP-profilen.  
+profiles_sip_callerid = Anropar-ID  
+profiles_sip_callerid_section = Anropar-ID  
+profiles_sip_description = Beskrivning  
+profiles_sip_description_tooltip = Beskrivning för denna profil.  
+profiles_sip_directmedia = Direktmedia  
+profiles_sip_directmedia_invalid = Direkt RTP måste vara en av: Ja, Nej, Ja om ingen NAT, Använd UPDATE.  
+profiles_sip_directmedia_nonat = Ja, om ingen NAT  
+profiles_sip_directmedia_no = Nej  
+profiles_sip_directmedia_tooltip = Aktiverar direkt sändning av RTP mellan samtalsdeltagare.  
+profiles_sip_directmedia_update = Använd UPPDATERING
+profiles_sip_directmedia_yes = Ja  
+profiles_sip_encryption = RTP Kryptering  
+profiles_sip_encryption_tooltip = Aktiverar sRTP röstkryptering.  
+profiles_sip_general_section = Allmänt  
+profiles_sip_host = Värd  
+profiles_sip_host_invalid = Ingen värd angiven.  
+profiles_sip_host_tooltip = Värdnamn eller adress för enheten.  
+profiles_sip_icesupport = ICE  
+profiles_sip_icesupport_tooltip = Använd ICE-protokoll för att brottas med brandväggar.  
+profiles_sip_name = Namn  
+profiles_sip_name_duplicate = Duplicerat profilnamn.  
+profiles_sip_name_invalid = Inget profilnamn angivet.  
+profiles_sip_name_tooltip = Namn för denna profil.  
+profiles_sip_network_section = Nätverk  
+profiles_sip_peertype = Typ  
+profiles_sip_peertype_friend = Vän  
+profiles_sip_peertype_invalid = Ogiltigt värde för nätverkstyp  
+profiles_sip_peertype_peer = Peer  
+profiles_sip_peertype_tooltip = Definierar enhetstypen. "Användare" är en enhet som ringer, kräver autentisering. "Peer" är en trunk-enhet, matchas via värd. "Vän" är en kombination av "Användare" och "Peer".  
+profiles_sip_peertype_user = Användare  
+profiles_sip_qualifyfreq = Kvalificeringsfrekvens  
+profiles_sip_qualifyfreq_invalid = Kvalificeringsfrekvensen måste vara ett nummer som börjar från 0.  
+profiles_sip_qualifyfreq_tooltip = Definiera kvalificeringsintervallet i sekunder. Ett värde på noll inaktiverar denna funktion.  
+profiles_sip_qualify = Kvalificeringstid  
+profiles_sip_qualify_invalid = Kvalificering måste vara ett nummer som börjar från 0.  
+profiles_sip_qualify_tooltip = Definiera den maximala svarstiden i millisekunder innan en enhet anses otillgänglig. Ett värde på noll inaktiverar denna funktion.  
+profiles_sip_sendrpid = Skicka Remote Party ID  
+profiles_sip_sendrpid_invalid = Skicka Remote Party ID måste vara en av: Ja, Nej, Använd RPID, Använd PAI.  
+profiles_sip_sendrpid_no = Nej  
+profiles_sip_sendrpid_pai = Använd PAI (Privacy Asserted Identity)  
+profiles_sip_sendrpid_rpid = Använd RPID (Remote Party ID)  
+profiles_sip_sendrpid_tooltip = Lägg till Remote Party ID-huvud i SIP INVITE.  
+profiles_sip_sendrpid_yes = Ja  
+profiles_sip_transport = Transport  
+profiles_sip_transport_tooltip = Ställ in de förvalda transporterna. Ordningen bestämmer den primära förvalda transporten.  
+profiles_sip_transport_invalid = Transport måste vara en av: TCP, UDP, TLS, WS och/eller WSS.  
+profiles_sip_transport_tcp = TCP  
+profiles_sip_transport_tls = TLS  
+profiles_sip_transport_udp = UDP  
+profiles_sip_transport_wss = WSS  
+profiles_sip_transport_ws = WS  
+profiles_sip_trustrpid = Lita på Remote Party ID  
+profiles_sip_trustrpid_tooltip = Antar att Remote Party ID-huvudet är korrekt.  
+profiles_technology = Profiltyp  
+profiles_technology_duplicate_name = Profilnamnet måste vara unikt.  
+profiles_technology_iax = IAX2  
+profiles_technology_invalid = Ogiltig tekniktyp vald.  
+profiles_technology_sip = SIP  
+profiles_technology_tooltip = Tekniktyp för denna profil.  
+profiles_technology_pjsip = PJSIP  
+profiles_pjsip_general_section = Allmänt  
+profiles_pjsip_name = Namn  
+profiles_pjsip_name_tooltip = Namn för denna profil.  
+profiles_pjsip_description = Beskrivning  
+profiles_pjsip_description_tooltip = Beskrivning för denna profil.  
+profiles_pjsip_transport = Transport  
+profiles_pjsip_transport_tooltip =
+	Detta tvingar slutpunkten att använda den angivna transportkonfigurationen för att skicka SIP-meddelanden. Du måste redan veta
+	veta vilken typ av transport (UDP/TCP/TLS/etc) som enheten kommer att använda. Om inställningen är ”Auto” är standardtransporten
+	den första kompatibla transporten i konfigurationsfilen för kontakt-URL:en.
+profiles_pjsip_dtls_cert_file = DTLS-certfil  
+profiles_pjsip_dtls_cert_file_tooltip = Sökväg till certifikatfil som ska presenteras för peer  
+profiles_pjsip_dtls_private_key = DTLS Privat nyckel  
+profiles_pjsip_dtls_private_key_tooltip = Sökväg till privat nyckel för certifikatfil.  
+profiles_pjsip_media_encryption = Mediakryptering  
+profiles_pjsip_media_encryption_tooltip = Bestämmer om res_pjsip ska använda och tvinga användning av mediekryptering för denna endpoint.  
+profiles_pjsip_dtls_setup = DTLS-inställning  
+profiles_pjsip_dtls_setup_tooltip =
+	Om vi är villiga att acceptera anslutningar, ansluta till den andra parten eller både och.
+	Giltiga alternativ är:  <br>
+	<b>Active</b> (vi vill ansluta till den andra parten), <br>
+	<b>Passive</b> (vi vill endast acceptera anslutningar), <br>
+	<b>Actpass</b> (vi kommer att göra båda). <br>
+	Detta värde kommer att användas i utgående SDP vid erbjudande och för inkommande SDP-erbjudanden när fjärrparten skickar actpass
+profiles_pjsip_force_rport = Tvinga rport  
+profiles_pjsip_force_rport_tooltip = Tvinga RFC3581-kompatibelt beteende även om ingen rport-parameter finns. Skickar alltid SIP-svar tillbaka till samma port vi mottog SIP-begäran från.  
+profiles_pjsip_ice_support = ICE-stöd  
+profiles_pjsip_ice_support_tooltip = Aktivera ICE-mekanismen för att hjälpa till att ta sig igenom NAT  
+profiles_pjsip_rtp_symmetric = RTP Symmetrisk  
+profiles_pjsip_rtp_symmetric_tooltip = Tvinga att RTP måste vara symmetrisk. Skicka RTP tillbaka till samma adress/port vi mottog den från.  
+profiles_pjsip_rewrite_contact = Skriv om Kontakt  
+profiles_pjsip_rewrite_contact_tooltip = Tillåt att Kontakt-headern skrivs om med den ursprungliga IP-adressen-porten. Nödvändigt om enheten inte känner till/registrerar den offentliga ip:porten  
+profiles_pjsip_direct_media = Direkt Media  
+profiles_pjsip_direct_media_tooltip = Bestämmer om media får flöda direkt mellan enheter.  
+profiles_pjsip_disable_direct_media_on_nat = Inaktivera NAT Direkt Media  
+profiles_pjsip_disable_direct_media_on_nat_tooltip = Inaktivera uppdatering av direktmediasessioner när NAT blockerar mediasessionen  
+profiles_pjsip_dtls_verify = DTLS Verifiera  
+profiles_pjsip_dtls_verify_tooltip = Verifiera att den angivna peer-certifikatet är giltigt  
+profiles_pjsip_use_avpf = Använd AVPF  
+profiles_pjsip_use_avpf_tooltip = Bestämmer om res_pjsip ska använda och tvinga användning av AVPF för denna endpoint.  
+profiles_pjsip_rtcp_mux = RTCP Mux  
+profiles_pjsip_rtcp_mux_tooltip =
+	Om det här alternativet är aktiverat kommer Asterisk att försöka förhandla fram användningen av attributet ”rtcp-mux” för alla mediaströmmar.
+	Detta kommer att resultera i att RTP och RTCP skickas och tas emot på samma port. Detta flyttar demultiplexeringslogiken till
+	applikationen i stället för transportlagret. Det här alternativet är användbart vid samverkan med WebRTC-slutpunkter
+	eftersom de föreskriver att detta alternativ ska användas.
+profiles_pjsip_media_use_received_transport = Använd Media Transport från mottaget  
+profiles_pjsip_media_use_received_transport_tooltip = Bestämmer om res_pjsip ska använda den medietransport som mottogs i erbjudandets SDP i motsvarande svarsdokument SDP.  
+profiles_pjsip_media_encryption_optimistic = Optimistisk Media Kryptering  
+profiles_pjsip_media_encryption_optimistic_tooltip = Bestämmer om kryptering ska användas om möjligt, men utan att avsluta sessionen om det inte uppnås.  
+profiles_pjsip_asymmetric_rtp_codec = Asymmetrisk RTP Codec  
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Tillåt att den sända och mottagna RTP-kodeken skiljer sig.  
+profiles_pjsip_media_encryption_no = Nej  
+profiles_pjsip_media_encryption_sdes = SDES  
+profiles_pjsip_media_encryption_dtls = DTLS  
+profiles_pjsip_dtls_setup_active = Aktiv  
+profiles_pjsip_dtls_setup_passive = Passiv  
+profiles_pjsip_dtls_setup_actpass = Actpass  
+profiles_pjsip_network_section = Nätverk  
+profiles_pjsip_media_section = Media  
+profiles_pjsip_dtls_section = DTLS  
+profiles_pjsip_name_invalid = Inget profilnamn angivet.  
+profiles_pjsip_none = -- Ingen --  
+profiles_pjsip_dtls_cert_id = DTLS Certifikat  
+profiles_pjsip_dtls_cert_id_tooltip = Certifikat som ska användas med DTLS-anslutningar  
+profiles_pjsip_dtls_verify_yes = Ja  
+profiles_pjsip_dtls_verify_no = Nej  
+profiles_pjsip_dtls_verify_fingerprint = Fingeravtryck  
+profiles_pjsip_dtls_verify_certificate = Certifikat  
+profiles_pjsip_dtls_fingerprint = DTLS Fingeravtryck Hash  
+profiles_pjsip_dtls_fingerprint_tooltip = Hashen som ska användas för fingeravtrycket i SDP  
+profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256  
+profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1  
+profiles_pjsip_dtls_rekey = DTLS Rekey Interval
+profiles_pjsip_dtls_rekey_tooltip =
+	Intervall för omförhandling av TLS-sessionen och omkodning av SRTP-sessionen. Om detta inte är inställt eller om värdet
+	är 0 kommer omkodning att inaktiveras
+profiles_sip_none = {profiles_pjsip_none}
+profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
+profiles_sip_dtlsenable = Enable
+profiles_sip_dtlsenable_tooltip = Enable or disable DTLS-SRTP support
+profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
+profiles_sip_dtlssetup = {profiles_pjsip_dtls_setup}
+profiles_sip_dtlssetup_tooltip = {profiles_pjsip_dtls_setup_tooltip}
+profiles_sip_dtlssetup_active = {profiles_pjsip_dtls_setup_active}
+profiles_sip_dtlssetup_passive = {profiles_pjsip_dtls_setup_passive}
+profiles_sip_dtlssetup_actpass = {profiles_pjsip_dtls_setup_actpass}
+profiles_sip_dtlsverify = {profiles_pjsip_dtls_verify}
+profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
+profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
+profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
+profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
+profiles_sip_dtlsverify_certificate = {profiles_pjsip_dtls_verify_certificate}
+profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
+profiles_sip_dtlsfingerprint_tooltip = {profiles_pjsip_dtls_fingerprint_tooltip}
+profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
+profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
+profiles_sip_dtlsrekey = {profiles_pjsip_dtls_rekey}
+profiles_sip_dtlsrekey_tooltip = {profiles_pjsip_dtls_rekey_tooltip}
+profiles_sip_force_avp = Force AVP
+profiles_sip_force_avp_tooltip =
+	Tvinga ”RTP/AVP”, ”RTP/AVPF”, ”RTP/SAVP” och ”RTP/SAVPF” att användas för mediaströmmar när så är lämpligt, även om en
+	DTLS-ström är närvarande.
+profiles_sip_rtcp_mux = RTCP MUX  
+profiles_sip_rtcp_mux_tooltip = Aktivera stöd för RFC 5761 RTCP multiplexering, vilket krävs för WebRTC-stöd.  
+profiles_pjsip_qualify_frequency = Kvalificeringsfrekvens  
+profiles_pjsip_qualify_frequency_tooltip = Intervall mellan försök att kvalificera kontakten för nåbarhet. Om 0 kvalificera aldrig. Tid i sekunder.  
+profiles_pjsip_qualify_timeout = Kvalificering Timeout  
+profiles_pjsip_qualify_timeout_tooltip = Om kontakten inte svarar på OPTIONS-förfrågan innan timeouten, markeras kontakten som otillgänglig. Om 0 ingen timeout.  
+profiles_pjsip_send_pai = Skicka P-Asserted-Identity  
+profiles_pjsip_send_pai_tooltip = Skicka P-Asserted-Identity-huvudet.  
+profiles_pjsip_send_rpid = Skicka Remote-Party-ID  
+profiles_pjsip_send_rpid_tooltip = Skicka Remote-Party-ID-huvudet.  
+profiles_pjsip_send_diversion = Skicka Diversion Header  
+profiles_pjsip_send_diversion_tooltip = Skicka Diversion-huvudet, som förmedlar diversioninformation till den uppringda användaragenten.  
+profiles_pjsip_webrtc = WebRTC  
+profiles_pjsip_webrtc_tooltip =
+	När inställningen är ”ja” aktiveras även följande värden som behövs för att grundläggande WebRTC-stöd ska fungera:
+	rtcp_mux, use_avpf, ice_support och use_received_transport.
+profiles_pjsip_remove_existing = Ta bort befintlig
+profiles_pjsip_remove_existing_tooltip =
+	Tillåt att en registrering lyckas genom att ersätta alla befintliga kontakter som nu överstiger antalet ”{hot_desking.max_contacts}”.  Alla
+	borttagna kontakter är de nästa som löper ut.  Detta beteende är fördelaktigt när ”{profiles_pjsip_rewrite_contact}” är aktiverat och ”{hot_desking.max_contacts}”
+	är större än ett.  Den borttagna kontakten är sannolikt den gamla kontakten som skapats av ”{profiles_pjsip_rewrite_contact}” och som enheten
+	uppdaterar.
+profiles_pjsip_max_video_streams = Max videoströmmar
+profiles_pjsip_max_video_streams_tooltip =
+	Detta alternativ innebär en begränsning av de maximala samtidiga förhandlade videoströmmar som tillåts för slutpunkten.
+profiles_pjsip_max_audio_streams = Max ljudströmmar
+profiles_pjsip_max_audio_streams_tooltip =
+	Detta alternativ innebär en begränsning av det maximala antalet samtidiga förhandlade ljudströmmar som tillåts för slutpunkten.
+profiles_pjsip_support_path = Stödväg
+profiles_pjsip_support_path_tooltip =
+	När det här alternativet är aktiverat sparas Path-rubrikerna i registerförfrågningar och innehållet i dem används i
+	Route-rubriker för utgående out-of-dialog-begäranden och i Path-rubriker för utgående 200-svar. Path-stöd kommer också att
+	också anges i rubriken Supported.
+profiles_pjsip_outbound_proxy = Utgående proxy
+profiles_pjsip_outbound_proxy_tooltip = Fullständig SIP URI för den utgående proxy som används för att skicka förfrågningar. t.ex: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_transport_auto = Auto
+profiles.general = {vitalpbx.general}
+profiles.advanced = {profiles_advanced}
+profiles_pjsip_default_expiration = Standardutgång  
+profiles_pjsip_default_expiration_tooltip = Standardutgångstid i sekunder för kontakter som är dynamiskt bundna till en AoR.  
+profiles_pjsip_maximum_expiration = Maximalt utgång  
+profiles_pjsip_maximum_expiration_tooltip = Maximalt tid att hålla en peer med explicit utgång. Tid i sekunder.  
+profiles_pjsip_minimum_expiration = Minsta utgång  
+profiles_pjsip_minimum_expiration_tooltip = Minsta tid att hålla en peer med en explicit utgång. Tid i sekunder.
+profiles_pjsip_transport_id = {profiles_pjsip_transport}
+profiles_pjsip_transport_id_tooltip = {profiles_pjsip_transport_tooltip}
+profiles_in_use_by = Det går inte att ta bort den här profilen eftersom den används av vissa anslutningars enheter.
+profiles_pjsip_direct_media_glare_mitigation = Direct Media Glare Mitigation
+profiles_pjsip_direct_media_glare_mitigation_tooltip =
+    Möjliggör att endast direktmedia skickas på vissa anropsstyrningar för att förhindra bländningssituationer.
+profiles_pjsip_direct_media_glare_mitigation_none = {none}
+profiles_pjsip_direct_media_glare_mitigation_outgoing = Utgående
+profiles_pjsip_direct_media_glare_mitigation_incoming = Inkommande
+profiles_pjsip_rtp_keepalive = RTP Keepalive
+profiles_pjsip_rtp_keepalive_tooltip =
+    Med det angivna intervallet (i sekunder) skickar Asterisk en RTP Comfort Noise-ram. Detta kan vara användbart för
+    situationer där Asterisk befinner sig bakom en NAT eller brandvägg och måste hålla ett hål öppet för att media ska kunna
+    komma fram till Asterisk.
+profiles_pjsip_rtp_timeout = RTP-tidsgrän
+profiles_pjsip_rtp_timeout_tooltip =
+    Det här alternativet konfigurerar antalet sekunder utan RTP (när kanalen inte är i vänteläge) innan en kanal betraktas som död.
+    När antalet sekunder har uppnåtts läggs den underliggande kanalen på.
+profiles_pjsip_rtp_timeout_hold = RTP Timeout Hold
+profiles_pjsip_rtp_timeout_hold_tooltip =
+    Det här alternativet konfigurerar antalet sekunder utan RTP (under väntan) innan en kanal betraktas som död.
+    När antalet sekunder har uppnåtts läggs den underliggande kanalen på.
+profiles_pjsip_send_connected_line = Skicka ansluten linje
+profiles_pjsip_send_connected_line_tooltip = När det är inställt på "Ja", kommer Asterisk att skicka anslutna linjeuppdateringar till de slutpunkter som är associerade med denna profil.
+profiles_pjsip_incoming_call_offer_pref = Codecs preferens för inkommande samtal
+profiles_pjsip_outgoing_call_offer_pref = Codecs preferens för utgående samtal
+profiles_pjsip_incoming_call_offer_pref_local = Lokal
+profiles_pjsip_incoming_call_offer_pref_local_first = Lokal först
+profiles_pjsip_incoming_call_offer_pref_remote = Fjärde
+profiles_pjsip_incoming_call_offer_pref_remote_first = Fjärde först
+profiles_pjsip_outgoing_call_offer_pref_local = {profiles_pjsip_incoming_call_offer_pref_local}
+profiles_pjsip_outgoing_call_offer_pref_local_merge = Lokal sammanslagning
+profiles_pjsip_outgoing_call_offer_pref_local_first = {profiles_pjsip_incoming_call_offer_pref_local_first}
+profiles_pjsip_outgoing_call_offer_pref_remote = {profiles_pjsip_incoming_call_offer_pref_remote}
+profiles_pjsip_outgoing_call_offer_pref_remote_merge = Fjärrsammanfogning
+profiles_pjsip_outgoing_call_offer_pref_remote_first = {profiles_pjsip_incoming_call_offer_pref_remote_first}
+profiles_pjsip_incoming_call_offer_pref_tooltip =
+     Baserat på denna inställning skapas en gemensam lista över föredragna codecs mellan de som tas emot i ett inkommande SDP-erbjudande (remote) och de som anges
+     i slutpunktens ”allow”-parameter (lokal) skapas och skickas till PBX-kärnan.
+profiles_pjsip_outgoing_call_offer_pref_tooltip =
+    Baserat på denna inställning skapas en gemensam lista över föredragna codecs mellan de som tas emot från PBX-kärnan (fjärr) och de som anges i
+     slutpunktens ”allow”-parameter (lokal) skapas och används för att skapa det utgående SDP-erbjudandet.
+profiles_pjsip_incoming_call_offer_pref_local_desc = Inkludera alla codecs i den lokala listan som också finns i den fjärrlistan och bevara den lokala ordningen. (standard)
+profiles_pjsip_incoming_call_offer_pref_local_first_desc = Inkludera endast den första codec i den lokala listan som också finns i den fjärrlistan.
+profiles_pjsip_incoming_call_offer_pref_remote_desc = Inkludera alla codecs i den fjärrlistan som också finns i den lokala listan och bevara den fjärrlistans ordning.
+profiles_pjsip_incoming_call_offer_pref_remote_first_desc = Inkludera endast den första codec i den fjärrlistan som också finns i den lokala listan.
+profiles_pjsip_outgoing_call_offer_pref_local_desc = Inkludera alla codecs i den lokala listan som också finns i den fjärrlistan och bevara den lokala ordningen.
+profiles_pjsip_outgoing_call_offer_pref_local_merge_desc = Inkludera alla codecs i den lokala listan och bevara den lokala ordningen.
+profiles_pjsip_outgoing_call_offer_pref_local_first_desc = Inkludera endast den första codec i den lokala listan.
+profiles_pjsip_outgoing_call_offer_pref_remote_desc = {profiles_pjsip_incoming_call_offer_pref_remote_desc}
+profiles_pjsip_outgoing_call_offer_pref_remote_merge_desc = Inkludera alla codecs i den lokala listan och bevara den fjärrlistans ordning. (standard)
+profiles_pjsip_outgoing_call_offer_pref_remote_first_desc = {profiles_pjsip_incoming_call_offer_pref_remote_first_desc}

@@ -1,0 +1,15 @@
+custom_dest = Anpassade destinationer
+custom_dest.class_of_service_id = Serviceklass
+custom_dest.class_of_service_id.tooltip = Serviceklass för att söka det nummer som ska ringas
+custom_dest.description = Beskrivning
+custom_dest.description.tooltip = Namn som identifierar denna anpassade destination
+custom_dest.destination = Nummer att ringa
+custom_dest.destination.invalid = Numret som ska ringas är ogiltigt. Endast *,#,+ och siffror är tillåtna.
+custom_dest.destination.tooltip = Internt eller externt nummer att ringa
+custom_dest.general = Allmänt
+menu.custom_destinations = Anpassade resmål
+module.custom_dest = Anpassade resmål
+custom_dest.cid = {disa.cid}
+custom_dest.cid.tooltip = Anpassat nummerpresentation för att ställa in när du använder denna anpassade destination.
+custom_dest.cid_name = {disa.cid_name}
+custom_dest.cid_number = {disa.cid_number}

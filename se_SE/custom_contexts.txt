@@ -1,0 +1,13 @@
+menu.custom_contexts = Anpassade 
+module.custom_contexts = Anpassade kontexter
+custom_contexts.description = Beskrivning
+custom_contexts.description.help = En kort beskrivning för att identifiera denna anpassade kontext
+custom_contexts.context = Kontext
+custom_contexts.context.help = Namnet på den anpassade kontext som du själv har skapat.
+custom_contexts.extension = Anslutningar
+custom_contexts.extension.help = Den prioritet som definieras i ditt anpassade kontext.
+custom_contexts.priority = Prioritet
+custom_contexts.priority.priority = Den prioritet där samtalet kommer att starta.
+custom_contexts.dest = Destination
+custom_contexts.max_custom_contexts = Du kan inte skapa mer än ett anpassat sammanhang. Köp en licens för att skapa obegränsat antal anpassade kontexter.
+custom_contexts.general = {vitalpbx.general}
