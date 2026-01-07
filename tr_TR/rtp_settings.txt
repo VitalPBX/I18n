@@ -21,3 +21,9 @@ rtp_settings.turnusername = Turn Sunucu Adı
 rtp_settings.turnusername.tooltip = TURN aktarma sunucusuyla doğrulama yapmak için kullanılan kullanıcı adı.
 rtp_settings.turnpassword = Turn Sunucu Şifresi 
 rtp_settings.turnpassword.tooltip = TURN aktarma sunucusuyla doğrulama yapmak için kullanılan parola.
+rtp_settings.ice_host_candidates = ICE Ana Bilgisayar Ayarları
+rtp_settings.local_address = Yerel Adres
+rtp_settings.advertised_address = İlan Edilen Adres
+rtp_settings.include_local_address = Yerel Adresi Dahil Et
+rtp_settings.ice_host_candidates.tooltip =
+	Asterisk statik bire bir NAT'ın arkasında olduğunda ve ICE kullanıldığında, ICE sunucunun dahili IP adresini ana bilgisayar adaylarından biri olarak gösterir. STUN kullanmak (bkz. ‘stunaddr’ yapılandırma seçeneği) herkese açık bir IP sağlasa da, dahili IP yine de uzak eşe gönderilir. Dahili ağınızın topolojisini gizlemek için, Asterisk'in uzak eşe göndereceği ana bilgisayar adaylarını geçersiz kılabilirsiniz. Burada herhangi bir şey tanımlarsanız, "Stun Sunucusu" veya "Turn Sunucusu" adreslerini belirtmek istemeyeceğiniz neredeyse kesindir.

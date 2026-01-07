@@ -1,0 +1,10 @@
+active_calls = Aktif Çağrılar
+menu.active_calls = {active_calls}
+module.active_calls = {active_calls}
+active_calls.calls = Çağrılar
+active_calls.channel = Channel
+active_calls.caller_id = Arayan Kimliği
+active_calls.called_number = Aranan Numara
+active_calls.state = Durum
+active_calls.duration = Süre
+active_calls.linkedid = LinkedID

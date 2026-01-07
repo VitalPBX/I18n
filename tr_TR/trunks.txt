@@ -243,3 +243,39 @@ trunks.t38_udptl_ipv6.tooltip = IPv6'nın UDPTL Oturumları için kullanılıp k
 trunks.max_contacts.tooltip =
 	Bu AoR ile ilişkilendirilebilecek maksimum kişi sayısı. Bu değer "kişi" seçeneği ile eklenebilecek kişi sayısını etkilemez.
 	Yalnızca kayıt gibi harici etkileşim yoluyla eklenen kişileri sınırlar.
+trunks.disable_hangup_audios = Kapatma Seslerini Devre Dışı Bırak
+trunks.disable_hangup_audios.tooltip =
+	Evet olarak ayarlanırsa, hat kapatma nedenine bağlı olarak çalınan sesler devre dışı bırakılır. Bu seçeneği etkinleştirmek, PBX'in geçiş aramaları için kullanıldığı ortamlarda kullanışlıdır.
+trunks.dial_prefix = Ön Eki Tuşla
+trunks.dial_prefix.tooltip = Tanımlanırsa, ön ek bu devre üzerinden aranan tüm numaraların başına eklenir.
+trunks.identify_by = Tanımla
+trunks.identify_by.tooltip =
+	Uç noktalar ve AOR'ler çeşitli şekillerde tanımlanabilir. Bu seçenek, uç noktanın tanımlanabileceği yöntemlerin bir listesidir. Hiçbir seçenek seçilmezse, varsayılan olarak “Kullanıcı Adı” ve “IP” kullanılır.
+trunks.identify_by.username = Kullanıcı Adı
+trunks.identify_by.ip = IP
+trunks.identify_by.auth_username = Kimlik Doğrulama Kullanıcı Adı
+trunks.identify_by.header = Başlık
+trunks.identify_by.username.tooltip = Gönderen veya Alıcı kullanıcı adı ve alan adıyla tanımlayın.
+trunks.identify_by.ip.tooltip = Kaynak IP adresine göre tanımlayın.
+trunks.identify_by.auth_username.tooltip = Kimlik doğrulama kullanıcı adı ve alanı ile tanımlayın.
+trunks.identify_by.header.tooltip = Yapılandırılmış bir SIP başlık değeriyle tanımlayın.
+trunks.match_header = Başlığı Eşle
+trunks.match_header.tooltip =
+	Eşleştirme için değeri kullanılan bir SIP başlığı. Belirtilen değerle birlikte bu başlığı içeren SIP istekleri, belirtilen uç noktaya eşleştirilir. Başlık, <b>match_header = SIPHeader: value</b> şeklinde <b>:</b> ile belirtilmelidir. Belirtilen SIP başlık değeri, <b>/ regex/</b> biçimindeyse düzenli bir ifade olabilir. Düzenli ifadenin kullanımı pahalıdır, bu nedenle uç noktanızla eşleştirmek için düzenli ifade kullanmanız gerektiğinden emin olun.
+profiles_pjsip_transport_tls-ms-teams = TLS + MS Teams
+trunks.record = {vitalpbx.record}
+trunks.record.tooltip = Evet olarak ayarlanırsa, bu hattı kullanan tüm aramalar kaydedilecektir. Yalnızca giden aramalar için geçerlidir.
+trunks.validation.ext_device_duplicated = Sağlanan devre kullanıcı adı “{0}” zaten “{1}” dahili cihazı tarafından kullanılmaktadır.
+trunks.contact_header = Kişi Başlığı
+trunks.contact_header.tooltip = Giden isteklerde, Contact başlığının kullanıcı kısmını bu değere zorla.
+trunks.trust_id_inbound = Gelen Çağrı Kimliğine Güven
+trunks.trust_id_inbound.tooltip =
+    Bu seçenek, Asterisk'in P-Asserted-Identity veya Remote-Party-ID başlığı gibi başlıklardan uç noktanın kimliğini kabul edip etmeyeceğini belirler. Bu seçenek, uç noktadan gelen aramalar ve Asterisk'ten gelen aramalar için geçerlidir. Hayır seçeneği seçildiğinde, yapılandırılan Arayan Kimliği her zaman uç noktanın kimliği olarak kullanılır.
+trunks.trust_id_outbound = Giden Çağrı Kimliğine Güven
+trunks.trust_id_outbound.tooltip = “Evet” olarak ayarlandığında, anonim aramalar gönderilirken/yapılırken özel kimlik bilgileri (PAI ve RPI) sağlayıcıya gönderilir.
+trunks.inband_progress = Inband (Bant İçi) Süreç
+trunks.inband_progress.tooltip = “Evet” olarak ayarlandığında, sistem bant içi (inband) sürecini kullanarak zil sesini gösterecektir.
+trunks.validation.pjsip.invalid_client_uri = Verilen “İstemci URI” geçersiz. Biçim “sip:1234567890@sip.example.com” olmalıdır.
+trunks.validation.pjsip.invalid_server_uri = Verilen “Sunucu URI” geçersiz. Biçim “sip:sip.example.com” olmalıdır.
+trunks.validation.pjsip.invalid_contact = “{0}” kişisinin biçimi geçersiz. Biçim “sip:sip.example.com” şeklinde olmalıdır.
+trunks.validation.pjsip.invalid_match = “Eşleşme” alanındaki “{0}” değeri geçersiz. Geçerli bir IP/Alan Alanı sağlamalısınız.

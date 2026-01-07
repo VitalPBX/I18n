@@ -1,0 +1,50 @@
+menu.dynamic_destinations = Dinamik Hedefler
+dynamic_destinations = {menu.dynamic_destinations}
+module.dynamic_destinations = {menu.dynamic_destinations}
+dynamic_destinations.general = {vitalpbx.general}
+dynamic_destinations.condition = Yanıt
+dynamic_destinations.destination = Hedef
+dynamic_destinations.enabled = Etkin
+dynamic_destinations.description = Açıklama {0}
+dynamic_destinations.description.tooltip = Bu öğe için kısa açıklama
+dynamic_destinations.host = Sunucu {0}
+dynamic_destinations.host.tooltip = Komut dosyasının bulunduğu ana bilgisayarı (sunucu) veya IP adresini tanımlamanıza izin verir.
+dynamic_destinations.path = Yol {0}
+dynamic_destinations.path.tooltip = Yürütülecek komut dosyası adı
+dynamic_destinations.query_string = Sorgu Dizisi
+dynamic_destinations.query_string.tooltip =
+	Komut dosyasının bir parçası olarak gönderilecek parametreler dizisi.
+	Özel değişken değeri <b>[CIDNUM]</b> arayan kimliği ile değiştirilecektir.
+	<br><br> Örnek: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+dynamic_destinations.port = {cid_lookup.port}
+dynamic_destinations.port.tooltip = {cid_lookup.port.tooltip}
+dynamic_destinations.auth_user = {cid_lookup.user}
+dynamic_destinations.auth_user.tooltip = {cid_lookup.user.tooltip}
+dynamic_destinations.auth_password = {cid_lookup.password}
+dynamic_destinations.auth_password.tooltip = {cid_lookup.password.tooltip}
+dynamic_destinations.secure = {cid_lookup.secure}
+dynamic_destinations.secure.tooltip = {cid_lookup.secure.tooltip}
+dynamic_destinations.default_destination = Varsayılan Hedef {0}
+dynamic_destinations.default_destination.tooltip = Tanımlanmamış bir yanıt alınması durumunda yürütülecek hedef
+dynamic_destinations.destinations = Hedefler
+dynamic_destinations.destinations.title = Komut dosyası çalıştırıldıktan sonra alınan yanıta bağlı olarak yürütülecek hedefler
+dynamic_destinations.mod_dest = Varsayılan Hedef Modül
+dynamic_destinations.conditions.empty = Geçerli hedef tanımlanmadı
+dynamic_destinations.type  = Kaynak Türü
+dynamic_destinations.type.tooltip = Kullanılacak kaynak türü
+dynamic_destinations.type.option.api = URL
+dynamic_destinations.type.option.mysql = {cid_lookup.source.option.mysql}
+dynamic_destinations.database = Veritabanı {0}
+dynamic_destinations.database.tooltip = {cid_lookup.database.tooltip}
+dynamic_destinations.query = Sorgu {0}
+dynamic_destinations.query.tooltip =
+	Yürütülecek sorgu. <b>[CIDNUM]</b> özel simgesi, arayanın numarasıyla değiştirilecektir. örn:
+	<b> SELECT 'VIP_CUSTOMER' as `response` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+dynamic_destinations.mysql_password = Şifre
+dynamic_destinations.mysql_password.tooltip = {cid_lookup.mysql_password.tooltip}
+dynamic_destinations.mysql_host = Sunucu {0}
+dynamic_destinations.mysql_host.tooltip = {cid_lookup.mysql_host.tooltip}
+dynamic_destinations.mysql_username = Kullanıcı Adı {0}
+dynamic_destinations.mysql_username.tooltip = {cid_lookup.username.tooltip}
+dynamic_destinations.validation.no_valid_host = {cid_lookup.validation.no_valid_host}
+dynamic_destinations.validation.no_valid_port = {cid_lookup.validation.no_valid_port}

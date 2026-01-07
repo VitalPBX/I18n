@@ -53,3 +53,13 @@ users.visible_by_others = Başkaları Tarafından Görünür
 users.visible_by_others.tooltip =
 	Bu kullanıcının güncellenmek üzere başkaları tarafından görünür olup olmayacağını belirlemenize olanak tanır. Ancak, yönetici
 	kullanıcılar, bu seçenek devre dışı bırakılsa bile her zaman tüm kullanıcıları görebilir.
+users.mfa_enabled = 2FA'yı Etkinleştir
+users.mfa_enabled.tooltip =
+    Etkinleştirildiğinde, kullanıcı oturum açma kimlik bilgilerini doğruladıktan sonra altı basamaklı bir kod (Google Authenticator uygulaması tarafından oluşturulan) girmek zorunda kalacak.
+users.auth_app_credentials = Authenticator Uygulaması Ekle
+users.not_found = İstenen kullanıcı bulunamıyor.
+users.ga.qr = QR tara
+users.ga.code = Kurulum Anahtarı
+users.ga.qr_help = Ücretsiz {0} uygulamasını indirin, yeni bir hesap ekleyin, ardından bu QR kodunu tarayarak hesabınızı kurun.
+users.ga.code_help = Ücretsiz {0} uygulamasını indirin, yeni bir hesap ekleyin ve hesabınızı kurmak için bu kodu girin.
+users.ga.code_copied = Kurulum anahtarı panonuza kopyalandı.

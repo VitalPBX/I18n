@@ -28,10 +28,12 @@ time_group.schedule.empty = En az bir liste tanımlanmalı
 time_group.september = Eylül
 time_group.sunday = Pazar
 time_group.tend = Bitirme Süresi
-time_group.tg-schedule = Listeler 
+time_group.tg-schedules = Programlar
 time_group.thursday = Perşembe
 time_group.tstart = Başlama Zamanı
 time_group.tuesday = Salı
 time_group.wday_end = Hafta Günü Bitiş
 time_group.wday_start = Hafta Günü Başlangıcı
 time_group.wednesday = Çarşamba
+time_group.validation.multiple_months =
+    Satır {0}: Zaman grupları tek bir aralıkta birden fazla aya yayılmamalıdır. Düzgün çalışması için lütfen her ay için ayrı aralıklar oluşturun (örneğin, 25–31 Ekim ve 1–3 Kasım).

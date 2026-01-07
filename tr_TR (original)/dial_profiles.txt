@@ -1,0 +1,34 @@
+menu.dial_profiles = Tuşlama Profilleri
+module.dial_profiles = Tuşlama Profilleri
+dial_profiles.name = Ad
+dial_profiles.name.help = Bu profili tanımlayan ad.
+dial_profiles.music_group_id = Ringback Tone
+dial_profiles.music_group_id.help = Talep edilen kanal cevap verinceye kadar arayana bekleme müziği dinletin.
+dial_profiles.allow_parking = Park Etme İzni
+dial_profiles.allow_parking.help = Aranan/Arayan tarafın, "Arama Park Et" için tanımlanan DTMF dizisini özellik kodlarında göndererek aramanın park edilmesine izin verir.
+dial_profiles.allow_transfer = Transfer İzni
+dial_profiles.allow_transfer.help = Aranan/arayan tarafın, özellik kodlarında tanımlanan DTMF dizisini göndererek arayan tarafı transfer etmesine izin verin.
+dial_profiles.call_screening = Çağrı Görüntüleme
+dial_profiles.call_screening.help = Dahiliniz çalmadan önce arayandan bir giriş yapması istenir: Uygulama "Zil sesinden sonra isminizi söyleyin" der. Giriş yapmak için 4 sn. zaman verilir.
+dial_profiles.invalid.default_delete = Varsayılan olarak işaretlendiğinden tuşlama profili silinemez.
+dial_profiles.invalid.profile_assigned = {0} arama profili silinemiyor. En az bir dahili tarafından kullanımda. Bu profile hangi dahililerin atandığını görmek için {1} i kullanın.
+dial_profiles.invalid.profile_in_use = {0} arama profili silinemiyor.  Yandaki bağlantı(lar) tarafından kullanıyor: {1}.
+dial_profiles.ringing_tone = Çalma Tonu
+dial_profiles.ringing_tone.help = Aranan taraf çalmıyor olsa bile arayana çalıyor gözükür. Aranan kanal cevap verene kadar arayan tarafa ses vermeyin.
+dial_profiles.none = Yok
+dial_profiles.called = Aranan
+dial_profiles.calling = Arayan
+dial_profiles.both = Her İkisi De
+dial_profiles.disabled = Devre Dışı
+dial_profiles.memory = Bir kere sor
+dial_profiles.no_memory = Her zaman sor
+dial_profiles.none = Yok
+dial_profiles.custom_options = Özel Seçenekler
+dial_profiles.custom_options.help = Dahil edilmemiş tuşlama parametrelerini tanımlamanıza izin verir.
+dial_profiles.name.required = Ad alanı gereklidir.
+dial_profiles.name.invalid = Ad alanı boşluk içermemelidir.
+dial_profiles.name.unique = Tuşlama profili adı benzersiz olmalı.
+dial_profiles.warning_note =
+	<b>Uyarı!</b> Bağlantı için isteğe bağlı bir Hizmet Sınıfı tanımlandığında, arayan tarafından aktarımın etkinleştirilmesi,
+	harici bir arayanın aramalarını başka bir harici hedefe aktararak PBX'ten yararlanmalarına izin verebilir.
+dial_profiles.general = {vitalpbx.general}

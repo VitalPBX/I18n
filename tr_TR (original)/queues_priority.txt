@@ -1,0 +1,11 @@
+menu.queue_priorities = Kuyruk Öncelikleri
+module.queues_priority = Kuyruk Öncelikleri
+queues_priority = Kuyruk Önceliği
+queues_priority.description = Açıklama
+queues_priority.description.tooltip = Bu kuyruğun önceliğini tanımlamak için kısa açıklama.
+queues_priority.destination = Hedef
+queues_priority.general = Genel
+queues_priority.mod_dest = Hedef Modülü
+queues_priority.priority = Öncelik
+queues_priority.priority.tooltip = Ayarlanacak Sıra Önceliği. Daha yüksek değerler, daha yüksek öncelik anlamına gelir.
+queues_priority.menu.priority = Öncelik {0}

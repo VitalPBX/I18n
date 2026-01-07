@@ -1,0 +1,14 @@
+menu.voicemail_timezones = Voicemail Timezones
+module.voicemail_timezones = Voicemail Timezones
+voicemail_timezones = Voicemail Timezones
+voicemail_timezones.confirm_delete = Are you sure that you want delete this timezone?
+voicemail_timezones.delete = Delete
+voicemail_timezones.general = General
+voicemail_timezones.none = None
+voicemail_timezones.timezone = Time Zone
+voicemail_timezones.timezone.tooltip = Timezone to be selected.
+voicemail_timezones.tzdefinition = Time Definition
+voicemail_timezones.tzname = Name
+voicemail_timezones.tzname.tooltip = Short name for this time-zone.
+voicemail_timezones.voicemail_timezone_id = Zone Messages
+voicemail_timezones.voicemail_timezone_id.tooltip = Time-zone from Zone Messages, If set to 'no' it will be taken by general settings section. Irrelevant if Envelope is 'no'.

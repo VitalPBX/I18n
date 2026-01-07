@@ -1,0 +1,13 @@
+fid = FID
+menu.fid = {fid}
+module.fid = {fid}
+fid_webhook_settings = Webhook Settings
+menu.fid_webhook_settings = {fid_webhook_settings}
+module.fid_webhook_settings = {fid_webhook_settings}
+fid_webhook_settings.general = {vitalpbx.general}
+fid.webhook_url = Webhook URL
+fid.webhook_url.tooltip = The URL to use for sending the call events
+fid.auth_username = Auth Username
+fid.auth_username.tooltip = The username to authenticate the events to the Webhook
+fid.auth_password = Auth Password
+fid.auth_password.tooltip = The password to authenticate the events to the Webhook

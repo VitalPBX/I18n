@@ -3,6 +3,8 @@ module.branding = {branding}
 menu.branding = {branding}
 branding.general = {vitalpbx.general}
 branding.base_color = Ana Renk
+branding.bg_color = Arka Plan Rengi
+branding.f_color = Yazı Tipi Rengi
 branding.base_color.tooltip = Aktif menü öğeleri, aktif form sekmeleri ve seçilen metin için kullanılan ana renk
 branding.page_title = Uygulama Başlığı
 branding.page_title.tooltip = Tarayıcı sekmesindeki üst başlığı özelleştirmenize izin verir.
@@ -37,12 +39,35 @@ branding.reset.confirm =
 	Markalaşma ayarlarını sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz ve tüm yapılandırmalarınız 
 	kaybolacaktır.
 branding.reset_applied = Tüm ayarlar başarıyla sıfırlanmıştır.
-branding.warning_note = These settings will be applied until a <a href="{0}" target="_blank">license</a> be applied to the branding add-on or get activated for any of the <a href="{1}" target="_blank">available plans</a>
+branding.warning_note = Bu ayarlar, markalaşma eklentisine bir <a href="{0}" target="_blank">lisans</a> uygulanana veya <a href="{1}" target="_blank">mevcut planlardan</a> herhangi biri için etkinleştirilene kadar geçerli olacaktır.
 branding.addons = Eklentiler
 branding.url_prefix = URL Ön Eki
 branding.addon.url_prefix.tooltip =
-	It allows you to define the prefix to be used for accessing on the "<b>{0}</b>" application. e.g.: if you set the
-	prefix to <b>"{1}"</b>, means you must access to the app in the following way <b>http(s)://YOUR_IP/{1}</b>
+	“<b>{0}</b>” uygulamasına erişmek için kullanılacak önek tanımlamanıza olanak tanır. Örneğin: önek olarak <b>“{1}”</b> ayarladıysanız, uygulamaya şu şekilde erişmeniz gerekir: <b>http(s)://IP-ADRESİNİZ/{1}</b>
 branding.app_name = Uygulama Adı
 branding.addon.app_name.tooltip =
-	It allows you to define the application name/title to be shown in the browsers' tab.
+	Tarayıcıların sekmesinde gösterilecek uygulama adını/başlığını tanımlamanıza olanak tanır. branding.desktop_logo_dark = Masaüstü Logosu (Karanlık Mod)
+branding.desktop_logo_dark = Masaüstü Logo (Karanlık Mod)
+branding.mobile_logo_dark = Mobil Logo (Karanlık Mod)
+branding.disable_login_bg = Arka Plan Resmini Devre Dışı Bırak
+branding.login_background = Arka Plan Resmi
+branding.login_logo = Logo
+branding.gui = GUI
+branding.gui.top_navbar = Üst Gezinme Çubuğu
+branding.gui_top_navbar_bg = {branding.bg_color}
+branding.gui_top_navbar_bg.tooltip = Üst çubuğa uygulanacak arka plan rengi.
+branding.gui_top_navbar_fc = {branding.f_color}
+branding.gui_top_navbar_fc.tooltip = Üst çubuğa uygulanacak metin tipi rengi.
+branding.gui.menu = Ana Menü Stilleri
+branding.gui_menu_bg_color_1 = Sol Arka Plan Rengi
+branding.gui_menu_bg_color_1.tooltip = Ana menünün sol tarafına uygulanacak arka plan rengi.
+branding.gui_menu_bg_color_2 = Sağ Arka Plan Rengi
+branding.gui_menu_bg_color_2.tooltip = Ana menünün sağ tarafına uygulanacak arka plan rengi.
+branding.gui_menu_fc = Varsayılan Metin Rengi
+branding.gui_menu_fc.tooltip = Menü öğeleri için kullanılacak varsayılan metin rengi
+branding.gui_menu_fc_active = Etkin Metin Rengi
+branding.gui_menu_fc_active.tooltip = Bir menü öğesi etkin durumdayken kullanılacak metin rengi
+branding.disable_branding = Markalaşmayı devre dışı bırak
+branding.disable_branding.tooltip =
+    Marka özelleştirmelerini devre dışı bırakmanızı sağlar. Evet olarak ayarlandığında, varsayılan PBX stilleri uygulanır.
+branding.disable_login_bg.tooltip = “Evet” olarak ayarlandığında, giriş ekranındaki arka plan görüntüsü kaldırılır.

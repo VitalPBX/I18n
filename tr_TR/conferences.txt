@@ -69,3 +69,4 @@ conferences.video_mode.last_marked.tooltip =
 	ondan önceki kullanıcı kaynak olur.
 conferences.video_mode.sfu = Seçici Yönlendirme Birimi
 conferences.video_mode.sfu.tooltip = Çok partili bir video konferans için çoklu akış işlemini ayarlar.
+conferences.same_pins = Kullanıcı ve Lider PIN'i aynı olamaz.

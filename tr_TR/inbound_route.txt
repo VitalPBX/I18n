@@ -59,4 +59,6 @@ inbound_route.append = {cid_management.append_to_cid_number}
 inbound_route.append.tooltip = Orijinal DID'den istenen sayıda hane alındıktan sonra elde edilen numaraya eklenecek son ek
 inbound_route.prepend = {cid_management.prepend_to_cid_number}
 inbound_route.prepend.tooltip = Orijinal DID'den istenen sayıda hane alındıktan sonra elde edilen numaraya eklenecek ön ek
-inbound_route.verify_did = Verify DID
+inbound_route.verify_did = DID'yi doğrula
+inbound_route.drop_anon_calls = Anonim Çağrıları Düşür
+inbound_route.drop_anon_calls.tooltip = Evet olarak ayarlanırsa, tüm anonim aramalar anında kesilecektir. “Gizlilik Yöneticisi” seçeneğini kullanmayı tercih ediyorsanız, bu seçeneği devre dışı bırakın.

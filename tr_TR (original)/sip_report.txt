@@ -1,0 +1,15 @@
+sip_report = SIP Cihazları
+menu.sip_report = {sip_report}
+module.sip_report = {sip_report}
+sip_report.devices = Cihazlar
+sip_report.trunks = Bağlantı Noktaları
+sip_report.registrations = Kayıtlar
+sip_report.extension = Dahili
+sip_report.device = Cihaz
+sip_report.host = Sunucu
+sip_report.port = Port
+sip_report.status = Durum
+sip_report.user_agent = Kullanıcı Temsilci
+sip_report.trunk_name = Bağlantı Noktası Açıklaması
+sip_report.refresh = Yenile
+sip_report.state = Durum

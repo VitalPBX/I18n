@@ -1,0 +1,49 @@
+menu.music_on_hold = Bekleme Müziği
+module.music_on_hold = Bekleme Müziği
+music_on_hold = Bekleme Müziği
+music_on_hold.actions = İşlemler
+music_on_hold.close = Kapat
+music_on_hold.confirm_delete = Bu grubu silmek istediğinizden emin misiniz?
+music_on_hold.default = Varsayılan
+music_on_hold.default.tooltip =
+	İşaretlenirse, bu müzik grubunun sesleri, bekleme müziği sınıfında varsayılan olarak kullanılacaktır. Varsayılan olarak yalnızca bir
+	müzik grubu işaretlenebilir.
+music_on_hold.delete = Sil
+music_on_hold.delete.tooltip = Bu dosyayı kalıcı olarak sil.
+music_on_hold.download = İndir
+music_on_hold.duration = Süre
+music_on_hold.error = Hata
+music_on_hold.file = Ses dosyası
+music_on_hold.file.invalid = Sağlanan dosya bir ses dosyası gibi görünmüyor.
+music_on_hold.file.tooltip = Bir wav ya da mp3 dosyası yükle.
+music_on_hold.file_not_found = Talep edilen dosya mevcut görünmüyor.
+music_on_hold.general = Genel
+music_on_hold.listen = Dinle
+music_on_hold.listen.tooltip = Bu ses dosyasını dinle
+music_on_hold.name = İsim
+music_on_hold.name.invalid = İsim boş olamaz ve benzersiz olmalıdır
+music_on_hold.name.tooltip = Bu müzik sınıfı için isim.
+music_on_hold.none = Yok (Geri arama)
+music_on_hold.order = Sırala
+music_on_hold.order.invalid = Sıralama düzeni Doğrusal veya Karışık olmalıdır
+music_on_hold.order.linear = Doğrusal
+music_on_hold.order.linear.tooltip = Ses dosyalarını doğrusal sırada çal ( liste sırasıyla)
+music_on_hold.order.shuffle = Karışık
+music_on_hold.order.shuffle.tooltip = Ses dosyalarını rastgele sırayla çal
+music_on_hold.order.tooltip = Ses dosyalarının çalma sırası
+music_on_hold.sound_player = Ses Oynatıcı
+music_on_hold.mode = Mod
+music_on_hold.mode.tooltip = Bekleme müziğini çalma veya geri alma modunu tanımlar.
+music_on_hold.mode.files = Dosyalar
+music_on_hold.mode.files.tooltip = Asterisk destekli herhangi bir medya formatındaki dosyayı bir dizinden okur
+music_on_hold.mode.custom = Özel
+music_on_hold.mode.custom.tooltip = Özel bir uygulama çalıştırın.
+music_on_hold.application = Uygulama
+music_on_hold.application.tooltip =
+	Bir akışı çalmak için kullanılacak uygulama. Uygulama sağlanmazsa o zaman, mpg123 uygulamasını 
+	şu formatta kullanacaktır: <b>/usr/bin/mpg123 -q -r 8000 -f 8192 --mono -s</b>
+music_on_hold.streaming_url = Akış URL'si
+music_on_hold.streaming_url.tooltip = Tanımlanan uygulama tarafından yayınlanacak URL
+music_on_hold.streaming_format = Format
+music_on_hold.streaming_format.tooltip = 'format' seçeneği 'uygulama'nın Asterisk'e sağlayacağı ses biçimini belirtir.
+music_on_hold.insufficient_arguments = Uygulama dosyasını ya da akış URL'sini sağlamadınız. Bu alanlardan en az biri sağlanmalıdır.

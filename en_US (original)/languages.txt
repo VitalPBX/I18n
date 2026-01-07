@@ -1,0 +1,12 @@
+languages = Languages
+languages.description = Description
+languages.description.tooltip = Short description to identify this language.
+languages.destination = Destination
+languages.general = General
+languages.langcode = Language
+languages.langcode.tooltip = Channel Language to set.
+languages.mod_dest = Module Destination
+languages.name = Name
+languages.name.tooltip = Short name (must be unique).
+menu.languages = Languages
+module.languages = Languages

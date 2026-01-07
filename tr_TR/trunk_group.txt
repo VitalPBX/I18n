@@ -1,4 +1,5 @@
 menu.outbound_routes = Gidiş Rotaları
+menu.trunk_group = {menu.outbound_routes}
 module.trunk_group = Gidiş Rotaları
 trunk_group = Gidiş Rotaları
 trunk_group.description = Açıklama
@@ -50,3 +51,9 @@ trunk_group.overwrite_cid.if_not_provided = Sağlanmamışsa
 trunk_group.overwrite_cid.yes.tooltip = Bu giden rotada tanımlanan CID parametreleriyle CID'nin üzerine yazmaya zorlar
 trunk_group.overwrite_cid.no.tooltip = Çağrı sırasında sağlanan herhangi bir Arayan Kimliğini (CID) koruyacaktır. Herhangi bir üzerine yazma yapmayacaktır.
 trunk_group.overwrite_cid.if_not_provided.tooltip = Yalnızca arama sırasından harici Arayan Kimliği sağlanmadıysa, Arayan Kimliği (CID) üzerine yazacaktır.
+trunk_group.record = {vitalpbx.record}
+trunk_group.record.tooltip = Evet olarak ayarlanırsa, bu giden rotayı kullanan tüm aramalar kaydedilecektir.
+trunk_group.csv = CSV
+trunk_group.csv.tooltip = Bu giden rota için arama desenlerini içeren bir CSV dosyası yüklemenizi sağlar.
+trunk_group.csv.missing_columns = CSV dosyası, gerekli olan “desen” sütununu içermiyor.
+trunk_group.export = Desenleri Dışarı Aktar

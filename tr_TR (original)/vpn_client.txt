@@ -1,0 +1,38 @@
+vpn_client = OpenVPN İstemcisi
+menu.vpn_client = {vpn_client}
+module.vpn_client = {vpn_client}
+vpn_client.general = {vitalpbx.general}
+vpn_client.upload_config = Yapılandırmayı Yükle
+vpn_client.update_config = Yapılandırmayı Güncelle
+vpn_client.configuration = VPN Yapılandırması
+vpn_client.configuration.tooltip = OpenVPN İstemci yapılandırmasını TAR formatında yüklemenize izin verir
+vpn_client.connection_info = Bağlantı Bilgisi
+vpn_client.status = Bağlantı Durumu
+vpn_client.status.tooltip = OpenVPN İstemci bağlantısının mevcut durumunu gösterir
+vpn_client.status.active = Bağlı
+vpn_client.status.inactive = Bağlantı Kesildi
+vpn_client.server_ip = Sunucu IP'si
+vpn_client.server_ip.tooltip =
+	OpenVPN Sunucusunun IP'sini gösterir
+vpn_client.assigned_ip = Atanan IP
+vpn_client.assigned_ip.tooltip = OpenVPN Sunucusu tarafından bu istemciye atanan IP Adresini gösterir.
+vpn_client.network_mask = Ağ Maskesi
+vpn_client.network_mask.tooltip = Ağ Maskesi
+vpn_client.enable = Etkinleştir
+vpn_client.disable = Devre Dışı Bırak
+vpn_client.no_file_selected = Yapılandırma dosyası seçilmedi
+vpn_client.no_valid_file = Geçerli bir dosya seçilmedi. Lütfen bir tar dosyası yükleyin
+vpn_client.configuration_not_found = Yüklenen TAR dosyası okunamıyor
+vpn_client.configuration_not_found = OpenVPN yapılandırması yüklenen TAR dosyasında bulunamadı
+vpn_client.cannot_extract_configuration = Sağlanan konfigürasyon çıkarılamıyor (extract)
+vpn_client.upload.success = Yapılandırma başarıyla yüklendi
+vpn_client.service.invalid_action = Geçersiz bir eylem yürütmeye çalışıyorsunuz
+vpn_client.service.successfully_enabled = OpenVPN İstemcisi başarıyla etkinleştirildi
+vpn_client.service.successfully_disabled = OpenVPN İstemcisi başarıyla devre dışı bırakıldı
+vpn_client.status.running = Çalışıyor
+vpn_client.status.stopped = Durduruldu
+vpn_client.service_status = Hizmet Durumu
+vpn_client.service_status.tooltip =
+	Hizmetin durumunu gösterir. Bu durumu bağlantı durumu ile karıştırmayın, hizmet çalışıyor olabilir
+	ancak sunucuya bağlı olması gerekmez.
+vpn_client.connection_log = Bağlantı Günlüğü

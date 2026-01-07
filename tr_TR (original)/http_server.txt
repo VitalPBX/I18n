@@ -1,0 +1,15 @@
+menu.http_server = HTTP Sunucusu
+module.http_server = {menu.http_server}
+http_server.general = {vitalpbx.general}
+http_server.http_port = HTTP Port
+http_server.http_port.help = GUI'ye HTTP protokolü aracılığıyla hangi port'tan erişilebileceğini tanımlar.
+http_server.https_port = HTTPS Port
+http_server.https_port.help = HTTPS protokolü aracılığıyla GUI'ye hangi port'tan erişilebileceğini tanımlar.
+http_server.certificate = Sertifika
+http_server.certificate.help = GUI'ye HTTPS aracılığıyla erişildiğinde kullanılacak sertifikayı tanımlar. Varsayılan olarak, prebuilt (önceden oluşturulmuş) sertifikası kullanılır, başka bir tane kullanmak istiyorsanız, bir tane oluşturmak için Sertifikalar modülüne gidin.
+http_server.https_enable = HTTPS'yi Etkinleştir
+http_server.https_enable.title = İşaretlenirse, GUI'ye HTTPS aracılığıyla erişilebilir. Varsayılan olarak etkinleştirin.
+http_server.permanent_redirect = HTTPS'ye Zorla
+http_server.permanent_redirect.title = İşaretlenirse, HTTP protokolüne giden tüm trafik HTTPS protokolüne yeniden yönlendirilecektir.
+http_server.native_cert = Prebuilt Sertifikası (yerli)
+http_server.saved_but_not_configured = Değişiklikler kaydedildi ancak konfigürasyon uygulanmadı.

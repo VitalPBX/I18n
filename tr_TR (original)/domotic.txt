@@ -1,0 +1,1 @@
+domotic.connection_fail = Aşağıdaki adrese sahip üniteye bağlanılamıyor: %s

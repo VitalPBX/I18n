@@ -1,0 +1,45 @@
+domotic_extensions.dial = Aranacak Numara
+domotic_extensions.dial.tooltip = Seçilen {0} ile etkileşime girmek için aranacak numarayı tanımlar.
+domotic_extensions.description = Açıklama
+domotic_extensions.description.help = Bu {0}'yı tanımlamak için kısa açıklama.
+domotic_extensions.unit_id = Birim
+domotic_extensions.unit_id.help = Seçilen birime bağlı olarak, yapılandırılacak {0} gösterilecektir.
+domotic_extensions.device_id = Cihaz
+domotic_extensions.device_id.help = Etkileşime geçilecek cihaz.
+domotic_extensions.class_of_service_id = Hizmet Sınıfı
+domotic_extensions.class_of_service_id.help = Hangi hizmet sınıfından bu {0}'a erişilebileceğini tanımlar.
+domotic_extensions.pin_list_id = PIN Listesi
+domotic_extensions.pin_list_id.help = {0} ile etkileşimi korumak için bir pin listesi tanımlamanıza izin verir.
+domotic_extensions.white_list = Beyaz Liste
+domotic_extensions.white_list.help = Seçilen {0} ile etkileşim için hangi numaraların pin girilmesine gerek olmadığını tanımlamaya izin verir.
+domotic_extensions.scene_id = Ekran
+domotic_extensions.scene_id.help = Etkileşim ekranı.
+domotic_extensions.toggle_mode = Geçiş Modu
+domotic_extensions.toggle_mode2 = Talimatları Atla
+domotic_extensions.toggle_mode.help = Evet olarak ayarlanırsa, cihaz durumu hiçbir şey sorulmadan değiştirilecektir.
+domotic_extensions.toggle_mode.help2 = Evet olarak ayarlanırsa, ekran hiçbir talimat talep etmeden çalışacaktır.
+domotic_extensions.recording_id = Karşılama Mesajı
+domotic_extensions.recording_id.help = Genellikle hangi {0} ile etkileşime geçeceğinizi belirtmek için başlangıçta çalınacak mesaj.
+domotic_extensions.hint = İpucu Oluştur
+domotic_extensions.hint.help = Bu cihaz için ipucu oluştur
+domotic_extensions.blf = BLF İpucu
+domotic_extensions.blf.help = Bu, telefonunuzun BLF hatlarına eklenecek dizidir.
+
+domotic_extensions.validation.empty_device = Cihaz gerekli.
+domotic_extensions.validation.empty_scene = Ekran gerekli.
+domotic_extensions.validation.empty_cos = Hizmet Sınıfı gerekli.
+domotic_extensions.validation.empty_dial = Aranacak numara gereklidir.
+domotic_extensions.validation.invalid_dial = Aranacak numara geçersiz bir biçime sahip. Numaralarda, *, # ve + işartlerine izin verilir.
+domotic_extensions.validation.empty_description = Açıklama gereklidir.
+domotic_extensions.validation.invalid_description = Açıklama geçersiz bir biçime sahip. Numaralar, harfler, boşluklar, kısa çizgiler ve alt çizgiler kullanılabilir.
+
+domotic_extensions.delete = {vitalpbx.delete}
+domotic_extensions.delete.message = {vitalpbx.confirm_delete.default_msg}
+
+domotic_extensions.device =
+    [bir] cihaz
+    *[diğer] cihazlar
+
+domotic_extensions.scene =
+     [bir] ekran
+     *[diğer] ekranlar

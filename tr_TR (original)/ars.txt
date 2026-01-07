@@ -1,0 +1,13 @@
+ars = Rota Seçimi
+ars.all_outbound_routes = -- Tüm Giden Rotalar --
+ars.description = Açıklama
+ars.description.tooltip = Bu Rota Seçimini tanımlayan metin açıklaması 
+ars.enabled = Etkin
+ars.general = Genel
+ars.members = Rota Seçimi Üyeleri
+ars.outbound_route_id = Giden Rota
+ars.time_group_id = Zaman Grubu
+menu.route_selections = Rota Seçimleri
+module.ars = Rota Seçimleri
+ars.used_by_cos = Bu öğe silinemez, çünkü bir ya da daha fazla <b>Hizmet Sınıfı</b> tarafından kullanılıyor.
+ars.none = {none}

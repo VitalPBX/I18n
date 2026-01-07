@@ -47,3 +47,6 @@ music_on_hold.streaming_url.tooltip = Tanımlanan uygulama tarafından yayınlan
 music_on_hold.streaming_format = Format
 music_on_hold.streaming_format.tooltip = 'format' seçeneği 'uygulama'nın Asterisk'e sağlayacağı ses biçimini belirtir.
 music_on_hold.insufficient_arguments = Uygulama dosyasını ya da akış URL'sini sağlamadınız. Bu alanlardan en az biri sağlanmalıdır.
+music_on_hold.empty = -- Yok --
+music_on_hold.order.randstart = Rastgele Başla
+music_on_hold.order.randstart.tooltip = “Doğrusal” ile aynıdır, ancak ilk dosya rastgele seçilir.

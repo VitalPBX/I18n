@@ -17,4 +17,4 @@ ivr_stats.callee = Aranan
 ivr_stats.call_duration = Arama Süresi
 ivr_stats.call_status = Arama Durumu
 ivr_stats.general = {vitalpbx.general}
-ivr_stats.no_cdr = CDR yok
+ivr_stats.answered = Yanıtlanan

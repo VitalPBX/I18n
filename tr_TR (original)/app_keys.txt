@@ -1,0 +1,16 @@
+app_keys = Uygulama Anahtarları
+menu.app_keys = {app_keys}
+module.app_keys = {app_keys}
+app_keys.general = {vitalpbx.general}
+app_keys.description = Açıklama
+app_keys.description.tooltip = Uygulamanızın kısa tanımı
+app_keys.enabled = Etkinleştirildi
+app_keys.enabled.tooltip = Bu Uygulama Anahtarının etkin olup olmadığını tanımlar
+app_keys.key = Anahtar
+app_keys.key.tooltip = Üçüncü parti uygulamaları doğrulamak için kullanılacak anahtar
+app_keys.tenant = Operatör
+app_keys.tenant.tooltip =
+	Bu API anahtarıyla hangi operatörün ilişkilendirileceğini tanımlamanıza olanak tanır, bu sayede birisi bu anahtarı
+	kullandığında yalnızca atanan operatör ile ilgili verileri alır. Bununla birlikte "Herhangi Bir Operatör" olarak 
+	ayarlanırsa her talepte yalnızca operatör kimliğini ya da yolunu belirterek onun bilgilerini alabileceksiniz.
+app_keys.all = -- Herhangi Bir Operatör --

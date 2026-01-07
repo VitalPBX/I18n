@@ -59,8 +59,8 @@ menu.hot_desking = Hot Desking
 module.hot_desking = Hot Desking
 hot_desking.profile_id = Profil
 hot_desking.profile_id.tooltip = Seçilen teknoloji için ortak parametrelere sahip profil.
-hot_desking.send_push = Push Gönder
-hot_desking.send_push.tooltip = Etkinleştirilirse, PBX, <b> {0} </b> Yazılım Telefonunu çalıştıran mobil cihazlara push bildirimleri göndermeye çalışır.
+hot_desking.generate_qr = Mobil QR Üret
+hot_desking.generate_qr.tooltip = Etkinleştirildiğinde, <b>{0}</b> uygulamasıyla QR kodunu tarayabilirsiniz.
 hot_desking.dispatchable_location = Gönderilebilir Konum
 hot_desking.dispatchable_location.tooltip =
 	Bu aygıt için gönderilebilir konumu seçmenize veya tanımlamanıza olanak tanır. Bu bilgiler, bu cihazdan 
@@ -68,6 +68,7 @@ hot_desking.dispatchable_location.tooltip =
 hot_desking.nat.default.tooltip = NAT yapılandırmalarını global SIP Ayarlarından alır. (Ayarlar >> Teknoloji Ayarları >> SIP Ayarları)
 hot_desking.vitxi_client = Vitxi İstemcisi
 hot_desking.vitxi_client.tooltip =
-	Etkinleştirilirse, bu cihaz Vitxi WebRTC uygulaması veya Vitxi Yazılım Telefonları için kullanılabilir (Android ya da IOS). Bu
-	seçenekle işaretlenen cihazlar Vitxi Softphone ile mobil cihazlarda kullanıldığında, tüm premium özellikler
-	yazılım telefonunda etkinleştirilecektir..
+	Etkinleştirilirse, bu cihaz Vitxi WebRTC uygulaması veya Vitxi Yazılım Telefonları için kullanılabilir (Android ya da IOS). Bu seçenekle işaretlenen cihazlar Vitxi Softphone ile mobil cihazlarda kullanıldığında, tüm premium özellikler yazılım telefonunda etkinleştirilecektir.
+hot_desking.dtmfmode.auto_info.tooltip = DTMF, karşı taraf destekliyorsa RFC 4733 olarak, desteklemiyorsa SIP INFO olarak gönderilir. (Yalnızca PJSIP)
+hot_desking.mobile_client = Mobil İstemci
+hot_desking.mobile_client.tooltip = Evet olarak ayarlanırsa, Connect uygulamasıyla bu uç noktayı yapılandırmak için bir QR kodu oluşturmanıza izin verir.

@@ -1,6 +1,7 @@
 menu.user_profiles = Kullanıcı Profilleri
 module.users_profiles = Kullanıcı Profilleri
 users_profiles = Kullanıcı Profilleri
+menu.users_profiles = {module.users_profiles}
 users_profiles.collapse_all = Tümünü Daralt
 users_profiles.confirm_delete = Bu profili silmek istediğinden emin misin?
 users_profiles.delete = Sil

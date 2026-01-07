@@ -1,0 +1,13 @@
+fid = FID
+menu.fid = {fid}
+module.fid = {fid}
+fid_webhook_settings = Webhook Ayarları
+menu.fid_webhook_settings = {fid_webhook_settings}
+module.fid_webhook_settings = {fid_webhook_settings}
+fid_webhook_settings.general = {vitalpbx.general}
+fid.webhook_url = Webhook URL
+fid.webhook_url.tooltip = Çağrı olaylarını göndermek için kullanılacak URL
+fid.auth_username = Kimlik Doğrulama Kullanıcı Adı
+fid.auth_username.tooltip = Webhook'a gönderilen olayları doğrulamak için kullanılan kullanıcı adı
+fid.auth_password = Kimlik Doğrulama Şifresi
+fid.auth_password.tooltip = Webhook'a gönderilen olayları doğrulamak için kullanılan şifre

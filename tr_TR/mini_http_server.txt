@@ -17,3 +17,5 @@ mini_http_server.none = -- Yok --
 mini_http_server.invalid_ip = <b>{0}</b> geçersiz. lütfen geçerli bir ip adresi yazın.
 mini_http_server.no_cert = TLS etkinse Geçerli bir sertifika sağlamalısınız.
 mini_http_server.no_http_enable = TLS etkinse, HTTP seçeneğini de etkinleştirmeniz gerekir.
+mini_http_server.sessionlimit = Oturum Limiti
+mini_http_server.sessionlimit.tooltip = Herhangi bir zamanda var olmasına izin verilecek maksimum HTTP/WebSocket oturum sayısını belirtir.

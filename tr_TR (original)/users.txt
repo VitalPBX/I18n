@@ -1,0 +1,55 @@
+menu.users = Kullanıcılar
+module.users = Kullanıcılar
+users = Kullanıcılar
+users.confirm_delete = Bu kullanıcıyı silmek istediğinize emin misiniz?
+users.delete = Sil
+users.deleting_last_privileged_user = Kullanıcı izinlerini değiştirebilecek son kullanıcıyı silmek mümkün değildir.
+users.deleting_self = Kendinizi silmeniz mümkün değil.
+users.dept = Departman
+users.dept.tooltip = Kullanıcı Departmanı (Örnek: Pazarlama)
+users.general = Genel
+users.locale = Dil
+users.locale.tooltip = Arayüz Dili.
+users.multitab = Multitab
+users.multitab.tooltip = Arayüzde birden fazla sekme isteyip istemediğinizi kontrol edin!
+users.name = Tam Ad
+users.name.tooltip = Kullanıcının tam adı
+users.password = Şifre
+users.password.tooltip.add = Oturum açmak için güvenli şifreniz.
+users.password.tooltip.edit = Kullanıcı Şifresi (Aynı şifreyi korumak için boş bırakın).
+users.role = Profil
+users.role.tooltip = Bu kullanıcı tarafından kullanılan profil.
+users.settings = Ayarlar
+users.startup = Başlangıç İletişim Kutusu
+users.startup.tooltip = Sistemde oturum açarken hangi iletişim kutusunun görüntüleneceği.
+users.theme = GUI Teması
+users.theme.tooltip = GUI stili için tema.
+users.timezone = Saat Dilimi
+users.timezone.tooltip =
+	Kullanıcı saat dilimi. Bu saat dilimi, zaman ve tarihle ilgili raporları ve diğer verileri göstermek için kullanılır. <b>Sistem</b>
+	seçeneği, bu kullanıcı için saat dilimini doğrudan PBX Sisteminden almanızı sağlar.
+users.username.duplicate = %s oturum açma adı zaten alınmış.
+users.user = Kullanıcı Adı
+users.user.tooltip = Oturum açmak için kullanılacak ad (nickname).
+users.portalexten = Atanan Dahili
+users.portalexten.tooltip = Portala erişim için dahili atandı.
+users.validate.blank_username = Kullanıcı adı boş olamaz ve en az 4 karakter uzunluğunda olmalıdır
+users.validate.blank_password = Şifre boş olamaz
+users.validate.profile = Kullanıcı profili geçersiz
+users.validate.displayname = Tam Ad boş bırakılamaz
+users.change_language = Dili değiştir
+users.deleting_default = Varsayılan kullanıcı olarak işaretlendiği için bu kullanıcıyı silemezsiniz
+users.username.duplicated = Girilen kullanıcı adı zaten alınmış
+users.email.duplicated = Girilen e-posta zaten alınmış
+users.email = E-posta
+users.email.tooltip = Giriş için kullanılacak kullanıcı e-posta adresi
+users.email.duplicate = Girilen e-posta adresi zaten kullanılıyor
+users.tenants = Operatörler
+users.tenants.tooltip = Bu kullanıcının hangi kiracılara erişebileceğini tanımlamanıza olanak tanır
+users.validations.no_tenants = Bu kullanıcıya hiçbir kiracı atanmamış. Lütfen en az bir kiracı atayın.
+users.dark_mode = Karanlık Mod
+users.dark_mode.tooltip = GUI teması için Karanlık Modu Etkinleştir/Devre Dışı Bırak
+users.visible_by_others = Başkaları Tarafından Görünür
+users.visible_by_others.tooltip =
+	Bu kullanıcının güncellenmek üzere başkaları tarafından görünür olup olmayacağını belirlemenize olanak tanır. Ancak, yönetici
+	kullanıcılar, bu seçenek devre dışı bırakılsa bile her zaman tüm kullanıcıları görebilir.

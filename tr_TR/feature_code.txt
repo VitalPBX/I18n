@@ -170,3 +170,14 @@ feature_code.hot_desking_cc.tooltip =
 	kullanıcısı atanmış kuyruklara otomatik olarak giriş yapmış olacaktır. Ayrıca, belirli bir dahiliye
 	giriş yapmak için kısa kodlar kullanmak mümkündür, örn: <b>*90#100</b> sistem dahili 100'e giriş yapmasını belirtir, ve <b>*90#100#1234</b>
 	sisteme 1234 şifresini kullanarak dahili 100'de giriş yapılacağını belirtir.
+feature_code.paging_duplex = Çift Yönlü Mesajlaşma
+feature_code.paging_duplex.tooltip =
+	Bu özellik kodu, çağrı özelliği kodu gibi çalışır, ancak çift yönlü ses özelliği vardır, yani çağrıyı alan cihaz, sesi aldığı anda aynı anda geri gönderebilir. Bu özelliği kullanmak için, <b>{0}100</b> biçimini kullanmanız gerekir. Burada <b>{0}</b> özellik kodu, <b>100</b> ise çağrı yapmak istediğiniz dahili numara anlamına gelir.
+feature_code.anonymous_calling = Anonim Arama
+feature_code.anonymous_calling.tooltip =
+	Bu özellik kodu, talep üzerine anonim giden aramalar gönderilmesini sağlar. Bu özelliği kullanmak için, <b>{0}100</b> biçimini kullanmanız gerekir. Burada <b>{0}</b> özellik kodu, <b>100</b> ise aramak istediğiniz harici numaradır.
+feature_code.auto_recording_switch_in = Gelen Çağrı Kayıtlarını Durdur/Devam Ettir
+feature_code.auto_recording_switch_in.tooltip =
+    Kredi kartı bilgileri gibi hassas bilgilerin kaydedilmesini önlemek için arama kaydını duraklatmanıza/devam ettirmenize olanak tanır.
+feature_code.auto_recording_switch_out = Giden Çağrı Kayıtlarını Durdur/Devam Ettir
+feature_code.auto_recording_switch_out.tooltip = {feature_code.auto_recording_switch_in.tooltip}

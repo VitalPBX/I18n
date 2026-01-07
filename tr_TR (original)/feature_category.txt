@@ -1,0 +1,10 @@
+feature_category = Özellik Kategorisi
+feature_category.all_features = Tüm Özellikler
+feature_category.available_features = Kullanılabilir Özellikler
+feature_category.description = Açıklama
+feature_category.description.tooltip = Bu özellik kategorisini tanımlayan isim (benzersiz olmalı).
+feature_category.enabled_features = Etkin Özellikler
+feature_category.general = Genel
+menu.feature_categories = Özellik Kategorileri
+module.feature_category = Özellik Kategorileri
+menu.feature_category = {menu.feature_categories}

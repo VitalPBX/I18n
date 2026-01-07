@@ -1,0 +1,14 @@
+menu.asterisk_sounds = Asterisk Sesler
+module.asterisk_sounds = {menu.asterisk_sounds}
+asterisk_sounds.general = {vitalpbx.general}
+asterisk_sounds.sound = Ses Paketi
+asterisk_sounds.installed_version = Yüklü Sürüm
+asterisk_sounds.available_version = Mevcut Sürüm
+asterisk_sounds.actions = Eylemler
+asterisk_sounds.invalid_data = Geçersiz veri girişi
+asterisk_sounds.successfully_installed = Asterisk ses paketi başarıyla yüklendi.
+asterisk_sounds.not_installed = Asterisk sound paketi henüz yüklenmedi
+asterisk_sounds.successfully_updated = Asterisk ses paketi başarıyla güncellendi 
+asterisk_sounds.cannot_update = Asterisk ses paketi güncellenemez çünkü henüz yüklenmedi
+asterisk_sounds.cannot_remove = Asterisk ses paketi kaldırılamaz çünkü henüz yüklenmedi
+asterisk_sounds.successfully_removed  = Asterisk ses paketi başarıyla kaldırıldı

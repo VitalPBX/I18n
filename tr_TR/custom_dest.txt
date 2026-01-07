@@ -9,3 +9,7 @@ custom_dest.destination.tooltip = Aranacak Dahili ya da Harici numara
 custom_dest.general = Genel
 menu.custom_destinations = Özel Hedefler
 module.custom_dest = Özel Hedefler
+custom_dest.cid = {disa.cid}
+custom_dest.cid.tooltip = Bu özel hedefi kullanırken ayarlanacak özel Arayan Kimliği.
+custom_dest.cid_name = {disa.cid_name}
+custom_dest.cid_number = {disa.cid_number}

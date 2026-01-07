@@ -1,0 +1,57 @@
+module.cid_lookup = Arayan Kimliği Araması
+menu.cid_lookup = {module.cid_lookup}
+cid_lookup.general = {vitalpbx.general}
+cid_lookup.description = Tanım {0}
+cid_lookup.description.tooltip = Arayan Kimliği Araması'nı tanımlamak için kısa açıklama
+cid_lookup.source = Kaynak {0}
+cid_lookup.source.tooltip = Gelen numaranın "Arayan kimliği adını (caller ID)" alma yöntemini tanımlar.
+cid_lookup.source.option.opencnam = OpenCNAM
+cid_lookup.source.option.api = HTTP/HTTPS
+cid_lookup.source.option.phonebook = Telefon Rehberi
+cid_lookup.opencnam.sid = SID {0}
+cid_lookup.opencnam.sid.tooltip = OpenCNAM SID
+cid_lookup.opencnam.token = Simge {0}
+cid_lookup.opencnam.token.tooltip = OpenCNAM Simgesi
+cid_lookup.host = Sunucu {0}
+cid_lookup.host.tooltip = İstek yapmak için API ana bilgisayarını tanımlar.
+cid_lookup.port = Port
+cid_lookup.port.tooltip = İstek yapmak için port'u tanımlar. HTTP talebi için 80 HTTPS talebi için 443.
+cid_lookup.user = Yetkili Kullanıcı
+cid_lookup.user.tooltip = Kullanıcının HTTP/HTTPS isteğini doğrulamasını  tanımlar
+cid_lookup.password = Yetkili Şifresi
+cid_lookup.password.tooltip = HTTP/HTTPS isteğini doğrulama şifresini tanımlar
+cid_lookup.path = Yol
+cid_lookup.path.tooltip = İsteğe bağlı çalıştırılacak komut dosyası adını tanımlar. Örneğin: <b>cid_lookup.php</b>
+cid_lookup.arguments = Sorgu Dizisi
+cid_lookup.arguments.tooltip =
+	Komut dosyasını yürütmek için gereken argümanları tanımlar.
+	<b>[CIDNUM]</b> özel argüman değeri, arayan cid numarası ile değiştirilecektir.
+	<br><br> Örneğin: <br> <b>caller_num=[CIDNUM]&ctype=vip</b>
+cid_lookup.secure = Güvenli
+cid_lookup.secure.tooltip = Eğer seçiliyse, istek HTTPS üzerinden değilse HTTP üzerinden olacaktır.
+cid_lookup.validation.no_description = Açıklama girilmedi.
+cid_lookup.validation.invalid_source = Geçersiz bir kaynak türü girildi.
+cid_lookup.validation.no_valid_host = Geçersiz bir ana bilgisayar adı veya IP adresi girildi.
+cid_lookup.validation.no_valid_port = Geçersiz bir port numarası girildi.
+cid_lookup.validation.no_sid = SID girilmedi.
+cid_lookup.validation.no_token = Simge girilmedi.
+cid_lookup.source.option.mysql = MySQL
+cid_lookup.mysql_host.tooltip = MySQL Sunucusu
+cid_lookup.database = Database {0}
+cid_lookup.database.tooltip = MySQL Veritabanı
+cid_lookup.username = Kullanıcı Adı {0}
+cid_lookup.username.tooltip = MySQL kimlik doğrulaması için kullanılacak kullanıcı adı.
+cid_lookup.mysql_password = Şifre
+cid_lookup.mysql_password.tooltip = MySQL kimlik doğrulaması için kullanılacak şifre
+cid_lookup.query = Sorgu {0}
+cid_lookup.query.tooltip =
+	Yürütülecek sorgu. <b>[CIDNUM]</b> özel simgesi arayan numarayla değiştirilecektir. örn:
+	<b> SELECT `name` FROM `customers` WHERE `number` = '[CIDNUM]' </b>
+cid_lookup.validation.no_database = Veritabanı ismi girilmedi.
+cid_lookup.validation.no_query = Sorgu girilmedi.
+cid_lookup.validation.no_mysql_username = Kullanıcı Adı girilmedi.
+cid_lookup.phonebook = Telefon Rehberi {0}
+cid_lookup.phonebook.tooltip = CID Arama kaynağı olarak kullanılacak Telefon Rehberi. Burada yalnızca harici telefon rehberleri listelenir
+cid_lookup.validation.no_phonebook = Herhangi bir telefon rehberi seçmediniz
+cid_lookup.timeout = Zaman Aşımı
+cid_lookup.timeout.tooltip = Sunucuya bağlantı aşamasına geçmesi için verilen vüre. Varsayılan değer 5 saniyedir.

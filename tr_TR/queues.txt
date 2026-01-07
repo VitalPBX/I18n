@@ -58,6 +58,7 @@ queues.ivr_id.tooltip = Kullanıcı kuyruktayken TEK haneli bir dahili numarası
 queues.joinempty = Boş Katıl
 queues.joinempty.loose = Gevşek
 queues.joinempty.no = Hayır
+queues.joinempty.no_inuse = Hayır + Kullanımda
 queues.joinempty.strict = Sıkı
 queues.joinempty.yes = Evet
 queues.joinempty.tooltip = Müsait herhangi bir üye olmadığında arayanın kuyruğa eklenip eklenmeyeceğini kontrol eder.
@@ -67,6 +68,7 @@ queues.leavewhenempty.loose = {queues.joinempty.loose}
 queues.leavewhenempty.no = {queues.joinempty.no}
 queues.leavewhenempty.strict = {queues.joinempty.strict}
 queues.leavewhenempty.yes = {queues.joinempty.yes}
+queues.leavewhenempty.yes_inuse = Evet + Kullanımda
 queues.maxlen = Maks. Kuyruk Uzunluğu
 queues.maxlen.placeholder = 0 ya da üstü değer
 queues.maxlen.tooltip = Kuyrukta beklemesine izin verilen maksimum arayan sayısını belirtir. Sıfır değeri, sıraya (kuyruğa) sınırsız sayıda arayanın girebileceği anlamına gelir.
@@ -139,10 +141,6 @@ queues.strategy.rrordered.tooltip = Çevrimsel sıralı hafıza ile aynıdır, a
 queues.strategy.tooltip = Bu kuyruğu çalma stratejisini tanımlayın.
 queues.strategy.wrandom = Rastgele Tercih
 queues.strategy.wrandom.tooltip = Rings random interface, but uses the member's penalty as a weight when calculating their metric.
-queues.timeoutpriority = Zaman Aşımı Önceliği
-queues.timeoutpriority.app = Uygulama (App)
-queues.timeoutpriority.conf = Yapılandırma (Conf)
-queues.timeoutpriority.tooltip = Bir kuyruk için belirtilen iki olası zaman aşımı seçeneğinin önceliğini kontrol etmek için kullanılır. Kuyruk () uygulamasında, arayan kişinin kuyrukta olabileceği mutlak süreyi kontrol etmek için belirtilebilen bir zaman aşımı değeri vardır. Queues.conf dosyasındaki zaman aşımı değeri, bir üyenin çaldırılacağı süreyi (yeniden denemeyle birlikte) denetler. Bazen bu değerler uyuşmaz, bu nedenle hangi değerin öncelikli olacağını kontrol edebilirsiniz.
 queues.timeoutrestart = Zaman Aşımı Yeniden Başlatma
 queues.timeoutrestart.tooltip = Evet olarak ayarlanırsa, kanaldan BUSY(meşgul) ya da CONGESTION(yoğun) durumu alındığında bir temsilcinin cevaplaması için zaman aşımını sıfırlar. Bu, temsilcinin bir aramayı reddetmesine ya da iptal etmesine izin verilirse faydalı olabilir.
 queues.timeout = Üye Zaman Aşımı
@@ -173,3 +171,19 @@ queues.queue_callback.tooltip =
 	Bu kuyruğa ulaşan arayanların, tüm temsilcilerin meşgul olması durumunda bir kuyruk geri araması talep edip edemeyeceğini tanımlamanıza olanak tanır.<br><br>
 	Bir kuyruk geri araması seçildiğinde, "Periyodik Duyuru", seçilen kuyruk geri arama öğesi için yapılandırılan 
 	"Talimatlar Mesajı" ile değiştirilir, ayrıca bu sıra için IVR özelliği devre dışı bırakılır.
+queues.alertinfo = {inbound_route.alertinfo}
+queues.alertinfo.tooltip = {inbound_route.alertinfo.tooltip}
+queues.answerchannel = Yanıt Kanalı
+queues.answerchannel.tooltip =
+	Kuyruk uygulamasını çalıştırmadan önce aramaların cevaplanıp cevaplanmayacağını belirler. “Hayır” olarak ayarlanırsa, bekleme müziği ve diğer sesler çalınmayabilir.
+queues.ring_unavailable = Kullanılamayan Temsilcileri Çaldır
+queues.ring_unavailable.tooltip =
+	Evet olarak ayarlandığında, kuyruk, PBX'ten kayıtlı olmasalar bile çağrıları temsilcilere iletecektir. Bu özelliği etkinleştirmek, örneğin temsilcilerinizin dahili numaraları cep telefonlarına yönlendirildiğinde yararlı olabilir.
+queues.force_moh = Bekleme Müziğini Zorla
+queues.force_moh.tooltip =
+    Evet olarak ayarlandığında, temsilcilerin ve temsilcinin arayanı aktarmak için kullandığı herhangi bir hedefin bekleme müziği üzerinde öncelikli olur.
+queues.force_longest_waiting_caller = Uzun Bekleyen Arayanı Zorla
+queues.force_longest_waiting_caller.tooltip =
+    Evet olarak ayarlandığında, kuyruk uygulaması, birden fazla kuyrukta bulunan arayanlar için bile arayanların sırayla (en uzun bekleyen ilk olarak) sunulmasını sağlar. Bir çağrı bir temsilciye sunulmadan önce, temsilcinin daha uzun süredir bekleyen bir çağrısı olan başka bir kuyruğun üyesi olup olmadığı ek bir kontrol yapılır. Eğer öyleyse, mevcut çağrı temsilciye sunulmaz.
+queues.validation.ring_all_members_exceeded =
+    “Tümünü Çaldır” stratejisi kullanıldığında, izin verilen maksimum sınırı aştığı için kuyruk {0}'dan fazla temsilci ile oluşturulamaz. Lütfen temsilci sayısını azaltın veya farklı bir çaldırma stratejisi seçin.
