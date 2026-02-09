@@ -1,0 +1,262 @@
+menu.profiles = Cihaz Profilleri
+module.profiles = Cihaz Profilleri
+profiles = Profiller
+profiles_advanced = Gelişmiş
+profiles_advanced_add = Ekle
+profiles_advanced_parameter = Parametre
+profiles_advanced_value = Değer
+profiles_confirm_delete = Bu profili silmek istediğinizden emin misiniz?
+profiles_default_delete = Varsayılan profiller silinemez.
+profiles_delete = Sil
+profiles_description = Açıklama
+profiles_description_tooltip = Bu profilin açıklaması.
+profiles_general = Genel
+profiles_general_section = Genel
+profiles_iax_description = Açıklama
+profiles_iax_description_tooltip = Bu profilin açıklaması.
+profiles_iax_general_section = Genel
+profiles_iax_host = Sunucu
+profiles_iax_host_invalid = Sunucu belirtilmedi.
+profiles_iax_host_tooltip = Sunucu adı ya da cihazın adresi.
+profiles_iax_name = Ad
+profiles_iax_name_duplicate = Yinelenen profil adı.
+profiles_iax_name_invalid = Profil adı belirtilmedi.
+profiles_iax_name_tooltip = Bu profilin adı.
+profiles_iax_network_section = Ağ
+profiles_iax_peertype = Tür
+profiles_iax_peertype_friend = Arkadaş
+profiles_iax_peertype_invalid = Ağ Tipi için geçersiz değer
+profiles_iax_peertype_peer = Eş
+profiles_iax_peertype_tooltip = Cihaz türünü tanımlar. "Kullanıcı", arama yapan, kimlik doğrulama gerektiren bir cihazdır. "Eş" ise sunucu tarafından eşlenen bağlantı noktası cihazıdır. "Arkadaş" ise "Kullanıcı" ve "Eş" in kombinasyonudur.
+profiles_iax_peertype_user = Kullanıcı
+profiles_iax_qualifyfreq = Ölçüm Sıklığı
+profiles_iax_qualifyfreq_invalid = Ölçüm sıklığı 0'dan başlayan bir sayı olmalıdır.
+profiles_iax_qualifyfreq_tooltip = Ölçüm aralığını saniye cinsinden tanımlayın. Sıfır değeri bu özelliği devre dışı bırakacaktır.
+profiles_iax_qualify = Ölçüm Zaman Aşımı
+profiles_iax_qualify_invalid = Ölçüm 0’dan başlayan bir sayı olmalıdır.
+profiles_iax_qualify_tooltip = Bir cihazın erişilemez olarak kabul edilmesinden önceki maksimum yanıt süresini milisaniye cinsinden tanımlayın. Sıfır değeri bu özelliği devre dışı bırakacaktır.
+profiles_iax_requirecalltoken = Çağrı Belirteci
+profiles_iax_requirecalltoken_auto = Otomatik
+profiles_iax_requirecalltoken_invalid = Çağrı belirteci şunlardan biri olmalıdır: Evet, Hayır, Otomatik.
+profiles_iax_requirecalltoken_no = Hayır
+profiles_iax_requirecalltoken_tooltip = Kimlik doğrulama için zorunlu bir çağrı belirteci kullanın.
+profiles_iax_requirecalltoken_yes = Evet
+profiles_iax_transfer = Transfer
+profiles_iax_transfer_invalid = Transfer şunlardan biri olmalıdır: Evet, Hayır, Yalnızca Medya.
+profiles_iax_transfer_media = Yalnızca Medya
+profiles_iax_transfer_no = Hayır
+profiles_iax_transfer_tooltip = Bu cihazdan transferlere izin ver.
+profiles_iax_transfer_yes = Evet
+profiles_iax_transfer_ =
+profiles_name = Ad
+profiles_name_duplicate = Yinelenen profil adı.
+profiles_name_invalid = Profil adı belirtilmedi.
+profiles_name_tooltip = Bu profilin adı.
+profiles_profile_deleted = Profil başarıyla silindi.
+profiles_sip_avpf = AVPF
+profiles_sip_avpf_tooltip = AVPF RTP profilini kullanarak ortam (medya) akışlarıyla birlikte çalışabilirliği etkinleştirir.
+profiles_sip_callerid = Arayan Kimliği
+profiles_sip_callerid_section = Arayan Kimliği
+profiles_sip_description = Açıklama
+profiles_sip_description_tooltip = Bu profilin açıklaması.
+profiles_sip_directmedia = Doğrudan Medya
+profiles_sip_directmedia_invalid = Doğrudan RTP şunlardan biri olmalı: Evet, Hayır, nat yoksa Evet, GÜNCELLEME Kullan.
+profiles_sip_directmedia_nonat = nat yoksa Evet
+profiles_sip_directmedia_no = Hayır
+profiles_sip_directmedia_tooltip = Çağrı katılımcıları arasında doğrudan RTP gönderilmesini sağlar.
+profiles_sip_directmedia_update = GÜNCELLEME Kullan
+profiles_sip_directmedia_yes = Evet
+profiles_sip_encryption = RTP Şifreleme
+profiles_sip_encryption_tooltip = sRTP ses şifrelemesini etkinleştirir.
+profiles_sip_general_section = Genel
+profiles_sip_host = Sunucu
+profiles_sip_host_invalid = Sunucu belirtilmedi.
+profiles_sip_host_tooltip = Sunucu adı ya da cihazın adresi.
+profiles_sip_icesupport = ICE
+profiles_sip_icesupport_tooltip = Güvenlik duvarlarını köprülemek için ICE protokolünü kullan.
+profiles_sip_name = Ad
+profiles_sip_name_duplicate = Yinelenen profil adı.
+profiles_sip_name_invalid = Profil adı belirtilmedi.
+profiles_sip_name_tooltip = Bu profilin adı.
+profiles_sip_network_section = Ağ
+profiles_sip_peertype = Tür
+profiles_sip_peertype_friend = Arkadaş
+profiles_sip_peertype_invalid = Ağ Tipi için geçersiz değer
+profiles_sip_peertype_peer = Eş
+profiles_sip_peertype_tooltip = Aygıt türünü tanımlar. "Kullanıcı", arama yapan, kimlik doğrulaması gerektiren bir cihazdır. "Eş" sunucu tarafından eşlenen bir bağlantı noktası cihazıdır. "Arkadaş" ise "Kullanıcı" ve "Eş" in kombinasyonudur.
+profiles_sip_peertype_user = Kullanıcı
+profiles_sip_qualifyfreq = Ölçüm Sıklığı
+profiles_sip_qualifyfreq_invalid = Ölçüm sıklığı 0'dan başlayan bir sayı olmalıdır.
+profiles_sip_qualifyfreq_tooltip = Ölçüm aralığını saniye cinsinden tanımlayın. Sıfır değeri bu özelliği devre dışı bırakacaktır.
+profiles_sip_qualify = Ölçüm Zaman Aşımı
+profiles_sip_qualify_invalid = Ölçüm 0’dan başlayan bir sayı olmalıdır.
+profiles_sip_qualify_tooltip = Bir cihazın erişilmez olduğu kabul edilmeden önce maksimum tepki süresini milisaniye cinsinden tanımlayın. Sıfır değeri bu özelliği devre dışı bırakacaktır.
+profiles_sip_sendrpid = Uzak Taraf Kimliğini Gönder
+profiles_sip_sendrpid_invalid = Uzak Taraf Kimliğini Gönder şunlardan biri olmalı: Evet, Hayır, RPID Kullan, PAI Kullan.
+profiles_sip_sendrpid_no = Hayır
+profiles_sip_sendrpid_pai = PAI Kullan (Gizlilik Onaylı Kimlik)
+profiles_sip_sendrpid_rpid = RPID Kullan (Uzak Taraf Kimliği)
+profiles_sip_sendrpid_tooltip = SIP DAVET'lerine uzak taraf kimliği üstbilgisi ekleyin.
+profiles_sip_sendrpid_yes = Evet
+profiles_sip_transport = Aktarım
+profiles_sip_transport_tooltip = Varsayılan aktarımları ayarlayın. Sıra, birincil varsayılan aktarımı belirler.
+profiles_sip_transport_invalid = Aktarım şunlardan biri olmalı: TCP, UDP, TLS, WS ve/veya WSS.
+profiles_sip_transport_tcp = TCP
+profiles_sip_transport_tls = TLS
+profiles_sip_transport_udp = UDP
+profiles_sip_transport_wss = WSS
+profiles_sip_transport_ws = WS
+profiles_sip_trustrpid = Uzak Taraf Kimliği'ne Güven
+profiles_sip_trustrpid_tooltip = Uzak taraf kimliği başlığının doğru olduğunu varsayın.
+profiles_technology = Profil Türü
+profiles_technology_duplicate_name = Profil adı benzersiz olmalı.
+profiles_technology_iax = IAX2
+profiles_technology_invalid = Geçersiz teknoloji türü seçildi.
+profiles_technology_sip = SIP
+profiles_technology_tooltip = Bu profilin teknoloji türü.
+profiles_technology_pjsip = PJSIP
+profiles_pjsip_general_section = Genel
+profiles_pjsip_name = Ad
+profiles_pjsip_name_tooltip = Bu profilin adı.
+profiles_pjsip_description = Açıklama
+profiles_pjsip_description_tooltip = Bu profil için açıklama.
+profiles_pjsip_transport = Aktarım
+profiles_pjsip_transport_tooltip =
+	Bu, bitişnoktasını SIP mesajlarını göndermek için belirtilen aktarım yapılandırmasını kullanmaya zorlar. BitişNoktası 
+	cihazının ne tür aktarım (UDP/TCP/TLS/vb) kullanacağını zaten bilmeniz gerekir. "Otomatik" olarak ayarlanırsa, seçilen
+	varsayılan aktarım, iletişim URL'si için yapılandırma dosyasındaki ilk uyumlu aktarımdır.
+profiles_pjsip_dtls_cert_file = DTLS Certfile
+profiles_pjsip_dtls_cert_file_tooltip = Eşe sunulacak sertifika dosyasının yolu
+profiles_pjsip_dtls_private_key = DTLS Özel Anahtarı
+profiles_pjsip_dtls_private_key_tooltip = Sertifika dosyası için özel anahtarın yolu.
+profiles_pjsip_media_encryption = Medya Şifreleme
+profiles_pjsip_media_encryption_tooltip = Bu bitişnoktası için res_pjsip'nin ortam (medya) şifrelemesi kullanıp kullanmayacağı ve buna zorlanıp zorlanamayacağını belirtir.
+profiles_pjsip_dtls_setup = DTLS Kurulum
+profiles_pjsip_dtls_setup_tooltip =
+	Bağlantıları kabul etmeye, diğer tarafa bağlanmaya veya her ikisine birden hazır olup olmadığımız.
+	Geçerli seçenekler:  <br>
+	<b>Aktif</b> (diğer tarafa bağlanmak istiyoruz), <br>
+	<b>Pasif</b> (sadece bağlantıları kabul etmek istiyoruz), <br>
+	<b>Aktifpasif</b> (ikisini de yapacağız). <br>
+	Bu değer, teklif verirken giden SDP’de ve uzak taraf bir aktifpasif gönderdiğinde gelen SDP teklifleri için kullanılacak.
+profiles_pjsip_force_rport = rport'u Zorla
+profiles_pjsip_force_rport_tooltip = Hiçbir rport parametresi olmasa bile RFC3581'i uyumlu davranışa zorlayın. Temelde her zaman SIP yanıtlarını, SIP isteklerini aldığımız port'a geri gönderin.
+profiles_pjsip_ice_support = ICE Desteği
+profiles_pjsip_ice_support_tooltip = NAT geçişine yardımcı olmak için ICE mekanizmasını etkinleştirin
+profiles_pjsip_rtp_symmetric = Simetrik RTP 
+profiles_pjsip_rtp_symmetric_tooltip = RTP'nin simetrik olması gerektiğini zorlayın. RTP'yi alınan adres/port'a geri gönderin.
+profiles_pjsip_rewrite_contact = Kişiyi Yeniden Yaz
+profiles_pjsip_rewrite_contact_tooltip = Kişi başlığının kaynak IP adresi-port'uyla yeniden yazılmasına izin verin. eğer bitişnoktası genel ip:port'unu bilmiyords/kaydetmiyorsa gereklidir.
+profiles_pjsip_direct_media = Doğrudan Medya
+profiles_pjsip_direct_media_tooltip = Medyanın doğrudan bitişnoktaları arasında akıp akmayacağını belirler.
+profiles_pjsip_disable_direct_media_on_nat = NAT Doğrudan Medyayı Devre Dışı Bırak
+profiles_pjsip_disable_direct_media_on_nat_tooltip = NAT, medya oturumunu engellediğinde doğrudan medya oturumu yenilemelerini devre dışı bırak
+profiles_pjsip_dtls_verify = DTLS Doğrulama
+profiles_pjsip_dtls_verify_tooltip = Sağlanan eş sertifikanın geçerli olduğunu doğrulayın
+profiles_pjsip_use_avpf = AVPF Kullan
+profiles_pjsip_use_avpf_tooltip = Bu bitişnoktası için res_pjsip'in AVPF kullanıp kullanmayacağını ve buna zorlanıp zorlanamayacağını belirtir.
+profiles_pjsip_rtcp_mux = RTCP Çoğullama
+profiles_pjsip_rtcp_mux_tooltip =
+	Bu seçenek etkinleştirildiğinde, Asterisk "rtcp-çoğullama" özniteliğinin tüm ortam akışlarında kullanılması konusunda anlaşmaya çalışır.
+	Bu, RTP ve RTCP'nin aynı port üzerinde gönderilip alınmasına neden olur. Bu, çoğullamadan çıkarma mantığını
+	aktarım katmanından ziyade uygulamaya kaydırır. Bu seçenek, bu seçeneğin kullanımını zorunlu kıldığından beri WebRTC
+	bitişnoktaları ile çalışırken kullanışlıdır.
+profiles_pjsip_media_use_received_transport = Medya Aktarımı Alındı
+profiles_pjsip_media_use_received_transport_tooltip = res_pjsip'in ilgili cevap SDP'sinde, önerilen SDP'de alınan medya aktarımını kullanıp kullanmayacağını belirler.
+profiles_pjsip_media_encryption_optimistic = Optimistik Medya Şifreleme
+profiles_pjsip_media_encryption_optimistic_tooltip = Mümkünse şifrelemenin kullanılıp kullanılmayacağını belirler ancak başarılamazsa oturumu sonlandırmaz.
+profiles_pjsip_asymmetric_rtp_codec = Asimetrik RTP Kodek
+profiles_pjsip_asymmetric_rtp_codec_tooltip = Gönderme ve alma RTP kodek bileşeninin farklı olmasına izin verin.
+profiles_pjsip_transport_udp = UDP
+profiles_pjsip_transport_tcp = TCP
+profiles_pjsip_transport_tls = TLS
+profiles_pjsip_transport_ws = WS
+profiles_pjsip_transport_wss = WSS
+profiles_pjsip_media_encryption_no = Hayır
+profiles_pjsip_media_encryption_sdes = SDES
+profiles_pjsip_media_encryption_dtls = DTLS
+profiles_pjsip_dtls_setup_active = Aktif
+profiles_pjsip_dtls_setup_passive = Pasif
+profiles_pjsip_dtls_setup_actpass = Aktifpasif
+profiles_pjsip_network_section = Ağ
+profiles_pjsip_media_section = Medya
+profiles_pjsip_dtls_section = DTLS
+profiles_pjsip_name_invalid = Profil adı belirtilmedi.
+profiles_pjsip_none = -- Yok --
+profiles_pjsip_dtls_cert_id = DTLS Sertifikası
+profiles_pjsip_dtls_cert_id_tooltip = DTLS bağlantılarıyla kullanılacak sertifika
+profiles_pjsip_dtls_verify_yes = Evet
+profiles_pjsip_dtls_verify_no = Hayır
+profiles_pjsip_dtls_verify_fingerprint = Parmak İzi
+profiles_pjsip_dtls_verify_certificate = Sertifika
+profiles_pjsip_dtls_fingerprint = DTLS Parmak İzi Sağlama
+profiles_pjsip_dtls_fingerprint_tooltip = SDP'deki parmak izi için kullanılacak sağlama
+profiles_pjsip_dtls_fingerprint_sha-256 = SHA-256
+profiles_pjsip_dtls_fingerprint_sha-1 = SHA-1
+profiles_pjsip_dtls_rekey = DTLS Anahtar Değiştirme Aralığı
+profiles_pjsip_dtls_rekey_tooltip =
+	TLS oturumunun yeniden müzakere edileceği ve SRTP oturumunun anahtarının değiştirileceği aralık. Bu ayarlanmazsa veya
+	verilen değer 0 ise, anahtar değiştirme devre dışı bırakılır.
+profiles_sip_none = {profiles_pjsip_none}
+profiles_sip_dtls_section = {profiles_pjsip_dtls_section}
+profiles_sip_dtlsenable = Etkinleştir
+profiles_sip_dtlsenable_tooltip = DTLS-SRTP desteğini etkinleştirin veya devre dışı bırakın
+profiles_sip_dtls_cert_id = {profiles_pjsip_dtls_cert_id}
+profiles_sip_dtls_cert_id_tooltip = {profiles_pjsip_dtls_cert_id_tooltip}
+profiles_sip_dtlssetup = {profiles_pjsip_dtls_setup}
+profiles_sip_dtlssetup_tooltip = {profiles_pjsip_dtls_setup_tooltip}
+profiles_sip_dtlssetup_active = {profiles_pjsip_dtls_setup_active}
+profiles_sip_dtlssetup_passive = {profiles_pjsip_dtls_setup_passive}
+profiles_sip_dtlssetup_actpass = {profiles_pjsip_dtls_setup_actpass}
+profiles_sip_dtlsverify = {profiles_pjsip_dtls_verify}
+profiles_sip_dtlsverify_tooltip = {profiles_pjsip_dtls_verify_tooltip}
+profiles_sip_dtlsverify_no = {profiles_pjsip_dtls_verify_no}
+profiles_sip_dtlsverify_yes = {profiles_pjsip_dtls_verify_yes}
+profiles_sip_dtlsverify_fingerprint = {profiles_pjsip_dtls_verify_fingerprint}
+profiles_sip_dtlsverify_certificate = {profiles_pjsip_dtls_verify_certificate}
+profiles_sip_dtlsfingerprint = {profiles_pjsip_dtls_fingerprint}
+profiles_sip_dtlsfingerprint_tooltip = {profiles_pjsip_dtls_fingerprint_tooltip}
+profiles_sip_dtlsfingerprint_sha-256 = {profiles_pjsip_dtls_fingerprint_sha-256}
+profiles_sip_dtlsfingerprint_sha-1 = {profiles_pjsip_dtls_fingerprint_sha-1}
+profiles_sip_dtlsrekey = {profiles_pjsip_dtls_rekey}
+profiles_sip_dtlsrekey_tooltip = {profiles_pjsip_dtls_rekey_tooltip}
+profiles_sip_force_avp = AVP'yi Zorla
+profiles_sip_force_avp_tooltip =
+	Bir DTLS akışı mevcut olsa dahi, uygun olduğunda ortam akışları için 'RTP/AVP', 'RTP/AVPF', 'RTP/SAVP', ve 'RTP/SAVPF' yi
+	kullanmaya zorlayın.
+profiles_sip_rtcp_mux = RTCP ÇOĞULLAMA
+profiles_sip_rtcp_mux_tooltip = WebRTC desteği için gerekli olan RFC 5761 RTCP çoğullama desteğini etkinleştirin.
+profiles_pjsip_qualify_frequency = Ölçüm Sıklığı
+profiles_pjsip_qualify_frequency_tooltip = Erişilebilirlik için ilgili kişiyi ölçme girişimleri arasındaki aralık. 0 ise asla ölçülmez. Saniye cinsinden süre.
+profiles_pjsip_qualify_timeout = Ölçüm Zaman Aşımı
+profiles_pjsip_qualify_timeout_tooltip = Kişi, zaman aşımından önce SEÇENEKLER isteğine yanıt vermezse, kişi uygun değil olarak işaretlenir. 0 ise zaman aşımı yok.
+profiles_pjsip_send_pai = G-Onaylı-Kimlik Gönder
+profiles_pjsip_send_pai_tooltip = G-Onaylı-Kimlik başlığı Gönder
+profiles_pjsip_send_rpid = Uzak-Taraf-Kimliği Gönder
+profiles_pjsip_send_rpid_tooltip = Uzak-Taraf-Kimliği başılığı Gönder
+profiles_pjsip_send_diversion = Yönlendirme Başlığını Gönder
+profiles_pjsip_send_diversion_tooltip = Yönlendirme başlığını, aranan kullanıcı temsilcisi için yönlendirme bilgisini taşıyarak gönderin.
+profiles_pjsip_webrtc = WebRTC
+profiles_pjsip_webrtc_tooltip =
+	"Evet" olarak ayarlandığında bu, temel WebRTC desteğinin çalışması için gerekli olan aşağıdaki değerleri de etkinleştirir:
+	rtcp_mux, use_avpf, ice_support, ve use_received_transport.
+profiles_pjsip_remove_existing = Mevcut Olanı Kaldır
+profiles_pjsip_remove_existing_tooltip =
+	Artık "{hot_desking.max_contacts}" sayısını aşan mevcut kişilerin yerlerini değiştirerek bir kaydın başarılı olmasına izin verin.  Kaldırılan
+	herhangi bir kişi, bir sonraki süresi dolacak kişidir. Bu davranış "{profiles_pjsip_rewrite_contact}" etkinleştirildiğinde ve "{hot_desking.max_contacts}"
+	birden büyükse yararlıdır. Kaldırılan kişi büyük olasılıkla, cihazın yenilenmekte olduğu "{profiles_pjsip_rewrite_contact}" tarafından oluşturulan
+	eski kişidir.
+profiles_pjsip_max_video_streams = Maks Video Akışı
+profiles_pjsip_max_video_streams_tooltip =
+	Bu seçenek, bitişnoktası için izin verilen eşzamanlı görüşülen maksimum video akışına bir sınır uygular.
+profiles_pjsip_max_audio_streams = Maks Ses Akışı
+profiles_pjsip_max_audio_streams_tooltip =
+	Bu seçenek, bitişnoktası için izin verilen eşzamanlı görüşülen maksimum ses akışına bir sınır uygular.
+profiles_pjsip_support_path = Support Path
+profiles_pjsip_support_path_tooltip =
+	Bu seçenek etkinleştirildiğinde, kayıt isteklerinde kaydedilir ve içeriği, diyalog dışı giden istekler için 
+	ve Yol başlıklarında giden 200 yanıtları için Rota başlıklarında kullanılır. Ayrıca yol desteği,
+	Desteklenen başığında da belirtilecektir.
+profiles_pjsip_outbound_proxy = Giden Proxy
+profiles_pjsip_outbound_proxy_tooltip = İstekleri göndermek için kullanılan giden proxy'nin tam SIP URI'si. örn: <b>sip:192.168.0.1\;lr</b>
+profiles_pjsip_transport_auto = Oto

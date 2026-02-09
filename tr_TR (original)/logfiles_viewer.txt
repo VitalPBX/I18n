@@ -1,0 +1,17 @@
+logfiles_viewer.error = Hata
+logfiles_viewer.general = Genel
+logfiles_viewer.invalid_request = Geçersiz istek
+logfiles_viewer.lines = Satırlar
+logfiles_viewer.lines.tooltip = Görüntülenecek satır sayısı
+logfiles_viewer.logfile = Günlük Dosyası
+logfiles_viewer.logfile.tooltip = Görülecek günlük dosyasını seçin
+logfiles_viewer.no_file_selected = Dosya seçilmedi
+logfiles_viewer.select_logfile = --- Bir Günlük Dosyası Seçin ---
+logfiles_viewer.invalid_filename = İstenen günlük dosyası bulunamadı
+menu.log_file_viewer = Günlük Dosyası Görüntüleyici
+module.logfiles_viewer = Günlük Dosyası Görüntüleyici
+logfiles_viewer.refresh = Yenile
+logfiles_viewer.filter = Filtre
+logfiles_viewer.filter.tooltip =
+    Günlük dosyalarının içeriğini dizilere ya da kelimelere göre kolayca filtrelemenize izin verir. Örneğin, isterseniz
+    yalnızca asteriks hata günlüklerini filtrelemek için "HATA" yı seçebilisiniz ve yalnızca hata mesajları görünür.

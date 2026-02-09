@@ -15,6 +15,7 @@ phone_books.url.tooltip = Bu telefon rehberini desteklenen herhangi bir telefona
 phone_books.source_type = Tür
 phone_books.source_type.internal = Dahili 
 phone_books.source_type.external = Harici 
+phone_books.source_type.external_crm = Harici (CRM)
 phone_books.source_type.tooltip =
     Dahili numaraları (Sıralar (Kuyruklar), Konferanslar, Dahililer, vb.) Kullanıp kullanmayacağınızı veya harici numaraları PBX'inize aktarıp
     aktarmayacağınızı tanımlamanıza olanak tanır.
@@ -54,3 +55,12 @@ phone_books.email.tooltip = Telefon rehberi QR kodunun gönderileceği, virgüll
 phone_books.qr_email.no_template = QR göndermek için e-posta şablonu mevcut değil
 phone_books.qr.no_email = Bu QR kodunu göndermek için hiçbir e-posta adresi girilmedi
 phone_books.qr.sent = E-posta başarıyla gönderildi
+phone_books.mobile_number = Mobil Telefon Numarası
+phone_books.home_number = Ev Numarası
+phone_books.mobile_number.tooltip = Bu kişiye ait mobil telefon numarası
+phone_books.home_number.tooltip = Bu kişiye ait ev telefon numarası
+phone_books.export = Kişileri Dışarı Aktar
+phone_books.url_copied = URL panoya kopyalandı
+phone_books.fax = Faks
+phone_books.fax.tooltip = Bu kişiye ait faks numarası
+phone_books.validation.delete_with_crm = Bir CRM ile ilişkilendirilmiş bir telefon rehberini silemezsiniz!

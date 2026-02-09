@@ -1,0 +1,14 @@
+menu.speed_dialing = Hızlı Arama
+module.speeddial = Hızlı Arama
+speeddial = Hızlı Arama
+speeddial.class_of_service_id = Hizmet Sınıfı
+speeddial.class_of_service_id.tooltip = Bu hızlı arama tuşunu kullanmak için kullanılacak Hizmet Sınıfı
+speeddial.description = Açıklama
+speeddial.description.tooltip = Bu Hızlı Arama'yı tanımlayan ad
+speeddial.dnumber = Hedef Numara
+speeddial.dnumber.tooltip = Aranacak numara.
+speeddial.extension = Hızlı Arama Kodu
+speeddial.extension.invalid = Hızlı Arama Kodu geçersiz. Sadece sayıları ve "*" (asteriks) sembolünü kullanın.
+speeddial.extension.tooltip = Bu hızlı aramayı aktif hale getiren kod. Kod sisteme özgü olmalı, yani sistemde başka hiçbir yerde kullanılmamalıdır.
+speeddial.general = Genel
+speeddial.invalid.already_exists = Geçersiz Hızlı Arama numarası {0}. Numara {1} modülü tarafından kullanılıyor.

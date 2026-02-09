@@ -19,3 +19,4 @@ task_manager.silent_mode.tooltip =
 	Etkinleştirilirse, seçilen komut dosyasından hiçbir çıktı alınmaz, böylece cron her çalıştırıldığında e-posta almaktan kaçınır.
 task_manager.enabled = Etkin
 task_manager.enabled.tooltip = Bu görevi etkinleştirmenize/devre dışı bırakmanıza izin verir
+task_manager.validations.invalid_script = Verilen komut dosyası geçerli değil.

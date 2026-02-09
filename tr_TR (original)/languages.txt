@@ -1,0 +1,12 @@
+languages = Diller
+languages.description = Açıklama
+languages.description.tooltip = Bu dili tanımlayan kısa açıklama.
+languages.destination = Hedef
+languages.general = Genel
+languages.langcode = Dil
+languages.langcode.tooltip = Ayarlanacak Kanal Dili.
+languages.mod_dest = Hedef Modül
+languages.name = Ad
+languages.name.tooltip = Kısa isim (benzersiz olmalı).
+menu.languages = Diller
+module.languages = Diller

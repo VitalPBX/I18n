@@ -1,0 +1,73 @@
+hot_desking = Hot Desking
+hot_desking.channel_id = Kanal
+hot_desking.channel_id.tooltip = Bu cihaz için FXS kanalı.
+hot_desking.codecs = Kodekler
+hot_desking.codecs.tooltip = İzin verilen codec bileşenlerinin listesi. Kodek bileşenlerinin listelendiği sıra, tercih sırasını belirler. En az bir kodek seçerseniz, "disallow = all" parametresi de oluşturulur.
+hot_desking.delete = Sil
+hot_desking.delete.tooltip = Bu %s kaydını silmek istediğinize emin misiniz?
+hot_desking.deny = Reddet
+hot_desking.deny.invalid = Engelleme geçersiz. Lütfen IP adresini Alt ağ maskesi ile yazın. CIDR gösterimini kullanabilirsiniz. (Örnek: 192.168.40.38/16)
+hot_desking.deny.tooltip = Bir kullanıcı / eş tanımında, bu eşe giden ve bu eşten gelen trafiği belirli bir IP veya ağa sınırlayabilirsiniz. (Örnek: reddet=192.168.40.38/255.255.255.255 bu IP adresinden gelen trafiği reddeder).
+hot_desking.dev_description = Cihaz Açıklaması
+hot_desking.dev_description.tooltip = Bu Cihazı tanımlamak için kısa bir açıklama.
+hot_desking.digit_map = Basamak Eşleme
+hot_desking.digit_map.tooltip = Bu hat için kullanılacak basamak eşlemesi.
+hot_desking.digium_phone_settings = Digium Telefon Ayarları
+hot_desking.max_contacts = Maksimum Kişi
+hot_desking.max_contacts.tooltip = Bir AoR'ye bağlanabilen maksimum kişi sayısı
+hot_desking.dtmfmode = DTMF Modu
+hot_desking.dtmfmode.auto.tooltip = Eğer teklif edilirse rfc2833|rfc4733 aksi takdirde bant içi kullanın.
+hot_desking.dtmfmode.inband.tooltip = Bant içi ses (64 kbit kodek -alaw, ulaw gerektirir)
+hot_desking.dtmfmode.info.tooltip = SIP INFO mesajları (uygulama/dtmf-geçiş)
+hot_desking.dtmfmode.shortinfo.tooltip = SIP INFO mesajları (uygulama/dtmf)
+hot_desking.dtmfmode.tooltip = DTMF göndermek için varsayılan dtmf modunu ayarla. Varsayılan rfc2833|rfc4733
+hot_desking.general = Genel
+hot_desking.language = Dil
+hot_desking.language.tooltip = Bu cihaz için kullanılacak dil ayarını belirtir. Bu, dilin kurulu olması ve belirtilen dil için sesli istemlerin sunucunuzda bulunması koşuluyla, kullanıcıya özgü tüm istemlerin seçilen dilde oynatılmasını zorlar.
+hot_desking.nat = NAT
+hot_desking.nat.auto_comedia.tooltip = Asteriks NAT tespit ederse, comedia seçeneğini ayarlayın.
+hot_desking.nat.auto_force.tooltip = Asteriks NAT tespit ederse force_rport seçeneğini ayarlayın.
+hot_desking.nat.comedia.tooltip = Send media to the port Asterisk received it from regardless of where the SDP says to send it.
+hot_desking.nat.force.tooltip = Olmasa bile bir rport parametresi varmış gibi yap.
+hot_desking.nat.no.tooltip = RFC3581 dışında özel bir NAT işlemi yapmayın..
+hot_desking.nat.tooltip = NAT (Ağ Adresi Çevirisi), bir LAN üzerinde "özel" IP adresleri olan birden fazla cihazın tek bir genel IP adresini paylaşmasına izin vermek için güvenlik duvarları ve yönlendiriciler tarafından en sık kullanılan teknolojidir.Özel bir IP adresi, yalnızca LAN içinden adreslenebilen, ancak LAN dışındaki İnternet'ten alınamayan bir adrestir.
+hot_desking.permit = İzin 
+hot_desking.permit.invalid = İzin geçersiz. Lütfen IP adresini Alt ağ maskesi ile yazın. CIDR gösterimini kullanabilirsiniz. (Örnek: 192.168.40.38/16)
+hot_desking.permit.tooltip = Bir kullanıcı/eş tanımında, bu eş ile belirli bir IP veya ağ ile olan trafiğini sınırlayabilirsiniz. (Örnek: izin=192.168.40.0/255.255.255.0 bu ağdan gelen trafiğe izin verir).
+hot_desking.profile_id-fxs = Profil
+hot_desking.profile_id-fxs.tooltip = FXS cihazları için Ayarlar Profili
+hot_desking.profile_id-iax = Profil
+hot_desking.profile_id-iax.tooltip = IAX2 cihazları için Ayarlar Profili
+hot_desking.profile_id-sip = Profil
+hot_desking.profile_id-sip.tooltip = SIP cihazları için Ayarlar Profili
+hot_desking.profile_id-pjsip = Profil
+hot_desking.profile_id-pjsip.tooltip = PJSIP cihazları için Ayarlar Profili
+hot_desking.ring_device = Cihazı Çaldır
+hot_desking.ring_device.tooltip = Gelen aramaların cihazın çalmasına neden olup olmayacağını belirler.
+hot_desking.secret = Şifre
+hot_desking.secret.tooltip = Bu cihazla ilişkili Şifre
+hot_desking.technology = Teknoloji
+hot_desking.technology.tooltip = Bu cihazın Teknoloji türü
+hot_desking.user = Kullanıcı Cihazı
+hot_desking.user_unique.invalid = Kullanıcı Cihazı zaten mevcut
+hot_desking.user.invalid = Lütfen geçerli bir Kullanıcı Cihazı girin
+hot_desking.user.invalid.spaces = Kullanıcı Cihazı boşluk içermemelidir
+hot_desking.user.tooltip = Bu Cihaz'ın kullanıcısı
+hot_desking.voicemail_uri = Sesli Mesaj URI'si
+hot_desking.voicemail_uri.tooltip = Telefonun Msgs düğmesi görsel sesli posta uygulamasını açmak yerine bir SIP URI'sı çevirmeli ise, bu seçenek Msgs düğmesinin hangi URI'yi çevirmesi gerektiğini belirtir. Bu seçeneğin telefonun birincil hattında ayarlanması görsel sesli postayı devre dışı bırakacaktır.
+menu.hot_desking = Hot Desking
+module.hot_desking = Hot Desking
+hot_desking.profile_id = Profil
+hot_desking.profile_id.tooltip = Seçilen teknoloji için ortak parametrelere sahip profil.
+hot_desking.send_push = Push Gönder
+hot_desking.send_push.tooltip = Etkinleştirilirse, PBX, <b> {0} </b> Yazılım Telefonunu çalıştıran mobil cihazlara push bildirimleri göndermeye çalışır.
+hot_desking.dispatchable_location = Gönderilebilir Konum
+hot_desking.dispatchable_location.tooltip =
+	Bu aygıt için gönderilebilir konumu seçmenize veya tanımlamanıza olanak tanır. Bu bilgiler, bu cihazdan 
+	bir acil durum araması yapıldığında gönderilecek bildirimlere dahil edilmek üzere kullanılacaktır.
+hot_desking.nat.default.tooltip = NAT yapılandırmalarını global SIP Ayarlarından alır. (Ayarlar >> Teknoloji Ayarları >> SIP Ayarları)
+hot_desking.vitxi_client = Vitxi İstemcisi
+hot_desking.vitxi_client.tooltip =
+	Etkinleştirilirse, bu cihaz Vitxi WebRTC uygulaması veya Vitxi Yazılım Telefonları için kullanılabilir (Android ya da IOS). Bu
+	seçenekle işaretlenen cihazlar Vitxi Softphone ile mobil cihazlarda kullanıldığında, tüm premium özellikler
+	yazılım telefonunda etkinleştirilecektir..

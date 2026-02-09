@@ -1,0 +1,11 @@
+custom_dest = Özel Hedefler
+custom_dest.class_of_service_id = Hizmet Sınıfı
+custom_dest.class_of_service_id.tooltip = Aranacak numarayı araştırmak (search) için Hizmet Sınıfı
+custom_dest.description = Açıklama
+custom_dest.description.tooltip = Bu Özel Hedefi tanımlayan ad
+custom_dest.destination = Aranacak Numara
+custom_dest.destination.invalid = Aranacak Numara geçersiz.Sadece *,#,+ ve numaralar kullanılabilir. 
+custom_dest.destination.tooltip = Aranacak Dahili ya da Harici numara
+custom_dest.general = Genel
+menu.custom_destinations = Özel Hedefler
+module.custom_dest = Özel Hedefler

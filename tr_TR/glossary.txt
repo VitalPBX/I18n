@@ -56,3 +56,6 @@ csv.invalid_file = CSV dosyası seçmediniz
 select_country = -- Ülke Seç --
 select_state = -- İl Seç --
 continue = Devam Et
+tenant = Kiracı
+invalid_extension = Verilen dahili/numara geçersiz. Yalnızca *, #, + ve rakamlar kullanılabilir.
+page = Sayfa

@@ -1,0 +1,23 @@
+module.domotic_notifications = Domotik Bildirimler
+
+domotic_notifications.general.tab = {vitalpbx.general}
+
+domotic_notifications.unit_id = Birim
+domotic_notifications.unit_id.help = Seçilen birime bağlı olarak yapılandırılacak cihazı gösterecektir.
+domotic_notifications.device_id = Cihaz
+domotic_notifications.device_id.help = Bildirimi yapılandıracak cihaz.
+domotic_notifications.device_id.select_one = -- Seçiniz --
+domotic_notifications.recording_id = Karşılama Mesajı
+domotic_notifications.recording_id.help = Cihaz hata verdiğinde çalınacak ses
+domotic_notifications.enabled = Etkin
+domotic_notifications.enabled.help = Bu cihaz için bildirimleri etkinleştir
+domotic_notifications.destination = Hedef
+
+domotic_notifications.validation.device_id = Cihaz gereklidir.
+domotic_notifications.validation.recording_id = Bildirim sesi gereklidir.
+domotic_notifications.validation.mod_destination = Hedef modül gereklidir.
+domotic_notifications.validation.destination = Hedef gereklidir.
+
+domotic_notifications.delete = {vitalpbx.delete}
+domotic_notifications.delete.message = Bu bildirimi silmek istediğinize emin misiniz?
+

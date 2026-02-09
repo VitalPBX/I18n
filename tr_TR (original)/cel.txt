@@ -1,0 +1,12 @@
+cel_events = CEL Ayarları
+module.cel_events = {cel_events}
+menu.cel_events = {cel_events}
+cel_events.general = {vitalpbx.general}
+cel.enable = Etkin
+cel.enable.tooltip = Asterisk Kanalı Olay Günlüğü'nü (CEL) Etkinleştir / Devre Dışı Bırak 
+cel.apps = Uygulamalar
+cel.apps.tooltip = CEL olaylarını almak istediğiniz uygulamaların listesini belirlemenize izin verir
+cel.events = Olaylar
+cel.events.tooltip = Meydana geldiklerinde ortaya çıkmasını istediğiniz olayların listesini belirlemenizi sağlar.
+cel.dateformat = Tarih Formatı
+cel.dateformat.tooltip = CEL olayları ortaya çıktığında kullanılan tarih formatını belirlemenizi sağlar.

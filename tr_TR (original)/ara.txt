@@ -1,0 +1,41 @@
+module.ara = Asterisk Gerçek Zamanlı
+menu.ara = {module.ara}
+ara.general = {vitalpbx.general}
+ara.enabled = Etkinleştirildi
+ara.enabled.tooltip = PJSIP cihazları ve devreleri için gerçek zamanlı özelliğini etkinleştirir.
+ara.external_auth = Harici Kimlik Doğrulama
+ara.external_auth.tooltip =
+	Evet olarak ayarlandığında, PJSIP cihazları için “auth” parametresi ayarlanmaz. Bu, kimlik doğrulama “Kamailio” gibi harici bir yazılımdan yapıldığında kullanışlıdır.
+ara.enabled_realtime = Gerçek Zamanlı Etkinleştirme
+ara.enabled_realtime.p =
+	Gerçek Zamanlı özelliğini etkinleştirmek istediğinizden emin misiniz? Bu özelliği etkinleştirmek birkaç dakika sürebilir. Ayrıca, işlem sırasında Asterisk yeniden başlatılacaktır.
+ara.continue = Devam Et
+ara.disable_realtime = Gerçek Zamanlı Devre Dışı Bırakma
+ara.disable_realtime.p =
+	Gerçek Zamanlı özelliğini devre dışı bırakmak istediğinizden emin misiniz? Bu işlem sırasında Asterisk'in yeniden başlatılacağını unutmayın.
+ara.attached_servers = Uzak Asterisk Sunucukarı
+ara.add_server = Sunucu Ekle
+ara.server_name = Sunucu Adı
+ara.server_name.tooltip = Bu sunucu için kısa bir açıklama
+ara.server = IP/Alan Adı
+ara.server.tooltip = Sunucunun IP Adresi/Alan Adı
+ara.status = Bağlanabilirlik
+ara.actions = Eylemler
+ara.root_password = Root Şifresi
+ara.root_password.password =
+    Sunucuya bağlanmak ve gerekli yapılandırmaları yapmak için root şifresi. Bu şifre veritabanında saklanmaz ve yalnızca sunucu oluşturulduğunda veya sunucu IP/Alan Adı değiştirildiğinde gereklidir.
+ara.invalid_ip_domain = Geçersiz bir IP/Alan Adı yazdınız.
+ara.duplicated_ip_domain = Yazılan IP/Alan Adı zaten var.
+ara.cannot_connect_to_server =
+	Sunucuyu yapılandırmak için sunucu ile bağlantı kurulamıyor.
+ara.cannot_configure_server =
+	Sunucuyu yapılandırmak mümkün olmadı.
+ara.connected = Bağlandı
+ara.disconnected = Bağlantı kesildi
+ara.edit_server = Sunucuyu düzenle
+ara.ssh_key = SSH Anahtarı kurun
+ara.ssh_key.instructions.header = Aşağıdaki talimatları takip edin.
+ara.ssh_key.instructions.step_1 = Root önceliklerini kullanarak PBX sunucunuza bağlanın.
+ara.ssh_key.instructions.step_2 = Giriş yaptıktan sonra, .ssh dizinini oluşturun (eğer yoksa).
+ara.ssh_key.instructions.step_3 = authorized_keys dosyasını düzenleyerek public anahtarı ekleyin.
+ara.ssh_key.instructions.step_4 = Aşağıdaki public anahtarı authorized_keys dosyasına yapıştırın ve kaydedin.

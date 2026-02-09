@@ -37,4 +37,5 @@ cdr_filters.general = Genel
 cdr_filters.none = Hiçbiri
 menu.cdr_filters = CDR Filtreleri
 module.cdr_filters = CDR Filtreleri
+cdr_filters.no_conditions = Hiçbir arama koşulu belirtilmedi
 cdr_filters.conditions.search_by.did = {repcdr.did}

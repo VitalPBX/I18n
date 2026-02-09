@@ -1,0 +1,129 @@
+ai_assistants = AI Asistanları
+ai_api_keys = API Anahtarları
+ai_tools = AI Araçları
+menu.ai_assistants = {ai_assistants}
+menu.ai_api_keys  = {ai_api_keys}
+menu.ai_tools  = {ai_tools}
+ai_assistants.unlicensed = {sms.unlicensed}
+module.ai_api_keys = AI API Anahtarları
+module.ai_assistants = {ai_assistants}
+module.ai_tools = {ai_tools}
+ai_assistants.description = {description}
+ai_assistants.description.tooltip = Bu öğeyi tanımlamak için kısa bir açıklama
+ai_assistants.api_key = {voice_hub.api_key}
+ai_assistants.api_key.tooltip = OpenAI tarafından sağlanan API anahtarı.
+ai_api_keys.general = {vitalpbx.general}
+ai_assistants.validation.no_description = "Açıklama" alanı gerekli.
+ai_assistants.validation.duplicated_api_key = "API Anahtarı" tekil olmalı.
+ai_assistants.validation.no_api_key = "API Anahtarı" alanı gerekli.
+ai_assistants.validation.api_key_in_use = Bu API Anahtarı öğesi, aşağıdaki AI Asistanları tarafından kullanıldığı için silinemez: "{0}".
+ai_assistants.general = {vitalpbx.general}
+ai_assistants.voice_profile = {recmanagement.voice_profile}
+ai_assistants.voice_profile.tooltip = Arayanların sorularını yanıtlamak için kullanılacak ses.
+ai_assistants.model = GPT Modeli
+ai_assistants.model.tooltip = Asistanın kullandığı GPT Modeli.
+ai_assistants.name = Asistan Adı
+ai_assistants.name.tooltip = Sanal asistanın adı.
+ai_assistants.instructions = Asistan Talimatları
+ai_assistants.instructions.tooltip = Asşstanın kullandığı sistem talimatları.
+ai_assistants.max_interactions = Maksimum Etkileşim
+ai_assistants.max_interactions.tooltip =
+    Asistanın arayanı “Nihai Hedefe” yönlendirmeden önce cevaplayabileceği maksimum soru sayısı. Sınırlama olmaması için boş bırakın.
+ai_assistants.welcome_msg = Hoş Geldiniz Mesajı
+ai_assistants.welcome_msg.tooltip =
+    Arayan kişinin AI asistanıyla etkileşime geçmeden önce duyacağı ilk ses. Genel bir hoş geldiniz mesajının yanı sıra AI asistanıyla nasıl etkileşim kurulacağına dair talimatlar da içerebilir.
+ai_assistants.wait_msg = Bekleme Mesajı
+ai_assistants.wait_msg.tooltip = AI asistanı bilgileri işlerken arayan kişinin duyacağı ses.
+ai_assistants.inaudible_msg = Duyulmayan Mesaj
+ai_assistants.inaudible_msg.tooltip =
+    Arayan kişiye, AI asistanının söylediklerini anlamadığını bildiren sesli mesaj.
+    Asistan, arayan kişinin söylediklerini iki kez üst üste anlamazsa, arama “Nihai Hedef”e gönderilir.
+ai_assistants.listening_msg = Dinleme Sesi
+ai_assistants.listening_msg.tooltip = Arayan kişiye Sanal Asistanın dinlediğini belirten bir ses veya ton.
+ai_assistants.final_destination = Nihai Hedef
+ai_assistants.max_silence = Maksimum Sessizlik
+ai_assistants.max_silence.tooltip = Arayan kişinin sorusunu işleme almadan önce sessiz kalınan maksimum süre (saniye cinsinden).
+ai_assistants.validation.field_required = "{0}" alanı gerekli.
+ai_assistants.validation.duplicated_name = Aynı isimde bir Asistan zaten var.
+ai_assistants.validation.invalid_api_key = Seçilen API Anahtarı geçersiz.
+ai_assistants.validation.invalid_model = Seçilen GPT modeli geçersiz.
+ai_assistants.validation.invalid_voice_profile = Seçilen Ses Profili geçersiz.
+ai_assistants.validation.min = "{0}" alanı için minimum değer "{1}."
+ai_assistants.validation.no_numeric = "{0}" alanı geçerli bir sayı gerektirir.
+ai_assistants.add_file = Dosya Ekle
+ai_assistants.files = Eklenen Dosyalar
+ai_assistants.created_at = Tarih / Saat
+ai_assistants.file = Dosya
+ai_assistants.file.tooltip =
+    AI asistanının modelinin dışındaki soruları yanıtlamak için kullanacağı dosya. Geçerli dosya formatları docx, pdf, json, md ve txt.
+ai_assistants.upload = Yükle
+ai_assistants.no_file = Yüklemek için dosya seçmediniz!
+ai_assistants.invalid_file = “{1}” mimetype'li “{0}” dosyası geçerli değil!
+ai_assistants.file_successfully_added = Dosya bu temsilciye başarıyla eklendi.
+ai_assistants.file_successfully_removed = Dosya bu temsilciden başarıyla kaldırıldı.
+ai_assistants.ask_a_question = Soru Sor
+ai_assistants.question = Soru
+ai_assistants.question.tooltip = AI temsilciyi test etmek için sorulacak soru.
+ai_assistants.ask = Sor
+ai_assistants.ask_another_question = Başka Bir Soru Sor
+ai_assistants.internal_directory = Dahili Dizin
+ai_assistants.internal_directory.tooltip =
+    Seçilen değerlere bağlı olarak, arayanlar belirli bir kullanıcı dahili numarası, kuyruk veya çalma grubuna aktarılmayı isteyebilir. Arama, isim veya açıklamaya göre yapılır.
+ai_assistants.id.extensions = {menu.extensions}
+ai_assistants.id.queues = {menu.queues}
+ai_assistants.id.ring_groups = {menu.ring_groups}
+ai_assistants.notifications_email = Bildirimlerin GÖnderileceği E-posta Adresleri
+ai_assistants.notifications_email.tooltip =
+    Konuşma özetini veya istenen verileri göndermek için e-posta adresleri. Konuşma bittikten sonra AI'ya e-posta göndermesi için talimat vermeniz gerektiğini unutmayın.
+ai_assistants.temperature = Sıcaklık
+ai_assistants.temperature.tooltip =
+    0 ile 2 arasında hangi örnekleme sıcaklığının kullanılacağı. 0,8 gibi yüksek değerler çıktıyı daha rastgele hale getirirken, 0,2 gibi düşük değerler çıktıyı daha odaklı ve belirleyici hale getirir.
+ai_assistants.validation.temperature.range =
+    "Sıcaklık" alanı için 0 ila 2 arasında geçerli bir sayı vermelisiniz.
+ai_tools.general = {vitalpbx.general}
+ai_tools.ai_api_key = {voice_hub.api_key}
+ai_tools.ai_api_key.tooltip = Bu modülde etkinleştirilen özellikler için kullanılacak olan API anahtarı.
+ai_tools.voicemail_transcription = Sesli Mesaj Yazıya Dökümü
+ai_tools.voicemail_transcription.tooltip = Etkinleştirildiğinde, her dahili hat için transkripsiyonu açıp kapatmak için bir onay kutusu görünecektir.
+ai_tools.call_recordings_transcription = Çağrı Kayıtlarının Yazıya Dökümü
+ai_tools.call_recordings_transcription.tooltip = Etkinleştirildiğinde, çağrı kayıtlarını yazıya dökmek için CDR modülünde bir simge görünür.
+ai_tools.validation.no_api_key = API Anahtarı seçilmedi. AI Yazıya Döküm özelliklerini etkinleştirmek için bir API Anahtarı seçin.
+ai_assistants.validation.api_key_in_use_by_tools = Bu API Anahtarı, şu anda AI Tools modülü tarafından kullanıldığı için silinemez.
+ai_tools.language = Dil
+ai_tools.language.tooltip =
+    Yazıya döküm için giriş sesinin dilini ayarlar. Doğru dili seçmek dökümün doğruluğunu artırır. ‘Otomatik’ seçildiğinde, AI dili otomatik olarak algılamaya çalışır.
+ai_tools.auto = Otomatik
+ai_tools.temperature = Sıcaklık
+ai_tools.temperature.tooltip =
+    Bu ayar, yazıya döküm sonuçlarının değişkenliğini ayarlar. Daha yüksek değerler (örneğin, 0,8) dökümü daha yaratıcı ve esnek hale getirirken, daha düşük değerler (örneğin, 0,2) dökümü daha kesin ve tutarlı hale getirir. 0 olarak ayarlandığında, AI optimum doğruluk için ayarı otomatik olarak ince ayarlar.
+ai_tools.pbx_assistant = PBX Asistanı
+ai_tools.pbx_assistant.tooltip =
+    Etkinleştirildiğinde, üst gezinme çubuğunda bir sohbet robotu simgesi görünür ve kullanıcılar PBX yapılandırmaları konusunda uzmanlaşmış bir AI asistanıyla sohbet edebilirler.
+ai_tools.pbx_assistant.disable = PBX Asistanı şu anda devre dışı. Etkinleştirmek için AI Araçları modülüne gidin.
+conversational_ai = Sohbet AI
+menu.conversational_ai = {conversational_ai}
+module.conversational_ai = {conversational_ai}
+conversational_ai.general = {vitalpbx.general}
+conversational_ai.description = {ai_assistants.description}
+conversational_ai.description.tooltip = A short description
+conversational_ai.instructions = {ai_assistants.instructions}
+conversational_ai.instructions.tooltip =
+    Model çağrılarının başına eklenen varsayılan sistem talimatları (yani sistem mesajı). Bu alan, modeli istenen yanıtlar konusunda yönlendirmenizi sağlar. Modele yanıt içeriği ve formatı (ör. “son derece kısa ve öz olun”, “arkadaşça davranın”, “işte iyi yanıtlara örnekler”) ve ses davranışı (ör. “hızlı konuşun”, “sesinize duygu katın”, “sık sık gülün”) konusunda talimatlar verilebilir. Talimatların model tarafından uygulanacağı garanti edilmez, ancak modele istenen davranış konusunda rehberlik ederler.
+conversational_ai.api_key = {ai_assistants.api_key}
+conversational_ai.api_key.tooltip = {ai_assistants.api_key.tooltip}
+conversational_ai.model = {ai_assistants.model}
+conversational_ai.model.tooltip = Kullanılacak GPT modeli.
+conversational_ai.voice = Ses
+conversational_ai.voice.tooltip = AI'ın yanıt vermek için kullanacağı ses.
+conversational_ai.providers.twilio = Twilio
+conversational_ai.provider = Servis Sağlayıcı
+conversational_ai.provider.tooltip = Gerçek zamanlı olarak kesintisiz çift yönlü iletişim için medya akışını yönetecek ses sağlayıcı.
+conversational_ai.webhook_url = Webhook URL
+conversational_ai.webhook_url.tooltip = VoIP hizmet sağlayıcı portalında ayarlamanız gereken Webhook URL'si.
+conversational_ai.url_copied = Webhook URL'si panonuza kopyalandı!
+ai_assistants.transcription_model = Yazıya Döküm Modeli
+ai_assistants.transcription_model.tooltip = Arayan sesini işlenmek üzere AI Asistanlarına göndermeden önce metne dönüştürmek için kullanılan model.
+ai_tools.transcription_model = {ai_assistants.transcription_model}
+ai_tools.transcription_model.tooltip = Sesli mesaj sesini metne dönüştürmek için kullanılan model.
+ai_assistants.agent_unlinked =
+    Bu öğeye bağlı OpenAI Temsilcisi silinmiştir. AI özelliklerini kullanmaya devam etmek için lütfen bu öğeyi güncelleyerek yeni bir OpenAI Temsilcisi oluşturun.

@@ -1,0 +1,31 @@
+menu.user_profiles = Kullanıcı Profilleri
+module.users_profiles = Kullanıcı Profilleri
+users_profiles = Kullanıcı Profilleri
+users_profiles.collapse_all = Tümünü Daralt
+users_profiles.confirm_delete = Bu profili silmek istediğinden emin misin?
+users_profiles.delete = Sil
+users_profiles.description = Profil İsmi
+users_profiles.description.tooltip = Bu profil için isim.
+users_profiles.expand_all = Tümünü Genişlet
+users_profiles.general = Genel
+users_profiles.module_access = Modül Erişimi
+users_profiles.priv.add = Ekle
+users_profiles.priv.delete = Sil
+users_profiles.priv.edit = Düzenle
+users_profiles.priv.view = Görüntüle
+users_profiles.superadmin = Ayrıcalık Ver
+users_profiles.superadmin.tooltip = Tüm Modüllere Erişime İzin Ver.
+users_profiles.deleting_default_user_profile = Varsayılan kullanıcı profili silinemez.
+users_profiles.permissions = İzinler
+users_profiles.change_language = Dili Değiştir
+users_profiles.change_language.tooltip =
+    Bu profile atanmış bir kullanıcının GUI dilini değiştirip değiştiremeyeceğini tanımlar.
+users_profiles.get_updates = Güncelleştirmeleri Al
+users_profiles.get_updates.tooltip =
+    Bu profile atanmış bir kullanıcının GUI'den <b>{0}</b> öğesini güncelleyip güncelleyemeyeceğini tanımlar.
+users_profiles.update_profile = Profili Güncelle
+users_profiles.update_profile.tooltip =
+    Bu profile atanmış bir kullanıcının profil ayarlarını güncelleyip güncelleyemeyeceğini tanımlar.
+users_profiles.role_is_being_used = Bu rol {0} tarafından kullanılıyor.
+users_profiles.single_user = <b>{0}</b> kullanıcı
+users_profiles.multiple_users = Birden fazla kullanıcı

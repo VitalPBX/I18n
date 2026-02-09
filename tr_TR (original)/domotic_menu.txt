@@ -1,0 +1,6 @@
+menu.domotic = Domotik 
+menu.domotic_conf = Yapılandırma
+menu.domotic_units = Birimler
+menu.domotic_devices = Cihazlar
+menu.domotic_scenes = Ekranlar
+menu.domotic_notifications = Bildirimler

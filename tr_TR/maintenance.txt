@@ -47,3 +47,9 @@ maintenance.good = İyi ({0}k)
 maintenance.medium = Orta ({0}k)
 maintenance.best = En İyi ({0}k)
 maintenance.high = Yüksek ({0}k)
+maintenance.sms_preservation = En Eski SMS'i Sil
+maintenance.sms_preservation.tooltip =
+    Tanımlanmışsa, burada tanımlanan gün sayısından daha eski SMS'ler silinir. SMS silme özelliğini devre dışı bırakmak için bu alanı boş bırakın veya sıfıra ayarlayın.
+maintenance.logger_preservation = En Eski Günlük Olaylarını Sil
+maintenance.logger_preservation.tooltip =
+    Günlük olaylarının saklanacağı maksimum gün sayısını tanımlamanıza olanak tanır. Burada tanımlanan gün sayısından daha eski olaylar silinecek.

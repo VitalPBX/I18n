@@ -1,0 +1,14 @@
+accountcode = Müşteri Kodları
+accountcode.code = Müşteri Kodu
+accountcode.code.invalid = Müşteri kodu geçersiz. Sadece numaraları ve "*" (asterisk) sembollerini kullanın.
+accountcode.code.tooltip = Müşteri kod numarası.
+accountcode.description = Açıklama
+accountcode.description.tooltip = Müşteri kodunu tanımlamak için kısa açıklama.
+accountcode.enabled = Etkin
+accountcode.enabled.tooltip = Bu müşteri kodunu Etkinleştir/Devre Dışı Bırak.
+accountcode.general = Genel
+accountcode.not_found = Müşteri kodu bulunamadı.
+accountcode.search = Ara
+module.accountcode = Müşteri Kodları
+menu.account_codes = Müşteri Kodları
+accountcode.duplicated_code = Verilen kod halihazırda kullanımda.

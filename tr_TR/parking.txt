@@ -47,3 +47,6 @@ parking.timeout_destination = Zaman Aşımı Hedefi
 parking.announce_space_number = Aralık Numarasını Duyur
 parking.announce_space_number.tooltip = Hayır olarak ayarlanırsa, park yeri numarasının anonsu susturulur.
 parking.max_reached = İzin verilen maksimum park yeri sayısına ulaştınız.
+parking.record = Kayıt
+parking.record.tooltip = Evet olarak ayarlandığında, bu park öğesine ait park yerlerinden alınan çağrılar kaydedilecektir.
+parking.extension.collision = Belirtilen aralıkta verilen park yeri, “{0}” park yeri ile çakışıyor.

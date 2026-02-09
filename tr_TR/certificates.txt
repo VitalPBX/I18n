@@ -33,5 +33,11 @@ certificates.certificate = Sertifika
 certificates.certificate.tooltip =  Sertifika dosyasının içeriği olmalıdır.(Örn: certificate.crt)
 certificates.key = Anahtar
 certificates.key.tooltip = Anahtar dosyanın içeriği olmalıdır (Örn: private.key)
-certificates.chain = Chain
-certificates.chain.tooltip = Should be the content intermediate certificate file (Örn: ca_bundle.crt)
+certificates.chain = Zincir
+certificates.chain.tooltip = İçerik ara sertifika dosyası olmalıdır (Örnek: ca_bundle.crt)
+certificates.sub_domains = Alt Alan Adları
+certificates.sub_domains.tooltip =
+	Sertifikaya dahil edilecek alt alan adlarının listesi. Yani, üst alan adınız “example.com” ise, alt alan adlarınız “sip1.example.com”, “sip2.example.com” vb. biçiminde olmalıdır.
+certificates.invalid_sub_domain = “{0}” alt alan adı geçerli bir biçimde değil.
+certificates.no_sub_domain = “{0}” alt alan adı, “{1}”'in alt alan adı değildir.
+certificates.duplicated_sub_domain = “{0}” alt alan adı birden fazla kez tanımlanmıştır.

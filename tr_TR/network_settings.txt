@@ -56,3 +56,4 @@ network_settings.nmcli_not_installed =
 	Mevcut kurulumunuzda <b>"nmcli"</b> komutu bulunmadığından ağ yapılandırılamıyor.
 	Bunun nedeni, VPS sağlayıcınızın bu komutu varsayılan olarak yasaklaması ya da sunucunuzda <b>"NetworkManager"</b> 
 	paketinin kurulu olmaması olabilir.
+network_settings.disable = PBX GUI'den Ağ Yönetimi kasıtlı olarak devre dışı bırakılmıştır.

@@ -1,0 +1,30 @@
+dynamic_routing = Dinamik Yönlendirme
+menu.dynamic_routing = {dynamic_routing}
+module.dynamic_routing = {dynamic_routing}
+dynamic_routing.general = {vitalpbx.general}
+dynamic_routing.list = Liste
+dynamic_routing.et.hours =
+	[bir] {0} Saat
+	[diğer] {0} Saatler
+dynamic_routing.et.never = Asla
+dynamic_routing.expiration_time = Son Kullanma Süresi
+dynamic_routing.expiration_time.tooltip =
+	Dinamik yönlendirme listesindeki kayıtların otomatik olarak silinmeden önce, ne kadar süreyle
+	korunacağını tanımlamayı sağlar.
+dynamic_routing.digits_match = Hane Eşleşmesi
+dynamic_routing.digits_match.tooltip =
+	Daha sonra dinamik yönlendirme listesinde eşleşmeleri aramak için, arayan numaradan (sağdan sola)
+	çıkarılacak hane sayısını belirlemeye izin verir. Boş bırakılırsa, tüm arayanların numaraları, eşleşmeleri
+	aramak için kullanılacaktır.
+dynamic_routing.delete_used_records = Kullanılmış Kayıtları Sil
+dynamic_routing.delete_used_records.tooltip =
+	İşaretlenirse, geri arama yanıtlandığında kayıt dinamik yönlendirme listesinden silinecektir.
+dynamic_routing.only_missed_calls = Sadece Cevapsız Çağrıları Sakla
+dynamic_routing.only_missed_calls.tooltip =
+	İşaretlenirse, yalnızca aranan taraf tarafından yanıtsız kalan çağrılar (giden) dinamik yönlendirme listesine kaydedilir.
+dynamic_routing.calldate = Çağrı Tarihi & Saati
+dynamic_routing.extension = Dahili Numara
+dynamic_routing.called = Aranan Numara
+dynamic_routing.trunk = Bağlantı Noktası
+dynamic_routing.actions = Eylemler
+dynamic_routing.completed = Tamamlandı

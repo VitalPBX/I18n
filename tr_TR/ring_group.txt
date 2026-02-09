@@ -44,3 +44,14 @@ ring_group.answered_elsewhere.tooltip =
 ring_group.allow_diversions = Yönlendirmelere İzin Ver
 ring_group.allow_diversions.tooltip =
 	Farklı dahili üyeleri için tanımlanan yönlendirmelerin uygulanıp uygulanmayacağını belirlemenize olanak sağlar.
+ring_group.answerchannel = Yanıt Kanalı
+ring_group.answerchannel.tooltip =
+	“Evet” olarak ayarlanırsa, bu uygulamaya gelen aramalar, burada tanımlanan numaralar listesi çalmaya başlamadan önce cevaplanacaktır. Bunu “hayır” olarak ayarlamak, bazı seslerin veya bekleme müziğinin çalınmamasına neden olabilir.
+ring_group.skip_busy = Meşgul Dahilileri Geç
+ring_group.skip_busy.tooltip = Evet olarak ayarlanırsa, meşgul durumundaki listelenen tüm dahililer atlanacak.
+ring_group.no_release = Serbest Bırakma
+ring_group.no_release.tooltip =
+	Çalma grubu üyelerine serbest bırakma bayrağı (\n) ekler; bu, CDR'de birden fazla öğe oluşturulmasını önler; ancak, bu seçenek etkinleştirildiğinde bazı telefonlarda aktarımda sorunlar yaşanabilir; bu nedenle, gerektiğinde bu seçeneği devre dışı bırakabilirsiniz.
+ring_group.announ_id = Anons
+ring_group.announ_id.tooltip = Bu çalma grubunun üyelerine zil çalınmadan önce çalınacak isteğe bağlı ses.
+ring_group.validation.loop_detected = Döngüleri önlemek için, son hedef olarak aynı çalma grubunu kullanamazsınız.

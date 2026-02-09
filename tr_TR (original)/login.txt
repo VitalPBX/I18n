@@ -1,0 +1,16 @@
+login.signing_in = Giriş
+login.panel = Panel
+login.pbx.desc = Asterisk PBX yönetimi
+login.billing.desc = Çağrılarınıza maliyet uygulayacak yazılım
+login.monitoring.desc = Çağrıları izleme yazılımı
+login.recordings.desc = Kayıt yönetimi yazılımı
+login.install_on_addons = Eklentilere Git
+login.retype_password = Şifreyi Yeniden Yaz
+login.validation.password_not_retyped = Lütfen şifrenizi tekrar yazın
+login.validation.different_password = Lütfen aynı değeri tekrar girin
+login.reset_password_title = Yönetici Şifresini Ayarla
+login.reset_password_title.tooltip = Bu form, yönetici kullanıcı ile giriş yapmak için şifreyi yapılandırmanıza izin verir
+login.no_db = Bekle, veritabanı halen yükleniyor.
+login.username.required = Lütfen kullanıcı adınızı giriniz
+login.tenant_name = Kiracı Adı
+login.tenant = Kiracı

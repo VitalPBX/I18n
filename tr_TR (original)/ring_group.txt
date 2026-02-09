@@ -1,0 +1,46 @@
+menu.ring_groups = Zil Grupları
+module.ring_group = Zil Grupları
+ring_group = Zil Grubu
+ring_group.description = Açıklama
+ring_group.description.tooltip = Bu zil grubunu tanımlamak için kısa açıklama.
+ring_group.destination = Hedef
+ring_group.extension = Kod
+ring_group.extension.invalid = Dahili numaralar gereklidir.
+ring_group.extension.tooltip = Bu servise ulaşmak için aranacak numara.
+ring_group.general = Genel
+ring_group.invalid.already_exists = Geçersiz Zil Grubu numarası {0}. Numara, {1} modülü tarafından kullanılıyor.
+ring_group.last_destination = Son Hedef
+ring_group.last_destination.tooltip = Dahililerden hiçbirine ulaşılamadıysa çalıştırılacak hedef.
+ring_group.list = Dahililer
+ring_group.list.tooltip = Bu zil grubu için dahili numara listesi.
+ring_group.mod_dest = Hedef Modül
+ring_group.music_group_id = Zil Geri Çaldırma Tonu
+ring_group.music_group_id.tooltip = İstenen kanal yanıt verene kadar arayan tarafa bekleme müziği sağlayın.
+ring_group.prefix = CID Adı Ön Eki
+ring_group.prefix.invalid = Lütfen geçerli bir Arayan Kimliği Adı Ön Eki yazın. Alt çizgi, kısa çizgi ve alfanümerik değerlere izin verilir.
+ring_group.prefix.tooltip = Bu zil grubuna eklenecek önek
+ring_group.ringtime = Çalma Süresi
+ring_group.ringtime.tooltip = Saniye cinsinden Çalma Süresi, MAKS. 160 saniye.
+ring_group.ringtime.values = Çalma Süresi değeri 5 ile 160 saniye arasında olmalıdır.
+ring_group.select_extensions = Dahilileri Seçin
+ring_group.strategy = Çalma Stratejisi
+ring_group.strategy.one_by_one = Teker Teker
+ring_group.strategy.ringall = Tümünü Çaldır
+ring_group.strategy.tooltip = Çalma Stratejisi
+ring_group.validation.duplicated_description = Sağlanan açıklama başka bir zil grubu tarafından kullanılıyor. Lütfen doğrulayın.
+ring_group.validation.no_extensions = Bu zil grubuna hiçbir dahili ya da harici numara eklenmedi.
+ring_group.validation.duplicated_extension = Sağlanan dahili numara başka bir zil grubu tarafından kullanılıyor. Lütfen doğrulayın.
+ring_group.external_numbers = Harici Numaralar
+ring_group.external_numbers.tooltip = Bu zil grubu arandığında çaldırılacak harici numaraların listesi
+ring_group.cos = {class_of_service.cos}
+ring_group.cos.tooltip = Bu zil grubunda listelenen harici numaraları aramak (tuşlamak) için kullanılacak Hizmet Sınıfı
+ring_group.validation.no_valid_number =
+	Harici numara <b>{0}</b> geçersiz karakterler içeriyor. Sadece numaralar,
+	ve yandaki karakterlere izin verilir: *, # ve +
+ring_group.answered_elsewhere = {queues.answered_elsewhere}
+ring_group.answered_elsewhere.tooltip =
+	Bu seçenek etkinleştirildiğinde, bu zil grubunda listelenen bir telefonda arama yanıtlandığında diğer telefonların
+	cevapsız aramayı kaydetmesini önler. Bu, zil stratejisi "Tümünü Çaldır" olarak ayarlandığında çok kullanışlı bir ayardır.
+ring_group.allow_diversions = Yönlendirmelere İzin Ver
+ring_group.allow_diversions.tooltip =
+	Farklı dahili üyeleri için tanımlanan yönlendirmelerin uygulanıp uygulanmayacağını belirlemenize olanak sağlar.

@@ -1,3 +1,4 @@
+menu.multi_tenant = Çoklu Kiracı
 module.tenants = Kiracılar
 menu.tenants = {module.tenants}
 tenants.general = Genel
@@ -84,9 +85,6 @@ tenants.did_pattern.placeholder = 1NXXNXXXXXX
 tenants.outbound_profiles = Giden Profiller
 tenants.outbound_profiles.tooltip =
 	Bu kiracıda giden profil olarak hangi rota seçimi öğelerinin kullanılabileceğini tanımlamanıza olanak tanır.
-tenants.emergency_trunks = Acil Ana Hatları
-tenants.emergency_trunks.tooltip =
-	Acil numara modülünde acil durum ana hatları (bağlantı noktaları) olarak kullanılmak üzere ana kiracıdan bu kiracı ile ana hatları (bağlantı noktalarını) paylaşmanıza olanak tanır
 tenants.name.validation.alphanumeric = Kiracı adı, geçerli bir alfanümerik değer olmalıdır
 tenants.send_welcome_email = Hoş Geldin E-postası Gönder
 tenants.send_welcome_email.tooltip =
@@ -100,4 +98,42 @@ tenants.timezone.tooltip =
 tenants.addons = Harici Eklentiler
 tenants.addons.tooltip =
 	Kullanıcı menüsünde bu kiracıya hangi harici eklentilerin gösterileceğini seçmeye izin verir.
-
+tenants.cid = Varsayılan Harici CID
+tenants.cid_name = CID Adı
+tenants.cid_number = CID Numarası
+tenants.cid.tooltip =
+	Giden aramalarda kullanılacak varsayılan harici CID Adı ve Numarasını tanımlamanıza olanak tanır.
+tenants.restricted_cid = Kısıtlı CID
+tenants.restricted_cid.tooltip  = Harici aramalar için arayan kimliği numaralarının kısıtlanıp kısıtlanmayacağını tanımlamanıza olanak tanır.
+tenants.restricted_cid.disabled = Devre Dışı Bırakıldı
+tenants.restricted_cid.disabled.tooltip = Herhangi bir kısıtlama uygulanmayacaktır. Kiracı, herhangi bir harici CID numarasını kullanabilecektir.
+tenants.restricted_cid.default = Varsayılan
+tenants.restricted_cid.default.tooltip = Bu kiracı için tüm harici aramalar, “Varsayılan Harici CID” alanında tanımlanan CID bilgilerini kullanmaya zorlanacaktır.
+tenants.restricted_cid.dids = DID'ler
+tenants.restricted_cid.dids.tooltip = Harici CID numarası, bu kiracı için tanımlanan DID desenleri/numaralarıyla eşleşmelidir.
+tenants.no_default_cid = “Kısıtlı CID” alanı “Varsayılan” olarak ayarlanmıştır, ancak varsayılan harici CID numarası tanımlanmamıştır.
+tenants.no_dids = “Kısıtlı CID” alanı “DID'ler” olarak ayarlanmıştır, ancak hiçbir DID tanımlanmamıştır.
+tenants.calls_limit = Giden Çağrı Sınırı
+tenants.calls_limit.tooltip = Bu kiracı için izin verilen eşzamanlı giden arama sayısını tanımlamanıza olanak tanır.
+tenants.calls_limit.placeholder = Sınır yok
+tenants.calls_limit.invalid = Giden arama sınırı alanına geçersiz bir değer girdiniz. Değer geçerli bir tamsayı olmalıdır.
+tenants.main = (Ana)
+tenants.duplicated_did = DID “{0}” zaten kiracı “{1}” tarafından kullanılmaktadır.
+tenants.vpbx_devices = VitalPBX Connect Cihazları
+tenants.vpbx_devices.tooltip = Bu kiracının kullanıcılarının ekleyebileceği VitalPBX Connect cihazlarının sayısını tanımlamanıza olanak tanır.
+tenants.calls_sms_routing = Çağrı & SMS Yönlendirme
+tenants.sms_numbers = SMS Numaraları
+tenants.sms_numbers.tooltip = Mesajlaşma Sağlayıcılarında yapılandırılan SMS numaralarını kiracılarla paylaşmanıza olanak tanır.
+tenants.disable_trunks_prefix = Devre Ön Ekini Devre Dışı Bırak
+tenants.disable_trunks_prefix.tooltip =
+    Bu parametreyi “Evet” olarak ayarlamak, kiracının ön ekini ana hat cihazlarına eklemeyi devre dışı bırakır; bu, “Kullanıcı Adı Kimlik Doğrulama” yöntemini kullanarak aynı sağlayıcıdan birden fazla ana hat (farklı kiracılarda) oluşturmanız gerektiğinde yararlı olabilir. <br><br> <b>Uyarı:</b> Birden fazla kiracı için trunk önekini devre dışı bırakmak, cihaz adlarının çoğalmasına (aynı Yerel Kullanıcı Adına sahip trunklar) neden olabilir; bu da sonunda Asterisk hizmetinin çökmesine yol açabilir.
+tenants.did_description = {description}
+tenants.did_description.placeholder = Opsiyonel Açıklama
+tenants.inbound_calls_limit = Gelen Çağrı Sınırı
+tenants.inbound_calls_limit.placeholder = {tenants.calls_limit.placeholder}
+tenants.inbound_calls_limit.tooltip = Bu kiracı için izin verilen eşzamanlı gelen çağrı sayısını tanımlamanıza olanak tanır.
+tenants.inbound_calls_limit.invalid = Gelen çağrı sınırı alanına geçersiz bir değer girdiniz. Değer geçerli bir tamsayı olmalıdır.
+tenants.mfa_allowed = 2FA Etkinleştir
+tenants.mfa_allowed.tooltip = Etkinleştirildiğinde, bu kiracıdaki kullanıcılar ek güvenlik için İki Faktörlü Kimlik Doğrulama (2FA) özelliğini etkinleştirebilir ve kullanabilir.
+tenants.shared_trunks = Paylaşılan Devreler
+tenants.shared_trunks.tooltip = Bu kiracının acil durumlarda veya faks göndermek için kullanabileceği bir devre seçin.

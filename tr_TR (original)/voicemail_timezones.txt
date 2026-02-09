@@ -1,0 +1,14 @@
+menu.voicemail_timezones = Sesli Mesaj Zaman Dilimleri
+module.voicemail_timezones = Sesli Mesaj Zaman Dilimleri
+voicemail_timezones = Sesli Mesaj Saat Dilimleri
+voicemail_timezones.confirm_delete = Bu saat dilimini silmek istediğinize emin misiniz?
+voicemail_timezones.delete = Sil
+voicemail_timezones.general = Genel
+voicemail_timezones.none = Yok
+voicemail_timezones.timezone = Saat Dilimi
+voicemail_timezones.timezone.tooltip = Seçilecek saat dilimi.
+voicemail_timezones.tzdefinition = Zaman Tanımı
+voicemail_timezones.tzname = Ad
+voicemail_timezones.tzname.tooltip = Bu zaman dilimi için kısa isim.
+voicemail_timezones.voicemail_timezone_id = Bölge Mesajları
+voicemail_timezones.voicemail_timezone_id.tooltip = Eğer Bölge Mesajlarından saat dilimi 'hayır' olarak ayarlanırsa, genel ayarlar bölümünden alınacaktır. Zarf 'hayır' ise, ilgisizdir.

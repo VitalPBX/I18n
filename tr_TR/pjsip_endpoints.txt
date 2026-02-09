@@ -13,3 +13,4 @@ pjsip_endpoints.registrations = Giden Kayıtlar
 pjsip_endpoints.client_uri = İstemci URI
 pjsip_endpoints.server_uri = Sunucu URI
 pjsip_endpoints.status = Durum
+pjsip_endpoints.tenant = Kiracı

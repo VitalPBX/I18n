@@ -1,0 +1,45 @@
+menu.vpbx_connect = VitalPBX Connect
+menu.mobile_settings = Ayarlar
+menu.mobile_devices = Cihazlar
+module.mobile_settings = VPBX Connect Ayarları
+module.mobile_devices = VPBX Connect Cihazları
+mobile_settings.general = {vitalpbx.general}
+mobile_settings.host = Alan Adı / IP
+mobile_settings.provisioning_host = Provizyon Alan Adı / IP
+mobile_settings.host.tooltip =
+    VitalPBX Connect mobil uygulamasından provizyon bilgilerini alırken bağlanılacak kamuya açık alan adını/IP adresini tanımlamanıza olanak tanır.
+mobile_settings.licensing = Lisans Kullanımı
+mobile_settings.licensing.tooltip = Oluşturulan öğelerin sayısını izin verilen öğelerin sayılarına karşı gösterir.
+mobile_settings.host.invalid = Lütfen geçerli bir IP veya alan adı girin.
+mobile_devices.general = {vitalpbx.general}
+mobile_devices.device = Cihaz
+mobile_devices.device.tooltip = VitalPBX Connect uygulamasında yapılandırılacak cihaz.
+mobile_devices.description = {description}
+mobile_devices.tenant = Kiracı
+mobile_devices.tenant.tooltip = Cihazların ait olduğu kiracı.
+mobile_devices.enabled = Etkinleştirildi
+mobile_devices.enabled.tooltip = Hayır olarak ayarlanırsa, bu Cihazla ilişkili kullanıcı VitalPBX Connect uygulamasını kullanamaz.
+mobile_devices.actions = Eylemler
+mobile_devices.add = Yeni Cihaz Ekle
+mobile_devices.add_device = {mobile_devices.add}
+mobile_devices.validation.no_host = VitalPBX Connect Ayarlarında Ana Bilgisayar tanımlanmamışsa mobil cihaz eklenemez.
+mobile_devices.validation.invalid_device = Seçilen cihaz geçersiz görünüyor.
+mobile_devices.confirm_delete =
+    Bu öğeyi silmek, kullanıcınızın VitalPBX Connect uygulamasından PBX bağlantısını kaybetmesine neden olacaktır. Devam etmek istiyor musunuz?
+mobile_devices.edit_device = Cihazı Düzenle
+mobile_devices.protocol = Protokol
+mobile_devices.duplicated_device = Seçilen cihaz zaten eklendi.
+mobile_devices.validation.license_limit = VitalPBX Connect cihazları için izin verilen maksimum sayıya ulaştınız.
+mobile_devices.validation.tenant_limit = {0}'dan fazla mobil cihaz eklemenize izin verilmiyor. Lütfen PBX sağlayıcınızla iletişime geçin.
+mobile_settings.reg_host = Registration Domain / IP
+mobile_settings.reg_host.tooltip =
+    Mobil uygulamanın SIP kaydı için kullanacağı alan adı/IP. Değer “Provizyon Alan Adı/IP” alanıyla aynıysa bu alanı boş bırakın.
+mobile_devices.qr = QR Kod
+mobile_devices.validation.cannot_show_qr = Sağlanan veriler geçersiz olduğu için QR gösterilemiyor.
+mobile_devices.app_link = Mobil Uygulama Bağlantısı
+mobile_settings.reg_port = Kayıt Portu
+mobile_settings.reg_port.tooltip =
+    Mobil uygulamada SIP kaydı için UDP/TCP port numarası. Boş bırakılırsa, uygulama PJSIP ayarlarınızda belirtilen varsayılan portları kullanır.
+mobile_settings.port.validation = Girdiğiniz bağlantı noktası numarası doğru değil. Lütfen 1 ile 65535 arasında geçerli bir bağlantı noktası numarası girin.
+mobile_settings.sync_devices = Cihazları Senkronize Et
+mobile_settings.devices_synced = Tüm cihazlar senkronize edildi.

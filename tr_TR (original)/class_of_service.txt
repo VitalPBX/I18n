@@ -1,0 +1,32 @@
+class_of_service = Hizmet Sınıfı
+class_of_service.ars_id = Rota Seçimi
+class_of_service.ars_id.tooltip = Bu Hizmet Sınıfı için kullanılacak rotalar
+class_of_service.configurations = Ayarlar
+class_of_service.cos = Hizmet Sınıfı
+class_of_service.cos.tooltip = Hizmet Sınıfı Adı için eşsiz bir ad. Alfanümerik değerler ile çizgi ve alt çizgiye izin verilir.
+class_of_service.description = Açıklama
+class_of_service.description.tooltip = Hizmet Sınıfı için serbest metin açıklaması.
+class_of_service.dialrule_id = Arama Kısıtlamaları
+class_of_service.dialrule_id.tooltip = Bu Hizmet Sınıfı ile ilişkili Arama Kısıtlama Kuralı
+class_of_service.feature_code_category_id = Özellik Kategorisi
+class_of_service.feature_code_category_id.tooltip = Bu Hizmet Sınıfı ile ilişkilendirilecek Özellik Kategorisi
+class_of_service.general = Genel
+menu.class_of_service = Hizmet Sınıfı
+module.class_of_service = Hizmet Sınıfı
+class_of_service.private = Özel
+class_of_service.private.tooltip =
+	Bu Hizmet Sınıfındaki dahililerin başka bir Hizmet Sınıfındaki dahililer tarafından aranıp aranamayacağını tanımlar.
+	İşaretliyse, yalnızca aynı Hizmet Sınıfı (CoS) ile yapılan aramalara veya "İzin Verilen Aramalar" alanında seçilen Hizmet Sınıfından gelen aramalara 
+	izin verilir. <b>Not: Sadece yerel aramalar için geçerlidir.</b>
+class_of_service.allowed_calls_by = İzin Verilen Aramalar
+class_of_service.allowed_calls_by.tooltip = "Özel" alanı işaretlendiğinde bu Hizmet Sınıfına çağrı yapmasına izin verilecek Hizmet Sınıfı listesini tanımlar.
+class_of_service.billing_app = Ön Ödemeli Faturalandırma
+class_of_service.billing_app.tooltip = Bu Hizmet Sınıfı ile dahililer tarafından yapılan aramaları derecelendirmek için bir fatura uygulaması seçmenize olanak sağlar.
+class_of_service.validation.cos_duplicated = Hizmet Sınıfı "<b>{0}</b>" halihazırda tanımlı.
+class_of_service.validate.default = Varsayılan olarak işaretlendiğinden bu hizmet sınıfını silemezsiniz. 
+class_of_service.validation.in_use = Bu Hizmet Sınıfı  "<b>{0}</b>" modülü tarafından kullanılmaktadır.
+class_of_service.outbound_profile = Giden Profil
+class_of_service.outbound_profile.tooltip =
+	Bu hizmet sınıfı için bir giden profil tanımlamanıza olanak tanır. Bu profiller, giden rotaların bir derlemesini 
+	ve bunların ilişkili modellerini içerir, böylece, giden profile bağlı olarak, bu hizmet sınıfına atanmış dahili
+	hat kullanıcıları uluslararası ve/veya ulusal numaralara harici arama yapabilecek veya yapamayacaklardır.

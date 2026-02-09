@@ -1,0 +1,15 @@
+pjsip_endpoints = PJSIP BitişNoktaları
+menu.pjsip_endpoints = {pjsip_endpoints}
+module.pjsip_endpoints = {pjsip_endpoints}
+pjsip_endpoints.endpoints = BitişNoktaları
+pjsip_endpoints.max_contacts = Maks. Kişi
+pjsip_endpoints.contacts = Kişiler
+pjsip_endpoints.endpoint = BitişNoktası
+pjsip_endpoints.extension = Dahili
+pjsip_endpoints.trunk_name = Bağlantı Noktası Adı
+pjsip_endpoints.match = Eşleşme
+pjsip_endpoints.trunks = Bağlantı Noktaları
+pjsip_endpoints.registrations = Giden Kayıtlar
+pjsip_endpoints.client_uri = İstemci URI
+pjsip_endpoints.server_uri = Sunucu URI
+pjsip_endpoints.status = Durum

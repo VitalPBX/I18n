@@ -11,4 +11,6 @@ asterisk_sounds.not_installed = Asterisk sound paketi henüz yüklenmedi
 asterisk_sounds.successfully_updated = Asterisk ses paketi başarıyla güncellendi 
 asterisk_sounds.cannot_update = Asterisk ses paketi güncellenemez çünkü henüz yüklenmedi
 asterisk_sounds.cannot_remove = Asterisk ses paketi kaldırılamaz çünkü henüz yüklenmedi
+asterisk_sounds.cannot_reinstall = Asterisk ses paketi henüz yüklenmediğinden yeniden yüklenemez.
 asterisk_sounds.successfully_removed  = Asterisk ses paketi başarıyla kaldırıldı
+asterisk_sounds.successfully_reinstalled = Asterisk ses paketi başarıyla yeniden yüklendi.

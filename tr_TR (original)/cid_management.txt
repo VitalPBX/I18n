@@ -1,0 +1,78 @@
+menu.cid_management = CID Değiştiriciler
+module.cid_management = CID Değiştiriciler
+cid_management.description = Açıklama
+cid_management.description.help = Bu değiştiriciyi benzersiz şekilde tanımlayan serbest metin açıklaması.
+cid_management.default_cid_numebr = +123456789012345
+cid_management.default_cid_name = John Smith
+cid_management.cid_name_settings = CID İsim Ayarları
+cid_management.cid_number_settings = CID Numara Ayarları
+cid_management.prepend_to_cid_name = Başa Ekle
+cid_management.prepend_to_cid_name.help = Orijinal Arayan Kimliği(CID) adının önüne eklenebilecek metin.
+cid_management.append_to_cid_name = Sona Ekle
+cid_management.append_to_cid_name.help = Orijinal Arayan Kimliği adının sonuna eklenebilecek metin.
+cid_management.replace_cid_name_with = İle Değiştir
+cid_management.replace_cid_name_with.help = CID adını tamamen bu metinle değiştirin. Orijinal CID adını saklamak için bu alanı boş bırakın.
+cid_management.prepend_to_cid_number = Başa Ekle
+cid_management.prepend_to_cid_number.help = Orijinal Arayan Kimliği (CID) numarasının başına eklenecek önek.
+cid_management.append_to_cid_number = Sona Ekle
+cid_management.append_to_cid_number.help = Orijinal Arayan Kimliği (CID) numarasından sonra eklenecek sonek.
+cid_management.strip_off = Atla/Uzunluk
+cid_management.strip_off.help = Orijinal basamakların herhangi bir rakamını korurken, CID numarasının başından ya da sonundan bir dizi basamak manipülasyonu başlatarak gelen CID numarasını değiştirin.  
+cid_management.skip = Atla
+cid_management.skip.help = CID numarasını nereden değiştirmeye başlayacağınızı belirtin. Pozitif bir x atlama değeri, baştaki x basamaklarını dikkate almaz. Negatif bir x değeri, gelen CID numarasının sonundan önce x basamağından başlatacaktır.
+cid_management.length = Uzunluk
+cid_management.length.help = Değiştirilen CID numarasının uzunluğunu belirler. Uzunluk sıfır ise, başlangıç konumundan itibaren tüm rakamlar kullanılacaktır. x kadar sondaki basamakları atmak için negatif bir x uzunluğu tanımlayın.
+cid_management.v.cid.in_use = CID değiştiricisi kaldırılamaz. Şu anda {0} ile ({1}) modülü tarafından kullanılıyor.
+cid_management.v.prepend_to_cid_name = CID Adı Ayarlarında "Başa Ekle" alanı
+cid_management.v.append_to_cid_name = CID Adı Ayarlarında "Sona Ekle" alanı
+cid_management.v.replace_cid_name_with = CID Adı Ayarlarında "İle Değiştir" alanı
+cid_management.v.prepend_to_cid_number = CID Numarası Ayarlarında "Sona Ekle" alanı
+cid_management.v.prepend_to_cid_number.invalid = Geçersiz %s. Sadece rakamlara ve *, #, + izin verilir.
+cid_management.v.append_to_cid_number = CID Numarası Ayarlarında "Sona Ekle" alanı
+cid_management.v.append_to_cid_number.invalid = Geçersiz %s. Sadece rakamlara ve *, #, + izin verilir.
+cid_management.v.skip_on_cid_number = CID Numarası Ayarlarında "Strip Off (Atla)" alanı.
+cid_management.v.cid_number_length = CID Numarası Ayarlarında "Strip Off (Uzunluk)" alanı.
+cid_management.v.description.unique = Açıklama benzersiz olmalı.
+cid_management.none = Yok
+cid_management.realtime_test = Simülasyon
+cid_management.phone_number = Orijinal CID Numarası
+cid_management.phone_number_result = Değiştirilmiş CID Numarası
+cid_management.phone_number_result.title = Ayarları yukarıdaki numaraya uyguladıktan sonra sonucu gösterir.
+cid_management.cid_name = Orijinal CID Adı
+cid_management.cid_name_result = Değiştirilmiş CID Adı
+cid_management.cid_name_result.title = Ayarları yukarıdaki ada uyguladıktan sonra sonucu gösterir.
+cid_management.general = {vitalpbx.general}
+cid_management.type = Kaynak {0}
+cid_management.type.option.static = Static
+cid_management.type.option.mysql = MySQL
+cid_management.type.option.api = HTTP/HTTPS Talebi
+cid_management.type.tooltip = Arayanın CID adını/numarasını değiştirmek için bilgileri nereden alacağınızı tanımlamanıza olanak tanır.
+cid_management.mysql_settings = MySQL Ayarları
+cid_management.database = Veritabanı {0}
+cid_management.database.tooltip = Veritabanı adı
+cid_management.query = Sorgu {0}
+cid_management.query.tooltip =
+	Çalıştırılacak sorgu. örn: <b>select cidname, cidnumber from customer where phone = '[CIDNUM]'</b> <br><br>
+	<b>[CIDNUM]</b> değişkeni arayan numarası ile ve <b>[CIDNAME]</b> değişkeni arayan ismi ile değiştirlecektir.<br><br>
+	CID değişikliklerini gerçekleştirmek için sorgu <b>cidname</b> & <b>cidnumber</b> sütunlarını döndürmelidir,
+	aksi takdirde CID bilgisi değiştirilmez.
+cid_management.mysql_host = Sunucu {0}
+cid_management.mysql_host.tooltip = Veritabanının barındırıldığı sunucu adı ya da IP adresi
+cid_management.mysql_username = Kullanıcı Adı {0}
+cid_management.mysql_username.tooltip = Veritabanı sorgularının kimliğini doğrulamak için kullanıcı adı
+cid_management.mysql_password = Şifre
+cid_management.mysql_password.tooltip = Veritabanı sorgularının kimliğini doğrulamak için parola
+cid_management.api_settings = HTTP/HTTPS Talep Ayarları
+cid_management.url = URL {0}
+cid_management.url.tooltip =
+	Çağrılacak veya çalıştırılacak URL. İhtiyaç duyduğunuz kadar değişkeni iletebilirsiniz, özel değişken
+	<b>[CIDNUM]</b> arayan numarası ve bir değişken ile <b>[CIDNAME]</b> arayan adı ile değiştirilecektir.<br><br>
+	örn: <b>https://mycrm.com/cid.php?caller=[CIDNUM]&callername=[CIDNAME]</b> <br><br>
+	CID değişikliğinin gerçekleşmesi için URL çalışmasının <b>"cidname"</b> & <b>"cidnumber"</b> özelliklerini içeren json biçiminde bir sonuç döndürmelidir. 
+cid_management.auth_user = Yetkili Kullanıcı
+cid_management.auth_user.tooltip = HTTP/HTTPS talebini doğrulamak için kullanıcı adı
+cid_management.auth_password = Yetkili Şifresi
+cid_management.auth_password.tooltip = HTTP/HTTPS talebini doğrulamak için şifre
+cid_management.validation.no_url = Geçerli bir URL sağlanmadı
+cid_management.timeout = {cid_lookup.timeout}
+cid_management.timeout.tooltip = {cid_lookup.timeout.tooltip}

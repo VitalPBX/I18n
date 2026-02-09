@@ -1,0 +1,52 @@
+menu.outbound_routes = Gidiş Rotaları
+module.trunk_group = Gidiş Rotaları
+trunk_group = Gidiş Rotaları
+trunk_group.description = Açıklama
+trunk_group.description.tooltip = Bu gidiş rotasını tanımlayan kısa açıklama.
+trunk_group.general = Genel
+trunk_group.pin_list_id = PIN
+trunk_group.pin_list_id.tooltip = Bir grup PIN'i seçin.
+trunk_group.select_outbound_route = -- Gidiş Rotasını Seç --
+trunk_group.trklist = Bağlantı Noktaları
+trunk_group.trklist.empty = Bu gidiş rotası için hiçbir bağlantı noktası seçilmedi.
+trunk_group.trklist.tooltip = Aranacak bağlantı noktaları listesi
+trunk_group.trkpattern = %s Arama Şablonları
+trunk_group.trkpattern.pattern = Şablon
+trunk_group.trkpattern.pattern.invalid = {0} satırındaki şablon
+trunk_group.trkpattern.pattern.placeholder = Eşleşme Şablonu
+trunk_group.trkpattern.pattern.tooltip = Şablon eşleştirme, arama planımızda birden fazla çevrilen numara ile eşleşen, dahili hat şablonları oluşturmamızı sağlar.
+trunk_group.trkpattern.prefix = Ön Ek
+trunk_group.trkpattern.prefix.placeholder = Ön Ek
+trunk_group.trkpattern.prefix.tooltip = Eşleştiğinde kaldırılacak ön ek.
+trunk_group.trkpattern.prepend = Başına Ekle
+trunk_group.trkpattern.prepend.placeholder = Başına Ekle
+trunk_group.trkpattern.prepend.tooltip = Eşleşirken başa eklenecek basamaklar.
+trunk_group.virttrk = Kiracı Bağlantı Noktası
+trunk_group.virttrk.tooltip = Bu kiracının bağlantı noktası olarak çağırabileceği kiracıların listesi.
+trunk_group.intra_company = Şirket İçi
+trunk_group.intra_company.tooltip =
+    İşaretlenirse, arayan dahili kimliği, arayan dahilinin harici arayan kimliği yerine gidiş  
+    rotasıyla gönderilir.
+trunk_group.no_patterns = Bu gidiş rotası için yapılandırılmış şablon yok.
+trunk_group.no_description = Açıklama girilmedi.
+trunk_group.failover_destination = Devredilmiş Hedef
+trunk_group.failover_destination.tooltip =
+    Listelenen tüm bağlantı noktalarını denedikten sonra aramanın başarısız olması durumunda yürütülecek isteğe bağlı hedef.
+trunk_group.trkpattern.cid_pattern = CID Şablonu
+trunk_group.trkpattern.cid_pattern.placeholder = CID Şablonunu Eşleştir
+trunk_group.trkpattern.cid_pattern.tooltip =
+    Tanımlanırsa, tanımlanmış şablonla eşleşen aramaların, bu rotaya gelebilmesi için bu arama kimliği şablonuyla da eşleşmesi gerekir. 
+	Eşleştirilecek arayan kimliği, Harici CID değil dahili CID olacaktır.
+trunk_group.cid = Giden CID
+trunk_group.cid.tooltip = "CID Üzerine Yaz" ayarı etkin olduğunda bu gidiş rotasında kullanılacak belirli bir Arayan Kimlik Numarası/Adı tanımlamanıza izin verir.
+trunk_group.cid_name = CID Adı
+trunk_group.cid_number = CID Numarası
+trunk_group.overwrite_cid = CID üzerine yaz
+trunk_group.overwrite_cid.tooltip = Etkinleştirilirse, dahilinin giden CID'si, bu Gidiş Rotasında tanımlanan CID parametrelerinin üzerine yazılır
+trunk_group.no_cid = "CID Üzerine Yaz" ayarı etkin, ancak Giden CID parametrelerini tanımlamamışsınız.
+trunk_group.overwrite_cid.yes = {vitalpbx.yes}
+trunk_group.overwrite_cid.no = {vitalpbx.no}
+trunk_group.overwrite_cid.if_not_provided = Sağlanmamışsa
+trunk_group.overwrite_cid.yes.tooltip = Bu giden rotada tanımlanan CID parametreleriyle CID'nin üzerine yazmaya zorlar
+trunk_group.overwrite_cid.no.tooltip = Çağrı sırasında sağlanan herhangi bir Arayan Kimliğini (CID) koruyacaktır. Herhangi bir üzerine yazma yapmayacaktır.
+trunk_group.overwrite_cid.if_not_provided.tooltip = Yalnızca arama sırasından harici Arayan Kimliği sağlanmadıysa, Arayan Kimliği (CID) üzerine yazacaktır.
